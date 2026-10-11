@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>MDAX BASING 2026-10-11</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
+           padding: 24px; background: #fff; color: #202124; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    h2 { font-size: 1.05rem; margin: 26px 0 8px; }
+    .meta { color: #70757a; font-size: .85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 14px; font-size: .92rem; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table.matrix { border-collapse: collapse; font-size: .98rem; }
+    table.matrix th, table.matrix td { padding: 11px 26px 11px 0;
+        text-align: left; border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.matrix th { font-weight: 600; border-bottom: 1px solid #dadce0; }
+    table.matrix td.tot { font-weight: 700; }
+    table.matrix tr:hover { background: #f8f9fa; }
+    table.nav { border-collapse: collapse; margin-bottom: 6px; }
+    table.nav th, table.nav td { padding: 6px 18px 6px 0; text-align: left;
+        border-bottom: 1px solid #f1f3f4; font-size: .9rem; vertical-align: top; }
+    table.nav td.sum { white-space: normal; max-width: 540px; }
+    pre.detail { background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
+        font-family: Consolas, 'Courier New', monospace; }
+    .navchips a { display: inline-block; margin: 0 10px 6px 0; font-size: .9rem; }
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+    table.matrix th.col-exp, table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix th.col-exp,
+    body.std-only table.matrix td.col-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+</style>
+</head>
+<body>
+<div class="meta">MDAX BASING 2026-10-11 &middot; log date 2026-10-11</div>
+<div class="crumb"><a href="stage_report_2026-10-11.html">&larr; Stage Report</a></div><h1>MDAX &mdash; BASING (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#AT1" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">AT1</a></td><td>45</td><td>39%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="AT1">AT1 <span class="meta">BASING</span></h2><pre class="detail">AT1 2026-10-11
+📊 Overview
+--------
+State              : BASING
+Raw State          : BASING
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+Breakout Event     : False
+Breakout Resistance : None
+Breakout Window    : 20
+Score      : 45  (W 15.8 + D 14.0 + E 10.0  cycle 5)
+Confidence : 39%
+Trend      : Confirmation (Weekly BEAR, Daily BEAR)
+
+📊 Weekly
+------
+Trend : Bear
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50=MA200)
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
+
+📊 Daily
+-----
+Trend : Bear
+ADX   : VERY_STRONG
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
+
+📊 Energy
+------
+Family : EXHAUSTION
+Phase  : TREND_EXHAUSTION
+
+📊 Cycle
+-----
+Stage    : RECOVERY
+Rank     : 75
+BB Zone  :
+  Pivot  : L
+  Today  : LM   ^ (+1)
+  Drift  : Bullish drift   (stage=?, leg=? (pivot not aligned with stage (uptrend narrative not confirmed)))
+Alignment: 3 (Full)
+Swing Age: 3d
+Pivot Drift: L -&gt; LM  dZ=+1  Recovery drift
+Weekly Pivot Trend:
+  Pivot -&gt; Today : wLM -&gt; wL   (dZ=-1)
+  Drift          : Bearish drift
+  Age / Perf%    : 6W / -27.8
+  Extreme / Diff%: 1.47 / 0.7
+  vs DAX%        : -23.2
+
+📊 Momentum
+--------
+MACD Age      : M ▼10mo | W ▼13w | D ▼39d
+Momentum Slope: Monthly Deepening | Weekly Deepening | Daily Deepening
+Divergence    : none
+Pattern       : Confirmed Downtrend
+
+Signal:
+Bullish
+ADX Rising : W, D
+Bearish
+MACD Death Cross : M(+10mo), W(+13w), D(+39d)
+MACD Below Zero : M(+10mo), W(+13w), D(+39d)
+Price Below MA200 : W, D
+Neutral
+ADX Strong : W, D
+
+Reversal Watch
+--------------
+D: BEAR_ACCELERATION  —  YES  (2/3 MEDIUM)
+  ✓ No new low
+  ✓ 5d slope rising
+  ✗ Reclaim MA
+
+📊 Summary
+-------
+  Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</pre>
+
+</body>
+</html>
