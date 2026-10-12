@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>State Report 2026-10-09</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
+           padding: 24px; background: #fff; color: #202124; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    h2 { font-size: 1.05rem; margin: 26px 0 8px; }
+    .meta { color: #70757a; font-size: .85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 14px; font-size: .92rem; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table.matrix { border-collapse: collapse; font-size: .98rem; }
+    table.matrix th, table.matrix td { padding: 11px 26px 11px 0;
+        text-align: left; border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.matrix th { font-weight: 600; border-bottom: 1px solid #dadce0; }
+    table.matrix td.tot { font-weight: 700; }
+    table.matrix tr:hover { background: #f8f9fa; }
+    table.nav { border-collapse: collapse; margin-bottom: 6px; }
+    table.nav th, table.nav td { padding: 6px 18px 6px 0; text-align: left;
+        border-bottom: 1px solid #f1f3f4; font-size: .9rem; vertical-align: top; }
+    table.nav td.sum { white-space: normal; max-width: 540px; }
+    pre.detail { background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
+        font-family: Consolas, 'Courier New', monospace; }
+    .navchips a { display: inline-block; margin: 0 10px 6px 0; font-size: .9rem; }
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+    table.matrix th.col-exp, table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix th.col-exp,
+    body.std-only table.matrix td.col-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+</style>
+</head>
+<body>
+<div class="meta">State Report 2026-10-09 &middot; log date 2026-10-09</div>
+<h1>German Stock Market State Report &mdash; 2026-10-09</h1><div class="crumb"><a href="stageReport/index.html">&#128197; Archive</a></div><div class='view-toggle'>View: <button id='viewStd' type='button' title='show DAX, MDAX, SDAX only'>Standard</button> <button id='viewAll' type='button' title='also show experimental PDAX, CDAX'>All incl. experimental</button></div><div class='crumb'>Stage distribution per index &mdash; click a number for stock details, an index name for its full overview_scan.</div><table class='matrix'>
+<thead><tr><th>Stage</th><th><a href="overview_scan_dax.html" title="open overview_scan DAX">DAX</a></th><th><a href="overview_scan_mdax.html" title="open overview_scan MDAX">MDAX</a></th><th><a href="overview_scan_sdax.html" title="open overview_scan SDAX">SDAX</a></th><th class="col-exp"><a href="overview_scan_pdax.html" title="open overview_scan PDAX">PDAX</a> <span class="exp-tag">experimental</span></th><th class="col-exp"><a href="overview_scan_cdax.html" title="open overview_scan CDAX">CDAX</a> <span class="exp-tag">experimental</span></th><th>Total</th><th>Share</th></tr></thead>
+<tbody>
+<tr><td>PAUSE</td><td><a href="stage_report_dax_pause.html" title="14 DAX stock(s) in PAUSE">14</a></td><td><a href="stage_report_mdax_pause.html" title="33 MDAX stock(s) in PAUSE">33</a></td><td><a href="stage_report_sdax_pause.html" title="36 SDAX stock(s) in PAUSE">36</a></td><td class="col-exp"><a href="stage_report_pdax_pause.html" title="8 PDAX stock(s) in PAUSE">8</a></td><td class="col-exp"><a href="stage_report_cdax_pause.html" title="1 CDAX stock(s) in PAUSE">1</a></td><td class="tot">92</td><td>52.3%</td></tr>
+<tr><td>BREAKOUT</td><td>0</td><td><a href="stage_report_mdax_breakout.html" title="1 MDAX stock(s) in BREAKOUT">1</a></td><td><a href="stage_report_sdax_breakout.html" title="1 SDAX stock(s) in BREAKOUT">1</a></td><td class="col-exp">0</td><td class="col-exp">0</td><td class="tot">2</td><td>1.1%</td></tr>
+<tr><td>TRANSITION</td><td><a href="stage_report_dax_transition.html" title="5 DAX stock(s) in TRANSITION">5</a></td><td><a href="stage_report_mdax_transition.html" title="9 MDAX stock(s) in TRANSITION">9</a></td><td><a href="stage_report_sdax_transition.html" title="9 SDAX stock(s) in TRANSITION">9</a></td><td class="col-exp"><a href="stage_report_pdax_transition.html" title="3 PDAX stock(s) in TRANSITION">3</a></td><td class="col-exp">0</td><td class="tot">26</td><td>14.8%</td></tr>
+<tr><td>DOWNTREND</td><td><a href="stage_report_dax_downtrend.html" title="6 DAX stock(s) in DOWNTREND">6</a></td><td><a href="stage_report_mdax_downtrend.html" title="2 MDAX stock(s) in DOWNTREND">2</a></td><td><a href="stage_report_sdax_downtrend.html" title="3 SDAX stock(s) in DOWNTREND">3</a></td><td class="col-exp">0</td><td class="col-exp">0</td><td class="tot">11</td><td>6.2%</td></tr>
+<tr><td>PULLBACK</td><td><a href="stage_report_dax_pullback.html" title="11 DAX stock(s) in PULLBACK">11</a></td><td><a href="stage_report_mdax_pullback.html" title="3 MDAX stock(s) in PULLBACK">3</a></td><td><a href="stage_report_sdax_pullback.html" title="14 SDAX stock(s) in PULLBACK">14</a></td><td class="col-exp"><a href="stage_report_pdax_pullback.html" title="1 PDAX stock(s) in PULLBACK">1</a></td><td class="col-exp">0</td><td class="tot">29</td><td>16.5%</td></tr>
+<tr><td>CONTINUATION</td><td><a href="stage_report_dax_continuation.html" title="2 DAX stock(s) in CONTINUATION">2</a></td><td><a href="stage_report_mdax_continuation.html" title="1 MDAX stock(s) in CONTINUATION">1</a></td><td><a href="stage_report_sdax_continuation.html" title="3 SDAX stock(s) in CONTINUATION">3</a></td><td class="col-exp"><a href="stage_report_pdax_continuation.html" title="1 PDAX stock(s) in CONTINUATION">1</a></td><td class="col-exp">0</td><td class="tot">7</td><td>4.0%</td></tr>
+<tr><td>COUNTERTREND</td><td><a href="stage_report_dax_countertrend.html" title="2 DAX stock(s) in COUNTERTREND">2</a></td><td>0</td><td><a href="stage_report_sdax_countertrend.html" title="1 SDAX stock(s) in COUNTERTREND">1</a></td><td class="col-exp"><a href="stage_report_pdax_countertrend.html" title="1 PDAX stock(s) in COUNTERTREND">1</a></td><td class="col-exp">0</td><td class="tot">4</td><td>2.3%</td></tr>
+<tr><td>BASING</td><td>0</td><td><a href="stage_report_mdax_basing.html" title="1 MDAX stock(s) in BASING">1</a></td><td><a href="stage_report_sdax_basing.html" title="3 SDAX stock(s) in BASING">3</a></td><td class="col-exp"><a href="stage_report_pdax_basing.html" title="1 PDAX stock(s) in BASING">1</a></td><td class="col-exp">0</td><td class="tot">5</td><td>2.8%</td></tr>
+</tbody>
+</table>
+
+<script>
+(function () {
+  var KEY = 'typelink_report_view';
+  function apply(mode) {
+    var stdOnly = (mode !== 'all');
+    document.body.classList.toggle('std-only', stdOnly);
+    var bStd = document.getElementById('viewStd');
+    var bAll = document.getElementById('viewAll');
+    if (bStd) bStd.classList.toggle('active', stdOnly);
+    if (bAll) bAll.classList.toggle('active', !stdOnly);
+    try { localStorage.setItem(KEY, stdOnly ? 'std' : 'all'); } catch (e) {}
+  }
+  function init() {
+    var mode = 'std';
+    try { mode = localStorage.getItem(KEY) || 'std'; } catch (e) {}
+    var bStd = document.getElementById('viewStd');
+    var bAll = document.getElementById('viewAll');
+    if (!bStd || !bAll) return;   // page without the toggle
+    bStd.addEventListener('click', function () { apply('std'); });
+    bAll.addEventListener('click', function () { apply('all'); });
+    apply(mode);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>

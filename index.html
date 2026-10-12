@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>How to read the stock overview</title>
+<style>
+:root{
+  --paper:#f2f4f7; --panel:#ffffff; --ink:#16202c; --muted:#566272; --rule:#d3d9e1;
+  --blue:#2850d0; --bull:#1b7f4b; --bear:#b3261e; --flat:#6b7685; --energy:#a85d00;
+  --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+  --sans:"Avenir Next","Segoe UI Variable Text","Segoe UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#0f141b;--panel:#161d27;--ink:#e6ebf2;--muted:#98a3b3;--rule:#283240;
+        --blue:#7da2ff;--bull:#4cc38a;--bear:#ff8a80;--flat:#9aa6b8;--energy:#f0a93b}
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0 auto;max-width:860px;padding:34px 20px 56px;color:var(--ink);font:16px/1.62 var(--serif)}
+h1,h2,h3{font-family:var(--sans);margin:0}
+h1{font-size:31px;line-height:1.15;font-weight:700;letter-spacing:-.01em}
+h2{font-size:21px;font-weight:650;margin:46px 0 12px;padding-top:18px;border-top:1px solid var(--rule)}
+h3{font-size:15px;font-weight:650}
+p{margin:0 0 12px}
+.lede{font-size:17.5px;max-width:64ch;margin-top:12px}
+code,.m{font-family:var(--mono);font-size:.86em}
+code{background:color-mix(in srgb,var(--blue) 9%,transparent);padding:1px 5px;border-radius:3px}
+
+/* chips */
+.c{--c:var(--flat);display:inline-block;font:12px/1.5 var(--mono);padding:0 8px;margin:2px 3px 2px 0;border-radius:999px;
+   color:var(--c);border:1px solid color-mix(in srgb,var(--c) 42%,transparent);background:color-mix(in srgb,var(--c) 10%,transparent);white-space:nowrap}
+.bull{--c:var(--bull)} .bear{--c:var(--bear)} .neu{--c:var(--flat)} .en{--c:var(--energy)} .bl{--c:var(--blue)}
+
+/* tables */
+.tbl{overflow-x:auto;margin:6px 0 14px}
+table{width:100%;border-collapse:collapse;font:14px/1.45 var(--sans)}
+th{text-align:left;font-weight:600;color:var(--muted);border-bottom:1px solid var(--ink);padding:6px 12px 6px 0;white-space:nowrap}
+td{border-bottom:1px solid var(--rule);padding:7px 12px 7px 0;vertical-align:top}
+td.m{font-size:12.5px}
+.note{font:13px/1.5 var(--sans);color:var(--muted)}
+
+/* name anatomy */
+.anatomy{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px 14px;margin:18px 0 14px}
+.part{display:flex;flex-direction:column;align-items:flex-start}
+.glyph{font:600 28px/1.1 var(--mono);padding:2px 0 5px;border-bottom:3px solid var(--blue)}
+.cap{font:12.5px/1.35 var(--sans);color:var(--muted);margin-top:5px}
+.op{font:300 26px/1.25 var(--mono);color:var(--muted)}
+.sum .glyph{border-bottom-color:var(--bull)}
+
+/* layer spine */
+.spine{margin:20px 0 8px 8px;padding-left:24px;border-left:2px solid var(--blue)}
+.node{position:relative;padding-bottom:22px}
+.node:last-child{padding-bottom:0}
+.node::before{content:"";position:absolute;left:-31px;top:4px;width:10px;height:10px;border-radius:50%;
+  background:var(--paper);border:2px solid var(--blue)}
+.node h3 small{font-weight:400;color:var(--muted);margin-left:8px;font-size:13.5px}
+.node p{margin:4px 0 8px;font-size:15px}
+.grid{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.grid>div{background:var(--panel);padding:10px 12px}
+.pillars{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.steps{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.grid b{display:block;font:650 14px/1.3 var(--sans);margin-bottom:3px}
+.grid .q{display:block;font-size:14px;line-height:1.45}
+.role{display:inline-block;margin-top:7px;font:12px/1.4 var(--sans);padding:0 7px;border-radius:3px;
+  border:1px solid var(--rule);color:var(--muted)}
+.role.decides{color:var(--blue);border-color:color-mix(in srgb,var(--blue) 50%,transparent)}
+
+/* two column */
+.two{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px;align-items:center}
+@media (max-width:700px){.two{grid-template-columns:1fr}}
+.fig{background:var(--panel);border:1px solid var(--rule);padding:6px}
+svg{display:block;width:100%;height:auto}
+.zz{fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round}
+.leg{fill:none;stroke:var(--bear);stroke-width:8;opacity:.2;stroke-linecap:round;stroke-linejoin:round}
+.ref{stroke:var(--muted);stroke-dasharray:4 4;stroke-width:1}
+.rise{stroke:var(--bull);stroke-width:2}
+.ahp{fill:var(--bull)}
+.dot{fill:var(--panel);stroke:var(--ink);stroke-width:2}
+.dot.now{fill:var(--bull);stroke:var(--bull)}
+.t{font:11.5px var(--mono);fill:var(--ink)}
+.tm{fill:var(--muted)}
+.tb{font-weight:700}
+
+/* definition list */
+dl{margin:8px 0 0;display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:10px 18px;font-size:15px}
+dt{font:650 14px/1.5 var(--sans)}
+dd{margin:0}
+@media (max-width:640px){dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:10px}}
+
+.flow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin:10px 0}
+.flow .arr{color:var(--muted);font-family:var(--sans);font-size:13px}
+.box{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--blue);padding:10px 14px;margin:10px 0}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--rule);font:13px/1.5 var(--sans);color:var(--muted)}
+ol,ul{margin:0 0 12px;padding-left:22px}
+li{margin:5px 0}
+.tip{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--energy);padding:10px 14px;margin:12px 0;font-size:14.5px}
+.nav{font:13px/1.5 var(--sans);margin:0 0 12px}
+</style>
+</head>
+<body>
+
+<header>
+  <p class="nav"><a href="stage_report.html">&larr; Access the German Market state report</a></p>
+  <h1>How to read the stock state</h1>
+  <p class="lede">The overview looks at a stock from several independent angles and combines them into one market state, with a score, a confidence level and the reasons behind it. This page explains the terms and how the pieces fit together.</p>
+</header>
+
+<h2>Reading the names</h2>
+<p>Indicator names follow one pattern: a timeframe prefix, an indicator, and often a period.</p>
+
+<div class="anatomy" role="img" aria-label="wMA200 is w for weekly, plus MA for moving average, plus 200 for periods, giving the 200-week moving average">
+  <div class="part"><span class="glyph">w</span><span class="cap">weekly bars</span></div>
+  <span class="op">+</span>
+  <div class="part"><span class="glyph">MA</span><span class="cap">moving average</span></div>
+  <span class="op">+</span>
+  <div class="part"><span class="glyph">200</span><span class="cap">periods</span></div>
+  <span class="op">=</span>
+  <div class="part sum"><span class="glyph">wMA200</span><span class="cap">the 200-week moving average</span></div>
+</div>
+
+<p>No prefix means daily, <code>w</code> means weekly and <code>m</code> means monthly. <strong>Bollinger bands</strong> are a middle line, which is a moving average, with an upper and a lower band set above and below it according to recent price variability. Wide bands mean a volatile market and narrow bands a quiet one. A plain <code>MA</code> without a number is that middle line, so <code>wMA</code> is the weekly middle line and <code>wMA9</code> is the faster 9-week average. <code>UB</code> and <code>LB</code> are the upper and lower bands.</p>
+
+<div class="tbl"><table>
+  <thead><tr><th>Concept</th><th>Daily</th><th>Weekly</th><th>Monthly</th></tr></thead>
+  <tbody>
+    <tr><td>Bollinger upper, middle, lower</td><td class="m">UB, MA, LB</td><td class="m">wUB, wMA, wLB</td><td class="m">mUB, mMA, mLB</td></tr>
+    <tr><td>9-period average</td><td class="m">MA9</td><td class="m">wMA9</td><td class="m">mMA9</td></tr>
+    <tr><td>50-period average</td><td class="m">MA50</td><td class="m">wMA50</td><td class="m">mMA50</td></tr>
+    <tr><td>200-period average</td><td class="m">MA200</td><td class="m">wMA200</td><td>n/a</td></tr>
+  </tbody>
+</table></div>
+
+<h2>The layers</h2>
+<p>Information flows down one path. Each layer only reads from the layer above it.</p>
+
+<div class="spine">
+  <div class="node">
+    <h3>Market data</h3>
+    <p>Daily price history, summarised into weekly and monthly views.</p>
+  </div>
+
+  <div class="node">
+    <h3>Analysts <small>independent, each only reports what it sees</small></h3>
+    <p>Each analyst reports a label for what it sees, how strong that reading is, and a few reasons.</p>
+    <div class="grid pillars">
+      <div><b>Weekly trend</b><span class="q">What is the long-term structure?</span><span class="role decides">decides the state</span></div>
+      <div><b>Daily trend</b><span class="q">What is price doing now?</span><span class="role decides">decides the state</span></div>
+      <div><b>Energy</b><span class="q">Is movement stored up or being released?</span><span class="role decides">decides the state</span></div>
+      <div><b>Cycle</b><span class="q">Where are we inside the current swing?</span><span class="role">adjusts confidence</span></div>
+      <div><b>Performance</b><span class="q">Is it beating its sector and the index?</span><span class="role">optional, adjusts the score</span></div>
+    </div>
+  </div>
+
+  <div class="node">
+    <h3>Overview <small>combines the readings without recalculating them</small></h3>
+    <div class="grid steps">
+      <div><b>1 Simplify</b><span class="q">Trends become bull, neutral or bear. Energy is grouped into a few families.</span></div>
+      <div><b>2 Match</b><span class="q">The combination of weekly trend, daily trend and energy is matched to one state. If none fits, the result is transition.</span></div>
+      <div><b>3 Rate</b><span class="q">A score ranks the setup within its state. A confidence level reflects how reliable the readings are.</span></div>
+    </div>
+  </div>
+
+  <div class="node">
+    <h3>Result <small>one state, a score, a confidence and the reasons</small></h3>
+    <span class="c bull">BREAKOUT</span><span class="c bull">CONTINUATION</span><span class="c neu">PAUSE</span><span class="c neu">PULLBACK</span><span class="c neu">TRANSITION</span><span class="c bear">COUNTERTREND</span><span class="c bear">REVERSAL</span>
+  </div>
+</div>
+
+<h2>Trend: weekly and daily</h2>
+<p>The report shows the same four fields for the weekly and the daily trend, plus how the two relate.</p>
+<dl>
+  <dt>Trend</dt>
+  <dd>The overall direction, summarised as bull, bear or neutral.</dd>
+  <dt>ADX</dt>
+  <dd>How strong the trend is, regardless of its direction: weak, building, strong or very strong.</dd>
+  <dt>MA</dt>
+  <dd>How the fast and slow moving averages behave. <em>Up</em> means they rise together, <em>Down</em> means they fall together, and <em>Mixed</em> means they disagree or are turning.</dd>
+  <dt>BB</dt>
+  <dd>The shape of the Bollinger bands: expanding when they widen and volatility rises, squeezing when they narrow, drifting when both bands move the same way.</dd>
+  <dt>Trend relation</dt>
+  <dd>How the daily trend sits against the weekly one: <em>confirmation</em> when they agree, <em>pullback</em> when weekly is up and daily is down, <em>pause</em> when weekly is up and daily is sideways, <em>counter-trend bounce</em> when weekly is down and daily is up, <em>stabilizing</em> when weekly is down and daily is sideways, and <em>undecided</em> when the weekly trend is neutral.</dd>
+</dl>
+
+<h2>Energy</h2>
+<p>Energy describes how much movement is stored up in a stock or has just been released. It has no direction of its own: the trend readings say which way, energy says how much. The report shows a family and the specific state inside it.</p>
+<div class="tbl"><table>
+  <thead><tr><th>Family</th><th>State</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td rowspan="3"><span class="c en">compression</span></td><td>Weak compression</td><td>Price is quiet or moving sideways, and a little energy may be gathering.</td></tr>
+    <tr><td>Compression</td><td>The same picture with clearer evidence that energy is gathering.</td></tr>
+    <tr><td>Energy building</td><td>Trend strength is starting to pick up from a low level while volatility stays tight.</td></tr>
+    <tr><td><span class="c bl">released</span></td><td>Energy released</td><td>An active trend with widening moves: stored energy has turned into a move.</td></tr>
+    <tr><td><span class="c neu">exhaustion</span></td><td>Trend exhaustion</td><td>A strong trend that is losing steam, with fading strength or shrinking volatility.</td></tr>
+    <tr><td><span class="c bear">volatile</span></td><td>High volatility</td><td>Large, erratic swings without clear directional control. Confidence is reduced.</td></tr>
+    <tr><td><span class="c neu">none</span></td><td>None, failed compression</td><td>Nothing notable, or a squeeze that broke without follow-through. Both count as no energy signal.</td></tr>
+  </tbody>
+</table></div>
+
+<h2>Cycle</h2>
+<p>The trend readings ask what the trend is. The cycle reading asks where price sits inside its current swing. A swing high or low is a turning point, and the zigzag keeps only the significant ones. A leg is the move between two consecutive turning points. The cycle reading names the last leg and checks where price is now relative to its end.</p>
+
+<div class="two">
+  <div class="fig">
+    <svg viewBox="0 0 440 232" role="img" aria-label="A zigzag: price falls from the last high to the last low, then bounces above that low. The stage is recovery.">
+      <defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ahp" d="M0 0L10 5L0 10z"/></marker></defs>
+      <polyline class="zz" points="20,150 75,105 130,52 190,112 255,176 315,140 400,118"/>
+      <polyline class="leg" points="130,52 190,112 255,176"/>
+      <line class="ref" x1="255" y1="176" x2="432" y2="176"/>
+      <line class="rise" x1="400" y1="174" x2="400" y2="130" marker-end="url(#ah)"/>
+      <circle class="dot" cx="130" cy="52" r="5"/>
+      <circle class="dot" cx="255" cy="176" r="5"/>
+      <circle class="dot now" cx="400" cy="118" r="5"/>
+      <text class="t" x="130" y="38" text-anchor="middle">last high</text>
+      <text class="t" x="255" y="197" text-anchor="middle">last low</text>
+      <text class="t tm" x="206" y="80">last leg: high to low</text>
+      <text class="t" x="400" y="104" text-anchor="middle">price now</text>
+      <text class="t tm" x="390" y="156" text-anchor="end">above the low</text>
+      <text class="t tb" x="12" y="222">stage: recovery</text>
+    </svg>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Last leg</th><th>Price now</th><th>Stage</th></tr></thead>
+    <tbody>
+      <tr><td>Low to high</td><td>still above that high</td><td><span class="c bull">ADVANCE</span></td></tr>
+      <tr><td>Low to high</td><td>back below that high</td><td><span class="c neu">PULLBACK</span></td></tr>
+      <tr><td>High to low</td><td>still below that low</td><td><span class="c bear">DECLINE</span></td></tr>
+      <tr><td>High to low</td><td>back above that low</td><td><span class="c neu">RECOVERY</span></td></tr>
+    </tbody>
+  </table></div>
+</div>
+<p class="note">The stage states a fact, not a view. Whether a recovery is a real turn or only a bounce in a downtrend is judged in the overview.</p>
+
+<dl>
+  <dt>Alignment</dt>
+  <dd>The daily, weekly and monthly views each have their own last leg. Alignment counts how many of the three run in the same direction as the daily leg. The daily view always counts itself, so the value runs from 1 to 3. If the daily leg runs high to low while the weekly and monthly legs both run low to high, alignment is 1.</dd>
+  <dt>Swing age</dt>
+  <dd>The number of days since the last turning point of the daily leg.</dd>
+  <dt>Legs</dt>
+  <dd>The direction of the last leg in each view. <code>H_TO_L</code> means price ran from a high down to a low, and <code>L_TO_H</code> from a low up to a high.</dd>
+</dl>
+
+<h2>Performance</h2>
+<p>Shown only when a time period is chosen. It compares the stock's return over that period with the DAX and with its sector, and tells you whether the stock is leading or lagging.</p>
+
+<h2>From readings to a state</h2>
+<p>The state describes what kind of setup this is. The score then ranks how strong the setup is compared with others in the same state, and never overrides the state.</p>
+
+<div class="tbl"><table>
+  <thead><tr><th>State</th><th>What it usually means</th></tr></thead>
+  <tbody>
+    <tr><td><span class="c bull">BREAKOUT</span></td><td>Weekly and daily trends both up, with energy stored up or just released.</td></tr>
+    <tr><td><span class="c bull">CONTINUATION</span></td><td>Weekly and daily trends both up, without a fresh build-up of energy.</td></tr>
+    <tr><td><span class="c neu">PULLBACK</span></td><td>The weekly trend is intact while the daily trend corrects. Also used when the weekly trend is down and the daily trend has not yet confirmed a bounce.</td></tr>
+    <tr><td><span class="c neu">PAUSE</span></td><td>The weekly trend is intact and the daily trend moves sideways, often while energy builds.</td></tr>
+    <tr><td><span class="c bear">COUNTERTREND</span></td><td>The weekly trend is down but the daily trend is bouncing, or a downtrend is losing steam.</td></tr>
+    <tr><td><span class="c bear">REVERSAL</span></td><td>Weekly and daily trends are both down. The label marks a bearish structure rather than a confirmed turn.</td></tr>
+    <tr><td><span class="c neu">TRANSITION</span></td><td>The evidence is mixed and the combination fits none of the states above.</td></tr>
+  </tbody>
+</table></div>
+
+<dl>
+  <dt>Score</dt>
+  <dd>Ranks a setup against others in the same state. The weekly trend counts most, then the daily trend, then energy. Outperforming or underperforming the index nudges it slightly.</dd>
+  <dt>Confidence</dt>
+  <dd>How reliable the underlying readings are. One weak reading pulls it down even when the others are strong. It rises a little when all timeframes agree on the current swing, falls when only the daily one does, and drops sharply when volatility is extreme.</dd>
+  <dt>What cycle does not do</dt>
+  <dd>It never changes the state or the score. It only adjusts confidence and adds a line to the reasons.</dd>
+</dl>
+
+<h2>How to start</h2>
+<p>Read the report in a fixed order. Each step narrows the picture; skipping one is how a good-looking score turns into a poor decision.</p>
+<ol>
+<li><strong>Read the market state.</strong> It summarises the current technical picture in one word.</li>
+<li><strong>Compare the weekly and daily trends.</strong> The weekly trend gives the longer-term context; the daily trend shows what price is doing right now.</li>
+<li><strong>Review energy and cycle position.</strong> These separate a developing move from a mature one, a pause, or a possible reversal.</li>
+<li><strong>Compare performance with the market.</strong> A stock beating its sector and the index deserves more attention than one that is lagging.</li>
+<li><strong>Look for conflicting evidence.</strong> A high score does not remove risk, and a possible reversal is not a confirmed new trend.</li>
+</ol>
+<p class="note">The report is a decision-support tool, not a prediction or a buy/sell instruction. Weigh your investment horizon, valuation, company fundamentals and risk exposure before acting.</p>
+<div class="tip"><strong>Optional:</strong> paste a report into an AI assistant and ask a focused question, such as &ldquo;what supports this assessment, what contradicts it, and what evidence would confirm a reversal?&rdquo; AI interpretation can be wrong and is not required to use the report.</div>
+
+<h2>Layers of the report</h2>
+<p>The report reads the same stock through a few independent views. Two describe the trend, one describes stored energy, and two supply supporting context. Only three of the five actually decide the state.</p>
+<div class="tbl"><table>
+  <thead><tr><th>Layer</th><th>Question it answers</th><th>How it is used</th></tr></thead>
+  <tbody>
+    <tr><td>Weekly trend <span class="note">(long-term)</span></td><td>Where is the slower, longer-term trend?</td><td><span class="role decides">decides the state</span></td></tr>
+    <tr><td>Daily trend <span class="note">(short-term)</span></td><td>What is price doing right now?</td><td><span class="role decides">decides the state</span></td></tr>
+    <tr><td>Energy</td><td>Is the move compressed, released, or exhausted?</td><td><span class="role decides">decides the state</span></td></tr>
+    <tr><td>Cycle position <span class="note">(supporting)</span></td><td>Where is price inside its current swing?</td><td><span class="role">adjusts confidence only</span></td></tr>
+    <tr><td>Performance vs. index <span class="note">(supporting)</span></td><td>Is the stock beating or lagging the market?</td><td><span class="role">nudges the score only</span></td></tr>
+  </tbody>
+</table></div>
+
+<h2>Worked examples</h2>
+<p>Three combinations, each showing how the readings combine into one state.</p>
+<div class="box">
+  <div class="flow">
+    <span class="c bear">weekly: bear</span><span class="c neu">daily: neutral</span><span class="c neu">energy: exhaustion</span>
+    <span class="arr">matched to</span>
+    <span class="c neu">TRANSITION</span>
+  </div>
+  <p>This combination does not fit any other state, so the overview reports a transition with the reason "combination not decisive".</p>
+  <div class="flow">
+    <span class="c neu">cycle: RECOVERY</span><span class="c bull">alignment 3 of 3</span>
+    <span class="arr">raises</span>
+    <span class="c bl">confidence</span>
+  </div>
+  <p>All three timeframes agree that price is recovering from the last low, so confidence rises a little. The long-term trend is still bearish, so this reads as an early transition and not as a confirmed upward reversal.</p>
+</div>
+<div class="box">
+  <div class="flow">
+    <span class="c bear">weekly: bear</span><span class="c neu">daily: neutral</span><span class="c bl">energy: released</span>
+    <span class="arr">matched to</span>
+    <span class="c neu">TRANSITION</span>
+  </div>
+  <p>A bearish weekly structure meets a daily trend that has stopped confirming it, with energy already released. That combination is a possible change in regime, not proof that one has happened &mdash; wait to see which direction prevails.</p>
+</div>
+<div class="box">
+  <div class="flow">
+    <span class="c bull">weekly: bull</span><span class="c bear">daily: bear</span><span class="c neu">energy: none</span>
+    <span class="arr">matched to</span>
+    <span class="c neu">PULLBACK</span>
+  </div>
+  <p>The weekly trend is still bullish while the daily trend corrects. A short-term setback can coexist with a longer-term uptrend, so this is a pullback and not a reversal. Watch whether the longer-term structure holds.</p>
+</div>
+
+<footer>Analytical documentation, not investment advice.</footer>
+
+</body>
+</html>
