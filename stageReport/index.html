@@ -74,7 +74,7 @@
 </head>
 <body>
 <div class="meta">State Report Archive</div>
-<div class="crumb"><a href="../stage_report.html">&larr; Live report</a></div><h1>State Report Archive</h1><div class='crumb'>One report per day &mdash; pick two dates to compare (arrows show the change of the target vs the baseline), or click a calendar day to replay its report.</div><p class='meta'>6 day(s) archived &middot; data files: history.js, stage_report_YYYY-MM-DD.json</p><h2>Compare two dates</h2><div class='cmp-controls'><label>Baseline <select id='cmpA'></select></label><label>Target <select id='cmpB'></select></label><button id='cmpSwap' type='button'>Swap</button><button id='cmpGo' type='button'>Compare</button></div><div id='cmpTitle' class='meta'></div><div id='cmpResult'></div><h2>Calendar &mdash; click a day to replay</h2><div class='cal-controls'><button id='calPrev' type='button'>&lsaquo;</button><span id='calTitle' class='meta'></span><button id='calNext' type='button'>&rsaquo;</button></div><div id='calGrid' class='cal-grid'></div><h2>All archived days</h2><table class='matrix'><thead><tr><th>Date</th><th>Stocks</th><th>Indexes</th><th>Generated</th></tr></thead><tbody><tr><td><a href="stage_report_2026-10-13.html">2026-10-13</a></td><td>176</td><td>5</td><td class="meta">2026-10-13 19:47:30</td></tr><tr><td><a href="stage_report_2026-10-12.html">2026-10-12</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 20:31:21</td></tr><tr><td><a href="stage_report_2026-10-09.html">2026-10-09</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 21:02:02</td></tr><tr><td><a href="stage_report_2026-10-08.html">2026-10-08</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 16:31:29</td></tr><tr><td><a href="stage_report_2026-10-07.html">2026-10-07</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 15:00:28</td></tr><tr><td><a href="stage_report_2026-10-06.html">2026-10-06</a></td><td>175</td><td>4</td><td class="meta">2026-10-09 15:01:03</td></tr></tbody></table><script src="history.js"></script>
+<div class="crumb"><a href="../stage_report.html">&larr; Live report</a> &middot; <a href="../index.html">Guide</a></div><h1>State Report Archive</h1><div class='crumb'>One report per day &mdash; pick two dates to compare (arrows show the change of<br>the target vs the baseline), or click a calendar day to replay its report.</div><p class='meta'>6 day(s) archived &middot; data files: history.js, stage_report_YYYY-MM-DD.json</p><h2>Compare two dates</h2><div class='cmp-controls'><label>Baseline <select id='cmpA'></select></label><label>Target <select id='cmpB'></select></label><button id='cmpSwap' type='button'>Swap</button><button id='cmpGo' type='button'>Compare</button></div><div id='cmpTitle' class='meta'></div><div id='cmpResult'></div><h2>Calendar &mdash; click a day to replay</h2><div class='cal-controls'><button id='calPrev' type='button'>&lsaquo;</button><span id='calTitle' class='meta'></span><button id='calNext' type='button'>&rsaquo;</button></div><div id='calGrid' class='cal-grid'></div><h2>All archived days</h2><table class='matrix'><thead><tr><th>Date</th><th>Stocks</th><th>Indexes</th><th>Generated</th></tr></thead><tbody><tr><td><a href="stage_report_2026-10-13.html">2026-10-13</a></td><td>176</td><td>5</td><td class="meta">2026-10-13 21:28:04</td></tr><tr><td><a href="stage_report_2026-10-12.html">2026-10-12</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 20:31:21</td></tr><tr><td><a href="stage_report_2026-10-09.html">2026-10-09</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 21:02:02</td></tr><tr><td><a href="stage_report_2026-10-08.html">2026-10-08</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 16:31:29</td></tr><tr><td><a href="stage_report_2026-10-07.html">2026-10-07</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 15:00:28</td></tr><tr><td><a href="stage_report_2026-10-06.html">2026-10-06</a></td><td>175</td><td>4</td><td class="meta">2026-10-09 15:01:03</td></tr></tbody></table><script src="history.js"></script>
 <script>
 
 (function () {
@@ -124,7 +124,7 @@
       "<button id='viewStd' type='button' title='show DAX, MDAX, SDAX only'>Standard</button> " +
       "<button id='viewAll' type='button' title='also show experimental PDAX, CDAX'>" +
       "All incl. experimental</button></div>";
-    h += "<table class='matrix'><thead><tr><th>Stage</th>";
+    h += "<table class='matrix'><thead><tr><th>State</th>";
     idxs.forEach(function (i) {
       h += '<th' + (isExp(i) ? ' class="col-exp"' : '') + '>' + i +
            (isExp(i) ? ' <span class="exp-tag">experimental</span>' : '') + '</th>';
@@ -144,7 +144,7 @@
            '" title="share change vs ' + a + '">' + arrTxt(ds) + '</span></td></tr>';
     });
     h += '</tbody></table>';
-    res.innerHTML = h + '<div class="movers-wrap"><h2>Stage movers</h2>' +
+    res.innerHTML = h + '<div class="movers-wrap"><h2>State movers</h2>' +
       renderMovers(DA, DB, a, b, idxs) + '</div>';
     bindViewToggle();
   }
@@ -192,8 +192,8 @@
       if (!both.length && !added.length && !removed.length) return;
       any = true;
       out += "<h3 class='mvh'>" + ix + '</h3>';
-      out += "<table class='movers'><thead><tr><th>Code</th><th>Stage " + a +
-             '</th><th>Stage ' + b + '</th><th></th></tr></thead><tbody>';
+      out += "<table class='movers'><thead><tr><th>Code</th><th>State " + a +
+             '</th><th>State ' + b + '</th><th></th></tr></thead><tbody>';
       both.forEach(function (r) {
         out += '<tr><td>' + r[0] + '</td><td>' + r[1] + '</td><td>' + r[2] +
                '</td><td><span class="badge">&rarr; changed</span></td></tr>';
@@ -209,7 +209,7 @@
       });
       out += '</tbody></table>';
     });
-    if (!any) return '<p class="meta">no stage changes between the two dates</p>';
+    if (!any) return '<p class="meta">no state changes between the two dates</p>';
     return out;
   }
 
