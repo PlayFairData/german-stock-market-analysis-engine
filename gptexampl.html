@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>ChatGPT Example — RHM Analysis (2026-10-12)</title>
+<style>
+:root{
+  --paper:#f2f4f7; --panel:#ffffff; --ink:#16202c; --muted:#566272; --rule:#d3d9e1;
+  --blue:#2850d0; --bull:#1b7f4b; --bear:#b3261e; --flat:#6b7685; --energy:#a85d00;
+  --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+  --sans:"Avenir Next","Segoe UI Variable Text","Segoe UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --gpt-user:#2850d0; --gpt-assist:#161d27; --gpt-bg:#f2f4f7;
+  --code-bg:color-mix(in srgb,var(--blue) 9%,transparent);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0f141b; --panel:#161d27; --ink:#e6ebf2; --muted:#98a3b3; --rule:#283240;
+    --blue:#7da2ff; --bull:#4cc38a; --bear:#ff8a80; --flat:#9aa6b8; --energy:#f0a93b;
+    --gpt-user:#7da2ff; --gpt-assist:#161d27; --gpt-bg:#0f141b;
+    --code-bg:color-mix(in srgb,var(--blue) 15%,transparent);
+  }
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0 auto;max-width:900px;padding:34px 20px 56px;color:var(--ink);font:16px/1.62 var(--serif)}
+h1,h2,h3{font-family:var(--sans);margin:0}
+h1{font-size:31px;line-height:1.15;font-weight:700;letter-spacing:-.01em}
+h2{font-size:21px;font-weight:650;margin:46px 0 12px;padding-top:18px;border-top:1px solid var(--rule)}
+h3{font-size:15px;font-weight:650}
+p{margin:0 0 12px}
+.lede{font-size:17.5px;max-width:64ch;margin-top:12px}
+code,.m{font-family:var(--mono);font-size:.86em}
+code{background:var(--code-bg);padding:1px 5px;border-radius:3px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ChatGPT-style chat layout */
+.chat-container{display:flex;flex-direction:column;gap:24px;margin-top:24px}
+.chat-message{display:flex;gap:12px;max-width:100%}
+.chat-message .avatar{flex:0 0 36px;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font:600 16px/1 var(--sans);color:#fff}
+.chat-message.user .avatar{background:var(--gpt-user);order:1}
+.chat-message.assistant .avatar{background:var(--gpt-assist);order:0}
+.chat-message.user .bubble{order:1;background:var(--gpt-user);color:#fff}
+.chat-message.assistant .bubble{order:1;background:var(--panel);border:1px solid var(--rule);color:var(--ink)}
+.chat-message .bubble{flex:1;min-width:0;padding:16px 20px;border-radius:12px;font:15px/1.6 var(--serif);word-wrap:break-word}
+.chat-message .bubble p{margin:0 0 10px}
+.chat-message .bubble p:last-child{margin-bottom:0}
+.chat-message .bubble h2{font-size:19px;margin:20px 0 10px;padding-top:12px;border-top:1px solid var(--rule)}
+.chat-message .bubble h3{font-size:15px;margin:16px 0 8px}
+.chat-message .bubble ul,.chat-message .bubble ol{margin:8px 0 12px;padding-left:22px}
+.chat-message .bubble li{margin:5px 0}
+.chat-message .bubble code{background:var(--code-bg);padding:1px 5px;border-radius:3px;font-family:var(--mono);font-size:.86em}
+.chat-message .bubble pre{background:var(--gpt-assist);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:14px;overflow-x:auto;font-size:13px;line-height:1.45;font-family:var(--mono);margin:12px 0}
+.chat-message .bubble pre code{background:transparent;padding:0;font-size:inherit}
+.chat-message .bubble table{width:100%;border-collapse:collapse;font:14px/1.45 var(--sans);margin:12px 0}
+.chat-message .bubble th{text-align:left;font-weight:600;color:var(--muted);border-bottom:1px solid var(--ink);padding:6px 12px 6px 0;white-space:nowrap}
+.chat-message .bubble td{border-bottom:1px solid var(--rule);padding:7px 12px 7px 0;vertical-align:top}
+.chat-message .bubble .note{font:13px/1.5 var(--sans);color:var(--muted)}
+.chat-message .bubble .chips{display:flex;flex-wrap:wrap;gap:6px 8px;margin:8px 0}
+.chat-message .bubble .chip{display:inline-block;font:12px/1.5 var(--mono);padding:0 8px;border-radius:999px;border:1px solid var(--rule);background:var(--panel);color:var(--ink)}
+.chat-message .bubble .chip.bull{color:var(--bull);border-color:color-mix(in srgb,var(--bull) 42%,transparent);background:color-mix(in srgb,var(--bull) 10%,transparent)}
+.chat-message .bubble .chip.bear{color:var(--bear);border-color:color-mix(in srgb,var(--bear) 42%,transparent);background:color-mix(in srgb,var(--bear) 10%,transparent)}
+.chat-message .bubble .chip.neu{color:var(--flat);border-color:color-mix(in srgb,var(--flat) 42%,transparent);background:color-mix(in srgb,var(--flat) 10%,transparent)}
+.chat-message .bubble .chip.en{color:var(--energy);border-color:color-mix(in srgb,var(--energy) 42%,transparent);background:color-mix(in srgb,var(--energy) 10%,transparent)}
+.chat-message .bubble .chip.bl{color:var(--blue);border-color:color-mix(in srgb,var(--blue) 42%,transparent);background:color-mix(in srgb,var(--blue) 10%,transparent)}
+
+.chat-header{margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--rule)}
+.chat-header h1{font-size:26px;font-weight:700}
+.chat-header .meta{color:var(--muted);font:14px/1.5 var(--sans);margin-top:4px}
+.chat-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);font:13px/1.5 var(--sans);color:var(--muted);text-align:center}
+
+@media (max-width:600px){
+  .chat-message{gap:8px}
+  .chat-message .avatar{flex:0 0 30px;width:30px;height:30px;font-size:13px}
+  .chat-message .bubble{padding:12px 16px;font-size:14.5px}
+}
+</style>
+</head>
+<body>
+<header class="chat-header">
+  <h1>ChatGPT Example — RHM Analysis</h1>
+  <p class="meta">Generated <strong>2026-10-12</strong> · Based on the 2026-10-12 overview for Rheinmetall (RHM)</p>
+</header>
+
+<div class="chat-container">
+  <!-- User prompt -->
+  <div class="chat-message user">
+    <div class="avatar" aria-label="User">U</div>
+    <div class="bubble">
+      <p>Analyze the RHM overview report from 2026-10-12. What does it tell us about a potential recovery? The report says "early reversal candidate inside a confirmed downtrend" — is this actionable or just noise?</p>
+    </div>
+  </div>
+
+  <!-- Assistant response -->
+  <div class="chat-message assistant">
+    <div class="avatar" aria-label="Assistant">GPT</div>
+    <div class="bubble">
+      <p>Yes — RHM may be starting a recovery, and the hidden strength you noticed is worth watching. But its 12 October overview says "early reversal candidate inside a confirmed downtrend," not yet a confirmed recovery.</p>
+      
+      <p>The most important detail is the combination of high-confidence daily regular bullish divergence, weekly momentum recovering, and daily MACD turning while the stock remains in a bearish weekly and daily trend. That is precisely the kind of early warning that can appear before conventional trend indicators turn bullish.</p>
+      
+      <h2>What stands out in your RHM report</h2>
+      <div class="tbl">
+        <table>
+          <thead>
+            <tr><th>Signal</th><th>Interpretation</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Daily regular bullish divergence, high confidence</td><td>Positive: downside momentum may be weakening</td></tr>
+            <tr><td>Weekly momentum recovering</td><td>Positive: potential improvement beyond a single session</td></tr>
+            <tr><td>Daily MACD turning</td><td>Early signal, but still below zero</td></tr>
+            <tr><td>Monthly MACD rising</td><td>Positive momentum slope, despite the reported monthly death-cross state</td></tr>
+            <tr><td>Weekly and daily ADX strong</td><td>The existing trend still has force; a reversal needs confirmation</td></tr>
+            <tr><td>Price below daily MA200</td><td>The stock has not reclaimed an important trend reference</td></tr>
+            <tr><td>Price in <code>LM</code></td><td>Still in a relatively weak Bollinger position</td></tr>
+            <tr><td>Energy <code>RELEASED</code></td><td>A move is underway, but the label alone does not tell us its direction</td></tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <p>The bullish divergence is the strongest early-reversal clue. However, the report also says weekly MACD has been below zero for 10 weeks and daily MACD has only just registered a death cross. Divergence can precede a recovery by days or weeks, and sometimes fails entirely.</p>
+      
+      <h2>Today's price action supports your observation</h2>
+      <p>On 12 October, Rheinmetall rose around 2.5% on Xetra, while Hensoldt gained approximately 5.8%, compared with a DAX gain of 0.76%. Both outperformed the market, especially HAG.</p>
+      
+      <p class="note">That is meaningful relative strength, but one session cannot establish that RHM's downtrend has ended. It does, however, make your "hidden hero" observation reasonable: the price action is improving before the overview's trend classification has turned bullish.</p>
+      
+      <h2>What I would watch next for RHM</h2>
+      <h3>Bullish confirmation</h3>
+      <p>RHM holds above the recent low near the report's €909 reference, forms a higher low, and starts reclaiming daily resistance and MA20. Daily MACD should turn decisively upward rather than merely cross.</p>
+      
+      <h3>Recovery still developing</h3>
+      <p>Price rises for a few sessions but remains below daily MA200, while weekly MACD stays negative. That would fit an early rebound within the larger downtrend.</p>
+      
+      <h3>Bullish divergence fails</h3>
+      <p>RHM breaks below the recent low and daily MACD remains weak. The divergence would then have failed to produce a durable reversal.</p>
+      
+      <p class="note">One important caveat: the report's <code>Breakout Resistance : 1045.0</code> is a 20-session reference, not necessarily the nearest resistance that price must overcome first. I would not use it alone as the recovery trigger.</p>
+      
+      <p>My verdict: RHM is a credible early-reversal candidate, and HAG's stronger rise supports the possibility of a defense-sector rebound. But the strongest confirmation would be RHM holding its low and improving its daily structure over the next few sessions — not simply extending today's bounce. I would keep the position under review rather than automatically add to it or exit solely because the overview still says <code>DOWNTREND</code>.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="chat-footer">
+  This is an illustrative example of how the stock overview data can be interpreted with AI assistance. Not investment advice.
+</footer>
+</body>
+</html>
