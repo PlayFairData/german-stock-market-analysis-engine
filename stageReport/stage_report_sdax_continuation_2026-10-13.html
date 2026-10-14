@@ -2,6 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SDAX CONTINUATION 2026-10-13</title>
 <style>
     * { box-sizing: border-box; }
@@ -43,6 +44,20 @@
     details.ovsum > summary:hover { color: #1a73e8; }
     details.ovsum[open] > summary { margin-bottom: 6px; }
     body.std-only details.ovsum-exp { display: none; }
+
+    @media (max-width: 720px) {
+        body { padding: 12px; -webkit-text-size-adjust: 100%; }
+        h1 { font-size: 1.15rem; }
+        h2 { margin: 20px 0 6px; }
+        /* wide tables scroll inside themselves instead of widening the page */
+        table.matrix, table.nav { display: block; overflow-x: auto;
+            -webkit-overflow-scrolling: touch; }
+        table.matrix th, table.matrix td { padding: 8px 10px; }
+        pre.detail { font-size: 11px; padding: 10px; }
+        .view-toggle button { padding: 8px 14px; }
+        .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+        .cal-day { width: auto; }
+    }
 </style>
 </head>
 <body>
