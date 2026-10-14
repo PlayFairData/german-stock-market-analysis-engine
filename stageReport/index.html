@@ -2,6 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>State Report Archive</title>
 <style>
     * { box-sizing: border-box; }
@@ -76,11 +77,25 @@
     .cal-day.has:hover { background: #d2e3fc; text-decoration: none; }
     .cal-day.today { outline: 2px solid #1a73e8; }
     .movers-wrap { margin-top: 20px; }
+
+    @media (max-width: 720px) {
+        body { padding: 12px; -webkit-text-size-adjust: 100%; }
+        h1 { font-size: 1.15rem; }
+        h2 { margin: 20px 0 6px; }
+        /* wide tables scroll inside themselves instead of widening the page */
+        table.matrix, table.nav { display: block; overflow-x: auto;
+            -webkit-overflow-scrolling: touch; }
+        table.matrix th, table.matrix td { padding: 8px 10px; }
+        pre.detail { font-size: 11px; padding: 10px; }
+        .view-toggle button { padding: 8px 14px; }
+        .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+        .cal-day { width: auto; }
+    }
 </style>
 </head>
 <body>
 <div class="meta">State Report Archive</div>
-<div class="crumb"><a href="../stage_report.html">&larr; Live report</a> &middot; <a href="../index.html">Guide</a></div><h1>State Report Archive</h1><div class='crumb'>One report per day &mdash; pick two dates to compare (arrows show the change of<br>the target vs the baseline), or click a calendar day to replay its report.</div><p class='meta'>6 day(s) archived &middot; data files: history.js, stage_report_YYYY-MM-DD.json</p><h2>Compare two dates</h2><div class='cmp-controls'><label>Baseline <select id='cmpA'></select></label><label>Target <select id='cmpB'></select></label><button id='cmpSwap' type='button'>Swap</button><button id='cmpGo' type='button'>Compare</button></div><div id='cmpTitle' class='meta'></div><div id='cmpResult'></div><h2>Calendar &mdash; click a day to replay</h2><div class='cal-controls'><button id='calPrev' type='button'>&lsaquo;</button><span id='calTitle' class='meta'></span><button id='calNext' type='button'>&rsaquo;</button></div><div id='calGrid' class='cal-grid'></div><h2>All archived days</h2><table class='matrix'><thead><tr><th>Date</th><th>Stocks</th><th>Indexes</th><th>Generated</th></tr></thead><tbody><tr><td><a href="stage_report_2026-10-13.html">2026-10-13</a></td><td>176</td><td>5</td><td class="meta">2026-10-14 08:01:58</td></tr><tr><td><a href="stage_report_2026-10-12.html">2026-10-12</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 20:31:21</td></tr><tr><td><a href="stage_report_2026-10-09.html">2026-10-09</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 21:02:02</td></tr><tr><td><a href="stage_report_2026-10-08.html">2026-10-08</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 16:31:29</td></tr><tr><td><a href="stage_report_2026-10-07.html">2026-10-07</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 15:00:28</td></tr><tr><td><a href="stage_report_2026-10-06.html">2026-10-06</a></td><td>175</td><td>4</td><td class="meta">2026-10-09 15:01:03</td></tr></tbody></table><script src="history.js"></script>
+<div class="crumb"><a href="../stage_report.html">&larr; Live report</a> &middot; <a href="../index.html">Guide</a></div><h1>State Report Archive</h1><div class='crumb'>One report per day &mdash; pick two dates to compare (arrows show the change of<br>the target vs the baseline), or click a calendar day to replay its report.</div><p class='meta'>6 day(s) archived &middot; data files: history.js, stage_report_YYYY-MM-DD.json</p><h2>Compare two dates</h2><div class='cmp-controls'><label>Baseline <select id='cmpA'></select></label><label>Target <select id='cmpB'></select></label><button id='cmpSwap' type='button'>Swap</button><button id='cmpGo' type='button'>Compare</button></div><div id='cmpTitle' class='meta'></div><div id='cmpResult'></div><h2>Calendar &mdash; click a day to replay</h2><div class='cal-controls'><button id='calPrev' type='button'>&lsaquo;</button><span id='calTitle' class='meta'></span><button id='calNext' type='button'>&rsaquo;</button></div><div id='calGrid' class='cal-grid'></div><h2>All archived days</h2><table class='matrix'><thead><tr><th>Date</th><th>Stocks</th><th>Indexes</th><th>Generated</th></tr></thead><tbody><tr><td><a href="stage_report_2026-10-13.html">2026-10-13</a></td><td>176</td><td>5</td><td class="meta">2026-10-14 08:26:45</td></tr><tr><td><a href="stage_report_2026-10-12.html">2026-10-12</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 20:31:21</td></tr><tr><td><a href="stage_report_2026-10-09.html">2026-10-09</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 21:02:02</td></tr><tr><td><a href="stage_report_2026-10-08.html">2026-10-08</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 16:31:29</td></tr><tr><td><a href="stage_report_2026-10-07.html">2026-10-07</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 15:00:28</td></tr><tr><td><a href="stage_report_2026-10-06.html">2026-10-06</a></td><td>175</td><td>4</td><td class="meta">2026-10-09 15:01:03</td></tr></tbody></table><script src="history.js"></script>
 <script>
 
 (function () {
