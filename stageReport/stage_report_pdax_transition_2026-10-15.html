@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDAX TRANSITION 2026-10-15</title>
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
+           padding: 24px; background: #fff; color: #202124; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    h2 { font-size: 1.05rem; margin: 26px 0 8px; }
+    .meta { color: #70757a; font-size: .85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 14px; font-size: .92rem; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table.matrix { border-collapse: collapse; font-size: .98rem; }
+    table.matrix th, table.matrix td { padding: 11px 26px 11px 0;
+        text-align: left; border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.matrix th { font-weight: 600; border-bottom: 1px solid #dadce0; }
+    table.matrix td.tot { font-weight: 700; }
+    table.matrix tr:hover { background: #f8f9fa; }
+    table.nav { border-collapse: collapse; margin-bottom: 6px; }
+    table.nav th, table.nav td { padding: 6px 18px 6px 0; text-align: left;
+        border-bottom: 1px solid #f1f3f4; font-size: .9rem; vertical-align: top; }
+    table.nav td.sum { white-space: normal; max-width: 540px; }
+    pre.detail { background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
+        font-family: Consolas, 'Courier New', monospace; }
+    .navchips a { display: inline-block; margin: 0 10px 6px 0; font-size: .9rem; }
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+    table.matrix th.col-exp, table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix th.col-exp,
+    body.std-only table.matrix td.col-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+    details.ovsum { margin: 4px 0 12px; }
+    details.ovsum > summary { cursor: pointer; font-weight: 600; padding: 6px 0;
+        font-size: .98rem; }
+    details.ovsum > summary:hover { color: #1a73e8; }
+    details.ovsum[open] > summary { margin-bottom: 6px; }
+    body.std-only details.ovsum-exp { display: none; }
+
+    @media (max-width: 720px) {
+        body { padding: 12px; -webkit-text-size-adjust: 100%; }
+        h1 { font-size: 1.15rem; }
+        h2 { margin: 20px 0 6px; }
+        /* wide tables scroll inside themselves instead of widening the page */
+        table.matrix, table.nav { display: block; overflow-x: auto;
+            -webkit-overflow-scrolling: touch; }
+        table.matrix th, table.matrix td { padding: 8px 10px; }
+        pre.detail { font-size: 11px; padding: 10px; }
+        .view-toggle button { padding: 8px 14px; }
+        .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+        .cal-day { width: auto; }
+    }
+</style>
+</head>
+<body>
+<div class="meta">PDAX TRANSITION 2026-10-15 &middot; log date 2026-10-15</div>
+<div class="crumb"><a href="stage_report_2026-10-15.html">&larr; State Report</a></div><h1>PDAX &mdash; TRANSITION (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#AAD" title="Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.">AAD</a></td><td>59</td><td>52%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>EXHAUSTION</td><td class='sum'>Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="AAD">AAD <span class="meta">TRANSITION</span></h2><pre class="detail">AAD 2026-10-15
+📊 Overview
+--------
+State              : TRANSITION
+Raw State          : TRANSITION
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+Breakout Event     : False
+Breakout Resistance : 18.84
+Breakout Window    : 20
+Score      : 59  (W 27.0 + D 17.5 + E 8.0  cycle 7)
+Confidence : 52%
+Trend      : Stabilizing (Weekly BEAR, Daily NEUTRAL)
+
+📊 Weekly
+------
+Trend : Bear
+ADX   : VERY_STRONG
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
+
+📊 Daily
+-----
+Trend : Neutral
+ADX   : BUILDING
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : DRIFT_DOWN
+Context : Controlled decline with increasing trend pressure.
+
+📊 Energy
+------
+Family : EXHAUSTION
+Phase  : TREND_EXHAUSTION
+
+📊 Cycle
+-----
+Stage    : RECOVERY
+Rank     : 80
+BB Zone  :
+  Pivot  : L
+  Today  : L   -&gt; (0)
+Alignment: 3 (Full)
+Swing Age: 0d
+Pivot Drift: L -&gt; L  dZ=0  Aligned
+Weekly Pivot Trend:
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 6d / -10.6
+  Extreme / Diff%: 15.12 / 1.2
+  vs DAX%        : -11.8
+
+📊 Momentum
+--------
+MACD Age      : M ▼37mo | W ▼25w | D ▼7d
+Momentum Slope: Monthly Recovering | Weekly Recovering | Daily Recovering
+Divergence    : Daily Hidden Bear (+4d, Low confidence)
+Pattern       : Confirmed Downtrend
+
+Signal:
+Bullish
+MACD Golden Cross : W(+25w), D(+7d)
+Bearish
+MACD Death Cross : M(+37mo)
+MACD Below Zero : M(+37mo), W(+25w), D(+7d)
+Price Below MA200 : W, D
+Neutral
+ADX Strong : W
+
+📊 Summary
+-------
+  Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.</pre>
+
+</body>
+</html>
