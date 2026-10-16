@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "generated": "2026-10-09 15:00:28",
+ "generated": "2026-10-16 07:55:11",
  "source_log": "c:\\nb\\log\\overview.2026-10-07.txt",
  "indexes": [
   "DAX",
@@ -106,1418 +106,2298 @@
    {
     "code": "ADS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 66.0,
     "confidence": 65,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AIR",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 65.0,
     "confidence": 56,
     "energy": "RELEASED",
-    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ALV",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 42.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BAS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 48.0,
     "confidence": 46,
     "energy": "COMPRESSION",
-    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BAYN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 63.0,
     "confidence": 56,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BEI",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 73.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BMW",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 45,
     "energy": "RELEASED",
-    "summary": "Bearish momentum is accelerating across multiple timeframes."
+    "summary": "Bearish momentum is accelerating across multiple timeframes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BNR",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 86.0,
     "confidence": 80,
     "energy": "RELEASED",
-    "summary": "Breakout is fading; confirmation weakening."
+    "summary": "Breakout is fading; confirmation weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "CBK",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 53.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Long-term trend remains constructive despite a pause in momentum."
+    "summary": "Long-term trend remains constructive despite a pause in momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "CON",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DB1",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 87.0,
     "confidence": 79,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DBK",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 49.0,
     "confidence": 43,
     "energy": "RELEASED",
-    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DHL",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 69.0,
     "confidence": 60,
     "energy": "EXHAUSTION",
-    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation."
+    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DTE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 46.0,
     "confidence": 42,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DTG",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 63.0,
     "confidence": 55,
     "energy": "RELEASED",
-    "summary": "Buying pressure is returning after the pullback."
+    "summary": "Buying pressure is returning after the pullback.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ENR",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+    "summary": "Momentum has faded and the trend is entering a consolidation phase.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EOAN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 52.0,
     "confidence": 47,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FME",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 41.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FRE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 58.0,
     "confidence": 49,
     "energy": "RELEASED",
-    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "G1A",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 91.0,
     "confidence": 82,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "G24",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 42.0,
     "confidence": 38,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HEI",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 60.0,
     "confidence": 55,
     "energy": "RELEASED",
-    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HEN3",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 61.0,
     "confidence": 56,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HNR1",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 78.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HOT",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 55.0,
     "confidence": 55,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "IFX",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 62.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MBG",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 46.0,
     "confidence": 41,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MRK",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 78.0,
     "confidence": 67,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MTX",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 77.0,
     "confidence": 78,
     "energy": "COMPRESSION",
-    "summary": "Breakout is building before expansion."
+    "summary": "Breakout is building before expansion.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MUV2",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 87.0,
     "confidence": 85,
     "energy": "COMPRESSION",
-    "summary": "Sideways consolidation without directional edge."
+    "summary": "Sideways consolidation without directional edge.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "QIA",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 93.0,
     "confidence": 82,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "RHM",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 65.0,
     "confidence": 60,
     "energy": "RELEASED",
-    "summary": "No summary rule yet for DOWNTREND + Trend Losing Momentum + RELEASED -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for DOWNTREND + Trend Losing Momentum + RELEASED -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "RWE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 77.0,
     "confidence": 63,
     "energy": "COMPRESSION",
-    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SAP",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 88.0,
     "confidence": 80,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SHL",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 74.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend continues structurally, but the recent recovery attempt has failed at the momentum level."
+    "summary": "Trend continues structurally, but the recent recovery attempt has failed at the momentum level.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SIE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 62.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SY1",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 70.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend continues with an early bull reversal pattern developing, but no clear energy signal is present yet."
+    "summary": "Trend continues with an early bull reversal pattern developing, but no clear energy signal is present yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "VNA",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 52,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "VOW3",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 43.0,
     "confidence": 43,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ZAL",
     "stage": "COUNTERTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 36.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Countertrend bounce against a confirmed downtrend; momentum has not confirmed a reversal."
+    "summary": "Countertrend bounce against a confirmed downtrend; momentum has not confirmed a reversal.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    }
   ],
   "MDAX": [
    {
     "code": "8TRA",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 48.0,
     "confidence": 43,
     "energy": "RELEASED",
-    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AG1",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 52.0,
     "confidence": 44,
     "energy": "RELEASED",
-    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AIXA",
     "stage": "COUNTERTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 69.0,
     "confidence": 68,
     "energy": "EXHAUSTION",
-    "summary": "Recovery attempt within a countertrend move; exhaustion suggests the bounce may be losing momentum."
+    "summary": "Recovery attempt within a countertrend move; exhaustion suggests the bounce may be losing momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AMV0",
     "stage": "COUNTERTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 78.0,
     "confidence": 74,
     "energy": "COMPRESSION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AT1",
     "stage": "BASING",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 39,
     "energy": "EXHAUSTION",
-    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BC8",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 75.0,
     "confidence": 69,
     "energy": "RELEASED",
-    "summary": "Breakout is fading; confirmation weakening."
+    "summary": "Breakout is fading; confirmation weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DEZ",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 49.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Long-term trend remains constructive despite a pause in momentum."
+    "summary": "Long-term trend remains constructive despite a pause in momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DHER",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 53.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DWS",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 38,
     "energy": "RELEASED",
-    "summary": "Breakout resumed after a healthy pullback within the primary trend."
+    "summary": "Breakout resumed after a healthy pullback within the primary trend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ELG",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 56.0,
     "confidence": 48,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for PAUSE + Recovery Attempt + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Recovery Attempt + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EVD",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 44,
     "energy": "COMPRESSION",
-    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EVK",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 89.0,
     "confidence": 81,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FNTN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 40.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FPE3",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 89.0,
     "confidence": 81,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FRA",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 67.0,
     "confidence": 59,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FTK",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 40.0,
     "confidence": 35,
     "energy": "RELEASED",
-    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "GBF",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 50.0,
     "confidence": 45,
     "energy": "RELEASED",
-    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HAG",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 41.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+    "summary": "Momentum has faded and the trend is entering a consolidation phase.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HLE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 61.0,
     "confidence": 52,
     "energy": "COMPRESSION",
-    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "IOS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 63.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Long-term trend remains constructive despite a pause in momentum."
+    "summary": "Long-term trend remains constructive despite a pause in momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "JEN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 62.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "KBX",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 55.0,
     "confidence": 55,
     "energy": "COMPRESSION",
-    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "KGX",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 42.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "KRN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 37.0,
     "confidence": 37,
     "energy": "COMPRESSION",
-    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "LEG",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 47.0,
     "confidence": 48,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "LHA",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 46,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "LXS",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 40.0,
     "confidence": 41,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "NDA",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 41.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+    "summary": "Momentum has faded and the trend is entering a consolidation phase.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "NDX1",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 60.0,
     "confidence": 52,
     "energy": "COMPRESSION",
-    "summary": "Sideways consolidation without directional edge."
+    "summary": "Sideways consolidation without directional edge.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "NEM",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 85.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for CONTINUATION + Countertrend Rally + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for CONTINUATION + Countertrend Rally + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "P911",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 62.0,
     "confidence": 53,
     "energy": "COMPRESSION",
-    "summary": "Sideways consolidation without directional edge."
+    "summary": "Sideways consolidation without directional edge.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PAH3",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 39.0,
     "confidence": 39,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PUM",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 55.0,
     "confidence": 48,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "R3NK",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 59.0,
     "confidence": 51,
     "energy": "RELEASED",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "RAA",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 41.0,
     "confidence": 41,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "RRTL",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 49.0,
     "confidence": 41,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SAX",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 49.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Recovery attempt has failed at the momentum level; consolidation continues without a clear edge."
+    "summary": "Recovery attempt has failed at the momentum level; consolidation continues without a clear edge.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SDF",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 64.0,
     "confidence": 58,
     "energy": "EXHAUSTION",
-    "summary": "Leader pullback with exhaustion energy; the pullback may be maturing, but renewed trend momentum still needs confirmation."
+    "summary": "Leader pullback with exhaustion energy; the pullback may be maturing, but renewed trend momentum still needs confirmation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SHA0",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 38.0,
     "confidence": 39,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SMHN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 40.0,
     "confidence": 39,
     "energy": "RELEASED",
-    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SRT3",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 87.0,
     "confidence": 79,
     "energy": "COMPRESSION",
-    "summary": "Breakout is building before expansion."
+    "summary": "Breakout is building before expansion.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SZG",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 44.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Long-term trend remains constructive despite a pause in momentum."
+    "summary": "Long-term trend remains constructive despite a pause in momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TEG",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 52,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TKA",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 80.0,
     "confidence": 70,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TKMS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 63.0,
     "confidence": 54,
     "energy": "RELEASED",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TLX",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 57.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Healthy pullback inside a confirmed long-term uptrend."
+    "summary": "Healthy pullback inside a confirmed long-term uptrend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TUI1",
     "stage": "COUNTERTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Countertrend move is losing momentum quickly."
+    "summary": "Countertrend move is losing momentum quickly.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "UTDI",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 39.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+    "summary": "Momentum has faded and the trend is entering a consolidation phase.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "WAF",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 75.0,
     "confidence": 66,
     "energy": "COMPRESSION",
-    "summary": "Consolidation with improving internal strength."
+    "summary": "Consolidation with improving internal strength.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "WCH",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Long-term trend remains constructive despite a pause in momentum."
+    "summary": "Long-term trend remains constructive despite a pause in momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    }
   ],
   "SDAX": [
    {
     "code": "1AST",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "1SXP",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 95.0,
     "confidence": 87,
     "energy": "EXHAUSTION",
-    "summary": "Mature trend entering late-cycle extension."
+    "summary": "Mature trend entering late-cycle extension.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "1U1",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 77.0,
     "confidence": 71,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ACT0",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 68.0,
     "confidence": 68,
     "energy": "COMPRESSION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ADV",
     "stage": "BASING",
+    "raw_state": null,
+    "state_reason": null,
     "score": 52.0,
     "confidence": 46,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AFX",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 76.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "AOF",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 60.0,
     "confidence": 50,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BFSA",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 67.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Primary trend remains intact despite short-term weakness."
+    "summary": "Primary trend remains intact despite short-term weakness.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BOSS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 75.0,
     "confidence": 64,
     "energy": "COMPRESSION",
-    "summary": "Sideways consolidation without directional edge."
+    "summary": "Sideways consolidation without directional edge.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BSL",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 57.0,
     "confidence": 56,
     "energy": "COMPRESSION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "COK",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 50.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "CWC",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 89.0,
     "confidence": 79,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DBAN",
     "stage": "BASING",
+    "raw_state": null,
+    "state_reason": null,
     "score": 41.0,
     "confidence": 42,
     "energy": "EXHAUSTION",
-    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DEQ",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 44.0,
     "confidence": 36,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DMP",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 64.0,
     "confidence": 60,
     "energy": "RELEASED",
-    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DOU",
     "stage": "BASING",
+    "raw_state": null,
+    "state_reason": null,
     "score": 62.0,
     "confidence": 56,
     "energy": "EXHAUSTION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DRW3",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 75.0,
     "confidence": 73,
     "energy": "EXHAUSTION",
-    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation."
+    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "DUE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 45,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EIN",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 59.0,
     "confidence": 53,
     "energy": "RELEASED",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EKT",
     "stage": "DOWNTREND",
+    "raw_state": null,
+    "state_reason": null,
     "score": 56.0,
     "confidence": 49,
     "energy": "RELEASED",
-    "summary": "Bearish momentum is accelerating across multiple timeframes."
+    "summary": "Bearish momentum is accelerating across multiple timeframes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EUZ",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 55.0,
     "confidence": 48,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "EVT",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 57.0,
     "confidence": 51,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "F3C",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 73.0,
     "confidence": 72,
     "energy": "COMPRESSION",
-    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FIE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 52.0,
     "confidence": 47,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "GFT",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 81.0,
     "confidence": 80,
     "energy": "EXHAUSTION",
-    "summary": "Mature trend entering late-cycle extension."
+    "summary": "Mature trend entering late-cycle extension.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "GLJ",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 53.0,
     "confidence": 45,
     "energy": "EXHAUSTION",
-    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "GYC",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 44.0,
     "confidence": 39,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HABA",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 49.0,
     "confidence": 49,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HBH",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 69.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HDD",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 57.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+    "summary": "Momentum has faded and the trend is entering a consolidation phase.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HFG",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 46,
     "energy": "EXHAUSTION",
-    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "HYQ",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 42.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ILM1",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 53.0,
     "confidence": 44,
     "energy": "RELEASED",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "INH",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 86.0,
     "confidence": 83,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "IXX",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 43,
     "energy": "RELEASED",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "JST",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 79.0,
     "confidence": 73,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "JUN3",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 40.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "KSB3",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 50.0,
     "confidence": 50,
     "energy": "COMPRESSION",
-    "summary": "Sideways consolidation without directional edge."
+    "summary": "Sideways consolidation without directional edge.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "KTN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 58.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+    "summary": "Momentum has faded and the trend is entering a consolidation phase.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "KWS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 28.0,
     "confidence": 29,
     "energy": "RELEASED",
-    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "LPK",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 73.0,
     "confidence": 67,
     "energy": "RELEASED",
-    "summary": "Recovery expanding with improving momentum. Action Bias: Positive continuation candidate."
+    "summary": "Recovery expanding with improving momentum. Action Bias: Positive continuation candidate.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MBB",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 39.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MLP",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 91.0,
     "confidence": 83,
     "energy": "EXHAUSTION",
-    "summary": "Mature trend entering late-cycle extension."
+    "summary": "Mature trend entering late-cycle extension.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "MUX",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 51.0,
     "confidence": 43,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "NA9",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 91.0,
     "confidence": 90,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "NOEJ",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 47.0,
     "confidence": 41,
     "energy": "RELEASED",
-    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "OBCK",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 45.0,
     "confidence": 37,
     "energy": "COMPRESSION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "OHB",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 41.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PAT",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 46.0,
     "confidence": 43,
     "energy": "RELEASED",
-    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PBB",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 34.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PNE3",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 57.0,
     "confidence": 48,
     "energy": "EXHAUSTION",
-    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "RDC",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 89.0,
     "confidence": 78,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "S92",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 59.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SFQ",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 67.0,
     "confidence": 64,
     "energy": "EXHAUSTION",
-    "summary": "Leader pullback with exhaustion energy; the pullback may be maturing, but renewed trend momentum still needs confirmation."
+    "summary": "Leader pullback with exhaustion energy; the pullback may be maturing, but renewed trend momentum still needs confirmation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SGL",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 84.0,
     "confidence": 73,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SIX2",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 59.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SLYG",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 79.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SPG",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 85.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "STM",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 54.0,
     "confidence": 48,
     "energy": "COMPRESSION",
-    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "STO3",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 83.0,
     "confidence": 76,
     "energy": "COMPRESSION",
-    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SZU",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 77.0,
     "confidence": 76,
     "energy": "EXHAUSTION",
-    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation."
+    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TMV",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 85.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend continues with an early bull reversal pattern developing, but no clear energy signal is present yet."
+    "summary": "Trend continues with an early bull reversal pattern developing, but no clear energy signal is present yet.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TNIE",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 65.0,
     "confidence": 59,
     "energy": "RELEASED",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TPE",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 58.0,
     "confidence": 53,
     "energy": "RELEASED",
-    "summary": "Recovery expanding with improving momentum. Action Bias: Positive continuation candidate."
+    "summary": "Recovery expanding with improving momentum. Action Bias: Positive continuation candidate.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "V1NC",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 57.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "VBK",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 52.0,
     "confidence": 45,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "VH2",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 46.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "VOS",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 55.0,
     "confidence": 49,
     "energy": "RELEASED",
-    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "WAC",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 84.0,
     "confidence": 73,
     "energy": "RELEASED",
-    "summary": "Confirmed trend with energy released -- a resumption move may be starting."
+    "summary": "Confirmed trend with energy released -- a resumption move may be starting.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "YSN",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 83.0,
     "confidence": 75,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    }
   ],
   "PDAX": [
    {
     "code": "AAD",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 60.0,
     "confidence": 60,
     "energy": "EXHAUSTION",
-    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "ADN1",
     "stage": "CONTINUATION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 71.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for CONTINUATION + Confirmed Downtrend + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for CONTINUATION + Confirmed Downtrend + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BRNK",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 52.0,
     "confidence": 44,
     "energy": "EXHAUSTION",
-    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BVB",
     "stage": "PULLBACK",
+    "raw_state": null,
+    "state_reason": null,
     "score": 71.0,
     "confidence": 62,
     "energy": "COMPRESSION",
-    "summary": "No summary rule yet for PULLBACK + Confirmed Downtrend + COMPRESSION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PULLBACK + Confirmed Downtrend + COMPRESSION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "BYW6",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 73.0,
     "confidence": 69,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for PAUSE + Confirmed Downtrend + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Confirmed Downtrend + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "FYB",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 37.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "GXI",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 66.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "NCH2",
     "stage": "BREAKOUT",
+    "raw_state": null,
+    "state_reason": null,
     "score": 74.0,
     "confidence": 71,
     "energy": "RELEASED",
-    "summary": "Fresh breakout confirmed by expanding momentum."
+    "summary": "Fresh breakout confirmed by expanding momentum.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PCZ",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 77.0,
     "confidence": 67,
     "energy": "COMPRESSION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PSAN",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 71.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "PSM",
     "stage": "BASING",
+    "raw_state": null,
+    "state_reason": null,
     "score": 42.0,
     "confidence": 42,
     "energy": "EXHAUSTION",
-    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "SBS",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 71.0,
     "confidence": 67,
     "energy": "RELEASED",
-    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TIMA",
     "stage": "TRANSITION",
+    "raw_state": null,
+    "state_reason": null,
     "score": 43.0,
     "confidence": 36,
     "energy": "EXHAUSTION",
-    "summary": "Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND."
+    "summary": "Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "TTK",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 79.0,
     "confidence": 78,
     "energy": "EXHAUSTION",
-    "summary": "No summary rule yet for PAUSE + Countertrend Rally + EXHAUSTION -- add to SUMMARY_LOOKUP."
+    "summary": "No summary rule yet for PAUSE + Countertrend Rally + EXHAUSTION -- add to SUMMARY_LOOKUP.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    },
    {
     "code": "V6C",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 65.0,
     "confidence": 56,
     "energy": "COMPRESSION",
-    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    }
   ],
   "CDAX": [
    {
     "code": "NOA3",
     "stage": "PAUSE",
+    "raw_state": null,
+    "state_reason": null,
     "score": 72.0,
     "confidence": 0,
     "energy": "NONE",
-    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present.",
+    "breakout_event": null,
+    "breakout_resistance": null,
+    "breakout_window": null
    }
   ]
  }

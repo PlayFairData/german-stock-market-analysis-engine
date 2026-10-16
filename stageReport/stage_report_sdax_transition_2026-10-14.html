@@ -2,9 +2,19 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SDAX TRANSITION 2026-10-14</title>
-<style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="StageReport">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="stage_icon.png">
+    <link rel="icon" type="image/gif" href="stage_icon.gif">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.json">
+    <title>SDAX TRANSITION 2026-10-14</title>
+    <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
            padding: 24px; background: #fff; color: #202124; }
@@ -46,17 +56,155 @@
     body.std-only details.ovsum-exp { display: none; }
 
     @media (max-width: 720px) {
-        body { padding: 12px; -webkit-text-size-adjust: 100%; }
-        h1 { font-size: 1.15rem; }
-        h2 { margin: 20px 0 6px; }
-        /* wide tables scroll inside themselves instead of widening the page */
-        table.matrix, table.nav { display: block; overflow-x: auto;
-            -webkit-overflow-scrolling: touch; }
-        table.matrix th, table.matrix td { padding: 8px 10px; }
-        pre.detail { font-size: 11px; padding: 10px; }
-        .view-toggle button { padding: 8px 14px; }
-        .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
-        .cal-day { width: auto; }
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        body {
+            padding: 10px 8px;
+            min-width: 0;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 1.15rem;
+            margin: 0 0 6px;
+            word-break: break-word;
+        }
+        h2 {
+            margin: 18px 0 6px;
+            font-size: 1.0rem;
+        }
+        .meta {
+            font-size: 0.8rem;
+            margin-bottom: 12px;
+        }
+        .crumb {
+            font-size: 0.86rem;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .view-toggle {
+            margin: 0 0 10px;
+            font-size: 0.85rem;
+        }
+        .view-toggle button {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* 
+           Standard view: Exactly DAX, MDAX, SDAX + Total + Share.
+           Table spans 100% of the screen width (360px - 390px device width).
+           The Share column and all other standard columns fit completely on screen
+           with no horizontal scroll required.
+        */
+        table.matrix {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            border-collapse: collapse;
+            margin: 0 0 14px;
+        }
+        table.matrix th, table.matrix td {
+            padding: 7px 3px;
+            white-space: nowrap;
+        }
+        /* State names left aligned */
+        table.matrix th:first-child, table.matrix td:first-child {
+            text-align: left;
+            padding-left: 2px;
+        }
+        /* Numeric columns centered */
+        table.matrix th:not(:first-child), table.matrix td:not(:first-child) {
+            text-align: center;
+        }
+        /* Total column bold */
+        table.matrix td.tot {
+            font-weight: 700;
+        }
+        /* Share column / rightmost column right-aligned */
+        table.matrix th:last-child, table.matrix td:last-child {
+            text-align: right;
+            padding-right: 2px;
+        }
+
+        /* Archive compare movers table */
+        table.movers {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            margin-bottom: 10px;
+        }
+        table.movers th, table.movers td {
+            padding: 6px 3px;
+        }
+        table.movers th:first-child, table.movers td:first-child {
+            text-align: left;
+        }
+        table.movers th:not(:first-child), table.movers td:not(:first-child) {
+            text-align: center;
+        }
+        table.movers th:last-child, table.movers td:last-child {
+            text-align: right;
+        }
+
+        /* Archive compare controls */
+        .cmp-controls {
+            display: flex;
+            gap: 8px 10px;
+            align-items: center;
+            margin: 8px 0 12px;
+            flex-wrap: wrap;
+            font-size: 0.88rem;
+        }
+        .cmp-controls select {
+            font-size: 0.88rem;
+            padding: 4px 6px;
+        }
+        .cmp-controls button {
+            padding: 5px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* Archive calendar */
+        .cal-controls {
+            gap: 8px;
+            margin: 6px 0;
+        }
+        .cal-controls button {
+            padding: 3px 10px;
+        }
+        .cal-grid {
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            gap: 2px;
+            width: 100%;
+            max-width: 360px;
+        }
+        .cal-day {
+            width: auto;
+            height: 34px;
+            font-size: 0.82rem;
+        }
+
+        /* Stock detail & nav tables */
+        table.nav {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+        }
+        table.nav th, table.nav td {
+            padding: 6px 4px;
+        }
+        table.nav td.sum {
+            white-space: normal;
+        }
+
+        pre.detail {
+            font-size: 11px;
+            padding: 10px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
     }
 </style>
 </head>
