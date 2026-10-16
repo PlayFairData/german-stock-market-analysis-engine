@@ -2,8 +2,19 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
-<title>Stage Report 2026-10-06</title>
-<style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="StageReport">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="stage_icon.png">
+    <link rel="icon" type="image/gif" href="stage_icon.gif">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.json">
+    <title>State Report 2026-10-06</title>
+    <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
            padding: 24px; background: #fff; color: #202124; }
@@ -27,22 +38,428 @@
         padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
         font-family: Consolas, 'Courier New', monospace; }
     .navchips a { display: inline-block; margin: 0 10px 6px 0; font-size: .9rem; }
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+    table.matrix th.col-exp, table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix th.col-exp,
+    body.std-only table.matrix td.col-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+    details.ovsum { margin: 4px 0 12px; }
+    details.ovsum > summary { cursor: pointer; font-weight: 600; padding: 6px 0;
+        font-size: .98rem; }
+    details.ovsum > summary:hover { color: #1a73e8; }
+    details.ovsum[open] > summary { margin-bottom: 6px; }
+    body.std-only details.ovsum-exp { display: none; }
+
+    @media (max-width: 720px) {
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        body {
+            padding: 10px 8px;
+            min-width: 0;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 1.15rem;
+            margin: 0 0 6px;
+            word-break: break-word;
+        }
+        h2 {
+            margin: 18px 0 6px;
+            font-size: 1.0rem;
+        }
+        .meta {
+            font-size: 0.8rem;
+            margin-bottom: 12px;
+        }
+        .crumb {
+            font-size: 0.86rem;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .view-toggle {
+            margin: 0 0 10px;
+            font-size: 0.85rem;
+        }
+        .view-toggle button {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* 
+           Standard view: Exactly DAX, MDAX, SDAX + Total + Share.
+           Table spans 100% of the screen width (360px - 390px device width).
+           The Share column and all other standard columns fit completely on screen
+           with no horizontal scroll required.
+        */
+        table.matrix {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            border-collapse: collapse;
+            margin: 0 0 14px;
+        }
+        table.matrix th, table.matrix td {
+            padding: 7px 3px;
+            white-space: nowrap;
+        }
+        /* State names left aligned */
+        table.matrix th:first-child, table.matrix td:first-child {
+            text-align: left;
+            padding-left: 2px;
+        }
+        /* Numeric columns centered */
+        table.matrix th:not(:first-child), table.matrix td:not(:first-child) {
+            text-align: center;
+        }
+        /* Total column bold */
+        table.matrix td.tot {
+            font-weight: 700;
+        }
+        /* Share column / rightmost column right-aligned */
+        table.matrix th:last-child, table.matrix td:last-child {
+            text-align: right;
+            padding-right: 2px;
+        }
+
+        /* Archive compare movers table */
+        table.movers {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            margin-bottom: 10px;
+        }
+        table.movers th, table.movers td {
+            padding: 6px 3px;
+        }
+        table.movers th:first-child, table.movers td:first-child {
+            text-align: left;
+        }
+        table.movers th:not(:first-child), table.movers td:not(:first-child) {
+            text-align: center;
+        }
+        table.movers th:last-child, table.movers td:last-child {
+            text-align: right;
+        }
+
+        /* Archive compare controls */
+        .cmp-controls {
+            display: flex;
+            gap: 8px 10px;
+            align-items: center;
+            margin: 8px 0 12px;
+            flex-wrap: wrap;
+            font-size: 0.88rem;
+        }
+        .cmp-controls select {
+            font-size: 0.88rem;
+            padding: 4px 6px;
+        }
+        .cmp-controls button {
+            padding: 5px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* Archive calendar */
+        .cal-controls {
+            gap: 8px;
+            margin: 6px 0;
+        }
+        .cal-controls button {
+            padding: 3px 10px;
+        }
+        .cal-grid {
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            gap: 2px;
+            width: 100%;
+            max-width: 360px;
+        }
+        .cal-day {
+            width: auto;
+            height: 34px;
+            font-size: 0.82rem;
+        }
+
+        /* Stock detail & nav tables */
+        table.nav {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+        }
+        table.nav th, table.nav td {
+            padding: 6px 4px;
+        }
+        table.nav td.sum {
+            white-space: normal;
+        }
+
+        pre.detail {
+            font-size: 11px;
+            padding: 10px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
 </style>
 </head>
 <body>
-<div class="meta">Stage Report 2026-10-06 &middot; log date 2026-10-06</div>
-<h1>Stage Report &mdash; 2026-10-06</h1><div class="crumb"><a href="index.html">&larr; Archive index</a></div><div class='crumb'>Stage distribution per index &mdash; click a number for stock details, an index name for its full overview_scan.</div><table class='matrix'>
-<thead><tr><th>Stage</th><th><a href="overview_scan_dax_2026-10-06.html" title="open overview_scan DAX">DAX</a></th><th><a href="overview_scan_mdax_2026-10-06.html" title="open overview_scan MDAX">MDAX</a></th><th><a href="overview_scan_sdax_2026-10-06.html" title="open overview_scan SDAX">SDAX</a></th><th><a href="overview_scan_pdax_2026-10-06.html" title="open overview_scan PDAX">PDAX</a></th><th><a href="overview_scan_cdax_2026-10-06.html" title="open overview_scan CDAX">CDAX</a></th><th>Total</th><th>Share</th></tr></thead>
+<div class="meta">State Report 2026-10-06 &middot; log date 2026-10-06</div>
+<h1>German Stock Market State Report &mdash; 2026-10-06</h1><div class="crumb"><a href="index.html">&larr; Archive index</a></div><div class='view-toggle'>View: <button id='viewStd' type='button' title='show DAX, MDAX, SDAX only'>Standard</button> <button id='viewAll' type='button' title='also show experimental PDAX, CDAX'>All incl. experimental</button></div><div class='crumb'>State distribution per index &mdash; click a number for stock details,<br>an index name for its full overview_scan.</div><table class='matrix'>
+<thead><tr><th>State</th><th><a href="overview_scan_dax_2026-10-06.html" title="open overview_scan DAX">DAX</a></th><th><a href="overview_scan_mdax_2026-10-06.html" title="open overview_scan MDAX">MDAX</a></th><th><a href="overview_scan_sdax_2026-10-06.html" title="open overview_scan SDAX">SDAX</a></th><th class="col-exp"><a href="overview_scan_pdax_2026-10-06.html" title="open overview_scan PDAX">PDAX</a> <span class="exp-tag">experimental</span></th><th class="col-exp"><a href="overview_scan_cdax_2026-10-06.html" title="open overview_scan CDAX">CDAX</a> <span class="exp-tag">experimental</span></th><th>Total</th><th>Share</th></tr></thead>
 <tbody>
-<tr><td>PAUSE</td><td><a href="stage_report_dax_pause_2026-10-06.html" title="19 DAX stock(s) in PAUSE">19</a></td><td><a href="stage_report_mdax_pause_2026-10-06.html" title="28 MDAX stock(s) in PAUSE">28</a></td><td><a href="stage_report_sdax_pause_2026-10-06.html" title="34 SDAX stock(s) in PAUSE">34</a></td><td><a href="stage_report_pdax_pause_2026-10-06.html" title="9 PDAX stock(s) in PAUSE">9</a></td><td>&ndash;</td><td class="tot">90</td><td>51.4%</td></tr>
-<tr><td>BREAKOUT</td><td><a href="stage_report_dax_breakout_2026-10-06.html" title="5 DAX stock(s) in BREAKOUT">5</a></td><td><a href="stage_report_mdax_breakout_2026-10-06.html" title="3 MDAX stock(s) in BREAKOUT">3</a></td><td><a href="stage_report_sdax_breakout_2026-10-06.html" title="6 SDAX stock(s) in BREAKOUT">6</a></td><td><a href="stage_report_pdax_breakout_2026-10-06.html" title="1 PDAX stock(s) in BREAKOUT">1</a></td><td>&ndash;</td><td class="tot">15</td><td>8.6%</td></tr>
-<tr><td>TRANSITION</td><td><a href="stage_report_dax_transition_2026-10-06.html" title="5 DAX stock(s) in TRANSITION">5</a></td><td><a href="stage_report_mdax_transition_2026-10-06.html" title="12 MDAX stock(s) in TRANSITION">12</a></td><td><a href="stage_report_sdax_transition_2026-10-06.html" title="14 SDAX stock(s) in TRANSITION">14</a></td><td><a href="stage_report_pdax_transition_2026-10-06.html" title="1 PDAX stock(s) in TRANSITION">1</a></td><td>&ndash;</td><td class="tot">32</td><td>18.3%</td></tr>
-<tr><td>DOWNTREND</td><td><a href="stage_report_dax_downtrend_2026-10-06.html" title="2 DAX stock(s) in DOWNTREND">2</a></td><td>0</td><td><a href="stage_report_sdax_downtrend_2026-10-06.html" title="2 SDAX stock(s) in DOWNTREND">2</a></td><td>0</td><td>&ndash;</td><td class="tot">4</td><td>2.3%</td></tr>
-<tr><td>PULLBACK</td><td><a href="stage_report_dax_pullback_2026-10-06.html" title="2 DAX stock(s) in PULLBACK">2</a></td><td><a href="stage_report_mdax_pullback_2026-10-06.html" title="1 MDAX stock(s) in PULLBACK">1</a></td><td><a href="stage_report_sdax_pullback_2026-10-06.html" title="1 SDAX stock(s) in PULLBACK">1</a></td><td>0</td><td>&ndash;</td><td class="tot">4</td><td>2.3%</td></tr>
-<tr><td>CONTINUATION</td><td><a href="stage_report_dax_continuation_2026-10-06.html" title="3 DAX stock(s) in CONTINUATION">3</a></td><td><a href="stage_report_mdax_continuation_2026-10-06.html" title="2 MDAX stock(s) in CONTINUATION">2</a></td><td><a href="stage_report_sdax_continuation_2026-10-06.html" title="11 SDAX stock(s) in CONTINUATION">11</a></td><td><a href="stage_report_pdax_continuation_2026-10-06.html" title="1 PDAX stock(s) in CONTINUATION">1</a></td><td>&ndash;</td><td class="tot">17</td><td>9.7%</td></tr>
-<tr><td>COUNTERTREND</td><td><a href="stage_report_dax_countertrend_2026-10-06.html" title="4 DAX stock(s) in COUNTERTREND">4</a></td><td><a href="stage_report_mdax_countertrend_2026-10-06.html" title="3 MDAX stock(s) in COUNTERTREND">3</a></td><td>0</td><td>0</td><td>&ndash;</td><td class="tot">7</td><td>4.0%</td></tr>
-<tr><td>BASING</td><td>0</td><td><a href="stage_report_mdax_basing_2026-10-06.html" title="1 MDAX stock(s) in BASING">1</a></td><td><a href="stage_report_sdax_basing_2026-10-06.html" title="2 SDAX stock(s) in BASING">2</a></td><td><a href="stage_report_pdax_basing_2026-10-06.html" title="3 PDAX stock(s) in BASING">3</a></td><td>&ndash;</td><td class="tot">6</td><td>3.4%</td></tr>
+<tr><td>PAUSE</td><td><a href="stage_report_dax_pause_2026-10-06.html" title="19 DAX stock(s) in PAUSE">19</a></td><td><a href="stage_report_mdax_pause_2026-10-06.html" title="28 MDAX stock(s) in PAUSE">28</a></td><td><a href="stage_report_sdax_pause_2026-10-06.html" title="34 SDAX stock(s) in PAUSE">34</a></td><td class="col-exp"><a href="stage_report_pdax_pause_2026-10-06.html" title="9 PDAX stock(s) in PAUSE">9</a></td><td class="col-exp">&ndash;</td><td class="tot">90</td><td>51.4%</td></tr>
+<tr><td>BREAKOUT</td><td><a href="stage_report_dax_breakout_2026-10-06.html" title="5 DAX stock(s) in BREAKOUT">5</a></td><td><a href="stage_report_mdax_breakout_2026-10-06.html" title="3 MDAX stock(s) in BREAKOUT">3</a></td><td><a href="stage_report_sdax_breakout_2026-10-06.html" title="6 SDAX stock(s) in BREAKOUT">6</a></td><td class="col-exp"><a href="stage_report_pdax_breakout_2026-10-06.html" title="1 PDAX stock(s) in BREAKOUT">1</a></td><td class="col-exp">&ndash;</td><td class="tot">15</td><td>8.6%</td></tr>
+<tr><td>TRANSITION</td><td><a href="stage_report_dax_transition_2026-10-06.html" title="5 DAX stock(s) in TRANSITION">5</a></td><td><a href="stage_report_mdax_transition_2026-10-06.html" title="12 MDAX stock(s) in TRANSITION">12</a></td><td><a href="stage_report_sdax_transition_2026-10-06.html" title="14 SDAX stock(s) in TRANSITION">14</a></td><td class="col-exp"><a href="stage_report_pdax_transition_2026-10-06.html" title="1 PDAX stock(s) in TRANSITION">1</a></td><td class="col-exp">&ndash;</td><td class="tot">32</td><td>18.3%</td></tr>
+<tr><td>DOWNTREND</td><td><a href="stage_report_dax_downtrend_2026-10-06.html" title="2 DAX stock(s) in DOWNTREND">2</a></td><td>0</td><td><a href="stage_report_sdax_downtrend_2026-10-06.html" title="2 SDAX stock(s) in DOWNTREND">2</a></td><td class="col-exp">0</td><td class="col-exp">&ndash;</td><td class="tot">4</td><td>2.3%</td></tr>
+<tr><td>PULLBACK</td><td><a href="stage_report_dax_pullback_2026-10-06.html" title="2 DAX stock(s) in PULLBACK">2</a></td><td><a href="stage_report_mdax_pullback_2026-10-06.html" title="1 MDAX stock(s) in PULLBACK">1</a></td><td><a href="stage_report_sdax_pullback_2026-10-06.html" title="1 SDAX stock(s) in PULLBACK">1</a></td><td class="col-exp">0</td><td class="col-exp">&ndash;</td><td class="tot">4</td><td>2.3%</td></tr>
+<tr><td>CONTINUATION</td><td><a href="stage_report_dax_continuation_2026-10-06.html" title="3 DAX stock(s) in CONTINUATION">3</a></td><td><a href="stage_report_mdax_continuation_2026-10-06.html" title="2 MDAX stock(s) in CONTINUATION">2</a></td><td><a href="stage_report_sdax_continuation_2026-10-06.html" title="11 SDAX stock(s) in CONTINUATION">11</a></td><td class="col-exp"><a href="stage_report_pdax_continuation_2026-10-06.html" title="1 PDAX stock(s) in CONTINUATION">1</a></td><td class="col-exp">&ndash;</td><td class="tot">17</td><td>9.7%</td></tr>
+<tr><td>COUNTERTREND</td><td><a href="stage_report_dax_countertrend_2026-10-06.html" title="4 DAX stock(s) in COUNTERTREND">4</a></td><td><a href="stage_report_mdax_countertrend_2026-10-06.html" title="3 MDAX stock(s) in COUNTERTREND">3</a></td><td>0</td><td class="col-exp">0</td><td class="col-exp">&ndash;</td><td class="tot">7</td><td>4.0%</td></tr>
+<tr><td>BASING</td><td>0</td><td><a href="stage_report_mdax_basing_2026-10-06.html" title="1 MDAX stock(s) in BASING">1</a></td><td><a href="stage_report_sdax_basing_2026-10-06.html" title="2 SDAX stock(s) in BASING">2</a></td><td class="col-exp"><a href="stage_report_pdax_basing_2026-10-06.html" title="3 PDAX stock(s) in BASING">3</a></td><td class="col-exp">&ndash;</td><td class="tot">6</td><td>3.4%</td></tr>
 </tbody>
-</table>
+</table><h2>Overview Summary</h2><details class="ovsum"><summary>DAX</summary><pre class="detail">========================
+Overview Summary
+========================
+
+PAUSE          19  RWE, MUV2, HNR1, IFX, BNR, AIR, SHL, BAYN, BEI, FRE  (Prepare)
+BREAKOUT       5  QIA, G1A, SAP, DB1, MTX  (Add positions.)
+TRANSITION     5  HEI, HOT, VNA, VOW3, MBG  (Watch closely — regime changing.)
+COUNTERTREND   4  MRK, FME, CON, ZAL  (Trade only — not an investment.)
+CONTINUATION   3  SY1, DHL, SIE  (Hold winners.)
+DOWNTREND      2  RHM, BMW  (Avoid; do not catch a falling knife.)
+PULLBACK       2  DTG, DBK  (🟢 Buy-the-dip candidate)
+
+--------------------------
+Weekly Bull        17  QIA, G1A, SAP, DB1, MTX, RWE, SY1, DHL, SIE, BNR
+Weekly Bear        7  MRK, RHM, FME, CON, BMW, VOW3, ZAL
+Weekly Neutral     16  MUV2, HNR1, IFX, BEI, FRE, ADS, DTE, HEI, ENR, HOT
+Daily Bull         16  QIA, G1A, SAP, DB1, MTX, SY1, DHL, SIE, HNR1, MRK
+Daily Bear         9  DTG, RHM, HEI, HOT, VNA, BMW, DBK, ALV, MBG
+Daily Neutral      15  RWE, MUV2, BNR, AIR, SHL, BAYN, FRE, ADS, CBK, DTE
+
+Energy
+  RELEASED     22  QIA, G1A, SAP, DB1, MRK, BNR, AIR, DTG, FRE, ADS
+  NONE         12  SY1, SIE, HNR1, IFX, SHL, BEI, FME, CON, ENR, DBK
+  COMPRESSION  4  MTX, RWE, MUV2, BAS
+  EXHAUSTION   2  DHL, BAYN
+
+Trend Alignment
+  BULL/BULL            8  QIA, G1A, SAP, DB1, MTX, SY1, DHL, SIE
+  NEUTRAL/NEUTRAL      7  MUV2, FRE, ADS, DTE, BAS, EOAN, G24
+  BULL/NEUTRAL         7  RWE, BNR, AIR, SHL, BAYN, CBK, HEN3
+  NEUTRAL/BEAR         5  HEI, HOT, VNA, ALV, MBG
+  NEUTRAL/BULL         4  HNR1, IFX, BEI, ENR
+  BEAR/BULL            4  MRK, FME, CON, ZAL
+  BEAR/BEAR            2  RHM, BMW
+  BULL/BEAR            2  DTG, DBK
+  BEAR/NEUTRAL         1  VOW3
+
+Average Score ...... 62.2
+Median Score ....... 61.5
+Top Sector ......... software
+Weakest Sector ..... retail
+Leadership Width ... 42.5%
+
+Top Breakout Candidates
+QIA, G1A, SAP, DB1, MTX
+
+Strongest Continuations
+SY1, SIE, DHL
+
+Weakest Structures  (structural deterioration -- avoid)
+ZAL, BMW, RHM, CON, DBK, FME, DTG, MRK
+
+Recovery Candidates  (low score but improving -- watch)
+RWE, AIR, FRE, DTE, G24, FME, MUV2, MRK, BNR, ADS</pre></details><details class="ovsum"><summary>MDAX</summary><pre class="detail">========================
+Overview Summary
+========================
+
+PAUSE          28  WAF, EVD, P911, IOS, BC8, TKA, JEN, FRA, NDX1, ELG  (Prepare)
+TRANSITION     12  SMHN, LHA, 8TRA, AG1, R3NK, PUM, LEG, TEG, FTK, LXS  (Watch closely — regime changing.)
+COUNTERTREND   3  AIXA, TUI1, AMV0  (Trade only — not an investment.)
+BREAKOUT       3  FPE3, EVK, SRT3  (Add positions.)
+CONTINUATION   2  NEM, HAG  (Hold winners.)
+BASING         1  AT1  (Watch for confirmation; bottom-fishing only.)
+PULLBACK       1  SDF  (🟢 Buy-the-dip candidate)
+
+--------------------------
+Weekly Bull        11  FPE3, EVK, SRT3, NEM, IOS, BC8, HAG, TKA, SDF, TLX
+Weekly Bear        7  AIXA, TUI1, DHER, 8TRA, KBX, AT1, AMV0
+Weekly Neutral     32  WAF, EVD, P911, JEN, FRA, NDX1, ELG, HLE, TKMS, SMHN
+Daily Bull         12  FPE3, EVK, SRT3, NEM, AIXA, WAF, HAG, JEN, ELG, SMHN
+Daily Bear         16  EVD, SDF, LHA, AG1, R3NK, PUM, AT1, LEG, TEG, UTDI
+Daily Neutral      22  P911, IOS, BC8, TKA, FRA, NDX1, HLE, TKMS, TLX, DHER
+
+Energy
+  RELEASED     22  FPE3, EVK, BC8, FRA, TKMS, SMHN, LHA, 8TRA, AG1, R3NK
+  NONE         15  NEM, IOS, HAG, JEN, TLX, TUI1, DHER, DEZ, UTDI, AMV0
+  COMPRESSION  8  SRT3, WAF, EVD, P911, NDX1, HLE, KBX, KRN
+  EXHAUSTION   5  AIXA, TKA, SDF, ELG, AT1
+
+Trend Alignment
+  NEUTRAL/BEAR         14  EVD, LHA, AG1, R3NK, PUM, LEG, TEG, UTDI, KRN, FTK
+  NEUTRAL/NEUTRAL      14  P911, FRA, NDX1, HLE, TKMS, RRTL, FNTN, PAH3, SAX, DWS
+  BULL/NEUTRAL         5  IOS, BC8, TKA, TLX, DEZ
+  BULL/BULL            5  FPE3, EVK, SRT3, NEM, HAG
+  NEUTRAL/BULL         4  WAF, JEN, ELG, SMHN
+  BEAR/NEUTRAL         3  DHER, 8TRA, KBX
+  BEAR/BULL            3  AIXA, TUI1, AMV0
+  BEAR/BEAR            1  AT1
+  BULL/BEAR            1  SDF
+
+Average Score ...... 55.2
+Median Score ....... 52.0
+Top Sector ......... pharma_healthcare
+Weakest Sector ..... basic_resources
+Leadership Width ... 22.0%
+
+Top Breakout Candidates
+FPE3, EVK, SRT3
+
+Strongest Continuations
+NEM, HAG
+
+Weakest Structures  (structural deterioration -- avoid)
+AMV0, TUI1, AT1, SDF, AIXA
+
+Recovery Candidates  (low score but improving -- watch)
+DHER, AG1, UTDI, EVD, P911, FRA, NDX1, HLE, TKMS, SMHN</pre></details><details class="ovsum"><summary>SDAX</summary><pre class="detail">========================
+Overview Summary
+========================
+
+PAUSE          34  WAC, STO3, SZU, AFX, 1U1, BOSS, BFSA, F3C, TNIE, EUZ  (Wait — no edge.)
+TRANSITION     14  LPK, TPE, EVT, ILM1, DOU, DUE, GLJ, HFG, PNE3, HABA  (Watch closely — regime changing.)
+CONTINUATION   11  1SXP, NA9, GFT, MLP, DRW3, SLYG, SPG, TMV, HDD, HBH  (Hold or Partial Profit)
+BREAKOUT       6  CWC, INH, JST, SGL, YSN, RDC  (Add positions.)
+BASING         2  ADV, DBAN  (Watch for confirmation; bottom-fishing only.)
+DOWNTREND      2  EIN, EKT  (Avoid; do not catch a falling knife.)
+PULLBACK       1  SFQ  (Buy dip inside bull trend.)
+
+--------------------------
+Weekly Bull        27  1SXP, NA9, GFT, MLP, CWC, DRW3, INH, JST, SGL, SLYG
+Weekly Bear        12  EIN, DOU, GLJ, EKT, HFG, ADV, PNE3, STM, KSB3, HABA
+Weekly Neutral     31  LPK, BFSA, TPE, EVT, EUZ, ACT0, BSL, ILM1, 1AST, DUE
+Daily Bull         29  1SXP, NA9, GFT, MLP, CWC, DRW3, INH, JST, SGL, SLYG
+Daily Bear         11  SFQ, EIN, EKT, ADV, V1NC, MUX, HYQ, DBAN, PAT, GYC
+Daily Neutral      30  WAC, STO3, SZU, AFX, 1U1, BOSS, F3C, TNIE, EUZ, BSL
+
+Energy
+  RELEASED     28  CWC, INH, JST, WAC, YSN, LPK, 1U1, RDC, TPE, TNIE
+  NONE         20  SLYG, SPG, TMV, HDD, AFX, HBH, S92, 1AST, SIX2, COK
+  EXHAUSTION   13  1SXP, NA9, GFT, MLP, DRW3, SZU, SFQ, DOU, GLJ, HFG
+  COMPRESSION  9  SGL, STO3, BOSS, BFSA, F3C, ACT0, BSL, KSB3, OBCK
+
+Trend Alignment
+  BULL/BULL            17  1SXP, NA9, GFT, MLP, CWC, DRW3, INH, JST, SGL, SLYG
+  NEUTRAL/NEUTRAL      13  EUZ, BSL, NOEJ, DEQ, OBCK, VBK, IXX, FIE, DMP, VH2
+  NEUTRAL/BULL         12  LPK, BFSA, TPE, EVT, ACT0, ILM1, 1AST, DUE, SIX2, COK
+  BULL/NEUTRAL         9  WAC, STO3, SZU, AFX, 1U1, BOSS, F3C, TNIE, AOF
+  BEAR/NEUTRAL         8  DOU, GLJ, HFG, PNE3, STM, KSB3, HABA, VOS
+  NEUTRAL/BEAR         6  V1NC, MUX, HYQ, PAT, GYC, OHB
+  BEAR/BEAR            4  EIN, EKT, ADV, DBAN
+  BULL/BEAR            1  SFQ
+
+Average Score ...... 61.6
+Median Score ....... 57.5
+Top Sector ......... media
+Weakest Sector ..... banks
+Leadership Width ... 38.6%
+
+Top Breakout Candidates
+CWC, INH, SGL, JST, YSN, RDC
+
+Strongest Continuations
+NA9, 1SXP, GFT, MLP, DRW3, TMV, SPG, SLYG, HDD, S92
+
+Weakest Structures  (structural deterioration -- avoid)
+EKT, EIN, DBAN, ADV, SFQ
+
+Recovery Candidates  (low score but improving -- watch)
+MUX, OBCK, GLJ, WAC, STO3, 1U1, BOSS, TNIE, EVT, EUZ</pre></details><details class="ovsum ovsum-exp"><summary>PDAX</summary><pre class="detail">========================
+Overview Summary
+========================
+
+PAUSE          9  BYW6, TTK, PCZ, PSAN, GXI, SBS, BVB, V6C, FYB  (Wait — no edge.)
+BASING         3  AAD, BRNK, PSM  (Watch for confirmation; bottom-fishing only.)
+CONTINUATION   1  ADN1  (Hold winners.)
+BREAKOUT       1  NCH2  (Add positions.)
+TRANSITION     1  TIMA  (Watch closely — regime changing.)
+
+--------------------------
+Weekly Bull        7  TTK, NCH2, PCZ, PSAN, ADN1, SBS, BVB
+Weekly Bear        4  AAD, BRNK, TIMA, PSM
+Weekly Neutral     4  BYW6, GXI, V6C, FYB
+Daily Bull         3  NCH2, ADN1, GXI
+Daily Bear         4  AAD, BRNK, V6C, PSM
+Daily Neutral      8  BYW6, TTK, PCZ, PSAN, SBS, BVB, TIMA, FYB
+
+Energy
+  EXHAUSTION   6  BYW6, TTK, AAD, BRNK, TIMA, PSM
+  NONE         5  PSAN, ADN1, GXI, BVB, FYB
+  RELEASED     2  NCH2, SBS
+  COMPRESSION  2  PCZ, V6C
+
+Trend Alignment
+  BULL/NEUTRAL         5  TTK, PCZ, PSAN, SBS, BVB
+  BEAR/BEAR            3  AAD, BRNK, PSM
+  BULL/BULL            2  NCH2, ADN1
+  NEUTRAL/NEUTRAL      2  BYW6, FYB
+  NEUTRAL/BULL         1  GXI
+  BEAR/NEUTRAL         1  TIMA
+  NEUTRAL/BEAR         1  V6C
+
+Average Score ...... 61.7
+Median Score ....... 63
+Top Sector ......... banks
+Weakest Sector ..... retail
+Leadership Width ... 46.7%
+
+Top Breakout Candidates
+NCH2
+
+Strongest Continuations
+ADN1
+
+Weakest Structures  (structural deterioration -- avoid)
+PSM, BRNK, AAD
+
+Recovery Candidates  (low score but improving -- watch)
+BRNK, V6C, TTK, PSAN, GXI, BVB, TIMA, FYB, PCZ, SBS</pre></details>
+
+<script>
+(function () {
+  var KEY = 'typelink_report_view';
+  function apply(mode) {
+    var stdOnly = (mode !== 'all');
+    document.body.classList.toggle('std-only', stdOnly);
+    var bStd = document.getElementById('viewStd');
+    var bAll = document.getElementById('viewAll');
+    if (bStd) bStd.classList.toggle('active', stdOnly);
+    if (bAll) bAll.classList.toggle('active', !stdOnly);
+    try { localStorage.setItem(KEY, stdOnly ? 'std' : 'all'); } catch (e) {}
+  }
+  function init() {
+    var mode = 'std';
+    try { mode = localStorage.getItem(KEY) || 'std'; } catch (e) {}
+    var bStd = document.getElementById('viewStd');
+    var bAll = document.getElementById('viewAll');
+    if (!bStd || !bAll) return;   // page without the toggle
+    bStd.addEventListener('click', function () { apply('std'); });
+    bAll.addEventListener('click', function () { apply('all'); });
+    apply(mode);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
 </body>
 </html>

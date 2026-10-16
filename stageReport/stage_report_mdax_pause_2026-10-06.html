@@ -2,8 +2,19 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
-<title>MDAX PAUSE 2026-10-06</title>
-<style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="StageReport">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="stage_icon.png">
+    <link rel="icon" type="image/gif" href="stage_icon.gif">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.json">
+    <title>MDAX PAUSE 2026-10-06</title>
+    <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
            padding: 24px; background: #fff; color: #202124; }
@@ -27,11 +38,179 @@
         padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
         font-family: Consolas, 'Courier New', monospace; }
     .navchips a { display: inline-block; margin: 0 10px 6px 0; font-size: .9rem; }
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+    table.matrix th.col-exp, table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix th.col-exp,
+    body.std-only table.matrix td.col-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+    details.ovsum { margin: 4px 0 12px; }
+    details.ovsum > summary { cursor: pointer; font-weight: 600; padding: 6px 0;
+        font-size: .98rem; }
+    details.ovsum > summary:hover { color: #1a73e8; }
+    details.ovsum[open] > summary { margin-bottom: 6px; }
+    body.std-only details.ovsum-exp { display: none; }
+
+    @media (max-width: 720px) {
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        body {
+            padding: 10px 8px;
+            min-width: 0;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 1.15rem;
+            margin: 0 0 6px;
+            word-break: break-word;
+        }
+        h2 {
+            margin: 18px 0 6px;
+            font-size: 1.0rem;
+        }
+        .meta {
+            font-size: 0.8rem;
+            margin-bottom: 12px;
+        }
+        .crumb {
+            font-size: 0.86rem;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .view-toggle {
+            margin: 0 0 10px;
+            font-size: 0.85rem;
+        }
+        .view-toggle button {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* 
+           Standard view: Exactly DAX, MDAX, SDAX + Total + Share.
+           Table spans 100% of the screen width (360px - 390px device width).
+           The Share column and all other standard columns fit completely on screen
+           with no horizontal scroll required.
+        */
+        table.matrix {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            border-collapse: collapse;
+            margin: 0 0 14px;
+        }
+        table.matrix th, table.matrix td {
+            padding: 7px 3px;
+            white-space: nowrap;
+        }
+        /* State names left aligned */
+        table.matrix th:first-child, table.matrix td:first-child {
+            text-align: left;
+            padding-left: 2px;
+        }
+        /* Numeric columns centered */
+        table.matrix th:not(:first-child), table.matrix td:not(:first-child) {
+            text-align: center;
+        }
+        /* Total column bold */
+        table.matrix td.tot {
+            font-weight: 700;
+        }
+        /* Share column / rightmost column right-aligned */
+        table.matrix th:last-child, table.matrix td:last-child {
+            text-align: right;
+            padding-right: 2px;
+        }
+
+        /* Archive compare movers table */
+        table.movers {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            margin-bottom: 10px;
+        }
+        table.movers th, table.movers td {
+            padding: 6px 3px;
+        }
+        table.movers th:first-child, table.movers td:first-child {
+            text-align: left;
+        }
+        table.movers th:not(:first-child), table.movers td:not(:first-child) {
+            text-align: center;
+        }
+        table.movers th:last-child, table.movers td:last-child {
+            text-align: right;
+        }
+
+        /* Archive compare controls */
+        .cmp-controls {
+            display: flex;
+            gap: 8px 10px;
+            align-items: center;
+            margin: 8px 0 12px;
+            flex-wrap: wrap;
+            font-size: 0.88rem;
+        }
+        .cmp-controls select {
+            font-size: 0.88rem;
+            padding: 4px 6px;
+        }
+        .cmp-controls button {
+            padding: 5px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* Archive calendar */
+        .cal-controls {
+            gap: 8px;
+            margin: 6px 0;
+        }
+        .cal-controls button {
+            padding: 3px 10px;
+        }
+        .cal-grid {
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            gap: 2px;
+            width: 100%;
+            max-width: 360px;
+        }
+        .cal-day {
+            width: auto;
+            height: 34px;
+            font-size: 0.82rem;
+        }
+
+        /* Stock detail & nav tables */
+        table.nav {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+        }
+        table.nav th, table.nav td {
+            padding: 6px 4px;
+        }
+        table.nav td.sum {
+            white-space: normal;
+        }
+
+        pre.detail {
+            font-size: 11px;
+            padding: 10px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
 </style>
 </head>
 <body>
 <div class="meta">MDAX PAUSE 2026-10-06 &middot; log date 2026-10-06</div>
-<div class="crumb"><a href="stage_report_2026-10-06.html">&larr; Stage Report</a></div><h1>MDAX &mdash; PAUSE (28 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#BC8" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">BC8</a></td><td>70</td><td>63%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr><tr><td><a href="#DEZ" title="Long-term trend remains constructive despite a pause in momentum.">DEZ</a></td><td>49</td><td>0%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#DHER" title="Long-term trend remains constructive despite a pause in momentum.">DHER</a></td><td>54</td><td>0%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#DWS" title="Leader pullback with energy released; watch for resumption of the primary trend.">DWS</a></td><td>41</td><td>40%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Leader pullback with energy released; watch for resumption of the primary trend.</td></tr><tr><td><a href="#ELG" title="Strong trend is resting after an extended advance.">ELG</a></td><td>62</td><td>47%</td><td>Undecided (Weekly NEUTRAL, Daily BULL)</td><td>EXHAUSTION</td><td class='sum'>Strong trend is resting after an extended advance.</td></tr><tr><td><a href="#EVD" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">EVD</a></td><td>73</td><td>64%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>COMPRESSION</td><td class='sum'>Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.</td></tr><tr><td><a href="#FNTN" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">FNTN</a></td><td>43</td><td>36%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.</td></tr><tr><td><a href="#FRA" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">FRA</a></td><td>66</td><td>61%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr><tr><td><a href="#HLE" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">HLE</a></td><td>61</td><td>52%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.</td></tr><tr><td><a href="#IOS" title="Long-term trend remains constructive despite a pause in momentum.">IOS</a></td><td>71</td><td>0%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#JEN" title="Trend remains confirmed across timeframes, but with no notable energy signal present.">JEN</a></td><td>68</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily BULL)</td><td>NONE</td><td class='sum'>Trend remains confirmed across timeframes, but with no notable energy signal present.</td></tr><tr><td><a href="#KBX" title="Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.">KBX</a></td><td>50</td><td>48%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.</td></tr><tr><td><a href="#KGX" title="Bearish trend remains confirmed across all timeframes during this consolidation.">KGX</a></td><td>30</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Bearish trend remains confirmed across all timeframes during this consolidation.</td></tr><tr><td><a href="#KRN" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">KRN</a></td><td>42</td><td>43%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>COMPRESSION</td><td class='sum'>Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.</td></tr><tr><td><a href="#NDA" title="Momentum has faded and the trend is entering a consolidation phase.">NDA</a></td><td>41</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Momentum has faded and the trend is entering a consolidation phase.</td></tr><tr><td><a href="#NDX1" title="Sideways consolidation without directional edge.">NDX1</a></td><td>64</td><td>56%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Sideways consolidation without directional edge.</td></tr><tr><td><a href="#P911" title="Sideways consolidation without directional edge.">P911</a></td><td>73</td><td>64%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Sideways consolidation without directional edge.</td></tr><tr><td><a href="#PAH3" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">PAH3</a></td><td>43</td><td>35%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.</td></tr><tr><td><a href="#RRTL" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">RRTL</a></td><td>49</td><td>41%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.</td></tr><tr><td><a href="#SAX" title="Recovery attempt has failed at the momentum level; consolidation continues without a clear edge.">SAX</a></td><td>43</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Recovery attempt has failed at the momentum level; consolidation continues without a clear edge.</td></tr><tr><td><a href="#SHA0" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">SHA0</a></td><td>35</td><td>35%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr><tr><td><a href="#SZG" title="Long-term trend remains constructive despite a pause in momentum.">SZG</a></td><td>31</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#TKA" title="No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP.">TKA</a></td><td>69</td><td>61%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>EXHAUSTION</td><td class='sum'>No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP.</td></tr><tr><td><a href="#TKMS" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">TKMS</a></td><td>60</td><td>52%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</td></tr><tr><td><a href="#TLX" title="Long-term trend remains constructive despite a pause in momentum.">TLX</a></td><td>57</td><td>0%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#UTDI" title="Momentum has faded and the trend is entering a consolidation phase.">UTDI</a></td><td>44</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>NONE</td><td class='sum'>Momentum has faded and the trend is entering a consolidation phase.</td></tr><tr><td><a href="#WAF" title="Consolidation with improving internal strength.">WAF</a></td><td>75</td><td>66%</td><td>Undecided (Weekly NEUTRAL, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>Consolidation with improving internal strength.</td></tr><tr><td><a href="#WCH" title="Long-term trend remains constructive despite a pause in momentum.">WCH</a></td><td>36</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr></table><h2 id="BC8">BC8 <span class="meta">PAUSE</span></h2><pre class="detail">BC8 2026-10-06
+<div class="crumb"><a href="stage_report_2026-10-06.html">&larr; State Report</a></div><h1>MDAX &mdash; PAUSE (28 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#BC8" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">BC8</a></td><td>70</td><td>63%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr><tr><td><a href="#DEZ" title="Long-term trend remains constructive despite a pause in momentum.">DEZ</a></td><td>49</td><td>0%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#DHER" title="Long-term trend remains constructive despite a pause in momentum.">DHER</a></td><td>54</td><td>0%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#DWS" title="Leader pullback with energy released; watch for resumption of the primary trend.">DWS</a></td><td>41</td><td>40%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Leader pullback with energy released; watch for resumption of the primary trend.</td></tr><tr><td><a href="#ELG" title="Strong trend is resting after an extended advance.">ELG</a></td><td>62</td><td>47%</td><td>Undecided (Weekly NEUTRAL, Daily BULL)</td><td>EXHAUSTION</td><td class='sum'>Strong trend is resting after an extended advance.</td></tr><tr><td><a href="#EVD" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">EVD</a></td><td>73</td><td>64%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>COMPRESSION</td><td class='sum'>Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.</td></tr><tr><td><a href="#FNTN" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">FNTN</a></td><td>43</td><td>36%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.</td></tr><tr><td><a href="#FRA" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">FRA</a></td><td>66</td><td>61%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr><tr><td><a href="#HLE" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">HLE</a></td><td>61</td><td>52%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.</td></tr><tr><td><a href="#IOS" title="Long-term trend remains constructive despite a pause in momentum.">IOS</a></td><td>71</td><td>0%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#JEN" title="Trend remains confirmed across timeframes, but with no notable energy signal present.">JEN</a></td><td>68</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily BULL)</td><td>NONE</td><td class='sum'>Trend remains confirmed across timeframes, but with no notable energy signal present.</td></tr><tr><td><a href="#KBX" title="Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.">KBX</a></td><td>50</td><td>48%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum.</td></tr><tr><td><a href="#KGX" title="Bearish trend remains confirmed across all timeframes during this consolidation.">KGX</a></td><td>30</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Bearish trend remains confirmed across all timeframes during this consolidation.</td></tr><tr><td><a href="#KRN" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">KRN</a></td><td>42</td><td>43%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>COMPRESSION</td><td class='sum'>Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.</td></tr><tr><td><a href="#NDA" title="Momentum has faded and the trend is entering a consolidation phase.">NDA</a></td><td>41</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Momentum has faded and the trend is entering a consolidation phase.</td></tr><tr><td><a href="#NDX1" title="Sideways consolidation without directional edge.">NDX1</a></td><td>64</td><td>56%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Sideways consolidation without directional edge.</td></tr><tr><td><a href="#P911" title="Sideways consolidation without directional edge.">P911</a></td><td>73</td><td>64%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>COMPRESSION</td><td class='sum'>Sideways consolidation without directional edge.</td></tr><tr><td><a href="#PAH3" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">PAH3</a></td><td>43</td><td>35%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.</td></tr><tr><td><a href="#RRTL" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">RRTL</a></td><td>49</td><td>41%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.</td></tr><tr><td><a href="#SAX" title="Recovery attempt has failed at the momentum level; consolidation continues without a clear edge.">SAX</a></td><td>43</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Recovery attempt has failed at the momentum level; consolidation continues without a clear edge.</td></tr><tr><td><a href="#SHA0" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">SHA0</a></td><td>35</td><td>35%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr><tr><td><a href="#SZG" title="Long-term trend remains constructive despite a pause in momentum.">SZG</a></td><td>31</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#TKA" title="No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP.">TKA</a></td><td>69</td><td>61%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>EXHAUSTION</td><td class='sum'>No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP.</td></tr><tr><td><a href="#TKMS" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">TKMS</a></td><td>60</td><td>52%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</td></tr><tr><td><a href="#TLX" title="Long-term trend remains constructive despite a pause in momentum.">TLX</a></td><td>57</td><td>0%</td><td>Pause (Weekly BULL, Daily NEUTRAL)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr><tr><td><a href="#UTDI" title="Momentum has faded and the trend is entering a consolidation phase.">UTDI</a></td><td>44</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>NONE</td><td class='sum'>Momentum has faded and the trend is entering a consolidation phase.</td></tr><tr><td><a href="#WAF" title="Consolidation with improving internal strength.">WAF</a></td><td>75</td><td>66%</td><td>Undecided (Weekly NEUTRAL, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>Consolidation with improving internal strength.</td></tr><tr><td><a href="#WCH" title="Long-term trend remains constructive despite a pause in momentum.">WCH</a></td><td>36</td><td>0%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>NONE</td><td class='sum'>Long-term trend remains constructive despite a pause in momentum.</td></tr></table><h2 id="BC8">BC8 <span class="meta">PAUSE</span></h2><pre class="detail">BC8 2026-10-06
 📊 Overview
 --------
 PAUSE
@@ -1908,5 +2087,6 @@ BB Compression : W, D
 📊 Summary
 -------
   Long-term trend remains constructive despite a pause in momentum.</pre>
+
 </body>
 </html>

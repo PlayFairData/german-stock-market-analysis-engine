@@ -1,0 +1,21 @@
+{
+  "name": "German Stock Market State Report",
+  "short_name": "StageReport",
+  "description": "Stock Market State Distribution and Transition Report",
+  "start_url": "stage_report.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1a73e8",
+  "icons": [
+    {
+      "src": "stage_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "stage_icon.gif",
+      "sizes": "96x96",
+      "type": "image/gif"
+    }
+  ]
+}
