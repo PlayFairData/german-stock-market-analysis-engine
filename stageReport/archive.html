@@ -79,7 +79,15 @@
         font-size: 0.74rem; background: #f1f3f4; color: #5f6368; }
     .stock-badge.bull { background: #e6f4ea; color: #0b8a3e; }
     .stock-badge.bear { background: #fce8e6; color: #c5221f; }
+    .stock-badge.refined { background: #e8f0fe; color: #1a73e8; }
     .stock-sum { font-size: 0.84rem; color: #3c4043; line-height: 1.4; }
+    .stock-links { font-size: 0.76rem; margin: 2px 0 3px; }
+    .stock-links a { color: #5f6368; margin-right: 10px; }
+    .stock-links a:hover { color: #1a73e8; }
+    .chart-links { font-weight: 400; font-size: 0.72rem; margin-top: 2px;
+        white-space: nowrap; }
+    .chart-links a { color: #5f6368; margin-right: 8px; }
+    .chart-links a:hover { color: #1a73e8; }
     .cell-btn { background: none; border: none; color: #1a73e8; cursor: pointer;
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
@@ -363,9 +371,10 @@ function esc(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
-var STOCK_CTX = {idx: '', list: []};
+var STOCK_CTX = {idx: '', st: '', list: []};
 function renderStocks(idx, st, list) {
   STOCK_CTX.idx = idx;
+  STOCK_CTX.st = st;
   STOCK_CTX.list = list;
   var n = list.length;
   document.getElementById('modalTitle').textContent =
@@ -380,11 +389,26 @@ function renderStocks(idx, st, list) {
       var bCls = t.indexOf('BULL') >= 0 ? ' bull' : (t.indexOf('BEAR') >= 0 ? ' bear' : '');
       h += '<div class="stock-item"><div class="stock-head">';
       h += '<span class="stock-code">' + esc(s.code) + '</span>';
+      // refined state (e.g. 'DOWNTREND + REBOUND_SIGN') shown when it differs
+      // from the matrix cell's base stage -- explains why the stock sits in
+      // this cell even though its full state name is longer
+      if (s.stage && String(s.stage).split(' + ')[0] !== st) {
+        h += '<span class="stock-badge refined" title="refined state">' + esc(s.stage) + '</span>';
+      }
       if (s.score != null) h += '<span class="stock-badge">Score ' + esc(s.score) + '</span>';
       if (s.confidence != null) h += '<span class="stock-badge">Conf ' + esc(s.confidence) + '%</span>';
       if (s.energy) h += '<span class="stock-badge">' + esc(s.energy) + '</span>';
       if (t) h += '<span class="stock-badge' + bCls + '">' + esc(t) + '</span>';
       h += '<button type="button" class="detail-btn" data-i="' + i + '">Detail</button></div>';
+      // chart pages (LIVE report only; archive records carry no 'charts')
+      if (s.charts && s.charts.length) {
+        h += '<div class="stock-links">';
+        s.charts.forEach(function (c) {
+          h += '<a href="' + esc(c[1]) + '" target="_blank" rel="noopener" title="open ' +
+               esc(c[0]) + ' chart">' + esc(c[0]) + '</a>';
+        });
+        h += '</div>';
+      }
       if (s.summary) h += '<div class="stock-sum">' + esc(s.summary) + '</div>';
       h += '<pre class="stock-detail" id="sd' + i + '"></pre></div>';
     });
@@ -445,6 +469,12 @@ if (location.hash) {
   var dates = Object.keys(H).sort();
   var EXP = ['PDAX', 'CDAX'];
   function isExp(i) { return EXP.indexOf(i) >= 0; }
+  // stock records carry the REFINED state (e.g. 'DOWNTREND + REBOUND_SIGN')
+  // while matrix cells are keyed by the base stage (STAGE_RE stops at ' + '),
+  // so the cell list must match on the base -- otherwise stocks with a
+  // refined state are filtered out and the modal shows fewer stocks than the
+  // cell count (e.g. SDAX/DOWNTREND on 2026-10-06: 2 vs 1)
+  function baseStage(s) { return String(s || '').split(' + ')[0]; }
   var q = new URLSearchParams(location.search).get('date');
   var date = (q && H[q]) ? q : (dates.length ? dates[dates.length - 1] : '');
   var month = date.slice(0, 7);
@@ -462,15 +492,19 @@ if (location.hash) {
     document.getElementById('vMatrix').innerHTML = '<p class="meta">' + esc(t) + '</p>';
   }
 
-  // full stock text lives in data/YYYY-MM.detail.js, loaded on the first Detail click
+  // full stock text AND the full Overview Summary text live in
+  // data/YYYY-MM.detail.js -- loaded on the first Detail click or summary expand
+  function ensureDetailBundle(ok, fail) {
+    if ((window.STAGE_DETAIL || {})[month]) { ok(); return; }
+    loadScript('data/' + month + '.detail.js', ok, fail || function () { ok(); });
+  }
   window.loadStockDetail = function (idx, code, cb) {
     function pick() {
       var m = (window.STAGE_DETAIL || {})[month];
       var t = m && m[date] && m[date][idx] && m[date][idx][code];
       cb(t || '');
     }
-    if ((window.STAGE_DETAIL || {})[month]) { pick(); return; }
-    loadScript('data/' + month + '.detail.js', pick, function () { cb(''); });
+    ensureDetailBundle(pick, function () { cb(''); });
   };
 
   function initNav() {
@@ -528,12 +562,45 @@ if (location.hash) {
 
     var sh = '';
     d.indexes.forEach(function (i) {
-      var t = (d.overview_summary || {})[i];
-      if (!t) return;
-      sh += '<details id="ovsum_' + i.toLowerCase() + '" class="ovsum' + (isExp(i) ? ' ovsum-exp' : '') +
-        '"><summary>' + esc(i) + '</summary><pre class="detail">' + esc(t) + '</pre></details>';
+      var v = (d.overview_summary || {})[i];
+      if (!v) return;
+      var exp = isExp(i) ? ' ovsum-exp' : '';
+      if (typeof v === 'string') {   // old light bundle: inline text
+        sh += '<details id="ovsum_' + i.toLowerCase() + '" class="ovsum' + exp +
+          '"><summary>' + esc(i) + '</summary><pre class="detail">' + esc(v) +
+          '</pre></details>';
+      } else {                       // marker -> lazy text from the detail bundle
+        sh += '<details id="ovsum_' + i.toLowerCase() + '" class="ovsum' + exp +
+          '" data-ovsum="' + esc(i) + '"><summary>' + esc(i) +
+          '</summary><pre class="detail">loading &hellip;</pre></details>';
+      }
     });
     document.getElementById('vSummary').innerHTML = sh ? '<h2>Overview Summary</h2>' + sh : '';
+    bindSummaryLazy();
+  }
+
+  // lazy-fill an expanded summary <details> from the detail bundle
+  function fillSummary(el, idx) {
+    var pre = el.querySelector('pre.detail');
+    function pick() {
+      var m = (window.STAGE_DETAIL || {})[month];
+      var t = m && m[date] && m[date]['__summary__'] && m[date]['__summary__'][idx];
+      if (pre) pre.textContent = t || 'no summary text stored for this day';
+    }
+    if ((window.STAGE_DETAIL || {})[month]) { pick(); return; }
+    ensureDetailBundle(pick, function () {
+      if (pre) pre.textContent = 'cannot load data/' + month + '.detail.js';
+    });
+  }
+  function bindSummaryLazy() {
+    var els = document.querySelectorAll('details[data-ovsum]');
+    for (var k = 0; k < els.length; k++) {
+      (function (el) {
+        el.addEventListener('toggle', function () {
+          if (el.open) fillSummary(el, el.getAttribute('data-ovsum'));
+        });
+      })(els[k]);
+    }
   }
 
   document.getElementById('vMatrix').addEventListener('click', function (e) {
@@ -541,7 +608,7 @@ if (location.hash) {
     if (!t.classList || !t.classList.contains('cell-btn')) return;
     var idx = t.getAttribute('data-idx');
     var st = t.getAttribute('data-st');
-    var list = ((DAY.stocks || {})[idx] || []).filter(function (r) { return r.stage === st; });
+    var list = ((DAY.stocks || {})[idx] || []).filter(function (r) { return baseStage(r.stage) === st; });
     renderStocks(idx, st, list);
   });
 
