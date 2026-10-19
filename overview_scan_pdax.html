@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>overview_scan PDAX 2026-10-15</title>
+    <title>overview_scan PDAX 2026-10-16</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -84,6 +84,17 @@
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
     .cell-btn:hover { color: #174ea6; }
+
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
 
     @media (max-width: 720px) {
         html {
@@ -235,18 +246,25 @@
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
         }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
     }
 </style>
 </head>
 <body>
-<div class="meta">overview_scan PDAX 2026-10-15 &middot; log date 2026-10-15</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1><a href="#overview_summary" title="jump to Overview Summary">overview_scan</a> PDAX &mdash; 15 stocks</h1><div class="navchips"><a href="#AAD" title="Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.">AAD</a> <a href="#ADN1" title="No summary rule yet for PULLBACK + Countertrend Rally + COMPRESSION">ADN1</a> <a href="#BRNK" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">BRNK</a> <a href="#BVB" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">BVB</a> <a href="#BYW6" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">BYW6</a> <a href="#FYB" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">FYB</a> <a href="#GXI" title="No summary rule yet for PULLBACK + Early Bull Reversal + NONE">GXI</a> <a href="#NCH2" title="Countertrend rally with energy released, but the pause state means the move is not yet structurally confirmed.">NCH2</a> <a href="#PCZ" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">PCZ</a> <a href="#PSAN" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">PSAN</a> <a href="#PSM" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">PSM</a> <a href="#SBS" title="No summary rule yet for PULLBACK + Early Bull Reversal + RELEASED">SBS</a> <a href="#TIMA" title="No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION">TIMA</a> <a href="#TTK" title="Consolidation near a potential topping phase.">TTK</a> <a href="#V6C" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">V6C</a></div><pre class="detail">[overview 2026-10-15 PDAX]
+<div class="meta">overview_scan PDAX 2026-10-16 &middot; log date 2026-10-16</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1><a href="#overview_summary" title="jump to Overview Summary">overview_scan</a> PDAX &mdash; 15 stocks</h1><div class="navchips"><a href="#AAD" title="Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.">AAD</a> <a href="#ADN1" title="No summary rule yet for PULLBACK + Countertrend Rally + COMPRESSION">ADN1</a> <a href="#BRNK" title="Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.">BRNK</a> <a href="#BVB" title="Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing.">BVB</a> <a href="#BYW6" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">BYW6</a> <a href="#FYB" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">FYB</a> <a href="#GXI" title="No summary rule yet for BREAKOUT + Early Bull Reversal + NONE">GXI</a> <a href="#NCH2" title="Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.">NCH2</a> <a href="#PCZ" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">PCZ</a> <a href="#PSAN" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">PSAN</a> <a href="#PSM" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">PSM</a> <a href="#SBS" title="No summary rule yet for PULLBACK + Early Bull Reversal + NONE">SBS</a> <a href="#TIMA" title="No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION">TIMA</a> <a href="#TTK" title="No summary rule yet for PULLBACK + Failed Recovery + EXHAUSTION">TTK</a> <a href="#V6C" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">V6C</a></div><pre class="detail">[overview 2026-10-16 PDAX]
 
 ============================================================
 <a id="AAD"></a>[detail 1/15] AAD
 ============================================================
 
-AAD 2026-10-15
+AAD 2026-10-16
 📊 Overview
 --------
 State              : TRANSITION
@@ -255,7 +273,7 @@ State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=E
 Breakout Event     : False
 Breakout Resistance : 18.84
 Breakout Window    : 20
-Score      : 59  (W 27.0 + D 17.5 + E 8.0  cycle 7)
+Score      : 57  (W 27.0 + D 17.5 + E 8.0  cycle 5)
 Confidence : 52%
 Trend      : Stabilizing (Weekly BEAR, Daily NEUTRAL)
 
@@ -283,33 +301,34 @@ Phase  : TREND_EXHAUSTION
 📊 Cycle
 -----
 Stage    : RECOVERY
-Rank     : 80
+Rank     : 75
 BB Zone  :
   Pivot  : L
-  Today  : L   -&gt; (0)
+  Today  : LM   ^ (+1)
+  Drift  : Bullish drift   (stage=?, leg=? (pivot not aligned with stage (uptrend narrative not confirmed)))
 Alignment: 3 (Full)
-Swing Age: 0d
-Pivot Drift: L -&gt; L  dZ=0  Aligned
+Swing Age: 1d
+Pivot Drift: L -&gt; LM  dZ=+1  Recovery drift
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 6d / -10.6
-  Extreme / Diff%: 15.12 / 1.2
-  vs DAX%        : -11.8
+  Age / Perf%    : 1W / -7.2
+  Extreme / Diff%: 15.12 / 5.0
+  vs DAX%        : -9.3
 
 📊 Momentum
 --------
-MACD Age      : M ▼37mo | W ▼25w | D ▼7d
+MACD Age      : M ▼37mo | W ▼25w | D ▼8d
 Momentum Slope: Monthly Recovering | Weekly Recovering | Daily Recovering
-Divergence    : Daily Hidden Bear (+4d, Low confidence)
+Divergence    : Daily Hidden Bear (+5d, Low confidence)
 Pattern       : Confirmed Downtrend
 
 Signal:
 Bullish
-MACD Golden Cross : W(+25w), D(+7d)
+MACD Golden Cross : W(+25w), D(+8d)
 Bearish
 MACD Death Cross : M(+37mo)
-MACD Below Zero : M(+37mo), W(+25w), D(+7d)
+MACD Below Zero : M(+37mo), W(+25w), D(+8d)
 Price Below MA200 : W, D
 Neutral
 ADX Strong : W
@@ -322,7 +341,7 @@ ADX Strong : W
 <a id="ADN1"></a>[detail 2/15] ADN1
 ============================================================
 
-ADN1 2026-10-15
+ADN1 2026-10-16
 📊 Overview
 --------
 State              : PULLBACK
@@ -331,8 +350,8 @@ State Reason       : bullish weekly/daily trend; cycle stage PULLBACK
 Breakout Event     : False
 Breakout Resistance : 68.1
 Breakout Window    : 20
-Score      : 83  (W 33.8 + D 29.7 + E 13.0  cycle 7)
-Confidence : 76%
+Score      : 81  (W 33.8 + D 31.5 + E 9.0  cycle 7)
+Confidence : 72%
 Trend      : Confirmation (Weekly BULL, Daily BULL)
 
 📊 Weekly
@@ -348,8 +367,8 @@ Context : Uptrend structure with weak trend strength and expanding volatility.
 Trend : Bull
 ADX   : BUILDING
 MA    : Up (MA9&gt;MA50 MA50&lt;MA200)
-BB    : EXPANDING
-Context : Uptrend structure with building trend strength and expanding volatility.
+BB    : DRIFT_UP
+Context : Healthy trend expansion from consolidation.
 
 📊 Energy
 ------
@@ -361,37 +380,36 @@ Phase  : ENERGY_BUILDING
 Stage    : PULLBACK
 Rank     : 80
 BB Zone  :
-  Pivot  : U
-  Today  : MU   v (-1)
-  Drift  : Bearish drift   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
+  Pivot  : MU
+  Today  : MU   -&gt; (0)
 Alignment: 3 (Full)
-Swing Age: 1d
-Pivot Drift: U -&gt; MU  dZ=-1  Pullback drift
+Swing Age: 0d
+Pivot Drift: MU -&gt; MU  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wU   (dZ=3)
   Drift          : Bullish breakout
-  Age / Perf%    : 3W / 24.8
-  Extreme / Diff%: 68.1 / -1.0
-  vs DAX%        : 24.3
+  Age / Perf%    : 3W / 26.3
+  Extreme / Diff%: 69.6 / -2.0
+  vs DAX%        : 24.9
 
 📊 Momentum
 --------
-MACD Age      : M ▼8mo | W ▼21w | D ▲10d
-Momentum Slope: Monthly Recovering | Weekly Deepening | Daily Rising
+MACD Age      : M ▼8mo | W ▼21w | D ▲11d
+Momentum Slope: Monthly Recovering | Weekly Deepening | Daily Flat
 Divergence    : none
 Pattern       : Countertrend Rally
 
 Signal:
 Bullish
-MACD Golden Cross : W(+21w), D(+10d)
-MACD Above Zero : D(+10d)
+MACD Golden Cross : W(+21w), D(+11d)
+MACD Above Zero : D(+11d)
 Price Above MA200 : D
 Bearish
 MACD Death Cross : M(+8mo)
 MACD Below Zero : M(+8mo), W(+21w)
 Price Below MA200 : W
 Neutral
-BB Expansion : W, D
+BB Expansion : W
 
 📊 Summary
 -------
@@ -401,18 +419,18 @@ BB Expansion : W, D
 <a id="BRNK"></a>[detail 3/15] BRNK
 ============================================================
 
-BRNK 2026-10-15
+BRNK 2026-10-16
 📊 Overview
 --------
-State              : BASING
-Raw State          : BASING
-State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=PULLBACK, breakout_event=False
+State              : TRANSITION
+Raw State          : TRANSITION
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=EXHAUSTION, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
 Breakout Resistance : 0.67
 Breakout Window    : 20
-Score      : 44  (W 15.8 + D 19.2 + E 10.0  cycle -1)
-Confidence : 44%
-Trend      : Confirmation (Weekly BEAR, Daily BEAR)
+Score      : 49  (W 15.8 + D 24.5 + E 10.0  cycle -1)
+Confidence : 48%
+Trend      : Stabilizing (Weekly BEAR, Daily NEUTRAL)
 
 📊 Weekly
 ------
@@ -424,11 +442,11 @@ Context : Established bearish trend with expanding downside momentum.
 
 📊 Daily
 -----
-Trend : Bear
+Trend : Neutral
 ADX   : STRONG
-MA    : Mixed (MA9&lt;MA50 MA50&lt;MA200)
-BB    : SQUEEZE
-Context : Mixed trend structure with strong trend strength and compressing volatility.
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : EXPANDING
+Context : Bear trend accelerating.
 
 📊 Energy
 ------
@@ -443,56 +461,56 @@ BB Zone  :
   Pivot  : LM
   Today  : LM   -&gt; (0)
 Alignment: 2 (Partial)
-Swing Age: 0d
+Swing Age: 1d
 Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wL -&gt; wLM   (dZ=1)
   Drift          : Bullish drift
-  Age / Perf%    : 1d / 100.0
-  Extreme / Diff%: 0.54 / -22.2
-  vs DAX%        : 99.7
+  Age / Perf%    : 2d / 90.5
+  Extreme / Diff%: 0.54 / -25.9
+  vs DAX%        : 89.2
 
 📊 Momentum
 --------
-MACD Age      : M ▼2mo | W ▼7w | D ▼8d
+MACD Age      : M ▼2mo | W ▼7w | D ▼9d
 Momentum Slope: Monthly Turning | Weekly Deepening | Daily Recovering
 Divergence    : none
 Pattern       : Confirmed Downtrend
 
 Signal:
 Bullish
-ADX Rising : W, D
+ADX Rising : W
 Bearish
-MACD Death Cross : M(+2mo), W(+7w), D(+8d)
-MACD Below Zero : M(+2mo), W(+7w), D(+8d)
+MACD Death Cross : M(+2mo), W(+7w), D(+9d)
+MACD Below Zero : M(+2mo), W(+7w), D(+9d)
 Price Below MA200 : W, D
 Neutral
-BB Compression : D
+BB Expansion : D
 
 Smart Money Distribution
 ------------------------
-Severity   : ALERT
-VolRatio   : 7.07  SpikeDays: 3
-Pwh / Pwh_rel : -22.22 / -21.95  wtraj: +
-  -&gt; Volume elevated 3/5 days, persistent=True, Pwh_rel -21.95
+Severity   : CONFIRMED
+VolRatio   : 5.07  SpikeDays: 4
+Pwh / Pwh_rel : -25.92 / -25.65  wtraj: +
+  -&gt; Volume elevated 4/5 days, persistent=True, Pwh_rel -25.65
   -&gt; weekly uptrend intact
-  -&gt; Distribution alert -- volume + relative weakness building.
+  -&gt; Distribution confirmed -- reduce exposure.
 
 Institutional Activity
 ----------------------
-VolRatio   : 7.07   DAX Ratio: 1.52
-1d Ret     : +100.0%   Pwh_rel: -21.95
-  -&gt; Volume 7.07x baseline (DAX 1.52x), 1-day return +100.0%, Pwh_rel -21.95 -- unusual institutional volume, watch
+VolRatio   : 5.07   DAX Ratio: 1.34
+1d Ret     : -4.8%   Pwh_rel: -25.65
+  -&gt; Volume 5.07x baseline (DAX 1.34x), 1-day return -4.8%, Pwh_rel -25.65 -- unusual institutional volume, watch
 
 📊 Summary
 -------
-  Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.
+  Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening.
 
 ============================================================
 <a id="BVB"></a>[detail 4/15] BVB
 ============================================================
 
-BVB 2026-10-15
+BVB 2026-10-16
 📊 Overview
 --------
 State              : PAUSE
@@ -501,8 +519,8 @@ State Reason       : STATE_MATRIX retained; weekly=NEUTRAL, daily=NEUTRAL, energ
 Breakout Event     : False
 Breakout Resistance : 3.27
 Breakout Window    : 20
-Score      : 57  (W 29.2 + D 7.0 + E 16.0  cycle 5)
-Confidence : 45%
+Score      : 61  (W 22.5 + D 17.5 + E 16.0  cycle 5)
+Confidence : 55%
 Trend      : Undecided (Weekly NEUTRAL, Daily NEUTRAL)
 
 📊 Weekly
@@ -510,16 +528,16 @@ Trend      : Undecided (Weekly NEUTRAL, Daily NEUTRAL)
 Trend : Neutral
 ADX   : BUILDING
 MA    : Up (MA9&gt;MA50 MA50=MA200)
-BB    : EXPANDING
-Context : Uptrend structure with building trend strength and expanding volatility.
+BB    : SQUEEZE
+Context : Uptrend structure with building trend strength and compressing volatility.
 
 📊 Daily
 -----
 Trend : Neutral
 ADX   : WEAK
-MA    : Down (MA9&lt;MA50 MA50&gt;MA200)
-BB    : DRIFT_DOWN
-Context : Downtrend structure with weak trend strength and price drifting down the bands.
+MA    : Mixed (MA9&lt;MA50 MA50&gt;MA200)
+BB    : EXPANDING
+Context : Mixed trend structure with weak trend strength and expanding volatility.
 
 📊 Energy
 ------
@@ -534,36 +552,32 @@ BB Zone  :
   Pivot  : LM
   Today  : LM   -&gt; (0)
 Alignment: 3 (Full)
-Swing Age: 0d
-Band Cross: Bear cross wMA50+wMA200 (3.09x vol) [STRONG]
+Swing Age: 1d
+Band Cross: Bull cross wMA50+wMA200 INVALID (vol 0.63x (noise &lt;0.7x)) [INVALID]
 Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wU -&gt; wLM   (dZ=-3)
   Drift          : Bearish breakdown
-  Age / Perf%    : 6W / -8.8
-  Extreme / Diff%: 3.02 / 0.0
-  vs DAX%        : -5.5
+  Age / Perf%    : 6W / -6.6
+  Extreme / Diff%: 3.02 / 2.3
+  vs DAX%        : -4.2
 
 📊 Momentum
 --------
-MACD Age      : M ▼10mo | W ▼0w | D ▼28d
-Momentum Slope: Monthly Recovering | Weekly Turning | Daily Deepening
+MACD Age      : M ▼10mo | W ▼26w | D ▼29d
+Momentum Slope: Monthly Recovering | Weekly Recovering | Daily Recovering
 Divergence    : none
 Pattern       : Confirmed Downtrend
 
 Signal:
+Bullish
+MACD Golden Cross : W(+26w)
 Bearish
-MACD Death Cross : M(+10mo), W(+0w), D(+28d)
-MACD Below Zero : M(+10mo), W(+0w), D(+28d)
-Price Below MA200 : W, D
+MACD Death Cross : M(+10mo), D(+29d)
+MACD Below Zero : M(+10mo), W(+26w), D(+29d)
+Price Below MA200 : D
 Neutral
-BB Expansion : W
-
-Institutional Activity
-----------------------
-VolRatio   : 3.35   DAX Ratio: 1.52
-1d Ret     : -1.3%   Pwh_rel: -3.85
-  -&gt; Volume 3.35x baseline (DAX 1.52x), 1-day return -1.3%, Pwh_rel -3.85 -- unusual institutional volume, watch
+BB Compression : W
 
 📊 Summary
 -------
@@ -573,7 +587,7 @@ VolRatio   : 3.35   DAX Ratio: 1.52
 <a id="BYW6"></a>[detail 5/15] BYW6
 ============================================================
 
-BYW6 2026-10-15
+BYW6 2026-10-16
 📊 Overview
 --------
 State              : BASING
@@ -582,8 +596,8 @@ State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHA
 Breakout Event     : False
 Breakout Resistance : 2.69
 Breakout Window    : 20
-Score      : 63  (W 33.8 + D 14.0 + E 10.0  cycle 5)
-Confidence : 55%
+Score      : 68  (W 33.8 + D 19.2 + E 10.0  cycle 5)
+Confidence : 62%
 Trend      : Confirmation (Weekly BEAR, Daily BEAR)
 
 📊 Weekly
@@ -599,8 +613,8 @@ Context : Bear trend accelerating.
 Trend : Bear
 ADX   : VERY_STRONG
 MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
-BB    : DRIFT_DOWN
-Context : Established bearish trend with expanding downside momentum.
+BB    : EXPANDING
+Context : Bear trend accelerating.
 
 📊 Energy
 ------
@@ -615,20 +629,20 @@ BB Zone  :
   Pivot  : LM
   Today  : LM   -&gt; (0)
 Alignment: 3 (Full)
-Swing Age: 0d
+Swing Age: 1d
 Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wMU -&gt; wLM   (dZ=-2)
   Drift          : Bearish breakdown
   Age / Perf%    : 4W / -9.8
   Extreme / Diff%: 2.27 / 5.3
-  vs DAX%        : -8.5
+  vs DAX%        : -9.4
 
 📊 Momentum
 --------
-MACD Age      : M ▼16mo | W ▼39w | D ▼5d
-Momentum Slope: Monthly Deepening | Weekly Recovering | Daily Recovering
-Divergence    : Daily Hidden Bull (+3d, High confidence)
+MACD Age      : M ▼16mo | W ▼39w | D ▼6d
+Momentum Slope: Monthly Deepening | Weekly Recovering | Daily Flat
+Divergence    : Daily Hidden Bull (+4d, High confidence)
 Pattern       : Confirmed Downtrend
 
 Signal:
@@ -636,11 +650,11 @@ Bullish
 MACD Golden Cross : M(+16mo), W(+39w)
 ADX Rising : W, D
 Bearish
-MACD Death Cross : D(+5d)
-MACD Below Zero : M(+16mo), W(+39w), D(+5d)
+MACD Death Cross : D(+6d)
+MACD Below Zero : M(+16mo), W(+39w), D(+6d)
 Price Below MA200 : W, D
 Neutral
-BB Expansion : W
+BB Expansion : W, D
 
 📊 Summary
 -------
@@ -650,7 +664,7 @@ BB Expansion : W
 <a id="FYB"></a>[detail 6/15] FYB
 ============================================================
 
-FYB 2026-10-15
+FYB 2026-10-16
 📊 Overview
 --------
 State              : PULLBACK
@@ -659,8 +673,8 @@ State Reason       : bullish weekly/daily trend; cycle stage PULLBACK
 Breakout Event     : False
 Breakout Resistance : 22.1
 Breakout Window    : 20
-Score      : 73  (W 33.8 + D 22.8 + E 15.0  cycle 1)
-Confidence : 71%
+Score      : 75  (W 33.8 + D 29.7 + E 11.0  cycle 1)
+Confidence : 74%
 Trend      : Confirmation (Weekly BULL, Daily BULL)
 
 📊 Weekly
@@ -675,50 +689,49 @@ Context : Range compression, waiting for breakout.
 -----
 Trend : Bull
 ADX   : BUILDING
-MA    : Mixed (MA9&lt;MA50 MA50&lt;MA200)
-BB    : DRIFT_DOWN
-Context : Mixed trend structure with building trend strength and price drifting down the bands.
+MA    : Up (MA9&lt;MA50 MA50&lt;MA200)
+BB    : EXPANDING
+Context : Uptrend structure with building trend strength and expanding volatility.
 
 📊 Energy
 ------
 Family : COMPRESSION
-Phase  : COMPRESSION
+Phase  : WEAK_COMPRESSION
 
 📊 Cycle
 -----
 Stage    : PULLBACK
-Rank     : 70
+Rank     : 75
 BB Zone  :
   Pivot  : U
-  Today  : M   v (-2)
-  Drift  : Bearish breakdown   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
+  Today  : MU   v (-1)
+  Drift  : Bearish drift   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
 Alignment: 2 (Partial)
-Swing Age: 2d
-Band Cross: Strong bull cross wMA+wMA9, reached wUB (2.07x vol) [STRONG]
-Pivot Drift: U -&gt; M  dZ=-2  Sharp pullback
+Swing Age: 3d
+Band Cross: Bull cross wMA+wMA9 INVALID (vol 0.38x (noise &lt;0.7x)) [INVALID]
+Pivot Drift: U -&gt; MU  dZ=-1  Pullback drift
 Weekly Pivot Trend:
   Pivot -&gt; Today : wU -&gt; wMU   (dZ=-1)
   Drift          : Pullback drift
-  Age / Perf%    : 2d / -9.8
-  Extreme / Diff%: 19.26 / 0.7
-  vs DAX%        : -10.3
+  Age / Perf%    : 3d / -7.3
+  Extreme / Diff%: 19.26 / 3.4
+  vs DAX%        : -8.7
 
 📊 Momentum
 --------
-MACD Age      : M n/a | W ▼21w | D ▲2d
-Momentum Slope: Monthly - | Weekly Recovering | Daily Turning
+MACD Age      : M n/a | W ▼21w | D ▲3d
+Momentum Slope: Monthly - | Weekly Recovering | Daily Fading
 Divergence    : none
 Pattern       : ? - +
 
 Signal:
 Bullish
-MACD Golden Cross : W(+21w), D(+2d)
-MACD Above Zero : D(+2d)
-Price Above MA20 : W
+MACD Golden Cross : W(+21w), D(+3d)
+MACD Above Zero : D(+3d)
+Price Above MA20 : W, D
 Bearish
 MACD Below Zero : W(+21w)
 Price Below MA200 : W, D
-BB Upper Reversal : W, D
 Neutral
 BB Compression : W
 
@@ -730,16 +743,16 @@ BB Compression : W
 <a id="GXI"></a>[detail 7/15] GXI
 ============================================================
 
-GXI 2026-10-15
+GXI 2026-10-16
 📊 Overview
 --------
-State              : PULLBACK
+State              : BREAKOUT
 Raw State          : CONTINUATION
-State Reason       : bullish weekly/daily trend; cycle stage PULLBACK
-Breakout Event     : False
-Breakout Resistance : 29.76
+State Reason       : confirmed prior-high crossing; weekly and daily Bull
+Breakout Event     : True
+Breakout Resistance : 29.82
 Breakout Window    : 20
-Score      : 83  (W 42.8 + D 35.0 + E 0.0  cycle 5)
+Score      : 77  (W 42.8 + D 29.7 + E 0.0  cycle 5)
 Confidence : 0%
 Trend      : Confirmation (Weekly BULL, Daily BULL)
 
@@ -756,8 +769,8 @@ Context : Uptrend structure with weak trend strength and expanding volatility.
 Trend : Bull
 ADX   : BUILDING
 MA    : Up (MA9&gt;MA50 MA50&gt;MA200)
-BB    : DRIFT_UP
-Context : Healthy trend expansion from consolidation.
+BB    : EXPANDING
+Context : Uptrend structure with building trend strength and expanding volatility.
 
 📊 Energy
 ------
@@ -769,46 +782,52 @@ Phase  : NONE
 Stage    : PULLBACK
 Rank     : 75
 BB Zone  :
-  Pivot  : MU
-  Today  : MU   -&gt; (0)
+  Pivot  : U
+  Today  : U   -&gt; (0)
 Alignment: 3 (Full)
-Swing Age: 1d
-Pivot Drift: MU -&gt; MU  dZ=0  Aligned
+Swing Age: 0d
+Pivot Drift: U -&gt; U  dZ=0  Aligned
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wLM -&gt; wMU   (dZ=2)
+  Pivot -&gt; Today : wLM -&gt; wU   (dZ=3)
   Drift          : Bullish breakout
-  Age / Perf%    : 2W / 10.2
-  Extreme / Diff%: 29.82 / -3.8
-  vs DAX%        : 10.3
+  Age / Perf%    : 3W / 16.9
+  Extreme / Diff%: 30.48 / -0.1
+  vs DAX%        : 16.1
 
 📊 Momentum
 --------
-MACD Age      : M ▼2mo | W ▲44w | D ▲11d
-Momentum Slope: Monthly Turning | Weekly Rising | Daily Fading
+MACD Age      : M ▼2mo | W ▲44w | D ▲12d
+Momentum Slope: Monthly Turning | Weekly Rising | Daily Rising
 Divergence    : none
 Pattern       : Early Bull Reversal
 
 Signal:
 Bullish
-MACD Golden Cross : M(+2mo), W(+44w), D(+11d)
-MACD Above Zero : W(+44w), D(+11d)
+MACD Golden Cross : M(+2mo), W(+44w), D(+12d)
+MACD Above Zero : W(+44w), D(+12d)
 Price Above MA200 : D
 Bearish
 MACD Below Zero : M(+2mo)
 Price Below MA200 : W
 ADX Falling : W
 Neutral
-BB Expansion : W
+BB Expansion : W, D
+
+Institutional Activity
+----------------------
+VolRatio   : 3.05   DAX Ratio: 1.34
+1d Ret     : +6.1%   Pwh_rel: 0.14
+  -&gt; Volume 3.05x baseline (DAX 1.34x), 1-day return +6.1%, Pwh_rel 0.14 -- unusual institutional volume, watch
 
 📊 Summary
 -------
-  No summary rule yet for PULLBACK + Early Bull Reversal + NONE 
+  No summary rule yet for BREAKOUT + Early Bull Reversal + NONE 
 
 ============================================================
 <a id="NCH2"></a>[detail 8/15] NCH2
 ============================================================
 
-NCH2 2026-10-15
+NCH2 2026-10-16
 📊 Overview
 --------
 State              : PAUSE
@@ -850,50 +869,43 @@ BB Zone  :
   Pivot  : L
   Today  : L   -&gt; (0)
 Alignment: 2 (Partial)
-Swing Age: 0d
-Band Cross: Bear cross wMA9+wMA (1.77x vol) [STRONG]
+Swing Age: 1d
+Band Cross: Bear cross wMA9+wMA INVALID (vol 0.93x (weak &lt;1.0x)) [WEAK]
 Pivot Drift: L -&gt; L  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wMU -&gt; wLM   (dZ=-2)
   Drift          : Bearish breakdown
-  Age / Perf%    : 1W / -13.2
-  Extreme / Diff%: 7.62 / 0.0
-  vs DAX%        : -13.8
+  Age / Perf%    : 2W / -11.2
+  Extreme / Diff%: 7.62 / 2.4
+  vs DAX%        : -12.8
 
 📊 Momentum
 --------
-MACD Age      : M ▼18mo | W ▼9w | D ▲4d
-Momentum Slope: Monthly Deepening | Weekly Recovering | Daily Rising
+MACD Age      : M ▼18mo | W ▼9w | D ▼5d
+Momentum Slope: Monthly Deepening | Weekly Recovering | Daily Deepening
 Divergence    : none
-Pattern       : Countertrend Rally
+Pattern       : Confirmed Downtrend
 
 Signal:
 Bullish
 MACD Golden Cross : M(+18mo), W(+9w)
-MACD Above Zero : D(+4d)
 ADX Rising : D
 Bearish
-MACD Death Cross : D(+4d)
-MACD Below Zero : M(+18mo), W(+9w)
+MACD Death Cross : D(+5d)
+MACD Below Zero : M(+18mo), W(+9w), D(+5d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : W
 
-Institutional Activity
-----------------------
-VolRatio   : 2.56   DAX Ratio: 1.52
-1d Ret     : -8.4%   Pwh_rel: -13.43
-  -&gt; Volume 2.56x baseline (DAX 1.52x), 1-day return -8.4%, Pwh_rel -13.43 -- unusual institutional volume, watch
-
 📊 Summary
 -------
-  Countertrend rally with energy released, but the pause state means the move is not yet structurally confirmed.
+  Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move.
 
 ============================================================
 <a id="PCZ"></a>[detail 9/15] PCZ
 ============================================================
 
-PCZ 2026-10-15
+PCZ 2026-10-16
 📊 Overview
 --------
 State              : PULLBACK
@@ -902,8 +914,8 @@ State Reason       : STATE_MATRIX retained; weekly=BULL, daily=BEAR, energy=RELE
 Breakout Event     : False
 Breakout Resistance : 9.21
 Breakout Window    : 20
-Score      : 70  (W 45.0 + D 19.2 + E 5.0  cycle 1)
-Confidence : 61%
+Score      : 65  (W 45.0 + D 14.0 + E 5.0  cycle 1)
+Confidence : 55%
 Trend      : Pullback (Weekly BULL, Daily BEAR)
 
 📊 Weekly
@@ -919,8 +931,8 @@ Context : Uptrend structure with weak trend strength and price drifting up the b
 Trend : Bear
 ADX   : WEAK
 MA    : Mixed (MA9&gt;MA50 MA50&gt;MA200)
-BB    : EXPANDING
-Context : Mixed trend structure with weak trend strength and expanding volatility.
+BB    : SQUEEZE
+Context : Range compression, waiting for breakout.
 
 📊 Energy
 ------
@@ -936,38 +948,32 @@ BB Zone  :
   Today  : LM   v (-2)
   Drift  : Bearish breakdown   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
 Alignment: 2 (Partial)
-Swing Age: 1d
+Swing Age: 2d
 Pivot Drift: MU -&gt; LM  dZ=-2  Sharp pullback
 Weekly Pivot Trend:
   Pivot -&gt; Today : wMU -&gt; wMU   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 1W / 2.2
-  Extreme / Diff%: 8.5 / 2.2
-  vs DAX%        : -0.1
+  Age / Perf%    : 1W / 2.4
+  Extreme / Diff%: 8.5 / 2.4
+  vs DAX%        : -0.9
 
 📊 Momentum
 --------
-MACD Age      : M n/a | W ▲18w | D ▲0d
+MACD Age      : M n/a | W ▲18w | D ▲1d
 Momentum Slope: Monthly - | Weekly Fading | Daily Turning
-Divergence    : Daily Regular Bull (+5d, Low confidence)
+Divergence    : Daily Regular Bull (+6d, Low confidence)
 Pattern       : ? + +
 
 Signal:
 Bullish
 MACD Golden Cross : W(+18w)
-MACD Above Zero : W(+18w), D(+0d)
+MACD Above Zero : W(+18w), D(+1d)
 Price Above MA200 : W, D
 Bearish
-MACD Death Cross : D(+0d)
+MACD Death Cross : D(+1d)
 Price Below MA20 : D
 Neutral
-BB Expansion : D
-
-Institutional Activity
-----------------------
-VolRatio   : 3.36   DAX Ratio: 1.52
-1d Ret     : -4.1%   Pwh_rel: -3.81
-  -&gt; Volume 3.36x baseline (DAX 1.52x), 1-day return -4.1%, Pwh_rel -3.81 -- unusual institutional volume, watch
+BB Compression : D
 
 📊 Summary
 -------
@@ -977,7 +983,7 @@ VolRatio   : 3.36   DAX Ratio: 1.52
 <a id="PSAN"></a>[detail 10/15] PSAN
 ============================================================
 
-PSAN 2026-10-15
+PSAN 2026-10-16
 📊 Overview
 --------
 State              : PAUSE
@@ -1003,8 +1009,8 @@ Context : Momentum building before trend confirmation.
 Trend : Neutral
 ADX   : WEAK
 MA    : Down (MA9&gt;MA50 MA50&lt;MA200)
-BB    : DRIFT_DOWN
-Context : Downtrend structure with weak trend strength and price drifting down the bands.
+BB    : SQUEEZE
+Context : Selling pressure stabilizing near lows.
 
 📊 Energy
 ------
@@ -1020,20 +1026,20 @@ BB Zone  :
   Today  : LM   v (-2)
   Drift  : Bearish breakdown   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
 Alignment: 2 (Partial)
-Swing Age: 2d
-Band Cross: Bear cross wMA+wMA9 (2.91x vol) [STRONG]
+Swing Age: 3d
+Band Cross: Bear cross wMA+wMA9 INVALID (vol 0.05x (noise &lt;0.7x)) [INVALID]
 Pivot Drift: MU -&gt; LM  dZ=-2  Sharp pullback
 Weekly Pivot Trend:
   Pivot -&gt; Today : wMU -&gt; wLM   (dZ=-2)
   Drift          : Sharp pullback
-  Age / Perf%    : 2W / -0.9
+  Age / Perf%    : 3W / -0.9
   Extreme / Diff%: 44.5 / 1.1
-  vs DAX%        : -0.8
+  vs DAX%        : -1.7
 
 📊 Momentum
 --------
-MACD Age      : M n/a | W ▲39w | D ▼9d
-Momentum Slope: Monthly - | Weekly Flat | Daily Recovering
+MACD Age      : M n/a | W ▲39w | D ▼10d
+Momentum Slope: Monthly - | Weekly Flat | Daily Deepening
 Divergence    : none
 Pattern       : ? + -
 
@@ -1041,11 +1047,11 @@ Signal:
 Bullish
 MACD Above Zero : W(+39w)
 Bearish
-MACD Death Cross : W(+39w), D(+9d)
-MACD Below Zero : D(+9d)
+MACD Death Cross : W(+39w), D(+10d)
+MACD Below Zero : D(+10d)
 Price Below MA200 : W, D
 Neutral
-BB Expansion : W
+BB Compression : D
 
 📊 Summary
 -------
@@ -1055,17 +1061,17 @@ BB Expansion : W
 <a id="PSM"></a>[detail 11/15] PSM
 ============================================================
 
-PSM 2026-10-15
+PSM 2026-10-16
 📊 Overview
 --------
 State              : BASING
 Raw State          : BASING
 State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 3.55
+Breakout Resistance : 3.5
 Breakout Window    : 20
-Score      : 55  (W 22.5 + D 19.2 + E 8.0  cycle 5)
-Confidence : 49%
+Score      : 51  (W 15.8 + D 22.8 + E 8.0  cycle 5)
+Confidence : 45%
 Trend      : Confirmation (Weekly BEAR, Daily BEAR)
 
 📊 Weekly
@@ -1073,8 +1079,8 @@ Trend      : Confirmation (Weekly BEAR, Daily BEAR)
 Trend : Bear
 ADX   : STRONG
 MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
-BB    : EXPANDING
-Context : Bear trend accelerating.
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
 
 📊 Daily
 -----
@@ -1095,30 +1101,32 @@ Stage    : RECOVERY
 Rank     : 75
 BB Zone  :
   Pivot  : LM
-  Today  : LM   -&gt; (0)
+  Today  : MU   ^ (+2)
+  Drift  : Bullish breakout   (stage=?, leg=? (pivot not aligned with stage (uptrend narrative not confirmed)))
 Alignment: 3 (Full)
-Swing Age: 0d
-Pivot Drift: LM -&gt; LM  dZ=0  Aligned
+Swing Age: 1d
+Pivot Drift: LM -&gt; MU  dZ=+2  Strong recovery
 Weekly Pivot Trend:
   Pivot -&gt; Today : wL -&gt; wLM   (dZ=1)
   Drift          : Recovery drift
-  Age / Perf%    : 1W / 1.9
-  Extreme / Diff%: 3.36 / -4.8
-  vs DAX%        : 1.3
+  Age / Perf%    : 2W / 4.5
+  Extreme / Diff%: 3.36 / -2.4
+  vs DAX%        : 2.9
 
 📊 Momentum
 --------
-MACD Age      : M ▼11mo | W ▼1w | D ▼6d
-Momentum Slope: Monthly Recovering | Weekly Turning | Daily Flat
+MACD Age      : M ▼11mo | W ▼0w | D ▼7d
+Momentum Slope: Monthly Recovering | Weekly Turning | Daily Deepening
 Divergence    : none
 Pattern       : Confirmed Downtrend
 
 Signal:
 Bullish
-MACD Golden Cross : D(+6d)
+MACD Golden Cross : W(+0w), D(+7d)
+Price Above MA20 : D
 Bearish
-MACD Death Cross : M(+11mo), W(+1w)
-MACD Below Zero : M(+11mo), W(+1w), D(+6d)
+MACD Death Cross : M(+11mo)
+MACD Below Zero : M(+11mo), W(+0w), D(+7d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : D
@@ -1131,17 +1139,17 @@ BB Compression : D
 <a id="SBS"></a>[detail 12/15] SBS
 ============================================================
 
-SBS 2026-10-15
+SBS 2026-10-16
 📊 Overview
 --------
 State              : PULLBACK
-Raw State          : BREAKOUT
+Raw State          : CONTINUATION
 State Reason       : bullish weekly/daily trend; cycle stage PULLBACK
 Breakout Event     : False
 Breakout Resistance : 25.25
 Breakout Window    : 20
-Score      : 83  (W 45.0 + D 29.7 + E 9.0  cycle -1)
-Confidence : 81%
+Score      : 70  (W 45.0 + D 26.2 + E 0.0  cycle -1)
+Confidence : 0%
 Trend      : Confirmation (Weekly BULL, Daily BULL)
 
 📊 Weekly
@@ -1156,14 +1164,14 @@ Context : Healthy trend expansion from consolidation.
 -----
 Trend : Bull
 ADX   : WEAK
-MA    : Up (MA9&lt;MA50 MA50&gt;MA200)
-BB    : EXPANDING
-Context : Uptrend structure with weak trend strength and expanding volatility.
+MA    : Mixed (MA9&lt;MA50 MA50&gt;MA200)
+BB    : SQUEEZE
+Context : Range compression, waiting for breakout.
 
 📊 Energy
 ------
-Family : RELEASED
-Phase  : ENERGY_RELEASED
+Family : NONE
+Phase  : NONE
 
 📊 Cycle
 -----
@@ -1173,42 +1181,42 @@ BB Zone  :
   Pivot  : MU
   Today  : MU   -&gt; (0)
 Alignment: 2 (Partial)
-Swing Age: 1d
+Swing Age: 2d
 Pivot Drift: MU -&gt; MU  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wMU -&gt; wMU   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 1W / 12.6
-  Extreme / Diff%: 21.15 / 14.4
-  vs DAX%        : 12.1
+  Age / Perf%    : 1W / 10.0
+  Extreme / Diff%: 21.15 / 11.8
+  vs DAX%        : 8.5
 
 📊 Momentum
 --------
-MACD Age      : M ▼15mo | W ▲20w | D ▲3d
+MACD Age      : M ▼15mo | W ▲20w | D ▲4d
 Momentum Slope: Monthly Deepening | Weekly Fading | Daily Rising
 Divergence    : none
 Pattern       : Early Bull Reversal
 
 Signal:
 Bullish
-MACD Golden Cross : M(+15mo), W(+20w), D(+3d)
-MACD Above Zero : W(+20w), D(+3d)
+MACD Golden Cross : M(+15mo), W(+20w), D(+4d)
+MACD Above Zero : W(+20w), D(+4d)
 Price Above MA200 : D
 Bearish
 MACD Below Zero : M(+15mo)
 Price Below MA200 : W
 Neutral
-BB Expansion : D
+BB Compression : D
 
 📊 Summary
 -------
-  No summary rule yet for PULLBACK + Early Bull Reversal + RELEASED 
+  No summary rule yet for PULLBACK + Early Bull Reversal + NONE 
 
 ============================================================
 <a id="TIMA"></a>[detail 13/15] TIMA
 ============================================================
 
-TIMA 2026-10-15
+TIMA 2026-10-16
 📊 Overview
 --------
 State              : BASING
@@ -1247,34 +1255,33 @@ Phase  : TREND_EXHAUSTION
 Stage    : PULLBACK
 Rank     : 65
 BB Zone  :
-  Pivot  : MU
-  Today  : M   v (-1)
-  Drift  : Bearish drift   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
+  Pivot  : LM
+  Today  : LM   -&gt; (0)
 Alignment: 2 (Partial)
 Swing Age: 0d
-Pivot Drift: MU -&gt; M  dZ=-1  Pullback drift
+Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 6W / -7.1
-  Extreme / Diff%: 38.1 / 6.0
-  vs DAX%        : -4.8
+  Age / Perf%    : 6W / -7.8
+  Extreme / Diff%: 38.1 / 5.2
+  vs DAX%        : -6.5
 
 📊 Momentum
 --------
-MACD Age      : M ▲8mo | W ▼39w | D ▼1d
+MACD Age      : M ▲8mo | W ▼39w | D ▼2d
 Momentum Slope: Monthly Rising | Weekly Deepening | Daily Turning
 Divergence    : none
 Pattern       : Trend Losing Momentum
 
 Signal:
 Bullish
-MACD Golden Cross : D(+1d)
+MACD Golden Cross : D(+2d)
 MACD Above Zero : M(+8mo)
-ADX Rising : W, D
+ADX Rising : W
 Bearish
 MACD Death Cross : M(+8mo), W(+39w)
-MACD Below Zero : W(+39w), D(+1d)
+MACD Below Zero : W(+39w), D(+2d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : D
@@ -1287,18 +1294,18 @@ BB Compression : D
 <a id="TTK"></a>[detail 14/15] TTK
 ============================================================
 
-TTK 2026-10-15
+TTK 2026-10-16
 📊 Overview
 --------
-State              : PAUSE
-Raw State          : PAUSE
-State Reason       : STATE_MATRIX retained; weekly=BULL, daily=NEUTRAL, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+State              : PULLBACK
+Raw State          : CONTINUATION
+State Reason       : bullish weekly/daily trend; cycle stage PULLBACK
 Breakout Event     : False
-Breakout Resistance : 3.28
+Breakout Resistance : 3.22
 Breakout Window    : 20
-Score      : 87  (W 45.0 + D 21.0 + E 14.0  cycle 7)
-Confidence : 78%
-Trend      : Pause (Weekly BULL, Daily NEUTRAL)
+Score      : 85  (W 45.0 + D 33.2 + E 10.0  cycle -3)
+Confidence : 86%
+Trend      : Confirmation (Weekly BULL, Daily BULL)
 
 📊 Weekly
 ------
@@ -1310,11 +1317,11 @@ Context : Healthy trend continuation.
 
 📊 Daily
 -----
-Trend : Neutral
+Trend : Bull
 ADX   : WEAK
-MA    : Down (MA9&gt;MA50 MA50&gt;MA200)
-BB    : SQUEEZE
-Context : Selling pressure stabilizing near lows.
+MA    : Up (MA9&gt;MA50 MA50&gt;MA200)
+BB    : EXPANDING
+Context : Uptrend structure with weak trend strength and expanding volatility.
 
 📊 Energy
 ------
@@ -1323,25 +1330,26 @@ Phase  : TREND_EXHAUSTION
 
 📊 Cycle
 -----
-Stage    : RECOVERY
-Rank     : 80
+Stage    : PULLBACK
+Rank     : 55
 BB Zone  :
   Pivot  : LM
-  Today  : LM   -&gt; (0)
-Alignment: 3 (Full)
-Swing Age: 3d
-Band Cross: Bear cross wMA50+wMA200 INVALID (vol 0.16x (noise &lt;0.7x)) [INVALID]
-Pivot Drift: LM -&gt; LM  dZ=0  Aligned
+  Today  : MU   ^ (+2)
+  Drift  : Bullish breakout   (stage=?, leg=? (pivot not aligned with stage (uptrend narrative not confirmed)))
+Alignment: 1 (Minimal)
+Swing Age: 4d
+Band Cross: Bull cross wMA50+wMA200 INVALID (vol 0.75x (weak &lt;1.0x)) [WEAK]
+Pivot Drift: LM -&gt; MU  dZ=+2  Bullish breakout   [stage=PULLBACK, leg=L_TO_H (pivot not aligned with stage (uptrend narrative not confirmed))]
 Weekly Pivot Trend:
   Pivot -&gt; Today : wU -&gt; wMU   (dZ=-1)
   Drift          : Bearish drift
-  Age / Perf%    : 4W / -10.7
-  Extreme / Diff%: 2.82 / 3.5
-  vs DAX%        : -10.1
+  Age / Perf%    : 4W / -8.3
+  Extreme / Diff%: 2.82 / 6.4
+  vs DAX%        : -8.6
 
 📊 Momentum
 --------
-MACD Age      : M ▼1mo | W ▲26w | D ▼19d
+MACD Age      : M ▼1mo | W ▲26w | D ▼20d
 Momentum Slope: Monthly Turning | Weekly Fading | Daily Recovering
 Divergence    : Daily Regular Bull (+3d, Medium confidence)
 Pattern       : Failed Recovery
@@ -1350,50 +1358,50 @@ Signal:
 Bullish
 MACD Golden Cross : M(+1mo), W(+26w)
 MACD Above Zero : W(+26w)
-Price Above MA200 : D
+Price Above MA200 : W, D
 Bearish
-MACD Death Cross : D(+19d)
-MACD Below Zero : M(+1mo), D(+19d)
-Price Below MA200 : W
+MACD Death Cross : D(+20d)
+MACD Below Zero : M(+1mo), D(+20d)
+ADX Falling : W, D
 Neutral
-BB Compression : D
+BB Expansion : D
 
 📊 Summary
 -------
-  Consolidation near a potential topping phase.
+  No summary rule yet for PULLBACK + Failed Recovery + EXHAUSTION 
 
 ============================================================
 <a id="V6C"></a>[detail 15/15] V6C
 ============================================================
 
-V6C 2026-10-15
+V6C 2026-10-16
 📊 Overview
 --------
 State              : PAUSE
 Raw State          : PAUSE
-State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=COMPRESSION, cycle=RECOVERY, breakout_event=False
+State Reason       : STATE_MATRIX retained; weekly=NEUTRAL, daily=NEUTRAL, energy=COMPRESSION, cycle=RECOVERY, breakout_event=False
 Breakout Event     : False
 Breakout Resistance : 5.38
 Breakout Window    : 20
-Score      : 71  (W 24.8 + D 29.7 + E 12.0  cycle 5)
-Confidence : 65%
-Trend      : Stabilizing (Weekly BEAR, Daily NEUTRAL)
+Score      : 59  (W 18.0 + D 24.5 + E 12.0  cycle 5)
+Confidence : 53%
+Trend      : Undecided (Weekly NEUTRAL, Daily NEUTRAL)
 
 📊 Weekly
 ------
-Trend : Bear
+Trend : Neutral
 ADX   : WEAK
-MA    : Mixed (MA9&gt;MA50 MA50=MA200)
+MA    : Down (MA9&gt;MA50 MA50=MA200)
 BB    : SQUEEZE
-Context : Range compression, waiting for breakout.
+Context : Selling pressure stabilizing near lows.
 
 📊 Daily
 -----
 Trend : Neutral
 ADX   : BUILDING
 MA    : Up (MA9&lt;MA50 MA50&gt;MA200)
-BB    : EXPANDING
-Context : Uptrend structure with building trend strength and expanding volatility.
+BB    : SQUEEZE
+Context : Uptrend structure with building trend strength and compressing volatility.
 
 📊 Energy
 ------
@@ -1413,90 +1421,98 @@ Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 2W / 3.3
-  Extreme / Diff%: 4.85 / 4.7
-  vs DAX%        : 3.3
+  Age / Perf%    : 2W / 2.4
+  Extreme / Diff%: 4.85 / 3.9
+  vs DAX%        : 1.4
 
 📊 Momentum
 --------
-MACD Age      : M n/a | W ▲13w | D ▼4d
-Momentum Slope: Monthly - | Weekly Flat | Daily Deepening
-Divergence    : Daily Regular Bull (+5d, Medium confidence)
+MACD Age      : M n/a | W ▲13w | D ▼5d
+Momentum Slope: Monthly - | Weekly Rising | Daily Recovering
+Divergence    : Daily Regular Bull (+6d, Medium confidence)
 Pattern       : ? + -
 
 Signal:
 Bullish
-MACD Golden Cross : D(+4d)
+MACD Golden Cross : D(+5d)
 MACD Above Zero : W(+13w)
 Price Above MA200 : W, D
 Bearish
 MACD Death Cross : W(+13w)
-MACD Below Zero : D(+4d)
+MACD Below Zero : D(+5d)
 ADX Falling : W, D
 Neutral
-BB Compression : W
+BB Compression : W, D
 
 📊 Summary
 -------
   Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.
-[smart_money] Ran 5 institutional reports (Distribution, Shock Selling, Activity, Accumulation, Shock Buying) for 15 stock(s) -- hits: 1 distribution, 0 shock-selling, 4 activity, 0 accumulation, 0 shock-buying
+[smart_money] Ran 5 institutional reports (Distribution, Shock Selling, Activity, Accumulation, Shock Buying) for 15 stock(s) -- hits: 1 distribution, 0 shock-selling, 2 activity, 0 accumulation, 0 shock-buying
 
 ========================
 <a id="overview_summary"></a>Overview Summary
 ========================
 
-PULLBACK       5  ADN1, GXI, SBS, FYB, PCZ  (🟢 Buy-the-dip candidate)
-PAUSE          5  TTK, V6C, PSAN, BVB, NCH2  (Wait — no edge.)
-BASING         4  BYW6, PSM, BRNK, TIMA  (Watch for confirmation; bottom-fishing only.)
-TRANSITION     1  AAD  (Watch closely — regime changing.)
+PULLBACK       5  TTK, ADN1, FYB, SBS, PCZ  (Buy dip inside bull trend.)
+PAUSE          4  BVB, V6C, PSAN, NCH2  (Prepare)
+BASING         3  BYW6, PSM, TIMA  (Watch for confirmation; bottom-fishing only.)
+TRANSITION     2  AAD, BRNK  (Accumulate)
+BREAKOUT       1  GXI  (Add positions.)
 
 --------------------------
-Weekly Bull        6  TTK, ADN1, GXI, SBS, FYB, PCZ
-Weekly Bear        7  V6C, BYW6, AAD, PSAN, PSM, BRNK, TIMA
-Weekly Neutral     2  BVB, NCH2
-Daily Bull         4  ADN1, GXI, SBS, FYB
-Daily Bear         5  PCZ, BYW6, PSM, BRNK, TIMA
-Daily Neutral      6  TTK, V6C, AAD, PSAN, BVB, NCH2
+Weekly Bull        6  TTK, ADN1, GXI, FYB, SBS, PCZ
+Weekly Bear        6  BYW6, PSAN, AAD, PSM, BRNK, TIMA
+Weekly Neutral     3  BVB, V6C, NCH2
+Daily Bull         5  TTK, ADN1, GXI, FYB, SBS
+Daily Bear         4  BYW6, PCZ, PSM, TIMA
+Daily Neutral      6  BVB, V6C, PSAN, AAD, BRNK, NCH2
 
 Energy
   EXHAUSTION   6  TTK, BYW6, AAD, PSM, BRNK, TIMA
-  COMPRESSION  4  ADN1, FYB, V6C, BVB
-  RELEASED     3  SBS, PCZ, NCH2
-  NONE         2  GXI, PSAN
+  COMPRESSION  4  ADN1, FYB, BVB, V6C
+  NONE         3  GXI, SBS, PSAN
+  RELEASED     2  PCZ, NCH2
 
 Trend Alignment
-  BULL/BULL            4  ADN1, GXI, SBS, FYB
-  BEAR/BEAR            4  BYW6, PSM, BRNK, TIMA
-  BEAR/NEUTRAL         3  V6C, AAD, PSAN
-  NEUTRAL/NEUTRAL      2  BVB, NCH2
+  BULL/BULL            5  TTK, ADN1, GXI, FYB, SBS
+  BEAR/NEUTRAL         3  PSAN, AAD, BRNK
+  NEUTRAL/NEUTRAL      3  BVB, V6C, NCH2
+  BEAR/BEAR            3  BYW6, PSM, TIMA
   BULL/BEAR            1  PCZ
-  BULL/NEUTRAL         1  TTK
 
-Average Score ...... 64.5
-Median Score ....... 63
+Average Score ...... 62.5
+Median Score ....... 61
 Top Sector ......... pharma_healthcare
 Weakest Sector ..... retail
 Leadership Width ... 40.0%
 
+Top Breakout Candidates
+GXI
+
 Weakest Structures  (structural deterioration -- avoid)
-TIMA, BRNK, PSM, PCZ, FYB, BYW6, ADN1, SBS, GXI
+TIMA, PSM, PCZ, FYB, SBS, BYW6, ADN1, TTK
 
 Recovery Candidates  (low score but improving -- watch)
-V6C, BVB, NCH2, TTK, BYW6, AAD, PSM
+PSM, AAD, BVB, V6C, NCH2, BYW6
 
 ==========================================
 Pivot Drift Report
-Stocks with |ΔZ| ≥ 1 : 5 / 15
+Stocks with |ΔZ| ≥ 1 : 6 / 15
 ==========================================
+
+  Bullish Drift  (price strengthened vs last pivot)
+  Stock  Pivot-&gt;Today     dZ  Interpretation
+  ------ -------------- ----  -------------------------------------------------------
+  TTK    LM -&gt; MU       +  2  Bullish breakout   [stage=PULLBACK, leg=L_TO_H (pivot not aligned with stage (uptrend narrative not confirmed))]
+  PSM    LM -&gt; MU       +  2  Strong recovery
+  AAD    L -&gt; LM        +  1  Recovery drift
 
   Bearish Drift  (price weakened vs last pivot)
   Stock  Pivot-&gt;Today     dZ  Interpretation
   ------ -------------- ---  -------------------------------------------------------
-  FYB    U -&gt; M           -2  Sharp pullback
   PCZ    MU -&gt; LM         -2  Sharp pullback
   PSAN   MU -&gt; LM         -2  Sharp pullback
-  ADN1   U -&gt; MU          -1  Pullback drift
-  TIMA   MU -&gt; M          -1  Pullback drift
+  FYB    U -&gt; MU          -1  Pullback drift
 
 
 ========================================================================
@@ -1507,20 +1523,20 @@ Stocks with |delta_zone| &gt;= 1 : 10 / 15
   Weekly Uptrend  (zone strengthened vs rtpivot)
   Stock  Pivot-&gt;Today     Age   Perf%   Extreme   Diff%  RelDAX%
   ------ -------------- ----- ------- --------- -------  -------
-  BRNK   wL -&gt; wLM         1d  100.0%      0.54  -22.2%    99.7%
-  ADN1   wLM -&gt; wU         3W   24.8%      68.1   -1.0%    24.3%
-  GXI    wLM -&gt; wMU        2W   10.2%     29.82   -3.8%    10.3%
-  PSM    wL -&gt; wLM         1W    1.9%      3.36   -4.8%     1.3%
+  BRNK   wL -&gt; wLM         2d   90.5%      0.54  -25.9%    89.2%
+  ADN1   wLM -&gt; wU         3W   26.3%      69.6   -2.0%    24.9%
+  GXI    wLM -&gt; wU         3W   16.9%     30.48   -0.1%    16.1%
+  PSM    wL -&gt; wLM         2W    4.5%      3.36   -2.4%     2.9%
 
   Weekly Downtrend  (zone weakened vs rtpivot)
   Stock  Pivot-&gt;Today     Age   Perf%   Extreme   Diff%  RelDAX%
   ------ -------------- ----- ------- --------- -------  -------
-  NCH2   wMU -&gt; wLM        1W  -13.2%      7.62    0.0%   -13.8%
-  TTK    wU -&gt; wMU         4W  -10.7%      2.82    3.5%   -10.1%
-  BYW6   wMU -&gt; wLM        4W   -9.8%      2.27    5.3%    -8.5%
-  FYB    wU -&gt; wMU         2d   -9.8%     19.26    0.7%   -10.3%
-  BVB    wU -&gt; wLM         6W   -8.8%      3.02    0.0%    -5.5%
-  PSAN   wMU -&gt; wLM        2W   -0.9%      44.5    1.1%    -0.8%
+  NCH2   wMU -&gt; wLM        2W  -11.2%      7.62    2.4%   -12.8%
+  BYW6   wMU -&gt; wLM        4W   -9.8%      2.27    5.3%    -9.4%
+  TTK    wU -&gt; wMU         4W   -8.3%      2.82    6.4%    -8.6%
+  FYB    wU -&gt; wMU         3d   -7.3%     19.26    3.4%    -8.7%
+  BVB    wU -&gt; wLM         6W   -6.6%      3.02    2.3%    -4.2%
+  PSAN   wMU -&gt; wLM        3W   -0.9%      44.5    1.1%    -1.7%
 
 
 ========================================================================
@@ -1531,37 +1547,35 @@ Stocks with W0 close outside a spanned weekly pair : 5 / 15
   Bull cross  (weekly close above pair)
   Stock  Pair            Vol  Interpretation
   ------ ------------ ------  ----------------------------------------------------
-  FYB    wMA+wMA9      2.07x  Strong bull cross wMA+wMA9, reached wUB (2.07x vol) [STRONG]
+  FYB    wMA+wMA9      0.38x  Bull cross wMA+wMA9 INVALID (vol 0.38x (noise &lt;0.7x)) [INVALID]
+  TTK    wMA50+wMA200  0.75x  Bull cross wMA50+wMA200 INVALID (vol 0.75x (weak &lt;1.0x)) [WEAK]
+  BVB    wMA50+wMA200  0.63x  Bull cross wMA50+wMA200 INVALID (vol 0.63x (noise &lt;0.7x)) [INVALID]
 
   Bear cross  (weekly close below pair)
   Stock  Pair            Vol  Interpretation
   ------ ------------ ------  ----------------------------------------------------
-  BVB    wMA50+wMA200  3.09x  Bear cross wMA50+wMA200 (3.09x vol) [STRONG]
-  PSAN   wMA+wMA9      2.91x  Bear cross wMA+wMA9 (2.91x vol) [STRONG]
-  NCH2   wMA9+wMA      1.77x  Bear cross wMA9+wMA (1.77x vol) [STRONG]
-  TTK    wMA50+wMA200  0.16x  Bear cross wMA50+wMA200 INVALID (vol 0.16x (noise &lt;0.7x)) [INVALID]
+  NCH2   wMA9+wMA      0.93x  Bear cross wMA9+wMA INVALID (vol 0.93x (weak &lt;1.0x)) [WEAK]
+  PSAN   wMA+wMA9      0.05x  Bear cross wMA+wMA9 INVALID (vol 0.05x (noise &lt;0.7x)) [INVALID]
 
 ==========================================
 Smart Money Distribution Report
-Stocks flagged : 1 / 15  (0 Confirmed, 1 Alert, 0 Watch)
+Stocks flagged : 1 / 15  (1 Confirmed, 0 Alert, 0 Watch)
 ==========================================
 
-  Distribution Alerts &amp; Watch  (volume + relative weakness building)
+  Confirmed Distribution  (sustained volume + relative weakness -- reduce exposure)
   Stock  Severity   Volume Ratio   Spikes/5d   Pwh_rel  Detail
   ------ ---------- -------------- ----------- -------- ---------------------------------------------
-  BRNK   ALERT      7.07x          3/5         -21.95   Momentum fading; watch for absorption
+  BRNK   CONFIRMED  5.07x          4/5         -25.65   Institutions active; sellers absorbing demand
 
 ==========================================
 Institutional Activity Report
-Stocks flagged : 4 / 15
+Stocks flagged : 2 / 15
 ==========================================
 
   Stock  Volume Ratio   DAX Ratio   1d Ret   Pwh_rel  Detail
   ------ -------------- ----------- -------- -------- ----------------------------------------
-  BRNK   7.07         x 1.52x       +100.0% -21.95   Unusual institutional volume; watch
-  BVB    3.35         x 1.52x         -1.3% -3.85    Unusual institutional volume; watch
-  NCH2   2.56         x 1.52x         -8.4% -13.43   Unusual institutional volume; watch
-  PCZ    3.36         x 1.52x         -4.1% -3.81    Unusual institutional volume; watch
+  BRNK   5.07         x 1.34x         -4.8% -25.65   Unusual institutional volume; watch
+  GXI    3.05         x 1.34x         +6.1% 0.14     Unusual institutional volume; watch
 
 
 ========================================================================

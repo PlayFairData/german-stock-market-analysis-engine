@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>SDAX BASING 2026-10-15</title>
+    <title>SDAX BASING 2026-10-16</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -84,6 +84,17 @@
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
     .cell-btn:hover { color: #174ea6; }
+
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
 
     @media (max-width: 720px) {
         html {
@@ -235,19 +246,26 @@
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
         }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
     }
 </style>
 </head>
 <body>
-<div class="meta">SDAX BASING 2026-10-15 &middot; log date 2026-10-15</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>SDAX &mdash; BASING (4 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#ADV" title="No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION">ADV</a></td><td>54</td><td>48%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION</td></tr><tr><td><a href="#DBAN" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">DBAN</a></td><td>39</td><td>40%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr><tr><td><a href="#EIN" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">EIN</a></td><td>49</td><td>49%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</td></tr><tr><td><a href="#GLJ" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">GLJ</a></td><td>44</td><td>44%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="ADV">ADV <span class="meta">BASING</span></h2><pre class="detail">ADV 2026-10-15
+<div class="meta">SDAX BASING 2026-10-16 &middot; log date 2026-10-16</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>SDAX &mdash; BASING (5 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#ADV" title="No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION">ADV</a></td><td>54</td><td>48%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION</td></tr><tr><td><a href="#DBAN" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">DBAN</a></td><td>39</td><td>40%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr><tr><td><a href="#EIN" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">EIN</a></td><td>49</td><td>49%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</td></tr><tr><td><a href="#GLJ" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">GLJ</a></td><td>44</td><td>44%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr><tr><td><a href="#PNE3" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">PNE3</a></td><td>57</td><td>50%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="ADV">ADV <span class="meta">BASING</span></h2><pre class="detail">ADV 2026-10-16
 📊 Overview
 --------
 State              : BASING
 Raw State          : BASING
 State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 23.0
+Breakout Resistance : 22.5
 Breakout Window    : 20
 Score      : 54  (W 24.8 + D 14.0 + E 10.0  cycle 5)
 Confidence : 48%
@@ -287,9 +305,9 @@ Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 
 📊 Momentum
 --------
-MACD Age      : M ▲0mo | W ▼20w | D ▼2d
-Momentum Slope: Monthly Turning | Weekly Deepening | Daily Turning
-Divergence    : Daily Hidden Bear (+6d, Low confidence)
+MACD Age      : M ▲0mo | W ▼20w | D ▼3d
+Momentum Slope: Monthly Turning | Weekly Deepening | Daily Deepening
+Divergence    : Daily Hidden Bear (+7d, Low confidence)
 Pattern       : Trend Losing Momentum
 
 Signal:
@@ -298,15 +316,15 @@ MACD Above Zero : M(+0mo)
 Price Above MA200 : W
 ADX Rising : W, D
 Bearish
-MACD Death Cross : M(+0mo), W(+20w), D(+2d)
-MACD Below Zero : W(+20w), D(+2d)
+MACD Death Cross : M(+0mo), W(+20w), D(+3d)
+MACD Below Zero : W(+20w), D(+3d)
 Price Below MA200 : D
 Neutral
 BB Expansion : W
 
 📊 Summary
 -------
-  No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION</pre><h2 id="DBAN">DBAN <span class="meta">BASING</span></h2><pre class="detail">DBAN 2026-10-15
+  No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION</pre><h2 id="DBAN">DBAN <span class="meta">BASING</span></h2><pre class="detail">DBAN 2026-10-16
 📊 Overview
 --------
 State              : BASING
@@ -348,18 +366,18 @@ BB Zone  :
   Pivot  : LM
   Today  : LM   -&gt; (0)
 Alignment: 2 (Partial)
-Swing Age: 2d
+Swing Age: 3d
 Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 1W / -2.1
-  Extreme / Diff%: 18.36 / 2.3
-  vs DAX%        : -3.2
+  Age / Perf%    : 1W / -2.0
+  Extreme / Diff%: 18.36 / 2.4
+  vs DAX%        : -4.1
 
 📊 Momentum
 --------
-MACD Age      : M ▼4mo | W ▼19w | D ▼18d
+MACD Age      : M ▼4mo | W ▼19w | D ▼19d
 Momentum Slope: Monthly Deepening | Weekly Deepening | Daily Recovering
 Divergence    : none
 Pattern       : Confirmed Downtrend
@@ -368,22 +386,22 @@ Signal:
 Bullish
 ADX Rising : W, D
 Bearish
-MACD Death Cross : M(+4mo), W(+19w), D(+18d)
-MACD Below Zero : M(+4mo), W(+19w), D(+18d)
+MACD Death Cross : M(+4mo), W(+19w), D(+19d)
+MACD Below Zero : M(+4mo), W(+19w), D(+19d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : D
 
 📊 Summary
 -------
-  Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</pre><h2 id="EIN">EIN <span class="meta">BASING</span></h2><pre class="detail">EIN 2026-10-15
+  Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</pre><h2 id="EIN">EIN <span class="meta">BASING</span></h2><pre class="detail">EIN 2026-10-16
 📊 Overview
 --------
 State              : BASING
 Raw State          : BASING
 State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 69.1
+Breakout Resistance : 68.1
 Breakout Window    : 20
 Score      : 49  (W 20.2 + D 19.2 + E 10.0  cycle -1)
 Confidence : 49%
@@ -423,31 +441,31 @@ Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wMU -&gt; wLM   (dZ=-2)
   Drift          : Sharp pullback
-  Age / Perf%    : 6W / -14.7
-  Extreme / Diff%: 62.6 / 2.7
-  vs DAX%        : -11.4
+  Age / Perf%    : 6W / -14.3
+  Extreme / Diff%: 62.6 / 3.2
+  vs DAX%        : -11.9
 
 📊 Momentum
 --------
-MACD Age      : M n/a | W ▼4w | D ▼2d
-Momentum Slope: Monthly - | Weekly Deepening | Daily Turning
-Divergence    : Daily Regular Bull (+5d, High confidence)
+MACD Age      : M n/a | W ▼4w | D ▼3d
+Momentum Slope: Monthly - | Weekly Deepening | Daily Deepening
+Divergence    : Daily Regular Bull (+6d, High confidence)
 Pattern       : ? - -
 
 Signal:
 Bullish
-MACD Golden Cross : D(+2d)
+MACD Golden Cross : D(+3d)
 ADX Rising : W
 Bearish
 MACD Death Cross : W(+4w)
-MACD Below Zero : W(+4w), D(+2d)
+MACD Below Zero : W(+4w), D(+3d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : D
 
 📊 Summary
 -------
-  Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</pre><h2 id="GLJ">GLJ <span class="meta">BASING</span></h2><pre class="detail">GLJ 2026-10-15
+  Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</pre><h2 id="GLJ">GLJ <span class="meta">BASING</span></h2><pre class="detail">GLJ 2026-10-16
 📊 Overview
 --------
 State              : BASING
@@ -489,28 +507,29 @@ BB Zone  :
   Pivot  : LM
   Today  : LM   -&gt; (0)
 Alignment: 2 (Partial)
-Swing Age: 1d
+Swing Age: 0d
 Pivot Drift: LM -&gt; LM  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wL -&gt; wLM   (dZ=1)
   Drift          : Bullish drift
-  Age / Perf%    : 1W / 4.4
-  Extreme / Diff%: 10.3 / -1.4
-  vs DAX%        : 2.1
+  Age / Perf%    : 1W / 5.9
+  Extreme / Diff%: 10.5 / -1.9
+  vs DAX%        : 2.6
 
 📊 Momentum
 --------
-MACD Age      : M ▼25mo | W ▼2w | D ▼22d
-Momentum Slope: Monthly Deepening | Weekly Turning | Daily Recovering
-Divergence    : Daily Regular Bull (+5d, High confidence)
+MACD Age      : M ▼25mo | W ▼2w | D ▼0d
+Momentum Slope: Monthly Deepening | Weekly Turning | Daily Turning
+Divergence    : Daily Regular Bull (+6d, High confidence)
 Pattern       : Confirmed Downtrend
 
 Signal:
 Bullish
-ADX Rising : W, D
+MACD Golden Cross : D(+0d)
+ADX Rising : W
 Bearish
-MACD Death Cross : M(+25mo), W(+2w), D(+22d)
-MACD Below Zero : M(+25mo), W(+2w), D(+22d)
+MACD Death Cross : M(+25mo), W(+2w)
+MACD Below Zero : M(+25mo), W(+2w), D(+0d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : D
@@ -521,6 +540,92 @@ W: BEAR_ACCELERATION  —  YES  (2/3 MEDIUM)
   ✓ No new low
   ✓ 5d slope rising
   ✗ Reclaim MA
+
+📊 Summary
+-------
+  Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</pre><h2 id="PNE3">PNE3 <span class="meta">BASING</span></h2><pre class="detail">PNE3 2026-10-16
+📊 Overview
+--------
+State              : BASING
+Raw State          : BASING
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+Breakout Event     : False
+Breakout Resistance : 7.37
+Breakout Window    : 20
+Score      : 57  (W 22.5 + D 17.5 + E 10.0  cycle 7)
+Confidence : 50%
+Trend      : Confirmation (Weekly BEAR, Daily BEAR)
+
+📊 Weekly
+------
+Trend : Bear
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : EXPANDING
+Context : Bear trend accelerating.
+
+📊 Daily
+-----
+Trend : Bear
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : EXPANDING
+Context : Bear trend accelerating.
+
+📊 Energy
+------
+Family : EXHAUSTION
+Phase  : TREND_EXHAUSTION
+
+📊 Cycle
+-----
+Stage    : RECOVERY
+Rank     : 85
+BB Zone  :
+  Pivot  : L
+  Today  : L   -&gt; (0)
+Alignment: 3 (Full)
+Swing Age: 1d
+Pivot Drift: L -&gt; L  dZ=0  Aligned
+Weekly Pivot Trend:
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 4d / -21.4
+  Extreme / Diff%: 5.4 / 5.6
+  vs DAX%        : -22.8
+
+📊 Momentum
+--------
+MACD Age      : M ▼11mo | W ▼9w | D ▼2d
+Momentum Slope: Monthly Deepening | Weekly Recovering | Daily Turning
+Divergence    : none
+Pattern       : Confirmed Downtrend
+
+Signal:
+Bullish
+ADX Rising : W, D
+BB Squeeze Breakout : D
+Bearish
+MACD Death Cross : M(+11mo), W(+9w), D(+2d)
+MACD Below Zero : M(+11mo), W(+9w), D(+2d)
+Price Below MA200 : W, D
+Neutral
+BB Expansion : W, D
+
+Smart Money Distribution
+------------------------
+Severity   : ALERT
+VolRatio   : 7.46  SpikeDays: 3
+Pwh / Pwh_rel : -22.65 / -22.38  wtraj: - - - - - - -
+  -&gt; Volume elevated 3/5 days, persistent=True, Pwh_rel -22.38
+  -&gt; weekly decline already established
+  -&gt; Distribution alert -- volume + relative weakness building.
+
+Institutional Activity
+----------------------
+VolRatio   : 7.46   DAX Ratio: 1.34
+1d Ret     : +2.3%   Pwh_rel: -22.38
+  -&gt; Volume 7.46x baseline (DAX 1.34x), 1-day return +2.3%, Pwh_rel -22.38 -- unusual institutional volume, watch
 
 📊 Summary
 -------

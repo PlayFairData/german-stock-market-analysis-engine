@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>DAX COUNTERTREND 2026-10-15</title>
+    <title>DAX COUNTERTREND 2026-10-16</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -84,6 +84,17 @@
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
     .cell-btn:hover { color: #174ea6; }
+
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
 
     @media (max-width: 720px) {
         html {
@@ -235,19 +246,26 @@
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
         }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
     }
 </style>
 </head>
 <body>
-<div class="meta">DAX COUNTERTREND 2026-10-15 &middot; log date 2026-10-15</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>DAX &mdash; COUNTERTREND (2 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#RHM" title="Countertrend move is losing momentum while energy is released; conviction behind the bounce remains weak.">RHM</a></td><td>79</td><td>76%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>RELEASED</td><td class='sum'>Countertrend move is losing momentum while energy is released; conviction behind the bounce remains weak.</td></tr><tr><td><a href="#ZAL" title="Countertrend rebound paused while energy compresses.">ZAL</a></td><td>85</td><td>79%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>Countertrend rebound paused while energy compresses.</td></tr></table><h2 id="RHM">RHM <span class="meta">COUNTERTREND</span></h2><pre class="detail">RHM 2026-10-15
+<div class="meta">DAX COUNTERTREND 2026-10-16 &middot; log date 2026-10-16</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>DAX &mdash; COUNTERTREND (2 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#RHM" title="Countertrend move is losing momentum while energy is released; conviction behind the bounce remains weak.">RHM</a></td><td>79</td><td>76%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>RELEASED</td><td class='sum'>Countertrend move is losing momentum while energy is released; conviction behind the bounce remains weak.</td></tr><tr><td><a href="#ZAL" title="Countertrend rebound paused while energy compresses.">ZAL</a></td><td>83</td><td>77%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>Countertrend rebound paused while energy compresses.</td></tr></table><h2 id="RHM">RHM <span class="meta">COUNTERTREND</span></h2><pre class="detail">RHM 2026-10-16
 📊 Overview
 --------
 State              : COUNTERTREND
 Raw State          : COUNTERTREND
-State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=RELEASED, cycle=PULLBACK, breakout_event=False
-Breakout Event     : False
-Breakout Resistance : 1037.4
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=RELEASED, cycle=PULLBACK, breakout_event=True
+Breakout Event     : True
+Breakout Resistance : 1036.0
 Breakout Window    : 20
 Score      : 79  (W 31.5 + D 35.0 + E 11.0  cycle 1)
 Confidence : 76%
@@ -264,10 +282,10 @@ Context : Mixed trend structure with strong trend strength and compressing volat
 📊 Daily
 -----
 Trend : Bull
-ADX   : BUILDING
+ADX   : STRONG
 MA    : Up (MA9&lt;MA50 MA50&lt;MA200)
 BB    : EXPANDING
-Context : Uptrend structure with building trend strength and expanding volatility.
+Context : Strong trend expansion underway.
 
 📊 Energy
 ------
@@ -277,52 +295,53 @@ Phase  : ENERGY_RELEASED
 📊 Cycle
 -----
 Stage    : PULLBACK
-Rank     : 70
+Rank     : 75
 BB Zone  :
-  Pivot  : MU
-  Today  : MU   -&gt; (0)
+  Pivot  : U
+  Today  : U   -&gt; (0)
 Alignment: 2 (Partial)
 Swing Age: 0d
-Pivot Drift: MU -&gt; MU  dZ=0  Aligned
+Band Cross: Bull cross wMA+wMA9 (1.89x vol) [STRONG]
+Pivot Drift: U -&gt; U  dZ=0  Aligned
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
-  Drift          : Aligned
-  Age / Perf%    : 1W / 9.7
-  Extreme / Diff%: 909.0 / 12.9
-  vs DAX%        : 7.4
+  Pivot -&gt; Today : wLM -&gt; wMU   (dZ=2)
+  Drift          : Bullish breakout
+  Age / Perf%    : 1W / 16.6
+  Extreme / Diff%: 1096.6 / -0.6
+  vs DAX%        : 13.3
 
 📊 Momentum
 --------
-MACD Age      : M ▲7mo | W ▼10w | D ▼3d
-Momentum Slope: Monthly Rising | Weekly Deepening | Daily Deepening
-Divergence    : Daily Regular Bull (+6d, High confidence)
+MACD Age      : M ▲7mo | W ▼10w | D ▼4d
+Momentum Slope: Monthly Flat | Weekly Deepening | Daily Deepening
+Divergence    : Daily Regular Bull (+7d, High confidence)
 Pattern       : Trend Losing Momentum
 
 Signal:
 Bullish
-MACD Golden Cross : W(+10w), D(+3d)
+MACD Golden Cross : W(+10w), D(+4d)
 MACD Above Zero : M(+7mo)
 Price Above MA200 : W
 Bearish
 MACD Death Cross : M(+7mo)
-MACD Below Zero : W(+10w), D(+3d)
+MACD Below Zero : W(+10w), D(+4d)
 Price Below MA200 : D
 Neutral
 BB Compression : W
 
 📊 Summary
 -------
-  Countertrend move is losing momentum while energy is released; conviction behind the bounce remains weak.</pre><h2 id="ZAL">ZAL <span class="meta">COUNTERTREND</span></h2><pre class="detail">ZAL 2026-10-15
+  Countertrend move is losing momentum while energy is released; conviction behind the bounce remains weak.</pre><h2 id="ZAL">ZAL <span class="meta">COUNTERTREND</span></h2><pre class="detail">ZAL 2026-10-16
 📊 Overview
 --------
 State              : COUNTERTREND
 Raw State          : COUNTERTREND
 State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=COMPRESSION, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 24.73
+Breakout Resistance : 24.94
 Breakout Window    : 20
-Score      : 85  (W 31.5 + D 33.2 + E 15.0  cycle 5)
-Confidence : 79%
+Score      : 83  (W 31.5 + D 33.2 + E 13.0  cycle 5)
+Confidence : 77%
 Trend      : Counter-trend bounce (Weekly BEAR, Daily BULL)
 
 📊 Weekly
@@ -337,7 +356,7 @@ Context : Mixed trend structure with weak trend strength and price drifting up t
 -----
 Trend : Bull
 ADX   : BUILDING
-MA    : Up (MA9&lt;MA50 MA50&lt;MA200)
+MA    : Up (MA9&gt;MA50 MA50&lt;MA200)
 BB    : EXPANDING
 Context : Uptrend structure with building trend strength and expanding volatility.
 
@@ -355,26 +374,26 @@ BB Zone  :
   Today  : U   -&gt; (0)
 Alignment: 3 (Full)
 Swing Age: 0d
-Band Cross: Bull cross wMA+wMA9 (1.25x vol) [CONFIRMED]
+Band Cross: Bull cross wMA+wMA9 (1.3x vol) [CONFIRMED]
 Pivot Drift: U -&gt; U  dZ=0  Aligned
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wMU   (dZ=2)
   Drift          : Bullish breakout
-  Age / Perf%    : 3W / 15.4
-  Extreme / Diff%: 24.94 / -0.3
-  vs DAX%        : 16.2
+  Age / Perf%    : 3W / 17.2
+  Extreme / Diff%: 25.48 / -0.9
+  vs DAX%        : 17.0
 
 📊 Momentum
 --------
-MACD Age      : M ▼0mo | W ▼8w | D ▲16d
+MACD Age      : M ▼0mo | W ▼8w | D ▲17d
 Momentum Slope: Monthly Turning | Weekly Recovering | Daily Rising
 Divergence    : none
 Pattern       : Countertrend Rally
 
 Signal:
 Bullish
-MACD Golden Cross : M(+0mo), D(+16d)
-MACD Above Zero : D(+16d)
+MACD Golden Cross : M(+0mo), D(+17d)
+MACD Above Zero : D(+17d)
 Price Above MA200 : W, D
 Bearish
 MACD Death Cross : W(+8w)

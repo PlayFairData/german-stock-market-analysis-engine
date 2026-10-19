@@ -85,6 +85,17 @@
         padding: 0; }
     .cell-btn:hover { color: #174ea6; }
 
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
+
     .arr { font-weight: 600; font-size: .85em; padding-left: 3px; white-space: nowrap; }
     .arr.up { color: #0b8a3e; }
     .arr.down { color: #c5221f; }
@@ -117,6 +128,39 @@
     .cal-day.has:hover { background: #d2e3fc; text-decoration: none; }
     .cal-day.today { outline: 2px solid #1a73e8; }
     .movers-wrap { margin-top: 20px; }
+
+    /* Collapsible archived days tree (Year -> Month -> Days) */
+    details.archive-section { margin-top: 26px; }
+    details.archive-section > summary.archive-section-title {
+        font-size: 1.05rem; font-weight: 700; cursor: pointer;
+        padding: 4px 0; margin-bottom: 8px; color: #202124;
+    }
+    details.archive-section > summary.archive-section-title:hover { color: #1a73e8; }
+    details.archive-section > summary.archive-section-title .meta {
+        font-weight: 400; font-size: .85rem; margin-left: 6px;
+    }
+    .archive-controls { display: flex; gap: 8px; margin: 4px 0 10px 4px; }
+    .archive-controls button { padding: 3px 10px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 4px; cursor: pointer; font-size: 0.82rem; }
+    .archive-controls button:hover { background: #f1f3f4; }
+    .archive-tree { margin-left: 4px; }
+    details.archive-year { margin: 8px 0; }
+    details.archive-year > summary.archive-year-title {
+        font-size: 0.98rem; cursor: pointer; padding: 4px 0; color: #202124;
+    }
+    details.archive-year > summary.archive-year-title:hover { color: #1a73e8; }
+    details.archive-year > summary.archive-year-title .meta {
+        font-size: .82rem; margin-left: 6px;
+    }
+    details.archive-month { margin: 6px 0 6px 16px; }
+    details.archive-month > summary.archive-month-title {
+        font-size: 0.92rem; cursor: pointer; padding: 3px 0; color: #3c4043;
+    }
+    details.archive-month > summary.archive-month-title:hover { color: #1a73e8; }
+    details.archive-month > summary.archive-month-title .meta {
+        font-size: .80rem; margin-left: 6px;
+    }
+    details.archive-month > table.matrix { margin: 6px 0 14px 12px; }
 
     @media (max-width: 720px) {
         html {
@@ -268,12 +312,27 @@
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
         }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
     }
 </style>
 </head>
 <body>
 <div class="meta">State Report Archive</div>
-<div class="crumb"><a href="../stage_report.html">&larr; Live report</a> &middot; <a href="../index.html">Guide</a></div><h1>State Report Archive</h1><div class='crumb'>One report per day &mdash; pick two dates to compare (arrows show the change of<br>the target vs the baseline), or click a calendar day to replay its report.</div><p class='meta'>8 day(s) archived &middot; data files: history.js, stage_report_YYYY-MM-DD.json</p><h2>Compare two dates</h2><div class='cmp-controls'><label>Baseline <select id='cmpA'></select></label><label>Target <select id='cmpB'></select></label><button id='cmpSwap' type='button'>Swap</button><button id='cmpGo' type='button'>Compare</button></div><div id='cmpTitle' class='meta'></div><div id='cmpResult'></div><h2>Calendar &mdash; click a day to replay</h2><div class='cal-controls'><button id='calPrev' type='button'>&lsaquo;</button><span id='calTitle' class='meta'></span><button id='calNext' type='button'>&rsaquo;</button></div><div id='calGrid' class='cal-grid'></div><h2>All archived days</h2><table class='matrix'><thead><tr><th>Date</th><th>Stocks</th><th>Indexes</th><th>Generated</th></tr></thead><tbody><tr><td><a href="stage_report_2026-10-15.html">2026-10-15</a></td><td>176</td><td>5</td><td class="meta">2026-10-16 08:58:55</td></tr><tr><td><a href="stage_report_2026-10-14.html">2026-10-14</a></td><td>176</td><td>5</td><td class="meta">2026-10-16 07:55:11</td></tr><tr><td><a href="stage_report_2026-10-13.html">2026-10-13</a></td><td>176</td><td>5</td><td class="meta">2026-10-16 07:55:11</td></tr><tr><td><a href="stage_report_2026-10-12.html">2026-10-12</a></td><td>176</td><td>5</td><td class="meta">2026-10-12 20:31:21</td></tr><tr><td><a href="stage_report_2026-10-09.html">2026-10-09</a></td><td>176</td><td>5</td><td class="meta">2026-10-16 07:55:12</td></tr><tr><td><a href="stage_report_2026-10-08.html">2026-10-08</a></td><td>176</td><td>5</td><td class="meta">2026-10-09 16:31:29</td></tr><tr><td><a href="stage_report_2026-10-07.html">2026-10-07</a></td><td>176</td><td>5</td><td class="meta">2026-10-16 07:55:11</td></tr><tr><td><a href="stage_report_2026-10-06.html">2026-10-06</a></td><td>175</td><td>4</td><td class="meta">2026-10-16 07:55:11</td></tr></tbody></table><script src="history.js"></script>
+<div class="crumb"><a href="../stage_report.html">&larr; Live report</a> &middot; <a href="../index.html">Guide</a></div><h1>State Report Archive</h1><div class='crumb'>One report per day &mdash; pick two dates to compare (arrows show the change of<br>the target vs the baseline), or click a calendar day to replay its report.</div><p class='meta'>10 day(s) archived &middot; data files: history.js, data/YYYY-MM.js, stage_report_YYYY-MM-DD.json</p><h2>Compare two dates</h2><div class='cmp-controls'><label>Baseline <select id='cmpA'></select></label><label>Target <select id='cmpB'></select></label><button id='cmpSwap' type='button'>Swap</button><button id='cmpGo' type='button'>Compare</button></div><div id='cmpTitle' class='meta'></div><div id='cmpResult'></div><h2>Calendar &mdash; click a day to replay</h2><div class='cal-controls'><button id='calPrev' type='button'>&lsaquo;</button><span id='calTitle' class='meta'></span><button id='calNext' type='button'>&rsaquo;</button></div><div id='calGrid' class='cal-grid'></div><details class="archive-section" id="arcSection" open>
+<summary class="archive-section-title">All archived days <span class="meta">(10 days)</span></summary>
+<div class="archive-controls"><button id="arcExpandAll" type="button">Expand all</button> <button id="arcCollapseAll" type="button">Collapse all</button></div>
+<div class="archive-tree">
+<details class="archive-year" open><summary class="archive-year-title"><strong>2026</strong> <span class="meta">(10 days)</span></summary>
+<details class="archive-month" open><summary class="archive-month-title"><strong>October</strong> <span class="meta">(10 days)</span></summary><table class='matrix'><thead><tr><th>Date</th><th>Stocks</th><th>Indexes</th><th>Generated</th></tr></thead><tbody><tr><td><a href="archive.html?date=2026-10-16">2026-10-16</a></td><td>176</td><td>5</td><td class="meta">2026-10-17 23:53:41</td></tr><tr><td><a href="archive.html?date=2026-10-15">2026-10-15</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:24</td></tr><tr><td><a href="archive.html?date=2026-10-14">2026-10-14</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:24</td></tr><tr><td><a href="archive.html?date=2026-10-13">2026-10-13</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:24</td></tr><tr><td><a href="archive.html?date=2026-10-12">2026-10-12</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:24</td></tr><tr><td><a href="archive.html?date=2026-10-09">2026-10-09</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:24</td></tr><tr><td><a href="archive.html?date=2026-10-08">2026-10-08</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:24</td></tr><tr><td><a href="archive.html?date=2026-10-07">2026-10-07</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:23</td></tr><tr><td><a href="archive.html?date=2026-10-06">2026-10-06</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:23</td></tr><tr><td><a href="archive.html?date=2026-10-05">2026-10-05</a></td><td>176</td><td>5</td><td class="meta">2026-10-19 07:25:23</td></tr></tbody></table></details>
+</details>
+</div></details>
+<script src="history.js"></script>
 <script>
 
 (function () {
@@ -441,7 +500,7 @@
       var k = dkey(calY, calM, d);
       if (H[k]) {
         h += '<a class="cal-day has' + (k === todayK ? ' today' : '') +
-             '" href="stage_report_' + k + '.html" title="replay ' + k + '">' +
+             '" href="archive.html?date=' + k + '" title="replay ' + k + '">' +
              d + '</a>';
       } else {
         h += '<div class="cal-day' + (k === todayK ? ' today' : '') + '">' +
@@ -477,6 +536,22 @@
       if (calM > 11) { calM = 0; calY += 1; }
       renderCal();
     });
+    var bExp = document.getElementById('arcExpandAll');
+    var bCol = document.getElementById('arcCollapseAll');
+    if (bExp) {
+      bExp.addEventListener('click', function () {
+        var el = document.getElementById('arcSection');
+        if (el) el.open = true;
+        var tree = document.querySelectorAll('.archive-tree details');
+        for (var i = 0; i < tree.length; i++) tree[i].open = true;
+      });
+    }
+    if (bCol) {
+      bCol.addEventListener('click', function () {
+        var tree = document.querySelectorAll('.archive-tree details');
+        for (var i = 0; i < tree.length; i++) tree[i].open = false;
+      });
+    }
     renderCompare();
     renderCal();
   }
