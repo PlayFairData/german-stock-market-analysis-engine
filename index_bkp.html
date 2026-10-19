@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to read the stock overview</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0 auto; max-width: 900px; padding: 24px 20px 56px; background: #fff; color: #202124; font-size: 15.5px; line-height: 1.6; }
+h1 { font-size: 1.3rem; margin: 0 0 4px; }
+h2 { font-size: 1.05rem; margin: 26px 0 8px; padding-top: 14px; border-top: 1px solid #ececec; }
+h3 { font-size: .95rem; margin: 14px 0 6px; }
+.meta, .sub { color: #70757a; font-size: .85rem; margin-bottom: 14px; }
+.lede { font-size: 1.02rem; max-width: 70ch; }
+a { color: #1a73e8; text-decoration: none; }
+a:hover { text-decoration: underline; }
+code, .m { font-family: Consolas, 'Courier New', monospace; font-size: .86em; background: #f8f9fa; padding: 1px 5px; border-radius: 3px; border: 1px solid #e8eaed; }
+pre.detail { background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px; padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45; font-family: Consolas, 'Courier New', monospace; }
+table.matrix { border-collapse: collapse; font-size: .92rem; width: 100%; }
+table.matrix th, table.matrix td { padding: 8px 14px 8px 0; text-align: left; border-bottom: 1px solid #ececec; vertical-align: top; }
+table.matrix th { font-weight: 600; border-bottom: 1px solid #dadce0; }
+table.matrix tr:hover { background: #f8f9fa; }
+.c { display: inline-block; font: 12px/1.5 Consolas, monospace; padding: 0 8px; margin: 2px 3px 2px 0; border-radius: 999px; border: 1px solid #dadce0; background: #f8f9fa; color: #202124; white-space: nowrap; }
+.c.bull { color: #0b8a3e; border-color: #0b8a3e; background: #e6f4ea; }
+.c.bear { color: #c5221f; border-color: #c5221f; background: #fce8e6; }
+.c.neu { color: #5f6368; }
+.c.bl { color: #1a73e8; border-color: #1a73e8; background: #e8f0fe; }
+.cards { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 6px; }
+.card { flex: 1 1 180px; max-width: 210px; border: 1px solid #e8eaed; border-radius: 8px; padding: 10px 12px; background: #fff; }
+.card b { display: block; font-size: .88rem; letter-spacing: .02em; }
+.card span { font-size: .82rem; color: #5f6368; }
+.card.green { border-left: 4px solid #0b8a3e; background: #f6fbf7; }
+.card.blue { border-left: 4px solid #1a73e8; background: #f6f9ff; }
+.card.yellow { border-left: 4px solid #e37400; background: #fefaf3; }
+.card.red { border-left: 4px solid #c5221f; background: #fef6f5; }
+dl { display: grid; grid-template-columns: 170px 1fr; gap: 8px 16px; font-size: .92rem; }
+dt { font-weight: 600; }
+dd { margin: 0 0 10px; }
+footer { margin-top: 34px; padding-top: 12px; border-top: 1px solid #ececec; color: #70757a; font-size: .82rem; }
+.tip { background: #e8f0fe; border: 1px solid #d2e3fc; border-radius: 6px; padding: 10px 14px; font-size: .92rem; margin: 12px 0; }
+ol.steps { margin: 6px 0 10px; padding-left: 20px; }
+ol.steps li { margin: 4px 0; }
+ul.plain { margin: 6px 0 12px; padding-left: 20px; }
+ul.plain li { margin: 3px 0; }
+</style>
+</head>
+<body>
+<div class="meta">Help &middot; stock overview report</div>
+<h1>How to read the stock overview</h1>
+<p class="lede">The stock overview brings together price trends, momentum, volatility, market-cycle position and performance relative to the market. Its purpose is to help you assess three things:</p>
+<ul class="plain">
+<li><b>Trend</b> &mdash; is the stock moving up, moving down, or losing direction?</li>
+<li><b>Phase</b> &mdash; is the move developing, continuing, pulling back, or showing signs of exhaustion?</li>
+<li><b>Relative strength</b> &mdash; is the stock performing better or worse than the broader market?</li>
+</ul>
+
+<h2>How to start</h2>
+<ol class="steps">
+<li><b>Read the market state.</b> It gives you a quick summary of the current technical picture.</li>
+<li><b>Check the weekly and daily trends.</b> The weekly trend provides the longer-term context; the daily trend shows shorter-term developments.</li>
+<li><b>Review energy and cycle position.</b> These help distinguish a developing move from a mature move, a pause, or a possible reversal.</li>
+<li><b>Compare performance with the market.</b> A stock that outperforms the index may deserve more attention than one that is lagging.</li>
+<li><b>Look for conflicting evidence.</b> A strong score does not remove risk, and a possible reversal is not a confirmed new trend.</li>
+</ol>
+<p class="sub">The report is a decision-support tool, not a prediction or a buy/sell instruction. Consider your investment horizon, valuation, company fundamentals and risk exposure before making a decision.</p>
+<p class="tip"><b>Optional:</b> you can paste a report into an AI assistant and ask a focused question such as &ldquo;what supports this assessment, what contradicts it, and what evidence would confirm a reversal?&rdquo; AI interpretation can be wrong and is not required to use the report.</p>
+
+<h2>Market states at a glance</h2>
+<p>A state summarises the current technical picture. It describes structure, not a recommendation: a state does not establish that a trade will work, and several states can look alike at the edges.</p>
+<table class="matrix">
+<thead><tr><th>State</th><th>What it suggests</th><th>What to watch</th><th>What it does not establish</th></tr></thead>
+<tbody>
+<tr><td><span class="c bull">BREAKOUT</span></td><td>A potentially strengthening move: weekly and daily trends are bullish with energy that may be expanding.</td><td>Whether the price strength persists and the breakout holds.</td><td>That the move will continue or that it is a low-risk entry.</td></tr>
+<tr><td><span class="c bull">CONTINUATION</span></td><td>An established uptrend: both the longer- and shorter-term trends point up.</td><td>Whether momentum stays healthy or starts fading.</td><td>That momentum will persist or that a top has not formed.</td></tr>
+<tr><td><span class="c blue">PULLBACK</span></td><td>A short-term decline within a longer-term uptrend: the weekly trend is still bullish while the daily trend is weakening.</td><td>Whether the longer-term structure holds. A pullback can develop into a deeper decline.</td><td>That the dip is a safe entry.</td></tr>
+<tr><td><span class="c yellow">TRANSITION</span></td><td>A possible change in market regime: the trend and energy signals suggest the previous pattern may be changing.</td><td>Confirmation. Transition does not tell you which direction will prevail.</td><td>Which way the regime will resolve, or that a reversal has already happened.</td></tr>
+<tr><td><span class="c yellow">PAUSE</span></td><td>No clear directional setup: the combination of signals does not establish a clear state.</td><td>A clearer trend or a meaningful change in momentum.</td><td>That nothing will happen next.</td></tr>
+<tr><td><span class="c blue">COUNTERTREND</span></td><td>A move against the longer-term trend: the daily direction differs from the weekly direction.</td><td>Whether the bounce develops into a durable reversal or fades.</td><td>That the main trend has turned.</td></tr>
+<tr><td><span class="c bear">DOWNTREND</span></td><td>An established bearish structure: both the weekly and daily trends are bearish.</td><td>Whether selling pressure persists or early recovery signals appear.</td><td>How far the decline will run.</td></tr>
+<tr><td><span class="c yellow">BASING</span></td><td>A possible stabilisation phase: the bearish trend is showing an exhaustion signal.</td><td>Whether the stock actually stabilises and forms a recovery. Exhaustion alone does not confirm a bottom.</td><td>That a bottom is in place.</td></tr>
+</tbody>
+</table>
+<p class="sub">These are user-facing descriptions of the states the report uses. They are not a claim that every state is a profitable trading signal.</p>
+
+<h2>Layers of the report</h2>
+<p>The report combines a few independent views of the same stock. Two views describe the trend (long-term and short-term), one describes stored energy, and two provide supporting context.</p>
+<table class="matrix">
+<thead><tr><th>Layer</th><th>Question it answers</th><th>How it is used</th></tr></thead>
+<tbody>
+<tr><td>Weekly trend <span class="sub">(long-term)</span></td><td>Where is the slower, longer-term trend?</td><td>Helps choose the market state</td></tr>
+<tr><td>Daily trend <span class="sub">(short-term)</span></td><td>What is price doing right now?</td><td>Helps choose the market state</td></tr>
+<tr><td>Energy</td><td>Is the move compressed, released, or exhausted?</td><td>Helps choose the market state</td></tr>
+<tr><td>Cycle position <span class="sub">(supporting)</span></td><td>Where is price inside its current swing?</td><td>Adjusts the score and confidence only</td></tr>
+<tr><td>Performance vs. index <span class="sub">(supporting)</span></td><td>Is the stock beating or lagging the market?</td><td>Nudges the score only</td></tr>
+</tbody>
+</table>
+
+<!--PART2--><h2>Reading the vocabulary</h2>
+<h3>Trend labels</h3>
+<p><span class="c bull">UPTREND</span> price structure points up. <span class="c bear">DOWNTREND</span> points down. <span class="c neu">SIDEWAYS</span> and <span class="c neu">NEUTRAL</span> mean no clear direction. <span class="c bull">EARLY_PULLBACK</span> is an uptrend with a shallow dip. <span class="c bear">EARLY_RECOVERY</span> is a downtrend with a shallow bounce.</p>
+<h3>Patterns</h3>
+<p><span class="c bull">Confirmed Trend</span> the trend is intact. <span class="c bull">Leader Pullback</span> a dip inside a long uptrend. <span class="c bull">Early Bull Reversal</span> the first sign a decline may turn. <span class="c bear">Confirmed Downtrend</span> the decline is intact. <span class="c bear">Trend Losing Momentum</span> the push is fading. <span class="c bear">Failed Recovery</span> a bounce attempt already broke. <span class="c bull">Countertrend Rally</span> / <span class="c bull">Recovery Attempt</span> a bounce against the main trend.</p>
+<p class="sub">Market states summarise the broader technical picture; pattern labels describe a particular trend or price behaviour within that picture.</p>
+<h3>Energy</h3>
+<p><span class="c bl">COMPRESSION</span> energy coiling. <span class="c bl">RELEASED</span> energy discharging. <span class="c bl">EXHAUSTION</span> the move may be spent. <span class="c bl">NONE</span> no energy signal. <span class="c bl">VOLATILE</span> unusually jumpy. Energy has no direction: it says how much is stored, not which way it will go.</p>
+<h3>Band zones</h3>
+<p>Where the close sits inside the Bollinger bands: <span class="c">L</span> below the lower band, <span class="c">LM</span> the lower half, <span class="c">M</span> on the middle line, <span class="c">MU</span> the upper half, <span class="c">U</span> above the upper band. A close above the upper band does not automatically mean a buy, and a close below the lower band does not automatically mean a sell.</p>
+<h3>Trend strength</h3>
+<p>A 0&ndash;100 gauge (the ADX) of how strongly directional the market is: below 20 weak, 20&ndash;30 building, 30&ndash;40 strong, 40+ very strong. Trend strength is not the same as bullishness &mdash; a strong downtrend can also show high trend strength.</p>
+<!--PART3--><h2>Reading names</h2>
+<p>A plus joins <b>timeframe + indicator + length</b>. A leading <code>w</code> means weekly, <code>m</code> monthly, no prefix daily. So <code>wMA200</code> is the weekly 200-period average, <code>mMA</code> the monthly middle band line, <code>MA9</code> the daily 9-period average.</p>
+
+<h2>From signals to a state</h2>
+<p>Weekly trend, daily trend and energy combine into one of eight states. This table is a reference: in practice, start from the market state and the weekly/daily trends, then use the table to understand why the state was chosen.</p>
+<table class="matrix">
+<thead><tr><th>Weekly</th><th>Daily</th><th>Energy</th><th>State</th></tr></thead>
+<tbody>
+<tr><td>bear</td><td>bear</td><td>exhaustion</td><td>BASING</td></tr>
+<tr><td>bear</td><td>bear</td><td>other</td><td>DOWNTREND</td></tr>
+<tr><td>bear</td><td>bull</td><td>any</td><td>COUNTERTREND</td></tr>
+<tr><td>bear</td><td>neutral</td><td>released / exhaustion</td><td>TRANSITION</td></tr>
+<tr><td>bear</td><td>neutral</td><td>other</td><td>PAUSE</td></tr>
+<tr><td>neutral</td><td>bull or bear</td><td>released</td><td>TRANSITION</td></tr>
+<tr><td>neutral</td><td>bull or bear</td><td>other</td><td>PAUSE</td></tr>
+<tr><td>bull</td><td>bull</td><td>compression / released</td><td>BREAKOUT</td></tr>
+<tr><td>bull</td><td>bull</td><td>other</td><td>CONTINUATION</td></tr>
+<tr><td>bull</td><td>bear</td><td>any</td><td>PULLBACK</td></tr>
+<tr><td>bull</td><td>neutral</td><td>any</td><td>PAUSE</td></tr>
+</tbody>
+</table>
+
+<h2>Worked examples</h2>
+<p class="sub">Example 1 &mdash; a neutral daily picture inside a bearish longer-term trend.</p>
+<pre class="detail">Weekly : DOWNTREND  Daily : NEUTRAL  Energy : NONE
+State : PAUSE  Score : 30  Conf : 55%
+Summary : The longer-term trend remains bearish while the daily picture is
+          currently neutral. With no clear energy signal, the setup is PAUSE.</pre>
+<p>The weekly (longer-term) trend is bearish, but the daily trend is neutral and there is no energy signal, so the report classifies the setup as PAUSE. This is a continuing bearish longer-term trend with a neutral daily picture &mdash; it is <b>not</b> the same as a bearish trend confirmed on every timeframe.</p>
+
+<p class="sub">Example 2 &mdash; a possible regime change.</p>
+<pre class="detail">Weekly : DOWNTREND  Daily : UPTREND  Energy : EXHAUSTION
+State : TRANSITION  Score : 62  Conf : 61%
+Summary : Downtrend exhausting &mdash; regime changing.</pre>
+<p>A bearish weekly structure meets a fast daily recovery with spent energy. The engine reports TRANSITION: a possible change in regime. This is not evidence that a reversal has already occurred &mdash; wait for confirmation of which direction prevails.</p>
+
+<p class="sub">Example 3 &mdash; conflicting timeframes (a pullback, not a reversal).</p>
+<pre class="detail">Weekly : UPTREND   Daily : DOWNTREND  Energy : NONE
+State : PULLBACK  Summary : Longer-term uptrend intact while the daily trend corrects.</pre>
+<p>Here the weekly trend is still bullish while the daily trend is bearish. That combination is a PULLBACK, not a reversal: a short-term setback can coexist with a longer-term uptrend. A change of state is not automatically a trend reversal &mdash; watch whether the longer-term structure holds.</p>
+
+<h2>Score and confidence</h2>
+<p><b>Score (0&ndash;100)</b> summarises the strength and direction of the technical assessment. It combines the weekly trend, daily trend, energy conditions and relative performance.</p>
+<p><b>Confidence (0&ndash;100%)</b> describes how consistently the available signals support the assessment. It is <b>not</b> the probability that the stock will rise, the probability of a profitable trade, or a guarantee that the assessment is correct.</p>
+<h3>How to interpret them together</h3>
+<ul class="plain">
+<li><b>Strong score, high confidence:</b> the technical assessment is strong and the evidence is relatively consistent.</li>
+<li><b>Strong score, low confidence:</b> the assessment looks favourable, but the supporting evidence is less reliable or less consistent. Check for conflicting signals.</li>
+<li><b>Moderate score, high confidence:</b> the assessment may be clear, but its direction or strength is not especially favourable.</li>
+<li><b>Low score, low confidence:</b> the picture is weak or uncertain. Avoid drawing a strong conclusion from the score alone.</li>
+</ul>
+<p>Always read the score alongside the market state, the weekly and daily trends, and the supporting evidence. A high score is not automatically a buy signal.</p>
+
+<h2>Cycle position</h2>
+<p>The cycle block shows where price sits inside its current swing. A <b>swing high</b> or <b>swing low</b> is a significant turning point, found by ignoring day-to-day noise; the last swing point is the most recent such turning point.</p>
+<p>Stages: <span class="c bull">ADVANCE</span> pushing up, <span class="c">PULLBACK</span> dipping inside an advance, <span class="c bear">DECLINE</span> pushing down, <span class="c">RECOVERY</span> bouncing inside a decline. The block also shows how far the close has travelled from the last swing point and whether the weekly, daily and monthly swings agree.</p>
+
+<h2>Performance versus the index</h2>
+<p>Returns over 1 week, 1 month and 1 year sit next to the index return for the same window, plus the gap between the two. A positive gap means the stock <b>outperformed</b> the index over that window; a negative gap means it <b>lagged</b>. A stock that consistently outperforms may deserve more attention than one that is lagging, and the gap also nudges the score.</p>
+
+<h2>Volume and relative strength</h2>
+<p>These figures describe price position, relative strength and trading activity. On their own they do <b>not</b> establish institutional buying or selling; treat them as indirect market-activity indicators.</p>
+<dl>
+<dt>Pwh</dt><dd>Percent distance of the close below the last weekly high. 0 means at the high; &minus;7.3 means 7.3% under it.</dd>
+<dt>Pwh_rel</dt><dd>The stock&rsquo;s <code>Pwh</code> minus the index&rsquo;s, in percentage points. Positive means nearer its high than the index; negative means lagging it.</dd>
+<dt>VolRatio</dt><dd>This week&rsquo;s volume against its recent average. Above 1 means busier than usual.</dd>
+<dt>DAX Ratio</dt><dd>How the stock&rsquo;s recent path tracks the index path. Near 1 moves together; well above or below means decoupling.</dd>
+<dt>1d Ret</dt><dd>Last daily return in percent.</dd>
+</dl>
+
+<h2>Trend report columns</h2>
+<p>The weekly pivot trend section lists, per stock: the zone pair (<code>wL -&gt; wMU</code>), the age from the pivot day to today (days, or weeks as <code>6W</code>), the performance since the pivot in percent, the highest price seen since the pivot (lowest price for down moves), its distance to the current close in percent, and the gap to the index return over the same window in percent.</p>
+
+<h2>Glossary</h2>
+<h3>Price and averages</h3>
+<dl>
+<dt>Moving averages</dt><dd><code>MA</code> is the 20-period average (same as the middle band line), <code>MA9</code> the fast 9-period line, <code>MA50</code> and <code>MA200</code> the slow lines. A leading <code>w</code>/<code>m</code> switches to weekly/monthly.</dd>
+<dt>PLH and PLL</dt><dd>Percentage change from the last swing high (PLH) or last swing low (PLL) to the latest close. <code>PLH_1</code> and <code>PLL_1</code> do the same for the turning points before those.</dd>
+<dt>Pwh and Pmh</dt><dd>Distance of the close from the last weekly high (<code>Pwh</code>) or last monthly high (<code>Pmh</code>), in percent. See <code>Pwh_rel</code> above for the index-relative form.</dd>
+</dl>
+<h3>Bands and volatility</h3>
+<dl>
+<dt>Bollinger bands</dt><dd>The middle line is a 20-period moving average. The upper and lower bands sit two standard deviations above and below it. The half-width is (upper &minus; lower) &divide; 2.</dd>
+<dt>Volatility ratio</dt><dd>The latest 14-bar price standard deviation as a percentage of its own average: below 80 low, 80 to 120 normal, above 120 high.</dd>
+</dl>
+<h3>Swing structure</h3>
+<dl>
+<dt>Zigzag, swing, leg</dt><dd>The zigzag keeps only significant turning points and drops the noise between them. Each turning point is a swing high (H) or swing low (L). A leg is the move between two consecutive turning points.</dd>
+</dl>
+<h3>Naming and log format</h3>
+<dl>
+<dt>One-line log</dt><dd>A line such as <code>=&lt;[]D[]D[]noX</code> has four parts split by <code>[]</code>: band shape, fast-average direction, slow-average direction, and the expected cross (<code>noX</code> means none). Direction codes: <span class="c bull">U</span> up, <span class="c bull">V</span> turned up, <span class="c bear">D</span> down, <span class="c bear">A</span> turned down. By default the fast and slow averages are <code>wMA9</code> and <code>wMA</code> on weekly, <code>MA9</code> and <code>MA</code> on daily.</dd>
+<dt>Swing text</dt><dd>Strings such as <code>H:2026-07-13 MU 2.2% 4.0/8.9|-|L::2026-07-15 MU 1.4% 2.5/8.1</code>. Each point gives its type and date, the band zone, the close&rsquo;s percentage distance from the middle line, and its absolute distance over the band half-width. A double colon marks the newest, still-open point.</dd>
+</dl>
+<footer>Analytical documentation, not investment advice.</footer>
+</body>
+</html>

@@ -1,0 +1,1524 @@
+{
+ "date": "2026-10-08",
+ "generated": "2026-10-09 16:31:29",
+ "source_log": "c:\\nb\\bin\\overview.log",
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "SDAX",
+  "PDAX",
+  "CDAX"
+ ],
+ "stages": [
+  "PAUSE",
+  "BREAKOUT",
+  "TRANSITION",
+  "DOWNTREND",
+  "PULLBACK",
+  "CONTINUATION",
+  "COUNTERTREND",
+  "BASING"
+ ],
+ "matrix": {
+  "PAUSE": {
+   "DAX": 19,
+   "MDAX": 31,
+   "SDAX": 39,
+   "PDAX": 7,
+   "CDAX": 1,
+   "total": 97,
+   "share": 55.1
+  },
+  "BREAKOUT": {
+   "DAX": 4,
+   "MDAX": 4,
+   "SDAX": 4,
+   "PDAX": 0,
+   "CDAX": 0,
+   "total": 12,
+   "share": 6.8
+  },
+  "TRANSITION": {
+   "DAX": 5,
+   "MDAX": 11,
+   "SDAX": 7,
+   "PDAX": 4,
+   "CDAX": 0,
+   "total": 27,
+   "share": 15.3
+  },
+  "DOWNTREND": {
+   "DAX": 5,
+   "MDAX": 1,
+   "SDAX": 4,
+   "PDAX": 0,
+   "CDAX": 0,
+   "total": 10,
+   "share": 5.7
+  },
+  "PULLBACK": {
+   "DAX": 2,
+   "MDAX": 1,
+   "SDAX": 4,
+   "PDAX": 1,
+   "CDAX": 0,
+   "total": 8,
+   "share": 4.5
+  },
+  "CONTINUATION": {
+   "DAX": 3,
+   "MDAX": 1,
+   "SDAX": 7,
+   "PDAX": 2,
+   "CDAX": 0,
+   "total": 13,
+   "share": 7.4
+  },
+  "COUNTERTREND": {
+   "DAX": 2,
+   "MDAX": 0,
+   "SDAX": 0,
+   "PDAX": 0,
+   "CDAX": 0,
+   "total": 2,
+   "share": 1.1
+  },
+  "BASING": {
+   "DAX": 0,
+   "MDAX": 1,
+   "SDAX": 5,
+   "PDAX": 1,
+   "CDAX": 0,
+   "total": 7,
+   "share": 4.0
+  }
+ },
+ "index_totals": {
+  "DAX": 40,
+  "MDAX": 50,
+  "SDAX": 70,
+  "PDAX": 15,
+  "CDAX": 1
+ },
+ "grand_total": 176,
+ "stocks": {
+  "DAX": [
+   {
+    "code": "ADS",
+    "stage": "PAUSE",
+    "score": 68.0,
+    "confidence": 67,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "AIR",
+    "stage": "DOWNTREND",
+    "score": 58.0,
+    "confidence": 50,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "ALV",
+    "stage": "DOWNTREND",
+    "score": 42.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + NONE -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "BAS",
+    "stage": "PULLBACK",
+    "score": 71.0,
+    "confidence": 67,
+    "energy": "COMPRESSION",
+    "summary": "Pullback remains contained while energy compresses near support."
+   },
+   {
+    "code": "BAYN",
+    "stage": "PAUSE",
+    "score": 69.0,
+    "confidence": 60,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "BEI",
+    "stage": "PAUSE",
+    "score": 73.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "BMW",
+    "stage": "DOWNTREND",
+    "score": 53.0,
+    "confidence": 47,
+    "energy": "RELEASED",
+    "summary": "Bearish momentum is accelerating across multiple timeframes."
+   },
+   {
+    "code": "BNR",
+    "stage": "BREAKOUT",
+    "score": 81.0,
+    "confidence": 75,
+    "energy": "RELEASED",
+    "summary": "Breakout is fading; confirmation weakening."
+   },
+   {
+    "code": "CBK",
+    "stage": "PAUSE",
+    "score": 55.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "CON",
+    "stage": "PAUSE",
+    "score": 62.0,
+    "confidence": 54,
+    "energy": "COMPRESSION",
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+   },
+   {
+    "code": "DB1",
+    "stage": "BREAKOUT",
+    "score": 87.0,
+    "confidence": 79,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "DBK",
+    "stage": "DOWNTREND",
+    "score": 49.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "DHL",
+    "stage": "PAUSE",
+    "score": 75.0,
+    "confidence": 66,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "DTE",
+    "stage": "PAUSE",
+    "score": 46.0,
+    "confidence": 42,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "DTG",
+    "stage": "PULLBACK",
+    "score": 61.0,
+    "confidence": 55,
+    "energy": "RELEASED",
+    "summary": "Buying pressure is returning after the pullback."
+   },
+   {
+    "code": "ENR",
+    "stage": "PAUSE",
+    "score": 52.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "EOAN",
+    "stage": "PAUSE",
+    "score": 52.0,
+    "confidence": 47,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "FME",
+    "stage": "PAUSE",
+    "score": 43.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "FRE",
+    "stage": "TRANSITION",
+    "score": 51.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "Breakout resumed after a healthy pullback within the primary trend."
+   },
+   {
+    "code": "G1A",
+    "stage": "CONTINUATION",
+    "score": 81.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend continues in line with confirmed momentum, though no notable energy signal is present."
+   },
+   {
+    "code": "G24",
+    "stage": "PAUSE",
+    "score": 49.0,
+    "confidence": 48,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "HEI",
+    "stage": "TRANSITION",
+    "score": 60.0,
+    "confidence": 55,
+    "energy": "RELEASED",
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+   },
+   {
+    "code": "HEN3",
+    "stage": "PAUSE",
+    "score": 66.0,
+    "confidence": 60,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "HNR1",
+    "stage": "CONTINUATION",
+    "score": 83.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend continues in line with confirmed momentum, though no notable energy signal is present."
+   },
+   {
+    "code": "HOT",
+    "stage": "PAUSE",
+    "score": 61.0,
+    "confidence": 55,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "IFX",
+    "stage": "PAUSE",
+    "score": 55.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+   },
+   {
+    "code": "MBG",
+    "stage": "TRANSITION",
+    "score": 46.0,
+    "confidence": 41,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "MRK",
+    "stage": "COUNTERTREND",
+    "score": 73.0,
+    "confidence": 62,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for COUNTERTREND + Early Bull Reversal + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "MTX",
+    "stage": "PAUSE",
+    "score": 72.0,
+    "confidence": 70,
+    "energy": "COMPRESSION",
+    "summary": "Consolidation with improving internal strength."
+   },
+   {
+    "code": "MUV2",
+    "stage": "PAUSE",
+    "score": 93.0,
+    "confidence": 85,
+    "energy": "COMPRESSION",
+    "summary": "Consolidation with improving internal strength."
+   },
+   {
+    "code": "QIA",
+    "stage": "BREAKOUT",
+    "score": 83.0,
+    "confidence": 78,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "RHM",
+    "stage": "DOWNTREND",
+    "score": 60.0,
+    "confidence": 55,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for DOWNTREND + Trend Losing Momentum + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "RWE",
+    "stage": "PAUSE",
+    "score": 82.0,
+    "confidence": 72,
+    "energy": "COMPRESSION",
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+   },
+   {
+    "code": "SAP",
+    "stage": "BREAKOUT",
+    "score": 77.0,
+    "confidence": 75,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "SHL",
+    "stage": "CONTINUATION",
+    "score": 70.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend continues structurally, but the recent recovery attempt has failed at the momentum level."
+   },
+   {
+    "code": "SIE",
+    "stage": "PAUSE",
+    "score": 62.0,
+    "confidence": 55,
+    "energy": "RELEASED",
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+   },
+   {
+    "code": "SY1",
+    "stage": "PAUSE",
+    "score": 57.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "VNA",
+    "stage": "TRANSITION",
+    "score": 59.0,
+    "confidence": 53,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "VOW3",
+    "stage": "TRANSITION",
+    "score": 49.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "ZAL",
+    "stage": "COUNTERTREND",
+    "score": 41.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Countertrend bounce against a confirmed downtrend; momentum has not confirmed a reversal."
+   }
+  ],
+  "MDAX": [
+   {
+    "code": "8TRA",
+    "stage": "DOWNTREND",
+    "score": 53.0,
+    "confidence": 47,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for DOWNTREND + Leader Pullback + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "AG1",
+    "stage": "TRANSITION",
+    "score": 52.0,
+    "confidence": 44,
+    "energy": "RELEASED",
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+   },
+   {
+    "code": "AIXA",
+    "stage": "TRANSITION",
+    "score": 57.0,
+    "confidence": 58,
+    "energy": "EXHAUSTION",
+    "summary": "Recovery extended after a strong advance. Action Bias: Hold, avoid chasing."
+   },
+   {
+    "code": "AMV0",
+    "stage": "PAUSE",
+    "score": 62.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "AT1",
+    "stage": "BASING",
+    "score": 50.0,
+    "confidence": 44,
+    "energy": "EXHAUSTION",
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "BC8",
+    "stage": "BREAKOUT",
+    "score": 75.0,
+    "confidence": 69,
+    "energy": "RELEASED",
+    "summary": "Breakout is fading; confirmation weakening."
+   },
+   {
+    "code": "DEZ",
+    "stage": "PAUSE",
+    "score": 55.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "DHER",
+    "stage": "PAUSE",
+    "score": 63.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "DWS",
+    "stage": "TRANSITION",
+    "score": 45.0,
+    "confidence": 38,
+    "energy": "RELEASED",
+    "summary": "Breakout resumed after a healthy pullback within the primary trend."
+   },
+   {
+    "code": "ELG",
+    "stage": "PAUSE",
+    "score": 39.0,
+    "confidence": 38,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PAUSE + Recovery Attempt + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "EVD",
+    "stage": "PAUSE",
+    "score": 79.0,
+    "confidence": 71,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "EVK",
+    "stage": "BREAKOUT",
+    "score": 91.0,
+    "confidence": 82,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "FNTN",
+    "stage": "TRANSITION",
+    "score": 45.0,
+    "confidence": 38,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "FPE3",
+    "stage": "BREAKOUT",
+    "score": 89.0,
+    "confidence": 81,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "FRA",
+    "stage": "PAUSE",
+    "score": 62.0,
+    "confidence": 55,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "FTK",
+    "stage": "TRANSITION",
+    "score": 42.0,
+    "confidence": 37,
+    "energy": "RELEASED",
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+   },
+   {
+    "code": "GBF",
+    "stage": "TRANSITION",
+    "score": 50.0,
+    "confidence": 45,
+    "energy": "RELEASED",
+    "summary": "Recovery attempt losing momentum after expansion. Action Bias: Watch / Hold — not a fresh long entry until weekly momentum stabilizes."
+   },
+   {
+    "code": "HAG",
+    "stage": "PAUSE",
+    "score": 52.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "HLE",
+    "stage": "PAUSE",
+    "score": 61.0,
+    "confidence": 52,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "IOS",
+    "stage": "PAUSE",
+    "score": 58.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "JEN",
+    "stage": "PAUSE",
+    "score": 55.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+   },
+   {
+    "code": "KBX",
+    "stage": "PAUSE",
+    "score": 58.0,
+    "confidence": 51,
+    "energy": "COMPRESSION",
+    "summary": "Leader pullback remains contained while energy is compressed, keeping the primary trend intact but awaiting renewed momentum."
+   },
+   {
+    "code": "KGX",
+    "stage": "PAUSE",
+    "score": 42.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "KRN",
+    "stage": "PAUSE",
+    "score": 43.0,
+    "confidence": 37,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "LEG",
+    "stage": "TRANSITION",
+    "score": 55.0,
+    "confidence": 48,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "LHA",
+    "stage": "PAUSE",
+    "score": 53.0,
+    "confidence": 46,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "LXS",
+    "stage": "TRANSITION",
+    "score": 43.0,
+    "confidence": 44,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "NDA",
+    "stage": "PAUSE",
+    "score": 49.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "NDX1",
+    "stage": "PAUSE",
+    "score": 65.0,
+    "confidence": 57,
+    "energy": "COMPRESSION",
+    "summary": "Sideways consolidation without directional edge."
+   },
+   {
+    "code": "NEM",
+    "stage": "CONTINUATION",
+    "score": 85.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "No summary rule yet for CONTINUATION + Countertrend Rally + NONE -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "P911",
+    "stage": "PAUSE",
+    "score": 69.0,
+    "confidence": 58,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "PAH3",
+    "stage": "PAUSE",
+    "score": 31.0,
+    "confidence": 31,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "PUM",
+    "stage": "PAUSE",
+    "score": 53.0,
+    "confidence": 47,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "R3NK",
+    "stage": "TRANSITION",
+    "score": 55.0,
+    "confidence": 48,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "RAA",
+    "stage": "TRANSITION",
+    "score": 49.0,
+    "confidence": 41,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "RRTL",
+    "stage": "PAUSE",
+    "score": 41.0,
+    "confidence": 41,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "SAX",
+    "stage": "PAUSE",
+    "score": 43.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Recovery attempt has failed at the momentum level; consolidation continues without a clear edge."
+   },
+   {
+    "code": "SDF",
+    "stage": "PULLBACK",
+    "score": 64.0,
+    "confidence": 58,
+    "energy": "EXHAUSTION",
+    "summary": "Leader pullback with exhaustion energy; the pullback may be maturing, but renewed trend momentum still needs confirmation."
+   },
+   {
+    "code": "SHA0",
+    "stage": "PAUSE",
+    "score": 44.0,
+    "confidence": 39,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "SMHN",
+    "stage": "PAUSE",
+    "score": 40.0,
+    "confidence": 39,
+    "energy": "RELEASED",
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+   },
+   {
+    "code": "SRT3",
+    "stage": "BREAKOUT",
+    "score": 75.0,
+    "confidence": 74,
+    "energy": "COMPRESSION",
+    "summary": "Breakout is building before expansion."
+   },
+   {
+    "code": "SZG",
+    "stage": "PAUSE",
+    "score": 45.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "TEG",
+    "stage": "TRANSITION",
+    "score": 65.0,
+    "confidence": 56,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "TKA",
+    "stage": "PAUSE",
+    "score": 73.0,
+    "confidence": 65,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "TKMS",
+    "stage": "PAUSE",
+    "score": 68.0,
+    "confidence": 60,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "TLX",
+    "stage": "PAUSE",
+    "score": 57.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "TUI1",
+    "stage": "PAUSE",
+    "score": 43.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "UTDI",
+    "stage": "PAUSE",
+    "score": 33.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "WAF",
+    "stage": "PAUSE",
+    "score": 69.0,
+    "confidence": 67,
+    "energy": "COMPRESSION",
+    "summary": "Consolidation with improving internal strength."
+   },
+   {
+    "code": "WCH",
+    "stage": "PAUSE",
+    "score": 44.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   }
+  ],
+  "SDAX": [
+   {
+    "code": "1AST",
+    "stage": "PAUSE",
+    "score": 45.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "1SXP",
+    "stage": "CONTINUATION",
+    "score": 95.0,
+    "confidence": 87,
+    "energy": "EXHAUSTION",
+    "summary": "Mature trend entering late-cycle extension."
+   },
+   {
+    "code": "1U1",
+    "stage": "DOWNTREND",
+    "score": 52.0,
+    "confidence": 45,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for DOWNTREND + Confirmed Trend + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "ACT0",
+    "stage": "PAUSE",
+    "score": 61.0,
+    "confidence": 61,
+    "energy": "COMPRESSION",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "ADV",
+    "stage": "BASING",
+    "score": 52.0,
+    "confidence": 46,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for BASING + Trend Losing Momentum + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "AFX",
+    "stage": "PAUSE",
+    "score": 76.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "AOF",
+    "stage": "PAUSE",
+    "score": 60.0,
+    "confidence": 50,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "BFSA",
+    "stage": "CONTINUATION",
+    "score": 70.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Primary trend remains intact despite short-term weakness."
+   },
+   {
+    "code": "BOSS",
+    "stage": "PAUSE",
+    "score": 73.0,
+    "confidence": 72,
+    "energy": "COMPRESSION",
+    "summary": "Sideways consolidation without directional edge."
+   },
+   {
+    "code": "BSL",
+    "stage": "PAUSE",
+    "score": 45.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "COK",
+    "stage": "PAUSE",
+    "score": 45.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "CWC",
+    "stage": "BREAKOUT",
+    "score": 89.0,
+    "confidence": 79,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "DBAN",
+    "stage": "BASING",
+    "score": 37.0,
+    "confidence": 38,
+    "energy": "EXHAUSTION",
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "DEQ",
+    "stage": "PAUSE",
+    "score": 51.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "DMP",
+    "stage": "PAUSE",
+    "score": 54.0,
+    "confidence": 51,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "DOU",
+    "stage": "BASING",
+    "score": 62.0,
+    "confidence": 56,
+    "energy": "EXHAUSTION",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "DRW3",
+    "stage": "PULLBACK",
+    "score": 81.0,
+    "confidence": 73,
+    "energy": "EXHAUSTION",
+    "summary": "Pullback within a confirmed trend with exhaustion energy; the pullback may be maturing, but resumption still needs confirmation."
+   },
+   {
+    "code": "DUE",
+    "stage": "PAUSE",
+    "score": 53.0,
+    "confidence": 45,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "EIN",
+    "stage": "DOWNTREND",
+    "score": 59.0,
+    "confidence": 53,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "EKT",
+    "stage": "DOWNTREND",
+    "score": 56.0,
+    "confidence": 49,
+    "energy": "RELEASED",
+    "summary": "Bearish momentum is accelerating across multiple timeframes."
+   },
+   {
+    "code": "EUZ",
+    "stage": "PAUSE",
+    "score": 67.0,
+    "confidence": 57,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "EVT",
+    "stage": "PAUSE",
+    "score": 53.0,
+    "confidence": 46,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "F3C",
+    "stage": "PAUSE",
+    "score": 58.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Long-term trend remains constructive despite a pause in momentum."
+   },
+   {
+    "code": "FIE",
+    "stage": "TRANSITION",
+    "score": 59.0,
+    "confidence": 54,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "GFT",
+    "stage": "PULLBACK",
+    "score": 76.0,
+    "confidence": 75,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PULLBACK + Early Bull Reversal + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "GLJ",
+    "stage": "BASING",
+    "score": 54.0,
+    "confidence": 48,
+    "energy": "EXHAUSTION",
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "GYC",
+    "stage": "TRANSITION",
+    "score": 44.0,
+    "confidence": 39,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "HABA",
+    "stage": "TRANSITION",
+    "score": 49.0,
+    "confidence": 49,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "HBH",
+    "stage": "CONTINUATION",
+    "score": 69.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend continues in line with confirmed momentum, though no notable energy signal is present."
+   },
+   {
+    "code": "HDD",
+    "stage": "PAUSE",
+    "score": 63.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "HFG",
+    "stage": "TRANSITION",
+    "score": 45.0,
+    "confidence": 46,
+    "energy": "EXHAUSTION",
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "HYQ",
+    "stage": "PAUSE",
+    "score": 42.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "ILM1",
+    "stage": "PAUSE",
+    "score": 45.0,
+    "confidence": 39,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "INH",
+    "stage": "PULLBACK",
+    "score": 76.0,
+    "confidence": 73,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for PULLBACK + Confirmed Trend + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "IXX",
+    "stage": "PAUSE",
+    "score": 44.0,
+    "confidence": 38,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "JST",
+    "stage": "PAUSE",
+    "score": 76.0,
+    "confidence": 61,
+    "energy": "RELEASED",
+    "summary": "Confirmed trend with energy released -- a resumption move may be starting."
+   },
+   {
+    "code": "JUN3",
+    "stage": "PAUSE",
+    "score": 55.0,
+    "confidence": 49,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "KSB3",
+    "stage": "PAUSE",
+    "score": 51.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "KTN",
+    "stage": "PAUSE",
+    "score": 51.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum has faded and the trend is entering a consolidation phase."
+   },
+   {
+    "code": "KWS",
+    "stage": "PAUSE",
+    "score": 35.0,
+    "confidence": 35,
+    "energy": "RELEASED",
+    "summary": "Leader pullback with energy released; watch for resumption of the primary trend."
+   },
+   {
+    "code": "LPK",
+    "stage": "PAUSE",
+    "score": 54.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Recovery thesis exists, but confirmation is still missing."
+   },
+   {
+    "code": "MBB",
+    "stage": "PAUSE",
+    "score": 44.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "MLP",
+    "stage": "CONTINUATION",
+    "score": 91.0,
+    "confidence": 83,
+    "energy": "EXHAUSTION",
+    "summary": "Mature trend entering late-cycle extension."
+   },
+   {
+    "code": "MUX",
+    "stage": "TRANSITION",
+    "score": 51.0,
+    "confidence": 43,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; there is no reversal confirmation yet."
+   },
+   {
+    "code": "NA9",
+    "stage": "PULLBACK",
+    "score": 85.0,
+    "confidence": 82,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PULLBACK + Early Bull Reversal + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "NOEJ",
+    "stage": "TRANSITION",
+    "score": 50.0,
+    "confidence": 42,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for TRANSITION + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "OBCK",
+    "stage": "PAUSE",
+    "score": 42.0,
+    "confidence": 43,
+    "energy": "COMPRESSION",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "OHB",
+    "stage": "PAUSE",
+    "score": 41.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "PAT",
+    "stage": "PAUSE",
+    "score": 57.0,
+    "confidence": 50,
+    "energy": "RELEASED",
+    "summary": "Downtrend remains confirmed with energy released; the pause may be giving way to a new directional move."
+   },
+   {
+    "code": "PBB",
+    "stage": "PAUSE",
+    "score": 42.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "PNE3",
+    "stage": "BASING",
+    "score": 53.0,
+    "confidence": 47,
+    "energy": "EXHAUSTION",
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "RDC",
+    "stage": "BREAKOUT",
+    "score": 87.0,
+    "confidence": 73,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "S92",
+    "stage": "PAUSE",
+    "score": 59.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+   },
+   {
+    "code": "SFQ",
+    "stage": "PAUSE",
+    "score": 73.0,
+    "confidence": 62,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "SGL",
+    "stage": "BREAKOUT",
+    "score": 87.0,
+    "confidence": 75,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   },
+   {
+    "code": "SIX2",
+    "stage": "PAUSE",
+    "score": 60.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "SLYG",
+    "stage": "CONTINUATION",
+    "score": 79.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "SPG",
+    "stage": "CONTINUATION",
+    "score": 85.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "STM",
+    "stage": "PAUSE",
+    "score": 44.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Bearish trend remains confirmed across all timeframes during this consolidation."
+   },
+   {
+    "code": "STO3",
+    "stage": "PAUSE",
+    "score": 78.0,
+    "confidence": 70,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "SZU",
+    "stage": "PAUSE",
+    "score": 78.0,
+    "confidence": 68,
+    "energy": "EXHAUSTION",
+    "summary": "No summary rule yet for PAUSE + Leader Pullback + EXHAUSTION -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "TMV",
+    "stage": "CONTINUATION",
+    "score": 85.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend continues with an early bull reversal pattern developing, but no clear energy signal is present yet."
+   },
+   {
+    "code": "TNIE",
+    "stage": "PAUSE",
+    "score": 63.0,
+    "confidence": 59,
+    "energy": "RELEASED",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "TPE",
+    "stage": "TRANSITION",
+    "score": 55.0,
+    "confidence": 51,
+    "energy": "RELEASED",
+    "summary": "Recovery expanding with improving momentum. Action Bias: Positive continuation candidate."
+   },
+   {
+    "code": "V1NC",
+    "stage": "PAUSE",
+    "score": 48.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "VBK",
+    "stage": "PAUSE",
+    "score": 47.0,
+    "confidence": 39,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "VH2",
+    "stage": "PAUSE",
+    "score": 46.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "VOS",
+    "stage": "DOWNTREND",
+    "score": 57.0,
+    "confidence": 51,
+    "energy": "RELEASED",
+    "summary": "No summary rule yet for DOWNTREND + Trend Losing Momentum + RELEASED -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "WAC",
+    "stage": "PAUSE",
+    "score": 84.0,
+    "confidence": 73,
+    "energy": "RELEASED",
+    "summary": "Confirmed trend with energy released -- a resumption move may be starting."
+   },
+   {
+    "code": "YSN",
+    "stage": "BREAKOUT",
+    "score": 83.0,
+    "confidence": 75,
+    "energy": "RELEASED",
+    "summary": "Fresh breakout confirmed by expanding momentum."
+   }
+  ],
+  "PDAX": [
+   {
+    "code": "AAD",
+    "stage": "TRANSITION",
+    "score": 59.0,
+    "confidence": 58,
+    "energy": "EXHAUSTION",
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "ADN1",
+    "stage": "CONTINUATION",
+    "score": 71.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "No summary rule yet for CONTINUATION + Countertrend Rally + NONE -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "BRNK",
+    "stage": "TRANSITION",
+    "score": 52.0,
+    "confidence": 44,
+    "energy": "EXHAUSTION",
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "BVB",
+    "stage": "PAUSE",
+    "score": 71.0,
+    "confidence": 62,
+    "energy": "COMPRESSION",
+    "summary": "Downtrend remains confirmed while energy is compressed, suggesting the next directional move is still developing."
+   },
+   {
+    "code": "BYW6",
+    "stage": "TRANSITION",
+    "score": 75.0,
+    "confidence": 69,
+    "energy": "EXHAUSTION",
+    "summary": "Downtrend remains confirmed, but exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "FYB",
+    "stage": "PAUSE",
+    "score": 44.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "GXI",
+    "stage": "PAUSE",
+    "score": 69.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "No summary rule yet for PAUSE + Early Bull Reversal + NONE -- add to SUMMARY_LOOKUP."
+   },
+   {
+    "code": "NCH2",
+    "stage": "PAUSE",
+    "score": 58.0,
+    "confidence": 56,
+    "energy": "RELEASED",
+    "summary": "Early reversal signal strengthening as energy releases, though still inside a pause structure."
+   },
+   {
+    "code": "PCZ",
+    "stage": "PAUSE",
+    "score": 80.0,
+    "confidence": 72,
+    "energy": "COMPRESSION",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "PSAN",
+    "stage": "PULLBACK",
+    "score": 71.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   },
+   {
+    "code": "PSM",
+    "stage": "BASING",
+    "score": 35.0,
+    "confidence": 36,
+    "energy": "EXHAUSTION",
+    "summary": "Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening."
+   },
+   {
+    "code": "SBS",
+    "stage": "PAUSE",
+    "score": 60.0,
+    "confidence": 49,
+    "energy": "RELEASED",
+    "summary": "Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish."
+   },
+   {
+    "code": "TIMA",
+    "stage": "TRANSITION",
+    "score": 48.0,
+    "confidence": 42,
+    "energy": "EXHAUSTION",
+    "summary": "Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND."
+   },
+   {
+    "code": "TTK",
+    "stage": "CONTINUATION",
+    "score": 84.0,
+    "confidence": 84,
+    "energy": "EXHAUSTION",
+    "summary": "Mature trend entering late-cycle extension."
+   },
+   {
+    "code": "V6C",
+    "stage": "PAUSE",
+    "score": 48.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary."
+   }
+  ],
+  "CDAX": [
+   {
+    "code": "NOA3",
+    "stage": "PAUSE",
+    "score": 51.0,
+    "confidence": 0,
+    "energy": "NONE",
+    "summary": "Trend remains confirmed across timeframes, but with no notable energy signal present."
+   }
+  ]
+ }
+}
