@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="StageReport">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="stage_icon.png">
+    <link rel="icon" type="image/gif" href="stage_icon.gif">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.json">
+    <title>DAX BASING 2026-10-19</title>
+    <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
+           padding: 24px; background: #fff; color: #202124; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    h2 { font-size: 1.05rem; margin: 26px 0 8px; }
+    .meta { color: #70757a; font-size: .85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 14px; font-size: .92rem; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table.matrix { border-collapse: collapse; font-size: .98rem; }
+    table.matrix th, table.matrix td { padding: 11px 26px 11px 0;
+        text-align: left; border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.matrix th { font-weight: 600; border-bottom: 1px solid #dadce0; }
+    table.matrix td.tot { font-weight: 700; }
+    table.matrix tr:hover { background: #f8f9fa; }
+    table.nav { border-collapse: collapse; margin-bottom: 6px; }
+    table.nav th, table.nav td { padding: 6px 18px 6px 0; text-align: left;
+        border-bottom: 1px solid #f1f3f4; font-size: .9rem; vertical-align: top; }
+    table.nav td.sum { white-space: normal; max-width: 540px; }
+    pre.detail { background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
+        font-family: Consolas, 'Courier New', monospace; }
+    .navchips a { display: inline-block; margin: 0 10px 6px 0; font-size: .9rem; }
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+    table.matrix th.col-exp, table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix th.col-exp,
+    body.std-only table.matrix td.col-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+    details.ovsum { margin: 4px 0 12px; }
+    details.ovsum > summary { cursor: pointer; font-weight: 600; padding: 6px 0;
+        font-size: .98rem; }
+    details.ovsum > summary:hover { color: #1a73e8; }
+    details.ovsum[open] > summary { margin-bottom: 6px; }
+    body.std-only details.ovsum-exp { display: none; }
+
+    /* Stock detail modal dialog & cell buttons */
+    .modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0, 0, 0, 0.45); z-index: 1000; align-items: center;
+        justify-content: center; padding: 14px; }
+    .modal-backdrop.open { display: flex; }
+    .modal-card { background: #fff; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.22);
+        width: 100%; max-width: 620px; max-height: 85vh; display: flex; flex-direction: column;
+        overflow: hidden; animation: modalIn 0.12s ease-out; }
+    @keyframes modalIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+    .modal-header { display: flex; justify-content: space-between; align-items: center;
+        padding: 10px 14px; border-bottom: 1px solid #dadce0; background: #f8f9fa; }
+    .modal-header h3 { margin: 0; font-size: 1.02rem; color: #202124; }
+    .modal-close { background: none; border: none; font-size: 1.5rem; line-height: 1;
+        cursor: pointer; color: #5f6368; padding: 0 4px; }
+    .modal-close:hover { color: #202124; }
+    .modal-body { padding: 12px 14px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+    .stock-item { padding: 8px 0; border-bottom: 1px solid #f1f3f4; }
+    .stock-item:last-child { border-bottom: none; }
+    .stock-head { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap; }
+    .stock-code { font-weight: 700; color: #1a73e8; font-size: 0.95rem; }
+    .stock-badge { display: inline-block; padding: 1px 7px; border-radius: 4px;
+        font-size: 0.74rem; background: #f1f3f4; color: #5f6368; }
+    .stock-badge.bull { background: #e6f4ea; color: #0b8a3e; }
+    .stock-badge.bear { background: #fce8e6; color: #c5221f; }
+    .stock-badge.refined { background: #e8f0fe; color: #1a73e8; }
+    .stock-sum { font-size: 0.84rem; color: #3c4043; line-height: 1.4; }
+    .stock-links { font-size: 0.76rem; margin: 2px 0 3px; }
+    .stock-links a { color: #5f6368; margin-right: 10px; }
+    .stock-links a:hover { color: #1a73e8; }
+    .chart-links { font-weight: 400; font-size: 0.72rem; margin-top: 2px;
+        white-space: nowrap; }
+    .chart-links a { color: #5f6368; margin-right: 8px; }
+    .chart-links a:hover { color: #1a73e8; }
+    .cell-btn { background: none; border: none; color: #1a73e8; cursor: pointer;
+        font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
+        padding: 0; }
+    .cell-btn:hover { color: #174ea6; }
+
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
+
+    @media (max-width: 720px) {
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        body {
+            padding: 10px 8px;
+            min-width: 0;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 1.15rem;
+            margin: 0 0 6px;
+            word-break: break-word;
+        }
+        h2 {
+            margin: 18px 0 6px;
+            font-size: 1.0rem;
+        }
+        .meta {
+            font-size: 0.8rem;
+            margin-bottom: 12px;
+        }
+        .crumb {
+            font-size: 0.86rem;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .view-toggle {
+            margin: 0 0 10px;
+            font-size: 0.85rem;
+        }
+        .view-toggle button {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* 
+           Standard view: Exactly DAX, MDAX, SDAX + Total + Share.
+           Table spans 100% of the screen width (360px - 390px device width).
+           The Share column and all other standard columns fit completely on screen
+           with no horizontal scroll required.
+        */
+        table.matrix {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            border-collapse: collapse;
+            margin: 0 0 14px;
+        }
+        table.matrix th, table.matrix td {
+            padding: 7px 3px;
+            white-space: nowrap;
+        }
+        /* State names left aligned */
+        table.matrix th:first-child, table.matrix td:first-child {
+            text-align: left;
+            padding-left: 2px;
+        }
+        /* Numeric columns centered */
+        table.matrix th:not(:first-child), table.matrix td:not(:first-child) {
+            text-align: center;
+        }
+        /* Total column bold */
+        table.matrix td.tot {
+            font-weight: 700;
+        }
+        /* Share column / rightmost column right-aligned */
+        table.matrix th:last-child, table.matrix td:last-child {
+            text-align: right;
+            padding-right: 2px;
+        }
+
+        /* Archive compare movers table */
+        table.movers {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            margin-bottom: 10px;
+        }
+        table.movers th, table.movers td {
+            padding: 6px 3px;
+        }
+        table.movers th:first-child, table.movers td:first-child {
+            text-align: left;
+        }
+        table.movers th:not(:first-child), table.movers td:not(:first-child) {
+            text-align: center;
+        }
+        table.movers th:last-child, table.movers td:last-child {
+            text-align: right;
+        }
+
+        /* Archive compare controls */
+        .cmp-controls {
+            display: flex;
+            gap: 8px 10px;
+            align-items: center;
+            margin: 8px 0 12px;
+            flex-wrap: wrap;
+            font-size: 0.88rem;
+        }
+        .cmp-controls select {
+            font-size: 0.88rem;
+            padding: 4px 6px;
+        }
+        .cmp-controls button {
+            padding: 5px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* Archive calendar */
+        .cal-controls {
+            gap: 8px;
+            margin: 6px 0;
+        }
+        .cal-controls button {
+            padding: 3px 10px;
+        }
+        .cal-grid {
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            gap: 2px;
+            width: 100%;
+            max-width: 360px;
+        }
+        .cal-day {
+            width: auto;
+            height: 34px;
+            font-size: 0.82rem;
+        }
+
+        /* Stock detail & nav tables */
+        table.nav {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+        }
+        table.nav th, table.nav td {
+            padding: 6px 4px;
+        }
+        table.nav td.sum {
+            white-space: normal;
+        }
+
+        pre.detail {
+            font-size: 11px;
+            padding: 10px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
+    }
+</style>
+</head>
+<body>
+<div class="meta">DAX BASING 2026-10-19 &middot; log date 2026-10-19</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>DAX &mdash; BASING (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#VNA" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">VNA</a></td><td>59</td><td>53%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="VNA">VNA <span class="meta">BASING</span></h2><pre class="detail">VNA 2026-10-19
+📊 Overview
+--------
+State              : BASING
+Raw State          : BASING
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BEAR, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+Breakout Event     : False
+Breakout Resistance : 17.76
+Breakout Window    : 20
+Score      : 59  (W 22.5 + D 21.0 + E 10.0  cycle 5)
+Confidence : 53%
+Trend      : Confirmation (Weekly BEAR, Daily BEAR)
+
+📊 Weekly
+------
+Trend : Bear
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50=MA200)
+BB    : EXPANDING
+Context : Bear trend accelerating.
+
+📊 Daily
+-----
+Trend : Bear
+ADX   : VERY_STRONG
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
+
+📊 Energy
+------
+Family : EXHAUSTION
+Phase  : TREND_EXHAUSTION
+
+📊 Cycle
+-----
+Stage    : RECOVERY
+Rank     : 75
+Daily BB Zone, MA drift:
+  Yesterday  : L
+  Today  : LM   ^ (+1)
+Alignment: 3/3 timeframes agree with daily leg (Full)
+Swing Age: 0d
+Drift: Recovery drift dZ=+1
+Daily Band Cross: No cross
+Weekly Pivot Trend:
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 1W / 1.0
+  Extreme / Diff%: 16.23 / 2.1
+  vs DAX%        : 0.8
+Weekly Band Cross: No cross
+
+📊 Momentum
+--------
+MACD Age      : M ▼19mo | W ▼7w | D ▼11d
+Momentum Slope: Monthly Deepening | Weekly Recovering | Daily Deepening
+Divergence    : Daily Regular Bull (+7d, High confidence)
+Pattern       : Confirmed Downtrend
+
+Signal:
+Bullish
+MACD Golden Cross : D(+11d)
+ADX Rising : W
+Bearish
+MACD Death Cross : M(+19mo), W(+7w)
+MACD Below Zero : M(+19mo), W(+7w), D(+11d)
+Price Below MA200 : W, D
+Neutral
+BB Expansion : W
+
+Reversal Watch
+--------------
+D: BREAKDOWN  —  YES  (2/3 MEDIUM)
+  ✓ No new low
+  ✓ 5d slope rising
+  ✗ Reclaim MA
+
+📊 Summary
+-------
+  Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</pre>
+
+</body>
+</html>

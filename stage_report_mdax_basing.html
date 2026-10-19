@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>MDAX BASING 2026-10-16</title>
+    <title>MDAX BASING 2026-10-19</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -79,7 +79,15 @@
         font-size: 0.74rem; background: #f1f3f4; color: #5f6368; }
     .stock-badge.bull { background: #e6f4ea; color: #0b8a3e; }
     .stock-badge.bear { background: #fce8e6; color: #c5221f; }
+    .stock-badge.refined { background: #e8f0fe; color: #1a73e8; }
     .stock-sum { font-size: 0.84rem; color: #3c4043; line-height: 1.4; }
+    .stock-links { font-size: 0.76rem; margin: 2px 0 3px; }
+    .stock-links a { color: #5f6368; margin-right: 10px; }
+    .stock-links a:hover { color: #1a73e8; }
+    .chart-links { font-weight: 400; font-size: 0.72rem; margin-top: 2px;
+        white-space: nowrap; }
+    .chart-links a { color: #5f6368; margin-right: 8px; }
+    .chart-links a:hover { color: #1a73e8; }
     .cell-btn { background: none; border: none; color: #1a73e8; cursor: pointer;
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
@@ -257,8 +265,8 @@
 </style>
 </head>
 <body>
-<div class="meta">MDAX BASING 2026-10-16 &middot; log date 2026-10-16</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>MDAX &mdash; BASING (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#AT1" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">AT1</a></td><td>47</td><td>42%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="AT1">AT1 <span class="meta">BASING</span></h2><pre class="detail">AT1 2026-10-16
+<div class="meta">MDAX BASING 2026-10-19 &middot; log date 2026-10-19</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>MDAX &mdash; BASING (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#AT1" title="Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.">AT1</a></td><td>47</td><td>42%</td><td>Confirmation (Weekly BEAR, Daily BEAR)</td><td>EXHAUSTION</td><td class='sum'>Potential base forming, but MACD remains fully bearish across all timeframes; exhaustion suggests selling pressure may be weakening.</td></tr></table><h2 id="AT1">AT1 <span class="meta">BASING</span></h2><pre class="detail">AT1 2026-10-19
 📊 Overview
 --------
 State              : BASING
@@ -296,22 +304,24 @@ Phase  : TREND_EXHAUSTION
 -----
 Stage    : RECOVERY
 Rank     : 75
-BB Zone  :
-  Pivot  : LM
-  Today  : LM   -&gt; (0)
-Alignment: 3 (Full)
-Swing Age: 2d
-Pivot Drift: LM -&gt; LM  dZ=0  Aligned
+Daily BB Zone, MA drift:
+  Yesterday  : L
+  Today  : LM   ^ (+1)
+Alignment: 3/3 timeframes agree with daily leg (Full)
+Swing Age: 5d
+Drift: Recovery drift dZ=+1
+Daily Band Cross: No cross
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wLM -&gt; wL   (dZ=-1)
-  Drift          : Bearish drift
-  Age / Perf%    : 7W / -30.7
-  Extreme / Diff%: 1.35 / 5.2
-  vs DAX%        : -28.2
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 7W / -33.7
+  Extreme / Diff%: 1.35 / 0.7
+  vs DAX%        : -30.0
+Weekly Band Cross: No cross
 
 📊 Momentum
 --------
-MACD Age      : M ▼10mo | W ▼14w | D ▼44d
+MACD Age      : M ▼10mo | W ▼15w | D ▼45d
 Momentum Slope: Monthly Deepening | Weekly Deepening | Daily Recovering
 Divergence    : none
 Pattern       : Confirmed Downtrend
@@ -320,8 +330,8 @@ Signal:
 Bullish
 ADX Rising : W, D
 Bearish
-MACD Death Cross : M(+10mo), W(+14w), D(+44d)
-MACD Below Zero : M(+10mo), W(+14w), D(+44d)
+MACD Death Cross : M(+10mo), W(+15w), D(+45d)
+MACD Below Zero : M(+10mo), W(+15w), D(+45d)
 Price Below MA200 : W, D
 Neutral
 ADX Strong : W, D
