@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>MDAX COUNTERTREND 2026-10-15</title>
+    <title>MDAX COUNTERTREND 2026-10-20</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -79,11 +79,30 @@
         font-size: 0.74rem; background: #f1f3f4; color: #5f6368; }
     .stock-badge.bull { background: #e6f4ea; color: #0b8a3e; }
     .stock-badge.bear { background: #fce8e6; color: #c5221f; }
+    .stock-badge.refined { background: #e8f0fe; color: #1a73e8; }
     .stock-sum { font-size: 0.84rem; color: #3c4043; line-height: 1.4; }
+    .stock-links { font-size: 0.76rem; margin: 2px 0 3px; }
+    .stock-links a { color: #5f6368; margin-right: 10px; }
+    .stock-links a:hover { color: #1a73e8; }
+    .chart-links { font-weight: 400; font-size: 0.72rem; margin-top: 2px;
+        white-space: nowrap; }
+    .chart-links a { color: #5f6368; margin-right: 8px; }
+    .chart-links a:hover { color: #1a73e8; }
     .cell-btn { background: none; border: none; color: #1a73e8; cursor: pointer;
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
     .cell-btn:hover { color: #174ea6; }
+
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
 
     @media (max-width: 720px) {
         html {
@@ -235,90 +254,101 @@
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
         }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
     }
 </style>
 </head>
 <body>
-<div class="meta">MDAX COUNTERTREND 2026-10-15 &middot; log date 2026-10-15</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>MDAX &mdash; COUNTERTREND (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#HLE" title="No summary rule yet for COUNTERTREND + Confirmed Downtrend + COMPRESSION">HLE</a></td><td>76</td><td>74%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>No summary rule yet for COUNTERTREND + Confirmed Downtrend + COMPRESSION</td></tr></table><h2 id="HLE">HLE <span class="meta">COUNTERTREND</span></h2><pre class="detail">HLE 2026-10-15
+<div class="meta">MDAX COUNTERTREND 2026-10-20 &middot; log date 2026-10-20</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>MDAX &mdash; COUNTERTREND (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#TUI1" title="No summary rule for COUNTERTREND + Trend Losing Momentum + COMPRESSION">TUI1</a></td><td>79</td><td>72%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>No summary rule for COUNTERTREND + Trend Losing Momentum + COMPRESSION</td></tr></table><h2 id="TUI1">TUI1 <span class="meta">COUNTERTREND</span></h2><pre class="detail">TUI1 2026-10-20
 📊 Overview
 --------
 State              : COUNTERTREND
 Raw State          : COUNTERTREND
 State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=COMPRESSION, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 71.8
+Breakout Resistance : 7.01
 Breakout Window    : 20
-Score      : 76  (W 29.2 + D 29.7 + E 16.0  cycle 1)
-Confidence : 74%
+Score      : 79  (W 27.0 + D 35.0 + E 12.0  cycle 5)
+Confidence : 72%
 Trend      : Counter-trend bounce (Weekly BEAR, Daily BULL)
 
 📊 Weekly
 ------
 Trend : Bear
-ADX   : BUILDING
+ADX   : WEAK
 MA    : Mixed (MA9&lt;MA50 MA50=MA200)
 BB    : SQUEEZE
-Context : Mixed trend structure with building trend strength and compressing volatility.
+Context : Range compression, waiting for breakout.
 
 📊 Daily
 -----
 Trend : Bull
 ADX   : WEAK
 MA    : Up (MA9&lt;MA50 MA50&lt;MA200)
-BB    : EXPANDING
-Context : Uptrend structure with weak trend strength and expanding volatility.
+BB    : DRIFT_UP
+Context : Uptrend structure with weak trend strength and price drifting up the bands.
 
 📊 Energy
 ------
 Family : COMPRESSION
-Phase  : COMPRESSION
+Phase  : WEAK_COMPRESSION
 
 📊 Cycle
 -----
 Stage    : PULLBACK
-Rank     : 70
-BB Zone  :
-  Pivot  : U
-  Today  : U   -&gt; (0)
-Alignment: 2 (Partial)
+Rank     : 75
+Daily BB Zone, MA drift:
+  Pivot 2026-10-14  : LM
+  Today  : MU   ^ (+2)
+Alignment: 3/3 timeframes agree with daily leg (Full)
 Swing Age: 0d
-Band Cross: Bull cross wMA+wMA9 (2.99x vol) [STRONG]
-Pivot Drift: U -&gt; U  dZ=0  Aligned
+Drift: Bullish breakout dZ=+2   [stage=PULLBACK, leg=L_TO_H (pivot not aligned with stage (uptrend narrative not confirmed))]
+Daily Band Cross: Bull cross MA9+MA (-x vol)
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wLM -&gt; wMU   (dZ=2)
-  Drift          : Bullish breakout
-  Age / Perf%    : 3d / 3.2
-  Extreme / Diff%: 71.7 / -0.6
-  vs DAX%        : 2.8
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 2W / -0.6
+  Extreme / Diff%: 6.57 / 4.6
+  vs DAX%        : -1.0
+Weekly Band Cross: No cross
 
 📊 Momentum
 --------
-MACD Age      : M ▼18mo | W ▼18w | D ▼1d
-Momentum Slope: Monthly Recovering | Weekly Deepening | Daily Turning
-Divergence    : Daily Hidden Bull (+4d, Medium confidence)
-Pattern       : Confirmed Downtrend
+MACD Age      : M ▲8mo | W ▼5w | D ▼16d
+Momentum Slope: Monthly Flat | Weekly Recovering | Daily Deepening
+Divergence    : none
+Pattern       : Trend Losing Momentum
 
 Signal:
 Bullish
-MACD Golden Cross : W(+18w), D(+1d)
-Price Above MA20 : W, D
+MACD Golden Cross : D(+16d)
+MACD Above Zero : M(+8mo)
+Price Above MA20 : D
 Bearish
-MACD Death Cross : M(+18mo)
-MACD Below Zero : M(+18mo), W(+18w), D(+1d)
+MACD Death Cross : M(+8mo), W(+5w)
+MACD Below Zero : W(+5w), D(+16d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : W
 
-Institutional Activity
-----------------------
-VolRatio   : 4.32   DAX Ratio: 1.52
-1d Ret     : +1.1%   Pwh_rel: -0.28
-  -&gt; Volume 4.32x baseline (DAX 1.52x), 1-day return +1.1%, Pwh_rel -0.28 -- unusual institutional volume, watch
+📊 Fundamental
+-----------
+EPS Direction : STABLE [WATCH_DOWN]
+Basis         : 0 up / 1 down revision events, 90d, FY26,27
+Drift vs mkt  : DOWN ▼  (FY26 -3.7% (mkt +0.0%)  FY27 -4.3% (mkt +0.5%))
+Last Revision : 2026-09-19   Last Report: 2026-08-12
+Interpretation: Technical recovery; earnings support not yet improving (estimates drifting below the market)
 
 📊 Summary
 -------
-  No summary rule yet for COUNTERTREND + Confirmed Downtrend + COMPRESSION</pre>
+  No summary rule for COUNTERTREND + Trend Losing Momentum + COMPRESSION</pre>
 
 </body>
 </html>
