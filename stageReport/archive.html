@@ -389,10 +389,10 @@ function renderStocks(idx, st, list) {
       var bCls = t.indexOf('BULL') >= 0 ? ' bull' : (t.indexOf('BEAR') >= 0 ? ' bear' : '');
       h += '<div class="stock-item"><div class="stock-head">';
       h += '<span class="stock-code">' + esc(s.code) + '</span>';
-      // refined state (e.g. 'DOWNTREND + REBOUND_SIGN') shown when it differs
-      // from the matrix cell's base stage -- explains why the stock sits in
-      // this cell even though its full state name is longer
-      if (s.stage && String(s.stage).split(' + ')[0] !== st) {
+      // refined state (e.g. 'DOWNTREND + REBOUND_SIGN') shown when the FULL
+      // state differs from the matrix cell's stage -- explains why the stock
+      // sits in this cell even though its full state name is longer
+      if (s.stage && s.stage !== st) {
         h += '<span class="stock-badge refined" title="refined state">' + esc(s.stage) + '</span>';
       }
       if (s.score != null) h += '<span class="stock-badge">Score ' + esc(s.score) + '</span>';

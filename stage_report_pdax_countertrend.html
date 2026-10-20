@@ -2,9 +2,19 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PDAX COUNTERTREND 2026-10-14</title>
-<style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="StageReport">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="stage_icon.png">
+    <link rel="icon" type="image/gif" href="stage_icon.gif">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.json">
+    <title>PDAX COUNTERTREND 2026-10-20</title>
+    <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
            padding: 24px; background: #fff; color: #202124; }
@@ -45,168 +55,314 @@
     details.ovsum[open] > summary { margin-bottom: 6px; }
     body.std-only details.ovsum-exp { display: none; }
 
+    /* Stock detail modal dialog & cell buttons */
+    .modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0, 0, 0, 0.45); z-index: 1000; align-items: center;
+        justify-content: center; padding: 14px; }
+    .modal-backdrop.open { display: flex; }
+    .modal-card { background: #fff; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.22);
+        width: 100%; max-width: 620px; max-height: 85vh; display: flex; flex-direction: column;
+        overflow: hidden; animation: modalIn 0.12s ease-out; }
+    @keyframes modalIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+    .modal-header { display: flex; justify-content: space-between; align-items: center;
+        padding: 10px 14px; border-bottom: 1px solid #dadce0; background: #f8f9fa; }
+    .modal-header h3 { margin: 0; font-size: 1.02rem; color: #202124; }
+    .modal-close { background: none; border: none; font-size: 1.5rem; line-height: 1;
+        cursor: pointer; color: #5f6368; padding: 0 4px; }
+    .modal-close:hover { color: #202124; }
+    .modal-body { padding: 12px 14px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+    .stock-item { padding: 8px 0; border-bottom: 1px solid #f1f3f4; }
+    .stock-item:last-child { border-bottom: none; }
+    .stock-head { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap; }
+    .stock-code { font-weight: 700; color: #1a73e8; font-size: 0.95rem; }
+    .stock-badge { display: inline-block; padding: 1px 7px; border-radius: 4px;
+        font-size: 0.74rem; background: #f1f3f4; color: #5f6368; }
+    .stock-badge.bull { background: #e6f4ea; color: #0b8a3e; }
+    .stock-badge.bear { background: #fce8e6; color: #c5221f; }
+    .stock-badge.refined { background: #e8f0fe; color: #1a73e8; }
+    .stock-sum { font-size: 0.84rem; color: #3c4043; line-height: 1.4; }
+    .stock-links { font-size: 0.76rem; margin: 2px 0 3px; }
+    .stock-links a { color: #5f6368; margin-right: 10px; }
+    .stock-links a:hover { color: #1a73e8; }
+    .chart-links { font-weight: 400; font-size: 0.72rem; margin-top: 2px;
+        white-space: nowrap; }
+    .chart-links a { color: #5f6368; margin-right: 8px; }
+    .chart-links a:hover { color: #1a73e8; }
+    .cell-btn { background: none; border: none; color: #1a73e8; cursor: pointer;
+        font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
+        padding: 0; }
+    .cell-btn:hover { color: #174ea6; }
+
+    /* per-stock Detail toggle (full overview text of one stock) */
+    .detail-btn { background: none; border: 1px solid #dadce0; border-radius: 4px;
+        color: #1a73e8; cursor: pointer; font-size: 0.74rem; padding: 0 8px;
+        margin-left: auto; }
+    .detail-btn:hover { background: #e8f0fe; }
+    pre.stock-detail { display: none; margin: 6px 0 2px; padding: 10px;
+        background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
+        word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
+    pre.stock-detail.open { display: block; }
+
     @media (max-width: 720px) {
-        body { padding: 12px; -webkit-text-size-adjust: 100%; }
-        h1 { font-size: 1.15rem; }
-        h2 { margin: 20px 0 6px; }
-        /* wide tables scroll inside themselves instead of widening the page */
-        table.matrix, table.nav { display: block; overflow-x: auto;
-            -webkit-overflow-scrolling: touch; }
-        table.matrix th, table.matrix td { padding: 8px 10px; }
-        pre.detail { font-size: 11px; padding: 10px; }
-        .view-toggle button { padding: 8px 14px; }
-        .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
-        .cal-day { width: auto; }
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        body {
+            padding: 10px 8px;
+            min-width: 0;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 1.15rem;
+            margin: 0 0 6px;
+            word-break: break-word;
+        }
+        h2 {
+            margin: 18px 0 6px;
+            font-size: 1.0rem;
+        }
+        .meta {
+            font-size: 0.8rem;
+            margin-bottom: 12px;
+        }
+        .crumb {
+            font-size: 0.86rem;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .view-toggle {
+            margin: 0 0 10px;
+            font-size: 0.85rem;
+        }
+        .view-toggle button {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* 
+           Standard view: Exactly DAX, MDAX, SDAX + Total + Share.
+           Table spans 100% of the screen width (360px - 390px device width).
+           The Share column and all other standard columns fit completely on screen
+           with no horizontal scroll required.
+        */
+        table.matrix {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            border-collapse: collapse;
+            margin: 0 0 14px;
+        }
+        table.matrix th, table.matrix td {
+            padding: 7px 3px;
+            white-space: nowrap;
+        }
+        /* State names left aligned */
+        table.matrix th:first-child, table.matrix td:first-child {
+            text-align: left;
+            padding-left: 2px;
+        }
+        /* Numeric columns centered */
+        table.matrix th:not(:first-child), table.matrix td:not(:first-child) {
+            text-align: center;
+        }
+        /* Total column bold */
+        table.matrix td.tot {
+            font-weight: 700;
+        }
+        /* Share column / rightmost column right-aligned */
+        table.matrix th:last-child, table.matrix td:last-child {
+            text-align: right;
+            padding-right: 2px;
+        }
+
+        /* Archive compare movers table */
+        table.movers {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+            margin-bottom: 10px;
+        }
+        table.movers th, table.movers td {
+            padding: 6px 3px;
+        }
+        table.movers th:first-child, table.movers td:first-child {
+            text-align: left;
+        }
+        table.movers th:not(:first-child), table.movers td:not(:first-child) {
+            text-align: center;
+        }
+        table.movers th:last-child, table.movers td:last-child {
+            text-align: right;
+        }
+
+        /* Archive compare controls */
+        .cmp-controls {
+            display: flex;
+            gap: 8px 10px;
+            align-items: center;
+            margin: 8px 0 12px;
+            flex-wrap: wrap;
+            font-size: 0.88rem;
+        }
+        .cmp-controls select {
+            font-size: 0.88rem;
+            padding: 4px 6px;
+        }
+        .cmp-controls button {
+            padding: 5px 12px;
+            font-size: 0.85rem;
+        }
+
+        /* Archive calendar */
+        .cal-controls {
+            gap: 8px;
+            margin: 6px 0;
+        }
+        .cal-controls button {
+            padding: 3px 10px;
+        }
+        .cal-grid {
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            gap: 2px;
+            width: 100%;
+            max-width: 360px;
+        }
+        .cal-day {
+            width: auto;
+            height: 34px;
+            font-size: 0.82rem;
+        }
+
+        /* Stock detail & nav tables */
+        table.nav {
+            width: 100%;
+            display: table;
+            font-size: 0.84rem;
+        }
+        table.nav th, table.nav td {
+            padding: 6px 4px;
+        }
+        table.nav td.sum {
+            white-space: normal;
+        }
+
+        pre.detail {
+            font-size: 11px;
+            padding: 10px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Collapsible archive tree mobile */
+        details.archive-section > summary.archive-section-title { font-size: 1.0rem; margin-top: 18px; }
+        .archive-controls { margin-left: 0; }
+        .archive-tree { margin-left: 0; }
+        details.archive-month { margin-left: 10px; }
+        details.archive-month > table.matrix { margin-left: 0; width: 100%; }
     }
 </style>
 </head>
 <body>
-<div class="meta">PDAX COUNTERTREND 2026-10-14 &middot; log date 2026-10-14</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>PDAX &mdash; COUNTERTREND (2 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#PSAN" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">PSAN</a></td><td>71</td><td>0%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>NONE</td><td class='sum'>Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</td></tr><tr><td><a href="#V6C" title="Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.">V6C</a></td><td>61</td><td>0%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>NONE</td><td class='sum'>Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</td></tr></table><h2 id="PSAN">PSAN <span class="meta">COUNTERTREND</span></h2><pre class="detail">PSAN 2026-10-14
+<div class="meta">PDAX COUNTERTREND 2026-10-20 &middot; log date 2026-10-20</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>PDAX &mdash; COUNTERTREND (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#BRNK" title="No summary rule for COUNTERTREND + Confirmed Downtrend + EXHAUSTION">BRNK</a></td><td>49</td><td>47%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>EXHAUSTION</td><td class='sum'>No summary rule for COUNTERTREND + Confirmed Downtrend + EXHAUSTION</td></tr></table><h2 id="BRNK">BRNK <span class="meta">COUNTERTREND</span></h2><pre class="detail">BRNK 2026-10-20
 📊 Overview
 --------
 State              : COUNTERTREND
 Raw State          : COUNTERTREND
-State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=NONE, cycle=PULLBACK, breakout_event=False
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=EXHAUSTION, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 45.8
+Breakout Resistance : 0.67
 Breakout Window    : 20
-Score      : 71  (W 38.2 + D 33.2 + E 0.0  cycle -1)
-Confidence : 0%
+Score      : 49  (W 15.8 + D 22.8 + E 10.0  cycle 1)
+Confidence : 47%
 Trend      : Counter-trend bounce (Weekly BEAR, Daily BULL)
 
 📊 Weekly
 ------
 Trend : Bear
-ADX   : BUILDING
-MA    : Mixed (MA9&lt;MA50 MA50=MA200)
-BB    : EXPANDING
-Context : Momentum building before trend confirmation.
-
-📊 Daily
------
-Trend : Bull
-ADX   : WEAK
-MA    : Up (MA9&gt;MA50 MA50&lt;MA200)
-BB    : EXPANDING
-Context : Uptrend structure with weak trend strength and expanding volatility.
-
-📊 Energy
-------
-Family : NONE
-Phase  : NONE
-
-📊 Cycle
------
-Stage    : PULLBACK
-Rank     : 65
-BB Zone  :
-  Pivot  : MU
-  Today  : LM   v (-2)
-  Drift  : Bearish breakdown   (stage=?, leg=? (pivot not aligned with stage (downtrend caution)))
-Alignment: 2 (Partial)
-Swing Age: 1d
-Band Cross: Bear cross wMA+wMA9 INVALID (vol 0.29x (noise &lt;0.7x)) [INVALID]
-Pivot Drift: MU -&gt; LM  dZ=-2  Sharp pullback
-Weekly Pivot Trend:
-  Pivot -&gt; Today : wMU -&gt; wLM   (dZ=-2)
-  Drift          : Sharp pullback
-  Age / Perf%    : 2W / -0.9
-  Extreme / Diff%: 44.5 / 1.1
-  vs DAX%        : -0.5
-
-📊 Momentum
---------
-MACD Age      : M n/a | W ▲39w | D ▼8d
-Momentum Slope: Monthly - | Weekly Flat | Daily Recovering
-Divergence    : none
-Pattern       : ? + -
-
-Signal:
-Bullish
-MACD Above Zero : W(+39w)
-Bearish
-MACD Death Cross : W(+39w), D(+8d)
-MACD Below Zero : D(+8d)
-Price Below MA200 : W, D
-Neutral
-BB Expansion : W, D
-
-📊 Summary
--------
-  Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</pre><h2 id="V6C">V6C <span class="meta">COUNTERTREND</span></h2><pre class="detail">V6C 2026-10-14
-📊 Overview
---------
-State              : COUNTERTREND
-Raw State          : COUNTERTREND
-State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=NONE, cycle=PULLBACK, breakout_event=False
-Breakout Event     : False
-Breakout Resistance : 5.38
-Breakout Window    : 20
-Score      : 61  (W 24.8 + D 35.0 + E 0.0  cycle 1)
-Confidence : 0%
-Trend      : Counter-trend bounce (Weekly BEAR, Daily BULL)
-
-📊 Weekly
-------
-Trend : Bear
-ADX   : WEAK
-MA    : Mixed (MA9&gt;MA50 MA50=MA200)
-BB    : SQUEEZE
-Context : Range compression, waiting for breakout.
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50=MA200)
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
 
 📊 Daily
 -----
 Trend : Bull
 ADX   : BUILDING
-MA    : Up (MA9&lt;MA50 MA50&gt;MA200)
-BB    : EXPANDING
-Context : Uptrend structure with building trend strength and expanding volatility.
+MA    : Mixed (MA9&lt;MA50 MA50&lt;MA200)
+BB    : DRIFT_DOWN
+Context : Mixed trend structure with building trend strength and price drifting down the bands.
 
 📊 Energy
 ------
-Family : NONE
-Phase  : NONE
+Family : EXHAUSTION
+Phase  : TREND_EXHAUSTION
 
 📊 Cycle
 -----
 Stage    : PULLBACK
 Rank     : 70
-BB Zone  :
-  Pivot  : MU
-  Today  : MU   -&gt; (0)
-Alignment: 2 (Partial)
+Daily BB Zone, MA drift:
+  Pivot 2026-10-14  : L
+  Today  : LM   ^ (+1)
+Alignment: 2/3 timeframes agree with daily leg (Partial)
 Swing Age: 0d
-Pivot Drift: MU -&gt; MU  dZ=0  Aligned
+Drift: Bullish drift dZ=+1   [stage=PULLBACK, leg=L_TO_H (pivot not aligned with stage (uptrend narrative not confirmed))]
+Daily Band Cross: Cross MA+MA9 (close inside pair)
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
-  Drift          : Aligned
-  Age / Perf%    : 2W / 5.7
-  Extreme / Diff%: 4.85 / 7.2
-  vs DAX%        : 6.0
+  Pivot -&gt; Today : wL -&gt; wLM   (dZ=1)
+  Drift          : Bullish drift
+  Age / Perf%    : 6d / 104.8
+  Extreme / Diff%: 0.62 / -30.6
+  vs DAX%        : 104.8
+Weekly Band Cross: No cross
 
 📊 Momentum
 --------
-MACD Age      : M n/a | W ▲13w | D ▼3d
-Momentum Slope: Monthly - | Weekly Fading | Daily Deepening
-Divergence    : Daily Regular Bull (+4d, Medium confidence)
-Pattern       : ? + -
+MACD Age      : M ▼2mo | W ▼8w | D ▼1d
+Momentum Slope: Monthly Turning | Weekly Recovering | Daily Turning
+Divergence    : none
+Pattern       : Confirmed Downtrend
 
 Signal:
 Bullish
-MACD Golden Cross : D(+3d)
-MACD Above Zero : W(+13w)
-Price Above MA200 : W, D
+MACD Golden Cross : D(+1d)
+ADX Rising : W
 Bearish
-MACD Death Cross : W(+13w)
-MACD Below Zero : D(+3d)
-ADX Falling : W, D
+MACD Death Cross : M(+2mo), W(+8w)
+MACD Below Zero : M(+2mo), W(+8w), D(+1d)
+Price Below MA200 : W, D
 Neutral
-BB Compression : W
+ADX Strong : W
+
+Smart Money Distribution
+------------------------
+Severity   : ALERT
+VolRatio   : 5.07  SpikeDays: 3
+Pwh / Pwh_rel : -30.64 / -29.13  wtraj: + +
+  -&gt; Volume elevated 3/5 days, persistent=True, Pwh_rel -29.13
+  -&gt; weekly uptrend intact
+  -&gt; Distribution alert -- volume + relative weakness building.
+
+Institutional Activity
+----------------------
+VolRatio   : 5.07   DAX Ratio: 1.12
+1d Ret     : +13.2%   Pwh_rel: -29.13
+  -&gt; Volume 5.07x baseline (DAX 1.12x), 1-day return +13.2%, Pwh_rel -29.13 -- unusual institutional volume, watch
+
+📊 Fundamental
+-----------
+EPS Direction : DETERIORATING
+Basis         : 0 up / 2 down revision events, 90d, FY26,27
+Drift vs mkt  : DOWN ▼  (FY26 -434.4% (mkt +0.0%)  FY27 -6900.0% (mkt +0.5%))
+Last Revision : 2026-10-09   Last Report: 2026-04-29
+Interpretation: Possible squeeze / temporary rebound
 
 📊 Summary
 -------
-  Momentum pattern not available for this listing (insufficient M/W/D MACD history); no pattern-level summary.</pre>
+  No summary rule for COUNTERTREND + Confirmed Downtrend + EXHAUSTION</pre>
 
 </body>
 </html>
