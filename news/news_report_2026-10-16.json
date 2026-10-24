@@ -1,0 +1,289 @@
+{
+ "date": "2026-10-16",
+ "generated": "2026-10-21 22:16:29",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 1,
+  "INFO": 24
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 13
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "PDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 0
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 2
+  }
+ },
+ "total": 27,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research belaesst Aixtron auf 'Hold' - Ziel 44 Euro",
+   "link": "https://www.onvista.de/news/2026/10-16-analyse-flash-deutsche-bank-research-belaesst-aixtron-auf-hold-ziel-44-euro-0-10-26564884",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: Berlin und Paris einig - 'Verbrenner-Aus damit Geschichte'",
+   "link": "https://www.onvista.de/news/2026/10-16-roundup-3-berlin-und-paris-einig-verbrenner-aus-damit-geschichte-0-10-26565013",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "DHL erhoeht nach Ergebnisanstieg Prognose",
+   "link": "https://www.onvista.de/news/2026/10-16-dhl-erhoeht-nach-ergebnisanstieg-prognose-0-10-26565019",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise: US-Boom bei Telekom, Funkloch im Depot",
+   "link": "https://www.onvista.de/news/2026/10-16-eqs-news-warren-wise-us-boom-bei-telekom-funkloch-im-depot-0-37-26564921",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Der Dax bleibt nach einer starker Woche auf Richtungssuche",
+   "link": "https://www.onvista.de/news/2026/10-16-wochenausblick-dax-nach-starker-woche-auf-richtungssuche-sorgenthemen-bleiben-0-10-26564944",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Globalfoundries plant weiteren Ausbau des Werks in Dresden",
+   "link": "https://www.onvista.de/news/2026/10-16-chiphersteller-globalfoundries-weitere-investitionen-in-dresden-im-blick-0-10-26564880",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Stabilisierung vor dem Wochenende",
+   "link": "https://www.onvista.de/news/2026/10-16-roundup-aktien-europa-schluss-stabilisierung-vor-dem-wochenende-0-10-26565017",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: Berlin und Paris einig - 'Verbrenner-Aus damit Geschichte'",
+   "link": "https://www.onvista.de/news/2026/10-16-roundup-3-berlin-und-paris-einig-verbrenner-aus-damit-geschichte-0-10-26565013",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Kreise: Bundesregierung plant Kooperation mit US-Chiphersteller Nvidia",
+   "link": "https://www.onvista.de/news/2026/10-16-kreise-bundesregierung-plant-kooperation-mit-us-chiphersteller-nvidia-0-10-26564892",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: Berlin und Paris einig - 'Verbrenner-Aus damit Geschichte'",
+   "link": "https://www.onvista.de/news/2026/10-16-roundup-3-berlin-und-paris-einig-verbrenner-aus-damit-geschichte-0-10-26565013",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "dpa-AFX Ueberblick: KONJUNKTUR vom 16.10.2026 - 17.00 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-16-dpa-afx-ueberblick-konjunktur-vom-16-10-2026-17-00-uhr-0-10-26564988",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 16.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-16-dpa-afx-ueberblick-unternehmen-vom-16-10-2026-15-15-uhr-0-10-26564934",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-10-16",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: RBC hebt Ziel fuer Siemens Healthineers auf 48 Euro - 'Outperform'",
+   "link": "https://www.onvista.de/news/2026/10-16-analyse-flash-rbc-hebt-ziel-fuer-siemens-healthineers-auf-48-euro-outperform-0-10-26564785",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Flugzeugfinanzierer ACG bestellt 75 Airbus-Jets",
+   "link": "https://www.onvista.de/news/2026/10-16-flugzeugfinanzierer-acg-bestellt-75-airbus-jets-0-10-26564796",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Laut Airlines kein Kerosinmangel am Hamburger Flughafen",
+   "link": "https://www.onvista.de/news/2026/10-16-laut-airlines-kein-kerosinmangel-am-hamburger-flughafen-0-10-26564721",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Flugverkehr ueber Italien stundenlang gestoert",
+   "link": "https://www.onvista.de/news/2026/10-16-roundup-2-flugverkehr-ueber-italien-stundenlang-gestoert-0-10-26564982",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax schuettelt Zins- und KI-Sorgen ab",
+   "link": "https://www.onvista.de/news/2026/10-16-roundup-aktien-frankfurt-schluss-dax-schuettelt-zins-und-ki-sorgen-ab-0-10-26565010",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten V",
+   "link": "https://www.onvista.de/news/2026/10-16-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Britische Kartellbehoerde will Microsoft strenger regulieren",
+   "link": "https://www.onvista.de/news/2026/10-16-britische-kartellbehoerde-will-microsoft-strenger-regulieren-0-20-26564923",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "Auf der Zielgeraden? - Sondierungen in Berlin gehen weiter",
+   "link": "https://www.onvista.de/news/2026/10-16-auf-der-zielgeraden-sondierungen-in-berlin-gehen-weiter-0-10-26565037",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Autosektor erholt - Deutsch-franzoesische Auto-Initiative",
+   "link": "https://www.onvista.de/news/2026/10-16-aktien-im-fokus-autosektor-erholt-deutsch-franzoesische-auto-initiative-0-10-26564894",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Autosektor erholt - Deutsch-franzoesische Auto-Initiative",
+   "link": "https://www.onvista.de/news/2026/10-16-aktien-im-fokus-autosektor-erholt-deutsch-franzoesische-auto-initiative-0-10-26564894",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/10-16-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "VOS",
+   "date": "2026-10-16",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Vossloh auf 50 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/10-16-analyse-flash-jefferies-senkt-ziel-fuer-vossloh-auf-50-euro-hold-0-10-26564786",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-16-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-10-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/10-16-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-10-16",
+   "sentiment": "BUY",
+   "news": "Original-Research: ZEAL Network SE (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/10-16-original-research-zeal-network-se-von-montega-ag-kaufen-0-10-26564868",
+   "source": "dpa-AFX"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-18",
+ "generated": "2026-10-21 22:16:29",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 2
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 2,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-10-18",
+   "sentiment": "INFO",
+   "news": "See-Windparks wollen mit Einspeiseverzicht Geld verdienen",
+   "link": "https://www.onvista.de/news/2026/10-18-see-windparks-wollen-mit-einspeiseverzicht-geld-verdienen-0-10-26565301",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-18",
+   "sentiment": "INFO",
+   "news": "Giffey warnt vor Vergesellschaftung von Wohnungen in Berlin",
+   "link": "https://www.onvista.de/news/2026/10-18-giffey-warnt-vor-vergesellschaftung-von-wohnungen-in-berlin-0-10-26565316",
+   "source": "dpa-AFX"
+  }
+ ]
+}

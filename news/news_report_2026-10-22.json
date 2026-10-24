@@ -1,0 +1,395 @@
+{
+ "date": "2026-10-22",
+ "generated": "2026-10-23 05:23:10",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 37
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 15
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  }
+ },
+ "total": 38,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Deutsche Boerse auf 339 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-22-analyse-flash-deutsche-bank-hebt-ziel-fuer-deutsche-boerse-auf-339-euro-buy-0-10-26567204",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Erste Abstimmungen im Parlament gegen das Verbrenner-Aus",
+   "link": "https://www.onvista.de/news/2026/10-22-roundup-erste-abstimmungen-im-parlament-gegen-das-verbrenner-aus-0-10-26567270",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Deusche-Boerse-Konkurrent LSE hebt Ziele erneut an - Milliardenzukauf",
+   "link": "https://www.onvista.de/news/2026/10-22-roundup-deusche-boerse-konkurrent-lse-hebt-ziele-erneut-an-milliardenzukauf-0-10-26567314",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "OTS: WEIMER MEDIA GROUP / IPO Night 2026: TKMS, RWE und Neura Robotics ...",
+   "link": "https://www.onvista.de/news/2026/10-22-ots-weimer-media-group-ipo-night-2026-tkms-rwe-und-neura-robotics-0-10-26567156",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Baukasten statt Plattformen: Mercedes will Kosten senken",
+   "link": "https://www.onvista.de/news/2026/10-22-baukasten-statt-plattformen-mercedes-will-kosten-senken-0-10-26567408",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "HUK-Coburg steuert auf 15 Millionen versicherte Autos zu",
+   "link": "https://www.onvista.de/news/2026/10-22-huk-coburg-steuert-auf-15-millionen-versicherte-autos-zu-0-20-26567306",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Anteilsverkauf bringt FC Bayern dreistellige Millionensumme",
+   "link": "https://www.onvista.de/news/2026/10-22-anteilsverkauf-bringt-fc-bayern-dreistellige-millionensumme-0-10-26567185",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "BASF-Chef wirbt fuer Evonik-Uebernahme: \"Starke deutsche Antwort\"",
+   "link": "https://www.onvista.de/news/2026/10-22-basf-chef-wirbt-fuer-evonik-uebernahme-starke-deutsche-antwort-0-20-26567391",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Microsoft wirbt um Vertrauen deutscher Kunden",
+   "link": "https://www.onvista.de/news/2026/10-22-microsoft-wirbt-um-vertrauen-deutscher-kunden-0-10-26567316",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Banken: Vergesellschaftung kann Immobilienkredite verteuern",
+   "link": "https://www.onvista.de/news/2026/10-22-banken-vergesellschaftung-kann-immobilienkredite-verteuern-0-10-26567006",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise schickt E.ON die Jahresabrechnung",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-news-warren-wise-schickt-e-on-die-jahresabrechnung-0-37-26567421",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Symrise AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-pvr-symrise-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "IRW-News: Dr. Reuter Investor Relations: FACC: So baut der Luftfahrtzulieferer seine Kapazitaeten aus",
+   "link": "https://www.onvista.de/news/2026/10-22-irw-news-dr-reuter-investor-relations-facc-so-baut-der-luftfahrtzulieferer-seine-",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "QIA",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Finanzinvestor EQT will Qiagen uebernehmen - Aktie zieht an",
+   "link": "https://www.onvista.de/news/2026/10-22-roundup-2-finanzinvestor-eqt-will-qiagen-uebernehmen-aktie-zieht-an-0-10-26567313",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: US-Tech-Branche versetzt Dax neuen Daempfer",
+   "link": "https://www.onvista.de/news/2026/10-22-roundup-aktien-frankfurt-schluss-us-tech-branche-versetzt-dax-neuen-daempfer-0-10-26567442",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: PUMA ernennt Arne Arens zum Chief Commercial Officer",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-news-puma-ernennt-arne-arens-zum-chief-commercial-officer-0-37-26567332",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Stroeer SE & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaw",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-pvr-stroeer-se-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ThyssenKrupp AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-pvr-thyssenkrupp-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Schlichtung von Lufthansa und VC endet ohne bindendes Ergebnis",
+   "link": "https://www.onvista.de/news/2026/10-22-schlichtung-von-lufthansa-und-vc-endet-ohne-bindendes-ergebnis-0-20-26567390",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: Nordex Group tritt mit 192-MW-Auftrag von Mercury in den neuseelaendischen Markt ein",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-news-nordex-group-tritt-mit-192-mw-auftrag-von-mercury-in-den-neuseelaendischen-mark",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-10-22",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Jenoptik auf 49 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-22-analyse-flash-jefferies-hebt-ziel-fuer-jenoptik-auf-49-euro-buy-0-10-26567197",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Fehler in Programmiersprache bringt IT-Experten um ihren Schlaf",
+   "link": "https://www.onvista.de/news/2026/10-22-webseitenbetreiber-ruesten-nach-kritischen-software-fehlern-nach-0-20-26567168",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: Schwedische Exportkreditgesellschaft (SEK): Eu",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-news-schwedische-exportkreditgesellschaft-sek-europas-aufruestung-im-verteidigungsbereich-eroeffnet-schwedischen-unternehm",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "BASF-Chef wirbt fuer Evonik-Uebernahme: \"Starke deutsche Antwort\"",
+   "link": "https://www.onvista.de/news/2026/10-22-basf-chef-wirbt-fuer-evonik-uebernahme-starke-deutsche-antwort-0-20-26567391",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 22.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-22-dpa-afx-ueberblick-unternehmen-vom-22-10-2026-15-15-uhr-0-10-26567338",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "Infineon, Nvidia und Microsoft foerdern Entwicklung von KI-Robotern",
+   "link": "https://www.onvista.de/news/2026/10-22-infineon-nvidia-und-microsoft-foerdern-entwicklung-von-ki-robotern-0-20-26567382",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "VW stellt Fahrassistenz-Entwicklung in Europa neu auf",
+   "link": "https://www.onvista.de/news/2026/10-22-vw-stellt-fahrassistenz-entwicklung-in-europa-neu-auf-0-10-26567407",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "OTS: WEIMER MEDIA GROUP / IPO Night 2026: TKMS, RWE und Neura Robotics ...",
+   "link": "https://www.onvista.de/news/2026/10-22-ots-weimer-media-group-ipo-night-2026-tkms-rwe-und-neura-robotics-0-10-26567156",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: Neue Massstaebe fuer Tests von Raketentriebwerken: Projekt Eu-BEST erfolgreich abgeschlossen",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-news-neue-massstaebe-fuer-tests-von-raketentriebwerken-projekt-eu-best-erfol",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HDD",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "KORREKTUR: Schon eine halbe Million neuer Batteriespeicher",
+   "link": "https://www.onvista.de/news/2026/10-22-korrektur-schon-eine-halbe-million-neuer-batteriespeicher-0-10-26567348",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SPG",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Fachverlag Relx waechst weiter - Prognose bestaetigt",
+   "link": "https://www.onvista.de/news/2026/10-22-roundup-fachverlag-relx-waechst-weiter-prognose-bestaetigt-0-10-26567385",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "BVB belohnt Fans fuer Handyverzicht im Stadion",
+   "link": "https://www.onvista.de/news/2026/10-22-bvb-belohnt-fans-fuer-handyverzicht-im-stadion-0-10-26567417",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "V6C",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-Adhoc: Viscom SE hebt Prognose fuer den Auftragseingang im Geschaeftsjahr 2026 erneut an",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-adhoc-viscom-se-hebt-prognose-fuer-den-auftragseingang-im-geschaeftsjahr-2026-erneut-a",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "ADN1",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: adesso verlaengert Vors",
+   "link": "https://www.onvista.de/news/2026/10-22-eqs-news-adesso-verlaengert-vorstandsvertrag-mit-kristina-gerwert-bis-2031-vorstandsmitglied-fuer-querschnittsressorts-gestaltet-organisatorischen-wa",
+   "source": "EQS Group"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-10-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Techs und hohe Oelpreise druecken auf die Kurse",
+   "link": "https://www.onvista.de/news/2026/10-22-roundup-aktien-europa-schluss-techs-und-hohe-oelpreise-druecken-auf-die-kurse-0-10-26567445",
+   "source": "dpa-AFX"
+  }
+ ]
+}

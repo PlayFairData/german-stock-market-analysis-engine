@@ -1,0 +1,413 @@
+{
+ "date": "2026-10-15",
+ "generated": "2026-10-21 22:16:29",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 0,
+  "HOLD": 1,
+  "INFO": 36
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 13
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  }
+ },
+ "total": 40,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Jenoptik auf 52 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-15-analyse-flash-deutsche-bank-hebt-ziel-fuer-jenoptik-auf-52-euro-buy-0-10-26564428",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "SPD-Minister bieten Merz Kompromiss bei Verbrenner-Aus an – Rote Linie bei 90 Prozent",
+   "link": "https://www.onvista.de/news/2026/10-15-spd-minister-bieten-merz-kompromiss-bei-verbrenner-aus-an-rote-linie-bei-90-prozent-0-20-26564590",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "SPD-Minister bieten Merz Kompromiss bei Verbrenner-Aus an – Rote Linie bei 90 Prozent",
+   "link": "https://www.onvista.de/news/2026/10-15-spd-minister-bieten-merz-kompromiss-bei-verbrenner-aus-an-rote-linie-bei-90-prozent-0-20-26564590",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-15",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: RBC startet DHL Group mit 'Outperform' - Ziel 67 Euro",
+   "link": "https://www.onvista.de/news/2026/10-15-analyse-flash-rbc-startet-dhl-group-mit-outperform-ziel-67-euro-0-10-26564304",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: EuroStoxx gibt nach - Zuerich und London stark",
+   "link": "https://www.onvista.de/news/2026/10-15-roundup-aktien-europa-schluss-eurostoxx-gibt-nach-zuerich-und-london-stark-0-10-26564616",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Rueckschlag der Technologie-Aktien geht weiter",
+   "link": "https://www.onvista.de/news/2026/10-15-aktien-new-york-ausblick-rueckschlag-der-technologie-aktien-geht-weiter-0-10-26564528",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Bericht: Bundesregierung vor KI-Partnerschaft mit Nvidia",
+   "link": "https://www.onvista.de/news/2026/10-15-bericht-bundesregierung-vor-ki-partnerschaft-mit-nvidia-0-20-26564604",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "VW bereitet Rueckruf wegen fehlerhafter Batteriezellen vor",
+   "link": "https://www.onvista.de/news/2026/10-15-vw-bereitet-rueckruf-wegen-fehlerhafter-batteriezellen-vor-0-10-26564618",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Kontobetrug: Banken muessen Geld erst einmal erstatten",
+   "link": "https://www.onvista.de/news/2026/10-15-kontobetrug-banken-muessen-geld-erst-einmal-erstatten-0-10-26564419",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Fresenius verlaengert Vertrag von Finanzchefin um fuenf Jahre",
+   "link": "https://www.onvista.de/news/2026/10-15-fresenius-verlaengert-vertrag-von-finanzchefin-um-fuenf-jahre-0-10-26564617",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Symrise AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-pvr-symrise-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Norwegen erwaegt Ende des Investment-Banns fuer Ruestungskonzerne",
+   "link": "https://www.onvista.de/news/2026/10-15-norwegen-erwaegt-ende-des-investment-banns-fuer-ruestungskonzerne-0-20-26564556",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax trotzt einbrechenden Tech-Aktien",
+   "link": "https://www.onvista.de/news/2026/10-15-roundup-aktien-frankfurt-schluss-dax-trotzt-einbrechenden-tech-aktien-0-10-26564599",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "WDH/Sorge um Kerosin-Nachschub: Lufthansa tankt auswaerts",
+   "link": "https://www.onvista.de/news/2026/10-15-wdh-sorge-um-kerosin-nachschub-lufthansa-tankt-auswaerts-0-10-26564539",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-10-15",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Salzgitter auf 65 Euro - 'Overweight'",
+   "link": "https://www.onvista.de/news/2026/10-15-analyse-flash-jpmorgan-hebt-ziel-fuer-salzgitter-auf-65-euro-overweight-0-10-26564413",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Krones AG: Schawei GmbH, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-dd-krones-ag-schawei-gmbh-kauf-0-37-26564554",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-15",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Thyssenkrupp auf 17 Euro - 'Neutral'",
+   "link": "https://www.onvista.de/news/2026/10-15-analyse-flash-jpmorgan-hebt-ziel-fuer-thyssenkrupp-auf-17-euro-neutral-0-10-26564412",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 15.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-15-dpa-afx-ueberblick-unternehmen-vom-15-10-2026-15-15-uhr-0-10-26564538",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TEG",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3/Trotz vieler Huerden: Berliner Parteien sondieren weiter",
+   "link": "https://www.onvista.de/news/2026/10-15-roundup-3-trotz-vieler-huerden-berliner-parteien-sondieren-weiter-0-10-26564487",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Aixtron uebertrifft mit Auftragseingang und Profitabilitaet die Erwartungen",
+   "link": "https://www.onvista.de/news/2026/10-15-aixtron-uebertrifft-mit-auftragseingang-und-profitabilitaet-die-erwartungen-0-10-26564614",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax trotzt einbrechenden Tech-Aktien",
+   "link": "https://www.onvista.de/news/2026/10-15-roundup-aktien-frankfurt-schluss-dax-trotzt-einbrechenden-tech-aktien-0-10-26564599",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Fresenius verlaengert Vertrag von Finanzchefin um fuenf Jahre",
+   "link": "https://www.onvista.de/news/2026/10-15-fresenius-verlaengert-vertrag-von-finanzchefin-um-fuenf-jahre-0-10-26564617",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-10-15",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: MPCM senkt Ziel fuer Kion auf 54 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-15-analyse-flash-mpcm-senkt-ziel-fuer-kion-auf-54-euro-buy-0-10-26564427",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Anstieg der Wohnungsmieten hat sich beschleunigt",
+   "link": "https://www.onvista.de/news/2026/10-15-roundup-anstieg-der-wohnungsmieten-hat-sich-beschleunigt-0-10-26564485",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Porsche praesentiert neues Supersportwagen-Design",
+   "link": "https://www.onvista.de/news/2026/10-15-porsche-praesentiert-neues-supersportwagen-design-0-10-26564644",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Porsche praesentiert neues Supersportwagen-Design",
+   "link": "https://www.onvista.de/news/2026/10-15-porsche-praesentiert-neues-supersportwagen-design-0-10-26564644",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Weniger Geld fuer E-Busse - Branche warnt vor Folgen",
+   "link": "https://www.onvista.de/news/2026/10-15-weniger-geld-fuer-e-busse-branche-warnt-vor-folgen-0-10-26564284",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3/Trotz vieler Huerden: Berliner Parteien sondieren weiter",
+   "link": "https://www.onvista.de/news/2026/10-15-roundup-3-trotz-vieler-huerden-berliner-parteien-sondieren-weiter-0-10-26564487",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1AST",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-DD: ASTA Energy Solutions AG: Dr. Karl Schaecke, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-dd-asta-energy-solutions-ag-dr-karl-schaecke-kauf-0-37-26564470",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HYQ",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Talfahrt weltweiter Techwerte belastet Dax moderat",
+   "link": "https://www.onvista.de/news/2026/10-15-aktien-frankfurt-ausblick-talfahrt-weltweiter-techwerte-belastet-dax-moderat-0-10-26564317",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EVT",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-News: Evotec ernennt Dr. Joanna Holbrook zur  Chief Scientific Officer und Mitglied des  Vorstands",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-news-evotec-ernennt-dr-joanna-holbrook-zur-chief-scientific-officer-und-mitg",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-News: ESA-Studie zu Klima-Kipppunkten gestartet: OHB und AWI tauschen",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-news-esa-studie-zu-klima-kipppunkten-gestartet-ohb-und-awi-tauschen-sich-zu-moeglichkeiten-kuenftiger-erd",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares schliesst die Uebernahme der traditionsreichen Steinmueller Engineering Gmb",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-news-mutares-schliesst-die-uebernahme-der-traditionsreichen-steinmueller-engineering-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "DOU",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 15.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-15-dpa-afx-ueberblick-unternehmen-vom-15-10-2026-15-15-uhr-0-10-26564538",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Kovac selbstkritisch: 'Haben nicht richtig gelegen'",
+   "link": "https://www.onvista.de/news/2026/10-15-kovac-selbstkritisch-haben-nicht-richtig-gelegen-0-10-26564288",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Gerresheimer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-pvr-gerresheimer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BRNK",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "EQS-Adhoc: Branicks Group AG: Einigung mit wesen",
+   "link": "https://www.onvista.de/news/2026/10-15-eqs-adhoc-branicks-group-ag-einigung-mit-wesentlichen-glaeubigern-ueber-umsetzung-des-sanierungskonzepts-dr-danne-und-dr-conradi-nehme",
+   "source": "EQS Group"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-10-15",
+   "sentiment": "INFO",
+   "news": "Ericsson mit Kurssprung - Quartalszahlen ueberzeugen",
+   "link": "https://www.onvista.de/news/2026/10-15-aktie-im-fokus-ericsson-mit-kurssprung-quartalszahlen-ueberzeugen-0-10-26564377",
+   "source": "dpa-AFX"
+  }
+ ]
+}

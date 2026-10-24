@@ -1,0 +1,413 @@
+{
+ "date": "2026-10-23",
+ "generated": "2026-10-24 14:20:20",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 4,
+  "SELL": 1,
+  "HOLD": 2,
+  "INFO": 33
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 2,
+   "SELL": 1,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 10
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 10
+  }
+ },
+ "total": 40,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "WOCHENAUSBLICK: Dax von vielen Sorgen belastet - Fokus auf Zinsentscheidungen",
+   "link": "https://www.onvista.de/news/2026/10-23-wochenausblick-dax-von-vielen-sorgen-belastet-fokus-auf-zinsentscheidungen-0-10-26567739",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax schwaechelt weiter - Wochenbilanz negativ",
+   "link": "https://www.onvista.de/news/2026/10-23-aktien-frankfurt-dax-schwaechelt-weiter-wochenbilanz-negativ-0-10-26567643",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MRK",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Zollstreit mit Trump: Pharmabranche erwartet weniger Umsatz",
+   "link": "https://www.onvista.de/news/2026/10-23-zollstreit-mit-trump-pharmabranche-erwartet-weniger-umsatz-0-10-26567488",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Acht Bundeslaender machen Front gegen Reiches Offshore-Wind-Plaene",
+   "link": "https://www.onvista.de/news/2026/10-23-laender-machen-front-gegen-reiches-offshore-wind-plaene-0-20-26567776",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-23",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Goldman hebt Ziel fuer SAP auf 258 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-23-analyse-flash-goldman-hebt-ziel-fuer-sap-auf-258-euro-buy-0-10-26567703",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Droht Volkswagen der groesste Konflikt in der Firmengeschichte?",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-2-droht-volkswagen-der-groesste-konflikt-in-der-firmengeschichte-0-10-26567813",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-23",
+   "sentiment": "SELL",
+   "news": "ANALYSE-FLASH: Barclays senkt Ziel fuer Allianz auf 351 Euro - 'Underweight'",
+   "link": "https://www.onvista.de/news/2026/10-23-analyse-flash-barclays-senkt-ziel-fuer-allianz-auf-351-euro-underweight-0-10-26567707",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Trueber Freitag - EuroStoxx sinkt weiter",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-aktien-europa-schluss-trueber-freitag-eurostoxx-sinkt-weiter-0-10-26567812",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Frankreich-Sorgen lassen Dax weiter absacken",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-aktien-frankfurt-schluss-frankreich-sorgen-lassen-dax-weiter-absacken-0-10-26567803",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Kreise: BASF geht mit hoeherer Offerte auf Evonik zu - 24 Euro je Aktie",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-2-kreise-basf-geht-mit-hoeherer-offerte-auf-evonik-zu-24-euro-je-aktie-0-10-26567815",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Verdi ruft bundesweit zu Warnstreiks bei privaten Banken auf",
+   "link": "https://www.onvista.de/news/2026/10-23-verdi-ruft-bundesweit-zu-warnstreiks-bei-privaten-banken-auf-0-10-26567729",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Ukraine: Hunderttausende Menschen ohne Strom",
+   "link": "https://www.onvista.de/news/2026/10-23-ukraine-hunderttausende-menschen-ohne-strom-0-10-26567638",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-10-23",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Fresenius SE auf 54 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-23-analyse-flash-berenberg-hebt-ziel-fuer-fresenius-se-auf-54-euro-buy-0-10-26567705",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "NRW: Lkw-Sonntagsfahrverbot bleibt fast bis Jahresende ausgesetzt",
+   "link": "https://www.onvista.de/news/2026/10-23-nrw-lkw-sonntagsfahrverbot-bleibt-fast-bis-jahresende-ausgesetzt-0-10-26567724",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Deutz AG: Dr. Simone Voggenreiter, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-dd-deutz-ag-dr-simone-voggenreiter-kauf-0-37-26567560",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-10-23",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Berenberg senkt Ziel fuer Krones auf 158 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-23-analyse-flash-berenberg-senkt-ziel-fuer-krones-auf-158-euro-buy-0-10-26567704",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-10-23",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Goldman hebt Ziel fuer Sartorius auf 258 Euro - 'Neutral'",
+   "link": "https://www.onvista.de/news/2026/10-23-analyse-flash-goldman-hebt-ziel-fuer-sartorius-auf-258-euro-neutral-0-10-26567702",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Lufthansa verschiebt Wiederaufnahme von Dubai-Fluegen wegen Nahost-Lage",
+   "link": "https://www.onvista.de/news/2026/10-23-lufthansa-verschiebt-wiederaufnahme-von-dubai-fluegen-wegen-nahost-lage-0-20-26567774",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Innenministerium: Keine Schaeden in Bundesverwaltung durch Fehler in PHP-Software bekannt",
+   "link": "https://www.onvista.de/news/2026/10-23-innenministerium-keine-schaeden-in-bundesverwaltung-durch-fehler-in-php-software-bekannt-0-20",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Herbststurm legt los: Verletzte und Probleme bei der Bahn",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-herbststurm-legt-los-verletzte-und-probleme-bei-der-bahn-0-10-26567820",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Kreise: BASF geht mit hoeherer Offerte auf Evonik zu - 24 Euro je Aktie",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-2-kreise-basf-geht-mit-hoeherer-offerte-auf-evonik-zu-24-euro-je-aktie-0-10-26567815",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Dax schwaechelt - Wochenfazit negativ",
+   "link": "https://www.onvista.de/news/2026/10-23-roundup-aktien-frankfurt-eroeffnung-dax-schwaechelt-wochenfazit-negativ-0-10-26567588",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "GNW-Stimmrechte: Renk Group AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der euro",
+   "link": "https://www.onvista.de/news/2026/10-23-gnw-stimmrechte-renk-group-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 23.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-23-dpa-afx-ueberblick-unternehmen-vom-23-10-2026-15-15-uhr-0-10-26567737",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-23",
+   "sentiment": "BUY",
+   "news": "Original-Research: Aroundtown SA (von First Berlin Equity Research GmbH): Kaufen",
+   "link": "https://www.onvista.de/news/2026/10-23-original-research-aroundtown-sa-von-first-berlin-equity-research-gmbh-kaufen-0-10-26567711",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Behoerde verlangt von Schneider weitere Informationen fuer Shelly-Uebernahme",
+   "link": "https://www.onvista.de/news/2026/10-23-behoerde-verlangt-von-schneider-weitere-informationen-fuer-shelly-uebernahme-0-10-26567631",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DUE",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Duerr Aktiengesellschaft: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel de",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-pvr-duerr-aktiengesellschaft-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-DD: OHB SE: Dan",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-dd-ohb-se-daniela-schmidt-zuteilung-von-2-439-aktien-als-verguetungsbestandteil-im-rahmen-der-vorstandsverguetung-eigene-aktien-des-emittenten-zu-einem-vertrag",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: HORNBACH Holding AG & Co. KGaA: Vorabbekanntmachung ueber d",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-afr-hornbach-holding-ag-co-kgaa-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "KWS",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-HV: KWS SAAT SE & Co. KGaA: Bekanntmachun",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-hv-kws-saat-se-co-kgaa-bekanntmachung-der-einberufung-zur-hauptversammlung-am-01-12-2026-in-einbeck-mit-dem-ziel-der-europaweiten-ver",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "VOS",
+   "date": "2026-10-23",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: MPCM senkt Ziel fuer Vossloh auf 57 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/10-23-analyse-flash-mpcm-senkt-ziel-fuer-vossloh-auf-57-euro-hold-0-10-26567701",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MBB",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-News: Schirp",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-news-schirp-schmidt-morsbach-rechtsanwaelte-partg-mbb-anlegerklagen-in-sachen-wirecard-bgh-entlaesst-ey-aus-dem-musterverfahren-die-anwaelte-des-musterklaegers-be",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ACT0",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Alzchem erneut unter den besten 5 % der weltweit von EcoVadis bewerteten Unternehmen",
+   "link": "https://www.onvista.de/news/2026/10-23-alzchem-erneut-unter-den-besten-5-der-weltweit-von-ecovadis-bewerteten-unternehmen-0-37-26567687",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "PAT",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: PATRIZIA SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-pvr-patrizia-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "GYC",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Original-Research: Grand City Properties SA (von First Berlin Equity Research...",
+   "link": "https://www.onvista.de/news/2026/10-23-original-research-grand-city-properties-sa-von-first-berlin-equity-research-0-10-26567634",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-News: Wie kann Digitalisierung die Gesundheitsversorgung verbessern?",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-news-wie-kann-digitalisierung-die-gesundheitsversorgung-verbessern-0-37-26567609",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Gerresheimer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-pvr-gerresheimer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "FYB",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Formycon AG: Vorabbekanntmachung ueber die Veroeffentlichung von Quartalsbe",
+   "link": "https://www.onvista.de/news/2026/10-23-eqs-afr-formycon-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-10-23",
+   "sentiment": "INFO",
+   "news": "Finnische Firmen helfen Ukraine bei Satelliten-Kommunikation",
+   "link": "https://www.onvista.de/news/2026/10-23-finnische-firmen-helfen-ukraine-bei-satelliten-kommunikation-0-10-26567562",
+   "source": "dpa-AFX"
+  }
+ ]
+}
