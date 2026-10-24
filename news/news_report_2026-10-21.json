@@ -1,0 +1,460 @@
+{
+ "date": "2026-10-21",
+ "generated": "2026-10-21 22:16:29",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 1,
+  "INFO": 43
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 16
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 16
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 46,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Deutsche Bank AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten V",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-pvr-deutsche-bank-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Schneider: Foerdergeld fuer E-Autos reicht auch 2027",
+   "link": "https://www.onvista.de/news/2026/10-21-schneider-foerdergeld-fuer-e-autos-reicht-auch-2027-0-10-26566740",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HOT",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "DAX-FLASH: Rueckkehr an das Vortageshoch - Erholung in Asien dank SpaceX",
+   "link": "https://www.onvista.de/news/2026/10-21-dax-flash-rueckkehr-an-das-vortageshoch-erholung-in-asien-dank-spacex-0-10-26566523",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Gute Tech-Stimmung - EssilorLuxottica stark",
+   "link": "https://www.onvista.de/news/2026/10-21-roundup-aktien-europa-schluss-gute-tech-stimmung-essilorluxottica-stark-0-10-26566901",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Anlagenbauer Gea setzt auf Zukaeufe",
+   "link": "https://www.onvista.de/news/2026/10-21-anlagenbauer-gea-setzt-auf-zukaeufe-0-20-26566536",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Nvidia-Chef Huang sieht Europa als KI-Schluesselakteur",
+   "link": "https://www.onvista.de/news/2026/10-21-roundup-nvidia-chef-huang-sieht-europa-als-ki-schluesselakteur-0-10-26566800",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Ministerien wollen Pflicht-Elementarschutz fuer alle Wohnhaeuser",
+   "link": "https://www.onvista.de/news/2026/10-21-ministerien-wollen-pflicht-elementarschutz-fuer-alle-wohnhaeuser-0-20-26566749",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Allianz-Studie: Ablenkung verursacht mehr Autounfaelle als gedacht",
+   "link": "https://www.onvista.de/news/2026/10-21-allianz-studie-ablenkung-verursacht-mehr-autounfaelle-als-gedacht-0-20-26566789",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Muenchener Rueckversicherungs-Gesellschaft Aktiengesellschaft in Muen",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-cms-muenchener-rueckversicherungs-gesellschaft-aktiengesellschaft-in-muenchen-veroeffentlichung-eine",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax auf Vierwochenhoch - Zuversicht via SpaceX",
+   "link": "https://www.onvista.de/news/2026/10-21-roundup-aktien-frankfurt-schluss-dax-auf-vierwochenhoch-zuversicht-via-spacex-0-10-26566903",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Immobilienwerte erholt - Grand City kauft LEG-Anteile",
+   "link": "https://www.onvista.de/news/2026/10-21-korrektur-aktie-im-fokus-immobilienwerte-erholt-grand-city-kauft-leg-anteile-0-10-26566739",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "CO2-Handel: EU will Preisspruenge fuer Industrie verhindern",
+   "link": "https://www.onvista.de/news/2026/10-21-co2-handel-eu-will-preisspruenge-fuer-industrie-verhindern-0-10-26566780",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Bernstein nimmt Eon mit 'Outperform' wieder auf - Ziel 20,20 Euro",
+   "link": "https://www.onvista.de/news/2026/10-21-analyse-flash-bernstein-nimmt-eon-mit-outperform-wieder-auf-ziel-20-20-euro-0-10-26566727",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Symrise AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-pvr-symrise-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Boeing bekommt Zulassung fuer groesste 737-Max-Variante",
+   "link": "https://www.onvista.de/news/2026/10-21-boeing-bekommt-zulassung-fuer-groesste-737-max-variante-0-10-26566455",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "QIA",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Qiagen-Anteile legen nach Bericht ueber bald anstehendes Gebot zu",
+   "link": "https://www.onvista.de/news/2026/10-21-aktie-im-fokus-qiagen-anteile-legen-nach-bericht-ueber-bald-anstehendes-gebot-zu-0-10-26566576",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: United Internet AG: Vorabbekanntmachung ueber die Veroeffentlichung",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-afr-united-internet-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "CTS Eventim auf Siebenmonatshoch - Ananym Capital eingestiegen",
+   "link": "https://www.onvista.de/news/2026/10-21-aktie-im-fokus-cts-eventim-auf-siebenmonatshoch-ananym-capital-eingestiegen-0-10-26566859",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "SpaceX und Supermicro heben Tech-Laune etwas",
+   "link": "https://www.onvista.de/news/2026/10-21-aktien-im-fokus-spacex-und-supermicro-heben-tech-laune-etwas-0-10-26566624",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-10-21",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research senkt Ziel fuer Krones auf 167 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-21-analyse-flash-deutsche-bank-research-senkt-ziel-fuer-krones-auf-167-euro-buy-0-10-26566725",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-10-21",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Aurubis auf 169 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/10-21-analyse-flash-deutsche-bank-senkt-ziel-fuer-aurubis-auf-169-euro-hold-0-10-26566724",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: Zielanhebung treibt Adidas-Erholung an - 100-Tage-Linie bremst",
+   "link": "https://www.onvista.de/news/2026/10-21-aktie-im-fokus-2-zielanhebung-treibt-adidas-erholung-an-100-tage-linie-bremst-0-10-26566716",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Thyssenkrupp bringt tk accelis naechste Woche an die Boerse",
+   "link": "https://www.onvista.de/news/2026/10-21-thyssenkrupp-bringt-tk-accelis-naechste-woche-an-die-boerse-0-20-26566860",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "KORREKTUR: BER streicht Laermzuschlag fuer Fluege am spaeten Abend",
+   "link": "https://www.onvista.de/news/2026/10-21-korrektur-ber-streicht-laermzuschlag-fuer-fluege-am-spaeten-abend-0-10-26566744",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "WDH/Umweltjurist: AfD-Moratorium fuer Windkraft waere rechtswidrig",
+   "link": "https://www.onvista.de/news/2026/10-21-wdh-umweltjurist-afd-moratorium-fuer-windkraft-waere-rechtswidrig-0-10-26566781",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: SpaceX und Supermicro hellen Tech-Stimmung etwas auf",
+   "link": "https://www.onvista.de/news/2026/10-21-aktien-im-fokus-spacex-und-supermicro-hellen-tech-stimmung-etwas-auf-0-10-26566871",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 21.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-21-dpa-afx-ueberblick-unternehmen-vom-21-10-2026-15-15-uhr-0-10-26566829",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Sicherheitsluecken in Programmiersprache bedrohen Internetseiten",
+   "link": "https://www.onvista.de/news/2026/10-21-sicherheitsluecken-in-programmiersprache-bedrohen-internetseiten-0-20-26566686",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Flatexdegiro bestaetigt Jahresziele - Aktie gefragt",
+   "link": "https://www.onvista.de/news/2026/10-21-flatexdegiro-bestaetigt-jahresziele-aktie-gefragt-0-10-26566910",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Flatexdegiro bestaetigt Jahresziele - Aktie gefragt",
+   "link": "https://www.onvista.de/news/2026/10-21-flatexdegiro-bestaetigt-jahresziele-aktie-gefragt-0-10-26566910",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-News: KION demonstriert auf der NVIDIA GTC Berlin 2026, wie Physical AI messbaren Kundennutzen scha",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-news-kion-demonstriert-auf-der-nvidia-gtc-berlin-2026-wie-physical-ai-messb",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "GNW-Stimmrechte: Renk Group AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der euro",
+   "link": "https://www.onvista.de/news/2026/10-21-gnw-stimmrechte-renk-group-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Erstnotierung der Thyssenkrupp-Werkstoffsparte TK Accelis Ende Oktober",
+   "link": "https://www.onvista.de/news/2026/10-21-erstnotierung-der-thyssenkrupp-werkstoffsparte-tk-accelis-ende-oktober-0-10-26566831",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "SpaceX verdoppelt Umsatz - KI-Ausgaben verdreifacht",
+   "link": "https://www.onvista.de/news/2026/10-21-spacex-verdoppelt-umsatz-ki-ausgaben-verdreifacht-0-20-26566525",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "PBB",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Deutsche Pfandbriefbank AG: Vorabbekanntmachung ueber die Ve",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-afr-deutsche-pfandbriefbank-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-21",
+   "sentiment": "BUY",
+   "news": "Original-Research: Verbio SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/10-21-original-research-verbio-se-von-nuways-ag-buy-0-10-26566590",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OBCK",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Ottobock faellt auf tiefsten Stand seit sieben Monaten",
+   "link": "https://www.onvista.de/news/2026/10-21-aktie-im-fokus-ottobock-erneut-unter-druck-goldman-ist-kurzfristig-vorsichtig-0-10-26566795",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "TNIE",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Tonies auf Rekordhoch - Auch Nuways optimistisch vor Zahlen",
+   "link": "https://www.onvista.de/news/2026/10-21-aktie-im-fokus-tonies-auf-rekordhoch-auch-nuways-optimistisch-vor-zahlen-0-10-26566870",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "AAD",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Randstad befluegelt ganze Personalvermittler-Branche",
+   "link": "https://www.onvista.de/news/2026/10-21-aktien-im-fokus-randstad-befluegelt-ganze-personalvermittler-branche-0-10-26566661",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "WDH/Bitte nicht duschen: BVB-Profis verlassen Stadion zuegig",
+   "link": "https://www.onvista.de/news/2026/10-21-wdh-bitte-nicht-duschen-bvb-profis-verlassen-stadion-zuegig-0-10-26566540",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "TTK",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-Adhoc: TAKKT AG: Cyberangriff bei TAKKT AG",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-adhoc-takkt-ag-cyberangriff-bei-takkt-ag-0-37-26566861",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "FYB",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "EQS-News: Formycon und Biocelys buendeln komplementaere Entwicklungs- und Her",
+   "link": "https://www.onvista.de/news/2026/10-21-eqs-news-formycon-und-biocelys-buendeln-komplementaere-entwicklungs-und-herstellungskompetenzen-im-neuen-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "NCH2",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Thyssenkrupp bringt tk accelis naechste Woche an die Boerse",
+   "link": "https://www.onvista.de/news/2026/10-21-thyssenkrupp-bringt-tk-accelis-naechste-woche-an-die-boerse-0-20-26566860",
+   "source": "Reuters"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-10-21",
+   "sentiment": "INFO",
+   "news": "Original-Research: GBC Insider Focus Index (von GBC AG):",
+   "link": "https://www.onvista.de/news/2026/10-21-original-research-gbc-insider-focus-index-von-gbc-ag-0-10-26566630",
+   "source": "dpa-AFX"
+  }
+ ]
+}

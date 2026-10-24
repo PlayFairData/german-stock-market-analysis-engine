@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock News Sentiment Report (offline)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root { --buy: #d4edda; --sell: #f8d7da; --info: #cce5ff; --hold: #fff3cd; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; margin-bottom: 24px; }
+        h1 { color: #2c3e50; margin-bottom: 4px; }
+        .meta { color: #6c757d; font-size: .85rem; }
+        .filters { background: white; padding: 16px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .filters label { margin-right: 4px; font-size: .92em; }
+        .filters select, .filters input, .filters button { padding: 7px 10px; margin: 4px 5px 4px 0; border: 1px solid #ddd; border-radius: 4px; font-size: .95em; }
+        .filters button { background: #007bff; color: white; cursor: pointer; border: none; }
+        .filters button:hover { background: #0069d9; }
+        .filters button.export { background: #28a745; }
+        .filters button.export:hover { background: #218838; }
+        .hint { font-size: .8em; color: #6c757d; margin-left: 6px; }
+        .stats-cards h3 { margin: 18px 0 10px; color: #2c3e50; }
+        .card-row { display: flex; gap: 12px; flex-wrap: wrap; }
+        .card { background: white; border-radius: 8px; padding: 15px 20px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.08); min-width: 120px; text-align: center; }
+        .card .num { font-size: 1.8em; font-weight: bold; }
+        .buy { border-top: 4px solid #28a745; color: #28a745; }
+        .sell { border-top: 4px solid #dc3545; color: #dc3545; }
+        .hold { border-top: 4px solid #ffc107; color: #856404; }
+        .info { border-top: 4px solid #007bff; color: #007bff; }
+        .card.buy .num, .card.sell .num, .card.hold .num, .card.info .num { color: #333; }
+        .stats { display: flex; justify-content: space-between; margin: 15px 0; font-weight: bold; flex-wrap: wrap; gap: 6px; }
+        table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        th { background: #343a40; color: white; text-align: left; padding: 12px; }
+        td { padding: 10px 12px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f8f9fa; }
+        .sentiment { display: inline-block; padding: 4px 10px; border-radius: 20px; font-weight: bold; color: white; white-space: nowrap; }
+        .sentiment.BUY { background: #28a745; }
+        .sentiment.SELL { background: #dc3545; }
+        .sentiment.INFO { background: #007bff; }
+        .sentiment.HOLD { background: #ffc107; color: #212529; }
+        .news { font-size: 0.95em; color: #495057; max-width: 600px; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .trend { display: flex; align-items: end; height: 60px; gap: 2px; margin: 10px 0; background: #f1f3f4; padding: 12px; border-radius: 6px; }
+        .trend .bar { width: 32px; border-radius: 4px 4px 0 0; box-shadow: 0 -2px 3px rgba(0,0,0,0.1); position: relative; min-height: 5px; }
+        .trend .bar small { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); font-size: 10px; color: #555; white-space: nowrap; padding-top: 2px; }
+        .trend-wrap { margin-bottom: 26px; }
+        .daily-table { width: 100%; border-collapse: collapse; background: white; margin-top: 10px; }
+        .daily-table th, .daily-table td { padding: 10px; text-align: center; }
+        .daily-table th { background: #343a40; color: white; }
+        .daily-table tr:nth-child(even) { background: #f8f9fa; }
+        .daily-table .buy { color: #28a745; font-weight: bold; border-top: none; }
+        .daily-table .sell { color: #dc3545; font-weight: bold; border-top: none; }
+        .daily-table .hold { color: #856404; font-weight: bold; border-top: none; }
+        .daily-table .info { color: #007bff; font-weight: bold; border-top: none; }
+        h3.section { margin: 26px 0 8px; color: #2c3e50; }
+        .footer { text-align: center; margin-top: 30px; color: #6c757d; font-size: .9em; }
+        .empty { text-align: center; padding: 24px; color: #6c757d; }
+        @media (max-width: 768px) {
+            table, thead, tbody, th, td, tr { display: block; }
+            thead { display: none; }
+            td { border: none; position: relative; padding-left: 50%; border-bottom: 1px solid #eee; }
+            td:before { position: absolute; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; font-weight: bold; color: #343a40; }
+            tbody tr { margin-bottom: 8px; border-bottom: 4px solid #eee; }
+            td:nth-of-type(1):before { content: "Code"; }
+            td:nth-of-type(2):before { content: "Date"; }
+            td:nth-of-type(3):before { content: "Sentiment"; }
+            td:nth-of-type(4):before { content: "News"; }
+            td:nth-of-type(5):before { content: "Source"; }
+            .news { max-width: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="crumb" style="margin-bottom: 12px; font-size: 0.95em;">
+                <a href="../stage_report.html">📊 State</a> &middot;
+                <b>📰 News</b> &middot;
+                <a href="../event/index.html">📅 Events</a> &middot;
+                <a href="../stageReport/index.html">&#128197; Archive</a> &middot;
+                <a href="../index.html">📖 Guide</a>
+            </div>
+            <h1>Stock News Sentiment Report</h1>
+            <div class="meta" id="archiveMeta"></div>
+        </header>
+
+        <div class="filters">
+            <label>Index:</label>
+            <select id="fIndex" title="index or stock code the news was captured under"></select>
+
+            <label>From:</label>
+            <select id="fFrom"></select>
+
+            <label>To:</label>
+            <select id="fTo"></select>
+
+            <label>Sentiment:</label>
+            <select id="fSent">
+                <option value="ALL">All</option>
+                <option value="BUY">BUY</option>
+                <option value="SELL">SELL</option>
+                <option value="INFO">INFO</option>
+                <option value="HOLD">HOLD</option>
+            </select>
+
+            <label>Search:</label>
+            <input type="text" id="fSearch" size="14" placeholder="code or headline"
+                   title="client-side filter on stock code and headline">
+
+            <button type="button" id="btnRefresh">&#128269; Refresh</button>
+            <button type="button" id="btnExport" class="export">&#128229; Export CSV</button>
+            <span class="hint" id="loadHint"></span>
+        </div>
+
+        <div class="stats-cards">
+            <h3>Sentiment Summary</h3>
+            <div class="card-row">
+                <div class="card buy"><strong>BUY</strong><br><span class="num" id="cBuy">0</span></div>
+                <div class="card sell"><strong>SELL</strong><br><span class="num" id="cSell">0</span></div>
+                <div class="card hold"><strong>HOLD</strong><br><span class="num" id="cHold">0</span></div>
+                <div class="card info"><strong>INFO</strong><br><span class="num" id="cInfo">0</span></div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div id="statTotal">0 news items</div>
+            <div id="statDays"></div>
+        </div>
+
+        <div class="trend-wrap">
+            <h3>Trend (last 7 days of range)</h3>
+            <div class="trend" id="trend"></div>
+            <small>BUY (green) &middot; SELL (red) &middot; HOLD (yellow) &middot; INFO (blue) &mdash; hover a bar for details</small>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Date</th>
+                    <th>Sentiment</th>
+                    <th>News Snippet</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody id="newsBody"></tbody>
+        </table>
+
+        <h3 class="section">Daily Breakdown</h3>
+        <div style="overflow-x: auto;">
+            <table class="daily-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>BUY</th>
+                        <th>SELL</th>
+                        <th>HOLD</th>
+                        <th>INFO</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="dailyBody"></tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>Powered by <strong>overview</strong> / <strong>news_report</strong> &mdash; German Market Sentiment Engine</p>
+        </div>
+    </div>
+
+<script src="history.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var H = window.NEWS_HISTORY || {};
+  var ALL = window.NEWS_MONTHS = window.NEWS_MONTHS || {};
+  var EXP = ['PDAX', 'CDAX'];
+  var SENT = ['BUY', 'SELL', 'HOLD', 'INFO'];
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function $(id) { return document.getElementById(id); }
+
+  var dates = Object.keys(H).sort();          // every archived day, ascending
+  var loadedMonths = {};                      // month -> true once its data .js ran
+  var filtered = [];                          // items after all filters
+
+  // ---------- month loading (lazy <script src>, file://-safe) ----------
+  function monthsBetween(a, b) {
+    // inclusive list of 'YYYY-MM' between two ISO dates
+    var out = [], y = +a.slice(0, 4), m = +a.slice(5, 7);
+    var ey = +b.slice(0, 4), em = +b.slice(5, 7);
+    while (y < ey || (y === ey && m <= em)) {
+      out.push(y + '-' + (m < 10 ? '0' : '') + m);
+      m += 1; if (m > 12) { m = 1; y += 1; }
+    }
+    return out;
+  }
+
+  function ensureMonths(months, done) {
+    var missing = months.filter(function (m) { return !loadedMonths[m]; });
+    if (!missing.length) { done(); return; }
+    $('loadHint').textContent = 'loading data/' + missing[0] + '.js \u2026';
+    var pending = missing.length;
+    missing.forEach(function (m) {
+      loadedMonths[m] = true;   // set now: a retry is triggered by Refresh
+      var s = document.createElement('script');
+      s.src = 'data/' + m + '.js';
+      s.onload = s.onerror = function () {
+        if (--pending === 0) { $('loadHint').textContent = ''; done(); }
+      };
+      document.head.appendChild(s);
+    });
+  }
+
+  // ---------- filter state ----------
+  function readState() {
+    return {
+      idx: $('fIndex').value,
+      from: $('fFrom').value,
+      to: $('fTo').value,
+      sent: $('fSent').value,
+      q: $('fSearch').value.trim().toLowerCase()
+    };
+  }
+
+  function collectItems(from, to) {
+    // every item of the archived days inside [from .. to]
+    var out = [];
+    monthsBetween(from, to).forEach(function (m) {
+      var MD = ALL[m];
+      if (!MD) return;
+      Object.keys(MD).forEach(function (d) {
+        if (d < from || d > to) return;
+        (MD[d].items || []).forEach(function (it) { out.push(it); });
+      });
+    });
+    return out;
+  }
+
+  function applyFilters(items, st) {
+    return items.filter(function (it) {
+      if (st.idx !== 'ALL' && it.index !== st.idx) return false;
+      if (st.sent !== 'ALL' && it.sentiment !== st.sent) return false;
+      if (st.q) {
+        var hay = (it.code + ' ' + it.news).toLowerCase();
+        if (hay.indexOf(st.q) < 0) return false;
+      }
+      return true;
+    });
+  }
+
+  // ---------- renderers ----------
+  function renderCards(items) {
+    var c = { BUY: 0, SELL: 0, HOLD: 0, INFO: 0 };
+    items.forEach(function (it) { if (c[it.sentiment] != null) c[it.sentiment] += 1; });
+    $('cBuy').textContent = c.BUY;
+    $('cSell').textContent = c.SELL;
+    $('cHold').textContent = c.HOLD;
+    $('cInfo').textContent = c.INFO;
+    $('statTotal').textContent = items.length + ' news item(s) in current view';
+  }
+
+  function renderTrend(items, st) {
+    // last 7 calendar days ending at the range end; from the FILTERED items
+    var byDate = {};
+    items.forEach(function (it) {
+      var c = byDate[it.date] || (byDate[it.date] = { BUY: 0, SELL: 0, HOLD: 0, INFO: 0 });
+      if (c[it.sentiment] != null) c[it.sentiment] += 1;
+    });
+    var end = new Date(st.to + 'T00:00:00');
+    var days = [];
+    for (var i = 6; i >= 0; i--) {
+      var d = new Date(end.getTime() - i * 86400000);
+      var key = d.getFullYear() + '-' +
+        ('0' + (d.getMonth() + 1)).slice(-2) + '-' +
+        ('0' + d.getDate()).slice(-2);
+      var c = byDate[key] || { BUY: 0, SELL: 0, HOLD: 0, INFO: 0 };
+      days.push({ date: key, c: c, total: c.BUY + c.SELL + c.HOLD + c.INFO });
+    }
+    var max = Math.max.apply(null, days.map(function (d) { return d.total; })) || 1;
+    var h = '';
+    days.forEach(function (d) {
+      var t = d.total || 1;
+      var hgt = Math.max(Math.round(50 * d.total / max), 5);
+      var g = 'linear-gradient(to top,' +
+        ' rgba(40,167,69,0.9) ' + (100 * d.c.BUY / t).toFixed(1) + '%,' +
+        ' rgba(220,53,69,0.9) ' + (100 * (d.c.BUY + d.c.SELL) / t).toFixed(1) + '%,' +
+        ' rgba(255,193,7,0.9) ' + (100 * (d.c.BUY + d.c.SELL + d.c.HOLD) / t).toFixed(1) + '%,' +
+        ' rgba(0,123,255,0.9) 100%)';
+      h += '<div class="bar" style="height:' + hgt + 'px;background:' + g + '"' +
+        ' title="' + d.date + ': ' + d.total + ' item(s) (BUY ' + d.c.BUY +
+        ', SELL ' + d.c.SELL + ', HOLD ' + d.c.HOLD + ', INFO ' + d.c.INFO + ')">' +
+        '<small>' + d.date.slice(5) + '</small></div>';
+    });
+    $('trend').innerHTML = h;
+    $('trend').style.paddingBottom = '24px';   // room for the day labels
+  }
+
+  function renderTable(items) {
+    if (!items.length) {
+      $('newsBody').innerHTML =
+        '<tr><td colspan="5" class="empty">No news items for this filter &mdash; ' +
+        'widen the date range or change the index/sentiment.</td></tr>';
+      return;
+    }
+    // newest first, then by code (the daily reverse of the archive order)
+    var sorted = items.slice().sort(function (a, b) {
+      return a.date < b.date ? 1 : (a.date > b.date ? -1 :
+        (a.code < b.code ? -1 : (a.code > b.code ? 1 : 0)));
+    });
+    var h = '';
+    sorted.forEach(function (it) {
+      var txt = esc(String(it.news || '').slice(0, 120)) +
+        (String(it.news || '').length > 120 ? '\u2026' : '');
+      var news = it.link
+        ? '<a href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' + txt + '</a>'
+        : txt;
+      h += '<tr>' +
+        '<td><strong>' + esc(it.code) + '</strong></td>' +
+        '<td>' + esc(it.date) + '</td>' +
+        '<td><span class="sentiment ' + esc(it.sentiment) + '">' + esc(it.sentiment) + '</span></td>' +
+        '<td class="news">' + news + '</td>' +
+        '<td>' + esc(it.source) + '</td>' +
+        '</tr>';
+    });
+    $('newsBody').innerHTML = h;
+  }
+
+  function renderDaily(items) {
+    var byDate = {};
+    items.forEach(function (it) {
+      var c = byDate[it.date] || (byDate[it.date] = { BUY: 0, SELL: 0, HOLD: 0, INFO: 0 });
+      if (c[it.sentiment] != null) c[it.sentiment] += 1;
+    });
+    var ds = Object.keys(byDate).sort().reverse();
+    if (!ds.length) {
+      $('dailyBody').innerHTML =
+        '<tr><td colspan="6" class="empty">no data</td></tr>';
+      return;
+    }
+    var h = '';
+    ds.forEach(function (d) {
+      var c = byDate[d];
+      h += '<tr><td><strong>' + esc(d) + '</strong></td>' +
+        '<td class="buy">' + c.BUY + '</td>' +
+        '<td class="sell">' + c.SELL + '</td>' +
+        '<td class="hold">' + c.HOLD + '</td>' +
+        '<td class="info">' + c.INFO + '</td>' +
+        '<td><strong>' + (c.BUY + c.SELL + c.HOLD + c.INFO) + '</strong></td></tr>';
+    });
+    $('dailyBody').innerHTML = h;
+  }
+
+  // ---------- CSV export (client-side, works on file://) ----------
+  function exportCsv() {
+    if (!filtered.length) { alert('Nothing to export in the current view.'); return; }
+    function cell(v) {
+      v = String(v == null ? '' : v);
+      return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+    }
+    var lines = ['Code,Date,Sentiment,News,Source,Index'];
+    filtered.forEach(function (it) {
+      lines.push([it.code, it.date, it.sentiment, it.news, it.source, it.index]
+        .map(cell).join(','));
+    });
+    var st = readState();
+    var name = 'news_sentiment_' + (st.idx === 'ALL' ? 'ALL' : st.idx) +
+      '_' + st.from + '_' + st.to + '.csv';
+    var blob = new Blob(['\ufeff' + lines.join('\r\n')],
+      { type: 'text/csv;charset=utf-8' });   // BOM keeps Excel UTF-8-safe
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(a.href);
+  }
+
+  // ---------- main render cycle ----------
+  function render() {
+    var st = readState();
+    if (st.from > st.to) { $('fFrom').value = st.to; st.from = st.to; }
+    // trend window may reach back past the range start -> include those months
+    var trendStart = new Date(new Date(st.to + 'T00:00:00').getTime() - 6 * 86400000);
+    var trendKey = trendStart.getFullYear() + '-' +
+      ('0' + (trendStart.getMonth() + 1)).slice(-2) + '-01';
+    var months = monthsBetween(trendKey < st.from ? trendKey : st.from, st.to);
+    ensureMonths(months, function () {
+      var st2 = readState();
+      var items = applyFilters(collectItems(st2.from, st2.to), st2);
+      filtered = items;
+      renderCards(items);
+      renderTrend(items, st2);
+      renderTable(items);
+      renderDaily(items);
+    });
+  }
+
+  // ---------- init ----------
+  function init() {
+    if (!dates.length) {
+      $('archiveMeta').textContent =
+        'No archived days yet \u2014 run:  python news_report.py';
+      $('newsBody').innerHTML =
+        '<tr><td colspan="5" class="empty">history.js is empty. Generate the ' +
+        'data first, then reload this page.</td></tr>';
+      return;
+    }
+    // index options: union of every index ever archived (experimental last)
+    var idxs = {};
+    dates.forEach(function (d) {
+      (H[d].indexes || []).forEach(function (i) { idxs[i] = 1; });
+    });
+    var names = Object.keys(idxs).sort(function (a, b) {
+      var ea = EXP.indexOf(a) >= 0, eb = EXP.indexOf(b) >= 0;
+      if (ea !== eb) return ea ? 1 : -1;
+      return a < b ? -1 : 1;
+    });
+    var sel = $('fIndex');
+    sel.innerHTML = '<option value="ALL">ALL indexes</option>';
+    names.forEach(function (n) {
+      var o = document.createElement('option');
+      o.value = n;
+      o.textContent = n + (EXP.indexOf(n) >= 0 ? ' (experimental)' : '');
+      sel.appendChild(o);
+    });
+
+    // date range selects: every archived day, default = newest day minus 6
+    var newest = dates[dates.length - 1];
+    var defaultFrom = newest;
+    var cut = new Date(new Date(newest + 'T00:00:00').getTime() - 6 * 86400000);
+    var cutKey = cut.getFullYear() + '-' + ('0' + (cut.getMonth() + 1)).slice(-2) +
+      '-' + ('0' + cut.getDate()).slice(-2);
+    for (var i = dates.length - 1; i >= 0; i--) {
+      if (dates[i] <= cutKey) { defaultFrom = dates[i]; break; }
+    }
+    ['fFrom', 'fTo'].forEach(function (id) {
+      var s = $(id);
+      s.innerHTML = '';
+      for (var j = dates.length - 1; j >= 0; j--) {   // newest first in the list
+        var o = document.createElement('option');
+        o.value = dates[j];
+        o.textContent = dates[j] + (j === dates.length - 1 ? ' (latest)' : '');
+        s.appendChild(o);
+      }
+    });
+    $('fFrom').value = defaultFrom;
+    $('fTo').value = newest;
+
+    var newestGen = (H[newest] || {}).generated || '';
+    $('archiveMeta').textContent = dates.length + ' day(s) archived \u00b7 ' +
+      dates[0] + ' \u2192 ' + newest + (newestGen ? ' \u00b7 last generated ' + newestGen : '');
+
+    ['fIndex', 'fFrom', 'fTo', 'fSent'].forEach(function (id) {
+      $(id).addEventListener('change', render);
+    });
+    $('fSearch').addEventListener('input', render);
+    $('btnRefresh').addEventListener('click', function () {
+      // forget month load results (in case a data file was regenerated) and rerun
+      Object.keys(loadedMonths).forEach(function (m) { loadedMonths[m] = false; });
+      render();
+    });
+    $('btnExport').addEventListener('click', exportCsv);
+    render();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+</body>
+</html>
