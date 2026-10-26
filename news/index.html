@@ -458,6 +458,15 @@
     $('archiveMeta').textContent = dates.length + ' day(s) archived \u00b7 ' +
       dates[0] + ' \u2192 ' + newest + (newestGen ? ' \u00b7 last generated ' + newestGen : '');
 
+    // deep link from the event calendar: ?q=<CODE> behaves like typing the
+    // code into Search and clicking Refresh (ES5, file:// safe)
+    var qm = /[?&]q=([^&]*)/.exec(location.search);
+    if (qm) {
+      var qv = qm[1];
+      try { qv = decodeURIComponent(qv); } catch (e) {}
+      $('fSearch').value = qv.toUpperCase();
+    }
+
     ['fIndex', 'fFrom', 'fTo', 'fSent'].forEach(function (id) {
       $(id).addEventListener('change', render);
     });
