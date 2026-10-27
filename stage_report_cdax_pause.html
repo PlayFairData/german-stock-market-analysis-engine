@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>CDAX PAUSE 2026-10-26</title>
+    <title>CDAX PAUSE 2026-10-27</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -265,18 +265,18 @@
 </style>
 </head>
 <body>
-<div class="meta">CDAX PAUSE 2026-10-26 &middot; log date 2026-10-26</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>CDAX &mdash; PAUSE (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#NOA3" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">NOA3</a></td><td>49</td><td>41%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr></table><h2 id="NOA3">NOA3 <span class="meta">PAUSE</span></h2><pre class="detail">NOA3 2026-10-26
+<div class="meta">CDAX PAUSE 2026-10-27 &middot; log date 2026-10-27</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>CDAX &mdash; PAUSE (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#NOA3" title="Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.">NOA3</a></td><td>35</td><td>34%</td><td>Undecided (Weekly NEUTRAL, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Trend structure weakening — monthly remains positive but weekly and daily momentum have crossed bearish.</td></tr></table><h2 id="NOA3">NOA3 <span class="meta">PAUSE</span></h2><pre class="detail">NOA3 2026-10-27
 📊 Overview
 --------
 State              : PAUSE
 Raw State          : PAUSE
-State Reason       : STATE_MATRIX retained; weekly=NEUTRAL, daily=NEUTRAL, energy=RELEASED, cycle=RECOVERY, breakout_event=False
+State Reason       : STATE_MATRIX retained; weekly=NEUTRAL, daily=NEUTRAL, energy=RELEASED, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
 Breakout Resistance : 9.7
 Breakout Window    : 20
-Score      : 49  (W 22.5 + D 12.2 + E 7.0  cycle 7)
-Confidence : 41%
+Score      : 35  (W 22.5 + D 7.0 + E 7.0  cycle -1)
+Confidence : 34%
 Trend      : Undecided (Weekly NEUTRAL, Daily NEUTRAL)
 
 📊 Weekly
@@ -292,8 +292,8 @@ Context : Downtrend structure with building trend strength and compressing volat
 Trend : Neutral
 ADX   : WEAK
 MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
-BB    : EXPANDING
-Context : Downtrend structure with weak trend strength and expanding volatility.
+BB    : DRIFT_DOWN
+Context : Downtrend structure with weak trend strength and price drifting down the bands.
 
 📊 Energy
 ------
@@ -302,27 +302,27 @@ Phase  : ENERGY_RELEASED
 
 📊 Cycle
 -----
-Stage    : RECOVERY
-Rank     : 80
+Stage    : PULLBACK
+Rank     : 65
 Daily BB Zone, MA drift:
   Pivot 2026-10-23  : L
   Today  : LM   ^ (+1)
-Alignment: 3/3 timeframes agree with daily leg (Full)
-Swing Age: 3d
-Drift: Recovery drift dZ=+1
+Alignment: 2/3 timeframes agree with daily leg (Partial)
+Swing Age: 0d
+Drift: Bullish drift dZ=+1   [stage=PULLBACK, leg=L_TO_H (pivot not aligned with stage (uptrend narrative not confirmed))]
 Daily Band Cross: No cross
 Weekly Pivot Trend:
   Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
   Drift          : Aligned
-  Age / Perf%    : 2W / -18.3
-  Extreme / Diff%: 7.24 / 7.6
-  vs DAX%        : -19.5
+  Age / Perf%    : 2W / -15.7
+  Extreme / Diff%: 7.24 / 10.9
+  vs DAX%        : -17.6
 Weekly Band Cross: No cross
 
 📊 Momentum
 --------
-MACD Age      : M ▲12mo | W ▼16w | D ▼10d
-Momentum Slope: Monthly Fading | Weekly Deepening | Daily Deepening
+MACD Age      : M ▲12mo | W ▼16w | D ▼11d
+Momentum Slope: Monthly Fading | Weekly Deepening | Daily Recovering
 Divergence    : none
 Pattern       : Trend Losing Momentum
 
@@ -332,15 +332,15 @@ MACD Golden Cross : M(+12mo)
 MACD Above Zero : M(+12mo)
 ADX Rising : D
 Bearish
-MACD Death Cross : W(+16w), D(+10d)
-MACD Below Zero : W(+16w), D(+10d)
+MACD Death Cross : W(+16w), D(+11d)
+MACD Below Zero : W(+16w), D(+11d)
 Price Below MA200 : W, D
 Neutral
 BB Compression : W
 
 📊 Fundamental
 -----------
-EPS Direction : STABLE [POST_REPORT_EARLY]
+EPS Direction : STABLE
 Basis         : 0 up / 0 down significant episodes, 90d, FY26,27
 Drift vs mkt  : FLAT   (FY26 +5.9% (mkt +0.0%)  FY27 +2.4% (mkt +0.0%))
 EPS Momentum 30d: STABILIZING  (FY26 +5.9%  FY27 +2.4%)
