@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>MDAX COUNTERTREND 2026-10-20</title>
+    <title>MDAX COUNTERTREND 2026-10-28</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -265,35 +265,35 @@
 </style>
 </head>
 <body>
-<div class="meta">MDAX COUNTERTREND 2026-10-20 &middot; log date 2026-10-20</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>MDAX &mdash; COUNTERTREND (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#TUI1" title="No summary rule for COUNTERTREND + Trend Losing Momentum + COMPRESSION">TUI1</a></td><td>79</td><td>72%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>No summary rule for COUNTERTREND + Trend Losing Momentum + COMPRESSION</td></tr></table><h2 id="TUI1">TUI1 <span class="meta">COUNTERTREND</span></h2><pre class="detail">TUI1 2026-10-20
+<div class="meta">MDAX COUNTERTREND 2026-10-28 &middot; log date 2026-10-28</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>MDAX &mdash; COUNTERTREND (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#JEN" title="No summary rule for COUNTERTREND + Leader Pullback + COMPRESSION">JEN</a></td><td>65</td><td>63%</td><td>Counter-trend bounce (Weekly BEAR, Daily BULL)</td><td>COMPRESSION</td><td class='sum'>No summary rule for COUNTERTREND + Leader Pullback + COMPRESSION</td></tr></table><h2 id="JEN">JEN <span class="meta">COUNTERTREND</span></h2><pre class="detail">JEN 2026-10-28
 📊 Overview
 --------
 State              : COUNTERTREND
 Raw State          : COUNTERTREND
 State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=BULL, energy=COMPRESSION, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 7.01
+Breakout Resistance : 44.06
 Breakout Window    : 20
-Score      : 79  (W 27.0 + D 35.0 + E 12.0  cycle 5)
-Confidence : 72%
+Score      : 65  (W 29.2 + D 19.2 + E 15.0  cycle 1)
+Confidence : 63%
 Trend      : Counter-trend bounce (Weekly BEAR, Daily BULL)
 
 📊 Weekly
 ------
 Trend : Bear
-ADX   : WEAK
-MA    : Mixed (MA9&lt;MA50 MA50=MA200)
+ADX   : BUILDING
+MA    : Mixed (MA9&gt;MA50 MA50&gt;MA200)
 BB    : SQUEEZE
-Context : Range compression, waiting for breakout.
+Context : Mixed trend structure with building trend strength and compressing volatility.
 
 📊 Daily
 -----
 Trend : Bull
 ADX   : WEAK
-MA    : Up (MA9&lt;MA50 MA50&lt;MA200)
-BB    : DRIFT_UP
-Context : Uptrend structure with weak trend strength and price drifting up the bands.
+MA    : Mixed (MA9&lt;MA50 MA50&gt;MA200)
+BB    : SQUEEZE
+Context : Range compression, waiting for breakout.
 
 📊 Energy
 ------
@@ -303,52 +303,58 @@ Phase  : WEAK_COMPRESSION
 📊 Cycle
 -----
 Stage    : PULLBACK
-Rank     : 75
+Rank     : 70
 Daily BB Zone, MA drift:
-  Pivot 2026-10-14  : LM
+  Pivot 2026-10-26  : LM
   Today  : MU   ^ (+2)
-Alignment: 3/3 timeframes agree with daily leg (Full)
+Alignment: 2/3 timeframes agree with daily leg (Partial)
 Swing Age: 0d
+Band Cross: Bull cross wMA+wMA9 INVALID (vol 0.67x (noise &lt;0.7x)) [INVALID]
 Drift: Bullish breakout dZ=+2   [stage=PULLBACK, leg=L_TO_H (pivot not aligned with stage (uptrend narrative not confirmed))]
-Daily Band Cross: Bull cross MA9+MA (-x vol)
+Daily Band Cross: No cross
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
-  Drift          : Aligned
-  Age / Perf%    : 2W / -0.6
-  Extreme / Diff%: 6.57 / 4.6
-  vs DAX%        : -1.0
-Weekly Band Cross: No cross
+  Pivot -&gt; Today : wLM -&gt; wMU   (dZ=2)
+  Drift          : Bullish breakout
+  Age / Perf%    : 1W / 13.6
+  Extreme / Diff%: 41.16 / -0.8
+  vs DAX%        : 12.0
+Weekly Band Cross: Bull cross wMA+wMA9 INVALID (vol 0.67x (noise &lt;0.7x)) [INVALID]
 
 📊 Momentum
 --------
-MACD Age      : M ▲8mo | W ▼5w | D ▼16d
-Momentum Slope: Monthly Flat | Weekly Recovering | Daily Deepening
+MACD Age      : M ▲9mo | W ▲15w | D ▼1d
+Momentum Slope: Monthly Fading | Weekly Rising | Daily Turning
 Divergence    : none
-Pattern       : Trend Losing Momentum
+Pattern       : Leader Pullback
 
 Signal:
 Bullish
-MACD Golden Cross : D(+16d)
-MACD Above Zero : M(+8mo)
-Price Above MA20 : D
+MACD Golden Cross : M(+9mo), D(+1d)
+MACD Above Zero : M(+9mo), W(+15w)
+Price Above MA200 : W, D
 Bearish
-MACD Death Cross : M(+8mo), W(+5w)
-MACD Below Zero : W(+5w), D(+16d)
-Price Below MA200 : W, D
+MACD Death Cross : W(+15w)
+MACD Below Zero : D(+1d)
+ADX Falling : W, D
 Neutral
-BB Compression : W
+BB Compression : W, D
 
 📊 Fundamental
 -----------
-EPS Direction : STABLE [WATCH_DOWN]
-Basis         : 0 up / 1 down revision events, 90d, FY26,27
-Drift vs mkt  : DOWN ▼  (FY26 -3.7% (mkt +0.0%)  FY27 -4.3% (mkt +0.5%))
-Last Revision : 2026-09-19   Last Report: 2026-08-12
-Interpretation: Technical recovery; earnings support not yet improving (estimates drifting below the market)
+EPS Direction : IMPROVING [BROAD_UP]
+Warning       : all yearly EPS estimates (FY26,27,28) revised UP on 2026-09-19
+Warning       : all yearly EPS estimates (FY26,27,28) revised UP on 2026-10-23
+Basis         : 2 up / 0 down significant episodes, 90d, FY26,27
+Events        : 09-19 ▲ FY26, FY27  10-23 ▲ FY26, FY27
+Drift vs mkt  : UP ▲  (FY26 +9.1% (mkt +0.0%)  FY27 +11.4% (mkt +0.0%))
+EPS Momentum 30d: UP  (FY26 +3.8%  FY27 +3.8%)
+Last Change   : 2026-10-23 ▲ FY26 +0.10   2026-10-23 ▲ FY27 +0.10   2026-10-23 ▲ FY28 +0.11
+Last Sig. Rev.: 2026-10-23 (after last report)   Last Report: 2026-08-12
+Interpretation: Strongest candidate for a sustained advance
 
 📊 Summary
 -------
-  No summary rule for COUNTERTREND + Trend Losing Momentum + COMPRESSION</pre>
+  No summary rule for COUNTERTREND + Leader Pullback + COMPRESSION</pre>
 
 </body>
 </html>
