@@ -1,0 +1,408 @@
+{
+ "date": "2026-10-27",
+ "generated": "2026-10-28 13:42:16",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 39
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 17
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  }
+ },
+ "total": 41,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Rheinmetall-Ziel auf 1650 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-27-analyse-flash-deutsche-bank-senkt-rheinmetall-ziel-auf-1650-euro-buy-0-10-26568876",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Mehrheit findet Auftritt von Audi-Chef mit Trump falsch",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-2-mehrheit-findet-auftritt-von-audi-chef-mit-trump-falsch-0-10-26569037",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax steigt vor Tech-Zahlen und Zinsentscheiden",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-aktien-frankfurt-schluss-dax-steigt-vor-tech-zahlen-und-zinsentscheiden-0-10-26569046",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: IG Metall lehnt erstes Angebot ab - Warnstreiks kommen",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-2-ig-metall-lehnt-erstes-angebot-ab-warnstreiks-kommen-0-10-26568973",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 27.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-27-dpa-afx-ueberblick-unternehmen-vom-27-10-2026-15-15-uhr-0-10-26568987",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Deutsche Boerse fuehrt Handel rund um Uhr fuer Dax-Aktien ein",
+   "link": "https://www.onvista.de/news/2026/10-27-deutsche-boerse-fuehrt-handel-rund-um-uhr-fuer-dax-aktien-ein-0-10-26568809",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Erholung von Beiersdorf wackelt",
+   "link": "https://www.onvista.de/news/2026/10-27-aktie-im-fokus-erholung-von-beiersdorf-wackelt-0-10-26568844",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: EuroStoxx prescht ins Plus vor - London schwach",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-aktien-europa-schluss-eurostoxx-prescht-ins-plus-vor-london-schwach-0-10-26569050",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-10-27",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Rheinmetall-Ziel auf 1650 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-27-analyse-flash-deutsche-bank-senkt-rheinmetall-ziel-auf-1650-euro-buy-0-10-26568876",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-News: Infosys schliesst die weltweite SAP-S/4HANA-Umstellung fuer den Pflanzensch",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-news-infosys-schliesst-die-weltweite-sap-s-4hana-umstellung-fuer-den-pflanzenschutzbereich-vo",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Siemens winkt Milliardenauftrag fuer Zuege in Spanien",
+   "link": "https://www.onvista.de/news/2026/10-27-siemens-winkt-milliardenauftrag-fuer-zuege-in-spanien-0-20-26569014",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Verivox: Preiskampf in der Kfz-Versicherung ist zurueck",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-2-verivox-preiskampf-in-der-kfz-versicherung-ist-zurueck-0-10-26569007",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Insider: Syngenta peilt bei Boersengang 66-Milliarden-Bewertung  an",
+   "link": "https://www.onvista.de/news/2026/10-27-insider-syngenta-peilt-bei-boersengang-66-milliarden-bewertung-an-0-20-26569020",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Commerzbank: EZB senkt Kapitalanforderungen fuer 2027",
+   "link": "https://www.onvista.de/news/2026/10-27-commerzbank-ezb-senkt-kapitalanforderungen-fuer-2027-0-20-26568992",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Prognosesenkung belastet Mercedes-Benz - Porsche steigt",
+   "link": "https://www.onvista.de/news/2026/10-27-aktien-im-fokus-prognosesenkung-belastet-mercedes-benz-porsche-steigt-0-10-26568893",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Reiche: Luecke bei Ausbau der Windkraft auf See schliessen",
+   "link": "https://www.onvista.de/news/2026/10-27-reiche-luecke-bei-ausbau-der-windkraft-auf-see-schliessen-0-10-26568664",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Zalando SE: Vorabbekanntmachung ueber die Veroeffentlichung von Quartalsberi",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-afr-zalando-se-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Boeing fliegt weiteren Verlust ein - Aktie verliert",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-boeing-fliegt-weiteren-verlust-ein-aktie-verliert-0-10-26569000",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "BC8",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: IT-Dienstleister Cancom kappt Umsatzprognose fuer 2026 - Aktie im Minus",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-it-dienstleister-cancom-kappt-umsatzprognose-fuer-2026-aktie-im-minus-0-10-26568822",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-News: Elmos Semiconductor SE gewinnt erste Design Wins bei einem deuts",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-news-elmos-semiconductor-se-gewinnt-erste-design-wins-bei-einem-deutschen-premiumhersteller-fuer-pixelba",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Lounge statt Wartehalle: Neuer Service kurz vor Abflug",
+   "link": "https://www.onvista.de/news/2026/10-27-lounge-statt-wartehalle-neuer-service-kurz-vor-abflug-0-10-26568986",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Aktien Europa: Ueberwiegend kaum veraendert - HSBC und Reckitt belasten in London",
+   "link": "https://www.onvista.de/news/2026/10-27-aktien-europa-ueberwiegend-kaum-veraendert-hsbc-und-reckitt-belasten-in-london-0-10-26568852",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-10-27",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Sartorius-Ziel auf 325 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-27-analyse-flash-deutsche-bank-research-hebt-sartorius-ziel-auf-325-euro-buy-0-10-26568796",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-News: Nordex Group liefert DenkerWulf Anlagen fuer 51-MW-Windpark in Schleswig-Holstein",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-news-nordex-group-liefert-denkerwulf-anlagen-fuer-51-mw-windpark-in-schleswig-holstein-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten V",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-News: ZF Finance GmbH : I",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-news-zf-finance-gmbh-indicative-maximum-acceptance-amount-in-relation-to-the-tender-offer-zf-finance-gmbh-indicative-maximum-acceptance-amount-in-rel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Nur die Schweizer sparen mehr als die Deutschen",
+   "link": "https://www.onvista.de/news/2026/10-27-nur-die-schweizer-sparen-mehr-als-die-deutschen-0-10-26568773",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Evonik-Tochter Syneqt pocht auf Eigenstaendigkeit - auch unter BASF",
+   "link": "https://www.onvista.de/news/2026/10-27-evonik-tochter-syneqt-pocht-auf-eigenstaendigkeit-auch-unter-basf-0-20-26569011",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: HENSOLDT AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-pvr-hensoldt-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Prognosesenkung belastet Mercedes-Benz - Porsche steigt",
+   "link": "https://www.onvista.de/news/2026/10-27-aktien-im-fokus-prognosesenkung-belastet-mercedes-benz-porsche-steigt-0-10-26568893",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Hafenbetrieb waehrend Unfall der 'Mein Schiff 3' lief normal",
+   "link": "https://www.onvista.de/news/2026/10-27-hafenbetrieb-waehrend-unfall-der-mein-schiff-3-lief-normal-0-10-26569025",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Bundesjustizministerin: Fragezeichen bei Gesetz gegen Enteignungen",
+   "link": "https://www.onvista.de/news/2026/10-27-roundup-bundesjustizministerin-fragezeichen-bei-gesetz-gegen-enteignungen-0-10-26568754",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "Infineon investiert 1,1 Milliarden in Oesterreich",
+   "link": "https://www.onvista.de/news/2026/10-27-infineon-investiert-1-1-milliarden-in-oesterreich-0-10-26568715",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DUE",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Duerr Aktiengesellschaft: Korrektur einer Veroeffentl",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-pvr-duerr-aktiengesellschaft-korrektur-einer-veroeffentlichung-vom-23-10-2026-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "F3C",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-News: SFC Energy und EDGE schliessen Partnerschaft fuer fortschrittliche Energieloesungen",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-news-sfc-energy-und-edge-schliessen-partnerschaft-fuer-fortschrittliche-energieloesun",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-HV: Verbio SE: Bekanntmachung der Einberufung zur",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-hv-verbio-se-bekanntmachung-der-einberufung-zur-hauptversammlung-am-04-12-2026-in-virtuell-mit-dem-ziel-der-europaweiten-ver",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TeamViewer SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-pvr-teamviewer-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ACT0",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-Adhoc: Alzchem Group AG: Alzchem Group AG beschliesst Aktienrueckkauf fuer bis zu 20 Mio. Euro",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-adhoc-alzchem-group-ag-alzchem-group-ag-beschliesst-aktienrueckkauf-fuer-bis-zu-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "DOU",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "IRW-News:",
+   "link": "https://www.onvista.de/news/2026/10-27-irw-news-max-power-mining-corp-max-power-geht-partnerschaft-mit-douglas-capital-ein-um-ki-rechenzentren-mit-natuerlichem-wasserstoff-zu-betreiben-und-die-kanadische-energie",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-10-27",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-27-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26568928",
+   "source": "EQS Group"
+  }
+ ]
+}
