@@ -1,0 +1,451 @@
+{
+ "date": "2026-10-29",
+ "generated": "2026-10-29 19:08:55",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 1,
+  "HOLD": 1,
+  "INFO": 40
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 13
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 1,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "PDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 13
+  }
+ },
+ "total": 45,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "dpa-AFX Ueberblick: KONJUNKTUR vom 29.10.2026 - 17.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-29-dpa-afx-ueberblick-konjunktur-vom-29-10-2026-17-15-uhr-0-10-26570072",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Volkswagen auf tiefem Niveau stabilisiert",
+   "link": "https://www.onvista.de/news/2026/10-29-aktie-im-fokus-volkswagen-auf-tiefem-niveau-stabilisiert-0-10-26569952",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Nach DHL und UPS: Auch Fedex wird optimistischer fuer das laufende Jahr",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-nach-dhl-und-ups-auch-fedex-wird-optimistischer-fuer-das-laufende-jahr-0-10-26569912",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MRK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Merck & Co ueberrascht im Quartal und erhoeht Jahresziele",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-merck-co-ueberrascht-im-quartal-und-erhoeht-jahresziele-0-10-26570050",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "AKTIEN IN FOKUS: Software-Anleger schwer enttaeuscht von ServiceNow und Fortinet",
+   "link": "https://www.onvista.de/news/2026/10-29-aktien-in-fokus-software-anleger-schwer-enttaeuscht-von-servicenow-und-fortinet-0-10-26570071",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Foerderzusagen fuer drei Forschungsprojekte mit E.ON, Siemens und europaeischen Partnern",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-foerderzusagen-fuer-drei-forschungsprojekte-mit-e-on-siemens-und-europaeisc",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "GDV: Kfz-Versicherung 2026 nur noch knapp in der Gewinnzone",
+   "link": "https://www.onvista.de/news/2026/10-29-gdv-kfz-versicherung-2026-nur-noch-knapp-in-der-gewinnzone-0-20-26569905",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Versicherer: Autoreparaturkosten schiessen in die Hoehe",
+   "link": "https://www.onvista.de/news/2026/10-29-versicherer-autoreparaturkosten-schiessen-in-die-hoehe-0-10-26569818",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-10-29",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: DZ Bank belaesst MTU auf 'Kaufen' - Fairer Wert 445 Euro",
+   "link": "https://www.onvista.de/news/2026/10-29-analyse-flash-dz-bank-belaesst-mtu-auf-kaufen-fairer-wert-445-euro-0-10-26570109",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax ueber 26.000 Punkte - EZB-Leitzins stabil",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-aktien-frankfurt-schluss-dax-ueber-26-000-punkte-ezb-leitzins-stabil-0-10-26570103",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Nach Fed-Zinspause: Wie entscheidet die EZB?",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-nach-fed-zinspause-wie-entscheidet-die-ezb-0-10-26569656",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Foerderzusagen fuer drei Forschungsprojekte mit E.ON, Siemens und europaeischen Partnern",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-foerderzusagen-fuer-drei-forschungsprojekte-mit-e-on-siemens-und-europaeisc",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise entschluesselt die Airbus-Blackbox",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-warren-wise-entschluesselt-die-airbus-blackbox-0-37-26570105",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Deutz AG: Vorabbekanntmachung ueber die Veroeffentlichung von Quartalsberichte",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-afr-deutz-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Salzgitter erhoeht Ergebnis-Prognose fuer 2026 erneut - Aktie gefragt",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-salzgitter-erhoeht-ergebnis-prognose-fuer-2026-erneut-aktie-gefragt-0-10-26569857",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-10-29",
+   "sentiment": "SELL",
+   "news": "ANALYSE-FLASH: DZ Bank senkt Sartorius auf 'Verkaufen' - Fairer Wert 225 Euro",
+   "link": "https://www.onvista.de/news/2026/10-29-analyse-flash-dz-bank-senkt-sartorius-auf-verkaufen-fairer-wert-225-euro-0-10-26570089",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: ThyssenKrupp AG: Vorabbekanntmachung ueber die Veroeffentlichung von Finanzbericht",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-afr-thyssenkrupp-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Condor einigt sich langfristig mit Piloten",
+   "link": "https://www.onvista.de/news/2026/10-29-condor-einigt-sich-langfristig-mit-piloten-0-10-26569987",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 29.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-29-dpa-afx-ueberblick-unternehmen-vom-29-10-2026-15-15-uhr-0-10-26570018",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Lieferdienste konsolidieren weiter - Doordash kauft auch Instacart",
+   "link": "https://www.onvista.de/news/2026/10-29-lieferdienste-konsolidieren-weiter-doordash-kauft-auch-instacart-0-20-26569941",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: DZ Bank belaesst MTU auf 'Kaufen' - Fairer Wert 445 Euro",
+   "link": "https://www.onvista.de/news/2026/10-29-analyse-flash-dz-bank-belaesst-mtu-auf-kaufen-fairer-wert-445-euro-0-10-26570109",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: HENSOLDT AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-pvr-hensoldt-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "VW so tief in den roten Zahlen wie seit dem Dieselskandal nicht",
+   "link": "https://www.onvista.de/news/2026/10-29-vw-so-tief-in-den-roten-zahlen-wie-seit-dem-dieselskandal-nicht-0-20-26569947",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Wacker Chemie optimistisch fuer Gewinnziel",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-2-wacker-chemie-optimistisch-fuer-gewinnziel-0-10-26570064",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Wacker Chemie optimistisch fuer Gewinnziel",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-2-wacker-chemie-optimistisch-fuer-gewinnziel-0-10-26570064",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "AOF",
+   "date": "2026-10-29",
+   "sentiment": "BUY",
+   "news": "Original-Research: ATOSS Software SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/10-29-original-research-atoss-software-se-von-nuways-ag-buy-0-10-26569774",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Rund 11 Millionen: E-Auto-Markt legt trotz China-Schwaeche zu",
+   "link": "https://www.onvista.de/news/2026/10-29-rund-11-millionen-e-auto-markt-legt-trotz-china-schwaeche-zu-0-10-26569636",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DRW3",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Draegerwerk AG & Co. KGaA: Draeger mit hoeherem Umsatz und Ergebnis in den ersten neun Monate",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-draegerwerk-ag-co-kgaa-draeger-mit-hoeherem-umsatz-und-ergebnis-in-den",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "EVT",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Evotec SE: Bekanntgabe der Ergebnisse fuer die ersten neun Monate 2026 am 5. November 2026",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-evotec-se-bekanntgabe-der-ergebnisse-fuer-die-ersten-neun-monate-2026-am-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "GFT",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: GFT Technologies und Itau Unibanco beschleunigen Cloud-Migration mit KI um bis zu 70 Prozent",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-gft-technologies-und-ita-unibanco-beschleunigen-cloud-migration-mit-ki-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "INH",
+   "date": "2026-10-29",
+   "sentiment": "HOLD",
+   "news": "Original-Research: INDUS Holding AG (von NuWays AG): HOLD",
+   "link": "https://www.onvista.de/news/2026/10-29-original-research-indus-holding-ag-von-nuways-ag-hold-0-10-26569775",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "LPK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Schwaches Solargeschaeft bringt LPKF tiefer in die Verlustzone",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-schwaches-solargeschaeft-bringt-lpkf-tiefer-in-die-verlustzone-0-10-26569830",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SGL",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Graphit fuer kleine Kernreaktoren: SGL Carbon erhaelt weiteren Grossauftrag",
+   "link": "https://www.onvista.de/news/2026/10-29-graphit-fuer-kleine-kernreaktoren-sgl-carbon-erhaelt-weiteren-grossauftrag-0-10-26569988",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Verbio SE: Kabinettsbeschluss: Verbio gestaerkt durch strengere Regeln gegen Betrug im Biokraftstoffmark",
+   "link": "https://www.onvista.de/news/2026/10-29-verbio-se-kabinettsbeschluss-verbio-gestaerkt-durch-strengere-regeln-gegen-bet",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ACT0",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Alzchem bestaetigt Prognose - Spezialchemie waechst kraeftig",
+   "link": "https://www.onvista.de/news/2026/10-29-alzchem-bestaetigt-prognose-spezialchemie-waechst-kraeftig-0-20-26569725",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "DOU",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "Jugendproteste: Douglas haelt Samstag zwoelf Filialen geschlossen",
+   "link": "https://www.onvista.de/news/2026/10-29-jugendproteste-douglas-haelt-samstag-zwoelf-filialen-geschlossen-0-10-26569911",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: SAF-HOLLAND SE: Vorabbekanntmachung ueber die Veroeffentlichung von Quar",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-afr-saf-holland-se-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Redcare Pharmacy unerwartet stark dank E-Rezept Boom in Deutschland",
+   "link": "https://www.onvista.de/news/2026/10-29-roundup-redcare-pharmacy-unerwartet-stark-dank-e-rezept-boom-in-deutschland-0-10-26569968",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "PCZ",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: ProCredit Holding AG: Vorabbekanntmachung ueber die Veroeffentlich",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-afr-procredit-holding-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "TTK",
+   "date": "2026-10-29",
+   "sentiment": "BUY",
+   "news": "Original-Research: TAKKT AG (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/10-29-original-research-takkt-ag-von-montega-ag-kaufen-0-10-26570087",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BRNK",
+   "date": "2026-10-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Branicks Group AG: Sonja Waerntges legt Vorstandsvorsitz nieder",
+   "link": "https://www.onvista.de/news/2026/10-29-eqs-news-branicks-group-ag-sonja-waerntges-legt-vorstandsvorsitz-nieder-0-37-26570059",
+   "source": "EQS Group"
+  }
+ ]
+}
