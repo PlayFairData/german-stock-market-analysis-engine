@@ -79,15 +79,7 @@
         font-size: 0.74rem; background: #f1f3f4; color: #5f6368; }
     .stock-badge.bull { background: #e6f4ea; color: #0b8a3e; }
     .stock-badge.bear { background: #fce8e6; color: #c5221f; }
-    .stock-badge.refined { background: #e8f0fe; color: #1a73e8; }
     .stock-sum { font-size: 0.84rem; color: #3c4043; line-height: 1.4; }
-    .stock-links { font-size: 0.76rem; margin: 2px 0 3px; }
-    .stock-links a { color: #5f6368; margin-right: 10px; }
-    .stock-links a:hover { color: #1a73e8; }
-    .chart-links { font-weight: 400; font-size: 0.72rem; margin-top: 2px;
-        white-space: nowrap; }
-    .chart-links a { color: #5f6368; margin-right: 8px; }
-    .chart-links a:hover { color: #1a73e8; }
     .cell-btn { background: none; border: none; color: #1a73e8; cursor: pointer;
         font: inherit; font-size: inherit; font-weight: inherit; text-decoration: underline;
         padding: 0; }
@@ -103,6 +95,16 @@
         font-size: 11.5px; line-height: 1.4; white-space: pre-wrap;
         word-break: break-word; font-family: Consolas, 'Courier New', monospace; }
     pre.stock-detail.open { display: block; }
+
+    /* sticky stock-code chips on top of the modal list (old overview_scan nav) */
+    .stock-chips { position: sticky; top: -12px; margin: -12px -14px 8px;
+        padding: 8px 14px 4px; background: #fff; border-bottom: 1px solid #e8eaed;
+        z-index: 2; }
+    .stock-chips a { display: inline-block; margin: 0 10px 5px 0; font-size: .88rem;
+        color: #1a73e8; text-decoration: none; }
+    .stock-chips a:hover { text-decoration: underline; }
+    .stock-flash { animation: chipFlash 1.4s ease-out; }
+    @keyframes chipFlash { from { background: #fff3c4; } to { background: transparent; } }
 
     .arr { font-weight: 600; font-size: .85em; padding-left: 3px; white-space: nowrap; }
     .arr.up { color: #0b8a3e; }
@@ -371,10 +373,12 @@ function esc(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
-var STOCK_CTX = {idx: '', st: '', list: []};
+var STOCK_CTX = {idx: '', list: []};
 function renderStocks(idx, st, list) {
   STOCK_CTX.idx = idx;
-  STOCK_CTX.st = st;
+  list = list.slice().sort(function (a, b) {   // codes ascending -- easy finding
+    return a.code < b.code ? -1 : a.code > b.code ? 1 : 0;
+  });
   STOCK_CTX.list = list;
   var n = list.length;
   document.getElementById('modalTitle').textContent =
@@ -383,32 +387,21 @@ function renderStocks(idx, st, list) {
   if (!n) {
     b.innerHTML = '<p class="meta">No stock records found.</p>';
   } else {
-    var h = '';
+    var h = '<div class="stock-chips">' + list.map(function (s) {
+      var sum = s.summary || '';
+      return '<a href="#" data-code="' + esc(s.code) + '"' +
+        (sum ? ' title="' + esc(sum) + '"' : '') + '>' + esc(s.code) + '</a>';
+    }).join('') + '</div>';
     list.forEach(function (s, i) {
       var t = s.trend || '';
       var bCls = t.indexOf('BULL') >= 0 ? ' bull' : (t.indexOf('BEAR') >= 0 ? ' bear' : '');
-      h += '<div class="stock-item"><div class="stock-head">';
+      h += '<div class="stock-item" data-code="' + esc(s.code) + '"><div class="stock-head">';
       h += '<span class="stock-code">' + esc(s.code) + '</span>';
-      // refined state (e.g. 'DOWNTREND + REBOUND_SIGN') shown when the FULL
-      // state differs from the matrix cell's stage -- explains why the stock
-      // sits in this cell even though its full state name is longer
-      if (s.stage && s.stage !== st) {
-        h += '<span class="stock-badge refined" title="refined state">' + esc(s.stage) + '</span>';
-      }
       if (s.score != null) h += '<span class="stock-badge">Score ' + esc(s.score) + '</span>';
       if (s.confidence != null) h += '<span class="stock-badge">Conf ' + esc(s.confidence) + '%</span>';
       if (s.energy) h += '<span class="stock-badge">' + esc(s.energy) + '</span>';
       if (t) h += '<span class="stock-badge' + bCls + '">' + esc(t) + '</span>';
       h += '<button type="button" class="detail-btn" data-i="' + i + '">Detail</button></div>';
-      // chart pages (LIVE report only; archive records carry no 'charts')
-      if (s.charts && s.charts.length) {
-        h += '<div class="stock-links">';
-        s.charts.forEach(function (c) {
-          h += '<a href="' + esc(c[1]) + '" target="_blank" rel="noopener" title="open ' +
-               esc(c[0]) + ' chart">' + esc(c[0]) + '</a>';
-        });
-        h += '</div>';
-      }
       if (s.summary) h += '<div class="stock-sum">' + esc(s.summary) + '</div>';
       h += '<pre class="stock-detail" id="sd' + i + '"></pre></div>';
     });
@@ -442,6 +435,29 @@ document.addEventListener('click', function (e) {
     show('');
   }
 });
+// stock-code chip: scroll the list to that stock and flash it
+document.getElementById('modalBody').addEventListener('click', function (e) {
+  var t = e.target;
+  if (!t.getAttribute || t.tagName !== 'A' || !t.getAttribute('data-code')) return;
+  e.preventDefault();
+  var code = t.getAttribute('data-code');
+  var items = this.getElementsByClassName('stock-item');
+  var item = null;
+  for (var k = 0; k < items.length; k++) {
+    if (items[k].getAttribute('data-code') === code) { item = items[k]; break; }
+  }
+  if (!item) return;
+  var br = this.getBoundingClientRect();
+  var ir = item.getBoundingClientRect();
+  if (ir.top < br.top + 44) {           // above visible top / hidden under the sticky chips
+    this.scrollTop -= br.top + 44 - ir.top;
+  } else if (ir.bottom > br.bottom) {   // below visible bottom
+    this.scrollTop += ir.bottom - br.bottom + 8;
+  }
+  item.classList.remove('stock-flash');
+  void item.offsetWidth;                // restart the highlight animation
+  item.classList.add('stock-flash');
+});
 function closeStockModal(e) {
   if (!e || e.target === document.getElementById('stockModal') || e.target.classList.contains('modal-close')) {
     document.getElementById('stockModal').classList.remove('open');
@@ -469,12 +485,6 @@ if (location.hash) {
   var dates = Object.keys(H).sort();
   var EXP = ['PDAX', 'CDAX'];
   function isExp(i) { return EXP.indexOf(i) >= 0; }
-  // stock records carry the REFINED state (e.g. 'DOWNTREND + REBOUND_SIGN')
-  // while matrix cells are keyed by the base stage (STAGE_RE stops at ' + '),
-  // so the cell list must match on the base -- otherwise stocks with a
-  // refined state are filtered out and the modal shows fewer stocks than the
-  // cell count (e.g. SDAX/DOWNTREND on 2026-10-06: 2 vs 1)
-  function baseStage(s) { return String(s || '').split(' + ')[0]; }
   var q = new URLSearchParams(location.search).get('date');
   var date = (q && H[q]) ? q : (dates.length ? dates[dates.length - 1] : '');
   var month = date.slice(0, 7);
@@ -492,19 +502,15 @@ if (location.hash) {
     document.getElementById('vMatrix').innerHTML = '<p class="meta">' + esc(t) + '</p>';
   }
 
-  // full stock text AND the full Overview Summary text live in
-  // data/YYYY-MM.detail.js -- loaded on the first Detail click or summary expand
-  function ensureDetailBundle(ok, fail) {
-    if ((window.STAGE_DETAIL || {})[month]) { ok(); return; }
-    loadScript('data/' + month + '.detail.js', ok, fail || function () { ok(); });
-  }
+  // full stock text lives in data/YYYY-MM.detail.js, loaded on the first Detail click
   window.loadStockDetail = function (idx, code, cb) {
     function pick() {
       var m = (window.STAGE_DETAIL || {})[month];
       var t = m && m[date] && m[date][idx] && m[date][idx][code];
       cb(t || '');
     }
-    ensureDetailBundle(pick, function () { cb(''); });
+    if ((window.STAGE_DETAIL || {})[month]) { pick(); return; }
+    loadScript('data/' + month + '.detail.js', pick, function () { cb(''); });
   };
 
   function initNav() {
@@ -562,13 +568,12 @@ if (location.hash) {
 
     var sh = '';
     d.indexes.forEach(function (i) {
-      var v = (d.overview_summary || {})[i];
-      if (!v) return;
+      var t = (d.overview_summary || {})[i];
+      if (!t) return;
       var exp = isExp(i) ? ' ovsum-exp' : '';
-      if (typeof v === 'string') {   // old light bundle: inline text
+      if (typeof t === 'string') {   // old light bundle: inline text
         sh += '<details id="ovsum_' + i.toLowerCase() + '" class="ovsum' + exp +
-          '"><summary>' + esc(i) + '</summary><pre class="detail">' + esc(v) +
-          '</pre></details>';
+          '"><summary>' + esc(i) + '</summary><pre class="detail">' + esc(t) + '</pre></details>';
       } else {                       // marker -> lazy text from the detail bundle
         sh += '<details id="ovsum_' + i.toLowerCase() + '" class="ovsum' + exp +
           '" data-ovsum="' + esc(i) + '"><summary>' + esc(i) +
@@ -577,6 +582,12 @@ if (location.hash) {
     });
     document.getElementById('vSummary').innerHTML = sh ? '<h2>Overview Summary</h2>' + sh : '';
     bindSummaryLazy();
+    // the URL hash may point at a summary that did not exist when the page
+    // parsed (the data loads async) -- open it now that it is rendered
+    if (location.hash) {
+      var hel = document.getElementById(location.hash.slice(1));
+      if (hel && hel.tagName === 'DETAILS') hel.open = true;
+    }
   }
 
   // lazy-fill an expanded summary <details> from the detail bundle
@@ -588,7 +599,7 @@ if (location.hash) {
       if (pre) pre.textContent = t || 'no summary text stored for this day';
     }
     if ((window.STAGE_DETAIL || {})[month]) { pick(); return; }
-    ensureDetailBundle(pick, function () {
+    loadScript('data/' + month + '.detail.js', pick, function () {
       if (pre) pre.textContent = 'cannot load data/' + month + '.detail.js';
     });
   }
@@ -608,7 +619,7 @@ if (location.hash) {
     if (!t.classList || !t.classList.contains('cell-btn')) return;
     var idx = t.getAttribute('data-idx');
     var st = t.getAttribute('data-st');
-    var list = ((DAY.stocks || {})[idx] || []).filter(function (r) { return baseStage(r.stage) === st; });
+    var list = ((DAY.stocks || {})[idx] || []).filter(function (r) { return r.stage === st; });
     renderStocks(idx, st, list);
   });
 

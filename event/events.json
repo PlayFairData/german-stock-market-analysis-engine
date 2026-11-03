@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated": "2026-11-02 20:49:52",
- "today": "2026-11-02",
+ "generated": "2026-11-03 18:53:02",
+ "today": "2026-11-03",
  "counts": {
-  "total": 3152,
-  "upcoming": 172,
-  "history": 2980,
+  "total": 3140,
+  "upcoming": 159,
+  "history": 2981,
   "codes": 172
  },
  "marks": {
@@ -1448,11 +1448,6 @@
    }
   ],
   "AOF": [
-   {
-    "date": "2026-11-23",
-    "desc": "Analystenveranstaltung",
-    "src": "pm"
-   },
    {
     "date": "2026-10-23",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
@@ -3078,11 +3073,6 @@
     "src": "hist"
    },
    {
-    "date": "2026-11-12",
-    "desc": "Pressemeldung zur Quartalsmitteilung (Stichtag Q3)",
-    "src": "pm"
-   },
-   {
     "date": "2026-09-22",
     "desc": "Roadshow",
     "src": "hist"
@@ -4247,11 +4237,6 @@
    }
   ],
   "DRW3": [
-   {
-    "date": "2027-03-17",
-    "desc": "Analystenveranstaltung",
-    "src": "pm"
-   },
    {
     "date": "2026-10-29",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -5577,11 +5562,6 @@
     "date": "2026-11-13",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
-   },
-   {
-    "date": "2026-11-11",
-    "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
-    "src": "pm"
    },
    {
     "date": "2026-09-21",
@@ -8941,11 +8921,6 @@
   ],
   "KGX": [
    {
-    "date": "2027-03-04",
-    "desc": "Bilanzpressekonferenz",
-    "src": "pm"
-   },
-   {
     "date": "2026-10-29",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
     "src": "hist"
@@ -9645,11 +9620,6 @@
   ],
   "LPK": [
    {
-    "date": "2027-03-24",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
-    "src": "pm"
-   },
-   {
     "date": "2026-10-29",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
     "src": "hist"
@@ -9997,11 +9967,6 @@
    }
   ],
   "MLP": [
-   {
-    "date": "2026-11-12",
-    "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
-    "src": "pm"
-   },
    {
     "date": "2026-10-21",
     "desc": "Roadshow",
@@ -12081,11 +12046,6 @@
   ],
   "RDC": [
    {
-    "date": "2027-03-03",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
-    "src": "pm"
-   },
-   {
     "date": "2026-10-29",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -14011,11 +13971,6 @@
   ],
   "SY1": [
    {
-    "date": "2027-03-03",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
-    "src": "pm"
-   },
-   {
     "date": "2026-10-28",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -14495,11 +14450,6 @@
    }
   ],
   "TKA": [
-   {
-    "date": "2026-12-08",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
-    "src": "pm"
-   },
    {
     "date": "2026-12-08",
     "desc": "Telefonkonferenz",
@@ -15057,11 +15007,6 @@
    }
   ],
   "TTK": [
-   {
-    "date": "2026-11-23",
-    "desc": "Messe",
-    "src": "pm"
-   },
    {
     "date": "2026-10-28",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -16011,11 +15956,6 @@
    }
   ],
   "WCH": [
-   {
-    "date": "2027-03-08",
-    "desc": "Bilanzpressekonferenz",
-    "src": "pm"
-   },
    {
     "date": "2026-10-29",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
