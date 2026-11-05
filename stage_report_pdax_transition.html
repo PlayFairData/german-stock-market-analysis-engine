@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%230f172a'/%3E%3Cpath d='M24 88 L44 60 L64 74 L92 34 L104 44' fill='none' stroke='%2310b981' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='92' cy='34' r='6' fill='%23f59e0b'/%3E%3Ctext x='64' y='114' font-family='Arial,sans-serif' font-weight='900' font-size='22' fill='%2338bdf8' text-anchor='middle'%3ESTAGE%3C/text%3E%3C/svg%3E">
     <link rel="manifest" href="manifest.json">
-    <title>PDAX TRANSITION 2026-10-30</title>
+    <title>PDAX TRANSITION 2026-11-03</title>
     <style>
     * { box-sizing: border-box; }
     body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
@@ -265,25 +265,25 @@
 </style>
 </head>
 <body>
-<div class="meta">PDAX TRANSITION 2026-10-30 &middot; log date 2026-10-30</div>
-<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>PDAX &mdash; TRANSITION (1 stock)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#TIMA" title="Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND.">TIMA</a></td><td>61</td><td>52%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>EXHAUSTION</td><td class='sum'>Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND.</td></tr></table><h2 id="TIMA">TIMA <span class="meta">TRANSITION</span></h2><pre class="detail">TIMA 2026-10-30
+<div class="meta">PDAX TRANSITION 2026-11-03 &middot; log date 2026-11-03</div>
+<div class="crumb"><a href="stage_report.html">&larr; State Report</a></div><h1>PDAX &mdash; TRANSITION (3 stocks)</h1><table class='nav'><tr><th>Code</th><th>Score</th><th>Conf</th><th>Trend</th><th>Energy</th><th>Summary</th></tr><tr><td><a href="#PSM" title="Downtrend remains confirmed with energy released; there is no reversal confirmation yet.">PSM</a></td><td>52</td><td>50%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; there is no reversal confirmation yet.</td></tr><tr><td><a href="#TIMA" title="Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND.">TIMA</a></td><td>48</td><td>43%</td><td>Stabilizing (Weekly BEAR, Daily NEUTRAL)</td><td>EXHAUSTION</td><td class='sum'>Recovery appears exhausted. Action Bias: Risk of returning to DOWNTREND.</td></tr><tr><td><a href="#TTK" title="Downtrend remains confirmed with energy released; there is no reversal confirmation yet.">TTK</a></td><td>71</td><td>63%</td><td>Undecided (Weekly NEUTRAL, Daily BEAR)</td><td>RELEASED</td><td class='sum'>Downtrend remains confirmed with energy released; there is no reversal confirmation yet.</td></tr></table><h2 id="PSM">PSM <span class="meta">TRANSITION</span></h2><pre class="detail">PSM 2026-11-03
 📊 Overview
 --------
 State              : TRANSITION
 Raw State          : TRANSITION
-State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=RELEASED, cycle=PULLBACK, breakout_event=False
 Breakout Event     : False
-Breakout Resistance : 40.8
+Breakout Resistance : 3.36
 Breakout Window    : 20
-Score      : 61  (W 15.8 + D 26.2 + E 14.0  cycle 5)
-Confidence : 52%
+Score      : 52  (W 15.8 + D 26.2 + E 11.0  cycle -1)
+Confidence : 50%
 Trend      : Stabilizing (Weekly BEAR, Daily NEUTRAL)
 
 📊 Weekly
 ------
 Trend : Bear
 ADX   : STRONG
-MA    : Down (MA9&lt;MA50 MA50=MA200)
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
 BB    : DRIFT_DOWN
 Context : Established bearish trend with expanding downside momentum.
 
@@ -297,6 +297,93 @@ Context : Uptrend structure with strong trend strength and compressing volatilit
 
 📊 Energy
 ------
+Family : RELEASED
+Phase  : ENERGY_RELEASED
+
+📊 Cycle
+-----
+Stage    : PULLBACK
+Rank     : 65
+Daily BB Zone, MA drift:
+  Pivot 2026-10-23  : MU
+  Today  : LM   v (-2)
+Alignment: 2/3 timeframes agree with daily leg (Partial)
+Swing Age: 1d
+Drift: Sharp pullback dZ=-2
+Daily Band Cross: Cross MA9+LB (close inside pair)
+Weekly Pivot Trend:
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 2W / -2.7
+  Extreme / Diff%: 2.97 / 7.4
+  vs DAX%        : -3.6
+Weekly Band Cross: No cross
+
+📊 Momentum
+--------
+MACD Age      : M ▼12mo | W ▼1w | D ▼19d
+Momentum Slope: Monthly Recovering | Weekly Turning | Daily Deepening
+Divergence    : Daily Regular Bull (+6d, High confidence)
+Pattern       : Confirmed Downtrend
+
+Signal:
+Bullish
+MACD Golden Cross : D(+19d)
+ADX Rising : W, D
+Bearish
+MACD Death Cross : M(+12mo), W(+1w)
+MACD Below Zero : M(+12mo), W(+1w), D(+19d)
+Price Below MA200 : W, D
+Neutral
+BB Compression : D
+
+Institutional Activity
+----------------------
+VolRatio   : 1.96   DAX Ratio: 1.15
+1d Ret     : -0.3%   Pwh_rel: -0.63
+  -&gt; Volume 1.96x baseline (DAX 1.15x), 1-day return -0.3%, Pwh_rel -0.63 -- unusual institutional volume, watch
+
+📊 Fundamental
+-----------
+EPS Direction : STABLE [WATCH_UP]
+Basis         : 1 up / 0 down revision events, 90d, FY26,27
+Drift vs mkt  : MIXED ◆  (FY26 +4.1% (mkt +0.0%)  FY27 -3.2% (mkt +0.0%))
+Last Sig. Rev.: 2026-09-08   Last Report: 2026-05-13
+Interpretation: Technical recovery; earnings support not yet improving (FY drift mixed vs the market)
+
+📊 Summary
+-------
+  Downtrend remains confirmed with energy released; there is no reversal confirmation yet.</pre><h2 id="TIMA">TIMA <span class="meta">TRANSITION</span></h2><pre class="detail">TIMA 2026-11-03
+📊 Overview
+--------
+State              : TRANSITION
+Raw State          : TRANSITION
+State Reason       : STATE_MATRIX retained; weekly=BEAR, daily=NEUTRAL, energy=EXHAUSTION, cycle=RECOVERY, breakout_event=False
+Breakout Event     : False
+Breakout Resistance : 40.8
+Breakout Window    : 20
+Score      : 48  (W 15.8 + D 17.5 + E 10.0  cycle 5)
+Confidence : 43%
+Trend      : Stabilizing (Weekly BEAR, Daily NEUTRAL)
+
+📊 Weekly
+------
+Trend : Bear
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50=MA200)
+BB    : DRIFT_DOWN
+Context : Established bearish trend with expanding downside momentum.
+
+📊 Daily
+-----
+Trend : Neutral
+ADX   : BUILDING
+MA    : Down (MA9&lt;MA50 MA50&lt;MA200)
+BB    : DRIFT_DOWN
+Context : Controlled decline with increasing trend pressure.
+
+📊 Energy
+------
 Family : EXHAUSTION
 Phase  : TREND_EXHAUSTION
 
@@ -305,55 +392,138 @@ Phase  : TREND_EXHAUSTION
 Stage    : RECOVERY
 Rank     : 75
 Daily BB Zone, MA drift:
-  Pivot 2026-10-29  : LM
-  Today  : MU   ^ (+2)
+  Pivot 2026-10-30  : MU
+  Today  : LM   v (-2)
 Alignment: 3/3 timeframes agree with daily leg (Full)
-Swing Age: 1d
-Drift: Strong recovery dZ=+2
-Daily Band Cross: Bull cross MA+MA9 (-x vol)
+Swing Age: 0d
+Drift: Bearish breakdown dZ=-2   [stage=RECOVERY, leg=H_TO_L (pivot not aligned with stage (downtrend caution))]
+Daily Band Cross: Bear cross MA9+MA (-x vol)
 Weekly Pivot Trend:
-  Pivot -&gt; Today : wL -&gt; wLM   (dZ=1)
-  Drift          : Recovery drift
-  Age / Perf%    : 3W / 2.3
-  Extreme / Diff%: 40.5 / -2.0
-  vs DAX%        : -0.6
+  Pivot -&gt; Today : wLM -&gt; wLM   (dZ=0)
+  Drift          : Aligned
+  Age / Perf%    : 2W / -3.2
+  Extreme / Diff%: 38.8 / 0.0
+  vs DAX%        : -4.1
 Weekly Band Cross: No cross
 
 📊 Momentum
 --------
-MACD Age      : M ▲8mo | W ▼41w | D ▼12d
+MACD Age      : M ▲9mo | W ▼42w | D ▼14d
 Momentum Slope: Monthly Rising | Weekly Recovering | Daily Recovering
-Divergence    : Daily Hidden Bear (+3d, Low confidence)
+Divergence    : Daily Hidden Bear (+5d, Low confidence)
 Pattern       : Trend Losing Momentum
 
 Signal:
 Bullish
-MACD Golden Cross : D(+12d)
-MACD Above Zero : M(+8mo)
+MACD Golden Cross : D(+14d)
+MACD Above Zero : M(+9mo)
 ADX Rising : W
 Bearish
-MACD Death Cross : M(+8mo), W(+41w)
-MACD Below Zero : W(+41w), D(+12d)
+MACD Death Cross : M(+9mo), W(+42w)
+MACD Below Zero : W(+42w), D(+14d)
 Price Below MA200 : W, D
 Neutral
-BB Compression : D
+ADX Strong : W
 
 📊 Fundamental
 -----------
-EPS Direction : STABLE [WATCH_UP BROAD_UP]
-Warning       : all yearly EPS estimates (FY26,27,28) revised UP on 2026-09-08
-Basis         : 1 up / 0 down significant episodes, 90d, FY26,27
-Events        : 09-08 ▲ FY27
+EPS Direction : STABLE [WATCH_UP]
+Basis         : 1 up / 0 down revision events, 90d, FY26,27
 Drift vs mkt  : FLAT   (FY26 +2.1% (mkt +0.0%)  FY27 +1.6% (mkt +0.0%))
-EPS Momentum 30d: STABILIZING  (FY26 +0.5%  FY27 -0.8%)
-Last Change   : 2026-10-23 ▲ FY26 +0.01   2026-10-23 ▼ FY27 -0.02   2026-10-23 ▼ FY28 -0.01
-Last Sig. Rev.: 2026-09-08 (after last report)   Last Report: 2026-08-05
+Last Sig. Rev.: 2026-09-08   Last Report: 2026-08-05
 Interpretation: Technical recovery; earnings support not yet improving
 
 📊 Summary
 -------
   Recovery appears exhausted.
-  Action Bias: Risk of returning to DOWNTREND.</pre>
+  Action Bias: Risk of returning to DOWNTREND.</pre><h2 id="TTK">TTK <span class="meta">TRANSITION</span></h2><pre class="detail">TTK 2026-11-03
+📊 Overview
+--------
+State              : TRANSITION
+Raw State          : TRANSITION
+State Reason       : STATE_MATRIX retained; weekly=NEUTRAL, daily=BEAR, energy=RELEASED, cycle=RECOVERY, breakout_event=False
+Breakout Event     : False
+Breakout Resistance : 3.12
+Breakout Window    : 20
+Score      : 71  (W 36.0 + D 17.5 + E 11.0  cycle 7)
+Confidence : 63%
+Trend      : Undecided (Weekly NEUTRAL, Daily BEAR)
+
+📊 Weekly
+------
+Trend : Neutral
+ADX   : STRONG
+MA    : Up (MA9&lt;MA50 MA50=MA200)
+BB    : EXPANDING
+Context : Strong trend expansion underway.
+
+📊 Daily
+-----
+Trend : Bear
+ADX   : STRONG
+MA    : Down (MA9&lt;MA50 MA50&gt;MA200)
+BB    : EXPANDING
+Context : Bear trend accelerating.
+
+📊 Energy
+------
+Family : RELEASED
+Phase  : ENERGY_RELEASED
+
+📊 Cycle
+-----
+Stage    : RECOVERY
+Rank     : 80
+Daily BB Zone, MA drift:
+  Pivot 2026-11-02  : LM
+  Today  : L   v (-1)
+Alignment: 3/3 timeframes agree with daily leg (Full)
+Swing Age: 0d
+Drift: Bearish drift dZ=-1   [stage=RECOVERY, leg=H_TO_L (pivot not aligned with stage (downtrend caution))]
+Daily Band Cross: No cross
+Weekly Pivot Trend:
+  Pivot -&gt; Today : wU -&gt; wLM   (dZ=-3)
+  Drift          : Bearish breakdown
+  Age / Perf%    : 6W / -30.0
+  Extreme / Diff%: 2.29 / 0.0
+  vs DAX%        : -31.3
+Weekly Band Cross: No cross
+
+📊 Momentum
+--------
+MACD Age      : M ▼2mo | W ▼0w | D ▼32d
+Momentum Slope: Monthly Turning | Weekly Turning | Daily Deepening
+Divergence    : none
+Pattern       : Confirmed Downtrend
+
+Signal:
+Bullish
+MACD Golden Cross : M(+2mo)
+ADX Rising : D
+Bearish
+MACD Death Cross : W(+0w), D(+32d)
+MACD Below Zero : M(+2mo), W(+0w), D(+32d)
+Price Below MA200 : W, D
+Neutral
+BB Expansion : W, D
+
+Institutional Activity
+----------------------
+VolRatio   : 2.41   DAX Ratio: 1.15
+1d Ret     : -9.1%   Pwh_rel: -16.12
+  -&gt; Volume 2.41x baseline (DAX 1.15x), 1-day return -9.1%, Pwh_rel -16.12 -- unusual institutional volume, watch
+
+📊 Fundamental
+-----------
+EPS Direction : STABLE [CONFLICT POST_REPORT_EARLY]
+Basis         : 1 up / 1 down revision events, 90d, FY26,27
+Drift vs mkt  : MIXED ◆  (FY26 -23.5% (mkt +0.0%)  FY27 +27.3% (mkt +0.0%))
+Last Sig. Rev.: 2026-10-30   Last Report: 2026-10-28
+Interpretation: Technical recovery; earnings support not yet improving (FY drift mixed vs the market)
+
+📊 Summary
+-------
+  Downtrend remains confirmed with energy released; there is no reversal confirmation yet.</pre>
 
 </body>
 </html>
