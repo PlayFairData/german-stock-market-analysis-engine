@@ -1,0 +1,478 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-05 21:22:45",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 4,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 42
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 14
+  },
+  "PDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 11
+  }
+ },
+ "total": 48,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Teamviewer auf 6,50 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-deutsche-bank-senkt-ziel-fuer-teamviewer-auf-6-50-euro-hold-0-10-26572384",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: EU-Abgeordnete stimmen fuer Aufweichung des Verbrenner-Aus",
+   "link": "https://www.onvista.de/news/2026/11-04-roundup-2-eu-abgeordnete-stimmen-fuer-aufweichung-des-verbrenner-aus-0-10-26572550",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Umbau im Aufsichtsrat von Healthineers - Siemens-Manager gehen",
+   "link": "https://www.onvista.de/news/2026/11-04-umbau-im-aufsichtsrat-von-healthineers-siemens-manager-gehen-0-10-26572486",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: DZ senkt fairen Wert fuer T-Mobile US auf 220 Dollar - 'Kaufen'",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-dz-senkt-fairen-wert-fuer-t-mobile-us-auf-220-dollar-kaufen-0-10-26572533",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Deutliche Gewinne nach US-Zwischenwahlen",
+   "link": "https://www.onvista.de/news/2026/11-04-roundup-aktien-europa-schluss-deutliche-gewinne-nach-us-zwischenwahlen-0-10-26572549",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Mehr Auftraege fuer Maschinenbauer",
+   "link": "https://www.onvista.de/news/2026/11-04-mehr-auftraege-fuer-maschinenbauer-0-10-26572242",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-11-04",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: RBC belaesst Rheinmetall auf 'Outperform' - Ziel 1600 Euro",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-rbc-belaesst-rheinmetall-auf-outperform-ziel-1600-euro-0-10-26572569",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: Neue Studie von Precisely und ASUG: SAP-Modernis",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-news-neue-studie-von-precisely-und-asug-sap-modernisierung-gewinnt-an-dynamik-waehrend-ki-nutzung-zunimmt-und-migrations",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Umbau im Aufsichtsrat von Healthineers - Siemens-Manager gehen",
+   "link": "https://www.onvista.de/news/2026/11-04-umbau-im-aufsichtsrat-von-healthineers-siemens-manager-gehen-0-10-26572486",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: Artprice by",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-news-artprice-by-artmarket-tritt-in-den-dialog-mit-der-gesamten-deutschsprachigen-welt-und-besiegelt-die-allianz-zwischen-europaeischer-hochphilosophie-ki-un",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Scout24 auf Einjahreshoch mit festen Immobilienwerten",
+   "link": "https://www.onvista.de/news/2026/11-04-aktien-im-fokus-scout24-auf-einjahreshoch-mit-festen-immobilienwerten-0-10-26572547",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Continental ein Lichtblick im Autosektor - Kursrally nach Zahlen",
+   "link": "https://www.onvista.de/news/2026/11-04-aktie-im-fokus-continental-ein-lichtblick-im-autosektor-kursrally-nach-zahlen-0-10-26572353",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Experten rechnen mit sinkendem Energieverbrauch",
+   "link": "https://www.onvista.de/news/2026/11-04-experten-rechnen-mit-sinkendem-energieverbrauch-0-10-26572331",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Biosimilars geben Fresenius Schwung - optimistischer fuer Gewinn",
+   "link": "https://www.onvista.de/news/2026/11-04-roundup-2-biosimilars-geben-fresenius-schwung-optimistischer-fuer-gewinn-0-10-26572367",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Umbau im Aufsichtsrat von Healthineers - Siemens-Manager gehen",
+   "link": "https://www.onvista.de/news/2026/11-04-umbau-im-aufsichtsrat-von-healthineers-siemens-manager-gehen-0-10-26572486",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-11-04",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: UBS hebt Ziel fuer United Internet auf 33,40 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-ubs-hebt-ziel-fuer-united-internet-auf-33-40-euro-buy-0-10-26572443",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 04.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-04-dpa-afx-ueberblick-unternehmen-vom-04-11-2026-15-15-uhr-0-10-26572448",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Maschinenbauer verbuchen im September mehr Auftraege",
+   "link": "https://www.onvista.de/news/2026/11-04-maschinenbauer-verbuchen-im-september-mehr-auftraege-0-20-26572238",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Fraport sieht sich trotz Iran-Kriegs auf Kurs - Terminal 3 bewaehrt sich",
+   "link": "https://www.onvista.de/news/2026/11-04-roundup-fraport-sieht-sich-trotz-iran-kriegs-auf-kurs-terminal-3-bewaehrt-sich-0-10-26572394",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TEG",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Scout24 auf Einjahreshoch mit festen Immobilienwerten",
+   "link": "https://www.onvista.de/news/2026/11-04-aktien-im-fokus-scout24-auf-einjahreshoch-mit-festen-immobilienwerten-0-10-26572547",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Dax mit neuem Schwung - Quartalszahlen und US-Zwischenwahlen",
+   "link": "https://www.onvista.de/news/2026/11-04-aktien-frankfurt-dax-mit-neuem-schwung-quartalszahlen-und-us-zwischenwahlen-0-10-26572419",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Delivery Hero SE: Pieter-Jan  Vandepitte, Verkauf",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-dd-delivery-hero-se-pieter-jan-vandepitte-verkauf-0-37-26572195",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AG1",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax naehert sich nach US-Zwischenwahlen Rekord",
+   "link": "https://www.onvista.de/news/2026/11-04-roundup-aktien-frankfurt-schluss-dax-naehert-sich-nach-us-zwischenwahlen-rekord-0-10-26572536",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JENOPTIK AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-pvr-jenoptik-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-11-04",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Berenberg senkt Ionos auf 'Hold' - Dynamik eingepreist",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-berenberg-senkt-ionos-auf-hold-dynamik-eingepreist-0-10-26572217",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Devisen: Euro erholt sich weiter nach US-Zwischenwahlen",
+   "link": "https://www.onvista.de/news/2026/11-04-devisen-euro-erholt-sich-weiter-nach-us-zwischenwahlen-0-10-26572567",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "K+S verschliesst mehr als 100 Jahre alten Schacht",
+   "link": "https://www.onvista.de/news/2026/11-04-k-s-verschliesst-mehr-als-100-jahre-alten-schacht-0-10-26572527",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Ifo: Stimmung in der Autoindustrie springt nach oben",
+   "link": "https://www.onvista.de/news/2026/11-04-ifo-stimmung-in-der-autoindustrie-springt-nach-oben-0-10-26572205",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Pressestimme: 'Neue Presse' zu Schaeffler",
+   "link": "https://www.onvista.de/news/2026/11-04-pressestimme-neue-presse-zu-schaeffler-0-10-26572082",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Siltronic hebt Jahresausblick an - Nachfrage zieht KI-getrieben an",
+   "link": "https://www.onvista.de/news/2026/11-04-roundup-2-siltronic-hebt-jahresausblick-an-nachfrage-zieht-ki-getrieben-an-0-10-26572315",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Scout24 auf Einjahreshoch mit festen Immobilienwerten",
+   "link": "https://www.onvista.de/news/2026/11-04-aktien-im-fokus-scout24-auf-einjahreshoch-mit-festen-immobilienwerten-0-10-26572547",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1AST",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: ASTA Energy Solutions AG sichert sich ersten US-Langzeitvertrag und eroeffnet Sales Off",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-news-asta-energy-solutions-ag-sichert-sich-ersten-us-langzeitvertrag-und-eroeffne",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BSL",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: 9-Monatsergebnis 2026: Basler steigert Umsatz und Ergebnis deutlich, Prognose fuer 2026 angeh",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-news-9-monatsergebnis-2026-basler-steigert-umsatz-und-ergebnis-deutlich-pro",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "AOF",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: ATOSS Software SE: Christopher  Obereder, Verkauf",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-dd-atoss-software-se-christopher-obereder-verkauf-0-37-26572490",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "EKT",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Erneuerbare Energien befluegelt von US-Zwischenwahlen",
+   "link": "https://www.onvista.de/news/2026/11-04-aktien-im-fokus-erneuerbare-energien-befluegelt-von-us-zwischenwahlen-0-10-26572431",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "AFX",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Carl Zeiss Meditec AG: Vorabbekanntmachung ueber die Veroeffentlichung von F",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-afr-carl-zeiss-meditec-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: 42. MKK – Muenchner Kapitalmarkt Konferenz: aap Implantate AG praesentiert sich am 11. Novemb",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-news-42-mkk-muenchner-kapitalmarkt-konferenz-aap-implantate-ag-praesentiert",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "IXX",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: init innovation in traffic systems SE: Dr. Johannes Haupt, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-dd-init-innovation-in-traffic-systems-se-dr-johannes-haupt-kauf-0-37-26572405",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "GFT",
+   "date": "2026-11-04",
+   "sentiment": "BUY",
+   "news": "Original-Research: GFT Technologies SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-04-original-research-gft-technologies-se-von-nuways-ag-buy-0-10-26572226",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Raumfahrtkonzern OHB erhaelt Satellitenauftrag von der ESA",
+   "link": "https://www.onvista.de/news/2026/11-04-raumfahrtkonzern-ohb-erhaelt-satellitenauftrag-von-der-esa-0-10-26572383",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DEQ",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Deutsche Euroshop erhoeht Ergebnisprognose fuer 2026 - Umsatzprognose praezisiert",
+   "link": "https://www.onvista.de/news/2026/11-04-deutsche-euroshop-erhoeht-ergebnisprognose-fuer-2026-umsatzprognose-praezisiert-0-10-26572556",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Medios AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-pvr-medios-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-eur",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-11-04",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Teamviewer auf 6,50 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-deutsche-bank-senkt-ziel-fuer-teamviewer-auf-6-50-euro-hold-0-10-26572384",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SAF-HOLLAND SE: Veroeffentlichung ueber Erwerb oder Veraeusserung eigener Aktien nach",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-pvr-saf-holland-se-veroeffentlichung-ueber-erwerb-oder-veraeusserung-eigener-aktien-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "BVB trifft auf Betis und Bartra - Leipzig gegen City",
+   "link": "https://www.onvista.de/news/2026/11-04-bvb-trifft-auf-betis-und-bartra-leipzig-gegen-city-0-10-26572095",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSAN",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "Original-Research: PSI SE (von First Berlin Equity Research GmbH): Accept the...",
+   "link": "https://www.onvista.de/news/2026/11-04-original-research-psi-se-von-first-berlin-equity-research-gmbh-accept-the-0-10-26572281",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSM",
+   "date": "2026-11-04",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan senkt ProSiebenSat.1-Ziel auf 5,40 Euro - 'Overweight'",
+   "link": "https://www.onvista.de/news/2026/11-04-analyse-flash-jpmorgan-senkt-prosiebensat-1-ziel-auf-5-40-euro-overweight-0-10-26572464",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-11-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: ZEAL steigert Neunmonatsumsatz um 22% und diversifiziert erfolgreich in neue Maerkte",
+   "link": "https://www.onvista.de/news/2026/11-04-eqs-news-zeal-steigert-neunmonatsumsatz-um-22-und-diversifiziert-erfolgreich-in-neue-mae",
+   "source": "EQS Group"
+  }
+ ]
+}

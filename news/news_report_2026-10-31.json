@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-31",
+ "generated": "2026-11-05 21:22:45",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 2
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 2,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-31",
+   "sentiment": "INFO",
+   "news": "Viele Deutsche sind offen fuer Aktien – vor allem junge",
+   "link": "https://www.onvista.de/news/2026/10-31-umfrage-viele-offen-fuer-aktien-vorsorge-wird-aufgeschoben-0-10-26570684",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-10-31",
+   "sentiment": "INFO",
+   "news": "Viele Deutsche sind offen fuer Aktien – vor allem junge",
+   "link": "https://www.onvista.de/news/2026/10-31-umfrage-viele-offen-fuer-aktien-vorsorge-wird-aufgeschoben-0-10-26570684",
+   "source": "dpa-AFX"
+  }
+ ]
+}

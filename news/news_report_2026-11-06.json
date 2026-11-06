@@ -1,0 +1,325 @@
+{
+ "date": "2026-11-06",
+ "generated": "2026-11-06 18:49:31",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 28
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  }
+ },
+ "total": 31,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Ruestung \"Made in Germany\" - Sonderkonjunktur fuer Maschinenbauer",
+   "link": "https://www.onvista.de/news/2026/11-06-ruestung-made-in-germany-sonderkonjunktur-fuer-maschinenbauer-0-20-26573317",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Siemens Energy auf 'Overweight' - Ziel 245 Euro",
+   "link": "https://www.onvista.de/news/2026/11-06-analyse-flash-jpmorgan-belaesst-siemens-energy-auf-overweight-ziel-245-euro-0-10-26573584",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Niedersachsen: Metall-Tarifrunde ohne Ergebnis - IG Metall macht Vorschlag",
+   "link": "https://www.onvista.de/news/2026/11-06-niedersachsen-metall-tarifrunde-ohne-ergebnis-ig-metall-macht-vorschlag-0-10-26573532",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-NVR: Allianz SE: Veroeffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-nvr-allianz-se-veroeffentlichung-der-gesamtzahl-der-stimmrechte-nach-41-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-DD: adidas AG: NN",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-dd-adidas-ag-nns-investments-cyprus-limited-barausgleich-bei-ablauf-von-short-put-optionen-status-ausgelaufen-faelligkeit-05-11-2026-anzahl-87-000-ausuebungs",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-News: ALTA Performance Materials unterzeichnet Vertrag zur Uebernahme der BASF-Geschaeftseinheit",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-news-alta-performance-materials-unterzeichnet-vertrag-zur-uebernahme-der-basf-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Verluste etwas eingedaemmt mit erholten US-Boersen",
+   "link": "https://www.onvista.de/news/2026/11-06-roundup-aktien-europa-schluss-verluste-etwas-eingedaemmt-mit-erholten-us-boersen-0-10-26573592",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Dax bleibt zwischen KI-Sorgen und Iran-Hoffnung auf Richtungssuche",
+   "link": "https://www.onvista.de/news/2026/11-06-wochenausblick-dax-zwischen-ki-sorgen-und-iran-hoffnung-auf-richtungssuche-0-10-26573509",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-11-06",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Siemens Energy auf 'Overweight' - Ziel 245 Euro",
+   "link": "https://www.onvista.de/news/2026/11-06-analyse-flash-jpmorgan-belaesst-siemens-energy-auf-overweight-ziel-245-euro-0-10-26573584",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "IG Metall ruft Zehntausende in Bayern zu Warnstreik auf",
+   "link": "https://www.onvista.de/news/2026/11-06-ig-metall-ruft-zehntausende-in-bayern-zu-warnstreik-auf-0-10-26573242",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Luftverkehr: Bombendrohungen hatten keinen Einfluss auf Verspaetungen",
+   "link": "https://www.onvista.de/news/2026/11-06-luftverkehr-bombendrohungen-hatten-keinen-einfluss-auf-verspaetungen-0-10-26573412",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Deutz AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-pvr-deutz-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europ",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-News: Krones mit moderatem Wachstum und verbesserter Ertragskraft in herausforderndem Marktumfeld",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-news-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausfor",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Start einer Produktionsanlage fuer Gruenstahl verzoegert sich",
+   "link": "https://www.onvista.de/news/2026/11-06-start-einer-produktionsanlage-fuer-gruenstahl-verzoegert-sich-0-10-26573562",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Kerosinpreis laesst Gewinn von British-Airways-Mutter IAG sinken",
+   "link": "https://www.onvista.de/news/2026/11-06-roundup-kerosinpreis-laesst-gewinn-von-british-airways-mutter-iag-sinken-0-10-26573546",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FNTN",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax faellt wegen KI-Panik vom Rekord zurueck",
+   "link": "https://www.onvista.de/news/2026/11-06-roundup-aktien-frankfurt-schluss-dax-faellt-wegen-ki-panik-vom-rekord-zurueck-0-10-26573585",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten V",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Industrie will Blockmodell bei Altersteilzeit erhalten",
+   "link": "https://www.onvista.de/news/2026/11-06-industrie-will-blockmodell-bei-altersteilzeit-erhalten-0-10-26573590",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "Bilger: Reform soll Unterhalt der Autobahnen staerken",
+   "link": "https://www.onvista.de/news/2026/11-06-bilger-reform-soll-unterhalt-der-autobahnen-staerken-0-10-26573473",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "IG Metall zaehlt mehr als 400.000 Teilnehmer an Warnstreiks",
+   "link": "https://www.onvista.de/news/2026/11-06-ig-metall-zaehlt-mehr-als-400-000-teilnehmer-an-warnstreiks-0-20-26573541",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "AOF",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ATOSS Software SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-pvr-atoss-software-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-News: Von OHB gebaute ESA-Asteroidensonde sendet erstes Bild und naeher",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-news-von-ohb-gebaute-esa-asteroidensonde-sendet-erstes-bild-und-naehert-sich-historischem-rendezvous-mi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TPE",
+   "date": "2026-11-06",
+   "sentiment": "BUY",
+   "news": "Original-Research: PVA TePla AG (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/11-06-original-research-pva-tepla-ag-von-montega-ag-kaufen-0-10-26573369",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EU-Laender wollen Klimaregeln wegen Energiekrise verschieben",
+   "link": "https://www.onvista.de/news/2026/11-06-eu-laender-wollen-klimaregeln-wegen-energiekrise-verschieben-0-10-26573402",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-DD: NORMA Group SE: Birgit Seeger, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-dd-norma-group-se-birgit-seeger-kauf-0-37-26573501",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "DBAN",
+   "date": "2026-11-06",
+   "sentiment": "BUY",
+   "news": "Original-Research: Deutsche Beteiligungs AG (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-06-original-research-deutsche-beteiligungs-ag-von-nuways-ag-buy-0-10-26573338",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TeamViewer SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-pvr-teamviewer-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "WAC",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Autobahn-Reform umstritten - neuer Schuldentopf?",
+   "link": "https://www.onvista.de/news/2026/11-06-roundup-autobahn-reform-umstritten-neuer-schuldentopf-0-10-26573488",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Zerrung: Guirassy fehlt Dortmund gegen Elversberg",
+   "link": "https://www.onvista.de/news/2026/11-06-roundup-zerrung-guirassy-fehlt-dortmund-gegen-elversberg-0-10-26573472",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-11-06",
+   "sentiment": "INFO",
+   "news": "EQS-DD: ZEAL Network SE: Othello Vier Beteiligungs GmbH",
+   "link": "https://www.onvista.de/news/2026/11-06-eqs-dd-zeal-network-se-othello-vier-beteiligungs-gmbh-co-kg-verpfaendung-von-2-000-000-stueckaktien-der-zeal-network-se-im-rahm",
+   "source": "EQS Group"
+  }
+ ]
+}
