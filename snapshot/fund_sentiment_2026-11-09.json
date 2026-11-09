@@ -1,5 +1,6 @@
 {
   "schema_version": 2,
+  "source": "live",
   "as_of_date": "2026-11-09",
   "baseline_date": "2026-10-12",
   "baseline_days": 28,
@@ -28,6 +29,7 @@
       "top_code": "BAS",
       "breadth_ex_top": 12.5,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ACT0",
         "BAS",
@@ -61,6 +63,7 @@
       "top_code": "AIXA",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ADV",
         "AIXA",
@@ -94,6 +97,7 @@
       "top_code": "AAD",
       "breadth_ex_top": 6.52,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "1AST",
         "8TRA",
@@ -165,6 +169,7 @@
       "top_code": "ALV",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ALV",
         "HNR1",
@@ -194,6 +199,7 @@
       "top_code": "DEQ",
       "breadth_ex_top": -12.5,
       "is_thin": false,
+      "has_divergence": true,
       "stocks": [
         "AT1",
         "BRNK",
@@ -221,7 +227,7 @@
       "stock_count": 18,
       "usable_count": 18,
       "improving_count": 2,
-      "slowing_count": 3,
+      "slowing_count": 2,
       "stable_count": 12,
       "deteriorating_count": 4,
       "breadth": -11.11,
@@ -235,6 +241,7 @@
       "top_code": "FYB",
       "breadth_ex_top": -17.65,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "1SXP",
         "AFX",
@@ -277,6 +284,7 @@
       "top_code": "RDC",
       "breadth_ex_top": -33.33,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AG1",
         "DHER",
@@ -311,6 +319,7 @@
       "top_code": "BOSS",
       "breadth_ex_top": -12.5,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ADS",
         "BEI",
@@ -344,6 +353,7 @@
       "top_code": "RRTL",
       "breadth_ex_top": -20.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "BVB",
         "EVD",
@@ -374,6 +384,7 @@
       "top_code": "BMW",
       "breadth_ex_top": -30.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AMV0",
         "BMW",
@@ -409,6 +420,7 @@
       "top_code": "ADN1",
       "breadth_ex_top": -38.46,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ADN1",
         "AOF",
@@ -443,10 +455,11 @@
       "median_growth": 11.68,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LEADING",
+      "quadrant": "THIN",
       "top_code": "EOAN",
       "breadth_ex_top": 100.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "EOAN",
         "RWE"
@@ -469,10 +482,11 @@
       "median_growth": 20.35,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "EMERGING",
+      "quadrant": "THIN",
       "top_code": "1U1",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": true,
       "stocks": [
         "1U1",
         "DTE",
@@ -497,10 +511,11 @@
       "median_growth": 31.26,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "CBK",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "CBK",
         "DBK",
@@ -525,10 +540,11 @@
       "median_growth": 41.89,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "NDA",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "NDA",
         "SZG"
@@ -551,10 +567,11 @@
       "median_growth": 8.5,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "EMERGING",
+      "quadrant": "THIN",
       "top_code": "LHA",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "DHL",
         "FRA",
@@ -579,10 +596,11 @@
       "median_growth": 30.58,
       "reaction_breadth": -33.33,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": "VOS",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "HEI",
         "HOT",
@@ -607,10 +625,11 @@
       "median_growth": 62.18,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": "KWS",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "KWS",
         "SZU"
@@ -639,6 +658,7 @@
       "top_code": "EKT",
       "breadth_ex_top": 50.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "EKT",
         "F3C",
@@ -670,6 +690,7 @@
       "top_code": "BAS",
       "breadth_ex_top": 14.29,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ACT0",
         "BAS",
@@ -702,6 +723,7 @@
       "top_code": "FYB",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "EVT",
         "FYB",
@@ -730,6 +752,7 @@
       "top_code": "AIXA",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AIXA",
         "ELG",
@@ -759,6 +782,7 @@
       "top_code": "INH",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ENR",
         "INH",
@@ -788,6 +812,7 @@
       "top_code": "8TRA",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "8TRA",
         "AIR",
@@ -818,6 +843,7 @@
       "top_code": "AAD",
       "breadth_ex_top": 22.22,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AAD",
         "BFSA",
@@ -852,6 +878,7 @@
       "top_code": "AT1",
       "breadth_ex_top": 12.5,
       "is_thin": false,
+      "has_divergence": true,
       "stocks": [
         "AT1",
         "BRNK",
@@ -885,6 +912,7 @@
       "top_code": "BSL",
       "breadth_ex_top": -16.67,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "1AST",
         "BSL",
@@ -916,6 +944,7 @@
       "top_code": "ADV",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ADV",
         "NOA3",
@@ -929,7 +958,7 @@
       "stock_count": 5,
       "usable_count": 5,
       "improving_count": 1,
-      "slowing_count": 1,
+      "slowing_count": 0,
       "stable_count": 3,
       "deteriorating_count": 1,
       "breadth": 0.0,
@@ -943,6 +972,7 @@
       "top_code": "DRW3",
       "breadth_ex_top": 25.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AFX",
         "DRW3",
@@ -972,6 +1002,7 @@
       "top_code": "CBK",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "CBK",
         "DBK",
@@ -1000,6 +1031,7 @@
       "top_code": "DOU",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "DOU",
         "FIE",
@@ -1027,6 +1059,7 @@
       "top_code": "HNR1",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "HNR1",
         "MUV2",
@@ -1054,6 +1087,7 @@
       "top_code": "JST",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AMV0",
         "CON",
@@ -1084,6 +1118,7 @@
       "top_code": "MLP",
       "breadth_ex_top": -66.67,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "DWS",
         "GLJ",
@@ -1112,6 +1147,7 @@
       "top_code": "ILM1",
       "breadth_ex_top": 0.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "BAYN",
         "DMP",
@@ -1140,6 +1176,7 @@
       "top_code": "HDD",
       "breadth_ex_top": -18.18,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "DEZ",
         "DUE",
@@ -1176,6 +1213,7 @@
       "top_code": "RDC",
       "breadth_ex_top": -50.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AG1",
         "DHER",
@@ -1207,6 +1245,7 @@
       "top_code": "ADN1",
       "breadth_ex_top": -33.33,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ADN1",
         "BC8",
@@ -1238,6 +1277,7 @@
       "top_code": "AOF",
       "breadth_ex_top": -60.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "AOF",
         "IXX",
@@ -1268,6 +1308,7 @@
       "top_code": "P911",
       "breadth_ex_top": -75.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "BMW",
         "MBG",
@@ -1297,6 +1338,7 @@
       "top_code": "ADS",
       "breadth_ex_top": -100.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "ADS",
         "BOSS",
@@ -1324,6 +1366,7 @@
       "top_code": "FRE",
       "breadth_ex_top": -100.0,
       "is_thin": false,
+      "has_divergence": false,
       "stocks": [
         "FME",
         "FRE",
@@ -1347,10 +1390,11 @@
       "median_growth": 11.68,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LEADING",
+      "quadrant": "THIN",
       "top_code": "EOAN",
       "breadth_ex_top": 100.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "EOAN",
         "RWE"
@@ -1373,10 +1417,11 @@
       "median_growth": 31.94,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "EMERGING",
+      "quadrant": "THIN",
       "top_code": "1U1",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": true,
       "stocks": [
         "1U1",
         "FNTN"
@@ -1399,10 +1444,11 @@
       "median_growth": 5.61,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "EMERGING",
+      "quadrant": "THIN",
       "top_code": "BEI",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": true,
       "stocks": [
         "BEI",
         "HEN3"
@@ -1425,10 +1471,11 @@
       "median_growth": 5.93,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "EMERGING",
+      "quadrant": "THIN",
       "top_code": "FRA",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "FRA",
         "SIX2"
@@ -1451,10 +1498,11 @@
       "median_growth": 9.04,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "FADING",
+      "quadrant": "THIN",
       "top_code": "CWC",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "CWC",
         "TUI1"
@@ -1477,10 +1525,11 @@
       "median_growth": 11.22,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "1SXP"
       ]
@@ -1502,10 +1551,11 @@
       "median_growth": 18.36,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "ALV",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "ALV",
         "WUW"
@@ -1528,10 +1578,11 @@
       "median_growth": 54.16,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "BVB",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "BVB",
         "EVD"
@@ -1554,10 +1605,11 @@
       "median_growth": 12.52,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 2,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "DB1",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "DB1",
         "FTK"
@@ -1580,10 +1632,11 @@
       "median_growth": -3.15,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "DBAN",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "DBAN",
         "MUX"
@@ -1606,10 +1659,11 @@
       "median_growth": 8.56,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "DHL"
       ]
@@ -1631,10 +1685,11 @@
       "median_growth": 20.35,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "DTE",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "DTE",
         "UTDI"
@@ -1657,10 +1712,11 @@
       "median_growth": 10.09,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "EIN"
       ]
@@ -1682,10 +1738,11 @@
       "median_growth": 23.93,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "HEI",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "HEI",
         "STO3"
@@ -1708,10 +1765,11 @@
       "median_growth": 23.37,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "IOS"
       ]
@@ -1733,10 +1791,11 @@
       "median_growth": 41.89,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": "NDA",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "NDA",
         "SZG"
@@ -1759,10 +1818,11 @@
       "median_growth": 18.75,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "OBCK"
       ]
@@ -1784,10 +1844,11 @@
       "median_growth": 62.1,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "OHB"
       ]
@@ -1809,10 +1870,11 @@
       "median_growth": 0.88,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "SDF"
       ]
@@ -1834,10 +1896,11 @@
       "median_growth": 10.3,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "SPG"
       ]
@@ -1859,10 +1922,11 @@
       "median_growth": 65.71,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "TNIE"
       ]
@@ -1884,10 +1948,11 @@
       "median_growth": 21.43,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": "PSM",
       "breadth_ex_top": -100.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "PSM",
         "RRTL"
@@ -1910,10 +1975,11 @@
       "median_growth": 38.73,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": "HOT",
       "breadth_ex_top": -100.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "HOT",
         "VOS"
@@ -1936,10 +2002,11 @@
       "median_growth": 62.18,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": "KWS",
       "breadth_ex_top": 0.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "KWS",
         "SZU"
@@ -1962,10 +2029,11 @@
       "median_growth": 17.12,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": -100.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "SAX"
       ]
@@ -1987,10 +2055,11 @@
       "median_growth": 33.33,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
-      "quadrant": "LAGGING",
+      "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": -100.0,
       "is_thin": true,
+      "has_divergence": false,
       "stocks": [
         "LHA"
       ]
@@ -2394,7 +2463,9 @@
         "base_eps": 0.66,
         "next_eps": 1.84,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +178.8% (0.66 -> 1.84 EUR)"
+        "summary": "FY27/FY26 growth: +178.8% (0.66 -> 1.84 EUR)",
+        "pre_growth_pct": 151.35,
+        "effective_growth_pct": 151.35
       },
       "consensus": {
         "reaction": "DOWN",
@@ -2582,7 +2653,9 @@
         "base_eps": 4.17,
         "next_eps": 5.77,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +38.4% (4.17 -> 5.77 EUR)"
+        "summary": "FY27/FY26 growth: +38.4% (4.17 -> 5.77 EUR)",
+        "pre_growth_pct": 39.04,
+        "effective_growth_pct": 38.37
       },
       "consensus": {
         "reaction": "DOWN",
@@ -2947,7 +3020,9 @@
         "base_eps": 0.6,
         "next_eps": 0.94,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +56.7% (0.60 -> 0.94 EUR)"
+        "summary": "FY27/FY26 growth: +56.7% (0.60 -> 0.94 EUR)",
+        "pre_growth_pct": 57.38,
+        "effective_growth_pct": 56.67
       },
       "consensus": {
         "reaction": "DOWN",
@@ -3513,7 +3588,9 @@
         "base_eps": 0.28,
         "next_eps": 0.34,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +21.4% (0.28 -> 0.34 EUR)"
+        "summary": "FY27/FY26 growth: +21.4% (0.28 -> 0.34 EUR)",
+        "pre_growth_pct": 14.89,
+        "effective_growth_pct": 14.89
       },
       "consensus": {
         "reaction": "DOWN",
@@ -4080,7 +4157,9 @@
         "base_eps": 6.15,
         "next_eps": 8.2,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +33.3% (6.15 -> 8.20 EUR)"
+        "summary": "FY27/FY26 growth: +33.3% (6.15 -> 8.20 EUR)",
+        "pre_growth_pct": 26.88,
+        "effective_growth_pct": 26.88
       },
       "consensus": {
         "reaction": "DOWN",
@@ -4267,7 +4346,9 @@
         "base_eps": 2.5,
         "next_eps": 2.89,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +15.6% (2.50 -> 2.89 EUR)"
+        "summary": "FY27/FY26 growth: +15.6% (2.50 -> 2.89 EUR)",
+        "pre_growth_pct": 19.25,
+        "effective_growth_pct": 15.6
       },
       "consensus": {
         "reaction": "DOWN",
@@ -4786,7 +4867,9 @@
         "base_eps": 1.18,
         "next_eps": 1.44,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +22.0% (1.18 -> 1.44 EUR)"
+        "summary": "FY27/FY26 growth: +22.0% (1.18 -> 1.44 EUR)",
+        "pre_growth_pct": 21.21,
+        "effective_growth_pct": 21.21
       },
       "consensus": {
         "reaction": "DOWN",
@@ -5546,7 +5629,9 @@
         "base_eps": -0.28,
         "next_eps": 0.33,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.28 -> 0.33 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-0.28 -> 0.33 EUR) [near-zero guard]",
+        "pre_growth_pct": 431.25,
+        "effective_growth_pct": 100.0
       },
       "consensus": {
         "reaction": "DOWN",
@@ -5906,7 +5991,9 @@
         "base_eps": 8.23,
         "next_eps": 8.66,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +5.2% (8.23 -> 8.66 EUR)"
+        "summary": "FY27/FY26 growth: +5.2% (8.23 -> 8.66 EUR)",
+        "pre_growth_pct": 4.18,
+        "effective_growth_pct": 4.18
       },
       "consensus": {
         "reaction": "DOWN",
@@ -5939,10 +6026,10 @@
         },
         "summary": "Reaction after 26Q3 (2026-10-29): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
-      "direction": "GROWTH_SLOWING",
+      "direction": "DETERIORATING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "PRESSURE",
+      "stance_reading": "Pressure: falling estimates, analysts silent",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -6467,7 +6554,9 @@
         "base_eps": 0.35,
         "next_eps": 3.42,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +877.1% (0.35 -> 3.42 EUR)"
+        "summary": "FY27/FY26 growth: +877.1% (0.35 -> 3.42 EUR)",
+        "pre_growth_pct": 84.52,
+        "effective_growth_pct": 84.52
       },
       "consensus": {
         "reaction": "DOWN",
@@ -8230,7 +8319,9 @@
         "base_eps": 3.96,
         "next_eps": 5.45,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +37.6% (3.96 -> 5.45 EUR)"
+        "summary": "FY27/FY26 growth: +37.6% (3.96 -> 5.45 EUR)",
+        "pre_growth_pct": 15.85,
+        "effective_growth_pct": 15.85
       },
       "consensus": {
         "reaction": "DOWN",
@@ -8419,7 +8510,9 @@
         "base_eps": 1.37,
         "next_eps": 1.61,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.5% (1.37 -> 1.61 EUR)"
+        "summary": "FY27/FY26 growth: +17.5% (1.37 -> 1.61 EUR)",
+        "pre_growth_pct": 23.94,
+        "effective_growth_pct": 17.52
       },
       "consensus": {
         "reaction": "DOWN",
@@ -8513,7 +8606,9 @@
         "base_eps": 1.73,
         "next_eps": 2.46,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +42.2% (1.73 -> 2.46 EUR)"
+        "summary": "FY27/FY26 growth: +42.2% (1.73 -> 2.46 EUR)",
+        "pre_growth_pct": 45.65,
+        "effective_growth_pct": 42.2
       },
       "consensus": {
         "reaction": "DOWN",
@@ -8966,7 +9061,9 @@
         "base_eps": 0.03,
         "next_eps": 0.11,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +0.0% (0.03 -> 0.11 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +0.0% (0.03 -> 0.11 EUR) [near-zero guard]",
+        "pre_growth_pct": 13.04,
+        "effective_growth_pct": 0.0
       },
       "consensus": {
         "reaction": "DOWN",
@@ -9004,6 +9101,7 @@
       "stance": "PRESSURE",
       "stance_reading": "Pressure: falling estimates, analysts silent",
       "flags": [
+        "SEVERE_CUT",
         "STALE_REPORT"
       ],
       "ups": 0,
@@ -9248,7 +9346,9 @@
         "base_eps": 0.31,
         "next_eps": 0.26,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -16.1% (0.31 -> 0.26 EUR)"
+        "summary": "FY27/FY26 growth: -16.1% (0.31 -> 0.26 EUR)",
+        "pre_growth_pct": 36.73,
+        "effective_growth_pct": -16.13
       },
       "consensus": {
         "reaction": "DOWN",
@@ -9286,7 +9386,8 @@
       "stance": "PRESSURE",
       "stance_reading": "Pressure: falling estimates, analysts silent",
       "flags": [
-        "CONFLICT"
+        "CONFLICT",
+        "SEVERE_CUT"
       ],
       "ups": 1,
       "downs": 3,
@@ -9623,7 +9724,9 @@
         "base_eps": 4.27,
         "next_eps": 5.36,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +25.5% (4.27 -> 5.36 EUR)"
+        "summary": "FY27/FY26 growth: +25.5% (4.27 -> 5.36 EUR)",
+        "pre_growth_pct": 38.65,
+        "effective_growth_pct": 25.53
       },
       "consensus": {
         "reaction": "DOWN",
@@ -10104,7 +10207,9 @@
         "base_eps": 2.02,
         "next_eps": 2.65,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +31.2% (2.02 -> 2.65 EUR)"
+        "summary": "FY27/FY26 growth: +31.2% (2.02 -> 2.65 EUR)",
+        "pre_growth_pct": 24.71,
+        "effective_growth_pct": 24.71
       },
       "consensus": {
         "reaction": "DOWN",
@@ -10291,7 +10396,9 @@
         "base_eps": 5.6,
         "next_eps": 6.28,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +12.1% (5.60 -> 6.28 EUR)"
+        "summary": "FY27/FY26 growth: +12.1% (5.60 -> 6.28 EUR)",
+        "pre_growth_pct": 13.02,
+        "effective_growth_pct": 12.14
       },
       "consensus": {
         "reaction": "DOWN",
@@ -10385,7 +10492,9 @@
         "base_eps": 2.18,
         "next_eps": 2.82,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +29.4% (2.18 -> 2.82 EUR)"
+        "summary": "FY27/FY26 growth: +29.4% (2.18 -> 2.82 EUR)",
+        "pre_growth_pct": 17.99,
+        "effective_growth_pct": 17.99
       },
       "consensus": {
         "reaction": "DOWN",
@@ -11606,7 +11715,9 @@
         "base_eps": 5.29,
         "next_eps": 5.76,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +8.9% (5.29 -> 5.76 EUR)"
+        "summary": "FY27/FY26 growth: +8.9% (5.29 -> 5.76 EUR)",
+        "pre_growth_pct": 17.71,
+        "effective_growth_pct": 8.88
       },
       "consensus": {
         "reaction": "DOWN",
@@ -12171,7 +12282,9 @@
         "base_eps": 4.58,
         "next_eps": 5.28,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +15.3% (4.58 -> 5.28 EUR)"
+        "summary": "FY27/FY26 growth: +15.3% (4.58 -> 5.28 EUR)",
+        "pre_growth_pct": 5.8,
+        "effective_growth_pct": 5.8
       },
       "consensus": {
         "reaction": "DOWN",
@@ -13548,7 +13661,9 @@
         "base_eps": -0.23,
         "next_eps": 0.78,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.23 -> 0.78 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-0.23 -> 0.78 EUR) [near-zero guard]",
+        "pre_growth_pct": 68.18,
+        "effective_growth_pct": 68.18
       },
       "consensus": {
         "reaction": "DOWN",
@@ -13738,7 +13853,9 @@
         "base_eps": -1.59,
         "next_eps": 0.2,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-1.59 -> 0.20 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-1.59 -> 0.20 EUR) [near-zero guard]",
+        "pre_growth_pct": 116.77,
+        "effective_growth_pct": 100.0
       },
       "consensus": {
         "reaction": "DOWN",
@@ -14273,7 +14390,9 @@
         "base_eps": 2.32,
         "next_eps": 2.87,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +23.7% (2.32 -> 2.87 EUR)"
+        "summary": "FY27/FY26 growth: +23.7% (2.32 -> 2.87 EUR)",
+        "pre_growth_pct": 10.98,
+        "effective_growth_pct": 10.98
       },
       "consensus": {
         "reaction": "DOWN",
@@ -14647,7 +14766,9 @@
         "base_eps": 2.92,
         "next_eps": 3.42,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.1% (2.92 -> 3.42 EUR)"
+        "summary": "FY27/FY26 growth: +17.1% (2.92 -> 3.42 EUR)",
+        "pre_growth_pct": 20.06,
+        "effective_growth_pct": 17.12
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17044,7 +17165,9 @@
         "base_eps": -0.63,
         "next_eps": 0.1,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.63 -> 0.10 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-0.63 -> 0.10 EUR) [near-zero guard]",
+        "pre_growth_pct": 163.33,
+        "effective_growth_pct": 100.0
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17329,7 +17452,9 @@
         "base_eps": 0.05,
         "next_eps": 0.39,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +680.0% (0.05 -> 0.39 EUR)"
+        "summary": "FY27/FY26 growth: +680.0% (0.05 -> 0.39 EUR)",
+        "pre_growth_pct": 131.58,
+        "effective_growth_pct": 131.58
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17697,7 +17822,9 @@
         "base_eps": 2.3,
         "next_eps": 3.48,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +51.3% (2.30 -> 3.48 EUR)"
+        "summary": "FY27/FY26 growth: +51.3% (2.30 -> 3.48 EUR)",
+        "pre_growth_pct": 46.12,
+        "effective_growth_pct": 46.12
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17791,7 +17918,9 @@
         "base_eps": 12.18,
         "next_eps": 19.06,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +56.5% (12.18 -> 19.06 EUR)"
+        "summary": "FY27/FY26 growth: +56.5% (12.18 -> 19.06 EUR)",
+        "pre_growth_pct": 24.77,
+        "effective_growth_pct": 24.77
       },
       "consensus": {
         "reaction": "DOWN",

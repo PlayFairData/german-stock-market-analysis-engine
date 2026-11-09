@@ -1,0 +1,399 @@
+{
+ "date": "2026-11-09",
+ "generated": "2026-11-09 18:40:15",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 39
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 19
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  }
+ },
+ "total": 40,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Deutsche Bank AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten V",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-pvr-deutsche-bank-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-11-09",
+   "sentiment": "BUY",
+   "news": "BMW will mehr Batteriezellen aus Europa und den USA kaufen",
+   "link": "https://www.onvista.de/news/2026/11-09-bmw-will-mehr-batteriezellen-aus-europa-und-den-usa-kaufen-0-10-26574007",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Beiersdorf Aktiengesellsc",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-beiersdorf-aktiengesellschaft-bekanntmachung-gemaess-art-5-abs-1-lit-b-der-verordnung-eu-nr-596-2014-und-art-2-abs-2-und-3-der-delegierten-v",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: DHL AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-dhl-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574156",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Vodafone Deutschland streicht fast jede fuenfte Stelle",
+   "link": "https://www.onvista.de/news/2026/11-09-vodafone-deutschland-streicht-fast-jede-fuenfte-stelle-0-20-26574269",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Fresenius Medical Care AG : Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-fresenius-medical-care-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574122",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Anlagenbauer Gea waechst weniger als erwartet - Auftraege stark",
+   "link": "https://www.onvista.de/news/2026/11-09-roundup-2-anlagenbauer-gea-waechst-weniger-als-erwartet-auftraege-stark-0-10-26574192",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: RWE Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-rwe-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574066",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Mercedes-Benz Group AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-mercedes-benz-group-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574103",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Siemens Hea",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-dd-siemens-healthineers-ag-darleen-caron-programmbasierter-auftrag-zum-verkauf-eines-anteils-von-11-437-siemens-healthineers-aktien-zur-begleichung-der-steuer-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 09.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-09-dpa-afx-ueberblick-unternehmen-vom-09-11-2026-15-15-uhr-0-10-26574186",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Hannover Rueck will Rekordgewinn zugunsten von Reserven deckeln",
+   "link": "https://www.onvista.de/news/2026/11-09-roundup-hannover-rueck-will-rekordgewinn-zugunsten-von-reserven-deckeln-0-10-26574094",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Scout24 SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-scout24-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574141",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Kreise: Weiterhin keine Verhandlungen zwischen BASF und Evonik",
+   "link": "https://www.onvista.de/news/2026/11-09-kreise-weiterhin-keine-verhandlungen-zwischen-basf-und-evonik-0-10-26574223",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: Unicredit will bei Commerzbank schnell das Kommando uebernehmen",
+   "link": "https://www.onvista.de/news/2026/11-09-roundup-3-unicredit-will-bei-commerzbank-schnell-das-kommando-uebernehmen-0-10-26574215",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Mercedes-Benz Group AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-mercedes-benz-group-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574103",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "WOCHENAUSBLICK: Dax zwischen KI-Sorgen und Iran-Hoffnung auf Richtungssuche",
+   "link": "https://www.onvista.de/news/2026/11-09-wochenausblick-dax-zwischen-ki-sorgen-und-iran-hoffnung-auf-richtungssuche-0-10-26573940",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Fresenius SE & Co. KGaA: Dr. Christian  Pawlu, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-dd-fresenius-se-co-kgaa-dr-christian-pawlu-kauf-0-37-26574055",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Siemens Hea",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-dd-siemens-healthineers-ag-darleen-caron-programmbasierter-auftrag-zum-verkauf-eines-anteils-von-11-437-siemens-healthineers-aktien-zur-begleichung-der-steuer-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Airbus startet Milliardenprogramm fuer Aktienrueckkauf",
+   "link": "https://www.onvista.de/news/2026/11-09-airbus-beginnt-aktienrueckkauf-800-mio-euro-noch-in-diesem-jahr-0-20-26574012",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax schafft es nach Korrektur wieder ueber 26.000 Punkte",
+   "link": "https://www.onvista.de/news/2026/11-09-aktien-frankfurt-dax-schafft-es-nach-korrektur-wieder-ueber-26-000-punkte-0-10-26574158",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Nordex Group erschliesst albanischen Markt mit 84-MW-Auftrag von Verbund",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-news-nordex-group-erschliesst-albanischen-markt-mit-84-mw-auftrag-von-verbund-0-37-26573973",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SMHN",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: SUSS MicroTec SE: Burkhardt Frick, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-dd-suss-microtec-se-burkhardt-frick-kauf-0-37-26574190",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Deutsche Telekom erweitert ihr KI-Rechenzentrum",
+   "link": "https://www.onvista.de/news/2026/11-09-deutsche-telekom-erweitert-ihr-ki-rechenzentrum-0-20-26574069",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Patrizia optimistischer fuer Gewinn 2026 - Vorsichtiger fuer verwaltetes Vermoegen",
+   "link": "https://www.onvista.de/news/2026/11-09-patrizia-optimistischer-fuer-gewinn-2026-vorsichtiger-fuer-verwaltetes-vermoegen-0-10-26574277",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Kreise: Weiterhin keine Verhandlungen zwischen BASF und Evonik",
+   "link": "https://www.onvista.de/news/2026/11-09-kreise-weiterhin-keine-verhandlungen-zwischen-basf-und-evonik-0-10-26574223",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: HENSOLDT AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-pvr-hensoldt-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Shelly Group: Einladung zum Earnings Webcast/Call am 11. November 2026 zu den un",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-news-shelly-group-einladung-zum-earnings-webcast-call-am-11-november-2026-zu-den-ungepru",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Cewe passt Gewinnausblick 2026 an - Grund: Kosten fuer Kodak-Moments-Uebernahme",
+   "link": "https://www.onvista.de/news/2026/11-09-cewe-passt-gewinnausblick-2026-an-grund-kosten-fuer-kodak-moments-uebernahme-0-10-26574236",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: CANCOM SE: Vorabbekanntmachung ueber die Veroeffentlichung von Finanzberichten gemaess §",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-afr-cancom-se-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HYQ",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Hypoport mit solidem Rohertragswachstum und EBIT-Steigerung in den ersten neun Monaten 2026",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-news-hypoport-mit-solidem-rohertragswachstum-und-ebit-steigerung-in-den-erste",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "EVT",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Evotec SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-evotec-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574116",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TPE",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: PVA TePla AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-pvr-pva-tepla-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "DBAN",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Deutsche Beteiligungs AG: Green Datahub Rechenzentren erfolgreich veraeussert",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-news-deutsche-beteiligungs-ag-green-datahub-rechenzentren-erfolgreich-veraeussert-0-37-2657",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares unterzeichnet Vereinbarun",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-news-mutares-unterzeichnet-vereinbarung-zum-verkauf-der-magirus-firefighter-business-unit-an-morita-holdings-corporation-defense-gescha",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TeamViewer SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-pvr-teamviewer-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "PAT",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "Patrizia optimistischer fuer Gewinn 2026 - Vorsichtiger fuer verwaltetes Vermoegen",
+   "link": "https://www.onvista.de/news/2026/11-09-patrizia-optimistischer-fuer-gewinn-2026-vorsichtiger-fuer-verwaltetes-vermoegen-0-10-26574277",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-11-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Stabilus SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-09-eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26574039",
+   "source": "EQS Group"
+  }
+ ]
+}
