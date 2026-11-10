@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated": "2026-11-09 18:39:39",
- "today": "2026-11-09",
+ "generated": "2026-11-10 19:15:07",
+ "today": "2026-11-10",
  "counts": {
-  "total": 3176,
-  "upcoming": 138,
-  "history": 3038,
+  "total": 3177,
+  "upcoming": 135,
+  "history": 3042,
   "codes": 172
  },
  "marks": {
@@ -1413,7 +1413,7 @@
   "AMV0": [
    {
     "date": "2027-02-24",
-    "desc": "Telefonkonferenz",
+    "desc": "Pressekonferenz",
     "src": "pm"
    },
    {
@@ -2398,6 +2398,11 @@
    }
   ],
   "BRNK": [
+   {
+    "date": "2026-12-31",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-12-31",
     "desc": "Veröffentlichung Halbjahresfinanzbericht",
@@ -4289,7 +4294,7 @@
   "DRW3": [
    {
     "date": "2027-03-17",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Analystenveranstaltung",
     "src": "pm"
    },
    {
@@ -5762,7 +5767,7 @@
   "FIE": [
    {
     "date": "2027-04-22",
-    "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q1)",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
     "src": "pm"
    },
    {
@@ -6083,7 +6088,7 @@
   "FPE3": [
    {
     "date": "2027-03-19",
-    "desc": "Telefonkonferenz",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
     "src": "pm"
    },
    {
@@ -9726,7 +9731,7 @@
   "LPK": [
    {
     "date": "2027-03-24",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Analystenveranstaltung",
     "src": "pm"
    },
    {

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EPS Report</title>
+<!-- Static viewer -- written ONCE and never regenerated (the stage_report.html /
+     typelink_news.py pattern).  All data comes from the .js data holder written
+     by `tl_eps_trend.py --html` (file://-safe <script src>, never fetch --
+     browsers block fetch() of local json on file://):
+       epsReport/eps_report_data.js   window.EPS_DATA
+     Regenerating the report overwrites ONLY the holder; this file is never
+     touched by the script and can be hand-edited freely. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
+           padding: 24px; background: #fff; color: #202124; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    h2 { font-size: 1.05rem; margin: 26px 0 8px; }
+    h3 { font-size: .98rem; margin: 18px 0 4px; color: #3c4043; }
+    .meta { color: #70757a; font-size: .85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 14px; font-size: .92rem; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    table.matrix { border-collapse: collapse; font-size: .98rem; }
+    table.matrix td { padding: 11px 26px 11px 0;
+        text-align: left; border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.matrix td:first-child { font-weight: 600; }
+    table.matrix tr:hover { background: #f8f9fa; }
+
+    .view-toggle { margin: 0 0 14px; font-size: .9rem; }
+    .view-toggle button { padding: 5px 16px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .view-toggle button:hover { background: #f1f3f4; }
+    .view-toggle button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; font-weight: 600; }
+
+    table.matrix td.col-exp { background: #fafcff; }
+    body.std-only table.matrix td.col-exp { display: none; }
+    body.std-only .idx-exp { display: none; }
+    .exp-tag { font-size: .7em; color: #9aa0a6; font-weight: 400; }
+
+    pre.detail { background: #f8f9fa; border: 1px solid #e8eaed; border-radius: 6px;
+        padding: 14px; overflow-x: auto; font-size: 12.5px; line-height: 1.45;
+        font-family: Consolas, 'Courier New', monospace; }
+    .table-wrap { overflow-x: auto; margin: 4px 0 12px; }
+    table.eps { border-collapse: collapse; font-size: .86rem; white-space: nowrap; }
+    table.eps th, table.eps td { border-bottom: 1px solid #ececec;
+        padding: 4px 10px 4px 0; text-align: left; }
+    table.eps th { background: #f8f9fa; font-weight: 600; }
+    table.eps tr:hover { background: #f8f9fa; }
+    .sec-h { font-weight: 600; font-size: .9rem; margin: 10px 0 4px; }
+    .sec-meta { color: #70757a; font-size: .8rem; margin: -2px 0 8px; }
+
+    details.eps-stock { margin: 2px 0; }
+    details.eps-stock > summary { cursor: pointer; font-weight: 600;
+        font-size: .95rem; padding: 4px 0; color: #1a73e8; }
+    details.eps-stock > summary:hover { text-decoration: underline; }
+    .eps-period { margin: 2px 0 10px 16px; font-size: .84rem; color: #5f6368; }
+    .eps-period pre { margin: 2px 0 0; }
+
+    /* section = collapsed <details>: title is the heading, click to expand */
+    details.sec > summary { font-size: .98rem; font-weight: 600; color: #3c4043;
+        cursor: pointer; padding: 7px 0 5px; margin-top: 14px; }
+    details.sec > summary:hover { color: #1a73e8; }
+    details.sec > summary::marker { color: #202124; }
+    details.sec[open] > summary { margin-bottom: 6px; }
+
+    .idx-block, .sec { scroll-margin-top: 8px; }
+    .flash { animation: chipFlash 1.4s ease-out; }
+    @keyframes chipFlash { from { background: #fff3c4; } to { background: transparent; } }
+
+    /* stock search (delist.js -- tl_delistjson.py) */
+    .search-bar { margin: 0 0 12px; font-size: .9rem; }
+    .search-bar input { font-size: .95rem; padding: 4px 8px; border: 1px solid #dadce0;
+        border-radius: 6px; width: 210px; }
+    .search-bar button { padding: 4px 10px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .search-bar button:hover { background: #f1f3f4; }
+
+    /* search results modal */
+    .modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0,0,0,.45); z-index: 1000; align-items: center;
+        justify-content: center; padding: 14px; }
+    .modal-backdrop.open { display: flex; }
+    .modal-card { background: #fff; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,.22);
+        width: 100%; max-width: 620px; max-height: 85vh; display: flex; flex-direction: column;
+        overflow: hidden; animation: modalIn .12s ease-out; }
+    @keyframes modalIn { from { opacity: 0; transform: scale(.97); } to { opacity: 1; transform: scale(1); } }
+    .modal-header { display: flex; justify-content: space-between; align-items: center;
+        padding: 10px 14px; border-bottom: 1px solid #dadce0; background: #f8f9fa; }
+    .modal-header h3 { margin: 0; font-size: 1.02rem; color: #202124; }
+    .modal-close { background: none; border: none; font-size: 1.5rem; line-height: 1;
+        cursor: pointer; color: #5f6368; padding: 0 4px; }
+    .modal-close:hover { color: #202124; }
+    .modal-body { padding: 12px 14px; overflow-y: auto; }
+    .stock-item { padding: 8px 0; border-bottom: 1px solid #f1f3f4; }
+    .stock-item:last-child { border-bottom: none; }
+    .stock-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .stock-code { font-weight: 700; color: #1a73e8; font-size: .95rem; }
+    a.stock-code { cursor: pointer; }
+    .stock-badge { display: inline-block; padding: 1px 7px; border-radius: 4px;
+        font-size: .74rem; background: #f1f3f4; color: #5f6368; }
+    .stock-sum { font-size: .84rem; color: #3c4043; }
+</style>
+</head>
+<body class="std-only">
+<h1>EPS Estimate Revision Report</h1>
+<div class="crumb"><a href="stage_report.html">&#128202; State</a> &middot;
+    <a href="news/index.html">&#128240; News</a> &middot;
+    <a href="event/index.html">&#128197; Events</a> &middot;
+    <b>&#128200; EPS</b> &middot;
+    <a href="index.html">&#128214; Guide</a></div>
+<div class="meta" id="meta">loading data holder ...</div>
+<div class="view-toggle">View: <button id="viewStd" type="button" title="show DAX, MDAX, SDAX only">Standard</button>
+    <button id="viewAll" type="button" title="also show experimental PDAX, CDAX">All incl. experimental</button></div>
+<div class="search-bar">Search: <input id="epsSearch" list="epsCodes" placeholder="code / WKN / ISIN / name" autocomplete="off"><datalist id="epsCodes"></datalist> <button id="epsGo" type="button">&#128269;</button></div>
+<div class="crumb">rows = report type &middot; cells = index &mdash; click an index name to jump to that section, click a section title (&#9654;) to expand its stocks.</div>
+<table class="matrix" id="matrix">
+<tbody id="matrixBody"></tbody>
+</table>
+<div id="content"></div>
+
+<div id="stockModal" class="modal-backdrop" onclick="closeStockModal(event)"><div class="modal-card">
+<div class="modal-header"><h3 id="modalTitle">Stocks</h3>
+<button type="button" class="modal-close" onclick="closeStockModal()">&times;</button></div>
+<div class="modal-body" id="modalBody"></div>
+</div></div>
+
+<script src="epsReport/eps_report_data.js"></script>
+<script src="delist.js"></script>
+<script>
+(function () {
+  var KEY = 'eps_report_view';
+  function apply(mode) {
+    var stdOnly = (mode !== 'all');
+    document.body.classList.toggle('std-only', stdOnly);
+    var bStd = document.getElementById('viewStd');
+    var bAll = document.getElementById('viewAll');
+    if (bStd) bStd.classList.toggle('active', stdOnly);
+    if (bAll) bAll.classList.toggle('active', !stdOnly);
+    try { localStorage.setItem(KEY, stdOnly ? 'std' : 'all'); } catch (e) {}
+  }
+  function init() {
+    var mode = 'std';
+    try { mode = localStorage.getItem(KEY) || 'std'; } catch (e) {}
+    apply(mode);
+    document.getElementById('viewStd').addEventListener('click', function () { apply('std'); });
+    document.getElementById('viewAll').addEventListener('click', function () { apply('all'); });
+  }
+  init();
+})();
+</script>
+<script>
+(function () {
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  var meta = document.getElementById('meta');
+  var D = window.EPS_DATA;
+  if (!D) {
+    meta.textContent = 'no data holder found -- run: python C:\\nb\\bin\\WSHOME\\tl_eps_trend.py --html';
+    return;
+  }
+  var EXP = { PDAX: 1, CDAX: 1 };
+  var total = 0;
+  Object.keys(D.totals || {}).forEach(function (i) { total += D.totals[i] || 0; });
+  meta.innerHTML = 'generated ' + esc(D.generated) + ' &middot; periods ' +
+    esc(D.periods) + ' &middot; ' + total + ' stocks across ' +
+    (D.indexes || []).length + ' indexes';
+
+  // ---- matrix: rows = report types, cells = index links -----------------
+  var body = '';
+  (D.types || []).forEach(function (t) {
+    body += '<tr><td>' + esc(t.label) + '</td>';
+    (D.indexes || []).forEach(function (i) {
+      var s = (D.counts[i] || {})[t.id];
+      var exp = EXP[i] ? ' class="col-exp"' : '';
+      var info = (s == null) ? 'no data' : (s + ' stock' + (s === 1 ? '' : 's'));
+      body += '<td' + exp + '><a href="#sec-' + i + '-' + t.id + '" title="' +
+        esc(t.label + ' / ' + i + ' \u2014 ' + info + ' \u2014 click to jump') +
+        '">' + esc(i) + '</a>' +
+        (EXP[i] ? ' <span class="exp-tag">experimental</span>' : '') + '</td>';
+    });
+    body += '</tr>';
+  });
+  document.getElementById('matrixBody').innerHTML = body;
+
+  // ---- sections (index part -> type sections with the pre-rendered html) -
+  var out = '';
+  (D.indexes || []).forEach(function (i) {
+    out += '<div class="idx-block' + (EXP[i] ? ' idx-exp' : '') + '" id="idx-' + i +
+      '"><h2>' + esc(i) + ' <span class="sec-meta">(' + ((D.totals || {})[i] || 0) +
+      ' stocks)</span>' + (EXP[i] ? ' <span class="exp-tag">experimental</span>' : '') +
+      '</h2>';
+    (D.types || []).forEach(function (t) {
+      var s = (D.sections[i] || {})[t.id];
+      out += '<details class="sec" id="sec-' + i + '-' + t.id + '"><summary>' +
+        esc(t.label) + ' &mdash; ' + esc(i) + '</summary>';
+      if (s && s.html) {
+        if (s.count || s.periods) {
+          out += '<div class="sec-meta">' + (s.count || 0) + ' stocks' +
+            (s.periods ? ' &middot; periods ' + esc(s.periods) : '') + '</div>';
+        }
+        out += s.html;
+      } else {
+        out += '<p class="meta">no data</p>';
+      }
+      out += '</details>';
+    });
+    out += '</div>';
+  });
+  document.getElementById('content').innerHTML = out;
+
+  // deep link (#idx-DAX / #sec-DAX-report / #s-SAP): those anchors only exist
+  // after this render, so re-scroll once the content is in the DOM.  A target
+  // inside an experimental index is hidden by the Standard view -- switch to
+  // "All incl. experimental" first, otherwise scrollIntoView() no-ops.
+  if (location.hash) {
+    var el = null;
+    try { el = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (e) {}
+    if (el) {
+      if (el.offsetParent === null && document.body.classList.contains('std-only')) {
+        document.getElementById('viewAll').click();
+      }
+      el.scrollIntoView();
+      el.classList.add('flash');
+      setTimeout(function () { el.classList.remove('flash'); }, 1500);
+    }
+  }
+})();
+</script>
+<script>
+// ---- stock search (pilot: code / WKN / ISIN / fullname / ovname / name) ----
+// window.DELIST.stocks comes from delist.js (tl_delistjson.py), merged with
+// this report's own stocks for codes the csv misses (source drift: OHB/ACT0
+// are in the report, ACT/KCO/WUW only in the csv -- see searchRecords()).
+// The jump target is the #s-<CODE> <details class="eps-stock"> written by
+// tl_eps_trend.py: collapsed <details class="sec"> ancestors are opened
+// first, a target in an experimental index switches Standard -> All first.
+// (Matrix section jumps stay scroll-only -- only stock search opens sections.)
+function esc(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function closeStockModal(e) {
+  if (!e || e.target === document.getElementById('stockModal') ||
+      (e.target.classList && e.target.classList.contains('modal-close'))) {
+    document.getElementById('stockModal').classList.remove('open');
+  }
+}
+function searchRecords() {
+  var seen = {}, out = [];
+  ((window.DELIST && window.DELIST.stocks) || []).forEach(function (r) {
+    if (r && r.Code) { seen[r.Code.toUpperCase()] = 1; out.push(r); }
+  });
+  var S = (window.EPS_DATA && window.EPS_DATA.stocks) || {};
+  Object.keys(S).forEach(function (c) {
+    if (seen[c.toUpperCase()]) return;
+    var v = S[c] || {};
+    out.push({ Code: c, WKN: String(v.wkn || '').trim(), ISIN: v.isin || '',
+      FullName: v.fullname || '', ovname: v.ovname || '', Name: v.name || '',
+      Markt: v.markt || '' });
+  });
+  return out;
+}
+function searchDelist(q) {
+  var list = searchRecords();
+  if (!list.length) return null;
+  var qu = q.toUpperCase(), ql = q.toLowerCase();
+  var hits = [];
+  list.forEach(function (r) {
+    var code = (r.Code || '').toUpperCase();
+    var rank = -1;
+    if (code && code.indexOf(qu) === 0) rank = 0;
+    else if (r.WKN && String(r.WKN).toUpperCase().indexOf(qu) === 0) rank = 1;
+    else if (r.ISIN && String(r.ISIN).toUpperCase().indexOf(qu) === 0) rank = 1;
+    else if (r.FullName && String(r.FullName).toLowerCase().indexOf(ql) >= 0) rank = 2;
+    else if (r.ovname && String(r.ovname).toLowerCase().indexOf(ql) >= 0) rank = 2;
+    else if (r.Name && String(r.Name).toLowerCase().indexOf(ql) >= 0) rank = 2;
+    if (rank >= 0) hits.push({ r: r, code: code, rank: rank });
+  });
+  hits.sort(function (a, b) {
+    if (a.rank !== b.rank) return a.rank - b.rank;
+    return a.code < b.code ? -1 : (a.code > b.code ? 1 : 0);
+  });
+  return hits;
+}
+function searchMsg(title, html) {
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalBody').innerHTML = html;
+  document.getElementById('stockModal').classList.add('open');
+}
+function jumpStock(code) {
+  var el = document.getElementById('s-' + code);
+  if (!el) return false;
+  document.getElementById('stockModal').classList.remove('open');
+  var p = el.parentElement;                    // open collapsed section ancestors
+  while (p) { if (p.tagName === 'DETAILS') p.open = true; p = p.parentElement; }
+  if (el.offsetParent === null &&              // experimental + Standard view
+      document.body.classList.contains('std-only')) {
+    document.getElementById('viewAll').click();
+  }
+  el.scrollIntoView();
+  el.classList.add('flash');
+  setTimeout(function () { el.classList.remove('flash'); }, 1500);
+  return true;
+}
+function openSearchResults(q, hits) {
+  var h = '';
+  if (!hits.length) {
+    h = '<p class="meta">No match for &quot;' + esc(q) +
+        '&quot; in code / WKN / ISIN / fullname / ovname / name.</p>';
+  } else {
+    var CAP = 30;
+    h += '<p class="meta">' + hits.length + ' match' +
+         (hits.length === 1 ? '' : 'es') + ' (code / WKN / ISIN / name) ' +
+         '&mdash; click a code to jump:</p>';
+    hits.slice(0, CAP).forEach(function (x) {
+      var r = x.r, c = x.code;
+      var here = !!document.getElementById('s-' + c);
+      var nm = r.FullName || r.ovname || r.Name || '';
+      h += '<div class="stock-item"><div class="stock-head">' +
+        (here ? '<a class="stock-code" data-code="' + esc(c) + '" href="#s-' +
+                esc(c) + '">' + esc(c) + '</a>'
+              : '<span class="stock-code">' + esc(c) + '</span>') +
+        (r.Markt ? '<span class="stock-badge">' + esc(r.Markt) + '</span>' : '') +
+        (r.WKN ? '<span class="stock-badge">WKN ' + esc(r.WKN) + '</span>' : '') +
+        (r.ISIN ? '<span class="stock-badge">' + esc(r.ISIN) + '</span>' : '') +
+        '</div><div class="stock-sum">' + esc(nm) +
+        (here ? '' : ' &middot; not in this EPS report') + '</div></div>';
+    });
+    if (hits.length > CAP) {
+      h += '<p class="meta">+ ' + (hits.length - CAP) +
+           ' more &mdash; narrow the query.</p>';
+    }
+  }
+  searchMsg('Search \u2013 ' + q, h);
+}
+function doSearch() {
+  var q = (document.getElementById('epsSearch').value || '').trim();
+  if (!q) return;
+  var hits = searchDelist(q);
+  if (!hits) {
+    searchMsg('Search \u2013 ' + q, '<p class="meta">Search data not found ' +
+      '&mdash; run: python C:\\nb\\bin\\WSHOME\\tl_delistjson.py</p>');
+    return;
+  }
+  if (hits.length === 1) {
+    var x = hits[0];
+    if (!jumpStock(x.code)) {
+      var r = x.r;
+      searchMsg('Search \u2013 ' + q, '<p class="meta">' + esc(x.code) +
+        (r.Markt ? ' (' + esc(r.Markt) + ')' : '') +
+        ' is not in this EPS report.</p>');
+    }
+    return;
+  }
+  openSearchResults(q, hits);
+}
+(function () {
+  var dl = document.getElementById('epsCodes');
+  if (dl) {
+    var dh = '';
+    var DS = searchRecords();       // code values + name labels (delist + report)
+    if (DS.length) {
+      DS.forEach(function (r) {
+        var c = (r.Code || '').toUpperCase();
+        if (!c) return;
+        var nm = r.FullName || r.ovname || r.Name || '';
+        dh += '<option value="' + esc(c) + '"' +
+          (nm ? ' label="' + esc(nm) + '"' : '') + '>';
+      });
+    }
+    dl.innerHTML = dh;
+  }
+  document.getElementById('epsGo').addEventListener('click', doSearch);
+  document.getElementById('epsSearch').addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); doSearch(); }
+  });
+  document.getElementById('modalBody').addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t.getAttribute || !t.getAttribute('data-code')) return;
+    e.preventDefault();
+    jumpStock(t.getAttribute('data-code'));
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.getElementById('stockModal').classList.remove('open');
+  });
+  // deep link #s-CODE: the render pass above cannot scroll into a collapsed
+  // section -- jump again with the ancestors opened.
+  if (location.hash.indexOf('#s-') === 0) {
+    var c = '';
+    try { c = decodeURIComponent(location.hash.slice(3)); } catch (e) {}
+    if (c) jumpStock(c);
+  }
+})();
+</script>
+</body>
+</html>
