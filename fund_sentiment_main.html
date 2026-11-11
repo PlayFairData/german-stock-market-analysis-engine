@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PlayFair – Fundamental & Sentiment Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0; padding: 24px; background: #fff; color: #202124; line-height: 1.5; }
+    h1 { font-size: 1.35rem; margin: 0 0 4px; font-weight: 700; color: #0f172a; }
+    h2 { font-size: 1.05rem; margin: 26px 0 10px; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.5px; }
+    .meta { color: #64748b; font-size: 0.85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 16px; font-size: 0.92rem; color: #64748b; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .search-bar { margin: 0 0 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .search-bar input { font-size: 0.95rem; padding: 6px 12px; border: 1px solid #dadce0; border-radius: 6px; width: 260px; outline: none; }
+    .search-bar input:focus { border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,0.15); }
+    .search-bar button { padding: 6px 12px; border: 1px solid #dadce0; background: #f8f9fa; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+    .search-bar button:hover { background: #e8f0fe; border-color: #1a73e8; color: #1a73e8; }
+
+    .grid-indexes { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-bottom: 24px; }
+    .idx-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; transition: transform 0.1s ease; }
+    .idx-card:hover { transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,0.06); }
+    .idx-card .title { font-size: 1.1rem; font-weight: 700; color: #0f172a; margin-bottom: 4px; display: flex; justify-content: space-between; }
+    .idx-card .title a { color: #1a73e8; }
+    .idx-card .stats { font-size: 0.82rem; color: #475569; margin-top: 6px; line-height: 1.4; }
+
+    .pill { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; }
+    .pill.improving, .pill.supportive, .pill.leading { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .pill.growth_slowing, .pill.fading { background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; }
+    .pill.stable, .pill.emerging, .pill.neutral { background: #fefce8; color: #ca8a04; border: 1px solid #fef08a; }
+    .pill.deteriorating, .pill.lagging, .pill.pressure { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+    .pill.conflict { background: #faf5ff; color: #9333ea; border: 1px solid #e9d5ff; }
+    .pill.thin, .pill.dim { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
+
+    .filter-bar { margin: 12px 0 14px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .filter-bar span { font-size: 0.85rem; font-weight: 600; color: #475569; margin-right: 4px; }
+    .filter-bar button { padding: 4px 12px; border: 1px solid #dadce0; background: #fff; border-radius: 6px; cursor: pointer; font-size: 0.82rem; font-weight: 600; color: #475569; }
+    .filter-bar button:hover { background: #f1f3f4; }
+    .filter-bar button.active { background: #e8f0fe; border-color: #1a73e8; color: #1a73e8; }
+
+    table.dataTable { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin-top: 8px; }
+    table.dataTable th, table.dataTable td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.dataTable th { background: #f8fafc; font-weight: 600; color: #475569; border-bottom: 2px solid #cbd5e1; cursor: pointer; user-select: none; }
+    table.dataTable th:hover { background: #f1f5f9; color: #0f172a; }
+    table.dataTable tr:hover { background: #f8fafc; }
+    table.dataTable td.code { font-weight: 700; color: #1a73e8; cursor: pointer; }
+    table.dataTable td.code:hover { text-decoration: underline; }
+
+    .attention-box { background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 12px 16px; margin-bottom: 20px; }
+    .attention-item { display: flex; align-items: center; gap: 12px; padding: 6px 0; border-bottom: 1px solid #fef3c7; font-size: 0.84rem; }
+    .attention-item:last-child { border-bottom: none; }
+    .attention-item strong { cursor: pointer; color: #1a73e8; width: 55px; }
+
+    /* Modal Backdrop & Dialog */
+    .modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.45); z-index: 1000; align-items: center; justify-content: center; padding: 14px; }
+    .modal-backdrop.open { display: flex; }
+    .modal-card { background: #fff; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.22); width: 100%; max-width: 650px; max-height: 88vh; display: flex; flex-direction: column; overflow: hidden; animation: modalIn 0.12s ease-out; }
+    @keyframes modalIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+    .modal-header { display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; border-bottom: 1px solid #dadce0; background: #f8f9fa; }
+    .modal-header h3 { margin: 0; font-size: 1.05rem; color: #202124; display: flex; align-items: center; gap: 8px; }
+    .modal-close { background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #5f6368; }
+    .modal-close:hover { color: #202124; }
+    .modal-body { padding: 16px 18px; overflow-y: auto; font-size: 0.88rem; line-height: 1.45; }
+    .card-block { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px 14px; margin-bottom: 12px; }
+    .card-block h4 { margin: 0 0 6px; font-size: 0.85rem; color: #475569; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e2e8f0; font-size: 0.8rem; color: #94a3b8; text-align: center; }
+</style>
+</head>
+<body>
+
+    <h1>PlayFair – Fundamental & Sentiment Cognition Suite</h1>
+    <div class="crumb">
+        <a href="stage_report.html">&#127919; State Report</a> &middot;
+        <a href="eps_report.html">&#128200; EPS Report</a> &middot;
+        <a href="sector_rotation.html">&#128257; Price Rotation</a> &middot;
+        <a href="news/index.html">&#128240; News</a> &middot;
+        <a href="event/index.html">&#128197; Events</a> &middot;
+        <a href="fund_sent/fund_sentiment_sector_and_sub.html">&#128202; Sector & Subsector Hub</a>
+    </div>
+    <div class="meta" id="meta">loading data holder ...</div>
+
+    <!-- Search Pilot -->
+    <div class="search-bar">
+        <strong>Stock Search:</strong>
+        <input id="stkSearch" list="stkCodes" placeholder="Ticker / WKN / ISIN / Company Name" autocomplete="off">
+        <datalist id="stkCodes"></datalist>
+        <button id="stkGo" type="button">&#128269; Jump to Card</button>
+    </div>
+
+    <!-- Benchmark Index Matrix -->
+    <h2>Benchmark Indices Rollup</h2>
+    <div class="grid-indexes" id="indexGrid"></div>
+
+    <!-- Sector Rotation Leadership Overview -->
+    <h2>Sector Rotation Leadership</h2>
+    <div id="sectorOverview" style="margin-bottom: 24px;"></div>
+
+    <!-- Attention Watchlist -->
+    <div id="attentionSection" style="display:none;">
+        <h2>Attention & Conflict Watchlist</h2>
+        <div class="attention-box" id="attentionBox"></div>
+    </div>
+
+    <!-- Full Stock Universe Section -->
+    <h2>Full Universe Fundamental Stance & Price Action Join (<span id="stockCountHeader">0</span> stocks)</h2>
+    <div class="filter-bar">
+        <span>Stance:</span>
+        <button class="active" onclick="filterStance('ALL')">ALL</button>
+        <button onclick="filterStance('CONFLICT')">CONFLICT</button>
+        <button onclick="filterStance('SUPPORTIVE')">SUPPORTIVE</button>
+        <button onclick="filterStance('PRESSURE')">PRESSURE</button>
+        <button onclick="filterStance('NEUTRAL')">NEUTRAL</button>
+        <span style="margin-left:14px;">Family:</span>
+        <button class="active" onclick="filterFamily('ALL')">ALL</button>
+        <button onclick="filterFamily('UP')">UP</button>
+        <button onclick="filterFamily('PAUSE')">PAUSE</button>
+        <button onclick="filterFamily('TURNING')">TURNING</button>
+        <button onclick="filterFamily('DOWN')">DOWN</button>
+        <input id="tableSearch" placeholder="filter table..." style="margin-left:auto;padding:3px 8px;font-size:0.8rem;border:1px solid #dadce0;border-radius:4px;" oninput="onFilterChange()">
+    </div>
+
+    <div style="overflow-x:auto;">
+        <table class="dataTable" id="stockTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable('code')">Code &#x21C5;</th>
+                    <th onclick="sortTable('sector')">Sector &#x21C5;</th>
+                    <th onclick="sortTable('direction')">Direction &#x21C5;</th>
+                    <th onclick="sortTable('stance')">Stance &#x21C5;</th>
+                    <th onclick="sortTable('bias')">Analyst Bias &#x21C5;</th>
+                    <th onclick="sortTable('tech_state')">Tech State &#x21C5;</th>
+                    <th>Price Action Reading</th>
+                    <th onclick="sortTable('lead_lag')">Lead / Lag &#x21C5;</th>
+                    <th onclick="sortTable('growth')">Growth &#x21C5;</th>
+                    <th>Flags</th>
+                </tr>
+            </thead>
+            <tbody id="stockTableBody"></tbody>
+        </table>
+    </div>
+
+    <!-- Stock Detail Modal Dialog -->
+    <div id="stockModal" class="modal-backdrop" onclick="closeModal(event)">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3 id="modalHeaderTitle">Stock Detail</h3>
+                <button type="button" class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modalContent"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        PlayFair Fundamental & Sentiment Cognition Suite &copy; 2026 | Multi-Index, Sector & Stock Hub &bull; Static Viewer
+    </div>
+
+    <script>
+        window.addEventListener('error', function(e) {
+            console.error('[PAGE_SCRIPT_ERROR]', e.message, 'at line', e.lineno, e.filename);
+        });
+    </script>
+    <script src="fund_sent/fund_sentiment_data.js"></script>
+    <script src="delist.js"></script>
+    <script>
+        var D = window.FUND_SENT_DATA;
+        var STOCKS = [];
+        var CURRENT_STANCE_FILTER = 'ALL';
+        var CURRENT_FAMILY_FILTER = 'ALL';
+        var CURRENT_SORT_COL = 'code';
+        var SORT_ASC = true;
+
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function init() {
+            D = window.FUND_SENT_DATA || D;
+            var meta = document.getElementById('meta');
+            if (!D) {
+                meta.innerHTML = '<strong>No data holder found.</strong> Run: <code>python WSHOME/tl_fundamental_sentiment.py --reportall</code>';
+                return;
+            }
+            var total = Object.keys(D.stocks || {}).length;
+            meta.innerHTML = 'Generated: <strong>' + esc(D.generated) + '</strong> &middot; As of: <strong>' + esc(D.as_of_date) +
+                '</strong> &middot; Baseline: <strong>' + esc(D.baseline_date || 'None') + '</strong> &middot; ' + total + ' stocks evaluated';
+
+            STOCKS = Object.values(D.stocks || {});
+            document.getElementById('stockCountHeader').textContent = STOCKS.length;
+
+            renderIndexGrid();
+            renderSectorOverview();
+            renderAttention();
+            renderStockTable();
+            initSearchPilot();
+        }
+
+        function renderIndexGrid() {
+            var g = document.getElementById('indexGrid');
+            var h = '';
+            var idxOrder = ['DAX', 'MDAX', 'SDAX', 'PDAX', 'CDAX'];
+            idxOrder.forEach(function(name) {
+                var info = (D.indexes || {})[name];
+                if (!info) return;
+                var sc = info.stance_counts || {};
+                var dc = info.dir_counts || {};
+                var medG = info.median_growth != null ? (info.median_growth >= 0 ? '+' : '') + info.median_growth.toFixed(1) + '%' : 'n/a';
+                h += '<div class="idx-card">' +
+                    '<div class="title"><a href="' + esc(info.html_file) + '" title="Open ' + esc(name) + ' Report">' + esc(name) + ' &rarr;</a>' +
+                    '<span style="font-size:0.85rem;color:#64748b;">' + info.stock_count + ' stocks</span></div>' +
+                    '<div class="stats">' +
+                    'Supportive: <strong style="color:#059669;">' + (sc.SUPPORTIVE || 0) + '</strong> &middot; ' +
+                    'Conflict: <strong style="color:#9333ea;">' + (sc.CONFLICT || 0) + '</strong> &middot; ' +
+                    'Pressure: <strong style="color:#dc2626;">' + (sc.PRESSURE || 0) + '</strong><br>' +
+                    'Growth: <strong>' + medG + '</strong> &middot; ' +
+                    'Improving: <strong>' + (dc.IMPROVING || 0) + '</strong>' +
+                    '</div></div>';
+            });
+            g.innerHTML = h;
+        }
+
+        function renderSectorOverview() {
+            var secDiv = document.getElementById('sectorOverview');
+            var sectors = D.sectors || [];
+            if (!sectors.length) return;
+            var topSectors = sectors.slice(0, 8);
+            var h = '<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;">' +
+                '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">' +
+                '<span style="font-weight:700;color:#0f172a;font-size:0.95rem;">Macro Sector Leadership Top 8</span>' +
+                '<a href="fund_sent/fund_sentiment_sector_and_sub.html" style="font-size:0.88rem;font-weight:600;">Open Complete Sector & Subsector Hub (18 Sectors / 50 Subsectors) &rarr;</a>' +
+                '</div><div style="display:flex;gap:12px;flex-wrap:wrap;">';
+
+            topSectors.forEach(function(s) {
+                var qCls = (s.quadrant || 'neutral').toLowerCase();
+                var bCol = s.breadth > 0 ? '#059669' : (s.breadth < 0 ? '#dc2626' : '#64748b');
+                h += '<div style="background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:8px 12px;min-width:140px;">' +
+                    '<div style="font-weight:600;font-size:0.85rem;">' + esc(s.group_name) + '</div>' +
+                    '<div style="font-size:1.1rem;font-weight:700;color:' + bCol + ';">' + (s.breadth >= 0 ? '+' : '') + s.breadth.toFixed(1) + '%</div>' +
+                    '<div style="margin-top:2px;"><span class="pill ' + qCls + '">' + esc(s.quadrant) + '</span></div>' +
+                    '</div>';
+            });
+            h += '</div></div>';
+            secDiv.innerHTML = h;
+        }
+
+        function renderAttention() {
+            var box = document.getElementById('attentionBox');
+            var sec = document.getElementById('attentionSection');
+            var list = D.attention_list || [];
+            if (!list.length) {
+                sec.style.display = 'none';
+                return;
+            }
+            sec.style.display = 'block';
+            var h = '';
+            list.forEach(function(a) {
+                var stcCls = (a.stance || '').toLowerCase();
+                var techTag = a.tech_state ? '<span class="pill dim">' + esc(a.tech_state) + '</span>' : '';
+                h += '<div class="attention-item">' +
+                    '<strong data-code="' + esc(a.code) + '" onclick="showStockModal(this.dataset.code)">' + esc(a.code) + '</strong>' +
+                    '<span class="pill ' + stcCls + '">' + esc(a.stance) + '</span>' +
+                    techTag +
+                    '<span>' + esc((a.reasons || []).join('; ')) + '</span>' +
+                    '</div>';
+            });
+            box.innerHTML = h;
+        }
+
+        function filterStance(stance) {
+            CURRENT_STANCE_FILTER = stance;
+            updateFilterButtons();
+            renderStockTable();
+        }
+
+        function filterFamily(fam) {
+            CURRENT_FAMILY_FILTER = fam;
+            updateFilterButtons();
+            renderStockTable();
+        }
+
+        function onFilterChange() {
+            renderStockTable();
+        }
+
+        function updateFilterButtons() {
+            document.querySelectorAll('.filter-bar button').forEach(function(b) {
+                var txt = b.textContent.trim();
+                if (['ALL', 'CONFLICT', 'SUPPORTIVE', 'PRESSURE', 'NEUTRAL'].indexOf(txt) >= 0) {
+                    b.classList.toggle('active', txt === CURRENT_STANCE_FILTER);
+                } else if (['ALL', 'UP', 'PAUSE', 'TURNING', 'DOWN'].indexOf(txt) >= 0) {
+                    b.classList.toggle('active', txt === CURRENT_FAMILY_FILTER);
+                }
+            });
+        }
+
+        function sortTable(col) {
+            if (CURRENT_SORT_COL === col) {
+                SORT_ASC = !SORT_ASC;
+            } else {
+                CURRENT_SORT_COL = col;
+                SORT_ASC = true;
+            }
+            renderStockTable();
+        }
+
+        function renderStockTable() {
+            var tbody = document.getElementById('stockTableBody');
+            var q = (document.getElementById('tableSearch').value || '').trim().toUpperCase();
+
+            var list = STOCKS.filter(function(s) {
+                if (CURRENT_STANCE_FILTER !== 'ALL' && s.stance !== CURRENT_STANCE_FILTER) return false;
+                if (CURRENT_FAMILY_FILTER !== 'ALL' && s.tech_family !== CURRENT_FAMILY_FILTER) return false;
+                if (q) {
+                    var str = (s.code + ' ' + (s.sector || '') + ' ' + (s.tech_state || '') + ' ' + (s.stance || '')).toUpperCase();
+                    if (str.indexOf(q) < 0) return false;
+                }
+                return true;
+            });
+
+            list.sort(function(a, b) {
+                var va, vb;
+                if (CURRENT_SORT_COL === 'code') { va = a.code; vb = b.code; }
+                else if (CURRENT_SORT_COL === 'sector') { va = a.sector || ''; vb = b.sector || ''; }
+                else if (CURRENT_SORT_COL === 'direction') { va = a.direction || ''; vb = b.direction || ''; }
+                else if (CURRENT_SORT_COL === 'stance') { va = a.stance || ''; vb = b.stance || ''; }
+                else if (CURRENT_SORT_COL === 'bias') { va = (a.analyst && a.analyst.bias) || ''; vb = (b.analyst && b.analyst.bias) || ''; }
+                else if (CURRENT_SORT_COL === 'tech_state') { va = a.tech_state || ''; vb = b.tech_state || ''; }
+                else if (CURRENT_SORT_COL === 'growth') { va = (a.growth && a.growth.growth_pct) != null ? a.growth.growth_pct : -9999; vb = (b.growth && b.growth.growth_pct) != null ? b.growth.growth_pct : -9999; }
+                else if (CURRENT_SORT_COL === 'lead_lag') { va = (a.lead_lag && a.lead_lag.delta_days) != null ? a.lead_lag.delta_days : 9999; vb = (b.lead_lag && b.lead_lag.delta_days) != null ? b.lead_lag.delta_days : 9999; }
+                else { va = a.code; vb = b.code; }
+
+                if (va < vb) return SORT_ASC ? -1 : 1;
+                if (va > vb) return SORT_ASC ? 1 : -1;
+                return 0;
+            });
+
+            var h = '';
+            list.forEach(function(s) {
+                var dirCls = (s.direction || 'n/a').toLowerCase();
+                var stcCls = (s.stance || 'no_data').toLowerCase();
+                var biasCls = (s.analyst && s.analyst.bias ? s.analyst.bias : 'insufficient').toLowerCase();
+                var ts = s.tech_state || '-';
+                var pr = s.price_reading || '-';
+                var ll = s.lead_lag || {};
+                var llText = '-';
+                if (ll.timing === 'FUNDAMENTALS_LEAD') llText = '<span style="color:#059669;font-weight:600;">Fund (' + ll.delta_days + 'd)</span>';
+                else if (ll.timing === 'PRICE_LEADS') llText = '<span style="color:#2563eb;font-weight:600;">Price (+' + ll.delta_days + 'd)</span>';
+                else if (ll.timing === 'SYNCHRONOUS') llText = '<span style="color:#ca8a04;font-weight:600;">Sync</span>';
+                else if (ll.timing === 'STALE_REVISION') llText = '<span style="color:#94a3b8;">Stale Rev</span>';
+
+                var gw = (s.growth && s.growth.growth_pct != null) ? (s.growth.growth_pct >= 0 ? '+' : '') + s.growth.growth_pct.toFixed(1) + '%' : '-';
+                var flgs = (s.flags || []).join(', ') || '-';
+
+                h += '<tr>' +
+                    '<td class="code" data-code="' + esc(s.code) + '" onclick="showStockModal(this.dataset.code)">' + esc(s.code) + '</td>' +
+                    '<td>' + esc(s.sector || '-') + '</td>' +
+                    '<td><span class="pill ' + dirCls + '">' + esc(s.direction) + '</span></td>' +
+                    '<td><span class="pill ' + stcCls + '">' + esc(s.stance) + '</span></td>' +
+                    '<td><span class="pill ' + biasCls + '">' + esc((s.analyst && s.analyst.bias) || '-') + '</span></td>' +
+                    '<td><span class="pill dim">' + esc(ts) + '</span></td>' +
+                    '<td>' + esc(pr) + '</td>' +
+                    '<td>' + llText + '</td>' +
+                    '<td>' + esc(gw) + '</td>' +
+                    '<td style="color:#64748b;font-size:0.75rem;">' + esc(flgs) + '</td>' +
+                    '</tr>';
+            });
+            tbody.innerHTML = h;
+        }
+
+        function showStockModal(code) {
+            D = window.FUND_SENT_DATA || D;
+            var s = ((D && D.stocks) || {})[code];
+            if (!s) return;
+            document.getElementById('modalHeaderTitle').innerHTML = esc(code) + ' &middot; ' + esc(s.sector || 'Unclassified') +
+                ' <span class="pill ' + (s.stance||'').toLowerCase() + '">' + esc(s.stance) + '</span>' +
+                ' <span class="pill ' + (s.direction||'').toLowerCase() + '">' + esc(s.direction) + '</span>';
+
+            var g = s.growth || {};
+            var cr = s.consensus || {};
+            var an = s.analyst || {};
+            var ll = s.lead_lag || {};
+
+            var h = '<div class="card-block"><h4>Matrix Interpretation</h4>' +
+                '<strong>' + esc(s.stance_reading || '-') + '</strong><br>' +
+                '<span style="color:#64748b;font-size:0.8rem;">Basis: ' + esc(s.basis || '-') + '</span></div>';
+
+            h += '<div class="card-block"><h4>EPS Growth Trajectory</h4>' +
+                'Summary: <strong>' + esc(g.summary || '-') + '</strong><br>' +
+                'Status: ' + (g.growth_ok ? '<span style="color:#059669;font-weight:600;">Growth Intact</span>' : '<span style="color:#dc2626;font-weight:600;">Sub-Threshold</span>');
+            if (g.pre_growth_pct != null) h += '<br><span style="color:#64748b;font-size:0.8rem;">Pre-Report Growth: ' + g.pre_growth_pct + '% &middot; Effective: ' + g.effective_growth_pct + '%</span>';
+            h += '</div>';
+
+            h += '<div class="card-block"><h4>Post-Report Consensus Reaction</h4>' +
+                'Reaction: <strong>' + esc(cr.reaction || '-') + '</strong> (Breadth: ' + esc(cr.reaction_breadth || '0/0') + ')<br>' +
+                (cr.last_report_date ? 'Latest Report: ' + esc(cr.last_report_period) + ' on ' + esc(cr.last_report_date) + '<br>' : '');
+            var dets = cr.details || {};
+            Object.keys(dets).forEach(function(p) {
+                var d = dets[p];
+                h += '<div style="font-size:0.8rem;color:#475569;">FY' + esc(p) + ': ' + d.pre + ' &rarr; ' + d.post + ' (' + (d.delta>=0?'+':'') + d.delta + ', ' + (d.pct>=0?'+':'') + d.pct + '%) [' + d.direction + ']</div>';
+            });
+            h += '</div>';
+
+            h += '<div class="card-block"><h4>Analyst Opinion Context</h4>' +
+                'Bias: <strong>' + esc(an.bias || 'INSUFFICIENT') + '</strong> &middot; ' + esc(an.summary || 'no events') + '<br>';
+            if (an.latest_event) {
+                var le = an.latest_event;
+                h += '<div style="margin-top:4px;font-size:0.8rem;">Latest: ' + esc(le.date) + ' | ' + esc(le.bank) + ' | <strong>' + esc(le.sentiment) + '</strong><br>' +
+                    'Reaction: W+1: ' + esc(le.w1_disp) + ' &middot; W+2: ' + esc(le.w2_disp) + '<br>' +
+                    (le.headline ? '<em>' + esc(le.headline) + '</em>' : '') + '</div>';
+            }
+            h += '</div>';
+
+            h += '<div class="card-block"><h4>Technical Price Action Join</h4>' +
+                'State: <strong>' + esc(s.tech_state || 'N/A') + '</strong> (' + esc(s.tech_family || 'OTHER') + ')' +
+                (s.tech_state_date ? ' since ' + esc(s.tech_state_date) : '') + '<br>' +
+                'Reading: <strong>' + esc(s.price_reading || '-') + '</strong><br>' +
+                'Lead/Lag Timing: ' + esc(ll.summary || '-') + '</div>';
+
+            document.getElementById('modalContent').innerHTML = h;
+            document.getElementById('stockModal').classList.add('open');
+        }
+
+        function closeModal(e) {
+            if (!e || e.target === document.getElementById('stockModal') || (e.target.classList && e.target.classList.contains('modal-close'))) {
+                document.getElementById('stockModal').classList.remove('open');
+            }
+        }
+
+        function initSearchPilot() {
+            var list = (window.DELIST && window.DELIST.stocks) || [];
+            var dl = document.getElementById('stkCodes');
+            var seen = {};
+            list.forEach(function(r) {
+                if (!r || !r.Code || seen[r.Code]) return;
+                seen[r.Code] = 1;
+                var opt = document.createElement('option');
+                opt.value = r.Code;
+                opt.label = (r.FullName || r.Name || '') + ' (' + (r.WKN || '') + ')';
+                dl.appendChild(opt);
+            });
+
+            document.getElementById('stkGo').addEventListener('click', function() {
+                var val = (document.getElementById('stkSearch').value || '').trim().toUpperCase();
+                if (!val) return;
+                showStockModal(val);
+            });
+            document.getElementById('stkSearch').addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    var val = (this.value || '').trim().toUpperCase();
+                    if (val) showStockModal(val);
+                }
+            });
+        }
+
+        window.init = init;
+        window.showStockModal = showStockModal;
+        window.closeModal = closeModal;
+        window.filterStance = filterStance;
+        window.filterFamily = filterFamily;
+        window.sortTable = sortTable;
+        window.onFilterChange = onFilterChange;
+
+        window.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

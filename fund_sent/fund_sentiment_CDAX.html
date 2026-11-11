@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayFair – Fundamental & Sentiment Report (2026-11-11)</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            padding: 24px;
+            line-height: 1.5;
+        }
+        .header {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            margin-bottom: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 { font-size: 22px; font-weight: 700; color: #0f172a; }
+        .header .meta { color: #64748b; font-size: 13px; margin-top: 4px; }
+        .header .badge { background: #0f172a; color: #fff; padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
+        .crumb { margin-bottom: 16px; font-size: 13px; color: #64748b; }
+        .crumb a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        .crumb a:hover { text-decoration: underline; }
+
+        .view-toggle { margin: 0 0 16px; display: flex; gap: 8px; }
+        .view-toggle button {
+            padding: 6px 16px; border: 1px solid #cbd5e1; background: #ffffff;
+            border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; color: #475569;
+            transition: all 0.15s ease;
+        }
+        .view-toggle button:hover { background: #f1f5f9; }
+        .view-toggle button.active { background: #eff6ff; border-color: #2563eb; color: #2563eb; }
+
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .metric-card { background: #ffffff; border-radius: 8px; padding: 16px 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-left: 4px solid #3b82f6; }
+        .metric-card.green { border-left-color: #10b981; }
+        .metric-card.amber { border-left-color: #f59e0b; }
+        .metric-card.red { border-left-color: #ef4444; }
+        .metric-card.purple { border-left-color: #8b5cf6; }
+        .metric-card .title { font-size: 12px; font-weight: 700; text-transform: uppercase; color: #64748b; letter-spacing: 0.5px; }
+        .metric-card .val { font-size: 24px; font-weight: 800; color: #0f172a; margin-top: 4px; }
+        .metric-card .sub { font-size: 12px; color: #64748b; margin-top: 4px; }
+
+        .panel { background: #ffffff; border-radius: 8px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); margin-bottom: 24px; }
+        .panel h2 { font-size: 15px; font-weight: 700; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: #475569; display: flex; justify-content: space-between; align-items: center; }
+
+        .pill { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+        .pill.improving, .pill.supportive, .pill.leading { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+        .pill.growth_slowing, .pill.fading { background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; }
+        .pill.stable, .pill.emerging, .pill.neutral { background: #fefce8; color: #ca8a04; border: 1px solid #fef08a; }
+        .pill.deteriorating, .pill.lagging, .pill.pressure { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+        .pill.conflict { background: #faf5ff; color: #9333ea; border: 1px solid #e9d5ff; }
+        .pill.thin { background: #f8fafc; color: #94a3b8; border: 1px solid #e2e8f0; }
+        .pill.dim { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 12px; }
+        th { background: #f1f5f9; color: #475569; font-weight: 600; text-align: left; padding: 10px 12px; border-bottom: 2px solid #e2e8f0; }
+        td { padding: 9px 12px; border-bottom: 1px solid #f1f5f9; }
+        tr:hover td { background: #f8fafc; }
+
+        .attention-box { background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 12px 16px; margin-bottom: 16px; }
+        .attention-item { display: flex; align-items: center; gap: 12px; padding: 6px 0; border-bottom: 1px solid #fef3c7; font-size: 12px; }
+        .attention-item:last-child { border-bottom: none; }
+
+        .footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e2e8f0; font-size: 11px; color: #94a3b8; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <h1>PlayFair – Fundamental & Sentiment Engine</h1>
+            <div class="meta">Evaluation Date: <strong>2026-11-11</strong> | Baseline Comparison: <strong>None</strong></div>
+        </div>
+        <div class="badge">COGNITION SUITE</div>
+    </div>
+    <div class="crumb">
+        <a href="../fund_sentiment_main.html">&#128202; Main Dashboard</a> &middot;
+        <a href="../stage_report.html">&#127919; State Report</a> &middot;
+        <a href="../eps_report.html">&#128200; EPS Report</a> &middot;
+        <a href="../sector_rotation.html">&#128257; Price Rotation</a>
+    </div>
+
+    <div class="grid-4">
+        <div class="metric-card green">
+            <div class="title">CDAX – Supportive Stance</div>
+            <div class="val">0 <span style="font-size:14px;font-weight:500;color:#64748b;">/ 1</span></div>
+            <div class="sub">Estimates & ratings fundamentally aligned</div>
+        </div>
+        <div class="metric-card purple">
+            <div class="title">CDAX – Conflict & Attention</div>
+            <div class="val">0</div>
+            <div class="sub">EPS trend vs analyst opinion divergence</div>
+        </div>
+        <div class="metric-card red">
+            <div class="title">CDAX – Pressure Stance</div>
+            <div class="val">0</div>
+            <div class="sub">Deteriorating EPS or negative ratings</div>
+        </div>
+        <div class="metric-card">
+            <div class="title">CDAX – Median EPS Growth</div>
+            <div class="val">+16.7%</div>
+            <div class="sub">Forward fiscal year consensus growth</div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h2>Stock-Level Detail & Price Action Join (1 stocks)</h2>
+        <div style="overflow-x:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Sector</th>
+                        <th>Direction</th>
+                        <th>Stance</th>
+                        <th>Analyst Bias</th>
+                        <th>Tech State</th>
+                        <th>Price Action Reading</th>
+                        <th>Lead / Lag</th>
+                        <th>Forward Growth</th>
+                        <th>Flags</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>NOA3</strong></td>
+                        <td>Technology</td>
+                        <td><span class="pill stable">STABLE</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
+                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
+                        <td>Technical reading stands alone</td>
+                        <td><span style='color:#94a3b8;'>Stale Rev</span></td>
+                        <td>+16.7%</td>
+                        <td style="color:#64748b;font-size:11px;">-</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        PlayFair Fundamental & Sentiment Cognition Engine &copy; 2026 | Standalone Reference &bull; No automated buy/sell calls &bull; Reuses EPSRevisionAnalyzer
+    </div>
+
+</body>
+</html>

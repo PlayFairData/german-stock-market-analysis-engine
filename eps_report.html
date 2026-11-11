@@ -60,11 +60,18 @@
     .eps-period { margin: 2px 0 10px 16px; font-size: .84rem; color: #5f6368; }
     .eps-period pre { margin: 2px 0 0; }
 
+    /* index block = collapsed <details>: the index heading is the toggle */
+    details.idx-block > summary { font-size: 1.05rem; font-weight: 600;
+        color: #202124; cursor: pointer; padding: 6px 0 4px; margin-top: 22px; }
+    details.idx-block > summary:hover { color: #1a73e8; }
+    details.idx-block > summary::marker { color: #202124; }
+    details.idx-block[open] > summary { margin-bottom: 4px; }
+
     /* section = collapsed <details>: title is the heading, click to expand */
     details.sec > summary { font-size: .98rem; font-weight: 600; color: #3c4043;
         cursor: pointer; padding: 7px 0 5px; margin-top: 14px; }
     details.sec > summary:hover { color: #1a73e8; }
-    details.sec > summary::marker { color: #202124; }
+    details.sec > summary::marker, details.idx-block > summary::marker { color: #202124; }
     details.sec[open] > summary { margin-bottom: 6px; }
 
     .idx-block, .sec { scroll-margin-top: 8px; }
@@ -116,7 +123,7 @@
 <div class="view-toggle">View: <button id="viewStd" type="button" title="show DAX, MDAX, SDAX only">Standard</button>
     <button id="viewAll" type="button" title="also show experimental PDAX, CDAX">All incl. experimental</button></div>
 <div class="search-bar">Search: <input id="epsSearch" list="epsCodes" placeholder="code / WKN / ISIN / name" autocomplete="off"><datalist id="epsCodes"></datalist> <button id="epsGo" type="button">&#128269;</button></div>
-<div class="crumb">rows = report type &middot; cells = index &mdash; click an index name to jump to that section, click a section title (&#9654;) to expand its stocks.</div>
+<div class="crumb">rows = report type &middot; cells = index &mdash; click an index name to jump to that section; click a (&#9654;) title to expand index, sections or stocks.</div>
 <table class="matrix" id="matrix">
 <tbody id="matrixBody"></tbody>
 </table>
@@ -191,14 +198,14 @@
   // ---- sections (index part -> type sections with the pre-rendered html) -
   var out = '';
   (D.indexes || []).forEach(function (i) {
-    out += '<div class="idx-block' + (EXP[i] ? ' idx-exp' : '') + '" id="idx-' + i +
-      '"><h2>' + esc(i) + ' <span class="sec-meta">(' + ((D.totals || {})[i] || 0) +
+    out += '<details class="idx-block' + (EXP[i] ? ' idx-exp' : '') + '" id="idx-' + i +
+      '"><summary>' + esc(i) + ' <span class="sec-meta">(' + ((D.totals || {})[i] || 0) +
       ' stocks)</span>' + (EXP[i] ? ' <span class="exp-tag">experimental</span>' : '') +
-      '</h2>';
+      '</summary>';
     (D.types || []).forEach(function (t) {
       var s = (D.sections[i] || {})[t.id];
       out += '<details class="sec" id="sec-' + i + '-' + t.id + '"><summary>' +
-        esc(t.label) + ' &mdash; ' + esc(i) + '</summary>';
+        esc(t.label) + '</summary>';
       if (s && s.html) {
         if (s.count || s.periods) {
           out += '<div class="sec-meta">' + (s.count || 0) + ' stocks' +
@@ -210,21 +217,19 @@
       }
       out += '</details>';
     });
-    out += '</div>';
+    out += '</details>';
   });
   document.getElementById('content').innerHTML = out;
 
   // deep link (#idx-DAX / #sec-DAX-report / #s-SAP): those anchors only exist
-  // after this render, so re-scroll once the content is in the DOM.  A target
-  // inside an experimental index is hidden by the Standard view -- switch to
-  // "All incl. experimental" first, otherwise scrollIntoView() no-ops.
+  // after this render, so re-scroll once the content is in the DOM.  The view
+  // switch (experimental target hidden by the Standard view) is done later by
+  // revealEl(), once the collapsed index/section wrappers are open -- a merely
+  // collapsed target must not flip the view.
   if (location.hash) {
     var el = null;
     try { el = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (e) {}
     if (el) {
-      if (el.offsetParent === null && document.body.classList.contains('std-only')) {
-        document.getElementById('viewAll').click();
-      }
       el.scrollIntoView();
       el.classList.add('flash');
       setTimeout(function () { el.classList.remove('flash'); }, 1500);
@@ -293,19 +298,29 @@ function searchMsg(title, html) {
   document.getElementById('modalBody').innerHTML = html;
   document.getElementById('stockModal').classList.add('open');
 }
-function jumpStock(code) {
-  var el = document.getElementById('s-' + code);
-  if (!el) return false;
-  document.getElementById('stockModal').classList.remove('open');
-  var p = el.parentElement;                    // open collapsed section ancestors
+function openAncestors(el) {        // open collapsed <details> wrappers (index
+  var p = el.parentElement;         // block + section) -- never el itself
   while (p) { if (p.tagName === 'DETAILS') p.open = true; p = p.parentElement; }
+}
+function revealEl(el, flash) {
+  openAncestors(el);
   if (el.offsetParent === null &&              // experimental + Standard view
       document.body.classList.contains('std-only')) {
     document.getElementById('viewAll').click();
   }
   el.scrollIntoView();
-  el.classList.add('flash');
-  setTimeout(function () { el.classList.remove('flash'); }, 1500);
+  if (flash) {
+    el.classList.remove('flash');
+    void el.offsetWidth;                       // restart the highlight animation
+    el.classList.add('flash');
+    setTimeout(function () { el.classList.remove('flash'); }, 1500);
+  }
+}
+function jumpStock(code) {
+  var el = document.getElementById('s-' + code);
+  if (!el) return false;
+  document.getElementById('stockModal').classList.remove('open');
+  revealEl(el, true);
   return true;
 }
 function openSearchResults(q, hits) {
@@ -386,15 +401,27 @@ function doSearch() {
     e.preventDefault();
     jumpStock(t.getAttribute('data-code'));
   });
+  // matrix jump: open the collapsed index wrapper first so the native
+  // fragment scroll finds the section title -- the target section itself
+  // stays collapsed (jump = scroll only).
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t.getAttribute) return;
+    var href = t.getAttribute('href') || '';
+    if (href.length < 2 || href.charAt(0) !== '#') return;
+    var el = null;
+    try { el = document.getElementById(decodeURIComponent(href.slice(1))); } catch (err) {}
+    if (el) revealEl(el, false);
+  });
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') document.getElementById('stockModal').classList.remove('open');
   });
-  // deep link #s-CODE: the render pass above cannot scroll into a collapsed
-  // section -- jump again with the ancestors opened.
-  if (location.hash.indexOf('#s-') === 0) {
-    var c = '';
-    try { c = decodeURIComponent(location.hash.slice(3)); } catch (e) {}
-    if (c) jumpStock(c);
+  // deep link (#idx-DAX / #sec-DAX-report / #s-SAP): the render pass above
+  // cannot scroll into a collapsed index/section -- reveal with wrappers open.
+  if (location.hash && location.hash.length > 1) {
+    var el = null;
+    try { el = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (e) {}
+    if (el) revealEl(el, true);
   }
 })();
 </script>

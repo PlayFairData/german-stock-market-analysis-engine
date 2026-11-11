@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated": "2026-11-10 19:15:07",
- "today": "2026-11-10",
+ "generated": "2026-11-11 19:15:33",
+ "today": "2026-11-11",
  "counts": {
   "total": 3177,
-  "upcoming": 135,
-  "history": 3042,
+  "upcoming": 122,
+  "history": 3055,
   "codes": 172
  },
  "marks": {
@@ -2400,11 +2400,6 @@
   "BRNK": [
    {
     "date": "2026-12-31",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
-    "src": "pm"
-   },
-   {
-    "date": "2026-12-31",
     "desc": "Veröffentlichung Halbjahresfinanzbericht",
     "src": "hist"
    },
@@ -2946,6 +2941,11 @@
   ],
   "CON": [
    {
+    "date": "2027-03-02",
+    "desc": "Bilanzpressekonferenz",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-04",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -3116,11 +3116,6 @@
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
-   },
-   {
-    "date": "2026-11-12",
-    "desc": "Pressemeldung zur Quartalsmitteilung (Stichtag Q3)",
-    "src": "pm"
    },
    {
     "date": "2026-09-22",
@@ -4294,7 +4289,7 @@
   "DRW3": [
    {
     "date": "2027-03-17",
-    "desc": "Analystenveranstaltung",
+    "desc": "Bilanzpressekonferenz",
     "src": "pm"
    },
    {
@@ -5767,7 +5762,7 @@
   "FIE": [
    {
     "date": "2027-04-22",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q1)",
     "src": "pm"
    },
    {
@@ -6088,7 +6083,7 @@
   "FPE3": [
    {
     "date": "2027-03-19",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Telefonkonferenz",
     "src": "pm"
    },
    {
@@ -8156,6 +8151,11 @@
   ],
   "HYQ": [
    {
+    "date": "2027-03-15",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-09",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -9614,7 +9614,7 @@
   "LHA": [
    {
     "date": "2027-03-05",
-    "desc": "Analystenveranstaltung",
+    "desc": "Bilanzpressekonferenz",
     "src": "pm"
    },
    {
@@ -9731,7 +9731,7 @@
   "LPK": [
    {
     "date": "2027-03-24",
-    "desc": "Analystenveranstaltung",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
     "src": "pm"
    },
    {
@@ -11993,7 +11993,7 @@
   "R3NK": [
    {
     "date": "2027-03-03",
-    "desc": "Analystenveranstaltung",
+    "desc": "Bilanzpressekonferenz",
     "src": "pm"
    },
    {

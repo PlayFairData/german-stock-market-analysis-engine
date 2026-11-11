@@ -1,0 +1,26 @@
+
+==============================================================================
+ FUNDAMENTAL & SENTIMENT --REPORTALL ORCHESTRATION (2026-11-11)
+==============================================================================
+  [Index] Evaluating DAX with price join...
+          -> Generated: C:\nb\bin\report\fund_sent\fund_sentiment_DAX.html
+  [Index] Evaluating MDAX with price join...
+          -> Generated: C:\nb\bin\report\fund_sent\fund_sentiment_MDAX.html
+  [Index] Evaluating SDAX with price join...
+[weekly-trend] ADV: no rtpivot (prominence>0) <= 2026-11-11 -- skipped
+[weekly-trend] OHB: no rtpivot (prominence>0) <= 2026-11-11 -- skipped
+          -> Generated: C:\nb\bin\report\fund_sent\fund_sentiment_SDAX.html
+  [Index] Evaluating PDAX with price join...
+          -> Generated: C:\nb\bin\report\fund_sent\fund_sentiment_PDAX.html
+  [Index] Evaluating CDAX with price join...
+          -> Generated: C:\nb\bin\report\fund_sent\fund_sentiment_CDAX.html
+  [Sector] Evaluating full universe sector & subsector rotation...
+          -> Generated Hub: C:\nb\bin\report\fund_sent\fund_sentiment_sector_and_sub.html
+          -> Generated Sector: C:\nb\bin\report\fund_sent\fund_sentiment_sector.html
+          -> Generated Subsector: C:\nb\bin\report\fund_sent\fund_sentiment_subsector.html
+  [Holder] Wrote data holder: C:\nb\bin\report\fund_sent\fund_sentiment_data.js
+  [Main Hub] Ready: C:\nb\bin\report\fund_sentiment_main.html
+==============================================================================
+ --reportall completed successfully!
+==============================================================================
+

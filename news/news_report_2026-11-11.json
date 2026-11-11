@@ -1,0 +1,379 @@
+{
+ "date": "2026-11-11",
+ "generated": "2026-11-11 19:15:53",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 2,
+  "HOLD": 0,
+  "INFO": 32
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 2,
+   "HOLD": 0,
+   "INFO": 7
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 13
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 11
+  }
+ },
+ "total": 37,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Ministerium will warnen, wenn Geld fuer Elektroautos ausgeht",
+   "link": "https://www.onvista.de/news/2026/11-11-ministerium-will-warnen-wenn-geld-fuer-elektroautos-ausgeht-0-10-26575163",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Vorab-Downloads von GTA 6 treiben Datenverkehr in die Hoehe",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-2-vorab-downloads-von-gta-6-treiben-datenverkehr-in-die-hoehe-0-10-26575233",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-11-11",
+   "sentiment": "SELL",
+   "news": "Fresenius will rund 13,4 Millionen FMC-Aktien verkaufen",
+   "link": "https://www.onvista.de/news/2026/11-11-fresenius-will-rund-13-4-millionen-fmc-aktien-verkaufen-0-10-26575261",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: MTU Aero Engines AG: Vorabbekanntmachung ueber die Veroeffentlichung von Finan",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-afr-mtu-aero-engines-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Finanzbranche rueckt im Kampf gegen Geldwaesche zusammen",
+   "link": "https://www.onvista.de/news/2026/11-11-finanzbranche-rueckt-im-kampf-gegen-geldwaesche-zusammen-0-10-26575001",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Dritter Aufwaertstag in Folge - weniger KI-Sorgen",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-aktien-europa-schluss-dritter-aufwaertstag-in-folge-weniger-ki-sorgen-0-10-26575257",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-11-11",
+   "sentiment": "SELL",
+   "news": "Fresenius will rund 13,4 Millionen FMC-Aktien verkaufen",
+   "link": "https://www.onvista.de/news/2026/11-11-fresenius-will-rund-13-4-millionen-fmc-aktien-verkaufen-0-10-26575261",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-NVR: Symrise AG: Veroeffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-nvr-symrise-ag-veroeffentlichung-der-gesamtzahl-der-stimmrechte-nach-41-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "IRW-News: Dr. Reuter Investor Relations: Boeing und Airbus legen Quartalszahlen vor: Was bedeutet da",
+   "link": "https://www.onvista.de/news/2026/11-11-irw-news-dr-reuter-investor-relations-boeing-und-airbus-legen-quartalszahlen-vor-w",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax bleibt vorerst auf Erfolgskurs - Tech-Erholung stuetzt",
+   "link": "https://www.onvista.de/news/2026/11-11-aktien-frankfurt-dax-bleibt-vorerst-auf-erfolgskurs-tech-erholung-stuetzt-0-10-26575139",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-11-11",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: DZ Bank senkt fairen Wert fuer Fraport auf 85 Euro - 'Kaufen'",
+   "link": "https://www.onvista.de/news/2026/11-11-analyse-flash-dz-bank-senkt-fairen-wert-fuer-fraport-auf-85-euro-kaufen-0-10-26575249",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Deutz AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-pvr-deutz-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europ",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Stroeer SE & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaw",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-pvr-stroeer-se-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Tarifabschluss verhindert Streiks an Fluggastkontrollen",
+   "link": "https://www.onvista.de/news/2026/11-11-tarifabschluss-verhindert-streiks-an-fluggastkontrollen-0-10-26575096",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Lies: Fast jeder zweite Offshore-Job steht auf dem Spiel",
+   "link": "https://www.onvista.de/news/2026/11-11-lies-fast-jeder-zweite-offshore-job-steht-auf-dem-spiel-0-10-26575129",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax weiter erholt und knapp unter Rekordhoch",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-rekordhoch-0-10-26575259",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FNTN",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Freenet steigert Umsatz deutlich - Jahresziele bestaetigt",
+   "link": "https://www.onvista.de/news/2026/11-11-freenet-steigert-umsatz-deutlich-jahresziele-bestaetigt-0-10-26575260",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-News:",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-news-delivery-hero-se-mitteilung-an-die-anleiheglaeubiger-der-eur-500-000-000-wandelschuldverschreibungen-mit-faelligkeit-2029-isin-de000a3mp437-common-code-238511097-w",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-News: AUSTRIACARD HOLDINGS AG: 9M 2026 Finanzergebnisse",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-news-austriacard-holdings-ag-9m-2026-finanzergebnisse-0-37-26575264",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Deutschland: Tankrabatt drueckt Inflation wieder unter Drei-Prozent-Marke",
+   "link": "https://www.onvista.de/news/2026/11-11-deutschland-tankrabatt-drueckt-inflation-wieder-unter-drei-prozent-marke-0-10-26574932",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Vincorion legt im dritten Quartal deutlich zu - Aktie am SDax-Ende",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-vincorion-legt-im-dritten-quartal-deutlich-zu-aktie-am-sdax-ende-0-10-26575018",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-11-11",
+   "sentiment": "BUY",
+   "news": "GNW-DD: Renk Group AG: Doreen Nowotne, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-11-gnw-dd-renk-group-ag-doreen-nowotne-kauf-0-10-26575133",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Uebernachtungszahlen in Hotels und Pensionen auf Rekordkurs",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-uebernachtungszahlen-in-hotels-und-pensionen-auf-rekordkurs-0-10-26575074",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 11.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-11-dpa-afx-ueberblick-unternehmen-vom-11-11-2026-15-15-uhr-0-10-26575152",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "ADV",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Adtran Networks legt kraeftig zu - operatives Ergebnis zieht stark an",
+   "link": "https://www.onvista.de/news/2026/11-11-adtran-networks-legt-kraeftig-zu-operatives-ergebnis-zieht-stark-an-0-10-26574879",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Vorab-Downloads von GTA 6 treiben Datenverkehr in die Hoehe",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-2-vorab-downloads-von-gta-6-treiben-datenverkehr-in-die-hoehe-0-10-26575233",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: HORNBACH Holding AG & Co. KGaA: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-cms-hornbach-holding-ag-co-kgaa-veroeffentlichung-einer-kapitalmarktinformation-0-37-26575",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MLP",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "MLP bereitet Chefwechsel vor: Jan Berg loest 2028 Schroeder-Wildberg ab",
+   "link": "https://www.onvista.de/news/2026/11-11-mlp-bereitet-chefwechsel-vor-jan-berg-loest-2028-schroeder-wildberg-ab-0-10-26575043",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SZU",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Landesminister: Bund soll Zuckersteuer schnell beschliessen",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-landesminister-bund-soll-zuckersteuer-schnell-beschliessen-0-10-26575063",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "SFC Energy ziehen nach Zahlen an - Starkes Verteidigungsgeschaeft",
+   "link": "https://www.onvista.de/news/2026/11-11-aktie-im-fokus-sfc-energy-ziehen-nach-zahlen-an-starkes-verteidigungsgeschaeft-0-10-26575120",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-11-11",
+   "sentiment": "BUY",
+   "news": "Original-Research: Medios AG (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/11-11-original-research-medios-ag-von-montega-ag-kaufen-0-10-26575054",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares hat eine Vereinbarung ueber den Verkauf von Guascor Energy an Oaktree unterzeichnet",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-news-mutares-hat-eine-vereinbarung-ueber-den-verkauf-von-guascor-energy-an-oa",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "EIN",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Einhell daempft Renditeziel fuer 2026 - Aktie unter Druck",
+   "link": "https://www.onvista.de/news/2026/11-11-roundup-einhell-daempft-renditeziel-fuer-2026-aktie-unter-druck-0-10-26575059",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "ACT0",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Tschechischer Ruestungskonzern CSG nimmt Gewinnprognose zurueck",
+   "link": "https://www.onvista.de/news/2026/11-11-tschechischer-ruestungskonzern-csg-nimmt-gewinnprognose-zurueck-0-20-26574994",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "TNIE",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "Tonies ruft Kinderlieder-Figur von Helene Fischer zurueck",
+   "link": "https://www.onvista.de/news/2026/11-11-tonies-ruft-kinderlieder-figur-von-helene-fischer-zurueck-0-10-26575075",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "ADN1",
+   "date": "2026-11-11",
+   "sentiment": "INFO",
+   "news": "EQS-News: adesso stei",
+   "link": "https://www.onvista.de/news/2026/11-11-eqs-news-adesso-steigert-ebitda-nach-neun-monaten-um-26-auf-98-4-mio-eur-umsatz-um-13-auf-1-22-mrd-eur-kraeftig-ausgebaut-ergebnis-je-aktie-mit-2-14-eur-vorjahr-",
+   "source": "EQS Group"
+  }
+ ]
+}
