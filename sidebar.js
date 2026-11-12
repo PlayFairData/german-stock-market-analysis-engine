@@ -31,6 +31,7 @@
     { icon: '📈', label: 'Sector Rotation',       href: 'sector_rotation.html',     match: ['sector_rotation.html'] },
     { icon: '💼', label: 'Fundamental & Sentiment', href: 'fund_sentiment_main.html', match: ['fund_sentiment_main.html'] },
     { icon: '📑', label: 'EPS Trend & Revision',  href: 'eps_report.html',          match: ['eps_report.html'] },
+    { icon: '⚖️', label: 'Mean Reversion',        href: 'pegv/mean_reversion.html', match: ['pegv/mean_reversion.html'] },
     { icon: '📰', label: 'News Sentiment',        href: 'news/index.html',          match: ['news/index.html'] },
     { icon: '📅', label: 'Market Events',         href: 'event/index.html',         match: ['event/index.html'] },
     { icon: '📂', label: 'Archive & History',     href: 'stageReport/index.html',   match: ['stageReport/index.html', 'stageReport/archive.html'] },

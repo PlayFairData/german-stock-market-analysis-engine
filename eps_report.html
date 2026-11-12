@@ -50,6 +50,21 @@
         padding: 4px 10px 4px 0; text-align: left; }
     table.eps th { background: #f8f9fa; font-weight: 600; }
     table.eps tr:hover { background: #f8f9fa; }
+
+    /* sortable headers (fund_sentiment_main.html pattern: click a column
+       header to toggle asc/desc; the indicator shows the active sort) */
+    table.eps thead th { cursor: pointer; user-select: none; white-space: nowrap; }
+    table.eps thead th:hover { color: #1a73e8; }
+    table.eps thead th .sort-ind { color: #bdc1c6; font-size: .78em; margin-left: 2px; }
+    table.eps thead th.sort-active .sort-ind { color: #1a73e8; }
+
+    /* consensus: equal value-column widths + group separators -- replaces
+       the old fixed-width '|' text grid that misaligned on wide values */
+    table.eps.cons th, table.eps.cons td { text-align: right; min-width: 52px; }
+    table.eps.cons th.c, table.eps.cons td.c { text-align: center; }
+    table.eps.cons th.grp, table.eps.cons td.grp { border-left: 1px solid #dadce0; }
+    table.eps.cons td.lbl { text-align: left; font-weight: 600; }
+    table.eps.cons tfoot td { border-top: 1px solid #c5c9cf; background: #fafbfc; }
     .sec-h { font-weight: 600; font-size: .9rem; margin: 10px 0 4px; }
     .sec-meta { color: #70757a; font-size: .8rem; margin: -2px 0 8px; }
 
@@ -220,6 +235,64 @@
     out += '</details>';
   });
   document.getElementById('content').innerHTML = out;
+
+  // ---- sortable column headers (fund_sentiment_main.html pattern: th click
+  // toggles asc/desc; per-table state via data-sort-col/data-sort-asc) ------
+  function epsSortVal(s) {
+    s = String(s == null ? '' : s).trim();
+    if (!s || s === '-' || s === 'N/A') return { n: null, t: '' };
+    var t = s.replace(/\s/g, '');
+    if (/^[+\-]?\d*\.?\d+%?[\u25B2\u25BC]?$/.test(t)) {
+      var v = parseFloat(t);
+      if (!isNaN(v)) return { n: v, t: s };
+    }
+    return { n: null, t: s.toLowerCase() };
+  }
+  function sortEpsTable(tbl, col, th) {
+    var asc = (tbl.getAttribute('data-sort-col') === String(col))
+      ? (tbl.getAttribute('data-sort-asc') !== '1') : true;
+    tbl.setAttribute('data-sort-col', String(col));
+    tbl.setAttribute('data-sort-asc', asc ? '1' : '0');
+    var tbody = tbl.tBodies[0];
+    if (!tbody) return;
+    var rows = Array.prototype.slice.call(tbody.rows);
+    rows.forEach(function (r, i) { r._epsOrd = i; });
+    rows.sort(function (a, b) {
+      var va = epsSortVal(a.cells[col] ? a.cells[col].textContent : '');
+      var vb = epsSortVal(b.cells[col] ? b.cells[col].textContent : '');
+      if (va.n !== null && vb.n !== null) {
+        return ((asc ? va.n - vb.n : vb.n - va.n) || (a._epsOrd - b._epsOrd));
+      }
+      if (va.n !== null) return -1;   // numbers first, blanks/strings last
+      if (vb.n !== null) return 1;
+      if (!va.t && vb.t) return 1;    // blanks ('-', 'N/A') always last
+      if (va.t && !vb.t) return -1;
+      if (va.t !== vb.t) return (asc ? 1 : -1) * (va.t < vb.t ? -1 : 1);
+      return a._epsOrd - b._epsOrd;
+    });
+    rows.forEach(function (r) { tbody.appendChild(r); });
+    Array.prototype.forEach.call(tbl.querySelectorAll('thead th'), function (h) {
+      h.classList.remove('sort-active');
+      var ind = h.querySelector('.sort-ind');
+      if (ind) ind.innerHTML = '&#x21C5;';
+    });
+    th.classList.add('sort-active');
+    var ai = th.querySelector('.sort-ind');
+    if (ai) ai.innerHTML = asc ? '&#x25B2;' : '&#x25BC;';
+  }
+  function makeEpsSortable(tbl) {
+    var leaves = [];
+    Array.prototype.forEach.call(tbl.querySelectorAll('thead th'), function (h) {
+      if (parseInt(h.getAttribute('colspan') || '1', 10) === 1) leaves.push(h);
+    });
+    leaves.forEach(function (h, col) {
+      h.setAttribute('title', 'click to sort');
+      h.innerHTML += ' <span class="sort-ind">&#x21C5;</span>';
+      h.addEventListener('click', function () { sortEpsTable(tbl, col, h); });
+    });
+  }
+  Array.prototype.forEach.call(
+    document.querySelectorAll('#content table.eps'), makeEpsSortable);
 
   // deep link (#idx-DAX / #sec-DAX-report / #s-SAP): those anchors only exist
   // after this render, so re-scroll once the content is in the DOM.  The view

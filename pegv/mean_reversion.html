@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PEGV Mean Reversion</title>
+<!-- Static viewer -- written ONCE and never regenerated (stage_report /
+     eps_report pattern, doc/html_generation_architecture.html).  All data
+     comes from the .js data holder written by tl_pegv.py:
+       pegv/mean_reversion_data.js   window.MEAN_REVERSION_DATA
+     file://-safe <script src>, never fetch (browsers block fetch() of local
+     json on file://).  Mean-reversion results are NOT in the database yet. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="MeanReversion">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="icon" href="../favicon.png">
+<link rel="manifest" href="../manifest.json">
+<style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
+           padding: 24px; background: #fff; color: #202124; line-height: 1.5; }
+    h1 { font-size: 1.3rem; margin: 0 0 4px; }
+    h2 { font-size: 1.05rem; margin: 26px 0 10px; color: #334155;
+         text-transform: uppercase; letter-spacing: 0.5px; }
+    .meta { color: #70757a; font-size: .85rem; margin-bottom: 18px; }
+    .crumb { margin-bottom: 14px; font-size: .92rem; color: #64748b; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* stock search (delist.js -- tl_delistjson.py) */
+    .search-bar { margin: 0 0 12px; font-size: .9rem; display: flex;
+        align-items: center; gap: 8px; flex-wrap: wrap; }
+    .search-bar input { font-size: .95rem; padding: 5px 10px;
+        border: 1px solid #dadce0; border-radius: 6px; width: 250px; outline: none; }
+    .search-bar input:focus { border-color: #1a73e8;
+        box-shadow: 0 0 0 2px rgba(26,115,232,0.15); }
+    .search-bar button { padding: 5px 12px; border: 1px solid #dadce0;
+        background: #f8f9fa; border-radius: 6px; cursor: pointer; font-size: .9rem; }
+    .search-bar button:hover { background: #e8f0fe; border-color: #1a73e8; color: #1a73e8; }
+
+    /* state filter buttons + index selector (fund_sentiment filter-bar) */
+    .filter-bar { margin: 12px 0 14px; display: flex; gap: 8px; flex-wrap: wrap;
+        align-items: center; }
+    .filter-bar span { font-size: .85rem; font-weight: 600; color: #475569;
+        margin-right: 4px; }
+    .filter-bar button { padding: 4px 12px; border: 1px solid #dadce0;
+        background: #fff; border-radius: 6px; cursor: pointer; font-size: .82rem;
+        font-weight: 600; color: #475569; }
+    .filter-bar button:hover { background: #f1f3f4; }
+    .filter-bar button.active { background: #e8f0fe; border-color: #1a73e8;
+        color: #1a73e8; }
+    .filter-bar select, .filter-bar input { font-size: .82rem; padding: 4px 8px;
+        border: 1px solid #dadce0; border-radius: 6px; }
+    .filter-bar input { margin-left: auto; min-width: 180px; }
+
+    /* state pills */
+    .pill { display: inline-block; padding: 2px 7px; border-radius: 4px;
+        font-size: .72rem; font-weight: 700; text-transform: uppercase; }
+    .pill.s-green  { background: #e6f4ea; color: #0b8a3e; border: 1px solid #a8dab5; }
+    .pill.s-mint   { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .pill.s-yellow { background: #fefce8; color: #ca8a04; border: 1px solid #fef08a; }
+    .pill.s-orange { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+    .pill.s-red    { background: #fce8e6; color: #c5221f; border: 1px solid #f5c6c0; }
+    .pill.s-dim    { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
+
+    table.dataTable { width: 100%; border-collapse: collapse; font-size: .84rem;
+        margin-top: 8px; }
+    table.dataTable th, table.dataTable td { padding: 8px 10px; text-align: left;
+        border-bottom: 1px solid #ececec; white-space: nowrap; }
+    table.dataTable th { background: #f8fafc; font-weight: 600; color: #475569;
+        border-bottom: 2px solid #cbd5e1; cursor: pointer; user-select: none; }
+    table.dataTable th:hover { background: #f1f5f9; color: #0f172a; }
+    table.dataTable th.sorted { background: #e8f0fe; color: #1a73e8; }
+    table.dataTable tr:hover { background: #f8fafc; }
+    table.dataTable td.code { font-weight: 700; color: #1a73e8; cursor: pointer; }
+    table.dataTable td.code:hover { text-decoration: underline; }
+    table.dataTable td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    table.dataTable td.neg { color: #c5221f; }
+    table.dataTable td.pos { color: #0b8a3e; }
+
+    /* interpretation cell: head clause only, ellipsis + full-text tooltip,
+       click opens the detail modal with the complete block */
+    table.dataTable td.interp { max-width: 340px; overflow: hidden;
+        text-overflow: ellipsis; white-space: nowrap; cursor: pointer;
+        color: #3c4043; }
+    table.dataTable td.interp:hover { background: #e8f0fe; color: #1a73e8; }
+    table.dataTable td.warn { max-width: 220px; overflow: hidden;
+        text-overflow: ellipsis; white-space: nowrap; color: #b06000;
+        font-size: .78rem; }
+
+    .count-note { margin: 8px 0 0; font-size: .8rem; color: #94a3b8; }
+
+    /* Stock detail modal (stage_report / fund_sentiment pattern) */
+    .modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0;
+        bottom: 0; background: rgba(0,0,0,0.45); z-index: 1000; align-items: center;
+        justify-content: center; padding: 14px; }
+    .modal-backdrop.open { display: flex; }
+    .modal-card { background: #fff; border-radius: 8px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.22); width: 100%; max-width: 680px;
+        max-height: 88vh; display: flex; flex-direction: column; overflow: hidden;
+        animation: modalIn 0.12s ease-out; }
+    @keyframes modalIn { from { opacity: 0; transform: scale(0.97); }
+        to { opacity: 1; transform: scale(1); } }
+    .modal-header { display: flex; justify-content: space-between;
+        align-items: center; padding: 12px 18px; border-bottom: 1px solid #dadce0;
+        background: #f8f9fa; }
+    .modal-header h3 { margin: 0; font-size: 1.05rem; color: #202124;
+        display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .modal-close { background: none; border: none; font-size: 1.5rem; line-height: 1;
+        cursor: pointer; color: #5f6368; padding: 0 4px; }
+    .modal-close:hover { color: #202124; }
+    .modal-body { padding: 16px 18px; overflow-y: auto; font-size: .88rem;
+        line-height: 1.45; }
+    .card-block { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px;
+        padding: 12px 14px; margin-bottom: 12px; }
+    .card-block h4 { margin: 0 0 6px; font-size: .85rem; color: #475569;
+        text-transform: uppercase; letter-spacing: .5px; }
+    .card-block .row { display: flex; justify-content: space-between; gap: 12px;
+        padding: 2px 0; font-size: .85rem; }
+    .card-block .row .k { color: #64748b; }
+    .card-block .row .v { font-weight: 600; font-variant-numeric: tabular-nums; }
+    .interp-full { font-size: .88rem; color: #202124; background: #fff;
+        border: 1px dashed #cbd5e1; border-radius: 6px; padding: 8px 10px; }
+    .chip-list button { display: inline-block; margin: 0 8px 6px 0; padding: 4px 10px;
+        border: 1px solid #dadce0; border-radius: 14px; background: #fff;
+        color: #1a73e8; cursor: pointer; font-size: .85rem; }
+    .chip-list button:hover { background: #e8f0fe; }
+
+    .footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e2e8f0;
+        font-size: .8rem; color: #94a3b8; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>PEGV Mean Reversion &mdash; Fair-Value Range Report</h1>
+<div class="crumb">
+    <a href="../stage_report.html">&#127919; State Report</a> &middot;
+    <a href="../fund_sentiment_main.html">&#128200; Fundamental &amp; Sentiment</a> &middot;
+    <a href="../eps_report.html">&#128203; EPS Trend</a> &middot;
+    <a href="../sector_rotation.html">&#128257; Sector Rotation</a> &middot;
+    <a href="../index.html">&#128214; Guide</a>
+</div>
+<div class="meta" id="meta">loading data holder ...</div>
+
+<div class="search-bar">
+    <strong>Stock Search:</strong>
+    <input id="mrSearch" list="mrCodes" placeholder="code / WKN / ISIN / name" autocomplete="off">
+    <datalist id="mrCodes"></datalist>
+    <button id="mrGo" type="button">&#128269; Jump</button>
+</div>
+
+<div class="filter-bar" id="stateBar">
+    <span>State:</span>
+    <button class="active" data-state="ALL">ALL</button>
+    <button data-state="BELOW_BEAR">BELOW_BEAR</button>
+    <button data-state="OVERSOLD">OVERSOLD</button>
+    <button data-state="DISCOUNT">DISCOUNT</button>
+    <button data-state="FAIR">FAIR</button>
+    <button data-state="PREMIUM">PREMIUM</button>
+    <button data-state="OVERBOUGHT">OVERBOUGHT</button>
+    <button data-state="ABOVE_BULL">ABOVE_BULL</button>
+    <button data-state="N/A">N/A</button>
+    <span style="margin-left:14px;" id="idxLabel">Index:</span>
+    <select id="idxSel"><option value="ALL">ALL</option></select>
+    <input id="tableSearch" placeholder="filter table..." autocomplete="off">
+</div>
+
+<div style="overflow-x:auto;">
+    <table class="dataTable" id="mrTable">
+        <thead>
+            <tr>
+                <th data-col="code">Code &#x21C5;</th>
+                <th data-col="index">Index &#x21C5;</th>
+                <th data-col="sector">Sector &#x21C5;</th>
+                <th data-col="profile">Profile &#x21C5;</th>
+                <th data-col="price">Price &#x21C5;</th>
+                <th data-col="bear">Bear &#x21C5;</th>
+                <th data-col="base">Base &#x21C5;</th>
+                <th data-col="bull">Bull &#x21C5;</th>
+                <th data-col="range_position">Pos &#x21C5;</th>
+                <th data-col="distance_to_pivot">vs Pivot &#x21C5;</th>
+                <th data-col="state">State &#x21C5;</th>
+                <th data-col="price_action">Action &#x21C5;</th>
+                <th data-col="pegvn_dev">PEGVn &#x21C5;</th>
+                <th data-col="peer_dev">Peer &#x21C5;</th>
+                <th data-col="tv_share">TV &#x21C5;</th>
+                <th>Interpretation</th>
+                <th>Warnings</th>
+            </tr>
+        </thead>
+        <tbody id="mrBody"></tbody>
+    </table>
+</div>
+<div class="count-note" id="countNote"></div>
+
+<div class="footer">
+    PEGV Mean Reversion Static Viewer &copy; 2026 &bull; pivot = pegv1b,
+    pegvn / peer are cross-checks only &bull; results not yet stored in the
+    database (planned)
+</div>
+
+<!-- Stock detail modal -->
+<div id="mrModal" class="modal-backdrop" onclick="closeModal(event)">
+    <div class="modal-card">
+        <div class="modal-header">
+            <h3 id="modalTitle">Stock Detail</h3>
+            <button type="button" class="modal-close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+    </div>
+</div>
+
+<script src="mean_reversion_data.js"></script>
+<script src="../delist.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var D = window.MEAN_REVERSION_DATA || null;
+  var RECORDS = [];
+  var BY_CODE = {};
+  var CURRENT_STATE = 'ALL';
+  var CURRENT_INDEX = 'ALL';
+  var CURRENT_SORT_COL = 'code';
+  var SORT_ASC = true;
+
+  /* ---------- helpers ---------- */
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function num(v, digits) {
+    return (v == null || isNaN(v)) ? '\u2013' : Number(v).toFixed(digits == null ? 2 : digits);
+  }
+  function pct(v, digits, sign) {
+    if (v == null || isNaN(v)) return '\u2013';
+    var d = digits == null ? 1 : digits;
+    var s = (sign && v > 0) ? '+' : '';
+    return s + (v * 100).toFixed(d) + '%';
+  }
+  function cellNum(v, digits, sign) {
+    var cls = (v == null || isNaN(v)) ? '' : (v < 0 ? ' neg' : (v > 0 ? ' pos' : ''));
+    return '<td class="num' + cls + '">' + esc(num(v, digits)) + '</td>';
+  }
+  function cellPct(v, digits, sign) {
+    var cls = (v == null || isNaN(v)) ? '' : (v < 0 ? ' neg' : (v > 0 ? ' pos' : ''));
+    return '<td class="num' + cls + '">' + esc(pct(v, digits, sign)) + '</td>';
+  }
+  function stateClass(st) {
+    switch (String(st || 'N/A')) {
+      case 'OVERSOLD':     return 's-green';
+      case 'DISCOUNT':     return 's-mint';
+      case 'FAIR':         return 's-yellow';
+      case 'PREMIUM':      return 's-orange';
+      case 'OVERBOUGHT':   return 's-orange';
+      case 'ABOVE_BULL':   return 's-red';
+      case 'BELOW_BEAR':   return 's-red';
+      default:             return 's-dim';   /* N/A */
+    }
+  }
+  function statePill(st) {
+    var s = st || 'N/A';
+    return '<span class="pill ' + stateClass(s) + '">' + esc(s) + '</span>';
+  }
+  /* head clause of the interpretation (split on ' -- '), full text stays in
+     the title tooltip and in the detail modal */
+  function interpHead(full) {
+    full = String(full == null ? '' : full);
+    var i = full.indexOf(' -- ');
+    return i > 0 ? full.slice(0, i) : full;
+  }
+
+  /* ---------- meta / init ---------- */
+  function init() {
+    if (!D) {
+      document.getElementById('meta').innerHTML =
+        '<strong>No data holder found.</strong> Run: ' +
+        '<code>python WSHOME/tl_pegv.py --reportall</code> (or CODE --html)';
+      document.getElementById('countNote').textContent = '';
+      return;
+    }
+    RECORDS = D.records || [];
+    RECORDS.forEach(function (r) { BY_CODE[String(r.code).toUpperCase()] = r; });
+
+    var m = D.meta || {};
+    var idxs = D.indexes || [];
+    document.getElementById('meta').innerHTML =
+      'Generated: <strong>' + esc(D.generated) + '</strong> &middot; ' +
+      'Indexes: <strong>' + esc(idxs.length ? idxs.join(', ') : 'single run') + '</strong> &middot; ' +
+      'Rf <strong>' + esc(num(m.rf, 3)) + '%</strong> (' + esc(m.rf_source || '?') + ') &middot; ' +
+      'Rb ' + esc(num(m.rb, 1)) + '% &middot; gp ' + esc(num((m.gp || 0) * 100, 1)) + '% &middot; ' +
+      'src ' + esc(m.src || '?') + ' &middot; <strong>' + RECORDS.length +
+      '</strong> stock records &middot; <em>not stored in the database (planned)</em>';
+
+    /* index selector: only the indexes actually present */
+    var seen = {};
+    RECORDS.forEach(function (r) { if (r.index) seen[r.index] = 1; });
+    var opts = Object.keys(seen).sort();
+    var sel = document.getElementById('idxSel');
+    if (opts.length < 2) {
+      document.getElementById('idxLabel').style.display = 'none';
+      sel.style.display = 'none';               /* single-stock run */
+    } else {
+      opts.forEach(function (o) {
+        var el = document.createElement('option');
+        el.value = o; el.textContent = o;
+        sel.appendChild(el);
+      });
+    }
+
+    initSearch();
+    renderTable();
+  }
+
+  /* ---------- filtering + sorting ---------- */
+  function visibleRecords() {
+    var q = (document.getElementById('tableSearch').value || '').trim().toUpperCase();
+    var list = RECORDS.filter(function (r) {
+      if (CURRENT_STATE !== 'ALL' && String(r.state || 'N/A') !== CURRENT_STATE) return false;
+      if (CURRENT_INDEX !== 'ALL' && String(r.index || '') !== CURRENT_INDEX) return false;
+      if (q) {
+        var s = (r.code + ' ' + (r.index || '') + ' ' + (r.sector || '') + ' ' +
+                 (r.profile || '') + ' ' + (r.state || '') + ' ' +
+                 (r.price_action || '') + ' ' + (r.warnings || []).join(' ')).toUpperCase();
+        if (s.indexOf(q) < 0) return false;
+      }
+      return true;
+    });
+
+    list.sort(function (a, b) {
+      var col = CURRENT_SORT_COL;
+      if (col === 'code')         return cmpStr(a.code, b.code);
+      if (col === 'index')        return cmpStr(a.index || '', b.index || '');
+      if (col === 'sector')       return cmpStr(a.sector || '', b.sector || '');
+      if (col === 'profile')      return cmpStr(a.profile || '', b.profile || '');
+      if (col === 'state')        return cmpStr(a.state || 'N/A', b.state || 'N/A');
+      if (col === 'price_action') return cmpStr(a.price_action || '', b.price_action || '');
+      return cmpNum(a[col], b[col]);   /* price, bear, base, bull, positions, devs, tv */
+    });
+    return list;
+  }
+  function cmpStr(a, b) {
+    a = String(a); b = String(b);
+    if (a < b) return SORT_ASC ? -1 : 1;
+    if (a > b) return SORT_ASC ? 1 : -1;
+    return 0;
+  }
+  function cmpNum(a, b) {
+    var an = (a == null || isNaN(a)), bn = (b == null || isNaN(b));
+    if (an && bn) return 0;
+    if (an) return 1;                 /* nulls always last */
+    if (bn) return -1;
+    if (a < b) return SORT_ASC ? -1 : 1;
+    if (a > b) return SORT_ASC ? 1 : -1;
+    return 0;
+  }
+
+  function renderTable() {
+    var list = visibleRecords();
+    var h = '';
+    list.forEach(function (r) {
+      var full = String(r.interpretation || '');
+      var head = interpHead(full);
+      var warn = (r.warnings || []).join(', ');
+      h += '<tr>' +
+        '<td class="code" data-code="' + esc(r.code) + '" title="open detail">' + esc(r.code) + '</td>' +
+        '<td>' + esc(r.index || '\u2013') + '</td>' +
+        '<td>' + esc(r.sector || '\u2013') + '</td>' +
+        '<td>' + esc(r.profile || '\u2013') + '</td>' +
+        cellNum(r.price, 2) +
+        cellNum(r.bear, 2) +
+        cellNum(r.base, 2) +
+        cellNum(r.bull, 2) +
+        cellPct(r.range_position, 0, false) +
+        cellPct(r.distance_to_pivot, 1, true) +
+        '<td>' + statePill(r.state) + '</td>' +
+        '<td>' + esc(r.price_action || '\u2013') + '</td>' +
+        cellPct(r.pegvn_dev, 1, true) +
+        cellPct(r.peer_dev, 1, true) +
+        cellPct(r.tv_share, 0, false) +
+        '<td class="interp" data-code="' + esc(r.code) + '" title="' + esc(full) +
+          '">' + esc(head) + (head !== full ? '\u2026' : '') + '</td>' +
+        '<td class="warn" title="' + esc(warn || 'none') + '">' +
+          esc(warn || '\u2013') + '</td>' +
+        '</tr>';
+    });
+    document.getElementById('mrBody').innerHTML = h ||
+      '<tr><td colspan="17" style="color:#94a3b8;">no records match the current filter</td></tr>';
+    document.getElementById('countNote').textContent =
+      'showing ' + list.length + ' / ' + RECORDS.length + ' stocks';
+
+    /* sort indicator */
+    var ths = document.querySelectorAll('#mrTable th[data-col]');
+    for (var i = 0; i < ths.length; i++) {
+      ths[i].classList.toggle('sorted', ths[i].getAttribute('data-col') === CURRENT_SORT_COL);
+    }
+  }
+
+  /* ---------- detail modal ---------- */
+  function row(k, v) {
+    return '<div class="row"><span class="k">' + esc(k) + '</span>' +
+           '<span class="v">' + v + '</span></div>';
+  }
+  function openDetail(code) {
+    var r = BY_CODE[String(code || '').toUpperCase()];
+    if (!r) return;
+    var p = r.params || {};
+    var f = function (v, d) { return num(v, d == null ? 2 : d); };
+    var pf = function (v) { return pct(v, 1, true); };
+
+    document.getElementById('modalTitle').innerHTML =
+      esc(r.code) + (r.index ? ' <span class="pill s-dim">' + esc(r.index) + '</span>' : '') +
+      ' ' + statePill(r.state) +
+      ' <span class="pill s-dim">' + esc(r.profile || '?') + '</span>';
+
+    var h = '';
+    h += '<div class="card-block"><h4>Interpretation</h4>' +
+         '<div class="interp-full">' + esc(r.interpretation || 'n/a') + '</div></div>';
+
+    h += '<div class="card-block"><h4>Valuation Range (pivot = pegv1b)</h4>' +
+         row('Price' + (r.price_date ? ' (' + String(r.price_date).slice(0, 10) + ')' : ''), f(r.price)) +
+         row('Bear / Base / Bull', f(r.bear) + ' / ' + f(r.base) + ' / ' + f(r.bull)) +
+         row('Range position', pct(r.range_position, 0, false) + ' &nbsp;(' + esc(r.state || 'N/A') + ')') +
+         row('Distance to pivot', pf(r.distance_to_pivot)) +
+         row('Reference value', f(r.reference_value)) +
+         '</div>';
+
+    h += '<div class="card-block"><h4>Assumptions (' + esc(r.profile || '?') + ' profile)</h4>' +
+         row('EPS factor bear / bull', 'x' + f(p.bear_eps) + ' / x' + f(p.bull_eps)) +
+         row('Discount base', f((r.base_rate || 0) * 100, 3) + '%') +
+         row('Discount bear / bull', f((r.bear_rate || 0) * 100, 3) + '% / ' +
+             f((r.bull_rate || 0) * 100, 3) + '%') +
+         row('Perpetual growth (unchanged)', pct(r.gp, 1, false)) +
+         row('Sector', esc(r.sector || 'n/a')) +
+         '</div>';
+
+    var pegvnFlag = (r.warnings || []).indexOf('PEGVN_DISAGREE') >= 0 ? 'DISAGREE' : 'ok';
+    var peerFlag = (r.warnings || []).indexOf('PEER_DISAGREE') >= 0 ? 'DISAGREE' : 'ok';
+    h += '<div class="card-block"><h4>Cross-checks (never move the pivot)</h4>' +
+         row('PEGVn', (r.pegvn == null ? 'n/a' : f(r.pegvn) + ' &nbsp;' + pf(r.pegvn_dev) +
+             ' <span class="pill ' + (pegvnFlag === 'ok' ? 's-green' : 's-red') + '">' + pegvnFlag + '</span>')) +
+         row('Peer valuation', (r.peer == null ? 'n/a' : f(r.peer) + ' &nbsp;' + pf(r.peer_dev) +
+             ' <span class="pill ' + (peerFlag === 'ok' ? 's-green' : 's-red') + '">' + peerFlag + '</span>')) +
+         row('Terminal-value share', (r.tv_share == null ? 'n/a' :
+             pct(r.tv_share, 0, false) +
+             ((r.warnings || []).indexOf('HIGH_TV_SHARE') >= 0 ?
+              ' <span class="pill s-orange">HIGH</span>' : ''))) +
+         row('Price action', esc(r.price_action || 'n/a')) +
+         '</div>';
+
+    h += '<div class="card-block"><h4>EPS Outlook</h4>' +
+         row('Missing estimates', esc((r.eps_missing || []).join(', ') || 'none')) +
+         row('Year-over-year declines', esc((r.eps_declines || []).join(', ') || 'none')) +
+         row('Warnings', esc((r.warnings || []).join(', ') || 'none')) +
+         '</div>';
+
+    document.getElementById('modalBody').innerHTML = h;
+    document.getElementById('mrModal').classList.add('open');
+  }
+
+  /* multi-hit search results: clickable chip list */
+  function openChipList(title, codes) {
+    var h = '<div class="chip-list">';
+    codes.forEach(function (c) {
+      h += '<button type="button" data-code="' + esc(c) + '">' + esc(c) + '</button>';
+    });
+    h += '</div><p class="count-note">click a code for its mean-reversion detail</p>';
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalBody').innerHTML = h;
+    document.getElementById('mrModal').classList.add('open');
+  }
+  function openMessage(title, html) {
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalBody').innerHTML = html;
+    document.getElementById('mrModal').classList.add('open');
+  }
+  function closeModal(e) {
+    if (!e || e.target === document.getElementById('mrModal') ||
+        (e.target.classList && e.target.classList.contains('modal-close'))) {
+      document.getElementById('mrModal').classList.remove('open');
+    }
+  }
+
+  /* ---------- search (stage_report / eps_report pattern) ---------- */
+  function searchDelist(q) {
+    var list = (window.DELIST && window.DELIST.stocks) || null;
+    if (!list) return null;
+    var qu = q.toUpperCase(), ql = q.toLowerCase(), hits = [];
+    list.forEach(function (r) {
+      var code = (r.Code || '').toUpperCase(), rank = -1;
+      if (code && code.indexOf(qu) === 0) rank = 0;
+      else if (r.WKN && String(r.WKN).toUpperCase().indexOf(qu) === 0) rank = 1;
+      else if (r.ISIN && String(r.ISIN).toUpperCase().indexOf(qu) === 0) rank = 1;
+      else if (r.FullName && String(r.FullName).toLowerCase().indexOf(ql) >= 0) rank = 2;
+      else if (r.ovname && String(r.ovname).toLowerCase().indexOf(ql) >= 0) rank = 2;
+      else if (r.Name && String(r.Name).toLowerCase().indexOf(ql) >= 0) rank = 2;
+      if (rank >= 0) hits.push({ r: r, code: code, rank: rank });
+    });
+    hits.sort(function (a, b) {
+      if (a.rank !== b.rank) return a.rank - b.rank;
+      return a.code < b.code ? -1 : (a.code > b.code ? 1 : 0);
+    });
+    return hits;
+  }
+  function doSearch() {
+    var q = (document.getElementById('mrSearch').value || '').trim();
+    if (!q) return;
+    var qu = q.toUpperCase();
+    if (BY_CODE[qu]) { openDetail(qu); return; }
+    var hits = searchDelist(q);
+    var title = 'Search \u2013 ' + q;
+    if (!hits) {
+      openMessage(title, '<p class="meta">Search data not found &mdash; run: ' +
+        'python C:\\nb\\bin\\WSHOME\\tl_delistjson.py</p>');
+      return;
+    }
+    var inData = hits.map(function (x) { return x.code; })
+                     .filter(function (c) { return !!BY_CODE[c]; });
+    if (!inData.length) {
+      openMessage(title, '<p class="meta">' + hits.length + ' match' +
+        (hits.length === 1 ? '' : 'es') + ' in delist, none in this ' +
+        'mean-reversion data set.</p>');
+      return;
+    }
+    if (inData.length === 1) { openDetail(inData[0]); return; }
+    openChipList(title + ' (' + inData.length + ' in data)', inData);
+  }
+  function initSearch() {
+    var dl = document.getElementById('mrCodes');
+    var DS = (window.DELIST && window.DELIST.stocks) || null;
+    if (dl && DS) {
+      var dh = '';
+      DS.forEach(function (r) {
+        var c = (r.Code || '').toUpperCase();
+        if (!c) return;
+        var nm = r.FullName || r.ovname || r.Name || '';
+        dh += '<option value="' + esc(c) + '"' + (nm ? ' label="' + esc(nm) + '"' : '') + '>';
+      });
+      dl.innerHTML = dh;
+    }
+    document.getElementById('mrGo').addEventListener('click', doSearch);
+    document.getElementById('mrSearch').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); doSearch(); }
+    });
+  }
+
+  /* ---------- wiring ---------- */
+  document.getElementById('stateBar').addEventListener('click', function (e) {
+    var b = e.target;
+    if (!b || b.tagName !== 'BUTTON' || !b.getAttribute('data-state')) return;
+    CURRENT_STATE = b.getAttribute('data-state');
+    var btns = this.querySelectorAll('button');
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].classList.toggle('active', btns[i] === b);
+    }
+    renderTable();
+  });
+  document.getElementById('idxSel').addEventListener('change', function () {
+    CURRENT_INDEX = this.value;
+    renderTable();
+  });
+  document.getElementById('tableSearch').addEventListener('input', renderTable);
+  document.getElementById('mrTable').addEventListener('click', function (e) {
+    var th = e.target;
+    if (th && th.tagName === 'TH' && th.getAttribute('data-col')) {
+      var col = th.getAttribute('data-col');
+      if (CURRENT_SORT_COL === col) { SORT_ASC = !SORT_ASC; }
+      else { CURRENT_SORT_COL = col; SORT_ASC = true; }
+      renderTable();
+      return;
+    }
+    var td = e.target;
+    if (td && td.tagName === 'TD' && td.getAttribute('data-code')) {
+      openDetail(td.getAttribute('data-code'));
+    }
+  });
+  document.getElementById('modalBody').addEventListener('click', function (e) {
+    var b = e.target;
+    if (b && b.tagName === 'BUTTON' && b.getAttribute('data-code')) {
+      openDetail(b.getAttribute('data-code'));
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      var m = document.getElementById('mrModal');
+      if (m) m.classList.remove('open');
+    }
+  });
+  window.closeModal = closeModal;
+
+  /* deep link: mean_reversion.html?code=IFX */
+  function fromQuery() {
+    var c = '';
+    try { c = (new URLSearchParams(location.search).get('code') || '').trim(); } catch (err) {}
+    if (c && BY_CODE[c.toUpperCase()]) openDetail(c);
+  }
+
+  init();
+  fromQuery();
+})();
+</script>
+<script src="../sidebar.js"></script>
+</body>
+</html>
