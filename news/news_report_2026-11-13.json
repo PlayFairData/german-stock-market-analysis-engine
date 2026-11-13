@@ -1,0 +1,352 @@
+{
+ "date": "2026-11-13",
+ "generated": "2026-11-13 18:36:30",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 7,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 25
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 2,
+   "INFO": 12
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 6,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 34,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research belaesst Richemont auf 'Buy'",
+   "link": "https://www.onvista.de/news/2026/11-13-analyse-flash-deutsche-bank-research-belaesst-richemont-auf-buy-0-10-26576231",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "US-Behoerde: BMW-Fahrer sollen wegen Brandgefahr draussen parken",
+   "link": "https://www.onvista.de/news/2026/11-13-us-behoerde-bmw-fahrer-sollen-wegen-brandgefahr-draussen-parken-0-20-26576220",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Telekom vorne: Dax-Konzerne steigern Gewinne trotz Autokrise",
+   "link": "https://www.onvista.de/news/2026/11-13-dax-konzerne-steigern-gewinne-trotz-autokrise-0-10-26575960",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Deutsche Post hebt Paketpreise fuer Verbraucher 2027 an",
+   "link": "https://www.onvista.de/news/2026/11-13-deutsche-post-hebt-paketpreise-fuer-verbraucher-2027-an-0-20-26576091",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Telekom vorne: Dax-Konzerne steigern Gewinne trotz Autokrise",
+   "link": "https://www.onvista.de/news/2026/11-13-dax-konzerne-steigern-gewinne-trotz-autokrise-0-10-26575960",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-11-13",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Barclays senkt Dt. Boerse auf 'Equal Weight' - Setzt auf Euronext",
+   "link": "https://www.onvista.de/news/2026/11-13-analyse-flash-barclays-senkt-dt-boerse-auf-equal-weight-setzt-auf-euronext-0-10-26576118",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "AMS Osram mit weniger Umsatz und bereinigtem operativen Gewinn - Aktie faellt",
+   "link": "https://www.onvista.de/news/2026/11-13-ams-osram-mit-weniger-umsatz-und-bereinigtem-operativen-gewinn-aktie-faellt-0-10-26576028",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "BVB und Rheinmetall: Aus fuer umstrittenen Sponsoring-Deal",
+   "link": "https://www.onvista.de/news/2026/11-13-roundup-bvb-und-rheinmetall-aus-fuer-umstrittenen-sponsoring-deal-0-10-26576188",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Berichte: Bund koennte Eons und RWEs Urenco-Anteil kaufen",
+   "link": "https://www.onvista.de/news/2026/11-13-roundup-berichte-bund-koennte-eons-und-rwes-urenco-anteil-kaufen-0-10-26576167",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Mercedes stoppt Investitionen in deutsche Werke",
+   "link": "https://www.onvista.de/news/2026/11-13-warum-bei-mercedes-benz-werke-auf-dem-spiel-stehen-0-10-26576107",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax mit Verschnaufpause nach Rekordhoch",
+   "link": "https://www.onvista.de/news/2026/11-13-aktien-frankfurt-dax-mit-verschnaufpause-nach-rekordhoch-0-10-26576171",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: Langer Ausfall bei Microsoft loest gravierende Stoerungen aus",
+   "link": "https://www.onvista.de/news/2026/11-13-roundup-3-langer-ausfall-bei-microsoft-loest-gravierende-stoerungen-aus-0-10-26576180",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Mercedes stoppt Investitionen in deutsche Werke",
+   "link": "https://www.onvista.de/news/2026/11-13-warum-bei-mercedes-benz-werke-auf-dem-spiel-stehen-0-10-26576107",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-11-13",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Bernstein senkt Siemens Healthineers auf 'Market-Perform'",
+   "link": "https://www.onvista.de/news/2026/11-13-analyse-flash-bernstein-senkt-siemens-healthineers-auf-market-perform-0-10-26576193",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "BC8",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 13.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-13-dpa-afx-ueberblick-unternehmen-vom-13-11-2026-15-15-uhr-0-10-26576179",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Bahn und Flughaefen: Microsoft-Stoerung hat keine Auswirkungen",
+   "link": "https://www.onvista.de/news/2026/11-13-roundup-2-bahn-und-flughaefen-microsoft-stoerung-hat-keine-auswirkungen-0-10-26576135",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RAA",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "WOCHENAUSBLICK: Anleger warten nach Dax-Rekord auf Nvidia-Zahlen und Anthropic",
+   "link": "https://www.onvista.de/news/2026/11-13-wochenausblick-anleger-warten-nach-dax-rekord-auf-nvidia-zahlen-und-anthropic-0-10-26576183",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SMHN",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax trotzt Nasdaq-Schwaeche - Pause nach Rekord",
+   "link": "https://www.onvista.de/news/2026/11-13-roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-pause-nach-rekord-0-10-26576248",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Aktien Europa Schluss: Aufwaertsdrang erlahmt nach starker Boersenwoche",
+   "link": "https://www.onvista.de/news/2026/11-13-aktien-europa-schluss-aufwaertsdrang-erlahmt-nach-starker-boersenwoche-0-10-26576239",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: HENSOLDT AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-13-eqs-pvr-hensoldt-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "GNW-DD: Renk Group AG: Dr. Klaus Eberhard und Eva-Maria Richter, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-13-gnw-dd-renk-group-ag-dr-klaus-eberhard-und-eva-maria-richter-kauf-0-10-26576072",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Rheinmetall faellt weiter - Bernstein: Verzoegerung fuer F127?",
+   "link": "https://www.onvista.de/news/2026/11-13-aktien-im-fokus-rheinmetall-faellt-weiter-bernstein-verzoegerung-fuer-f127-0-10-26576147",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: DZ Bank belaesst Cancom auf 'Kaufen' - Fairer Wert 29 Euro",
+   "link": "https://www.onvista.de/news/2026/11-13-analyse-flash-dz-bank-belaesst-cancom-auf-kaufen-fairer-wert-29-euro-0-10-26576114",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DUE",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Duerr Aktiengesellschaft: Vorabbekanntmachung ueber die Veroeffentlichung",
+   "link": "https://www.onvista.de/news/2026/11-13-eqs-afr-duerr-aktiengesellschaft-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "EUZ",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "Original-Research: Eckert & Ziegler SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-13-original-research-eckert-ziegler-se-von-nuways-ag-buy-0-10-26576012",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "IXX",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "EQS-DD: init innovation in traffic systems SE: Christina  Bardusch-Haupt, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-13-eqs-dd-init-innovation-in-traffic-systems-se-christina-bardusch-haupt-kauf-0-37-26576070",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "Original-Research: OHB SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-13-original-research-ohb-se-von-nuways-ag-buy-0-10-26576010",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "INH",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Atempause nach Rekordhoch beim Dax",
+   "link": "https://www.onvista.de/news/2026/11-13-aktien-frankfurt-atempause-nach-rekordhoch-beim-dax-0-10-26576087",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MLP",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "Original-Research: MLP SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-13-original-research-mlp-se-von-nuways-ag-buy-0-10-26576009",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "Original-Research: Verbio SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-13-original-research-verbio-se-von-nuways-ag-buy-0-10-26576011",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/11-13-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NA9",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "EQS-News: Nagarro legt ungepruefte Z",
+   "link": "https://www.onvista.de/news/2026/11-13-eqs-news-nagarro-legt-ungepruefte-zahlen-fuer-das-dritte-quartal-2026-vor-und-verzeichnet-in-den-ersten-neun-monaten-2026-ein-umsatzwachstum-von-2",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TNIE",
+   "date": "2026-11-13",
+   "sentiment": "BUY",
+   "news": "Original-Research: tonies SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/11-13-original-research-tonies-se-von-nuways-ag-buy-0-10-26576008",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-11-13",
+   "sentiment": "INFO",
+   "news": "BVB und Rheinmetall: Aus fuer umstrittenen Sponsoring-Deal",
+   "link": "https://www.onvista.de/news/2026/11-13-roundup-bvb-und-rheinmetall-aus-fuer-umstrittenen-sponsoring-deal-0-10-26576188",
+   "source": "dpa-AFX"
+  }
+ ]
+}
