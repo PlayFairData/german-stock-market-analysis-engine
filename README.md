@@ -5,8 +5,8 @@ Static HTML reports that classify every stock in the German market into one **ma
 the report development is continued. new feature released every week is not covered in this readme.
 
 How to use:
-1) supply AI / chatGpt with part of the report and ask your specific question
-2) build your local data sheet. If you prefer a local database or Excel etc. download the json data holder and import to your local database. for example: import json to database. https://sonra.io/json-to-sql-database-guide/ 
+1) supply AI / chatGpt with part of the report and ask your specific question, depends on the HTML browser, select the text then click the AI Icon like copilot.
+2) build your local data sheet. If you prefer a local database or Excel etc. download the json data holder and import to your local database. for example: import json to database. https://sonra.io/json-to-sql-database-guide/
 
 **Coverage:** DAX · MDAX · SDAX (plus experimental PDAX, CDAX) — ~176 stocks, one report per trading day.
 
