@@ -2,15 +2,22 @@
 
 Static HTML reports that classify every stock in the German market into one **market state**, with a score, a confidence level and the reasons behind it. Generated on a schedule, published as plain HTML — no server, no build step, open in a browser or host anywhere.
 
+the report development is continued. new feature released every week is not covered in this readme.
+
+How to use:
+1) supply AI / chatGpt with part of the report and ask your specific question
+2) build your local data sheet. If you prefer a local database or Excel etc. download the json data holder and import to your local database. for example: import json to database. https://sonra.io/json-to-sql-database-guide/ 
+
 **Coverage:** DAX · MDAX · SDAX (plus experimental PDAX, CDAX) — ~176 stocks, one report per trading day.
 
 ## Start here
 
-| Page | What it is |
+| main Page | What it is |
 |---|---|
 | [`index.html`](index.html) | **Read this first.** Explains the terminology and how the layers combine into a state. |
 | [`stage_report.html`](stage_report.html) | Today's state report — stage distribution per index, clickable through to stock details. |
 | [`stageReport/index.html`](stageReport/index.html) | Archive — pick two dates to compare, or replay any archived day. |
+....
 
 ## How the classification works
 
