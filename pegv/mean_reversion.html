@@ -216,6 +216,38 @@
     </div>
 </div>
 
+    <details class="help"><summary>Help</summary>
+    <div class="help-content">
+    <h2>Help — Reading the Mean Reversion Classification</h2>
+
+    <p>The classification is determined by the <strong>Range Position</strong>, which is a 0% to 100% scale calculated as: <code>(Price − Bear) / (Bull − Bear)</code>.</p>
+
+    <h3>1. BELOW_BEAR (Range Position &lt; 0%)</h3>
+    <p>The stock price is trading below the conservative Bear valuation floor. This implies severe pessimism or a potential value trap. The interpretation explicitly warns: <em>"investigate why; not a confirmed buy."</em></p>
+
+    <h3>2. OVERSOLD (0% ≤ Range Position &lt; 20%)</h3>
+    <p>The price is inside the valuation range but heavily skewed toward the Bear floor. It is fundamentally cheap. However, the interpretation differentiates based on price action: if the price is <code>RECOVERING</code>, it is a potential mean-reversion candidate; if <code>FALLING</code>, it advises waiting for stabilisation.</p>
+
+    <h3>3. DISCOUNT (20% ≤ Range Position &lt; 40%)</h3>
+    <p>The price is below the midpoint (Base/Pivot) but safely inside the lower half of the range. It represents an attractive discount to fair value.</p>
+
+    <h3>4. FAIR (40% ≤ Range Position &lt; 60%)</h3>
+    <p>The price is trading around the Base pivot (the existing pegv1b fair value). The interpretation is neutral—there is no significant mean-reversion edge.</p>
+
+    <h3>5. PREMIUM (60% ≤ Range Position &lt; 80%)</h3>
+    <p>The price is above the Base pivot but still inside the upper half of the valuation range. It trades at a premium, meaning the upside vs. fundamentals is limited.</p>
+
+    <h3>6. OVERBOUGHT (80% ≤ Range Position ≤ 100%)</h3>
+    <p>The price is near or at the optimistic Bull ceiling. The interpretation warns that upside versus fundamentals is limited.</p>
+
+    <h3>7. ABOVE_BULL (Range Position &gt; 100%)</h3>
+    <p>The stock price has exceeded the optimistic Bull valuation ceiling. The market is pricing in extreme optimism. The interpretation suggests this is a <em>"potential trim candidate."</em></p>
+
+    <h3>8. N/A (Range Position is None)</h3>
+    <p>The state cannot be calculated. This occurs when there is insufficient data to compute the Bear/Bull range (e.g., missing EPS path, missing price, or the Bull value is not greater than the Bear value).</p>
+    </div>
+    </details>
+
 <script src="mean_reversion_data.js"></script>
 <script src="../delist.js"></script>
 <script>
