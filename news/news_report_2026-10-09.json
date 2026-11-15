@@ -1,0 +1,343 @@
+{
+ "date": "2026-10-09",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 31
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 33,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Ex-Deutsche-Bank-Haendler Bittar in Londoner Berufungsprozess freigesprochen",
+   "link": "https://www.onvista.de/news/2026/10-09-ex-deutsche-bank-haendler-bittar-in-londoner-berufungsprozess-freigesprochen-0-20-26562410",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Erholung - Entspannung bei franzoesischen Anleihen",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-aktien-europa-schluss-erholung-entspannung-bei-franzoesischen-anleihen-0-10-26562451",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EU-Minister erzielen Kompromiss zur zentralisierten Kapitalmarktaufsicht",
+   "link": "https://www.onvista.de/news/2026/10-09-eu-minister-erzielen-kompromiss-zur-zentralisierten-kapitalmarktaufsicht-0-20-26562393",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oel und Anleihen helfen Dax ueber 25.000 Punkte",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-aktien-frankfurt-schluss-oel-und-anleihen-helfen-dax-ueber-25-000-punkte-0-10-26562448",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-10-09",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: RBC hebt Ziel fuer Gea Group auf 76 Euro - 'Outperform'",
+   "link": "https://www.onvista.de/news/2026/10-09-analyse-flash-rbc-hebt-ziel-fuer-gea-group-auf-76-euro-outperform-0-10-26562303",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Paris und Berlin wollen Panzerprojekt MGCS weiter vorantreiben",
+   "link": "https://www.onvista.de/news/2026/10-09-paris-und-berlin-wollen-panzerprojekt-mgcs-weiter-vorantreiben-0-10-26562353",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Autoindustrie leidet unter Investitionen in veraltete Technologien",
+   "link": "https://www.onvista.de/news/2026/10-09-studie-autoindustrie-leidet-unter-investitionen-in-veraltete-technologien-0-20-26562312",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax erholt und wieder klar ueber 25.000 Punkten",
+   "link": "https://www.onvista.de/news/2026/10-09-aktien-frankfurt-dax-erholt-und-wieder-klar-ueber-25-000-punkten-0-10-26562337",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: EU ringt China Kompromiss zu Hybridauto-Exporten ab",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-2-eu-ringt-china-kompromiss-zu-hybridauto-exporten-ab-0-10-26562445",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Allianz: Europas Autoindustrie spart an falscher Stelle",
+   "link": "https://www.onvista.de/news/2026/10-09-allianz-europas-autoindustrie-spart-an-falscher-stelle-0-10-26562258",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Insider: BASF-Offerte fuer Evonik \"nicht das letzte Wort\"",
+   "link": "https://www.onvista.de/news/2026/10-09-insider-basf-offerte-fuer-evonik-nicht-das-letzte-wort-0-20-26562392",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Commerzbank: EU-Kommission will im November entscheiden",
+   "link": "https://www.onvista.de/news/2026/10-09-eu-wettbewerbshueter-wollen-november-ueber-commerzbank-unicredit-entscheiden-0-20-26562363",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax erholt und wieder klar ueber 25.000 Punkten",
+   "link": "https://www.onvista.de/news/2026/10-09-aktien-frankfurt-dax-erholt-und-wieder-klar-ueber-25-000-punkten-0-10-26562337",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "WOCHENAUSBLICK: Dax im Bann von Oel und Anleihen - US-Berichtssaison startet",
+   "link": "https://www.onvista.de/news/2026/10-09-wochenausblick-dax-im-bann-von-oel-und-anleihen-us-berichtssaison-startet-0-10-26562381",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "GBF",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 09.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-09-dpa-afx-ueberblick-unternehmen-vom-09-10-2026-15-15-uhr-0-10-26562366",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EU-Kommission unterstuetzt acht deutsche Rohstoffprojekte",
+   "link": "https://www.onvista.de/news/2026/10-09-eu-kommission-unterstuetzt-acht-deutsche-rohstoffprojekte-0-10-26562291",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RAA",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oel und Anleihen helfen Dax ueber 25.000 Punkte",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-aktien-frankfurt-schluss-oel-und-anleihen-helfen-dax-ueber-25-000-punkte-0-10-26562448",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FNTN",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: freenet AG: Vorabbekanntmachung ueber die Veroeffentlichung von Quartalsberi",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-afr-freenet-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: USA verhaengen Sanktionen gegen Weltstrafgericht",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-3-usa-verhaengen-sanktionen-gegen-weltstrafgericht-0-10-26562455",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Insider: BASF-Offerte fuer Evonik \"nicht das letzte Wort\"",
+   "link": "https://www.onvista.de/news/2026/10-09-insider-basf-offerte-fuer-evonik-nicht-das-letzte-wort-0-20-26562392",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "KBX",
+   "date": "2026-10-09",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Knorr-Bremse auf 126 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-09-analyse-flash-jefferies-hebt-ziel-fuer-knorr-bremse-auf-126-euro-buy-0-10-26562427",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "Kein Ende der Talfahrt: Porsche verkauft weniger Autos",
+   "link": "https://www.onvista.de/news/2026/10-09-kein-ende-der-talfahrt-porsche-verkauft-weniger-autos-0-10-26562218",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Rot-Gruen-Rot in Berlin: Sondieren gegen den Orkan",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-rot-gruen-rot-in-berlin-sondieren-gegen-den-orkan-0-10-26562325",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EKT",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Energiekontor AG: Energiekontor erhaelt Genehmigungen fuer vier deutsche Windp",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-news-energiekontor-ag-energiekontor-erhaelt-genehmigungen-fuer-vier-deutsche-windparkproje",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Verbio SE: Vorabbekanntmachung ueber die Veroeffentlichung von Quartalsberich",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-afr-verbio-se-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HFG",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HelloFresh SE: Active Ownership Opportunities SCS, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-dd-hellofresh-se-active-ownership-opportunities-scs-kauf-0-37-26562349",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "1SXP",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oel und Anleihen helfen Dax ueber 25.000 Punkte",
+   "link": "https://www.onvista.de/news/2026/10-09-roundup-aktien-frankfurt-schluss-oel-und-anleihen-helfen-dax-ueber-25-000-punkte-0-10-26562448",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "PAT",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "PATRIZIA stellt eine Milliarde Pfund fuer den Bau von bezahlbarem Wohnraum in Grossbritannien bereit",
+   "link": "https://www.onvista.de/news/2026/10-09-patrizia-stellt-eine-milliarde-pfund-fuer-den-bau-von-bezahlbarem-wohnraum-in-gros",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "V1NC",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: VINCORION verbessert sich im EcoVadis-Rating erneut und sichert sich zum dr",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-news-vincorion-verbessert-sich-im-ecovadis-rating-erneut-und-sichert-sich-zum-dritten-mal-in-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "V6C",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Viscom SE: Prof. Dr. Ludger Overmeyer, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-dd-viscom-se-prof-dr-ludger-overmeyer-kauf-0-37-26562355",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BRNK",
+   "date": "2026-10-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Branicks Group AG: Ausserordentliche Hauptversammlung stimmt nicht allen Tagesordnungspunkten",
+   "link": "https://www.onvista.de/news/2026/10-09-eqs-news-branicks-group-ag-ausserordentliche-hauptversammlung-stimmt-nicht-alle",
+   "source": "EQS Group"
+  }
+ ]
+}

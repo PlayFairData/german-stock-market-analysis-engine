@@ -1,0 +1,352 @@
+{
+ "date": "2026-09-09",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 5,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 29
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 4,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 13
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 34,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Novartis auf 'Hold' und Ziel auf 120 Franken",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-deutsche-bank-senkt-novartis-auf-hold-und-ziel-auf-120-franken-0-10-26551644",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan laesst Heidelberg Materials auf 'Overweight'",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-jpmorgan-laesst-heidelberg-materials-auf-overweight-0-10-26551565",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-09-09",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer Henkel auf 81 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-deutsche-bank-research-hebt-ziel-fuer-henkel-auf-81-euro-buy-0-10-26551615",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Siemens Energy auf 'Overweight' - Ziel 245 Euro",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-jpmorgan-belaesst-siemens-energy-auf-overweight-ziel-245-euro-0-10-26551570",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "APA ots news: Allianz Gesundheitsbarometer 2026: Zahngesundheit in...",
+   "link": "https://www.onvista.de/news/2026/09-09-apa-ots-news-allianz-gesundheitsbarometer-2026-zahngesundheit-in-0-10-26551683",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Offenbach Spitzenreiter bei Kfz-Schaeden",
+   "link": "https://www.onvista.de/news/2026/09-09-offenbach-spitzenreiter-bei-kfz-schaeden-0-10-26551510",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Scout24 SE: Frank H. Lutz , Kauf",
+   "link": "https://www.onvista.de/news/2026/09-09-eqs-dd-scout24-se-frank-h-lutz-kauf-0-37-26551800",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-09",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: RBC belaesst Adidas auf 'Outperform' - Ziel 200 Euro",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-rbc-belaesst-adidas-auf-outperform-ziel-200-euro-0-10-26551704",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Streit um Augenscreening - Gericht prueft dm-Angebot",
+   "link": "https://www.onvista.de/news/2026/09-09-streit-um-augenscreening-gericht-prueft-dm-angebot-0-10-26551508",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Vier Prozent aufs Tagesgeld: Zinsen bei Banken steigen",
+   "link": "https://www.onvista.de/news/2026/09-09-vier-prozent-aufs-tagesgeld-zinsen-bei-banken-steigen-0-10-26551500",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-09",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Siemens Energy auf 'Overweight' - Ziel 245 Euro",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-jpmorgan-belaesst-siemens-energy-auf-overweight-ziel-245-euro-0-10-26551570",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-09-09",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Fresenius SE auf 'Overweight'",
+   "link": "https://www.onvista.de/news/2026/09-09-analyse-flash-jpmorgan-belaesst-fresenius-se-auf-overweight-0-10-26551699",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Ariane-Rakete kommt in Schwung - Auftraege fuer zehn Starts",
+   "link": "https://www.onvista.de/news/2026/09-09-ariane-rakete-kommt-in-schwung-auftraege-fuer-zehn-starts-0-10-26551840",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Stahlindustrie verzeichnet Rueckgang der Produktion",
+   "link": "https://www.onvista.de/news/2026/09-09-stahlindustrie-verzeichnet-rueckgang-der-produktion-0-20-26551647",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Stahlindustrie verzeichnet Rueckgang der Produktion",
+   "link": "https://www.onvista.de/news/2026/09-09-stahlindustrie-verzeichnet-rueckgang-der-produktion-0-20-26551647",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Flughaefen in Grossbritannien zweiten Tag in Folge eingeschraenkt",
+   "link": "https://www.onvista.de/news/2026/09-09-roundup-2-flughaefen-in-grossbritannien-zweiten-tag-in-folge-eingeschraenkt-0-10-26551809",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Dax weitet Verluste aus",
+   "link": "https://www.onvista.de/news/2026/09-09-aktien-frankfurt-oelpreis-ueber-100-dollar-belastet-warten-auf-zinsentscheid-0-10-26551756",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AG1",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Deutliche Verluste - Oelpreis ueber 100 Dollar",
+   "link": "https://www.onvista.de/news/2026/09-09-roundup-aktien-frankfurt-schluss-deutliche-verluste-oelpreis-ueber-100-dollar-0-10-26551841",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Fehler in Infoprospekt? DSW klagt gegen Ottobock",
+   "link": "https://www.onvista.de/news/2026/09-09-fehler-in-infoprospekt-dsw-klagt-gegen-ottobock-0-10-26551859",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-09-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Dax sackt deutlich ab - Oelpreis ueber 100 Dollar",
+   "link": "https://www.onvista.de/news/2026/09-09-aktien-frankfurt-oelpreis-ueber-100-dollar-belastet-abwarten-vor-ezb-sitzung-0-10-26551678",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-09-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Porsche: Trennung von Bugatti und Rimac bringt eine Milliarde Euro Erloes",
+   "link": "https://www.onvista.de/news/2026/09-09-porsche-trennung-von-bugatti-und-rimac-bringt-eine-milliarde-euro-erloes-0-10-26551855",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Porsche: Trennung von Bugatti und Rimac bringt eine Milliarde Euro Erloes",
+   "link": "https://www.onvista.de/news/2026/09-09-porsche-trennung-von-bugatti-und-rimac-bringt-eine-milliarde-euro-erloes-0-10-26551855",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TLX",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Offenbach Spitzenreiter bei Kfz-Schaeden",
+   "link": "https://www.onvista.de/news/2026/09-09-offenbach-spitzenreiter-bei-kfz-schaeden-0-10-26551510",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "KORREKTUR: Rund 20 Prozent der Nutzfahrzeuge fallen beim TUeV durch",
+   "link": "https://www.onvista.de/news/2026/09-09-korrektur-rund-20-prozent-der-nutzfahrzeuge-fallen-beim-tuev-durch-0-10-26551610",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Oelpreis belastet - Zinserhoehung erwartet",
+   "link": "https://www.onvista.de/news/2026/09-09-roundup-aktien-frankfurt-eroeffnung-oelpreis-belastet-zinserhoehung-erwartet-0-10-26551593",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "STO3",
+   "date": "2026-09-09",
+   "sentiment": "BUY",
+   "news": "Original-Research: STO SE & Co. KGaA (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/09-09-original-research-sto-se-co-kgaa-von-montega-ag-kaufen-0-10-26551720",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "TPE",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Dax weitet Verluste aus",
+   "link": "https://www.onvista.de/news/2026/09-09-aktien-frankfurt-oelpreis-ueber-100-dollar-belastet-warten-auf-zinsentscheid-0-10-26551756",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: HUGO BOSS AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-09-eqs-cms-hugo-boss-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26551554",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares schliesst den Verkauf der NEM Energy Group an Hyundai Heavy Industries Power Systems („HPS“) ab",
+   "link": "https://www.onvista.de/news/2026/09-09-eqs-news-mutares-schliesst-den-verkauf-der-nem-energy-group-an-hyunda",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OBCK",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Fehler in Infoprospekt? DSW klagt gegen Ottobock",
+   "link": "https://www.onvista.de/news/2026/09-09-fehler-in-infoprospekt-dsw-klagt-gegen-ottobock-0-10-26551859",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BYW6",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "Diese Kodi-Filialen schliessen - weitere koennten folgen",
+   "link": "https://www.onvista.de/news/2026/09-09-diese-kodi-filialen-schliessen-weitere-koennten-folgen-0-10-26551707",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-09",
+   "sentiment": "INFO",
+   "news": "BVB-Sorge um Karetsas: 'Es hat sich nichts angedeutet'",
+   "link": "https://www.onvista.de/news/2026/09-09-bvb-sorge-um-karetsas-es-hat-sich-nichts-angedeutet-0-10-26551488",
+   "source": "dpa-AFX"
+  }
+ ]
+}

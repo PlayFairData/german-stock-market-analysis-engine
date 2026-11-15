@@ -1,0 +1,255 @@
+{
+ "date": "2026-09-25",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 1,
+  "HOLD": 1,
+  "INFO": 20
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 9
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 1,
+   "HOLD": 0,
+   "INFO": 7
+  },
+  "SDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  }
+ },
+ "total": 24,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Endlich Erholung? Experten bleiben fuer den Dax vorsichtig",
+   "link": "https://www.onvista.de/news/2026/09-25-wochenausblick-marktexperten-bleiben-fuer-den-dax-vorsichtig-0-10-26557575",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-09-25",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Beiersdorf auf 'Neutral'",
+   "link": "https://www.onvista.de/news/2026/09-25-analyse-flash-jpmorgan-belaesst-beiersdorf-auf-neutral-0-10-26557415",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Dialysekonzern FMC verbucht 110 Millionen Euro Sonderkosten",
+   "link": "https://www.onvista.de/news/2026/09-25-strategiewechsel-in-china-fmc-verbucht-110-millionen-euro-sonderkosten-0-10-26557429",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Siedlungsbau in besetzten Gebieten: UN listen 214 Firmen",
+   "link": "https://www.onvista.de/news/2026/09-25-siedlungsbau-in-besetzten-gebieten-un-listen-214-firmen-0-10-26557589",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Wirtschaftssenatorin erwartet neue Marine-Auftraege fuer Hamburger Werften",
+   "link": "https://www.onvista.de/news/2026/09-25-wirtschaftssenatorin-erwartet-neue-marine-auftraege-fuer-hamburger-werften-0-10-26557324",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Rueckruf bei VW und Audi: Das muessen Besitzer jetzt wissen",
+   "link": "https://www.onvista.de/news/2026/09-25-rueckruf-bei-vw-und-audi-das-muessen-besitzer-jetzt-wissen-0-10-26557574",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Rueckgang der Oelpreise verhilft Dax zu moderater Erholung",
+   "link": "https://www.onvista.de/news/2026/09-25-aktien-frankfurt-gewinne-leichter-oelpreisrueckgang-treibt-die-kurse-0-10-26557512",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax beendet durchwachsene Woche freundlich",
+   "link": "https://www.onvista.de/news/2026/09-25-roundup-aktien-frankfurt-schluss-dax-beendet-durchwachsene-woche-freundlich-0-10-26557628",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Gegen Paketflut: Neue 2-Euro-Gebuehr fuer Importe in die EU",
+   "link": "https://www.onvista.de/news/2026/09-25-gegen-paketflut-neue-2-euro-gebuehr-fuer-importe-in-die-eu-0-10-26557545",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Aufatmen zum Wochenende",
+   "link": "https://www.onvista.de/news/2026/09-25-roundup-aktien-europa-schluss-aufatmen-zum-wochenende-0-10-26557627",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LXS",
+   "date": "2026-09-25",
+   "sentiment": "SELL",
+   "news": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Lanxess auf 11 Euro - 'Underperform'",
+   "link": "https://www.onvista.de/news/2026/09-25-analyse-flash-jefferies-senkt-ziel-fuer-lanxess-auf-11-euro-underperform-0-10-26557397",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SARTORIUS AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-25-eqs-pvr-sartorius-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-d",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Boerse Stuttgart: thyssenkrupp vor naechster Abspaltung",
+   "link": "https://www.onvista.de/news/2026/09-25-boerse-stuttgart-thyssenkrupp-vor-naechster-abspaltung-0-10-26557562",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Oktoberfest hilft Lufthansa - 1,7 Millionen Passagiere in Muenchen erwartet",
+   "link": "https://www.onvista.de/news/2026/09-25-oktoberfest-hilft-lufthansa-1-7-millionen-passagiere-in-muenchen-erwartet-0-10-26557540",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HLE",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 25.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-25-dpa-afx-ueberblick-unternehmen-vom-25-09-2026-15-15-uhr-0-10-26557526",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-25-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Forscher: Vergesellschaftung koennte Mieten in Berlin bremsen",
+   "link": "https://www.onvista.de/news/2026/09-25-forscher-vergesellschaftung-koennte-mieten-in-berlin-bremsen-0-10-26557577",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Stadt Burghausen klagt wegen PFOA-Belastung - Millionenforderungen",
+   "link": "https://www.onvista.de/news/2026/09-25-stadt-burghausen-klagt-wegen-pfoa-belastung-millionenforderungen-0-10-26557623",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-25",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: UBS startet Cancom mit 'Buy' - Ziel 26 Euro",
+   "link": "https://www.onvista.de/news/2026/09-25-analyse-flash-ubs-startet-cancom-mit-buy-ziel-26-euro-0-10-26557381",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MLP",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Flatexdegiro sinkt auf tiefsten Stand seit fast einem Jahr",
+   "link": "https://www.onvista.de/news/2026/09-25-aktie-im-fokus-flatexdegiro-sinkt-auf-tiefsten-stand-seit-fast-einem-jahr-0-10-26557591",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-09-25",
+   "sentiment": "BUY",
+   "news": "Original-Research: Verbio SE (von NuWays AG): BUY",
+   "link": "https://www.onvista.de/news/2026/09-25-original-research-verbio-se-von-nuways-ag-buy-0-10-26557375",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "Norma: Verunreinigte Ware 'korrekt entsorgt'",
+   "link": "https://www.onvista.de/news/2026/09-25-norma-verunreinigte-ware-korrekt-entsorgt-0-10-26557559",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DBAN",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "EQS-News:  Deutsche Beteiligungs AG: Bilanz-Investment in Vected; Hidden-Champion",
+   "link": "https://www.onvista.de/news/2026/09-25-eqs-news-deutsche-beteiligungs-ag-bilanz-investment-in-vected-hidden-champion-in-der-optronik-fuer-ve",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-09-25",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares gibt Angebot zum teilweisen Rueckkauf des ausstehenden Nordic-Bond 2023/2027 bekannt",
+   "link": "https://www.onvista.de/news/2026/09-25-eqs-news-mutares-gibt-angebot-zum-teilweisen-rueckkauf-des-ausstehenden-nordic-b",
+   "source": "EQS Group"
+  }
+ ]
+}

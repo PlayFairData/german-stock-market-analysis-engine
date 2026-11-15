@@ -1,0 +1,271 @@
+{
+ "date": "2026-09-16",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 25
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  }
+ },
+ "total": 25,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Kleine Pakete von Online-Shops kosten bei Einfuhr bald extra",
+   "link": "https://www.onvista.de/news/2026/09-16-kleine-pakete-von-online-shops-kosten-bei-einfuhr-bald-extra-0-10-26554114",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "RWE stockt bei Netzbetreiber Amprion weiter auf",
+   "link": "https://www.onvista.de/news/2026/09-16-rwe-stockt-bei-netzbetreiber-amprion-weiter-auf-0-10-26554206",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Allianz versichert fahrerlose Waymo-Taxis in Europa",
+   "link": "https://www.onvista.de/news/2026/09-16-allianz-versichert-fahrerlose-waymo-taxis-in-europa-0-20-26554026",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Commerzbank-Aktie steigt auf hoechsten Kurs seit 2010",
+   "link": "https://www.onvista.de/news/2026/09-16-aktie-im-fokus-2-commerzbank-am-hoch-seit-2010-gedreht-gutes-sektorumfeld-0-10-26554082",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Berenberg senkt Ziel fuer Mercedes-Benz auf 52 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/09-16-analyse-flash-berenberg-senkt-ziel-fuer-mercedes-benz-auf-52-euro-hold-0-10-26553922",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Stadtwerke-Verband will mehr Moeglichkeiten fuer Schutz von Stromnetzen",
+   "link": "https://www.onvista.de/news/2026/09-16-stadtwerke-verband-will-mehr-moeglichkeiten-fuer-schutz-von-stromnetzen-0-10-26554016",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Nach Streit: Frasers-CEO Murray wird Aufsichtsratschef bei Hugo Boss",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-nach-streit-frasers-ceo-murray-wird-aufsichtsratschef-bei-hugo-boss-0-10-26554012",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Symrise AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-16-eqs-pvr-symrise-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Moderate Gewinne vor US-Zinsentscheid",
+   "link": "https://www.onvista.de/news/2026/09-16-aktien-frankfurt-moderate-gewinne-vor-us-zinsentscheid-0-10-26554112",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Wieder normaler Betrieb am Flughafen Catania",
+   "link": "https://www.onvista.de/news/2026/09-16-wieder-normaler-betrieb-am-flughafen-catania-0-10-26553953",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Leicht im Plus vor US-Zinsentscheid",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-aktien-frankfurt-eroeffnung-leicht-im-plus-vor-us-zinsentscheid-0-10-26553956",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Moderate Gewinne vor US-Zinsentscheid",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-aktien-frankfurt-schluss-moderate-gewinne-vor-us-zinsentscheid-0-10-26554194",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-16-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: US-Notenbank erhoeht erstmals seit Juli 2023 wieder Leitzins",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-us-notenbank-erhoeht-erstmals-seit-juli-2023-wieder-leitzins-0-10-26554219",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Hegseth lobt Deutschland: Industrie fuer Verteidigung nutzen",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-2-hegseth-lobt-deutschland-industrie-fuer-verteidigung-nutzen-0-10-26554107",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KBX",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Nach Streit: Frasers-CEO Murray wird Aufsichtsratschef bei Hugo Boss",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-nach-streit-frasers-ceo-murray-wird-aufsichtsratschef-bei-hugo-boss-0-10-26554012",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Berliner Spitzenkandidaten streiten in grossem TV-Duell",
+   "link": "https://www.onvista.de/news/2026/09-16-roundup-2-berliner-spitzenkandidaten-streiten-in-grossem-tv-duell-0-10-26554253",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Stuttgarter Landtags-SPD will wegen Autokrise 'Rente mit 63' verlaengern",
+   "link": "https://www.onvista.de/news/2026/09-16-stuttgarter-landtags-spd-will-wegen-autokrise-rente-mit-63-verlaengern-0-10-26554122",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Porsche AG auf 46 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/09-16-analyse-flash-berenberg-hebt-ziel-fuer-porsche-ag-auf-46-euro-hold-0-10-26553921",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Dertour: Mehr Spaetbucher - Urlaubsplanung verschiebt sich",
+   "link": "https://www.onvista.de/news/2026/09-16-dertour-mehr-spaetbucher-urlaubsplanung-verschiebt-sich-0-10-26553846",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "EQS-News: SAVE THE DATE: 42. MKK – Muenchner Kapitalmarkt Konferenz am 11. & 12. November 2026",
+   "link": "https://www.onvista.de/news/2026/09-16-eqs-news-save-the-date-42-mkk-muenchner-kapitalmarkt-konferenz-am-11-12-november-2026-0-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 16.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-16-dpa-afx-ueberblick-unternehmen-vom-16-09-2026-15-15-uhr-0-10-26554127",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BYW6",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "Baywa: 267 von 268 Glaeubigern stimmen laengerer Sanierung zu",
+   "link": "https://www.onvista.de/news/2026/09-16-baywa-267-von-268-glaeubigern-stimmen-laengerer-sanierung-zu-0-10-26554022",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "WDH/Nach Kreislaufproblemen: Karetsas zurueck im BVB-Teamtraining",
+   "link": "https://www.onvista.de/news/2026/09-16-wdh-nach-kreislaufproblemen-karetsas-zurueck-im-bvb-teamtraining-0-10-26554117",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-09-16",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ZEAL Network SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-16-eqs-pvr-zeal-network-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  }
+ ]
+}

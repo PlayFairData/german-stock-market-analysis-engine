@@ -1,0 +1,50 @@
+{
+ "date": "2026-09-12",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 2
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 2,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-09-12",
+   "sentiment": "INFO",
+   "news": "Hubig will Verstoesse gegen Mietpreisbremse schaerfer ahnden",
+   "link": "https://www.onvista.de/news/2026/09-12-hubig-will-verstoesse-gegen-mietpreisbremse-schaerfer-ahnden-0-10-26552746",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-12",
+   "sentiment": "INFO",
+   "news": "Hubig will Verstoesse gegen Mietpreisbremse schaerfer ahnden",
+   "link": "https://www.onvista.de/news/2026/09-12-hubig-will-verstoesse-gegen-mietpreisbremse-schaerfer-ahnden-0-10-26552746",
+   "source": "dpa-AFX"
+  }
+ ]
+}

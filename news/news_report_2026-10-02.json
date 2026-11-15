@@ -1,0 +1,210 @@
+{
+ "date": "2026-10-02",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 17
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "SDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  }
+ },
+ "total": 19,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Heidelberg Materials AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-02-eqs-cms-heidelberg-materials-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26559913",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "Verkehrsunfaelle: Aenderungen bei Haftungsregeln geplant",
+   "link": "https://www.onvista.de/news/2026/10-02-verkehrsunfaelle-aenderungen-bei-haftungsregeln-geplant-0-10-26559988",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Aktien Frankfurt Schluss: Dax klar erholt vom tiefsten Stand seit Juli",
+   "link": "https://www.onvista.de/news/2026/10-02-roundup-2-aktien-frankfurt-schluss-dax-klar-erholt-vom-tiefsten-stand-seit-juli-0-10-26560104",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 3: Nike sackt wegen schwacher Geschaefte auf Tief seit 2013",
+   "link": "https://www.onvista.de/news/2026/10-02-aktien-im-fokus-3-nike-sackt-wegen-schwacher-geschaefte-auf-tief-seit-2013-0-10-26560092",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Stroeer SE & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaw",
+   "link": "https://www.onvista.de/news/2026/10-02-eqs-pvr-stroeer-se-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AG1",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Aktien Frankfurt Schluss: Dax klar erholt vom tiefsten Stand seit Juli",
+   "link": "https://www.onvista.de/news/2026/10-02-roundup-2-aktien-frankfurt-schluss-dax-klar-erholt-vom-tiefsten-stand-seit-juli-0-10-26560104",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "Ifo: Geschaeftsklima in Chemiebranche hellt sich deutlich auf",
+   "link": "https://www.onvista.de/news/2026/10-02-ifo-geschaeftsklima-in-chemiebranche-hellt-sich-deutlich-auf-0-10-26559826",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax zieht vor US-Arbeitsmarktdaten mit US-Boersen an",
+   "link": "https://www.onvista.de/news/2026/10-02-aktien-frankfurt-dax-zieht-vor-us-arbeitsmarktdaten-mit-us-boersen-an-0-10-26559930",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten",
+   "link": "https://www.onvista.de/news/2026/10-02-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "An der 25.000er-Marke entscheidet sich, wie es fuer den Dax weitergeht",
+   "link": "https://www.onvista.de/news/2026/10-02-wochenausblick-es-bleibt-schwierig-fuer-den-dax-25-000-punkte-im-fokus-0-10-26560022",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "Hensoldt fuehrt Ruestungswerte an – Kurs steigt deutlich",
+   "link": "https://www.onvista.de/news/2026/10-02-aktie-im-fokus-hensoldt-branchenfavorit-in-deutschland-kepler-optimistisch-0-10-26559891",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Milliardenforderung im Streit um Aus fuer Fregatte F126",
+   "link": "https://www.onvista.de/news/2026/10-02-roundup-milliardenforderung-im-streit-um-aus-fuer-fregatte-f126-0-10-26559977",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TLX",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "Verkehrsunfaelle: Aenderungen bei Haftungsregeln geplant",
+   "link": "https://www.onvista.de/news/2026/10-02-verkehrsunfaelle-aenderungen-bei-haftungsregeln-geplant-0-10-26559988",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "WDH/Mehr als zehn Millionen Zuschauer sehen ersten Klopp-Sieg",
+   "link": "https://www.onvista.de/news/2026/10-02-wdh-mehr-als-zehn-millionen-zuschauer-sehen-ersten-klopp-sieg-0-10-26559842",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EKT",
+   "date": "2026-10-02",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Warburg Research nimmt Energiekontor mit 'Buy' wieder auf",
+   "link": "https://www.onvista.de/news/2026/10-02-analyse-flash-warburg-research-nimmt-energiekontor-mit-buy-wieder-auf-0-10-26559978",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "LPK",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Aktien Frankfurt Schluss: Dax klar erholt vom tiefsten Stand seit Juli",
+   "link": "https://www.onvista.de/news/2026/10-02-roundup-2-aktien-frankfurt-schluss-dax-klar-erholt-vom-tiefsten-stand-seit-juli-0-10-26560104",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SGL",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "INDEX-MONITOR: SGL Carbon rueckt fuer W&W in den SDax auf",
+   "link": "https://www.onvista.de/news/2026/10-02-index-monitor-sgl-carbon-rueckt-fuer-w-w-in-den-sdax-auf-0-10-26559818",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-02-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-10-02",
+   "sentiment": "BUY",
+   "news": "Original-Research: Medios AG (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/10-02-original-research-medios-ag-von-montega-ag-kaufen-0-10-26559908",
+   "source": "dpa-AFX"
+  }
+ ]
+}

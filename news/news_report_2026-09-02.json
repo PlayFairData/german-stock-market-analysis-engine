@@ -1,0 +1,334 @@
+{
+ "date": "2026-09-02",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 30
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 13
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  }
+ },
+ "total": 32,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research belaesst SpaceX auf 'Buy' - Ziel 235 Dollar",
+   "link": "https://www.onvista.de/news/2026/09-02-analyse-flash-deutsche-bank-research-belaesst-spacex-auf-buy-ziel-235-dollar-0-10-26549235",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "VW sehr schwach - Kriselnder Konzern muss Eurostoxx 50 verlassen",
+   "link": "https://www.onvista.de/news/2026/09-02-aktie-im-fokus-vw-sehr-schwach-kriselnder-konzern-muss-eurostoxx-50-verlassen-0-10-26549064",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-02",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: DZ Bank belaesst DHL Group auf 'Kaufen' - Fairer Wert 63 Euro",
+   "link": "https://www.onvista.de/news/2026/09-02-analyse-flash-dz-bank-belaesst-dhl-group-auf-kaufen-fairer-wert-63-euro-0-10-26549043",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 02.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-02-dpa-afx-ueberblick-unternehmen-vom-02-09-2026-15-15-uhr-0-10-26549140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Sachsen buhlt auf Chip-Messe um Taiwans Firmen",
+   "link": "https://www.onvista.de/news/2026/09-02-sachsen-buhlt-auf-chip-messe-um-taiwans-firmen-0-10-26549026",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "GESAMT-ROUNDUP 3: Angriffe auf Stromversorgung - Sabotageverdacht auch in NRW",
+   "link": "https://www.onvista.de/news/2026/09-02-gesamt-roundup-3-angriffe-auf-stromversorgung-sabotageverdacht-auch-in-nrw-0-10-26549246",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Siemens Energy auf 'Overweight' - Ziel 245 Euro",
+   "link": "https://www.onvista.de/news/2026/09-02-analyse-flash-jpmorgan-belaesst-siemens-energy-auf-overweight-ziel-245-euro-0-10-26549159",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Oezdemir ueber Neckarsulm-Werk: 'Noch nichts entschieden'",
+   "link": "https://www.onvista.de/news/2026/09-02-oezdemir-ueber-neckarsulm-werk-noch-nichts-entschieden-0-10-26549231",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Sozialer und politischer Wandel groesste Sorge in Deutschland",
+   "link": "https://www.onvista.de/news/2026/09-02-sozialer-und-politischer-wandel-groesste-sorge-in-deutschland-0-10-26548871",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BNR",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Brenntag SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-pvr-brenntag-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Nach Rekordhoch faellt Dax dritten Tag in Folge",
+   "link": "https://www.onvista.de/news/2026/09-02-roundup-aktien-frankfurt-schluss-nach-rekordhoch-faellt-dax-dritten-tag-in-folge-0-10-26549221",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Bayer bringt neue Agrar-Hoffnungstraeger auf den Markt - Spartenziele bestaetigt",
+   "link": "https://www.onvista.de/news/2026/09-02-bayer-bringt-neue-agrar-hoffnungstraeger-auf-den-markt-spartenziele-bestaetigt-0-20-26549107",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: EU genehmigt deutsche Milliarden fuer Gaskraftwerke",
+   "link": "https://www.onvista.de/news/2026/09-02-roundup-2-eu-genehmigt-deutsche-milliarden-fuer-gaskraftwerke-0-10-26549172",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-02",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Siemens Energy auf 'Overweight' - Ziel 245 Euro",
+   "link": "https://www.onvista.de/news/2026/09-02-analyse-flash-jpmorgan-belaesst-siemens-energy-auf-overweight-ziel-245-euro-0-10-26549159",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Adidas erholt nach Barclays-Empfehlung",
+   "link": "https://www.onvista.de/news/2026/09-02-aktie-im-fokus-adidas-erholt-nach-barclays-empfehlung-0-10-26548993",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: U-Boot aus Kiel auf dem Weg nach Israel",
+   "link": "https://www.onvista.de/news/2026/09-02-roundup-u-boot-aus-kiel-auf-dem-weg-nach-israel-0-10-26549198",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Klingbeil kann am Mittag zurueck nach Deutschland fliegen",
+   "link": "https://www.onvista.de/news/2026/09-02-roundup-klingbeil-kann-am-mittag-zurueck-nach-deutschland-fliegen-0-10-26548953",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Delivery Hero raet zur Annahme des Uebernahmeangebots von Uber",
+   "link": "https://www.onvista.de/news/2026/09-02-delivery-hero-raet-zur-annahme-des-uebernahmeangebots-von-uber-0-10-26549236",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AG1",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Auto1 daemmt Kursverluste etwas ein - Schlussquartal unsicher",
+   "link": "https://www.onvista.de/news/2026/09-02-aktie-im-fokus-auto1-daemmt-kursverluste-etwas-ein-schlussquartal-unsicher-0-10-26549046",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "INDEX-MONITOR: Mayr-Melnhof zurueck im ATX - RBI in den ATX five",
+   "link": "https://www.onvista.de/news/2026/09-02-index-monitor-mayr-melnhof-zurueck-im-atx-rbi-in-den-atx-five-0-10-26549249",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Dax-Korrektur geht weiter",
+   "link": "https://www.onvista.de/news/2026/09-02-aktien-frankfurt-dax-korrektur-geht-weiter-0-10-26549103",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: U-Boot aus Kiel auf dem Weg nach Israel",
+   "link": "https://www.onvista.de/news/2026/09-02-roundup-u-boot-aus-kiel-auf-dem-weg-nach-israel-0-10-26549198",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "KTN",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Kontron AG: Hannes Niederhauser, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-dd-kontron-ag-hannes-niederhauser-kauf-0-37-26549079",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CANCOM SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-cms-cancom-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26549215",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Taktisches Manoever? Hugo Boss beendet Aktienrueckkauf",
+   "link": "https://www.onvista.de/news/2026/09-02-taktisches-manoever-hugo-boss-beendet-aktienrueckkauf-0-10-26549065",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HABA",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HAMBORNER REIT AG: Martina Williams-Arnoldi, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-dd-hamborner-reit-ag-martina-williams-arnoldi-kauf-0-37-26549208",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BYW6",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "Aktien Wien Schluss: ATX kaum veraendert",
+   "link": "https://www.onvista.de/news/2026/09-02-aktien-wien-schluss-atx-kaum-veraendert-0-10-26549217",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Erst holprig, dann souveraen: BVB gegen Fuenftligisten weiter",
+   "link": "https://www.onvista.de/news/2026/09-02-roundup-erst-holprig-dann-souveraen-bvb-gegen-fuenftligisten-weiter-0-10-26548891",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-09-02",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ZEAL Network SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-02-eqs-pvr-zeal-network-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  }
+ ]
+}

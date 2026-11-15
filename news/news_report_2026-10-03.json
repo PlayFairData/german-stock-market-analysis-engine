@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-03",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 2
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 2,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-03",
+   "sentiment": "INFO",
+   "news": "Starbucks wegen neuer Filialen in Xinjiang unter Druck",
+   "link": "https://www.onvista.de/news/2026/10-03-starbucks-wegen-neuer-filialen-in-xinjiang-unter-druck-0-10-26560228",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-03",
+   "sentiment": "INFO",
+   "news": "OTS: Tridelta GmbH / TRIDELTA Gruppe uebernimmt Magnettechnik-Geschaeft von tk ...",
+   "link": "https://www.onvista.de/news/2026/10-03-ots-tridelta-gmbh-tridelta-gruppe-uebernimmt-magnettechnik-geschaeft-von-tk-0-10-26560270",
+   "source": "dpa-AFX"
+  }
+ ]
+}

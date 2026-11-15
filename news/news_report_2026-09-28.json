@@ -1,0 +1,487 @@
+{
+ "date": "2026-09-28",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 45
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 2,
+   "INFO": 17
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 15
+  }
+ },
+ "total": 49,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research belaesst SpaceX auf 'Buy' - Ziel 235 Dollar",
+   "link": "https://www.onvista.de/news/2026/09-28-analyse-flash-deutsche-bank-research-belaesst-spacex-auf-buy-ziel-235-dollar-0-10-26558314",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Tesla erhoeht Gehaelter in Gruenheide um bis zu fuenf Prozent",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-2-tesla-erhoeht-gehaelter-in-gruenheide-um-bis-zu-fuenf-prozent-0-10-26558181",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-09-28",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Beiersdorf auf 74 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/09-28-analyse-flash-jefferies-senkt-ziel-fuer-beiersdorf-auf-74-euro-hold-0-10-26558244",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-28",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: UBS hebt Ziel fuer DHL Group auf 59,50 Euro - 'Neutral'",
+   "link": "https://www.onvista.de/news/2026/09-28-analyse-flash-ubs-hebt-ziel-fuer-dhl-group-auf-59-50-euro-neutral-0-10-26558129",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Telekom AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-deutsche-telekom-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558172",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Fresenius Medical Care AG : Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-fresenius-medical-care-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558226",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Heidelberg Materials AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-heidelberg-materials-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558001",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Wuest spricht mit Erdogan auch ueber deutsche Innenpolitik",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-wuest-spricht-mit-erdogan-auch-ueber-deutsche-innenpolitik-0-10-26558302",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: GEA Group Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-gea-group-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-265581",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Solarstromproduktion uebertrifft bereits jetzt Vorjahreswert",
+   "link": "https://www.onvista.de/news/2026/09-28-solarstromproduktion-uebertrifft-bereits-jetzt-vorjahreswert-0-10-26557957",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "SAP-Chef sieht historische Wachstumschance durch KI-Produkte",
+   "link": "https://www.onvista.de/news/2026/09-28-sap-chef-sieht-historische-wachstumschance-durch-ki-produkte-0-10-26557958",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558280",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: VW vereinbart Milliardenpakt mit Batteriepartner aus China",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-vw-vereinbart-milliardenpakt-mit-batteriepartner-aus-china-0-10-26558312",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Munich Re auf 550 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/09-28-analyse-flash-jefferies-senkt-ziel-fuer-munich-re-auf-550-euro-hold-0-10-26558121",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-28",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Goldman hebt Ziel fuer Scout24 auf 108 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-28-analyse-flash-goldman-hebt-ziel-fuer-scout24-auf-108-euro-buy-0-10-26558099",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax rutscht mit US-Schwaeche knapp ins Minus",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-aktien-frankfurt-schluss-dax-rutscht-mit-us-schwaeche-knapp-ins-minus-0-10-26558295",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Commerzbank Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-commerzbank-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-26",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Mercedes-Benz Group AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-mercedes-benz-group-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558094",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558280",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Symrise AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-symrise-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558275",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Telefonica-Deutschland-Chef fordert Reduzierung auf drei Netze",
+   "link": "https://www.onvista.de/news/2026/09-28-telefonica-deutschland-chef-drei-mobilfunk-anbieter-reichen-0-20-26557983",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax trotzt steigenden Oelpreisen - Anleger warten ab",
+   "link": "https://www.onvista.de/news/2026/09-28-aktien-frankfurt-dax-trotzt-steigenden-oelpreisen-anleger-warten-ab-0-10-26558116",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Mut fuer Deutschland': Merz und Rehlinger loben gruenen Stahl",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-mut-fuer-deutschland-merz-und-rehlinger-loben-gruenen-stahl-0-10-26558293",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KRN",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax trotzt steigenden Oelpreisen - Anleger warten ab",
+   "link": "https://www.onvista.de/news/2026/09-28-aktien-frankfurt-dax-trotzt-steigenden-oelpreisen-anleger-warten-ab-0-10-26558116",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax rutscht mit US-Schwaeche knapp ins Minus",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-aktien-frankfurt-schluss-dax-rutscht-mit-us-schwaeche-knapp-ins-minus-0-10-26558295",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Mut fuer Deutschland': Merz und Rehlinger loben gruenen Stahl",
+   "link": "https://www.onvista.de/news/2026/09-28-roundup-mut-fuer-deutschland-merz-und-rehlinger-loben-gruenen-stahl-0-10-26558293",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Aetna-Asche: Flughafen Catania verlaengert Flugbeschraenkungen",
+   "link": "https://www.onvista.de/news/2026/09-28-aetna-asche-flughafen-catania-verlaengert-flugbeschraenkungen-0-10-26558177",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Studie: Europas Firmen fuer mehr Investitionen in Erneuerbare",
+   "link": "https://www.onvista.de/news/2026/09-28-studie-europas-firmen-fuer-mehr-investitionen-in-erneuerbare-0-10-26557945",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 3: Tech-Werte ohne klaren Trend - OpenAI-Pause gegen Nvidia-News",
+   "link": "https://www.onvista.de/news/2026/09-28-aktien-im-fokus-3-tech-werte-ohne-klaren-trend-openai-pause-gegen-nvidia-news-0-10-26558305",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Gewaltsame Proteste an Frankreichs Schulen - 164 Festnahmen",
+   "link": "https://www.onvista.de/news/2026/09-28-gewaltsame-proteste-an-frankreichs-schulen-164-festnahmen-0-10-26558316",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-DD: flatexDEGIRO SE: Evgeni  Kaplun, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-dd-flatexdegiro-se-evgeni-kaplun-kauf-0-37-26558157",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Gruene und SPD in Berlin stellen Bedingung fuer Sondierungen",
+   "link": "https://www.onvista.de/news/2026/09-28-gruene-und-spd-in-berlin-stellen-bedingung-fuer-sondierungen-0-10-26558153",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-Adhoc: Shelly Group SE: SE 2026 A SAS hat freiwilliges oeffentliches Uebernahmeangebot eingereicht",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-adhoc-shelly-group-se-se-2026-a-sas-hat-freiwilliges-oeffentliches-uebernahm",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "EKT",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Solarstromproduktion uebertrifft bereits jetzt Vorjahreswert",
+   "link": "https://www.onvista.de/news/2026/09-28-solarstromproduktion-uebertrifft-bereits-jetzt-vorjahreswert-0-10-26557957",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CEWE Stiftung & Co. KGaA: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-cewe-stiftung-co-kgaa-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558186",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CANCOM SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-cancom-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558283",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "GFT",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "SAP-Chef sieht historische Wachstumschance durch KI-Produkte",
+   "link": "https://www.onvista.de/news/2026/09-28-sap-chef-sieht-historische-wachstumschance-durch-ki-produkte-0-10-26557958",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "WOCHENAUSBLICK: Marktexperten bleiben fuer den Dax vorsichtig",
+   "link": "https://www.onvista.de/news/2026/09-28-wochenausblick-marktexperten-bleiben-fuer-den-dax-vorsichtig-0-10-26557938",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JUN3",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Jungheinrich AG: Andreas Umbach, Aktienkauf ueber Gemeinschaftsdepot mit Frau Karen Heat",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-dd-jungheinrich-ag-andreas-umbach-aktienkauf-ueber-gemeinschaftsdepot-mit-frau-kar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "LPK",
+   "date": "2026-09-28",
+   "sentiment": "BUY",
+   "news": "Original-Research: LPKF Laser & Electronics SE (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/09-28-original-research-lpkf-laser-electronics-se-von-montega-ag-kaufen-0-10-26558190",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "YSN",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Secunet mit Kurssprung in Richtung Mehrjahreshoch",
+   "link": "https://www.onvista.de/news/2026/09-28-aktie-im-fokus-secunet-mit-kurssprung-in-richtung-mehrjahreshoch-0-10-26558134",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Solarstromproduktion uebertrifft bereits jetzt Vorjahreswert",
+   "link": "https://www.onvista.de/news/2026/09-28-solarstromproduktion-uebertrifft-bereits-jetzt-vorjahreswert-0-10-26557957",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HFG",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "Hellofresh stabilisieren sich nach Rekordtief vom Freitag",
+   "link": "https://www.onvista.de/news/2026/09-28-aktie-im-fokus-hellofresh-stabilisieren-sich-nach-rekordtief-vom-freitag-0-10-26558131",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 28.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-28-dpa-afx-ueberblick-unternehmen-vom-28-09-2026-15-15-uhr-0-10-26558197",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SAF-HOLLAND SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-pvr-saf-holland-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Stabilus SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-28-eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558080",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-28",
+   "sentiment": "INFO",
+   "news": "BVB verlaengert mit Geschaeftsfuehrern Cramer, Ricken und Tress",
+   "link": "https://www.onvista.de/news/2026/09-28-bvb-verlaengert-mit-geschaeftsfuehrern-cramer-ricken-und-tress-0-10-26558276",
+   "source": "dpa-AFX"
+  }
+ ]
+}

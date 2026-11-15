@@ -1,0 +1,307 @@
+{
+ "date": "2026-09-03",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 28
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  }
+ },
+ "total": 29,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Umfrage: Mehrheit fuer staatliche Unterstuetzung fuer Autobauer",
+   "link": "https://www.onvista.de/news/2026/09-03-umfrage-mehrheit-fuer-staatliche-unterstuetzung-fuer-autobauer-0-10-26549684",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Schwache Konjunktur lindert IT-Fachkraeftemangel",
+   "link": "https://www.onvista.de/news/2026/09-03-schwache-konjunktur-lindert-it-fachkraeftemangel-0-20-26549497",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "MRK",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Chemie-Industrie profitiert vom Nahost-Konflikt",
+   "link": "https://www.onvista.de/news/2026/09-03-chemie-industrie-profitiert-vom-nahost-konflikt-0-10-26549369",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Vollbetrieb nach Angriff auf Umspannwerk erst kommende Woche",
+   "link": "https://www.onvista.de/news/2026/09-03-vollbetrieb-nach-angriff-auf-umspannwerk-erst-kommende-woche-0-10-26549675",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "EQS-DD: MTU Aero Engines AG: Dr.  Ottmar Pfaender, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-03-eqs-dd-mtu-aero-engines-ag-dr-ottmar-pfaender-kauf-0-37-26549624",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Trikot-Ueberraschung zum Laenderspielstart von Klopp",
+   "link": "https://www.onvista.de/news/2026/09-03-trikot-ueberraschung-zum-laenderspielstart-von-klopp-0-10-26549539",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Chemieindustrie sieht trotz Lichtblick im Fruehjahr keine Trendwende",
+   "link": "https://www.onvista.de/news/2026/09-03-chemieindustrie-sieht-trotz-lichtblick-im-fruehjahr-keine-trendwende-0-20-26549391",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Chemie-Industrie profitiert vom Nahost-Konflikt",
+   "link": "https://www.onvista.de/news/2026/09-03-chemie-industrie-profitiert-vom-nahost-konflikt-0-10-26549369",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Commerzbank startet angekuendigten Aktienrueckkauf - Kurssprung",
+   "link": "https://www.onvista.de/news/2026/09-03-commerzbank-startet-angekuendigten-aktienrueckkauf-kurssprung-0-10-26549618",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Grosse Konzerne planen Wasserstoff-Tankstellen in Europa",
+   "link": "https://www.onvista.de/news/2026/09-03-roundup-grosse-konzerne-planen-wasserstoff-tankstellen-in-europa-0-10-26549617",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Maschinenbauer profitieren von Auslandsgeschaeft",
+   "link": "https://www.onvista.de/news/2026/09-03-maschinenbauer-profitieren-von-auslandsgeschaeft-0-20-26549407",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Fund von Werkzeug - Airbus drosselt zeitweise A330-Auslieferung",
+   "link": "https://www.onvista.de/news/2026/09-03-fund-von-werkzeug-airbus-drosselt-zeitweise-a330-auslieferung-0-20-26549660",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Schwache Konjunktur lindert IT-Fachkraeftemangel",
+   "link": "https://www.onvista.de/news/2026/09-03-schwache-konjunktur-lindert-it-fachkraeftemangel-0-20-26549497",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "WDH/Lufthansa schliesst Check-In-Schalter am Fernbahnhof",
+   "link": "https://www.onvista.de/news/2026/09-03-wdh-lufthansa-schliesst-check-in-schalter-am-fernbahnhof-0-10-26549493",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Lufthansa und Kabinenpersonal-Gewerkschaft UFO nehmen Gespraeche wieder auf",
+   "link": "https://www.onvista.de/news/2026/09-03-lufthansa-und-kabinenpersonal-gewerkschaft-ufo-nehmen-gespraeche-wieder-auf-0-20-26549562",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "SMHN",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "EQS-News: SUSS und Manz Asia kuendigen strategische Zusammenarbeit in der Halbleiter-Inkjet-Technologie an",
+   "link": "https://www.onvista.de/news/2026/09-03-eqs-news-suss-und-manz-asia-kuendigen-strategische-zusammenarbeit-in-der-hal",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 03.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-03-dpa-afx-ueberblick-unternehmen-vom-03-09-2026-15-15-uhr-0-10-26549590",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AG1",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax beendet dreitaegigen Ruecksetzer",
+   "link": "https://www.onvista.de/news/2026/09-03-roundup-aktien-frankfurt-schluss-dax-beendet-dreitaegigen-ruecksetzer-0-10-26549667",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Netanjahu: Sturz der iranischen Fuehrung bleibt Hauptziel",
+   "link": "https://www.onvista.de/news/2026/09-03-netanjahu-sturz-der-iranischen-fuehrung-bleibt-hauptziel-0-10-26549687",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Chemieindustrie sieht trotz Lichtblick im Fruehjahr keine Trendwende",
+   "link": "https://www.onvista.de/news/2026/09-03-chemieindustrie-sieht-trotz-lichtblick-im-fruehjahr-keine-trendwende-0-20-26549391",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: E-Auto-Boom setzt sich fort",
+   "link": "https://www.onvista.de/news/2026/09-03-roundup-e-auto-boom-setzt-sich-fort-0-10-26549495",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "EQS-News: Porsche Vertrieb ordnet sich neu: Engere Verzahnung zwischen Regionen und Zentrale angestrebt",
+   "link": "https://www.onvista.de/news/2026/09-03-eqs-news-porsche-vertrieb-ordnet-sich-neu-engere-verzahnung-zwischen-regionen-u",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "VW holt Marianne Heiss zurueck in den Aufsichtsrat",
+   "link": "https://www.onvista.de/news/2026/09-03-vw-holt-marianne-heiss-zurueck-in-den-aufsichtsrat-0-10-26549627",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Volkswagen ziehen an - Bericht ueber Beteiligungsverkaeufe",
+   "link": "https://www.onvista.de/news/2026/09-03-aktie-im-fokus-volkswagen-ziehen-an-bericht-ueber-beteiligungsverkaeufe-0-10-26549654",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "KTN",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Kontron AG: Hannes Niederhauser, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-03-eqs-dd-kontron-ag-hannes-niederhauser-kauf-0-37-26549566",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-09-03",
+   "sentiment": "BUY",
+   "news": "Original-Research: CEWE Stiftung & Co. KGaA (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/09-03-original-research-cewe-stiftung-co-kgaa-von-montega-ag-kaufen-0-10-26549395",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "EQS-DD: NORMA Group SE: Mark Wilhelms, Verkauf",
+   "link": "https://www.onvista.de/news/2026/09-03-eqs-dd-norma-group-se-mark-wilhelms-verkauf-0-37-26549691",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "DBAN",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Deutsche Beteiligungs AG: Tom  Alzin, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-03-eqs-dd-deutsche-beteiligungs-ag-tom-alzin-kauf-0-37-26549648",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-03",
+   "sentiment": "INFO",
+   "news": "Kovac begeistert von BVB-Sportdirektor Book",
+   "link": "https://www.onvista.de/news/2026/09-03-kovac-begeistert-von-bvb-sportdirektor-book-0-10-26549619",
+   "source": "dpa-AFX"
+  }
+ ]
+}

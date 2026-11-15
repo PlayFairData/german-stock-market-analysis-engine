@@ -1,0 +1,34 @@
+{
+ "date": "2026-10-24",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 1
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 1,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-24",
+   "sentiment": "INFO",
+   "news": "Wildunfaelle verursachen Milliarden-Schaden an Autos",
+   "link": "https://www.onvista.de/news/2026/10-24-wildunfaelle-verursachen-milliarden-schaden-an-autos-0-10-26567987",
+   "source": "dpa-AFX"
+  }
+ ]
+}

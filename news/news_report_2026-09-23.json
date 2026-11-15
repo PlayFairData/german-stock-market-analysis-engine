@@ -1,0 +1,325 @@
+{
+ "date": "2026-09-23",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 4,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 27
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 11
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 31,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Metall-Tarifrunde: IG Metall fordert fuenf Prozent mehr Geld",
+   "link": "https://www.onvista.de/news/2026/09-23-metall-tarifrunde-ig-metall-fordert-fuenf-prozent-mehr-geld-0-10-26556599",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Entwarnung nach Quecksilberverdacht: DHL-Zentrum wieder frei",
+   "link": "https://www.onvista.de/news/2026/09-23-entwarnung-nach-quecksilberverdacht-dhl-zentrum-wieder-frei-0-10-26556778",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Hacker attackieren Dialysekonzern Fresenius Medical Care",
+   "link": "https://www.onvista.de/news/2026/09-23-hacker-attackieren-dialysekonzern-fresenius-medical-care-0-10-26556686",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Heidelberg Materials AG: Rene Aldach, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-dd-heidelberg-materials-ag-rene-aldach-kauf-0-37-26556718",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-09-23",
+   "sentiment": "BUY",
+   "news": "EU-Zustimmung: Henkel darf Beschichtungsunternehmen kaufen",
+   "link": "https://www.onvista.de/news/2026/09-23-eu-zustimmung-henkel-darf-beschichtungsunternehmen-kaufen-0-10-26556659",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Leichte Verluste - Dax-Erholung haengt fest",
+   "link": "https://www.onvista.de/news/2026/09-23-aktien-frankfurt-leichte-verluste-dax-erholung-haengt-fest-0-10-26556620",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise stellt starken Turnaround von Siemens Energy auf den Pruefstand",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-news-warren-wise-stellt-starken-turnaround-von-siemens-energy-auf-den-pruefstand-0-37-2655678",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Bernstein belaesst Volkswagen (VW) auf 'Market-Perform'",
+   "link": "https://www.onvista.de/news/2026/09-23-analyse-flash-bernstein-belaesst-volkswagen-vw-auf-market-perform-0-10-26556749",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-09-23",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Bernstein belaesst MTU auf 'Outperform' - Ziel 450 Euro",
+   "link": "https://www.onvista.de/news/2026/09-23-analyse-flash-bernstein-belaesst-mtu-auf-outperform-ziel-450-euro-0-10-26556565",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Trotz Bargeldliebe: Deutschland holt beim Digitalzahlen auf",
+   "link": "https://www.onvista.de/news/2026/09-23-trotz-bargeldliebe-deutschland-holt-beim-digitalzahlen-auf-0-10-26556472",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Mit XXL-Tanks: Qantas fliegt 2028 von Sydney nach New York",
+   "link": "https://www.onvista.de/news/2026/09-23-mit-xxl-tanks-qantas-fliegt-2028-von-sydney-nach-new-york-0-10-26556494",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Boerse Stuttgart: Microsoft hebt Dividende an - Elmos sichert Kapazitaet bis 2028",
+   "link": "https://www.onvista.de/news/2026/09-23-boerse-stuttgart-microsoft-hebt-dividende-an-elmos-sichert-kapazitaet-bis-2028-0-10-26556741",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-09-23",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Fraport auf 'Overweight' - Ziel 81 Euro",
+   "link": "https://www.onvista.de/news/2026/09-23-analyse-flash-jpmorgan-belaesst-fraport-auf-overweight-ziel-81-euro-0-10-26556539",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-09-23",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies belaesst Salzgitter auf 'Buy' - Ziel 66 Euro",
+   "link": "https://www.onvista.de/news/2026/09-23-analyse-flash-jefferies-belaesst-salzgitter-auf-buy-ziel-66-euro-0-10-26556699",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Rauch in Eurowings-Flieger: Sicherheitslandung in Duesseldorf",
+   "link": "https://www.onvista.de/news/2026/09-23-rauch-in-eurowings-flieger-sicherheitslandung-in-duesseldorf-0-10-26556489",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Geflohener Windkraftbetrueger Hendrik Holt in Dubai gefasst",
+   "link": "https://www.onvista.de/news/2026/09-23-geflohener-windkraftbetrueger-hendrik-holt-in-dubai-gefasst-0-10-26556790",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: IG Metall will fuenf Prozent mehr Lohn fuer Metallbeschaeftigte",
+   "link": "https://www.onvista.de/news/2026/09-23-roundup-2-ig-metall-will-fuenf-prozent-mehr-lohn-fuer-metallbeschaeftigte-0-10-26556658",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "DWS: Keine Aussetzung der Anteilsruecknahme bei Immobilienfonds geplant",
+   "link": "https://www.onvista.de/news/2026/09-23-dws-keine-aussetzung-der-anteilsruecknahme-bei-immobilienfonds-geplant-0-20-26556567",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Rubio: Haben Putin zu G20-Gipfel in Miami eingeladen",
+   "link": "https://www.onvista.de/news/2026/09-23-roundup-rubio-haben-putin-zu-g20-gipfel-in-miami-eingeladen-0-10-26556785",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Auto online bestellt - Gericht weist Klage zu Widerruf ab",
+   "link": "https://www.onvista.de/news/2026/09-23-auto-online-bestellt-gericht-weist-klage-zu-widerruf-ab-0-10-26556638",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Pistorius weist Kritik an Ruestung zurueck: 'Kein Altmetall'",
+   "link": "https://www.onvista.de/news/2026/09-23-pistorius-weist-kritik-an-ruestung-zurueck-kein-altmetall-0-10-26556602",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-DD: TUI AG: Sybille Reiss, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-dd-tui-ag-sybille-reiss-kauf-0-37-26556553",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Verluste - Dax weiter von Oelpreisen bewegt",
+   "link": "https://www.onvista.de/news/2026/09-23-roundup-aktien-frankfurt-schluss-verluste-dax-weiter-von-oelpreisen-bewegt-0-10-26556783",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Verluste - Dax weiter von Oelpreisen bewegt",
+   "link": "https://www.onvista.de/news/2026/09-23-roundup-aktien-frankfurt-schluss-verluste-dax-weiter-von-oelpreisen-bewegt-0-10-26556783",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: CANCOM SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-pvr-cancom-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-eur",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "KWS",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Verluste - Dax weiter von Oelpreisen bewegt",
+   "link": "https://www.onvista.de/news/2026/09-23-roundup-aktien-frankfurt-schluss-verluste-dax-weiter-von-oelpreisen-bewegt-0-10-26556783",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "YSN",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Bericht ueber Milliardenauftrag verstaerkt guten Secunet-Lauf",
+   "link": "https://www.onvista.de/news/2026/09-23-aktien-im-fokus-2-bericht-ueber-milliardenauftrag-verstaerkt-guten-secunet-lauf-0-10-26556788",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-DD: NORMA Group SE: Birgit Seeger, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-dd-norma-group-se-birgit-seeger-kauf-0-37-26556530",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares hat Prenatal Niederlande an dessen CEO Jochem van Bueren verkauft",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-news-mutares-hat-prenatal-niederlande-an-dessen-ceo-jochem-van-bueren-verkauft-0-37-26556498",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "Gericht verhandelt ueber dm-Versandapotheke",
+   "link": "https://www.onvista.de/news/2026/09-23-gericht-verhandelt-ueber-dm-versandapotheke-0-10-26556487",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BYW6",
+   "date": "2026-09-23",
+   "sentiment": "INFO",
+   "news": "EQS-News: dK ruft Anleiheinhaber der Kronos EKS AG & Co. KG (ehemals BayWa-Anleihe) zur Interessensbuendelung auf",
+   "link": "https://www.onvista.de/news/2026/09-23-eqs-news-dk-ruft-anleiheinhaber-der-kronos-eks-ag-co-kg-ehemals-baywa",
+   "source": "EQS Group"
+  }
+ ]
+}

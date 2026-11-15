@@ -1,0 +1,343 @@
+{
+ "date": "2026-09-10",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 31
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 15
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 33,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research belaesst Bayer auf 'Buy' - Ziel 60 Euro",
+   "link": "https://www.onvista.de/news/2026/09-10-analyse-flash-deutsche-bank-research-belaesst-bayer-auf-buy-ziel-60-euro-0-10-26552020",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Verzicht bringt nichts' - IG Metall will Realloehne sichern",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-verzicht-bringt-nichts-ig-metall-will-realloehne-sichern-0-10-26552174",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan setzt DHL Group auf 'Positive Catalyst Watch'",
+   "link": "https://www.onvista.de/news/2026/09-10-analyse-flash-jpmorgan-setzt-dhl-group-auf-positive-catalyst-watch-0-10-26552074",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan setzt Rheinmetall auf 'Negative Catalyst Watch'",
+   "link": "https://www.onvista.de/news/2026/09-10-analyse-flash-jpmorgan-setzt-rheinmetall-auf-negative-catalyst-watch-0-10-26552050",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Verzicht bringt nichts' - IG Metall will Realloehne sichern",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-verzicht-bringt-nichts-ig-metall-will-realloehne-sichern-0-10-26552174",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Verluste nach Zinserhoehung durch EZB",
+   "link": "https://www.onvista.de/news/2026/09-10-aktien-frankfurt-verluste-nach-zinserhoehung-durch-ezb-0-10-26552140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Verzicht bringt nichts' - IG Metall will Realloehne sichern",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-verzicht-bringt-nichts-ig-metall-will-realloehne-sichern-0-10-26552174",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Verzicht bringt nichts' - IG Metall will Realloehne sichern",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-verzicht-bringt-nichts-ig-metall-will-realloehne-sichern-0-10-26552174",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Zinssensible Versicherer vor EZB-Zinsentscheid gefragt",
+   "link": "https://www.onvista.de/news/2026/09-10-aktien-im-fokus-zinssensible-versicherer-vor-ezb-zinsentscheid-gefragt-0-10-26552071",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Anleger agieren vorsichtig vor erwarteter Zinserhoehung",
+   "link": "https://www.onvista.de/news/2026/09-10-aktien-frankfurt-anleger-agieren-vorsichtig-vor-erwarteter-zinserhoehung-0-10-26552056",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-DD: adidas AG: Bjørn Gulden, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-dd-adidas-ag-bjrn-gulden-kauf-0-37-26552209",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Klassiker FC Bayern gegen Borussia Dortmund am Samstagabend",
+   "link": "https://www.onvista.de/news/2026/09-10-klassiker-fc-bayern-gegen-borussia-dortmund-am-samstagabend-0-10-26552068",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-10",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: RBC hebt Ziel fuer Daimler Truck auf 63 Euro - 'Outperform'",
+   "link": "https://www.onvista.de/news/2026/09-10-analyse-flash-rbc-hebt-ziel-fuer-daimler-truck-auf-63-euro-outperform-0-10-26552136",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Fresenius SE & Co. KGaA: Sara Hennicken, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-dd-fresenius-se-co-kgaa-sara-hennicken-kauf-0-37-26552063",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 'Verzicht bringt nichts' - IG Metall will Realloehne sichern",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-verzicht-bringt-nichts-ig-metall-will-realloehne-sichern-0-10-26552174",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/United-Internet: Restrukturierung bei 1&1 und Ionos mit Stellenabbau",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-united-internet-restrukturierung-bei-1-1-und-ionos-mit-stellenabbau-0-10-26552257",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "GBF",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Verluste - Oelpreisanstieg und Leitzinserhoehung",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-aktien-frankfurt-schluss-verluste-oelpreisanstieg-und-leitzinserhoehung-0-10-26552227",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NEM",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Nemetschek SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-pvr-nemetschek-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Minenwerte unter Druck - Kupferpreis kommt vom Rekord zurueck",
+   "link": "https://www.onvista.de/news/2026/09-10-aktien-im-fokus-2-minenwerte-unter-druck-kupferpreis-kommt-vom-rekord-zurueck-0-10-26552265",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Fluggesellschaft Emirates darf kuenftig auch den Flughafen BER ansteuern",
+   "link": "https://www.onvista.de/news/2026/09-10-fluggesellschaft-emirates-darf-kuenftig-auch-den-flughafen-ber-ansteuern-0-10-26552243",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-News: Delivery Hero begruesst John Woyton im Aufsichtsrat",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-news-delivery-hero-begruesst-john-woyton-im-aufsichtsrat-0-37-26551974",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-09-10",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Jenoptik auf 48 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-10-analyse-flash-jefferies-hebt-ziel-fuer-jenoptik-auf-48-euro-buy-0-10-26552104",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/United-Internet: Restrukturierung bei 1&1 und Ionos mit Stellenabbau",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-united-internet-restrukturierung-bei-1-1-und-ionos-mit-stellenabbau-0-10-26552257",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Devisen: Euro gibt zum US-Dollar etwas nach - EZB-Zinserhoehung im Fokus",
+   "link": "https://www.onvista.de/news/2026/09-10-devisen-euro-gibt-zum-us-dollar-etwas-nach-ezb-zinserhoehung-im-fokus-0-10-26552267",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 10.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-10-dpa-afx-ueberblick-unternehmen-vom-10-09-2026-15-15-uhr-0-10-26552155",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "AFX",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Carl Zeiss Meditec AG: Andreas Pecher, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-dd-carl-zeiss-meditec-ag-andreas-pecher-kauf-0-37-26552160",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/United-Internet: Restrukturierung bei 1&1 und Ionos mit Stellenabbau",
+   "link": "https://www.onvista.de/news/2026/09-10-roundup-united-internet-restrukturierung-bei-1-1-und-ionos-mit-stellenabbau-0-10-26552257",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Verluste nach Zinserhoehung durch EZB",
+   "link": "https://www.onvista.de/news/2026/09-10-aktien-frankfurt-verluste-nach-zinserhoehung-durch-ezb-0-10-26552140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NA9",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Nagarro SE: Jack Clemons, Verkauf",
+   "link": "https://www.onvista.de/news/2026/09-10-eqs-dd-nagarro-se-jack-clemons-verkauf-0-37-26552282",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TNIE",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Bots zwingen Toniebox-Firma Tonies beim Online-Verkauf in die Knie",
+   "link": "https://www.onvista.de/news/2026/09-10-bots-zwingen-toniebox-firma-tonies-beim-online-verkauf-in-die-knie-0-10-26552161",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-10",
+   "sentiment": "INFO",
+   "news": "Nach Kreislaufproblemen: BVB gibt Update zu Karetsas - Kein laengerer Ausfall",
+   "link": "https://www.onvista.de/news/2026/09-10-nach-kreislaufproblemen-bvb-gibt-update-zu-karetsas-kein-laengerer-ausfall-0-10-26552097",
+   "source": "dpa-AFX"
+  }
+ ]
+}

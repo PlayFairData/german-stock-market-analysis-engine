@@ -1,0 +1,334 @@
+{
+ "date": "2026-09-07",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 28
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 17
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 5
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 32,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Bank AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-deutsche-bank-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550865",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "Branche in der Krise: Auch Jaguar Land Rover muss sparen",
+   "link": "https://www.onvista.de/news/2026/09-07-roundup-jaguar-land-rover-muss-sparen-4-000-stellen-fallen-weg-0-10-26550823",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: DHL AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-dhl-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550854",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Telekom AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-deutsche-telekom-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550869",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Fresenius Medical Care AG : Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-fresenius-medical-care-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550795",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 07.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-07-dpa-afx-ueberblick-unternehmen-vom-07-09-2026-15-15-uhr-0-10-26550835",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Gute Vorgaben helfen Chiptiteln - Infineon-Kaufempfehlung",
+   "link": "https://www.onvista.de/news/2026/09-07-aktien-im-fokus-2-gute-vorgaben-helfen-chiptiteln-infineon-kaufempfehlung-0-10-26550921",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: GEA Group Aktiengesellschaft: Aktienrueckkauf",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-gea-group-aktiengesellschaft-aktienrueckkauf-0-37-26550797",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Mercedes-Benz Group AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-mercedes-benz-group-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550736",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550909",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-07",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Bernstein belaesst Volkswagen auf 'Market-Perform' - Ziel 100 Euro",
+   "link": "https://www.onvista.de/news/2026/09-07-analyse-flash-bernstein-belaesst-volkswagen-auf-market-perform-ziel-100-euro-0-10-26550870",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Rueckversicherer versuchen Preisverfall zu begrenzen - Branchentreffen",
+   "link": "https://www.onvista.de/news/2026/09-07-roundup-rueckversicherer-versuchen-preisverfall-zu-begrenzen-branchentreffen-0-10-26550725",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Scout24 SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-scout24-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550776",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: BASF SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-basf-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550804",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Daimler Truck Holding AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-daimler-truck-holding-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550850",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax gibt wieder leicht nach",
+   "link": "https://www.onvista.de/news/2026/09-07-roundup-aktien-frankfurt-schluss-dax-gibt-wieder-leicht-nach-0-10-26550914",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550909",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Symrise AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-symrise-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550893",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "BC8",
+   "date": "2026-09-07",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: JPMorgan startet Bechtle mit 'Neutral' - Ziel 38 Euro",
+   "link": "https://www.onvista.de/news/2026/09-07-analyse-flash-jpmorgan-startet-bechtle-mit-neutral-ziel-38-euro-0-10-26550779",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-09-07",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Bernstein senkt Ziel fuer CTS Eventim auf 85 Euro - 'Outperform'",
+   "link": "https://www.onvista.de/news/2026/09-07-analyse-flash-bernstein-senkt-ziel-fuer-cts-eventim-auf-85-euro-outperform-0-10-26550885",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Gute Vorgaben helfen Chiptiteln - Infineon-Kaufempfehlung",
+   "link": "https://www.onvista.de/news/2026/09-07-aktien-im-fokus-2-gute-vorgaben-helfen-chiptiteln-infineon-kaufempfehlung-0-10-26550921",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "Gute Vorgaben aus USA und Asien treiben Chip-Aktien",
+   "link": "https://www.onvista.de/news/2026/09-07-aktien-im-fokus-gute-vorgaben-aus-usa-und-asien-helfen-halbleitertiteln-0-10-26550757",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "SPORT/Trotz 5:0-Fuehrung: Ex-Siegerin Swiatek scheitert bei US Open",
+   "link": "https://www.onvista.de/news/2026/09-07-sport-trotz-5-0-fuehrung-ex-siegerin-swiatek-scheitert-bei-us-open-0-10-26550940",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-09-07",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies hebt DWS auf 'Buy' - Ziel 90 Euro",
+   "link": "https://www.onvista.de/news/2026/09-07-analyse-flash-jefferies-hebt-dws-auf-buy-ziel-90-euro-0-10-26550931",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "Schiessen statt Tanzen - Humanoide Kampfroboter \"Made in China\"",
+   "link": "https://www.onvista.de/news/2026/09-07-schiessen-statt-tanzen-humanoide-kampfroboter-made-in-china-0-20-26550832",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax rutscht wieder unter 26.000 Punkte",
+   "link": "https://www.onvista.de/news/2026/09-07-aktien-frankfurt-dax-rutscht-wieder-unter-26-000-punkte-0-10-26550808",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax gibt wieder leicht nach",
+   "link": "https://www.onvista.de/news/2026/09-07-roundup-aktien-frankfurt-schluss-dax-gibt-wieder-leicht-nach-0-10-26550914",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "Robuste Nachfrage: Hornbach steigert Umsatz und operatives Ergebnis",
+   "link": "https://www.onvista.de/news/2026/09-07-robuste-nachfrage-hornbach-steigert-umsatz-und-operatives-ergebnis-0-10-26550938",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: HUGO BOSS AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-hugo-boss-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550633",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HABA",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HAMBORNER REIT AG: Claus-Matthias Boege, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-dd-hamborner-reit-ag-claus-matthias-boege-kauf-0-37-26550689",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Stabilus SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26550766",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-09-07",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Gerresheimer AG: Active Ownership Opportunities SCS, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-07-eqs-dd-gerresheimer-ag-active-ownership-opportunities-scs-kauf-0-37-26550840",
+   "source": "EQS Group"
+  }
+ ]
+}

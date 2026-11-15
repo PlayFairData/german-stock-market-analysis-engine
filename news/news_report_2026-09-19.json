@@ -1,0 +1,50 @@
+{
+ "date": "2026-09-19",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "PDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 2
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 2,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-19",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAP SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-19-eqs-cms-sap-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555146",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-09-19",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Gerresheimer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-19-eqs-pvr-gerresheimer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  }
+ ]
+}

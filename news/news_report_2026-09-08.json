@@ -1,0 +1,334 @@
+{
+ "date": "2026-09-08",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 29
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 32,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "DWS nennt sich kuenftig 'Deutsche Asset Management'",
+   "link": "https://www.onvista.de/news/2026/09-08-dws-nennt-sich-kuenftig-deutsche-asset-management-0-10-26551126",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Qualcomm entwickelt KI-Chip mit Amazon - Aktie springt an",
+   "link": "https://www.onvista.de/news/2026/09-08-amazon-entwickelt-ki-chip-mit-qualcomm-option-auf-einstieg-0-20-26551330",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Fresenius ziehen an Dax-Spitze - UBS aeussert sich zuversichtlich",
+   "link": "https://www.onvista.de/news/2026/09-08-aktie-im-fokus-fresenius-ziehen-an-dax-spitze-ubs-aeussert-sich-zuversichtlich-0-10-26551176",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-09-08",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Warburg Research hebt Ziel fuer Deutsche Boerse auf 322 Euro; 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-08-analyse-flash-warburg-research-hebt-ziel-fuer-deutsche-boerse-auf-322-euro-buy-0-10-26551128",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAP SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-cms-sap-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26551283",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Muenchener Rueck: Welle von Versicherungsfusionen in USA zu erwarten",
+   "link": "https://www.onvista.de/news/2026/09-08-muenchener-rueck-welle-von-versicherungsfusionen-in-usa-zu-erwarten-0-20-26551317",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Muenchener Rueck: Welle von Versicherungsfusionen in USA zu erwarten",
+   "link": "https://www.onvista.de/news/2026/09-08-muenchener-rueck-welle-von-versicherungsfusionen-in-usa-zu-erwarten-0-20-26551317",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Muenchener Rueck: Welle von Versicherungsfusionen in USA zu erwarten",
+   "link": "https://www.onvista.de/news/2026/09-08-muenchener-rueck-welle-von-versicherungsfusionen-in-usa-zu-erwarten-0-20-26551317",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Google: EU-Regeln verschlechtern Suchergebnisse",
+   "link": "https://www.onvista.de/news/2026/09-08-google-eu-regeln-verschlechtern-suchergebnisse-0-20-26551276",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "BNR",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Brenntag SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-pvr-brenntag-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise: BASF verteilt mehr, als verdient wird",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-news-warren-wise-basf-verteilt-mehr-als-verdient-wird-0-37-26551345",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-08",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Barclays hebt Ziel fuer Bayer auf 70 Euro - 'Overweight'",
+   "link": "https://www.onvista.de/news/2026/09-08-analyse-flash-barclays-hebt-ziel-fuer-bayer-auf-70-euro-overweight-0-10-26551088",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "UniCredit beteiligt sich an deutschem Finanz-Startup",
+   "link": "https://www.onvista.de/news/2026/09-08-unicredit-beteiligt-sich-an-deutschem-finanz-startup-0-20-26551275",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3/Attacken auf Stromnetz: Polizei nimmt Verdaechtigen fest",
+   "link": "https://www.onvista.de/news/2026/09-08-roundup-3-attacken-auf-stromnetz-polizei-nimmt-verdaechtigen-fest-0-10-26551388",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Symrise AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-pvr-symrise-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Start-up TEC wirbt fast halbe Milliarde fuer Riesenrakete ein",
+   "link": "https://www.onvista.de/news/2026/09-08-start-up-tec-wirbt-fast-halbe-milliarde-fuer-riesenrakete-ein-0-10-26551420",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-09-08",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Fraport auf 'Overweight' - Ziel 81 Euro",
+   "link": "https://www.onvista.de/news/2026/09-08-analyse-flash-jpmorgan-belaesst-fraport-auf-overweight-ziel-81-euro-0-10-26551162",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Stoerung verursacht Chaos an Flughaefen in Grossbritannien",
+   "link": "https://www.onvista.de/news/2026/09-08-roundup-2-stoerung-verursacht-chaos-an-flughaefen-in-grossbritannien-0-10-26551417",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax tritt auf der Stelle - Oelpreise legen zu",
+   "link": "https://www.onvista.de/news/2026/09-08-roundup-aktien-frankfurt-schluss-dax-tritt-auf-der-stelle-oelpreise-legen-zu-0-10-26551387",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Rheinmetall und Renk erholen sich nach Analystenlob",
+   "link": "https://www.onvista.de/news/2026/09-08-aktien-im-fokus-analysten-geben-rheinmetall-und-renk-auftrieb-0-10-26551172",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KBX",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Brent-Oelpreis bei fast 100 Dollar bremst den Dax",
+   "link": "https://www.onvista.de/news/2026/09-08-aktien-frankfurt-brent-oelpreis-bei-fast-100-dollar-bremst-den-dax-0-10-26551274",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax tritt auf der Stelle - Oelpreise legen zu",
+   "link": "https://www.onvista.de/news/2026/09-08-roundup-aktien-frankfurt-schluss-dax-tritt-auf-der-stelle-oelpreise-legen-zu-0-10-26551387",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "VW-Grossaktionaerin Porsche SE kauft sich bei Raketenfirma ein",
+   "link": "https://www.onvista.de/news/2026/09-08-vw-grossaktionaerin-porsche-se-kauft-sich-bei-raketenfirma-ein-0-10-26551351",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Rheinmetall und Renk erholen sich nach Analystenlob",
+   "link": "https://www.onvista.de/news/2026/09-08-aktien-im-fokus-analysten-geben-rheinmetall-und-renk-auftrieb-0-10-26551172",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "MAN, RMMV und WB Group verbuenden sich auf dem Ruestungsmarkt",
+   "link": "https://www.onvista.de/news/2026/09-08-man-rmmv-und-wb-group-verbuenden-sich-auf-dem-ruestungsmarkt-0-20-26551314",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "JUN3",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Kion steigen nach Kaufempfehlung auf Hoch seit Mai",
+   "link": "https://www.onvista.de/news/2026/09-08-aktie-im-fokus-kion-steigen-nach-kaufempfehlung-auf-hoch-seit-mai-0-10-26551127",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VOS",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-News: DB setzt weiter auf Hochgeschwindigkeitsschleifen",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-news-db-setzt-weiter-auf-hochgeschwindigkeitsschleifen-0-37-26551167",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "Stromproduktion: Anteil der Erneuerbaren waechst",
+   "link": "https://www.onvista.de/news/2026/09-08-stromproduktion-anteil-der-erneuerbaren-waechst-0-10-26551101",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-08-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26551202",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-08",
+   "sentiment": "INFO",
+   "news": "WDH/Wo die Champions League im TV laeuft",
+   "link": "https://www.onvista.de/news/2026/09-08-wdh-wo-die-champions-league-im-tv-laeuft-0-10-26551102",
+   "source": "dpa-AFX"
+  }
+ ]
+}

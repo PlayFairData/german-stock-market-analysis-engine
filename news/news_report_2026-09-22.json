@@ -1,0 +1,388 @@
+{
+ "date": "2026-09-22",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 38
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  }
+ },
+ "total": 38,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Spritpreise - Macron schlaegt Bruessel Lockerung von Normen vor",
+   "link": "https://www.onvista.de/news/2026/09-22-spritpreise-macron-schlaegt-bruessel-lockerung-von-normen-vor-0-10-26556293",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oelpreise und Renditen stuetzen kaum",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-aktien-frankfurt-schluss-oelpreise-und-renditen-stuetzen-kaum-0-10-26556386",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: UBS senkt Ziel fuer Heidelberg Materials auf 230 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-22-analyse-flash-ubs-senkt-ziel-fuer-heidelberg-materials-auf-230-euro-buy-0-10-26556089",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Metas \"Muse\"-App loest weitere Kursgewinne bei Tech-Werten aus",
+   "link": "https://www.onvista.de/news/2026/09-22-aktien-im-fokus-erfolg-von-metas-muse-app-befluegelt-techwerte-0-10-26556197",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Neue Ruestungsmesse Eudex in Essen eroeffnet",
+   "link": "https://www.onvista.de/news/2026/09-22-neue-ruestungsmesse-eudex-in-essen-eroeffnet-0-10-26556233",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Internationale Messe Wind Energy in Hamburg gestartet",
+   "link": "https://www.onvista.de/news/2026/09-22-internationale-messe-wind-energy-in-hamburg-gestartet-0-10-26556164",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: IG Metall will fuenf Prozent mehr Geld und Gewinnbeteiligung",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-ig-metall-will-fuenf-prozent-mehr-geld-und-gewinnbeteiligung-0-10-26556248",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: KI soll Bahnreisen effizienter und zuverlaessiger machen",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-2-ki-soll-bahnreisen-effizienter-und-zuverlaessiger-machen-0-10-26556352",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "IG Metall verlangt fuenf Prozent mehr Geld fuer VW-Mitarbeiter",
+   "link": "https://www.onvista.de/news/2026/09-22-ig-metall-verlangt-fuenf-prozent-mehr-geld-fuer-vw-mitarbeiter-0-10-26556418",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Allianz SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-cms-allianz-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26556175",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oelpreise und Renditen stuetzen kaum",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-aktien-frankfurt-schluss-oelpreise-und-renditen-stuetzen-kaum-0-10-26556386",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Commerzbank Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-cms-commerzbank-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-26",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Mercedes-Benz: Ohne Kostensenkung werden zwei Werke geschlossen",
+   "link": "https://www.onvista.de/news/2026/09-22-mercedes-benz-ohne-kostensenkung-muessen-zwei-werke-schliessen-0-20-26556159",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Wie steht es um die Windindustrie? Ein Messebesuch",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-wie-steht-es-um-die-windindustrie-ein-messebesuch-0-10-26556296",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Guterres: 'Killerroboter duerfen keinen Platz in unserer Zukunft: haben'",
+   "link": "https://www.onvista.de/news/2026/09-22-guterres-killerroboter-duerfen-keinen-platz-in-unserer-zukunft-haben-0-10-26556313",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Adidas klar erholt - Analystenlob aus den USA",
+   "link": "https://www.onvista.de/news/2026/09-22-aktie-im-fokus-adidas-klar-erholt-analystenlob-aus-den-usa-0-10-26556249",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ThyssenKrupp AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-pvr-thyssenkrupp-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Wie steht es um die Windindustrie? Ein Messebesuch",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-wie-steht-es-um-die-windindustrie-ein-messebesuch-0-10-26556296",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: AIXTRON SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-pvr-aixtron-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SMHN",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SUSS MicroTec SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-pvr-suss-microtec-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Kanzleramtschefin ruft Koalition zu Tempo bei Reformen auf",
+   "link": "https://www.onvista.de/news/2026/09-22-kanzleramtschefin-ruft-koalition-zu-tempo-bei-reformen-auf-0-10-26556430",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Evonik setzt Umbau fort - Rund 10.000 Beschaeftigte weniger",
+   "link": "https://www.onvista.de/news/2026/09-22-evonik-setzt-umbau-fort-rund-10-000-beschaeftigte-weniger-0-20-26556149",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Linke: Bund kommt mit Verbot von Enteignung nicht durch",
+   "link": "https://www.onvista.de/news/2026/09-22-roundup-linke-bund-kommt-mit-verbot-von-enteignung-nicht-durch-0-10-26556198",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Guterres: 'Killerroboter duerfen keinen Platz in unserer Zukunft: haben'",
+   "link": "https://www.onvista.de/news/2026/09-22-guterres-killerroboter-duerfen-keinen-platz-in-unserer-zukunft-haben-0-10-26556313",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: Tui schuettelt Geschaeftsaussagen mit freundlichem Markt ab",
+   "link": "https://www.onvista.de/news/2026/09-22-aktie-im-fokus-2-tui-schuettelt-geschaeftsaussagen-mit-freundlichem-markt-ab-0-10-26556329",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Wacker Chemie wirft weiteres Siltronic-Aktienpaket auf den Markt",
+   "link": "https://www.onvista.de/news/2026/09-22-wacker-chemie-wirft-weiteres-siltronic-aktienpaket-auf-den-markt-0-20-26556397",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "Wacker Chemie wirft weiteres Siltronic-Aktienpaket auf den Markt",
+   "link": "https://www.onvista.de/news/2026/09-22-wacker-chemie-wirft-weiteres-siltronic-aktienpaket-auf-den-markt-0-20-26556397",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Immobilienwerte schwach - Enteignungssorgen bei Vonovia",
+   "link": "https://www.onvista.de/news/2026/09-22-aktien-im-fokus-2-immobilienwerte-schwach-enteignungssorgen-bei-vonovia-0-10-26556191",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: OHB SE wird Teil des TecDAX",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-news-ohb-se-wird-teil-des-tecdax-0-37-26556115",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "INH",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: INDUS Holding AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-pvr-indus-holding-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HFG",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HelloFresh SE: Active Ownership Fund SICAV SIF SCS, Erwerb von Aktien aufgrund ausgeuebter Optionen",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-dd-hellofresh-se-active-ownership-fund-sicav-sif-scs-erwerb-von-aktien-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NA9",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: Uebernahmeangebot von Persistent fuer Nagarro erfolgreich",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-news-uebernahmeangebot-von-persistent-fuer-nagarro-erfolgreich-0-37-26556275",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OBCK",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Ottobock SE & Co. KGaA: Vorabbekanntmachung ueber die Veroeffentlic",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-afr-ottobock-se-co-kgaa-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26556114",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "TTK",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: TAKKT AG: Stepan Breedveld soll Vorsitz des Aufsichtsrats uebernehmen",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-news-takkt-ag-stepan-breedveld-soll-vorsitz-des-aufsichtsrats-uebernehmen-0-37-26556078",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSAN",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: PSI Software SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-pvr-psi-software-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "FYB",
+   "date": "2026-09-22",
+   "sentiment": "INFO",
+   "news": "EQS-News: Formycon setzt",
+   "link": "https://www.onvista.de/news/2026/09-22-eqs-news-formycon-setzt-massstaebe-in-der-biosimilar-entwicklung-wissenschaftliche-grundlagen-des-innovativen-entwicklungsprogramms-fuer-fyb206-im-fachjournal",
+   "source": "EQS Group"
+  }
+ ]
+}

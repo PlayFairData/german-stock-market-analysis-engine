@@ -1,0 +1,289 @@
+{
+ "date": "2026-09-18",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 25
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 12
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 27,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Bilfinger auf 100 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-18-analyse-flash-deutsche-bank-senkt-ziel-fuer-bilfinger-auf-100-euro-buy-0-10-26554945",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Heftige Verluste am grossen Verfallstag",
+   "link": "https://www.onvista.de/news/2026/09-18-roundup-aktien-europa-schluss-heftige-verluste-am-grossen-verfallstag-0-10-26555045",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: 'Neue Aera' fuer die Luftwaffe: F-35 soll abschrecken",
+   "link": "https://www.onvista.de/news/2026/09-18-roundup-2-neue-aera-fuer-die-luftwaffe-f-35-soll-abschrecken-0-10-26555067",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Eon fordert Stromsteuersenkung: 'Hilft allen Menschen'",
+   "link": "https://www.onvista.de/news/2026/09-18-eon-fordert-stromsteuersenkung-hilft-allen-menschen-0-10-26554937",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Volkswagen senkt Gewinnprognose deutlich",
+   "link": "https://www.onvista.de/news/2026/09-18-roundup-2-volkswagen-senkt-gewinnprognose-deutlich-0-10-26555062",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-18",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: DZ Bank hebt fairen Wert fuer Allianz auf 495 Euro - 'Kaufen'",
+   "link": "https://www.onvista.de/news/2026/09-18-analyse-flash-dz-bank-hebt-fairen-wert-fuer-allianz-auf-495-euro-kaufen-0-10-26554946",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Endlich Stabilisierung? Dax haengt an Oelpreisen und Wahlen",
+   "link": "https://www.onvista.de/news/2026/09-18-wochenausblick-dax-navigiert-durch-hohe-oelpreise-fokus-auf-ifo-und-wahlen-0-10-26554979",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Bayer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-pvr-bayer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europ",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Daimler Truck Holding AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-cms-daimler-truck-holding-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26554880",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 18.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-18-dpa-afx-ueberblick-unternehmen-vom-18-09-2026-15-15-uhr-0-10-26554967",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise scannt Siemens Healthineers: Scharfe Bilder fuer Aerzte, unscharfe fuer Investoren",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-news-warren-wise-scannt-siemens-healthineers-scharfe-bilder-fuer-aerzte-un",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Drohnenfund: Bundesanwaltschaft prueft Verbindung zu Leipzig",
+   "link": "https://www.onvista.de/news/2026/09-18-drohnenfund-bundesanwaltschaft-prueft-verbindung-zu-leipzig-0-10-26554846",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "GBF",
+   "date": "2026-09-18",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Bilfinger auf 100 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-18-analyse-flash-deutsche-bank-senkt-ziel-fuer-bilfinger-auf-100-euro-buy-0-10-26554945",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ThyssenKrupp AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-pvr-thyssenkrupp-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax sackt am grossen Verfallstag ab",
+   "link": "https://www.onvista.de/news/2026/09-18-roundup-aktien-frankfurt-schluss-dax-sackt-am-grossen-verfallstag-ab-0-10-26555039",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Entsorgungsprobleme von K+S bei Voigt-Besuch diskutiert",
+   "link": "https://www.onvista.de/news/2026/09-18-entsorgungsprobleme-von-k-s-bei-voigt-besuch-diskutiert-0-10-26555009",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Volkswagen senkt Gewinnprognose deutlich",
+   "link": "https://www.onvista.de/news/2026/09-18-roundup-2-volkswagen-senkt-gewinnprognose-deutlich-0-10-26555062",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Dax rutscht nach starken Vortagen wieder ab",
+   "link": "https://www.onvista.de/news/2026/09-18-aktien-frankfurt-verluste-am-grossen-verfallstag-0-10-26554947",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 18.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-18-dpa-afx-ueberblick-unternehmen-vom-18-09-2026-15-15-uhr-0-10-26554967",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EVT",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Evotec an SDax-Spitze - Positive Aussagen auf einer Konferenz",
+   "link": "https://www.onvista.de/news/2026/09-18-aktie-im-fokus-evotec-an-sdax-spitze-positive-aussagen-auf-einer-konferenz-0-10-26554992",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "IXX",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-DD: init innovation in traffic systems SE: Dr. Johannes Haupt, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-dd-init-innovation-in-traffic-systems-se-dr-johannes-haupt-kauf-0-37-26554904",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-News: HORNBACH eroeffnet neue Maerkte in Deutschland und dem europaeischen Verbreitungsgebiet",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-news-hornbach-eroeffnet-neue-maerkte-in-deutschland-und-dem-europaeischen-verbrei",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-News: Mutares verkauft Cimos an dessen Management mit Unterstuetzung des Investors Vero Automotive",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-news-mutares-verkauft-cimos-an-dessen-management-mit-unterstuetzung-des-inve",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ACT0",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "EQS-News: Umstellung auf Namensaktien mit neuer ISIN DE000A41Y",
+   "link": "https://www.onvista.de/news/2026/09-18-eqs-news-umstellung-auf-namensaktien-mit-neuer-isin-de000a41yhg1-verlaeuft-planmaessig-voruebergehende-abweichungen-bei-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "V1NC",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Dax im Minus am grossen Verfallstag",
+   "link": "https://www.onvista.de/news/2026/09-18-roundup-aktien-frankfurt-eroeffnung-dax-im-minus-am-grossen-verfallstag-0-10-26554829",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-18",
+   "sentiment": "INFO",
+   "news": "Stuttgart empfaengt Dortmund zum Topspiel",
+   "link": "https://www.onvista.de/news/2026/09-18-stuttgart-empfaengt-dortmund-zum-topspiel-0-10-26555025",
+   "source": "dpa-AFX"
+  }
+ ]
+}

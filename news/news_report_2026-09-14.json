@@ -1,0 +1,433 @@
+{
+ "date": "2026-09-14",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 1,
+  "INFO": 41
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 20
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 11
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  }
+ },
+ "total": 43,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Bank AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-deutsche-bank-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553266",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "IG Metall ruft zu Protest gegen Einschnitte in Autobranche auf",
+   "link": "https://www.onvista.de/news/2026/09-14-ig-metall-ruft-zu-protest-gegen-einschnitte-in-autobranche-auf-0-10-26553085",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: DHL AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-dhl-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553247",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Telekom AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-deutsche-telekom-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553316",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Fresenius Medical Care AG : Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-fresenius-medical-care-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553221",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Fusionsfantasie treibt Deutsche Boerse und Euronext an",
+   "link": "https://www.onvista.de/news/2026/09-14-fusionsfantasie-treibt-deutsche-boerse-und-euronext-an-0-20-26553103",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Heidelberg Materials AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-heidelberg-materials-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553044",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: EuroStoxx leidet unter Konjunktur- und KI-Sorgen",
+   "link": "https://www.onvista.de/news/2026/09-14-roundup-aktien-europa-schluss-eurostoxx-leidet-unter-konjunktur-und-ki-sorgen-0-10-26553337",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-14",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: UBS belaesst RWE auf 'Buy' - Ziel 68 Euro",
+   "link": "https://www.onvista.de/news/2026/09-14-analyse-flash-ubs-belaesst-rwe-auf-buy-ziel-68-euro-0-10-26553169",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 14.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-14-dpa-afx-ueberblick-unternehmen-vom-14-09-2026-15-15-uhr-0-10-26553234",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553310",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Chance aufs OB-Amt: Salzgitter jetzt AfD-Hochburg im Westen",
+   "link": "https://www.onvista.de/news/2026/09-14-roundup-chance-aufs-ob-amt-salzgitter-jetzt-afd-hochburg-im-westen-0-10-26553304",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Kanada strebt \"einzigartige Allianz\" mit EU an - keine Mitgliedschaft",
+   "link": "https://www.onvista.de/news/2026/09-14-kanada-strebt-einzigartige-allianz-mit-eu-an-keine-mitgliedschaft-0-20-26553031",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-09-14",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Berenberg belaesst MTU auf 'Hold' - Ziel 390 Euro",
+   "link": "https://www.onvista.de/news/2026/09-14-analyse-flash-berenberg-belaesst-mtu-auf-hold-ziel-390-euro-0-10-26553167",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-DD: adidas AG: Ralf Kretschmer, Kauf, abgewickelt ueber ein Gemeinschaftsdepot mit Birgit Kretschmer.",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-dd-adidas-ag-ralf-kretschmer-kauf-abgewickelt-ueber-ein-gemeinschaftsdepo",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Vier Investmentbanken sollen BASF-Agrarsparte an die Boerse bringen",
+   "link": "https://www.onvista.de/news/2026/09-14-vier-investmentbanken-sollen-basf-agrarsparte-an-die-boerse-bringen-0-20-26553244",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Klingbeil pocht auf Bedingungen fuer Commerzbank-Uebernahme",
+   "link": "https://www.onvista.de/news/2026/09-14-klingbeil-pocht-auf-bedingungen-fuer-commerzbank-uebernahme-0-10-26553343",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Tesla bringt E-Lastwagen 2027 nach Europa",
+   "link": "https://www.onvista.de/news/2026/09-14-tesla-bringt-e-lastwagen-2027-nach-europa-0-10-26553320",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: EuroStoxx leidet unter Konjunktur- und KI-Sorgen",
+   "link": "https://www.onvista.de/news/2026/09-14-roundup-aktien-europa-schluss-eurostoxx-leidet-unter-konjunktur-und-ki-sorgen-0-10-26553337",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553310",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Symrise AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-symrise-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553309",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "BC8",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "WOCHENAUSBLICK: Fuer den schwaechelnden Dax wird der US-Zinsentscheid zur Wegmarke",
+   "link": "https://www.onvista.de/news/2026/09-14-wochenausblick-fuer-den-schwaechelnden-dax-wird-der-us-zinsentscheid-zur-wegmarke-0-10-26552953",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Chance aufs OB-Amt: Salzgitter jetzt AfD-Hochburg im Westen",
+   "link": "https://www.onvista.de/news/2026/09-14-roundup-chance-aufs-ob-amt-salzgitter-jetzt-afd-hochburg-im-westen-0-10-26553304",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Deutz will sich mit neuen Aktien frisches Geld beschaffen",
+   "link": "https://www.onvista.de/news/2026/09-14-deutz-will-sich-mit-neuen-aktien-frisches-geld-beschaffen-0-10-26553319",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NEM",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oelpreis und KI-Sorgen beunruhigen Anleger",
+   "link": "https://www.onvista.de/news/2026/09-14-roundup-aktien-frankfurt-schluss-oelpreis-und-ki-sorgen-beunruhigen-anleger-0-10-26553328",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "WDH: Aetna rumort wieder - Flughafen auf Sizilien gesperrt",
+   "link": "https://www.onvista.de/news/2026/09-14-wdh-aetna-rumort-wieder-flughafen-auf-sizilien-gesperrt-0-10-26553213",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Umfrage unter Betriebsraeten: Windindustrie erwartet weniger Auftraege",
+   "link": "https://www.onvista.de/news/2026/09-14-umfrage-unter-betriebsraeten-windindustrie-erwartet-weniger-auftraege-0-10-26553198",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oelpreis und KI-Sorgen beunruhigen Anleger",
+   "link": "https://www.onvista.de/news/2026/09-14-roundup-aktien-frankfurt-schluss-oelpreis-und-ki-sorgen-beunruhigen-anleger-0-10-26553328",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Devisen: Euro berappelt sich etwas mit Oelpreisentwicklung",
+   "link": "https://www.onvista.de/news/2026/09-14-devisen-euro-berappelt-sich-etwas-mit-oelpreisentwicklung-0-10-26553355",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "IG Metall ruft zu Protest gegen Einschnitte in Autobranche auf",
+   "link": "https://www.onvista.de/news/2026/09-14-ig-metall-ruft-zu-protest-gegen-einschnitte-in-autobranche-auf-0-10-26553085",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "BYD will auch Lkw in Europa produzieren - \"europaeisches Unternehmen\"",
+   "link": "https://www.onvista.de/news/2026/09-14-byd-will-auch-lkw-in-europa-produzieren-europaeisches-unternehmen-0-20-26553228",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "KTN",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Kontron AG: Hannes Niederhauser, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-dd-kontron-ag-hannes-niederhauser-kauf-0-37-26553183",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "WDH: Cewe will eigene Aktien zurueckkaufen",
+   "link": "https://www.onvista.de/news/2026/09-14-wdh-cewe-will-eigene-aktien-zurueckkaufen-0-10-26553338",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CANCOM SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-cancom-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553314",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "INH",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-News: ISS erhoeht ESG-Rating der INDUS Holding AG auf „B-“",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-news-iss-erhoeht-esg-rating-der-indus-holding-ag-auf-b-0-37-26553133",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-News: Christoph Prusseit wird sein Vorstandsmandat ueber die aktuelle Amtszeit hinaus nicht verlaengern",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-news-christoph-prusseit-wird-sein-vorstandsmandat-ueber-die-aktuelle-am",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: HUGO BOSS AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-pvr-hugo-boss-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-d",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Stabilus SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553220",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Zahl der Apotheken sinkt - etwas langsamer",
+   "link": "https://www.onvista.de/news/2026/09-14-zahl-der-apotheken-sinkt-etwas-langsamer-0-10-26552935",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Gerresheimer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-14-eqs-pvr-gerresheimer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSM",
+   "date": "2026-09-14",
+   "sentiment": "INFO",
+   "news": "Streaming sorgt weiter fuer Wachstum im Bezahlmarkt",
+   "link": "https://www.onvista.de/news/2026/09-14-streaming-sorgt-weiter-fuer-wachstum-im-bezahlmarkt-0-10-26553157",
+   "source": "dpa-AFX"
+  }
+ ]
+}

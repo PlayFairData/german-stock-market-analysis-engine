@@ -1,0 +1,442 @@
+{
+ "date": "2026-09-29",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 1,
+  "HOLD": 2,
+  "INFO": 39
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 17
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 2,
+   "INFO": 11
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 1,
+   "HOLD": 0,
+   "INFO": 9
+  }
+ },
+ "total": 44,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Netflix auf 'Buy' - Ziel 95 Dollar",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-deutsche-bank-research-hebt-netflix-auf-buy-ziel-95-dollar-0-10-26558685",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Dax weiter stabil - Oel und Anleihen bleiben im Blick",
+   "link": "https://www.onvista.de/news/2026/09-29-aktien-frankfurt-ausblick-dax-weiter-stabil-oel-und-anleihen-bleiben-im-blick-0-10-26558426",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax rettet knappes Plus ins Ziel",
+   "link": "https://www.onvista.de/news/2026/09-29-roundup-aktien-frankfurt-schluss-dax-rettet-knappes-plus-ins-ziel-0-10-26558772",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Deutsche Boerse AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-pvr-deutsche-boerse-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Rheinmetall AG: Armin Theodor Papperger, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-dd-rheinmetall-ag-armin-theodor-papperger-kauf-0-37-26558614",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 29.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-29-dpa-afx-ueberblick-unternehmen-vom-29-09-2026-15-15-uhr-0-10-26558662",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Mercedes-Benz will nur noch einen Tag Homeoffice pro Woche",
+   "link": "https://www.onvista.de/news/2026/09-29-mercedes-benz-will-nur-noch-einen-tag-homeoffice-pro-woche-0-20-26558677",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAP SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-cms-sap-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558640",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Siemens nach \"solidem\" Quartal zuversichtlich fuer Ziele",
+   "link": "https://www.onvista.de/news/2026/09-29-siemens-wirtschaftliche-rahmenbedingungen-verbessern-sich-0-20-26558680",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "APA ots news: Allianz Global Wealth Report 2026: Geldvermoegen auf...",
+   "link": "https://www.onvista.de/news/2026/09-29-apa-ots-news-allianz-global-wealth-report-2026-geldvermoegen-auf-0-10-26558526",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-29",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Adidas auf 187 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-jefferies-senkt-ziel-fuer-adidas-auf-187-euro-buy-0-10-26558486",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-29",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: DZ Bank belaesst BASF auf 'Kaufen' - Fairer Wert 64 Euro",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-dz-bank-belaesst-basf-auf-kaufen-fairer-wert-64-euro-0-10-26558691",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Bayer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-pvr-bayer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europ",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Kreise: Bund will schnelle Zusagen von Orcel bei Commerzbank",
+   "link": "https://www.onvista.de/news/2026/09-29-roundup-kreise-bund-will-schnelle-zusagen-von-orcel-bei-commerzbank-0-10-26558792",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Mercedes-Benz will nur noch einen Tag Homeoffice pro Woche",
+   "link": "https://www.onvista.de/news/2026/09-29-mercedes-benz-will-nur-noch-einen-tag-homeoffice-pro-woche-0-20-26558677",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Auslastung von Ladesaeulen fuer E-Autos nimmt zu",
+   "link": "https://www.onvista.de/news/2026/09-29-auslastung-von-ladesaeulen-fuer-e-autos-nimmt-zu-0-10-26558363",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax rettet knappes Plus ins Ziel",
+   "link": "https://www.onvista.de/news/2026/09-29-roundup-aktien-frankfurt-schluss-dax-rettet-knappes-plus-ins-ziel-0-10-26558772",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Siemens nach \"solidem\" Quartal zuversichtlich fuer Ziele",
+   "link": "https://www.onvista.de/news/2026/09-29-siemens-wirtschaftliche-rahmenbedingungen-verbessern-sich-0-20-26558680",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Airbus fordert Boeing mit Erstflug von neuem Frachtflugzeug heraus",
+   "link": "https://www.onvista.de/news/2026/09-29-airbus-fordert-boeing-mit-erstflug-von-neuem-frachtflugzeug-heraus-0-20-26558726",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax rettet knappes Plus ins Ziel",
+   "link": "https://www.onvista.de/news/2026/09-29-roundup-aktien-frankfurt-schluss-dax-rettet-knappes-plus-ins-ziel-0-10-26558772",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Aurubis setzt auf Kontinuitaet in der Konzernfuehrung",
+   "link": "https://www.onvista.de/news/2026/09-29-aurubis-setzt-auf-kontinuitaet-in-der-konzernfuehrung-0-10-26558733",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-09-29",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: JPMorgan senkt Ziel fuer Puma auf 24 Euro - 'Neutral'",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-jpmorgan-senkt-ziel-fuer-puma-auf-24-euro-neutral-0-10-26558809",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research laesst Thyssenkrupp auf 'Buy', Ziel 18 Euro",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-deutsche-bank-research-laesst-thyssenkrupp-auf-buy-ziel-18-euro-0-10-26558506",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Steigende Kerosinkosten belasten Lufthansa noch staerker",
+   "link": "https://www.onvista.de/news/2026/09-29-steigende-kerosinkosten-belasten-lufthansa-noch-staerker-0-20-26558482",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax rettet knappes Plus ins Ziel",
+   "link": "https://www.onvista.de/news/2026/09-29-roundup-aktien-frankfurt-schluss-dax-rettet-knappes-plus-ins-ziel-0-10-26558772",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FNTN",
+   "date": "2026-09-29",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Barclays senkt Ziel fuer Freenet auf 28 Euro - 'Equal Weight'",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-barclays-senkt-ziel-fuer-freenet-auf-28-euro-equal-weight-0-10-26558581",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "KI-Werte erholen sich – Hoffnung vor Gipfel im Weissen Haus",
+   "link": "https://www.onvista.de/news/2026/09-29-aktien-im-fokus-ki-werte-ziehen-an-us-ki-gipfel-und-anthropic-ipo-im-blick-0-10-26558505",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax etwas im Aufwind - Hoffnung auf Deeskalation in Nahost",
+   "link": "https://www.onvista.de/news/2026/09-29-aktien-frankfurt-dax-etwas-im-aufwind-hoffnung-auf-deeskalation-in-nahost-0-10-26558647",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Renk verliert ueber vier Prozent – Groesster MDax-Verlierer",
+   "link": "https://www.onvista.de/news/2026/09-29-aktie-im-fokus-renk-sinken-weiter-tief-seit-april-2025-0-10-26558525",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax etwas im Aufwind - Hoffnung auf Deeskalation in Nahost",
+   "link": "https://www.onvista.de/news/2026/09-29-aktien-frankfurt-dax-etwas-im-aufwind-hoffnung-auf-deeskalation-in-nahost-0-10-26558647",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Das sind die beliebtesten Tui-Reiseziele im Winter",
+   "link": "https://www.onvista.de/news/2026/09-29-das-sind-die-beliebtesten-tui-reiseziele-im-winter-0-10-26558627",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax etwas im Aufwind - Hoffnung auf Deeskalation in Nahost",
+   "link": "https://www.onvista.de/news/2026/09-29-aktien-frankfurt-dax-etwas-im-aufwind-hoffnung-auf-deeskalation-in-nahost-0-10-26558647",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1AST",
+   "date": "2026-09-29",
+   "sentiment": "SELL",
+   "news": "Asta Energy fallen nachboerslich - Mehrheitseigner verkaufen",
+   "link": "https://www.onvista.de/news/2026/09-29-aktie-im-fokus-asta-energy-fallen-nachboerslich-mehrheitseigner-verkaufen-0-10-26558790",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Shelly Group SE: Iliyana Dimitrova Krushkova, Sub",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-dd-shelly-group-se-iliyana-dimitrova-krushkova-subscription-for-shares-in-a-capital-increase-for-employees-of-shelly-grou",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "Deutschland auf Innovationsindex weiter auf Rang 11",
+   "link": "https://www.onvista.de/news/2026/09-29-deutschland-auf-innovationsindex-weiter-auf-rang-11-0-10-26558611",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EVT",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: Evotec kuendigt Wechsel in der Position des Chief Scientific Officer an",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-news-evotec-kuendigt-wechsel-in-der-position-des-chief-scientific-officer-an-0-37-26558400",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: HORNBACH Gruppe erzielt starkes Ergebnis im ersten Halbjahr 2026/27 und beschleunigt Expansion",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-news-hornbach-gruppe-erzielt-starkes-ergebnis-im-ersten-halbjahr-2026-27-u",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SGL",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Schott-Chef geht - Nachfolger kommt von Autozulieferer",
+   "link": "https://www.onvista.de/news/2026/09-29-roundup-schott-chef-geht-nachfolger-kommt-von-autozulieferer-0-10-26558686",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "PNE3",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: PNE-Gruppe verkauft erneut ein Windparkprojekt in Polen an einen globalen Akteur der Energiewende",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-news-pne-gruppe-verkauft-erneut-ein-windparkprojekt-in-polen-an-einen-g",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 29.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-29-dpa-afx-ueberblick-unternehmen-vom-29-09-2026-15-15-uhr-0-10-26558662",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26558564",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer Redcare Pharmacy - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-29-analyse-flash-deutsche-bank-research-hebt-ziel-fuer-redcare-pharmacy-buy-0-10-26558596",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-Adhoc:",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-adhoc-korrektur-der-veroeffentlichung-vom-28-09-2026-17-06-uhr-cet-cest-verlaengerung-der-geschaeftsfuehrer-anstellungsvertraege-von-carsten-cramer-lars-ricken-und-thom",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "NCH2",
+   "date": "2026-09-29",
+   "sentiment": "INFO",
+   "news": "EQS-News: thyssenkrupp nucera erhaelt neuen Chlor-Alkali-Auftrag von Hongniu Lanzhou in China",
+   "link": "https://www.onvista.de/news/2026/09-29-eqs-news-thyssenkrupp-nucera-erhaelt-neuen-chlor-alkali-auftrag-von-hongniu-lanzhou-in-ch",
+   "source": "EQS Group"
+  }
+ ]
+}

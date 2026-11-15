@@ -1,0 +1,388 @@
+{
+ "date": "2026-10-08",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 34
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 9
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 16
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 7
+  }
+ },
+ "total": 38,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Bayerns IG Metall dringt auf Angebot - \"Bereiten Warnstreiks vor\"",
+   "link": "https://www.onvista.de/news/2026/10-08-bayerns-ig-metall-dringt-auf-angebot-bereiten-warnstreiks-vor-0-20-26561948",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "OTS: DHL Group / Technologie schlaegt Zoelle: Welthandel waechst schneller - ...",
+   "link": "https://www.onvista.de/news/2026/10-08-ots-dhl-group-technologie-schlaegt-zoelle-welthandel-waechst-schneller-0-10-26562037",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-10-08",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: MPCM hebt Ziel fuer Gea Group auf 67 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/10-08-analyse-flash-mpcm-hebt-ziel-fuer-gea-group-auf-67-euro-hold-0-10-26561894",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Sabotage am Stromnetz: Verdaechtiger vor BGH-Richter",
+   "link": "https://www.onvista.de/news/2026/10-08-sabotage-am-stromnetz-verdaechtiger-vor-bgh-richter-0-10-26561990",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Stellenabbau in Neckarsulm? Audi zieht Schlechtwetterklausel",
+   "link": "https://www.onvista.de/news/2026/10-08-stellenabbau-in-neckarsulm-audi-zieht-schlechtwetterklausel-0-10-26562059",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Wie geht es mit Evonik weiter? Gewerkschaft stellt Fragen",
+   "link": "https://www.onvista.de/news/2026/10-08-wie-geht-es-mit-evonik-weiter-gewerkschaft-stellt-fragen-0-10-26561997",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Banken wollen nicht ueber KI-Schutz und Freizeit verhandeln",
+   "link": "https://www.onvista.de/news/2026/10-08-roundup-banken-wollen-nicht-ueber-ki-schutz-und-freizeit-verhandeln-0-10-26562038",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 08.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-08-dpa-afx-ueberblick-unternehmen-vom-08-10-2026-15-15-uhr-0-10-26561976",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-News: E.ON schliesst Uebernahme von OVO in Grossbritannien erfolgreich ab",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-news-e-on-schliesst-uebernahme-von-ovo-in-grossbritannien-erfolgreich-ab-0-37-26561900",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: DZ Bank erhoeht fairen Wert fuer Siemens Energy - 'Halten'",
+   "link": "https://www.onvista.de/news/2026/10-08-analyse-flash-dz-bank-erhoeht-fairen-wert-fuer-siemens-energy-halten-0-10-26561885",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-DD: 1&1 AG: Un",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-dd-1-1-ag-united-internet-ag-erwerb-von-35-352-929-neuen-aktien-im-rahmen-einer-kapitalerhoehung-gegen-sacheinlage-der-1-1-ag-zum-rechnerischen-ausgabepreis-von",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Deutz AG: Dr. Dietmar Voggenreiter, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-dd-deutz-ag-dr-dietmar-voggenreiter-kauf-0-37-26562029",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "TKMS soll vier weitere Fregatten fuer die Deutsche Marine bauen",
+   "link": "https://www.onvista.de/news/2026/10-08-tkms-soll-vier-weitere-fregatten-fuer-die-deutsche-marine-bauen-0-20-26561931",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Lufthansa setzt Fluege nach Riad voruebergehend aus",
+   "link": "https://www.onvista.de/news/2026/10-08-lufthansa-setzt-fluege-nach-riad-voruebergehend-aus-0-10-26562078",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Gescheiterte Auktion - Behoerde passt See-Windparkflaechen an",
+   "link": "https://www.onvista.de/news/2026/10-08-gescheiterte-auktion-behoerde-passt-see-windparkflaechen-an-0-10-26561906",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax unter 25.000 Punkten - Oel und Anleihen",
+   "link": "https://www.onvista.de/news/2026/10-08-roundup-aktien-frankfurt-schluss-dax-unter-25-000-punkten-oel-und-anleihen-0-10-26562051",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SMHN",
+   "date": "2026-10-08",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Suss Microtec auf 100 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-08-analyse-flash-deutsche-bank-hebt-ziel-fuer-suss-microtec-auf-100-euro-buy-0-10-26561843",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Lufthansa setzt Fluege nach Riad voruebergehend aus",
+   "link": "https://www.onvista.de/news/2026/10-08-lufthansa-setzt-fluege-nach-riad-voruebergehend-aus-0-10-26562078",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax unter 25.000 Punkten - Oel und Anleihen",
+   "link": "https://www.onvista.de/news/2026/10-08-roundup-aktien-frankfurt-schluss-dax-unter-25-000-punkten-oel-und-anleihen-0-10-26562051",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Wie geht es mit Evonik weiter? Gewerkschaft stellt Fragen",
+   "link": "https://www.onvista.de/news/2026/10-08-wie-geht-es-mit-evonik-weiter-gewerkschaft-stellt-fragen-0-10-26561997",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-08",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Berenberg senkt Ziel fuer Flatexdegiro auf 44 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-08-analyse-flash-berenberg-senkt-ziel-fuer-flatexdegiro-auf-44-euro-buy-0-10-26561832",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Jungheinrich-Aktie faellt auf Vierjahres-Tief",
+   "link": "https://www.onvista.de/news/2026/10-08-aktie-im-fokus-jungheinrich-fallen-auf-vierjahrestief-bofa-stuft-ab-0-10-26561807",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Dr. Ing. h.c. F. Porsche AG: Vorabbekanntmachung ueber die Vero",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-afr-dr-ing-h-c-f-porsche-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Dr. Ing. h.c. F. Porsche AG: Vorabbekanntmachung ueber die Vero",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-afr-dr-ing-h-c-f-porsche-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "OP Mobility-Kurseinbruch zieht Autozulieferer nach unten",
+   "link": "https://www.onvista.de/news/2026/10-08-aktien-im-fokus-2-opmobility-kurseinbruch-zieht-autozulieferer-nach-unten-0-10-26561909",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 08.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-08-dpa-afx-ueberblick-unternehmen-vom-08-10-2026-15-15-uhr-0-10-26561976",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TUI AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-pvr-tui-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europawei",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Kreise: Rot-Gruen-Rot raeumt Hindernis fuer Sondierungen aus dem Weg",
+   "link": "https://www.onvista.de/news/2026/10-08-roundup-kreise-rot-gruen-rot-raeumt-hindernis-fuer-sondierungen-aus-dem-weg-0-10-26561790",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "Shelly waechst im dritten Quartal schneller",
+   "link": "https://www.onvista.de/news/2026/10-08-shelly-waechst-im-dritten-quartal-schneller-0-10-26562054",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-DD: 1&1 AG: Un",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-dd-1-1-ag-united-internet-ag-erwerb-von-35-352-929-neuen-aktien-im-rahmen-einer-kapitalerhoehung-gegen-sacheinlage-der-1-1-ag-zum-rechnerischen-ausgabepreis-von",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "INH",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax unter 25.000 Punkten - Oel und Anleihen",
+   "link": "https://www.onvista.de/news/2026/10-08-roundup-aktien-frankfurt-schluss-dax-unter-25-000-punkten-oel-und-anleihen-0-10-26562051",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SGL",
+   "date": "2026-10-08",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Jefferies hebt Ziel fuer SGL Carbon auf 5,50 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/10-08-analyse-flash-jefferies-hebt-ziel-fuer-sgl-carbon-auf-5-50-euro-hold-0-10-26562089",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-News: Verbio SE: Verbio Capital Markets Day 2026: Strukturellen Ausbau in nachhaltige Wer",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-news-verbio-se-verbio-capital-markets-day-2026-strukturellen-ausbau-in-nachhaltige-we",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "GLJ",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-DD: GRENKE AG: Dr. Martin  Paal, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-dd-grenke-ag-dr-martin-paal-kauf-0-37-26561788",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SPG",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Springer Nature AG & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-pvr-springer-nature-ag-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "V6C",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Viscom SE: Prof. Dr. Ludger Overmeyer, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-dd-viscom-se-prof-dr-ludger-overmeyer-kauf-0-37-26561758",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BRNK",
+   "date": "2026-10-08",
+   "sentiment": "INFO",
+   "news": "EQS-NVR: Branicks Group AG: Veroeffentlichung der Gesamtzahl der Stimmrechte n",
+   "link": "https://www.onvista.de/news/2026/10-08-eqs-nvr-branicks-group-ag-veroeffentlichung-der-gesamtzahl-der-stimmrechte-nach-41-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  }
+ ]
+}

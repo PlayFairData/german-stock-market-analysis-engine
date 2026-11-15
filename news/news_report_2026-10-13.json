@@ -1,0 +1,379 @@
+{
+ "date": "2026-10-13",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 3,
+  "INFO": 32
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 13
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 12
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 5
+  }
+ },
+ "total": 37,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 13.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-13-dpa-afx-ueberblick-unternehmen-vom-13-10-2026-15-15-uhr-0-10-26563604",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: DHL AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-pvr-dhl-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europawei",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Bernstein senkt Ziel fuer T-Mobile US - 'Market-Perform'",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-bernstein-senkt-ziel-fuer-t-mobile-us-market-perform-0-10-26563445",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Deutsche Boerse AG: Korrektur einer Veroeffentlichung vom 2",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-pvr-deutsche-boerse-ag-korrektur-einer-veroeffentlichung-vom-29-09-2026-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-10-13",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: RBC senkt Ziel fuer Mercedes-Benz auf 44 Euro - 'Sector Perform'",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-rbc-senkt-ziel-fuer-mercedes-benz-auf-44-euro-sector-perform-0-10-26563691",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAP SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-cms-sap-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563569",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Swiss Re: Extremwetter treibt Katastrophenschaeden in Europa an",
+   "link": "https://www.onvista.de/news/2026/10-13-swiss-re-extremwetter-treibt-katastrophenschaeden-in-europa-an-0-10-26563583",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Dax schwaecher erwartet - Tech-Sorgen belasten",
+   "link": "https://www.onvista.de/news/2026/10-13-aktien-frankfurt-ausblick-dax-schwaecher-erwartet-tech-sorgen-belasten-0-10-26563343",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Linke sagt Gespraech mit Vonovia-Chef kurzfristig ab",
+   "link": "https://www.onvista.de/news/2026/10-13-linke-sagt-gespraech-mit-vonovia-chef-kurzfristig-ab-0-10-26563536",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Techwerte armer Dax legt moderat zu",
+   "link": "https://www.onvista.de/news/2026/10-13-roundup-aktien-frankfurt-eroeffnung-techwerte-armer-dax-legt-moderat-zu-0-10-26563400",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Credit Agricole uebernimmt Mittelstandsfinanzierer IKB",
+   "link": "https://www.onvista.de/news/2026/10-13-credit-agricole-uebernimmt-mittelstandsfinanzierer-ikb-0-10-26563334",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: RBC senkt Ziel fuer Mercedes-Benz auf 44 Euro - 'Sector Perform'",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-rbc-senkt-ziel-fuer-mercedes-benz-auf-44-euro-sector-perform-0-10-26563691",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Modellrechnung fuer Stromsteuersenkung: Drei Milliarden Euro: Entlastung",
+   "link": "https://www.onvista.de/news/2026/10-13-modellrechnung-fuer-stromsteuersenkung-drei-milliarden-euro-entlastung-0-10-26563463",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Erholung erlahmt - Chip-Branche schwach",
+   "link": "https://www.onvista.de/news/2026/10-13-roundup-aktien-frankfurt-schluss-erholung-erlahmt-chip-branche-schwach-0-10-26563667",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-10-13",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Goldman startet CTS Eventim mit 'Neutral' - Ziel 68 Euro",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-goldman-startet-cts-eventim-mit-neutral-ziel-68-euro-0-10-26563509",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Techwerte armer Dax legt moderat zu",
+   "link": "https://www.onvista.de/news/2026/10-13-roundup-aktien-frankfurt-eroeffnung-techwerte-armer-dax-legt-moderat-zu-0-10-26563400",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Dax schwaecher erwartet - Tech-Sorgen belasten",
+   "link": "https://www.onvista.de/news/2026/10-13-aktien-frankfurt-ausblick-dax-schwaecher-erwartet-tech-sorgen-belasten-0-10-26563343",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Stroeer SE & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaw",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-pvr-stroeer-se-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Ryanair-Rueckzug trifft Flughafen BER hart - \"Das ist ein heftiger Schlag\"",
+   "link": "https://www.onvista.de/news/2026/10-13-ryanair-rueckzug-trifft-flughafen-ber-hart-das-ist-ein-heftiger-schlag-0-20-26563543",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Erholung erlahmt - Chip-Branche schwach",
+   "link": "https://www.onvista.de/news/2026/10-13-roundup-aktien-frankfurt-schluss-erholung-erlahmt-chip-branche-schwach-0-10-26563667",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FNTN",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Freenet uebernimmt Fernsehdienst waipu.tv komplett - Keine Boersennotierung",
+   "link": "https://www.onvista.de/news/2026/10-13-freenet-uebernimmt-fernsehdienst-waipu-tv-komplett-keine-boersennotierung-0-10-26563681",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Merz weist Vorwuerfe aus der SPD erneut zurueck",
+   "link": "https://www.onvista.de/news/2026/10-13-merz-weist-vorwuerfe-aus-der-spd-erneut-zurueck-0-10-26563689",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Trade Republic verschaerft Preiskampf um Altersvorsorgedepot",
+   "link": "https://www.onvista.de/news/2026/10-13-trade-republic-verschaerft-preiskampf-um-altersvorsorgedepot-0-10-26563422",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-News: flatexDEGIRO gewinnt Prof. Dr. Katrin Loehr fuer den Aufsichtsrat",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-news-flatexdegiro-gewinnt-prof-dr-katrin-loehr-fuer-den-aufsichtsrat-0-37-26563679",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Schwaches Jahr fuer die deutschen Autobauer - China-Probleme",
+   "link": "https://www.onvista.de/news/2026/10-13-roundup-schwaches-jahr-fuer-die-deutschen-autobauer-china-probleme-0-10-26563526",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Erholung erlahmt - Chip-Branche schwach",
+   "link": "https://www.onvista.de/news/2026/10-13-roundup-aktien-frankfurt-schluss-erholung-erlahmt-chip-branche-schwach-0-10-26563667",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Neue 'besseresser'-Folgen im ZDF - Zwist um Weggang von Lege",
+   "link": "https://www.onvista.de/news/2026/10-13-neue-besseresser-folgen-im-zdf-zwist-um-weggang-von-lege-0-10-26563664",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EUZ",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-News: Eckert & Ziegler und",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-news-eckert-ziegler-und-terthera-unterzeichnen-liefervertrag-der-brasilianischen-patienten-gmp-konforme-terbium-161-radiopharmaka-der-naechsten-gen",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "JUN3",
+   "date": "2026-10-13",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: UBS startet Jungheinrich mit 'Neutral' - Ziel 24 Euro",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-ubs-startet-jungheinrich-mit-neutral-ziel-24-euro-0-10-26563486",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SZU",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Bayern: CSU-Ministerinnen uneins ueber Zuckersteuer",
+   "link": "https://www.onvista.de/news/2026/10-13-bayern-csu-ministerinnen-uneins-ueber-zuckersteuer-0-10-26563551",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-10-13",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies hebt Ziel fuer SMA Solar auf 90 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-jefferies-hebt-ziel-fuer-sma-solar-auf-90-euro-buy-0-10-26563625",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "PNE3",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Windparkentwickler PNE senkt Ergebnisausblick - Verkaeufe verzoegern sich",
+   "link": "https://www.onvista.de/news/2026/10-13-windparkentwickler-pne-senkt-ergebnisausblick-verkaeufe-verzoegern-sich-0-10-26563685",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Dax schwaecher erwartet - Tech-Sorgen belasten",
+   "link": "https://www.onvista.de/news/2026/10-13-aktien-frankfurt-ausblick-dax-schwaecher-erwartet-tech-sorgen-belasten-0-10-26563343",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-13-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563565",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BFSA",
+   "date": "2026-10-13",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: UBS hebt Ziel fuer Befesa auf 50 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-13-analyse-flash-ubs-hebt-ziel-fuer-befesa-auf-50-euro-buy-0-10-26563484",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "BVB auf ungewohntem Kunstrasen in Norwegen: 'Keine Ausrede'",
+   "link": "https://www.onvista.de/news/2026/10-13-bvb-auf-ungewohntem-kunstrasen-in-norwegen-keine-ausrede-0-10-26563684",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "FYB",
+   "date": "2026-10-13",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax gibt Gewinne ab - US-Techwerte weiter unter Druck erwartet",
+   "link": "https://www.onvista.de/news/2026/10-13-aktien-frankfurt-dax-gibt-gewinne-ab-us-techwerte-weiter-unter-druck-erwartet-0-10-26563587",
+   "source": "dpa-AFX"
+  }
+ ]
+}

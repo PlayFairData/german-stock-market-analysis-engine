@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-25",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "MDAX",
+  "PDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 2
+ },
+ "by_index": {
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 2,
+ "items": [
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-25",
+   "sentiment": "INFO",
+   "news": "Wegen hoher Nachfrage: E-Autos werden teurer",
+   "link": "https://www.onvista.de/news/2026/10-25-wegen-hoher-nachfrage-e-autos-werden-teurer-0-10-26568131",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-25",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN - Die wichtigsten Meldungen vom Wochenende",
+   "link": "https://www.onvista.de/news/2026/10-25-dpa-afx-ueberblick-unternehmen-die-wichtigsten-meldungen-vom-wochenende-0-10-26568175",
+   "source": "dpa-AFX"
+  }
+ ]
+}

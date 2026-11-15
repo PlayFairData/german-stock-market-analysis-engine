@@ -1,0 +1,334 @@
+{
+ "date": "2026-09-01",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 30
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 13
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  }
+ },
+ "total": 32,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "INDEX-MONITOR: Engie und Nokia kommen wohl in EuroStoxx - VW und Wolters raus",
+   "link": "https://www.onvista.de/news/2026/09-01-index-monitor-engie-und-nokia-kommen-wohl-in-eurostoxx-vw-und-wolters-raus-0-10-26548520",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-09-01",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Continental auf 'Overweight' - Ziel 78 Euro",
+   "link": "https://www.onvista.de/news/2026/09-01-analyse-flash-jpmorgan-belaesst-continental-auf-overweight-ziel-78-euro-0-10-26548705",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: DHL AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-pvr-dhl-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europawei",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "2.500 Unternehmen setzen sich gemeinsam fuer Demokratie ein",
+   "link": "https://www.onvista.de/news/2026/09-01-2-500-unternehmen-setzen-sich-gemeinsam-fuer-demokratie-ein-0-10-26548724",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Rheinmetall buhlt in den USA um Panzer-Projekt - Prototyp ausgeliefert",
+   "link": "https://www.onvista.de/news/2026/09-01-rheinmetall-buhlt-in-den-usa-um-panzer-projekt-prototyp-ausgeliefert-0-20-26548440",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: RWE kurz auf Vier-Monats-Hoch - Analysten optimistisch",
+   "link": "https://www.onvista.de/news/2026/09-01-aktie-im-fokus-2-rwe-kurz-auf-vier-monats-hoch-analysten-optimistisch-0-10-26548719",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Unter Druck: Welche Zukunft hat die Autoindustrie im Osten?",
+   "link": "https://www.onvista.de/news/2026/09-01-unter-druck-welche-zukunft-hat-die-autoindustrie-im-osten-0-10-26548327",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAP SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-cms-sap-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26548648",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Versicherer erwarten eher niedrige Naturkatastrophenschaeden",
+   "link": "https://www.onvista.de/news/2026/09-01-versicherer-erwarten-eher-niedrige-naturkatastrophenschaeden-0-10-26548345",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Allianz SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-cms-allianz-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26548599",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "US-Konkurrenz enteilt Europas Grossbanken",
+   "link": "https://www.onvista.de/news/2026/09-01-us-konkurrenz-enteilt-europas-grossbanken-0-10-26548332",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: RWE kurz auf Vier-Monats-Hoch - Analysten optimistisch",
+   "link": "https://www.onvista.de/news/2026/09-01-aktie-im-fokus-2-rwe-kurz-auf-vier-monats-hoch-analysten-optimistisch-0-10-26548719",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Siemens Energy erneut schwach - JPMorgan beruhigt",
+   "link": "https://www.onvista.de/news/2026/09-01-aktie-im-fokus-siemens-energy-erneut-schwach-jpmorgan-beruhigt-0-10-26548527",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "IPO/AKTIE IM FOKUS 2: Modehaendler Shein gibt holpriges Boersendebuet",
+   "link": "https://www.onvista.de/news/2026/09-01-ipo-aktie-im-fokus-2-modehaendler-shein-gibt-holpriges-boersendebuet-0-10-26548484",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Flugbranche warnt vor Chaos bei Schengen-Einreise",
+   "link": "https://www.onvista.de/news/2026/09-01-flugbranche-warnt-vor-chaos-bei-schengen-einreise-0-10-26548481",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-09-01",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Warburg Research hebt Ziel fuer Deutz auf 19 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-01-analyse-flash-warburg-research-hebt-ziel-fuer-deutz-auf-19-euro-buy-0-10-26548509",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Wagenknecht: Merz fuehrt uns naeher an Krieg mit Russland",
+   "link": "https://www.onvista.de/news/2026/09-01-wagenknecht-merz-fuehrt-uns-naeher-an-krieg-mit-russland-0-10-26548735",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax geht mit Verlusten in schwachen September",
+   "link": "https://www.onvista.de/news/2026/09-01-roundup-aktien-frankfurt-schluss-dax-geht-mit-verlusten-in-schwachen-september-0-10-26548718",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TLX",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Versicherer erwarten eher niedrige Naturkatastrophenschaeden",
+   "link": "https://www.onvista.de/news/2026/09-01-versicherer-erwarten-eher-niedrige-naturkatastrophenschaeden-0-10-26548345",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Bertelsmann schliesst Musik-Deal mit BMG/Concord ab - Finanzierer Apollo an Bord",
+   "link": "https://www.onvista.de/news/2026/09-01-bertelsmann-schliesst-musik-deal-mit-bmg-concord-ab-finanzierer-apollo-an-bord-0-20-26548694",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "KTN",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Dax setzt Korrektur vom Rekord weiter fort",
+   "link": "https://www.onvista.de/news/2026/09-01-roundup-aktien-frankfurt-eroeffnung-dax-setzt-korrektur-vom-rekord-weiter-fort-0-10-26548448",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "GFT",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax geht mit Verlusten in schwachen September",
+   "link": "https://www.onvista.de/news/2026/09-01-roundup-aktien-frankfurt-schluss-dax-geht-mit-verlusten-in-schwachen-september-0-10-26548718",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax geht mit Verlusten in schwachen September",
+   "link": "https://www.onvista.de/news/2026/09-01-roundup-aktien-frankfurt-schluss-dax-geht-mit-verlusten-in-schwachen-september-0-10-26548718",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Mutares erwirbt von Symrise US-Geschaeft mit Terpen-Inhaltsstoffen",
+   "link": "https://www.onvista.de/news/2026/09-01-mutares-erwirbt-von-symrise-us-geschaeft-mit-terpen-inhaltsstoffen-0-10-26548375",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SAF-HOLLAND SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-pvr-saf-holland-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SPG",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Springer Nature ernennt Patric Somlo zum Vorstand Finanzen",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-news-springer-nature-ernennt-patric-somlo-zum-vorstand-finanzen-0-37-26548701",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Medien: BVB holt Nwaneri als Konstantelias-Ersatz",
+   "link": "https://www.onvista.de/news/2026/09-01-medien-bvb-holt-nwaneri-als-konstantelias-ersatz-0-10-26548419",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Gerresheimer AG: Hauptversammlung stimmt mehrheitlich fuer Beschlussvorschlaege der Gesellschaft",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-news-gerresheimer-ag-hauptversammlung-stimmt-mehrheitlich-fuer-beschluss",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "ADN1",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: adesso erhaelt Zuschlag fuer Neuausrichtung der Unternehme",
+   "link": "https://www.onvista.de/news/2026/09-01-eqs-news-adesso-erhaelt-zuschlag-fuer-neuausrichtung-der-unternehmensplattform-easygov-vom-schweizer-staatssekreta",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSM",
+   "date": "2026-09-01",
+   "sentiment": "INFO",
+   "news": "Medien planen Aktionswoche fuer unabhaengigen Journalismus",
+   "link": "https://www.onvista.de/news/2026/09-01-medien-planen-aktionswoche-fuer-unabhaengigen-journalismus-0-10-26548450",
+   "source": "dpa-AFX"
+  }
+ ]
+}

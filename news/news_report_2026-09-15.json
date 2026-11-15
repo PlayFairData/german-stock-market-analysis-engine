@@ -1,0 +1,334 @@
+{
+ "date": "2026-09-15",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 31
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 32,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Kaum veraendert - Dax am Tropf des Oelpreises",
+   "link": "https://www.onvista.de/news/2026/09-15-roundup-aktien-frankfurt-schluss-kaum-veraendert-dax-am-tropf-des-oelpreises-0-10-26553761",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "100.000 Bestellungen fuer iX3 von BMW allein in Europa",
+   "link": "https://www.onvista.de/news/2026/09-15-100-000-bestellungen-fuer-ix3-von-bmw-allein-in-europa-0-10-26553390",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer DHL auf 62 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-15-analyse-flash-deutsche-bank-research-hebt-ziel-fuer-dhl-auf-62-euro-buy-0-10-26553563",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Staatssekretaer: Europa droht bei KI zum Zuschauer zu werden",
+   "link": "https://www.onvista.de/news/2026/09-15-staatssekretaer-europa-droht-bei-ki-zum-zuschauer-zu-werden-0-10-26553426",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: GEA Group Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-cms-gea-group-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-265534",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Nutzfahrzeugmesse IAA Transportation wird eroeffnet",
+   "link": "https://www.onvista.de/news/2026/09-15-nutzfahrzeugmesse-iaa-transportation-wird-eroeffnet-0-10-26553387",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Oezdemir: Neckarsulm zu schliessen, waere 'politische Willkuer'",
+   "link": "https://www.onvista.de/news/2026/09-15-oezdemir-neckarsulm-zu-schliessen-waere-politische-willkuer-0-10-26553703",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Allianz SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-cms-allianz-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553662",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BNR",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax macht Verluste wett - Oelpreis und Anleiherenditen im Fokus",
+   "link": "https://www.onvista.de/news/2026/09-15-aktien-frankfurt-dax-macht-verluste-wett-oelpreis-und-anleiherenditen-im-fokus-0-10-26553678",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax macht Verluste wett - Oelpreis und Anleiherenditen im Fokus",
+   "link": "https://www.onvista.de/news/2026/09-15-aktien-frankfurt-dax-macht-verluste-wett-oelpreis-und-anleiherenditen-im-fokus-0-10-26553678",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Bayer fordert US-Richter zur Annahme von Milliardenvergleich auf",
+   "link": "https://www.onvista.de/news/2026/09-15-bayer-tochter-monsanto-fordert-genehmigung-des-roundup-vergleichs-0-20-26553428",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Insider: UniCredit will Fuehrungsspitze der Commerzbank loswerden",
+   "link": "https://www.onvista.de/news/2026/09-15-insider-unicredit-will-fuehrungsspitze-der-commerzbank-loswerden-0-20-26553754",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Irak laedt deutsche Firmen ein und bietet Erdoel an",
+   "link": "https://www.onvista.de/news/2026/09-15-irak-laedt-deutsche-firmen-ein-und-bietet-erdoel-an-0-10-26553766",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-News: Warren Wise misst Fresenius den Puls: Gewinnsprung durch Sondereffekte",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-news-warren-wise-misst-fresenius-den-puls-gewinnsprung-durch-sondereffekte-0-37-26553550",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LXS",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Kaum veraendert - Dax am Tropf des Oelpreises",
+   "link": "https://www.onvista.de/news/2026/09-15-roundup-aktien-frankfurt-schluss-kaum-veraendert-dax-am-tropf-des-oelpreises-0-10-26553761",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 15.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-15-dpa-afx-ueberblick-unternehmen-vom-15-09-2026-15-15-uhr-0-10-26553691",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "KORREKTUR/ROUNDUP: Aetna-Aschewolke behindert weiter Fluege ueber Sizilien",
+   "link": "https://www.onvista.de/news/2026/09-15-korrektur-roundup-aetna-aschewolke-behindert-weiter-fluege-ueber-sizilien-0-10-26553634",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Kreise: Merz sagt Reise zur UN-Generaldebatte nach New York ab",
+   "link": "https://www.onvista.de/news/2026/09-15-kreise-merz-sagt-reise-zur-un-generaldebatte-nach-new-york-ab-0-10-26553770",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Duestere Aussagen von BofA-Chef druecken Deutsche Bank & Co",
+   "link": "https://www.onvista.de/news/2026/09-15-duestere-aussagen-von-bofa-chef-druecken-deutsche-bank-co-0-20-26553644",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Lkw-Branche fordert Tempo bei Infrastrukturausbau",
+   "link": "https://www.onvista.de/news/2026/09-15-roundup-lkw-branche-fordert-tempo-bei-infrastrukturausbau-0-10-26553743",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-d",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Schwaches Chemie-Sektorumfeld - Evonik von Abstufung belastet",
+   "link": "https://www.onvista.de/news/2026/09-15-aktien-im-fokus-schwaches-chemie-sektorumfeld-evonik-von-abstufung-belastet-0-10-26553521",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Klagen gegen Preiserhoehungen bei Streaming-Anbietern",
+   "link": "https://www.onvista.de/news/2026/09-15-klagen-gegen-preiserhoehungen-bei-streaming-anbietern-0-10-26553589",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1AST",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-DD: ASTA Energy Solutions AG: Johannes Linden, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-dd-asta-energy-solutions-ag-johannes-linden-kauf-0-37-26553755",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 15.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-15-dpa-afx-ueberblick-unternehmen-vom-15-09-2026-15-15-uhr-0-10-26553691",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VOS",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-News: Vossloh ergaenzt digitales Portfolio mit RTI",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-news-vossloh-ergaenzt-digitales-portfolio-mit-rti-0-37-26553512",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "SMA Solar: Vorstandsvorsitzender krank - Heyden uebernimmt vorerst",
+   "link": "https://www.onvista.de/news/2026/09-15-sma-solar-vorstandsvorsitzender-krank-heyden-uebernimmt-vorerst-0-10-26553701",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DMP",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "Linnemann dringt auf strengere Regeln fuer Medizin-Cannabis",
+   "link": "https://www.onvista.de/news/2026/09-15-linnemann-dringt-auf-strengere-regeln-fuer-medizin-cannabis-0-10-26553681",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OBCK",
+   "date": "2026-09-15",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies belaesst Ottobock auf 'Buy' - Ziel 83 Euro",
+   "link": "https://www.onvista.de/news/2026/09-15-analyse-flash-jefferies-belaesst-ottobock-auf-buy-ziel-83-euro-0-10-26553748",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26553716",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "PCZ",
+   "date": "2026-09-15",
+   "sentiment": "INFO",
+   "news": "EQS-DD: ProCredit Holding AG: Christian Dagrosa, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-15-eqs-dd-procredit-holding-ag-christian-dagrosa-kauf-0-37-26553442",
+   "source": "EQS Group"
+  }
+ ]
+}

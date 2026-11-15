@@ -1,0 +1,253 @@
+{
+ "date": "2026-09-04",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 21
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 23,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax trotzt starken US-Jobdaten",
+   "link": "https://www.onvista.de/news/2026/09-04-roundup-aktien-frankfurt-schluss-dax-trotzt-starken-us-jobdaten-0-10-26550083",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Gewinnwarnung von Lululemon belastet auch Adidas und Puma",
+   "link": "https://www.onvista.de/news/2026/09-04-aktien-im-fokus-2-gewinnwarnung-von-lululemon-belastet-auch-adidas-und-puma-0-10-26550104",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 04.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-04-dpa-afx-ueberblick-unternehmen-vom-04-09-2026-15-15-uhr-0-10-26550004",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NEM",
+   "date": "2026-09-04",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Goldman hebt Ziel fuer Nemetschek auf 100 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-04-analyse-flash-goldman-hebt-ziel-fuer-nemetschek-auf-100-euro-buy-0-10-26550045",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Gewinnwarnung von Lululemon belastet auch Adidas und Puma",
+   "link": "https://www.onvista.de/news/2026/09-04-aktien-im-fokus-2-gewinnwarnung-von-lululemon-belastet-auch-adidas-und-puma-0-10-26550104",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Weitere Stabilisierung vor US-Arbeitsmarktbericht",
+   "link": "https://www.onvista.de/news/2026/09-04-aktien-frankfurt-ausblick-weitere-stabilisierung-vor-us-arbeitsmarktbericht-0-10-26549822",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-09-04",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Thyssenkrupp auf 18 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-04-analyse-flash-deutsche-bank-hebt-ziel-fuer-thyssenkrupp-auf-18-euro-buy-0-10-26549900",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "Portugal: Lufthansa und Air France-KLM sollen TAP-Angebote nachbessern",
+   "link": "https://www.onvista.de/news/2026/09-04-portugal-lufthansa-und-air-france-klm-sollen-tap-angebote-nachbessern-0-20-26550072",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Barclays startet K+S mit 'Equal Weight' - Yara mit 'Underweight'",
+   "link": "https://www.onvista.de/news/2026/09-04-analyse-flash-barclays-startet-k-s-mit-equal-weight-yara-mit-underweight-0-10-26549890",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: Einigung auf Sparplan treibt Volkswagen an die Dax-Spitze",
+   "link": "https://www.onvista.de/news/2026/09-04-aktie-im-fokus-2-einigung-auf-sparplan-treibt-volkswagen-an-die-dax-spitze-0-10-26550105",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "Morgan-Stanley-Abstufung belastet Daimler Truck - Traton solide",
+   "link": "https://www.onvista.de/news/2026/09-04-aktie-im-fokus-morgan-stanley-abstufung-belastet-daimler-truck-traton-solide-0-10-26549877",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TUI1",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "45,7 Grad: Spaniens heissester Tag seit Jahresbeginn",
+   "link": "https://www.onvista.de/news/2026/09-04-45-7-grad-spaniens-heissester-tag-seit-jahresbeginn-0-10-26550063",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax-Stabilisierung steht vor US-Jobbericht auf wackligen Fuessen",
+   "link": "https://www.onvista.de/news/2026/09-04-aktien-frankfurt-dax-stabilisierung-steht-vor-us-jobbericht-auf-wackligen-fuessen-0-10-26549923",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Shelly Group SE: Wolfgang Kirsch, Zuteilung von Optionen auf 474.800 Aktien",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-dd-shelly-group-se-wolfgang-kirsch-zuteilung-von-optionen-auf-474-800-aktien-0-37-26550062",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "AFX",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Carl Zeiss Meditec AG: Justus Felix Wehmer, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-dd-carl-zeiss-meditec-ag-justus-felix-wehmer-kauf-0-37-26550066",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HYQ",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Hypoport SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-pvr-hypoport-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "MLP",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: MLP SE: Jan Frederik Berg, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-dd-mlp-se-jan-frederik-berg-kauf-0-37-26550032",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TPE",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: PVA TePla AG: Prof. Dr. Ingrid De Wolf, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-dd-pva-tepla-ag-prof-dr-ingrid-de-wolf-kauf-0-37-26549990",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "TTK",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-DD: TAKKT AG: Andreas Georg Weishaar, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-dd-takkt-ag-andreas-georg-weishaar-kauf-0-37-26549965",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSAN",
+   "date": "2026-09-04",
+   "sentiment": "INFO",
+   "news": "EQS-News: PSI-Hauptversammlung waehlt neue Mitglieder in den Aufsichtsrat",
+   "link": "https://www.onvista.de/news/2026/09-04-eqs-news-psi-hauptversammlung-waehlt-neue-mitglieder-in-den-aufsichtsrat-0-37-26549830",
+   "source": "EQS Group"
+  }
+ ]
+}

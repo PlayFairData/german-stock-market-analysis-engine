@@ -1,0 +1,361 @@
+{
+ "date": "2026-10-01",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 0,
+  "HOLD": 1,
+  "INFO": 31
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 12
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 11
+  }
+ },
+ "total": 35,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: VW-Chef Blume bringt laengere Arbeitszeiten ins Spiel",
+   "link": "https://www.onvista.de/news/2026/10-01-roundup-vw-chef-blume-bringt-laengere-arbeitszeiten-ins-spiel-0-10-26559636",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: DHL plant Zehntausende neue Paketautomaten - Firmenzukauf",
+   "link": "https://www.onvista.de/news/2026/10-01-roundup-dhl-plant-zehntausende-neue-paketautomaten-firmenzukauf-0-10-26559578",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "BofA-Analyse zu Ruestung belastet Renk und treibt Hensoldt an",
+   "link": "https://www.onvista.de/news/2026/10-01-aktien-im-fokus-2-bofa-analyse-zu-ruestung-belastet-renk-und-treibt-hensoldt-an-0-10-26559526",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Mutmassliche Brandstiftung an Hochspannungsleitung in NRW",
+   "link": "https://www.onvista.de/news/2026/10-01-mutmassliche-brandstiftung-an-hochspannungsleitung-in-nrw-0-10-26559640",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Aktien Europa: Schwaecher - Oelpreise und Anleiherenditen haben Maerkte im Griff",
+   "link": "https://www.onvista.de/news/2026/10-01-aktien-europa-schwaecher-oelpreise-und-anleiherenditen-haben-maerkte-im-griff-0-10-26559497",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Happy Birthday Siemens: Warren Wise schenkt Zukunftscheck statt Torte",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-happy-birthday-siemens-warren-wise-schenkt-zukunftscheck-statt-torte-0-37-26559522",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Protest bei VW: Beschaeftigte in Zwickau verlassen Betriebsversammlung",
+   "link": "https://www.onvista.de/news/2026/10-01-protest-bei-vw-beschaeftigte-in-zwickau-verlassen-betriebsversammlung-0-10-26559661",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-01",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Berenberg belaesst Adidas auf 'Hold' - Ziel 190 Euro",
+   "link": "https://www.onvista.de/news/2026/10-01-analyse-flash-berenberg-belaesst-adidas-auf-hold-ziel-190-euro-0-10-26559481",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax unter 25.000 Punkten - 200-Tage-Linie haelt",
+   "link": "https://www.onvista.de/news/2026/10-01-roundup-aktien-frankfurt-schluss-dax-unter-25-000-punkten-200-tage-linie-haelt-0-10-26559682",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Trotz staatlicher Zulagen: Viele wollen kein Depot eroeffnen",
+   "link": "https://www.onvista.de/news/2026/09-30-trotz-staatlicher-zulagen-viele-wollen-kein-depot-eroeffnen-0-10-26559270",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: FUCHS SE und Mercedes-Benz geben Verlaengerung ihrer strategischen Geschaeftspartnerschaft bekannt",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-fuchs-se-und-mercedes-benz-geben-verlaengerung-ihrer-strategische",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-DD: E.ON SE: Andreas  Schmitz, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-dd-e-on-se-andreas-schmitz-kauf-0-37-26559558",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "FRE",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Fresenius schliesst die Uebernahme von mAbxience ab",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-fresenius-schliesst-die-uebernahme-von-mabxience-ab-und-schafft-damit-eine-staerkere-plattform-fuer-den-kuenfti",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-DD: CTS Eventim AG & Co. KGaA: Dr. Cornelius Baur, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-dd-cts-eventim-ag-co-kgaa-dr-cornelius-baur-kauf-0-37-26559583",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax kaempft um die 25.000-Punkte-Marke",
+   "link": "https://www.onvista.de/news/2026/10-01-aktien-frankfurt-dax-kaempft-um-die-25-000-punkte-marke-0-10-26559496",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Insider: Kone will Europa-Geschaeft von TK Elevator verkaufen",
+   "link": "https://www.onvista.de/news/2026/10-01-insider-kone-will-europa-geschaeft-von-tk-elevator-verkaufen-0-20-26559550",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Meilenstein in Oesterreich: Nordex Group erhaelt von WEB Windene",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-meilenstein-in-oesterreich-nordex-group-erhaelt-von-web-windenergie-auftrag-ueber-56-mw-fuer-erstes",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Micron ueberrascht mit Umsatzoptimismus - Investoren zurueckhaltend",
+   "link": "https://www.onvista.de/news/2026/10-01-roundup-2-micron-ueberrascht-mit-umsatzoptimismus-investoren-zurueckhaltend-0-10-26559614",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Vertrag von Sascha Zaps als Vorstand fuer Bearings & Industrial Solutions bei Schaeffler verlaengert",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-vertrag-von-sascha-zaps-als-vorstand-fuer-bearings-industrial-s",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TLX",
+   "date": "2026-10-01",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Berenberg belaesst Talanx auf 'Buy' - Ziel 163 Euro",
+   "link": "https://www.onvista.de/news/2026/10-01-analyse-flash-berenberg-belaesst-talanx-auf-buy-ziel-163-euro-0-10-26559506",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-01",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Warburg Research senkt Ziel fuer Aroundtown auf 3,30 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-01-analyse-flash-warburg-research-senkt-ziel-fuer-aroundtown-auf-3-30-euro-buy-0-10-26559480",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EKT",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Oekostrom-Rekord: Anteil von 61 Prozent",
+   "link": "https://www.onvista.de/news/2026/10-01-oekostrom-rekord-anteil-von-61-prozent-0-10-26559322",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "GFT",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Deutschland bei KI-Agenten weltweit in der Spitzengruppe",
+   "link": "https://www.onvista.de/news/2026/10-01-deutschland-bei-ki-agenten-weltweit-in-der-spitzengruppe-0-10-26559315",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "LPK",
+   "date": "2026-10-01",
+   "sentiment": "BUY",
+   "news": "Original-Research: LPKF Laser & Electronics SE (von Montega AG): Kaufen",
+   "link": "https://www.onvista.de/news/2026/10-01-original-research-lpkf-laser-electronics-se-von-montega-ag-kaufen-0-10-26559608",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "YSN",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Deutschland bei KI-Agenten weltweit in der Spitzengruppe",
+   "link": "https://www.onvista.de/news/2026/10-01-deutschland-bei-ki-agenten-weltweit-in-der-spitzengruppe-0-10-26559315",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SZU",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Kanzleramt stoppt vorerst Klingbeils Zuckersteuer",
+   "link": "https://www.onvista.de/news/2026/10-01-roundup-2-kanzleramt-stoppt-vorerst-klingbeils-zuckersteuer-0-10-26559518",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HDD",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Boom bei Batteriespeichern: Antrags-'Tsunami' bei Mitnetz",
+   "link": "https://www.onvista.de/news/2026/10-01-boom-bei-batteriespeichern-antrags-tsunami-bei-mitnetz-0-10-26559324",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "TPE",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Chiprally nach Micron-Signalen versiegt - Truebes Boersenumfeld",
+   "link": "https://www.onvista.de/news/2026/10-01-aktien-im-fokus-2-chiprally-nach-micron-signalen-versiegt-truebes-boersenumfeld-0-10-26559464",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Boom bei Batteriespeichern: Antrags-'Tsunami' bei Mitnetz",
+   "link": "https://www.onvista.de/news/2026/10-01-boom-bei-batteriespeichern-antrags-tsunami-bei-mitnetz-0-10-26559324",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "PNE3",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Oekostrom-Rekord: Anteil von 61 Prozent",
+   "link": "https://www.onvista.de/news/2026/10-01-oekostrom-rekord-anteil-von-61-prozent-0-10-26559322",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HFG",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HelloFresh SE: Active Ownership Opportunities SCS, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-dd-hellofresh-se-active-ownership-opportunities-scs-kauf-0-37-26559557",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Medios uebernimmt Caelo und staerkt sein europaeisches Compounding Essentials-Geschaeft",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-medios-uebernimmt-caelo-und-staerkt-sein-europaeisches-compounding-essential",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BYW6",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "Kodi schliesst 43 Filialen, 100 Standorte bleiben",
+   "link": "https://www.onvista.de/news/2026/10-01-kodi-schliesst-43-filialen-100-standorte-bleiben-0-10-26559693",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-10-01",
+   "sentiment": "INFO",
+   "news": "EQS-News: Gerresheimer schliesst Verkauf von Centor erfolgreich ab",
+   "link": "https://www.onvista.de/news/2026/10-01-eqs-news-gerresheimer-schliesst-verkauf-von-centor-erfolgreich-ab-0-37-26559433",
+   "source": "EQS Group"
+  }
+ ]
+}

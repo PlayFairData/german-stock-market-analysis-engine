@@ -1,0 +1,388 @@
+{
+ "date": "2026-10-14",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 37
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 11
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 15
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  }
+ },
+ "total": 38,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Ladebordsteine fuer E-Autos: Welche Staedte die Technik testen",
+   "link": "https://www.onvista.de/news/2026/10-14-roundup-ladebordsteine-fuer-e-autos-welche-staedte-die-technik-testen-0-10-26563809",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Galderma kauft US-Hautpflegemarke fuer 1,5 Milliarden Dollar",
+   "link": "https://www.onvista.de/news/2026/10-14-galderma-kauft-us-hautpflegemarke-fuer-1-5-milliarden-dollar-0-10-26563826",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "DHL: Bundesregierung streicht der Post einen Steuervorteil",
+   "link": "https://www.onvista.de/news/2026/10-14-dhl-bundesregierung-streicht-der-post-einen-steuervorteil-0-10-26564083",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Drohnenangriff auf groesstes russisches Rechenzentrum",
+   "link": "https://www.onvista.de/news/2026/10-14-drohnenangriff-auf-groesstes-russisches-rechenzentrum-0-20-26564150",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "EQS-News: Precisely bringt MCP-Server fuer Precisely Automate auf den Markt und",
+   "link": "https://www.onvista.de/news/2026/10-14-eqs-news-precisely-bringt-mcp-server-fuer-precisely-automate-auf-den-markt-und-verbindet-ki-anwendunge",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Gericht kippt Volkswagens Deal mit frueherem Audi-Chef",
+   "link": "https://www.onvista.de/news/2026/10-14-gericht-kippt-volkswagens-deal-mit-frueherem-audi-chef-0-10-26564130",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Neue Allianz: Ausbau der Wasserstrassen vorantreiben",
+   "link": "https://www.onvista.de/news/2026/10-14-neue-allianz-ausbau-der-wasserstrassen-vorantreiben-0-10-26564047",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Muenchener Rueckversicherungs-Gesellschaft Aktiengesellschaft in Muen",
+   "link": "https://www.onvista.de/news/2026/10-14-eqs-cms-muenchener-rueckversicherungs-gesellschaft-aktiengesellschaft-in-muenchen-veroeffentlichung-eine",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Hohe Inflation in USA bremst Kurse",
+   "link": "https://www.onvista.de/news/2026/10-14-roundup-aktien-frankfurt-schluss-hohe-inflation-in-usa-bremst-kurse-0-10-26564169",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Hohe Inflation in USA bremst Kurse",
+   "link": "https://www.onvista.de/news/2026/10-14-roundup-aktien-frankfurt-schluss-hohe-inflation-in-usa-bremst-kurse-0-10-26564169",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-10-14",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: UBS senkt Ziel fuer Zalando auf 33,50 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-14-analyse-flash-ubs-senkt-ziel-fuer-zalando-auf-33-50-euro-buy-0-10-26563963",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 4: Warum Lufthansa auch bei der portugiesischen Tap einsteigt",
+   "link": "https://www.onvista.de/news/2026/10-14-roundup-4-warum-lufthansa-auch-bei-der-portugiesischen-tap-einsteigt-0-10-26564161",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Zeuge: Kein persoenliches Motiv gegen Ex-Minister Scheuer",
+   "link": "https://www.onvista.de/news/2026/10-14-zeuge-kein-persoenliches-motiv-gegen-ex-minister-scheuer-0-10-26564122",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LXS",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Chemiesektor vor EU-Gipfel im Fokus",
+   "link": "https://www.onvista.de/news/2026/10-14-aktien-im-fokus-chemiesektor-vor-eu-gipfel-im-fokus-0-10-26563967",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Krupp-Stiftung: 'Gutes Zeitfenster' fuer Verselbststaendigung von Thyssen-Stahl",
+   "link": "https://www.onvista.de/news/2026/10-14-krupp-stiftung-gutes-zeitfenster-fuer-verselbststaendigung-von-thyssen-stahl-0-10-26563953",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "US-Inflationsdaten bremsen steigenden Dax aus",
+   "link": "https://www.onvista.de/news/2026/10-14-aktien-frankfurt-us-inflationsdaten-bremsen-steigenden-dax-aus-0-10-26564075",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FNTN",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 14.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-14-dpa-afx-ueberblick-unternehmen-vom-14-10-2026-15-15-uhr-0-10-26564095",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SMHN",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt Ausblick: Dax vor US-Inflationsdaten mit Gewinnen erwartet",
+   "link": "https://www.onvista.de/news/2026/10-14-aktien-frankfurt-ausblick-dax-vor-us-inflationsdaten-mit-gewinnen-erwartet-0-10-26563834",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Morgan Stanley uebertrifft Gewinnerwartungen dank Aktienhandel",
+   "link": "https://www.onvista.de/news/2026/10-14-morgan-stanley-steigert-gewinn-dank-regem-aktienhandel-0-20-26564052",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Drohnenangriff auf groesstes russisches Rechenzentrum",
+   "link": "https://www.onvista.de/news/2026/10-14-drohnenangriff-auf-groesstes-russisches-rechenzentrum-0-20-26564150",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Nach Anschlag in Polen - Brand an Starlink-Antennen auch in Bulgarien",
+   "link": "https://www.onvista.de/news/2026/10-14-roundup-2-nach-anschlag-in-polen-brand-an-starlink-antennen-auch-in-bulgarien-0-10-26564194",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "WDH/Kreise: BASF ist fuer hoeheres Gebot fuer Evonik bereit",
+   "link": "https://www.onvista.de/news/2026/10-14-wdh-kreise-basf-ist-fuer-hoeheres-gebot-fuer-evonik-bereit-0-10-26564069",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-14-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Renk erhaelt weiteren Auftrag fuer Leopard-2-Getriebe",
+   "link": "https://www.onvista.de/news/2026/10-14-renk-erhaelt-weiteren-auftrag-fuer-leopard-2-getriebe-0-10-26563892",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Krupp-Stiftung: 'Gutes Zeitfenster' fuer Verselbststaendigung von Thyssen-Stahl",
+   "link": "https://www.onvista.de/news/2026/10-14-krupp-stiftung-gutes-zeitfenster-fuer-verselbststaendigung-von-thyssen-stahl-0-10-26563953",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "ASML mit Rekordumsatz und vollen Auftragsbuechern",
+   "link": "https://www.onvista.de/news/2026/10-14-asml-mit-rekordumsatz-und-optimistischem-ausblick-0-20-26563831",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Banaszak: Emdes Fraktions-Aus war Grundlage fuer Sondierungen",
+   "link": "https://www.onvista.de/news/2026/10-14-banaszak-emdes-fraktions-aus-war-grundlage-fuer-sondierungen-0-10-26563945",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DRW3",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Draegerwerk hadert mit hohen Kosten - Ergebnis geht zurueck",
+   "link": "https://www.onvista.de/news/2026/10-14-draegerwerk-hadert-mit-hohen-kosten-ergebnis-geht-zurueck-0-10-26564195",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JUN3",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Anleger schuetteln gesenkte Prognose von Kion schnell ab",
+   "link": "https://www.onvista.de/news/2026/10-14-aktien-im-fokus-anleger-schuetteln-gesenkte-prognose-von-kion-schnell-ab-0-10-26563987",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SZU",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Kabinett bringt Zuckersteuer auf den Weg",
+   "link": "https://www.onvista.de/news/2026/10-14-kabinett-bringt-zuckersteuer-auf-den-weg-0-10-26563961",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MUX",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Mutares profitieren von Tochter NGS – 50-Tage-Linie bremst",
+   "link": "https://www.onvista.de/news/2026/10-14-aktie-im-fokus-mutares-profitieren-von-tochter-ngs-50-tage-linie-bremst-0-10-26563997",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NA9",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax legt zu - Zahlreiche Faktoren geben Auftrieb",
+   "link": "https://www.onvista.de/news/2026/10-14-aktien-frankfurt-dax-legt-zu-zahlreiche-faktoren-geben-auftrieb-0-10-26563990",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DOU",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Chefwechsel bei Douglas - Bellaiche ersetzt van der Laan",
+   "link": "https://www.onvista.de/news/2026/10-14-chefwechsel-bei-douglas-bellaiche-ersetzt-van-der-laan-0-10-26564187",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "V1NC",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "EQS-News: Die Zukunft der Energieversorgung im Gefechtsfeld: VINCORION auf der AUSA 2026",
+   "link": "https://www.onvista.de/news/2026/10-14-eqs-news-die-zukunft-der-energieversorgung-im-gefechtsfeld-vincorion-auf-der-ausa-2026-0-37-26",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "EQS-News: Peter Schmid von Linstow zum neuen Mitglied des Vorstands und CEO von Redcare Pharmacy ernannt",
+   "link": "https://www.onvista.de/news/2026/10-14-eqs-news-peter-schmid-von-linstow-zum-neuen-mitglied-des-vorstands-und-ceo-von",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Erschwerte Bedingungen: BVB jenseits des Polarkreises",
+   "link": "https://www.onvista.de/news/2026/10-14-erschwerte-bedingungen-bvb-jenseits-des-polarkreises-0-10-26563762",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "PCZ",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax legt zu - Zahlreiche Faktoren geben Auftrieb",
+   "link": "https://www.onvista.de/news/2026/10-14-aktien-frankfurt-dax-legt-zu-zahlreiche-faktoren-geben-auftrieb-0-10-26563990",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-10-14",
+   "sentiment": "INFO",
+   "news": "EQS-News: Gerresheimer steigert EcoVadis-Ratingergebnis und wird erneut mit Gold ausgezeichnet",
+   "link": "https://www.onvista.de/news/2026/10-14-eqs-news-gerresheimer-steigert-ecovadis-ratingergebnis-und-wird-erneut-mit-gold-ausgezei",
+   "source": "EQS Group"
+  }
+ ]
+}

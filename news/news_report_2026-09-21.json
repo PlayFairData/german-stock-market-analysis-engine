@@ -1,0 +1,467 @@
+{
+ "date": "2026-09-21",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 42
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 20
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 12
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 8
+  }
+ },
+ "total": 46,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Bank AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-deutsche-bank-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555836",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Protest im ganzen Land gegen Kahlschlag in der Autoindustrie",
+   "link": "https://www.onvista.de/news/2026/09-21-protest-im-ganzen-land-gegen-kahlschlag-in-der-autoindustrie-0-20-26555834",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: DHL AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-dhl-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555845",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Deutsche Telekom AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-deutsche-telekom-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555906",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Fresenius Medical Care AG : Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-fresenius-medical-care-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555838",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Heidelberg Materials AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-heidelberg-materials-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555569",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Klare Gewinne nach Oelpreisrueckgang",
+   "link": "https://www.onvista.de/news/2026/09-21-roundup-aktien-europa-schluss-klare-gewinne-nach-oelpreisrueckgang-0-10-26555908",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-DD: GEA Group AG: Klaus Stojentin, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-dd-gea-group-ag-klaus-stojentin-kauf-0-37-26555796",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Mercedes: Werksschliessungen, wenn Kosten nicht sinken",
+   "link": "https://www.onvista.de/news/2026/09-21-mercedes-werksschliessungen-wenn-kosten-nicht-sinken-0-10-26555873",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "VW-Markenchef kuendigt Tempo bei laufendem Sparprogramm an",
+   "link": "https://www.onvista.de/news/2026/09-21-vw-markenchef-kuendigt-tempo-bei-laufendem-sparprogramm-an-0-10-26555910",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "APA ots news: Green Finance Alliance - Allianz wechselt zu neuer Form der...",
+   "link": "https://www.onvista.de/news/2026/09-21-apa-ots-news-green-finance-alliance-allianz-wechselt-zu-neuer-form-der-0-10-26555670",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Scout24 SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-scout24-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555667",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-DD: adidas AG: Guenter Weigl, Kauf, abgewickelt ueber ein Gemeinschaftsdepot mit Ehepartnerin.",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-dd-adidas-ag-guenter-weigl-kauf-abgewickelt-ueber-ein-gemeinschaftsdepot-mit-ehe",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: BASF SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-basf-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555764",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Bayer-Konkurrentin Roche erhaelt EU-Zulassung fuer Augenmittel Susvimo",
+   "link": "https://www.onvista.de/news/2026/09-21-bayer-konkurrentin-roche-erhaelt-eu-zulassung-fuer-augenmittel-susvimo-0-10-26555897",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Banken warnen vor Enteignung von Wohnungskonzernen in Berlin",
+   "link": "https://www.onvista.de/news/2026/09-21-banken-warnen-vor-enteignung-von-wohnungskonzernen-in-berlin-0-10-26555812",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Viele Beschaeftigte protestieren bei Mercedes in Sindelfingen",
+   "link": "https://www.onvista.de/news/2026/09-21-viele-beschaeftigte-protestieren-bei-mercedes-in-sindelfingen-0-10-26555677",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Intelligente Stromzaehler: Quote steigt langsam",
+   "link": "https://www.onvista.de/news/2026/09-21-intelligente-stromzaehler-quote-steigt-langsam-0-10-26555745",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555894",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Symrise AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-symrise-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555823",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "BC8",
+   "date": "2026-09-21",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer Bechtle auf 49 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-21-analyse-flash-deutsche-bank-research-hebt-ziel-fuer-bechtle-auf-49-euro-buy-0-10-26555671",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Ex-Minister Scheuer nach Maut-Debakel vor Gericht",
+   "link": "https://www.onvista.de/news/2026/09-21-roundup-ex-minister-scheuer-nach-maut-debakel-vor-gericht-0-10-26555519",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "GBF",
+   "date": "2026-09-21",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Berenberg senkt Ziel fuer Bilfinger auf 63 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/09-21-analyse-flash-berenberg-senkt-ziel-fuer-bilfinger-auf-63-euro-hold-0-10-26555573",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Hamburgs Wirtschaftssenatorin: 2040-Klimaziel ohne Netzausbau schwer erreichbar",
+   "link": "https://www.onvista.de/news/2026/09-21-hamburgs-wirtschaftssenatorin-2040-klimaziel-ohne-netzausbau-schwer-erreichbar-0-10-26555481",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Stroeer ersetzt Hugo Boss im MDax - Dax unveraendert",
+   "link": "https://www.onvista.de/news/2026/09-21-index-monitor-stroeer-ersetzt-hugo-boss-im-mdax-dax-unveraendert-0-10-26555510",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Problem mit Flugsicherung: Airport-Chaos in Grossbritannien",
+   "link": "https://www.onvista.de/news/2026/09-21-problem-mit-flugsicherung-airport-chaos-in-grossbritannien-0-10-26555710",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Gewinne dank sinkender Oelpreise",
+   "link": "https://www.onvista.de/news/2026/09-21-roundup-aktien-frankfurt-schluss-gewinne-dank-sinkender-oelpreise-0-10-26555902",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Vincorion-Aktie bleibt nach Empfehlung unter 20 Euro",
+   "link": "https://www.onvista.de/news/2026/09-21-aktie-im-fokus-vincorion-starten-auch-mit-weiterer-empfehlung-nicht-durch-0-10-26555626",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: IG Metall mobilisiert rund 175.000 Auto-Beschaeftigte",
+   "link": "https://www.onvista.de/news/2026/09-21-roundup-ig-metall-mobilisiert-rund-175-000-auto-beschaeftigte-0-10-26555848",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Gewinne dank sinkender Oelpreise",
+   "link": "https://www.onvista.de/news/2026/09-21-roundup-aktien-frankfurt-schluss-gewinne-dank-sinkender-oelpreise-0-10-26555902",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Linke-Chefin Schwerdtner fordert Umsetzung des Volksentscheids zum Wohnen",
+   "link": "https://www.onvista.de/news/2026/09-21-linke-chefin-schwerdtner-fordert-umsetzung-des-volksentscheids-zum-wohnen-0-10-26555698",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Gewinne dank sinkender Oelpreise - Vonovia unter Druck",
+   "link": "https://www.onvista.de/news/2026/09-21-aktien-frankfurt-gewinne-dank-sinkender-oelpreise-vonovia-unter-druck-0-10-26555777",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Gewinne dank sinkender Oelpreise",
+   "link": "https://www.onvista.de/news/2026/09-21-roundup-aktien-frankfurt-schluss-gewinne-dank-sinkender-oelpreise-0-10-26555902",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "GESAMT-ROUNDUP 2: Linke will Berlin regieren und pocht auf Vergesellschaftung",
+   "link": "https://www.onvista.de/news/2026/09-21-gesamt-roundup-2-linke-will-berlin-regieren-und-pocht-auf-vergesellschaftung-0-10-26555915",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "AOF",
+   "date": "2026-09-21",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: UBS startet Atoss Software mit 'Neutral' - Ziel 100 Euro",
+   "link": "https://www.onvista.de/news/2026/09-21-analyse-flash-ubs-startet-atoss-software-mit-neutral-ziel-100-euro-0-10-26555548",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CEWE Stiftung & Co. KGaA: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-cewe-stiftung-co-kgaa-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555844",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CANCOM SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-cancom-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555895",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TPE",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: PVA TePla AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG  mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-pvr-pva-tepla-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Stroeer ersetzt Hugo Boss im MDax - Dax unveraendert",
+   "link": "https://www.onvista.de/news/2026/09-21-index-monitor-stroeer-ersetzt-hugo-boss-im-mdax-dax-unveraendert-0-10-26555510",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TeamViewer SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-pvr-teamviewer-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Stabilus SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26555673",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "V1NC",
+   "date": "2026-09-21",
+   "sentiment": "BUY",
+   "news": "Vincorion-Aktie bleibt nach Empfehlung unter 20 Euro",
+   "link": "https://www.onvista.de/news/2026/09-21-aktie-im-fokus-vincorion-starten-auch-mit-weiterer-empfehlung-nicht-durch-0-10-26555626",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "GYC",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "Linke-Chefin Schwerdtner fordert Umsetzung des Volksentscheids zum Wohnen",
+   "link": "https://www.onvista.de/news/2026/09-21-linke-chefin-schwerdtner-fordert-umsetzung-des-volksentscheids-zum-wohnen-0-10-26555698",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSM",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: ProSiebenSat.1 Media SE: Vorabbekanntmachung ueber die Veroeffe",
+   "link": "https://www.onvista.de/news/2026/09-21-eqs-afr-prosiebensat-1-media-se-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-09-21",
+   "sentiment": "INFO",
+   "news": "INDEX-MONITOR/Krisenfolge: Volkswagen (VW) nicht mehr im EuroStoxx 50",
+   "link": "https://www.onvista.de/news/2026/09-21-index-monitor-krisenfolge-volkswagen-vw-nicht-mehr-im-eurostoxx-50-0-10-26555509",
+   "source": "dpa-AFX"
+  }
+ ]
+}

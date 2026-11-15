@@ -1,0 +1,415 @@
+{
+ "date": "2026-09-24",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 2,
+  "INFO": 39
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 19
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 5
+  }
+ },
+ "total": 41,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Deutsche Banken im Stresstest stabil - mit Ausnahmen",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-deutsche-banken-im-stresstest-stabil-mit-ausnahmen-0-10-26557109",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Mehr als jeder fuenfte neue Pkw in der EU faehrt elektrisch",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-mehr-als-jeder-fuenfte-neue-pkw-in-der-eu-faehrt-elektrisch-0-10-26557005",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Henkel steigen nochmal an 50-Tage-Linie - Zahlen von H.B.Fuller",
+   "link": "https://www.onvista.de/news/2026/09-24-aktie-im-fokus-henkel-steigen-nochmal-an-50-tage-linie-zahlen-von-h-b-fuller-0-10-26557017",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MRK",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Auslaendische Unternehmen auf Einkaufstour in Deutschland",
+   "link": "https://www.onvista.de/news/2026/09-24-auslaendische-unternehmen-auf-einkaufstour-in-deutschland-0-20-26557165",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "EuGH staerkt Verbraucher bei Energiepreiserhoehungen",
+   "link": "https://www.onvista.de/news/2026/09-24-eugh-staerkt-verbraucher-bei-energiepreiserhoehungen-0-10-26557140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Chinas Wettlauf um das ultraschnelle Laden von E-Autos",
+   "link": "https://www.onvista.de/news/2026/09-24-chinas-wettlauf-um-das-ultraschnelle-laden-von-e-autos-0-20-26557180",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Letzter Siemens-Vertreter verlaesst Aufsichtsrat von Siemens Energy",
+   "link": "https://www.onvista.de/news/2026/09-24-letzter-siemens-vertreter-verlaesst-aufsichtsrat-von-siemens-energy-0-20-26557166",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "VW-Tochter MOIA startet Robotaxi-Fahrten in den USA",
+   "link": "https://www.onvista.de/news/2026/09-24-vw-tochter-moia-startet-robotaxi-fahrten-in-den-usa-0-20-26557168",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Allianz: Hitze senkt Europas Wirtschaftsleistung",
+   "link": "https://www.onvista.de/news/2026/09-24-allianz-hitze-senkt-europas-wirtschaftsleistung-0-10-26556897",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Verluste - Hohe Oelpreise verunsichern",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-aktien-frankfurt-eroeffnung-verluste-hohe-oelpreise-verunsichern-0-10-26557008",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Oelpreis haelt Dax trotz Ifo-Index unter Druck",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-aktien-frankfurt-schluss-oelpreis-haelt-dax-trotz-ifo-index-unter-druck-0-10-26557226",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Kredit von Ausruester Nike fuer neue Frauen-Bundesliga",
+   "link": "https://www.onvista.de/news/2026/09-24-kredit-von-ausruester-nike-fuer-neue-frauen-bundesliga-0-10-26557196",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Berliner SPD stellt sich fuer moegliche Verhandlungen mit Linken auf",
+   "link": "https://www.onvista.de/news/2026/09-24-berliner-spd-stellt-sich-fuer-moegliche-verhandlungen-mit-linken-auf-0-20-26557205",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Agrarminister ringen um die Nutzung von Duenger",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-agrarminister-ringen-um-die-nutzung-von-duenger-0-10-26557055",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Agrarminister ringen um die Nutzung von Duenger",
+   "link": "https://www.onvista.de/news/2026/09-24-agrarminister-ringen-um-die-nutzung-von-duenger-0-10-26556886",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: EuGH staerkt Verbraucher bei Energiepreiserhoehungen",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-eugh-staerkt-verbraucher-bei-energiepreiserhoehungen-0-10-26557203",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Letzter Siemens-Vertreter verlaesst Aufsichtsrat von Siemens Energy",
+   "link": "https://www.onvista.de/news/2026/09-24-letzter-siemens-vertreter-verlaesst-aufsichtsrat-von-siemens-energy-0-20-26557166",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-24",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Barclays hebt Ziel fuer Symrise auf 96 Euro - 'Equal Weight'",
+   "link": "https://www.onvista.de/news/2026/09-24-analyse-flash-barclays-hebt-ziel-fuer-symrise-auf-96-euro-equal-weight-0-10-26556947",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "H&M-Aktie faellt auf Tief seit Juli - Geschaeftszahlen enttaeuschen",
+   "link": "https://www.onvista.de/news/2026/09-24-aktie-im-fokus-h-m-auf-tief-seit-juli-quartal-und-geschaeft-enttaeuschen-0-10-26557048",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Insider: Boeing muss um neue China-Bestellungen bangen",
+   "link": "https://www.onvista.de/news/2026/09-24-insider-boeing-muss-um-neue-china-bestellungen-bangen-0-20-26556938",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Deutz AG: Dr. Dietmar Voggenreiter, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-24-eqs-dd-deutz-ag-dr-dietmar-voggenreiter-kauf-0-37-26557135",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3/Drohnen-Sichtung: gefaehrlicher Eingriff in den Luftverkehr",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-3-drohnen-sichtung-gefaehrlicher-eingriff-in-den-luftverkehr-0-10-26557143",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TEG",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TAG Immobilien AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-24-eqs-pvr-tag-immobilien-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Auslaendische Unternehmen auf Einkaufstour in Deutschland",
+   "link": "https://www.onvista.de/news/2026/09-24-auslaendische-unternehmen-auf-einkaufstour-in-deutschland-0-20-26557165",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Ex-Drillisch Finanzvorstand Driesen wechselt zu United Internet - Theurer geht",
+   "link": "https://www.onvista.de/news/2026/09-24-ex-drillisch-finanzvorstand-driesen-wechselt-zu-united-internet-theurer-geht-0-10-26557088",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Eurofighter in Lettland zum Schutz des Luftraums waehrend Wahl",
+   "link": "https://www.onvista.de/news/2026/09-24-eurofighter-in-lettland-zum-schutz-des-luftraums-waehrend-wahl-0-10-26557244",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "EQS-News: flatexDEGIRO setzt neue Kostenmassstaebe fuer das Altersvorsorgedepot",
+   "link": "https://www.onvista.de/news/2026/09-24-eqs-news-flatexdegiro-setzt-neue-kostenmassstaebe-fuer-das-altersvorsorgedepot-0-37-26556904",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Dax sinkt leicht - Starker Ifo-Index haelt Verluste in Grenzen",
+   "link": "https://www.onvista.de/news/2026/09-24-aktien-frankfurt-dax-sinkt-leicht-starker-ifo-index-haelt-verluste-in-grenzen-0-10-26557162",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Agrarminister ringen um die Nutzung von Duenger",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-agrarminister-ringen-um-die-nutzung-von-duenger-0-10-26557055",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Mehr als jeder fuenfte neue Pkw in der EU faehrt elektrisch",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-mehr-als-jeder-fuenfte-neue-pkw-in-der-eu-faehrt-elektrisch-0-10-26557005",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Neues deutsches U-Boot in Israel eingetroffen - TKMS-Bau",
+   "link": "https://www.onvista.de/news/2026/09-24-neues-deutsches-u-boot-in-israel-eingetroffen-tkms-bau-0-10-26557126",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "So viel Ladestrom brauchen Elektro-Lkw in Europa",
+   "link": "https://www.onvista.de/news/2026/09-24-so-viel-ladestrom-brauchen-elektro-lkw-in-europa-0-10-26556916",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-24-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-d",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Bertelsmann will mit Zusammenschluss in Brasilien sein Bildungsgeschaeft staerken",
+   "link": "https://www.onvista.de/news/2026/09-24-bertelsmann-will-mit-zusammenschluss-in-brasilien-sein-bildungsgeschaeft-staerken-0-20-26556950",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "SLYG",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Verluste - Steigende Oelpreise und Anleiherenditen",
+   "link": "https://www.onvista.de/news/2026/09-24-roundup-aktien-europa-schluss-verluste-steigende-oelpreise-und-anleiherenditen-0-10-26557239",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "DUE",
+   "date": "2026-09-24",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: DZ Bank senkt fairen Wert fuer Duerr auf 18 Euro - 'Halten'",
+   "link": "https://www.onvista.de/news/2026/09-24-analyse-flash-dz-bank-senkt-fairen-wert-fuer-duerr-auf-18-euro-halten-0-10-26557077",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "YSN",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 24.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-24-dpa-afx-ueberblick-unternehmen-vom-24-09-2026-15-15-uhr-0-10-26557160",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HFG",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Kehrtwende bei Delivery Hero: Chef Oestberg bleibt",
+   "link": "https://www.onvista.de/news/2026/09-24-kehrtwende-bei-delivery-hero-chef-oestberg-bleibt-0-20-26556999",
+   "source": "Reuters"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-24-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "V1NC",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Ruestungswerte setzen mit Verlusten fort",
+   "link": "https://www.onvista.de/news/2026/09-24-aktien-im-fokus-ruestungswerte-setzen-schlingerkurs-mit-verlusten-fort-0-10-26557069",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-09-24",
+   "sentiment": "INFO",
+   "news": "Letzter Siemens-Vertreter verlaesst Aufsichtsrat von Siemens Energy",
+   "link": "https://www.onvista.de/news/2026/09-24-letzter-siemens-vertreter-verlaesst-aufsichtsrat-von-siemens-energy-0-20-26557166",
+   "source": "Reuters"
+  }
+ ]
+}

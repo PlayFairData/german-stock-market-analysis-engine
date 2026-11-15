@@ -1,0 +1,235 @@
+{
+ "date": "2026-09-11",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 1,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 20
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 9
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  }
+ },
+ "total": 21,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Schluss mit «Cash only»: Laeden sollen Karten akzeptieren",
+   "link": "https://www.onvista.de/news/2026/09-11-roundup-schluss-mit-cash-only-laeden-sollen-karten-akzeptieren-0-10-26552425",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax stabilisiert sich vor US-Inflationsdaten",
+   "link": "https://www.onvista.de/news/2026/09-11-aktien-frankfurt-dax-stabilisiert-sich-vor-us-inflationsdaten-0-10-26552448",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: KI-Nachfrage treibt Oracle an - Marge gesunken",
+   "link": "https://www.onvista.de/news/2026/09-11-roundup-2-ki-nachfrage-treibt-oracle-an-marge-gesunken-0-10-26552606",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Arbeitnehmer draengen VW-Vorstand zu Gespraechen",
+   "link": "https://www.onvista.de/news/2026/09-11-roundup-arbeitnehmer-draengen-vw-vorstand-zu-gespraechen-0-10-26552587",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "OTS: Allianz Trade / KI-Boom auf Pump: Versteckte Tech-Schulden erreichen 2,6 ...",
+   "link": "https://www.onvista.de/news/2026/09-11-ots-allianz-trade-ki-boom-auf-pump-versteckte-tech-schulden-erreichen-2-6-0-10-26552427",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Erholung dank Oelpreis - US-Inflation stoert nicht",
+   "link": "https://www.onvista.de/news/2026/09-11-roundup-aktien-europa-schluss-erholung-dank-oelpreis-us-inflation-stoert-nicht-0-10-26552605",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Bund pocht auf Bedingungen fuer Commerzbank",
+   "link": "https://www.onvista.de/news/2026/09-11-bund-pocht-auf-bedingungen-fuer-commerzbank-0-10-26552503",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Amprion-Chef: Drohnenabschuesse nicht Aufgabe der Netzbetreiber",
+   "link": "https://www.onvista.de/news/2026/09-11-amprion-chef-drohnenabschuesse-nicht-aufgabe-der-netzbetreiber-0-20-26552462",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "EU-Verteidigungskommissar will Russland bei Drohnen einholen",
+   "link": "https://www.onvista.de/news/2026/09-11-eu-verteidigungskommissar-will-russland-bei-drohnen-einholen-0-10-26552517",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "BC8",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Ausgang offen: Der Dax haengt am Fed-Zinsentscheid",
+   "link": "https://www.onvista.de/news/2026/09-11-wochenausblick-fuer-den-schwaechelnden-dax-wird-der-us-zinsentscheid-zur-wegmarke-0-10-26552552",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Passagieraufkommen am Frankfurter Flughafen im August leicht ruecklaeufig",
+   "link": "https://www.onvista.de/news/2026/09-11-passagieraufkommen-am-frankfurter-flughafen-im-august-leicht-ruecklaeufig-0-10-26552336",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-09-11",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Sartorius auf 280 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-11-analyse-flash-berenberg-hebt-ziel-fuer-sartorius-auf-280-euro-buy-0-10-26552452",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HLE",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 11.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-11-dpa-afx-ueberblick-unternehmen-vom-11-09-2026-15-15-uhr-0-10-26552536",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-11-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Devisen: Euro wieder knapp unter 1,16 US-Dollar",
+   "link": "https://www.onvista.de/news/2026/09-11-devisen-euro-wieder-knapp-unter-1-16-us-dollar-0-10-26552620",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Evonik schliesst Standorte in Hamburg und Bitterfeld",
+   "link": "https://www.onvista.de/news/2026/09-11-evonik-schliesst-standorte-in-hamburg-und-bitterfeld-0-20-26552563",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax stabilisiert sich - Oelpreise geben nach",
+   "link": "https://www.onvista.de/news/2026/09-11-roundup-aktien-frankfurt-schluss-dax-stabilisiert-sich-oelpreise-geben-nach-0-10-26552596",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HABA",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HAMBORNER REIT AG: Claus-Matthias Boege, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-11-eqs-dd-hamborner-reit-ag-claus-matthias-boege-kauf-0-37-26552410",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ACT0",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Alzchem Group AG: Veroeffentlichung gemaess § 50 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-11-eqs-cms-alzchem-group-ag-veroeffentlichung-gemaess-50-wphg-mit-dem-ziel-der-eu",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "Nach Kreislaufproblemen: BVB-Profi Karetsas verlaesst Klinik",
+   "link": "https://www.onvista.de/news/2026/09-11-nach-kreislaufproblemen-bvb-profi-karetsas-verlaesst-klinik-0-10-26552505",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-09-11",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Gerresheimer AG: Active Ownership Opportunities SCS, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-11-eqs-dd-gerresheimer-ag-active-ownership-opportunities-scs-kauf-0-37-26552617",
+   "source": "EQS Group"
+  }
+ ]
+}

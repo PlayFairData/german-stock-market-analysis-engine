@@ -1,0 +1,460 @@
+{
+ "date": "2026-10-06",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 2,
+  "HOLD": 2,
+  "INFO": 39
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 2,
+   "SELL": 1,
+   "HOLD": 0,
+   "INFO": 15
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 1,
+   "HOLD": 2,
+   "INFO": 15
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 46,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank laesst Schneider Electric auf 'Buy' - Ziel 325 Euro",
+   "link": "https://www.onvista.de/news/2026/10-06-analyse-flash-deutsche-bank-laesst-schneider-electric-auf-buy-ziel-325-euro-0-10-26561103",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Preise von E-Autos und Verbrennern naehern sich wieder an",
+   "link": "https://www.onvista.de/news/2026/10-06-preise-von-e-autos-und-verbrennern-naehern-sich-wieder-an-0-10-26560880",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-10-06",
+   "sentiment": "SELL",
+   "news": "ANALYSE-FLASH: Goldman senkt Beiersdorf auf 'Sell' - Ziel runter auf 73 Euro",
+   "link": "https://www.onvista.de/news/2026/10-06-analyse-flash-goldman-senkt-beiersdorf-auf-sell-ziel-runter-auf-73-euro-0-10-26560997",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Dax steigt nach guten Vorgaben aus USA",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-aktien-frankfurt-eroeffnung-dax-steigt-nach-guten-vorgaben-aus-usa-0-10-26560986",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MRK",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax steigt - Tech-Staerke in USA, Entspannung am Anleihemarkt",
+   "link": "https://www.onvista.de/news/2026/10-06-aktien-frankfurt-dax-steigt-tech-staerke-in-usa-entspannung-am-anleihemarkt-0-10-26561121",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Aussagen zum 3. Quartal treiben Gea Group auf weiteren Rekord",
+   "link": "https://www.onvista.de/news/2026/10-06-aktie-im-fokus-aussagen-zum-3-quartal-treiben-gea-group-auf-weiteren-rekord-0-10-26561023",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Rheinmetall startet Serienproduktion von Weltraumsatelliten",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-2-rheinmetall-startet-serienproduktion-von-weltraumsatelliten-0-10-26561187",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-10-06",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer MTU auf 457 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-06-analyse-flash-deutsche-bank-research-hebt-ziel-fuer-mtu-auf-457-euro-buy-0-10-26560975",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Scout24 SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-pvr-scout24-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "BNR",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Brenntag SE: Dr.  Claudine Mollenkopf, Kauf",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-dd-brenntag-se-dr-claudine-mollenkopf-kauf-0-37-26561141",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "DIW: Vergesellschaftung loest Wohnungsproblem nicht",
+   "link": "https://www.onvista.de/news/2026/10-06-diw-vergesellschaftung-loest-wohnungsproblem-nicht-0-10-26561108",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-06",
+   "sentiment": "BUY",
+   "news": "Original-Research: BASF SE (von Parmantier & Cie. GmbH): Buy",
+   "link": "https://www.onvista.de/news/2026/10-06-original-research-basf-se-von-parmantier-cie-gmbh-buy-0-10-26561109",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Bundesliga-Praesidium warnt vor Gerichtsstreit um 50+1-Regel",
+   "link": "https://www.onvista.de/news/2026/10-06-bundesliga-praesidium-warnt-vor-gerichtsstreit-um-50-1-regel-0-10-26561105",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Franzoesische BPCE steigt bei spanischer Bank Sabadell ein",
+   "link": "https://www.onvista.de/news/2026/10-06-franzoesische-bpce-steigt-bei-spanischer-bank-sabadell-ein-0-20-26561079",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Bundesverkehrsminister fuer Zulassung von Tesla Fahrassistenzsystem",
+   "link": "https://www.onvista.de/news/2026/10-06-bilger-fuer-zulassung-von-tesla-assistenzsystem-0-10-26561000",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Zalando will weiter keine Dividende ausschuetten - 'Lifestyle-KI' geplant",
+   "link": "https://www.onvista.de/news/2026/10-06-zalando-will-weiter-keine-dividende-ausschuetten-lifestyle-ki-geplant-0-10-26561252",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Rheinmetall startet Serienproduktion von Weltraumsatelliten",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-2-rheinmetall-startet-serienproduktion-von-weltraumsatelliten-0-10-26561187",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "QIA",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Aktien aus Diagnostik- und Laborbranche gesucht",
+   "link": "https://www.onvista.de/news/2026/10-06-aktien-im-fokus-aktien-aus-diagnostik-und-laborbranche-gesucht-0-10-26560988",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: 1&1 erhoeht Kapital - United Internet bringt Darlehensforderungen ein",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-2-1-1-erhoeht-kapital-united-internet-bringt-darlehensforderungen-ein-0-10-26561198",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LXS",
+   "date": "2026-10-06",
+   "sentiment": "BUY",
+   "news": "Original-Research: LANXESS AG (von Parmantier & Cie. GmbH): Buy",
+   "link": "https://www.onvista.de/news/2026/10-06-original-research-lanxess-ag-von-parmantier-cie-gmbh-buy-0-10-26561192",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FRA",
+   "date": "2026-10-06",
+   "sentiment": "SELL",
+   "news": "ANALYSE-FLASH: Barclays senkt Fraport auf 'Underweight'; Ziel runter auf 57 Euro",
+   "link": "https://www.onvista.de/news/2026/10-06-analyse-flash-barclays-senkt-fraport-auf-underweight-ziel-runter-auf-57-euro-0-10-26561154",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "'HB': Deutz will 400 Stellen abbauen - vor allem bei kleinen Motoren",
+   "link": "https://www.onvista.de/news/2026/10-06-hb-deutz-will-400-stellen-abbauen-vor-allem-bei-kleinen-motoren-0-10-26561255",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-10-06",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Puma SE auf 23,50 Euro - 'Hold'",
+   "link": "https://www.onvista.de/news/2026/10-06-analyse-flash-jefferies-senkt-ziel-fuer-puma-se-auf-23-50-euro-hold-0-10-26561059",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SRT3",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax steigt - Tech-Staerke in USA, Entspannung am Anleihemarkt",
+   "link": "https://www.onvista.de/news/2026/10-06-aktien-frankfurt-dax-steigt-tech-staerke-in-usa-entspannung-am-anleihemarkt-0-10-26561121",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Stroeer SE & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaw",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-pvr-stroeer-se-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Thyssenkrupp-Wasserstofftochter buendelt Montage in Portugal",
+   "link": "https://www.onvista.de/news/2026/10-06-thyssenkrupp-wasserstofftochter-buendelt-montage-in-portugal-0-20-26561200",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Germanwings-Prozess: Angehoerige scheitern mit Klage",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-2-germanwings-prozess-angehoerige-scheitern-mit-klage-0-10-26561144",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 06.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-06-dpa-afx-ueberblick-unternehmen-vom-06-10-2026-15-15-uhr-0-10-26561142",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-NVR: Delivery Hero SE: Veroeffentlichung der Gesamtzahl der Stimmrechte nac",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-nvr-delivery-hero-se-veroeffentlichung-der-gesamtzahl-der-stimmrechte-nach-41-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: AT&S Austria Technologie & Systemtechnik AG: Veroeffentlichung",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-pvr-at-s-austria-technologie-systemtechnik-ag-veroeffentlichung-gemaess-135-abs-2-boerseg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-06",
+   "sentiment": "HOLD",
+   "news": "Original-Research: Evonik Industries AG (von Parmantier & Cie. GmbH): Hold",
+   "link": "https://www.onvista.de/news/2026/10-06-original-research-evonik-industries-ag-von-parmantier-cie-gmbh-hold-0-10-26561191",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "WDH/ROUNDUP/Aktien Frankfurt Schluss: Gewinne - Entspannung bei Anleihen",
+   "link": "https://www.onvista.de/news/2026/10-06-wdh-roundup-aktien-frankfurt-schluss-gewinne-entspannung-bei-anleihen-0-10-26561242",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Dax hoeher erwartet - Konjunkturdaten im Blick",
+   "link": "https://www.onvista.de/news/2026/10-06-dax-hoeher-erwartet-konjunkturdaten-im-blick-0-20-26560905",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "WDH/ROUNDUP/Aktien Frankfurt Schluss: Gewinne - Entspannung bei Anleihen",
+   "link": "https://www.onvista.de/news/2026/10-06-wdh-roundup-aktien-frankfurt-schluss-gewinne-entspannung-bei-anleihen-0-10-26561242",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TLX",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Talanx AG: Vorabbekanntmachung ueber die Veroeffentlichung von Quartalsberich",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-afr-talanx-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-quartalsberichten-und-quar",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Umwelthilfe: In vielen grossen Staedten rollen Verbrennerbusse",
+   "link": "https://www.onvista.de/news/2026/10-06-umwelthilfe-in-vielen-grossen-staedten-rollen-verbrennerbusse-0-10-26560892",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WCH",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Original-Research: BASF SE (von Parmantier & Cie. GmbH): Buy",
+   "link": "https://www.onvista.de/news/2026/10-06-original-research-basf-se-von-parmantier-cie-gmbh-buy-0-10-26561109",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: 1&1 erhoeht Kapital - United Internet bringt Darlehensforderungen ein",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-2-1-1-erhoeht-kapital-united-internet-bringt-darlehensforderungen-ein-0-10-26561198",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Rheinmetall startet Serienproduktion von Weltraumsatelliten",
+   "link": "https://www.onvista.de/news/2026/10-06-roundup-2-rheinmetall-startet-serienproduktion-von-weltraumsatelliten-0-10-26561187",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Verbio startet neue Chemieanlage fuer biobasierte Rohstoffe",
+   "link": "https://www.onvista.de/news/2026/10-06-verbio-startet-neue-chemieanlage-fuer-biobasierte-rohstoffe-0-10-26561097",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26560970",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Bundesliga-Praesidium warnt vor Gerichtsstreit um 50+1-Regel",
+   "link": "https://www.onvista.de/news/2026/10-06-bundesliga-praesidium-warnt-vor-gerichtsstreit-um-50-1-regel-0-10-26561105",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "FYB",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "EQS-News: Formycon optimiert Biosimi",
+   "link": "https://www.onvista.de/news/2026/10-06-eqs-news-formycon-optimiert-biosimilar-entwicklung-mit-ki-gestuetzten-technologien-digitale-loesungen-steigern-die-entwicklungseffizienz-im-rahmen",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "NCH2",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Thyssenkrupp-Wasserstofftochter buendelt Montage in Portugal",
+   "link": "https://www.onvista.de/news/2026/10-06-thyssenkrupp-wasserstofftochter-buendelt-montage-in-portugal-0-20-26561200",
+   "source": "Reuters"
+  },
+  {
+   "index": "PDAX",
+   "code": "PSM",
+   "date": "2026-10-06",
+   "sentiment": "INFO",
+   "news": "Frauen-Laenderspiele laufen weiter bei ARD und ZDF",
+   "link": "https://www.onvista.de/news/2026/10-06-frauen-laenderspiele-laufen-weiter-bei-ard-und-zdf-0-10-26561061",
+   "source": "dpa-AFX"
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "date": "2026-09-17",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 29
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 31,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Porsche AG auf 55 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-17-analyse-flash-deutsche-bank-hebt-ziel-fuer-porsche-ag-auf-55-euro-buy-0-10-26554431",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Anleger zuversichtlich nach US-Zinserhoehung",
+   "link": "https://www.onvista.de/news/2026/09-17-roundup-aktien-frankfurt-schluss-anleger-zuversichtlich-nach-us-zinserhoehung-0-10-26554640",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HOT",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Infineon und STMicro schwaecheln trotz KI-Erholung",
+   "link": "https://www.onvista.de/news/2026/09-17-aktien-im-fokus-infineon-und-stmicroelectronics-im-soliden-ki-umfeld-schwach-0-10-26554467",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Infineon und STMicro schwaecheln trotz KI-Erholung",
+   "link": "https://www.onvista.de/news/2026/09-17-aktien-im-fokus-infineon-und-stmicroelectronics-im-soliden-ki-umfeld-schwach-0-10-26554467",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 17.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-17-dpa-afx-ueberblick-unternehmen-vom-17-09-2026-15-15-uhr-0-10-26554576",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Schweiz: Milliardenschaden bei Unwetter mit Riesen-Hagel",
+   "link": "https://www.onvista.de/news/2026/09-17-schweiz-milliardenschaden-bei-unwetter-mit-riesen-hagel-0-10-26554416",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Hohe Bauzinsen: Nachfrage nach Immobilien kuehlt sich ab",
+   "link": "https://www.onvista.de/news/2026/09-17-hohe-bauzinsen-nachfrage-nach-immobilien-kuehlt-sich-ab-0-10-26554304",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Adidas und Puma geben nach - Analysten senken Kursziele",
+   "link": "https://www.onvista.de/news/2026/09-17-aktien-im-fokus-adidas-und-puma-geben-nach-analysten-senken-kursziele-0-10-26554530",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Streit um Balkonkraftwerke: Umwelthilfe klagt gegen Vonovia",
+   "link": "https://www.onvista.de/news/2026/09-17-streit-um-balkonkraftwerke-umwelthilfe-klagt-gegen-vonovia-0-10-26554522",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Bargeldlos zahlen: Mehrheit wuenscht sich mehr Moeglichkeiten",
+   "link": "https://www.onvista.de/news/2026/09-17-bargeldlos-zahlen-mehrheit-wuenscht-sich-mehr-moeglichkeiten-0-10-26554306",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-17",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan belaesst Daimler Truck auf 'Overweight'",
+   "link": "https://www.onvista.de/news/2026/09-17-analyse-flash-jpmorgan-belaesst-daimler-truck-auf-overweight-0-10-26554544",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ENR",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Milliarden-Geschaeft: Windstrom-Plattform made in Rostock",
+   "link": "https://www.onvista.de/news/2026/09-17-roundup-milliarden-geschaeft-windstrom-plattform-made-in-rostock-0-10-26554479",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Symrise AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-17-eqs-pvr-symrise-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Boeing erwartet weitere Verzoegerungen bei 777X - Aktie rutscht ab",
+   "link": "https://www.onvista.de/news/2026/09-17-roundup-boeing-erwartet-weitere-verzoegerungen-bei-777x-aktie-rutscht-ab-0-10-26554372",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "QIA",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Qiagen ziehen an - Magazinbericht schuert Uebernahmefantasie",
+   "link": "https://www.onvista.de/news/2026/09-17-aktie-im-fokus-qiagen-ziehen-an-magazinbericht-schuert-uebernahmefantasie-0-10-26554535",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "EQS-News: Elmos Semiconductor SE sichert sich zusaetzliche Wafer-Kapazitaeten in Dortmund",
+   "link": "https://www.onvista.de/news/2026/09-17-eqs-news-elmos-semiconductor-se-sichert-sich-zusaetzliche-wafer-kapazitaeten-in-dortmund-0-37",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Deutz AG: Melanie Freytag, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-17-eqs-dd-deutz-ag-melanie-freytag-kauf-0-37-26554639",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "PUM",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Adidas und Puma geben nach - Analysten senken Kursziele",
+   "link": "https://www.onvista.de/news/2026/09-17-aktien-im-fokus-adidas-und-puma-geben-nach-analysten-senken-kursziele-0-10-26554530",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Boeing erwartet weitere Verzoegerungen bei 777X - Aktie rutscht ab",
+   "link": "https://www.onvista.de/news/2026/09-17-roundup-boeing-erwartet-weitere-verzoegerungen-bei-777x-aktie-rutscht-ab-0-10-26554372",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Groesster deutscher Windpark auf See in Betrieb genommen",
+   "link": "https://www.onvista.de/news/2026/09-17-roundup-groesster-deutscher-windpark-auf-see-in-betrieb-genommen-0-10-26554645",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Panzerbauer KNDS koennte Boersengang noch weiter verschieben",
+   "link": "https://www.onvista.de/news/2026/09-17-ipo-kreise-panzerbauer-knds-koennte-boersengang-noch-weiter-verschieben-0-10-26554442",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-17",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Porsche AG auf 55 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-17-analyse-flash-deutsche-bank-hebt-ziel-fuer-porsche-ag-auf-55-euro-buy-0-10-26554431",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Porsche AG auf 55 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/09-17-analyse-flash-deutsche-bank-hebt-ziel-fuer-porsche-ag-auf-55-euro-buy-0-10-26554431",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "WDH/ROUNDUP 2: RTL Deutschland und Sky streichen rund 500 Stellen",
+   "link": "https://www.onvista.de/news/2026/09-17-wdh-roundup-2-rtl-deutschland-und-sky-streichen-rund-500-stellen-0-10-26554601",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "KTN",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 17.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-17-dpa-afx-ueberblick-unternehmen-vom-17-09-2026-15-15-uhr-0-10-26554576",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: CANCOM SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-17-eqs-pvr-cancom-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-eur",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HYQ",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "Hohe Bauzinsen: Nachfrage nach Immobilien kuehlt sich ab",
+   "link": "https://www.onvista.de/news/2026/09-17-hohe-bauzinsen-nachfrage-nach-immobilien-kuehlt-sich-ab-0-10-26554304",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "SMA investiert 80 Millionen Euro in neues Werk",
+   "link": "https://www.onvista.de/news/2026/09-17-sma-investiert-80-millionen-euro-in-neues-werk-0-10-26554597",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-17-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "TMV",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: TeamViewer SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-17-eqs-pvr-teamviewer-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel",
+   "source": "EQS Group"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-09-17",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Weiter erholt dank Oelpreisen und US-Boersen",
+   "link": "https://www.onvista.de/news/2026/09-17-roundup-aktien-europa-schluss-weiter-erholt-dank-oelpreisen-und-us-boersen-0-10-26554648",
+   "source": "dpa-AFX"
+  }
+ ]
+}

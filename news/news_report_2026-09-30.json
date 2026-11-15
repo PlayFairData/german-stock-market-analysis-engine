@@ -1,0 +1,451 @@
+{
+ "date": "2026-09-30",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 0,
+  "HOLD": 1,
+  "INFO": 41
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 1,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 15
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  }
+ },
+ "total": 45,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank senkt Commerzbank auf 'Hold' - Ziel 42 Euro",
+   "link": "https://www.onvista.de/news/2026/09-30-analyse-flash-deutsche-bank-senkt-commerzbank-auf-hold-ziel-42-euro-0-10-26559078",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax beendet schwachen September im Minus",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-aktien-frankfurt-schluss-dax-beendet-schwachen-september-im-minus-0-10-26559233",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-09-30",
+   "sentiment": "HOLD",
+   "news": "ANALYSE-FLASH: Jefferies belaesst DHL Group auf 'Hold' - Ziel 59 Euro",
+   "link": "https://www.onvista.de/news/2026/09-30-analyse-flash-jefferies-belaesst-dhl-group-auf-hold-ziel-59-euro-0-10-26559236",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-09-30",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: JPMorgan nimmt Deutsche Boerse mit 'Overweight' wieder auf",
+   "link": "https://www.onvista.de/news/2026/09-30-analyse-flash-jpmorgan-nimmt-deutsche-boerse-mit-overweight-wieder-auf-0-10-26559070",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HOT",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Milliardendeal: Hochtief bleibt Dienstleister in Sellafield",
+   "link": "https://www.onvista.de/news/2026/09-30-milliardendeal-hochtief-bleibt-dienstleister-in-sellafield-0-10-26559181",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-09-30",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies belaesst Infineon auf 'Buy' - Ziel 96 Euro",
+   "link": "https://www.onvista.de/news/2026/09-30-analyse-flash-jefferies-belaesst-infineon-auf-buy-ziel-96-euro-0-10-26559071",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RWE",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Reiche sichert Gasversorgung staerker ab",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-reiche-sichert-gasversorgung-staerker-ab-0-10-26559005",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Inflationsdaten trueben die Stimmung am Aktienmarkt",
+   "link": "https://www.onvista.de/news/2026/09-30-aktien-europa-inflationsdaten-trueben-die-stimmung-0-10-26559045",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "China droht EU mit Gegenmassnahmen im Handelsstreit",
+   "link": "https://www.onvista.de/news/2026/09-30-china-droht-eu-mit-gegenmassnahmen-im-handelsstreit-0-10-26558847",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "VOW3",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Volkswagen kuendigt fast alle Tarifvertraege",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-2-volkswagen-kuendigt-fast-alle-tarifvertraege-0-10-26559238",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Neue Typklassen in der Kfz-Versicherung",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-neue-typklassen-in-der-kfz-versicherung-0-10-26558991",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "RAG-Stiftung koennte sich auch von komplettem Evonik-Anteil trennen",
+   "link": "https://www.onvista.de/news/2026/09-30-rag-stiftung-koennte-sich-auch-von-komplettem-evonik-anteil-trennen-0-20-26559223",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EU-Staaten gegen unbefristete Zulassung von Pestiziden",
+   "link": "https://www.onvista.de/news/2026/09-30-eu-staaten-gegen-unbefristete-zulassung-von-pestiziden-0-10-26559179",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Mercedes-Benz reaktiviert Abfindungsprogramm in Deutschland",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-mercedes-benz-reaktiviert-abfindungsprogramm-in-deutschland-0-10-26559088",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Preise fuer Strom und Gas sinken auf hohem Niveau leicht",
+   "link": "https://www.onvista.de/news/2026/09-30-preise-fuer-strom-und-gas-sinken-auf-hohem-niveau-leicht-0-10-26558937",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Kontron zieht an - Zahlung von Geschaeftspartner und CTO-Berufung",
+   "link": "https://www.onvista.de/news/2026/09-30-aktie-im-fokus-kontron-zieht-an-zahlung-von-geschaeftspartner-und-cto-berufung-0-10-26559177",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-NVR: Zalando SE: Veroeffentlichung der Gesamtzahl der Stimmrechte nach § 41 WpHG",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-nvr-zalando-se-veroeffentlichung-der-gesamtzahl-der-stimmrechte-nach-41-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Dax nach Auf und Ab stabil - Inflationsdaten im Fokus",
+   "link": "https://www.onvista.de/news/2026/09-30-aktien-frankfurt-dax-nach-auf-und-ab-stabil-inflationsdaten-im-fokus-0-10-26559125",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LXS",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "STICHWORT: Rhein ist eine der meistbefahrenen Wasserstrassen der Welt",
+   "link": "https://www.onvista.de/news/2026/09-30-stichwort-rhein-ist-eine-der-meistbefahrenen-wasserstrassen-der-welt-0-10-26558989",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TEG",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "HINTERGRUND: Start der Dreiergespraeche zur Regierungsbildung in Berlin",
+   "link": "https://www.onvista.de/news/2026/09-30-hintergrund-start-der-dreiergespraeche-zur-regierungsbildung-in-berlin-0-10-26559066",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-09-30",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies belaesst Nordex auf 'Buy' - Ziel 60 Euro",
+   "link": "https://www.onvista.de/news/2026/09-30-analyse-flash-jefferies-belaesst-nordex-auf-buy-ziel-60-euro-0-10-26559175",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Chipwerte weiter erholt - Trump setzt auf KI-Selbstkontrolle",
+   "link": "https://www.onvista.de/news/2026/09-30-aktien-im-fokus-chipwerte-weiter-erholt-trump-setzt-auf-ki-selbstkontrolle-0-10-26558983",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-de",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "IOS",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax beendet schwachen September im Minus",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-aktien-frankfurt-schluss-dax-beendet-schwachen-september-im-minus-0-10-26559233",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-News: Advanced Blockchain AG veroeffentlicht Halbjahresbericht 2026 und treibt Strategie ABAG 2.0 voran",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-news-advanced-blockchain-ag-veroeffentlicht-halbjahresbericht-2026-und-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "RAG-Stiftung koennte sich auch von komplettem Evonik-Anteil trennen",
+   "link": "https://www.onvista.de/news/2026/09-30-rag-stiftung-koennte-sich-auch-von-komplettem-evonik-anteil-trennen-0-20-26559223",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "STICHWORT: Rhein ist eine der meistbefahrenen Wasserstrassen der Welt",
+   "link": "https://www.onvista.de/news/2026/09-30-stichwort-rhein-ist-eine-der-meistbefahrenen-wasserstrassen-der-welt-0-10-26558989",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 30.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-30-dpa-afx-ueberblick-unternehmen-vom-30-09-2026-15-15-uhr-0-10-26559135",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: BMW-Aussagen ermutigen Anleger - Vortagsminus aufgeholt",
+   "link": "https://www.onvista.de/news/2026/09-30-aktie-im-fokus-2-bmw-aussagen-ermutigen-anleger-vortagsminus-aufgeholt-0-10-26559001",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Musterverfahren zu VW-Uebernahme: BGH weist Beschwerden ab",
+   "link": "https://www.onvista.de/news/2026/09-30-musterverfahren-zu-vw-uebernahme-bgh-weist-beschwerden-ab-0-10-26559148",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-News: Aqarios erhaelt Auftrag von Schaeffler fuer einen Proof of Concept in der Quantenoptimierung",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-news-aqarios-erhaelt-auftrag-von-schaeffler-fuer-einen-proof-of-concept-in-d",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-d",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "HINTERGRUND: Start der Dreiergespraeche zur Regierungsbildung in Berlin",
+   "link": "https://www.onvista.de/news/2026/09-30-hintergrund-start-der-dreiergespraeche-zur-regierungsbildung-in-berlin-0-10-26559066",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "KTN",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Kontron zieht an - Zahlung von Geschaeftspartner und CTO-Berufung",
+   "link": "https://www.onvista.de/news/2026/09-30-aktie-im-fokus-kontron-zieht-an-zahlung-von-geschaeftspartner-und-cto-berufung-0-10-26559177",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "AKTIE IM FOKUS 2: Metzler-Verkaufsempfehlung zieht Ionos runter",
+   "link": "https://www.onvista.de/news/2026/09-30-aktie-im-fokus-2-metzler-verkaufsempfehlung-zieht-ionos-runter-0-10-26559032",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "HBH",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Original-Research: HORNBACH Holding AG & Co. KGaA (von Quirin Privatbank Kapi...",
+   "link": "https://www.onvista.de/news/2026/09-30-original-research-hornbach-holding-ag-co-kgaa-von-quirin-privatbank-kapi-0-10-26559191",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "YSN",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2/Trump: KI-Firmen sollen sich selbst beaufsichtigen",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-2-trump-ki-firmen-sollen-sich-selbst-beaufsichtigen-0-10-26559044",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SZU",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "Zuckersteuer soll knapp eine Milliarde Euro bringen",
+   "link": "https://www.onvista.de/news/2026/09-30-zuckersteuer-soll-knapp-eine-milliarde-euro-bringen-0-10-26559056",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-zi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "PAT",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-RPT: PATRIZIA SE: Veroeffentlichung gemaess § 111c AktG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-rpt-patrizia-se-veroeffentlichung-gemaess-111c-aktg-mit-dem-ziel-der-europawe",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: Verluste - EuroStoxx mit schwacher Monatsbilanz",
+   "link": "https://www.onvista.de/news/2026/09-30-roundup-aktien-europa-schluss-verluste-eurostoxx-mit-schwacher-monatsbilanz-0-10-26559237",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BYW6",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "STICHWORT: Rhein ist eine der meistbefahrenen Wasserstrassen der Welt",
+   "link": "https://www.onvista.de/news/2026/09-30-stichwort-rhein-ist-eine-der-meistbefahrenen-wasserstrassen-der-welt-0-10-26558989",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 30.09.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/09-30-dpa-afx-ueberblick-unternehmen-vom-30-09-2026-15-15-uhr-0-10-26559135",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BRNK",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-News: Branicks Group AG Halbjahresbericht 2026: Operativ konti",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-news-branicks-group-ag-halbjahresbericht-2026-operativ-kontinuierlich-stabil-unterwegs-wesentliche-strukturelle-",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "TIMA",
+   "date": "2026-09-30",
+   "sentiment": "INFO",
+   "news": "EQS-DD: ZEAL Network SE: Dr. Stefan Tweraser, Kauf",
+   "link": "https://www.onvista.de/news/2026/09-30-eqs-dd-zeal-network-se-dr-stefan-tweraser-kauf-0-37-26559102",
+   "source": "EQS Group"
+  }
+ ]
+}

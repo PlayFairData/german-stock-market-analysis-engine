@@ -1,0 +1,271 @@
+{
+ "date": "2026-10-07",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 3,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 22
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "MDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 7
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
+  }
+ },
+ "total": 25,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "DBK",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research senkt Ziel fuer Novo Nordisk - 'Sell'",
+   "link": "https://www.onvista.de/news/2026/10-07-analyse-flash-deutsche-bank-research-senkt-ziel-fuer-novo-nordisk-sell-0-10-26561461",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS 2: Autowerte sinken trotz Protektionshoffnung - Schwaches Umfeld",
+   "link": "https://www.onvista.de/news/2026/10-07-aktien-im-fokus-2-autowerte-sinken-trotz-protektionshoffnung-schwaches-umfeld-0-10-26561509",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Deutliche Verluste - Hohe Renditen belasten",
+   "link": "https://www.onvista.de/news/2026/10-07-roundup-aktien-frankfurt-schluss-deutliche-verluste-hohe-renditen-belasten-0-10-26561616",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-10-07",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies belaesst Rheinmetall auf 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-07-analyse-flash-jefferies-belaesst-rheinmetall-auf-buy-0-10-26561535",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Muenchener Rueckversicherungs-Gesel",
+   "link": "https://www.onvista.de/news/2026/10-07-eqs-pvr-muenchener-rueckversicherungs-gesellschaft-aktiengesellschaft-in-muenchen-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "ADS",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Pumas groesster Aktionaer kommt nun aus China",
+   "link": "https://www.onvista.de/news/2026/10-07-pumas-groesster-aktionaer-kommt-nun-aus-china-0-10-26561546",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 07.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-07-dpa-afx-ueberblick-unternehmen-vom-07-10-2026-15-15-uhr-0-10-26561541",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "China-Schwaeche drueckt Absatz von Mercedes-Benz weiter",
+   "link": "https://www.onvista.de/news/2026/10-07-china-schwaeche-drueckt-absatz-von-mercedes-benz-weiter-0-20-26561432",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Buendnis protestiert gegen Reform der Energiepolitik",
+   "link": "https://www.onvista.de/news/2026/10-07-buendnis-protestiert-gegen-reform-der-energiepolitik-0-10-26561488",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Nach dem Zalando-Aus in Erfurt startet die Jobvermittlung",
+   "link": "https://www.onvista.de/news/2026/10-07-nach-dem-zalando-aus-in-erfurt-startet-die-jobvermittlung-0-10-26561309",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Audi will Mitarbeiter in die Ruestung verleihen",
+   "link": "https://www.onvista.de/news/2026/10-07-audi-will-mitarbeiter-in-die-ruestung-verleihen-0-10-26561533",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "ELG",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Gewinnmitnahmen belasten Techsektor - Siltronic holen auf",
+   "link": "https://www.onvista.de/news/2026/10-07-aktien-im-fokus-gewinnmitnahmen-belasten-techsektor-siltronic-holen-auf-0-10-26561455",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Aurubis AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-07-eqs-pvr-aurubis-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SAX",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Stroeer SE & Co. KGaA: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaw",
+   "link": "https://www.onvista.de/news/2026/10-07-eqs-pvr-stroeer-se-co-kgaa-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ThyssenKrupp AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-07-eqs-pvr-thyssenkrupp-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "FMC knickt ein - Wechsel an Konzernspitze erwischt Anleger kalt",
+   "link": "https://www.onvista.de/news/2026/10-07-aktie-im-fokus-fmc-knickt-ein-wechsel-an-konzernspitze-erwischt-anleger-kalt-0-10-26561624",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "KGX",
+   "date": "2026-10-07",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: MPCM senkt Ziel fuer Kion auf 58 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-07-analyse-flash-mpcm-senkt-ziel-fuer-kion-auf-58-euro-buy-0-10-26561469",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "PAH3",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3: VW-Tochter Porsche will sparen und Marge steigern - Aktie schwankt",
+   "link": "https://www.onvista.de/news/2026/10-07-roundup-3-vw-tochter-porsche-will-sparen-und-marge-steigern-aktie-schwankt-0-10-26561586",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SHA0",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Finanzvorstaendin Doenges verlaesst Aumovio ueberraschend",
+   "link": "https://www.onvista.de/news/2026/10-07-finanzvorstaendin-doenges-verlaesst-aumovio-ueberraschend-0-10-26561520",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-10-07",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Siltronic auf 130 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-07-analyse-flash-jefferies-hebt-ziel-fuer-siltronic-auf-130-euro-buy-0-10-26561477",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SGL",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Juengste Erholung wackelt - 25.000 Punkte wieder in Gefahr",
+   "link": "https://www.onvista.de/news/2026/10-07-aktien-frankfurt-juengste-erholung-wackelt-25-000-punkte-wieder-in-gefahr-0-10-26561517",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "BOSS",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "EQS-NVR: Hugo Boss AG: Veroeffentlichung der Gesamtzahl der Stimmrechte nach § 41 W",
+   "link": "https://www.onvista.de/news/2026/10-07-eqs-nvr-hugo-boss-ag-veroeffentlichung-der-gesamtzahl-der-stimmrechte-nach-41-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "V1NC",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Ruestungszulieferer Vincorion erhoeht Jahresprognose nach robustem drittem Quartal",
+   "link": "https://www.onvista.de/news/2026/10-07-ruestungszulieferer-vincorion-erhoeht-jahresprognose-nach-robustem-drittem-quartal-0-10-26561566",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "Weiterer Eingriff: Comeback von BVB-Kapitaen Can weiter offen",
+   "link": "https://www.onvista.de/news/2026/10-07-weiterer-eingriff-comeback-von-bvb-kapitaen-can-weiter-offen-0-10-26561333",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BRNK",
+   "date": "2026-10-07",
+   "sentiment": "INFO",
+   "news": "EQS-News: Branicks Group AG: Laufzeitverlaengerung der 400 Mio. EUR-Anleihe vollzogen",
+   "link": "https://www.onvista.de/news/2026/10-07-eqs-news-branicks-group-ag-laufzeitverlaengerung-der-400-mio-eur-anleihe-vollzogen-0-37-26561440",
+   "source": "EQS Group"
+  }
+ ]
+}

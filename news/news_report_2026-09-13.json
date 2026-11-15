@@ -1,0 +1,66 @@
+{
+ "date": "2026-09-13",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 3
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  }
+ },
+ "total": 3,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "HEN3",
+   "date": "2026-09-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Nivea-Chef: Wollen nicht die naechste Autoindustrie werden",
+   "link": "https://www.onvista.de/news/2026/09-13-roundup-nivea-chef-wollen-nicht-die-naechste-autoindustrie-werden-0-10-26552878",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-09-13",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN - Die wichtigsten Meldungen vom Wochenende",
+   "link": "https://www.onvista.de/news/2026/09-13-dpa-afx-ueberblick-unternehmen-die-wichtigsten-meldungen-vom-wochenende-0-10-26552902",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-09-13",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Echte Konkurrenz fuer die Bayern? Das macht den BVB stark",
+   "link": "https://www.onvista.de/news/2026/09-13-roundup-2-echte-konkurrenz-fuer-die-bayern-das-macht-den-bvb-stark-0-10-26552877",
+   "source": "dpa-AFX"
+  }
+ ]
+}

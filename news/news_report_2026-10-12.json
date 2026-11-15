@@ -1,0 +1,397 @@
+{
+ "date": "2026-10-12",
+ "generated": "2026-11-15 23:14:37",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 37
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 16
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 2,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 5
+  }
+ },
+ "total": 39,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Preise fuer Auto-Ersatzteile steigen schneller als Inflation",
+   "link": "https://www.onvista.de/news/2026/10-12-preise-fuer-auto-ersatzteile-steigen-schneller-als-inflation-0-10-26563055",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Beiersdorf Aktiengesellsc",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-beiersdorf-aktiengesellschaft-bekanntmachung-gemaess-art-5-abs-1-lit-b-der-verordnung-eu-nr-596-2014-und-art-2-abs-2-und-3-der-delegierten-v",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 12.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-12-dpa-afx-ueberblick-unternehmen-vom-12-10-2026-15-15-uhr-0-10-26563140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "FME",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Fresenius Medical Care AG : Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-fresenius-medical-care-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563168",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "G1A",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: GEA Group Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-gea-group-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-265630",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Europa stellt sich mit Modelloffensive auf Pariser Autoshow gegen China",
+   "link": "https://www.onvista.de/news/2026/10-12-europa-stellt-sich-mit-modelloffensive-auf-pariser-autoshow-gegen-china-0-20-26563176",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Siemens Healthineers gibt Ultraschall-Geschaeft teilweise auf",
+   "link": "https://www.onvista.de/news/2026/10-12-siemens-healthineers-gibt-ultraschall-geschaeft-teilweise-auf-0-20-26563200",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "G24",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Scout24 SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-scout24-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563092",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Parteien-Trio in Berlin sondiert unter Zeitdruck weiter",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-parteien-trio-in-berlin-sondiert-unter-zeitdruck-weiter-0-10-26563105",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Insider: BASF wuerde bei Evonik-Uebernahme Jobgarantien nicht antasten",
+   "link": "https://www.onvista.de/news/2026/10-12-insider-basf-wuerde-bei-evonik-uebernahme-jobgarantien-nicht-antasten-0-20-26563085",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Commerzbank Aktiengesellschaft: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-commerzbank-aktiengesellschaft-veroeffentlichung-einer-kapitalmarktinformation-0-37-26",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Mercedes-Benz Group AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-mercedes-benz-group-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563034",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Merz will Senkung der Stromsteuer fuer alle angehen",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-merz-will-senkung-der-stromsteuer-fuer-alle-angehen-0-10-26563157",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SHL",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Siemens Healthineers AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-siemens-healthineers-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563206",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SY1",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Symrise AG: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-symrise-ag-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563181",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Quartalszahlen aus den USA und Zinsdaten im Fokus",
+   "link": "https://www.onvista.de/news/2026/10-12-wochenausblick-dax-im-bann-von-oel-und-anleihen-us-berichtssaison-startet-0-10-26562867",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Zentrale Zeugen widersprechen Ex-Minister Scheuer",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-zentrale-zeugen-widersprechen-ex-minister-scheuer-0-10-26563139",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDA",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Aurubis AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-pvr-aurubis-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKA",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: ThyssenKrupp AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-pvr-thyssenkrupp-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Verkehr am Flughafen Riad fuer weitere Tage ausgesetzt",
+   "link": "https://www.onvista.de/news/2026/10-12-verkehr-am-flughafen-riad-fuer-weitere-tage-ausgesetzt-0-10-26563186",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "TEG",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Parteien-Trio in Berlin sondiert unter Zeitdruck weiter",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-parteien-trio-in-berlin-sondiert-unter-zeitdruck-weiter-0-10-26563105",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: AIXTRON SE: Vorabbekanntmachung ueber die Veroeffentlichung von Finanzberichten gemaess",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-afr-aixtron-se-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Delivery Hero SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten V",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-pvr-delivery-hero-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EU weitet Beitrittsverhandlungen mit Ukraine und Moldau aus",
+   "link": "https://www.onvista.de/news/2026/10-12-eu-weitet-beitrittsverhandlungen-mit-ukraine-und-moldau-aus-0-10-26563227",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "Insider: BASF wuerde bei Evonik-Uebernahme Jobgarantien nicht antasten",
+   "link": "https://www.onvista.de/news/2026/10-12-insider-basf-wuerde-bei-evonik-uebernahme-jobgarantien-nicht-antasten-0-20-26563085",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax erholt sich weiter",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-aktien-frankfurt-schluss-dax-erholt-sich-weiter-0-10-26563211",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "LEG",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LEG Immobilien SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-pvr-leg-immobilien-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "VW verkauft weniger Autos - China-Einbruch geht weiter",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-vw-verkauft-weniger-autos-china-einbruch-geht-weiter-0-10-26563025",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "8TRA",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 12.10.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/10-12-dpa-afx-ueberblick-unternehmen-vom-12-10-2026-15-15-uhr-0-10-26563140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax erholt sich weiter",
+   "link": "https://www.onvista.de/news/2026/10-12-roundup-aktien-frankfurt-schluss-dax-erholt-sich-weiter-0-10-26563211",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "CWC",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CEWE Stiftung & Co. KGaA: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-cewe-stiftung-co-kgaa-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563033",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "COK",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: CANCOM SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-cancom-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563208",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-10-12",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Berenberg belaesst OHB auf 'Buy' - Ziel 358 Euro",
+   "link": "https://www.onvista.de/news/2026/10-12-analyse-flash-berenberg-belaesst-ohb-auf-buy-ziel-358-euro-0-10-26562967",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "MBB",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-DD: MBB SE: MBB Capital Management GmbH , Kauf",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-dd-mbb-se-mbb-capital-management-gmbh-kauf-0-37-26563108",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "VBK",
+   "date": "2026-10-12",
+   "sentiment": "BUY",
+   "news": "ANALYSE-FLASH: Deutsche Bank Research senkt Ziel fuer Verbio auf 40 Euro - 'Buy'",
+   "link": "https://www.onvista.de/news/2026/10-12-analyse-flash-deutsche-bank-research-senkt-ziel-fuer-verbio-auf-40-euro-buy-0-10-26562978",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "NOEJ",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: NORMA Group SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-pvr-norma-group-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Stabilus SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-cms-stabilus-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26563022",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-HV: Bo",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-hv-borussia-dortmund-gmbh-co-kommanditgesellschaft-auf-aktien-bekanntmachung-der-einberufung-zur-hauptversammlung-am-23-11-2026-in-dortmund-mit-dem-ziel-der-europaweite",
+   "source": "EQS Group"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-10-12",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Gerresheimer AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/10-12-eqs-pvr-gerresheimer-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  }
+ ]
+}
