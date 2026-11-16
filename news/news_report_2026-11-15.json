@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-15",
+ "generated": "2026-11-16 19:23:53",
+ "schema": 1,
+ "indexes": [
+  "MDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 3
+ },
+ "by_index": {
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  }
+ },
+ "total": 3,
+ "items": [
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-11-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 3/Technik-Panne in den USA: Weiter Tausende Fluege gestrichen",
+   "link": "https://www.onvista.de/news/2026/11-15-roundup-3-technik-panne-in-den-usa-weiter-tausende-fluege-gestrichen-0-10-26576491",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "1U1",
+   "date": "2026-11-15",
+   "sentiment": "INFO",
+   "news": "Ein gewaltiges Videospiel - Der lange Weg zu GTA 6",
+   "link": "https://www.onvista.de/news/2026/11-15-ein-gewaltiges-videospiel-der-lange-weg-zu-gta-6-0-10-26576462",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "S92",
+   "date": "2026-11-15",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Solarfoerderung fuer kleine Anlagen soll bleiben",
+   "link": "https://www.onvista.de/news/2026/11-15-roundup-solarfoerderung-fuer-kleine-anlagen-soll-bleiben-0-10-26576486",
+   "source": "dpa-AFX"
+  }
+ ]
+}

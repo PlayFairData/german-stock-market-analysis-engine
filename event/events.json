@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated": "2026-11-13 18:36:17",
- "today": "2026-11-13",
+ "generated": "2026-11-16 19:23:31",
+ "today": "2026-11-16",
  "counts": {
-  "total": 3192,
-  "upcoming": 76,
-  "history": 3116,
+  "total": 3218,
+  "upcoming": 99,
+  "history": 3119,
   "codes": 172
  },
  "marks": {
@@ -2568,6 +2568,11 @@
   ],
   "BVB": [
    {
+    "date": "2026-11-23",
+    "desc": "Hauptversammlung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q1)",
     "src": "hist"
@@ -2838,6 +2843,11 @@
    }
   ],
   "COK": [
+   {
+    "date": "2027-02-11",
+    "desc": "Pressemeldung zum Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -3117,6 +3127,11 @@
    }
   ],
   "CWC": [
+   {
+    "date": "2026-11-23",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
@@ -4129,6 +4144,11 @@
   ],
   "DMP": [
    {
+    "date": "2027-03-11",
+    "desc": "Pressemeldung zum Jahresfinanzbericht",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -4673,6 +4693,11 @@
    }
   ],
   "DUE": [
+   {
+    "date": "2026-12-09",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
@@ -5305,6 +5330,11 @@
    }
   ],
   "EUZ": [
+   {
+    "date": "2027-03-24",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -6010,6 +6040,11 @@
   ],
   "FNTN": [
    {
+    "date": "2027-02-24",
+    "desc": "Pressemeldung zum Jahresfinanzbericht",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-11",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -6560,6 +6595,11 @@
   ],
   "FYB": [
    {
+    "date": "2026-11-23",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Pressemeldung zur Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -6918,6 +6958,11 @@
   ],
   "GFT": [
    {
+    "date": "2027-03-04",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -7014,6 +7059,11 @@
    }
   ],
   "GLJ": [
+   {
+    "date": "2027-03-11",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -7359,7 +7409,7 @@
   "HAG": [
    {
     "date": "2027-02-24",
-    "desc": "Analystenveranstaltung",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
     "src": "pm"
    },
    {
@@ -7591,6 +7641,11 @@
    }
   ],
   "HDD": [
+   {
+    "date": "2027-02-16",
+    "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Halbjahresfinanzbericht",
@@ -8651,6 +8706,11 @@
   ],
   "IXX": [
    {
+    "date": "2026-11-23",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
     "src": "hist"
@@ -8868,7 +8928,7 @@
   "JUN3": [
    {
     "date": "2027-03-24",
-    "desc": "Analystenveranstaltung",
+    "desc": "Bilanzpressekonferenz",
     "src": "pm"
    },
    {
@@ -9654,7 +9714,7 @@
   "LHA": [
    {
     "date": "2027-03-05",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Veröffentlichung Konzern-/Jahresabschluss",
     "src": "pm"
    },
    {
@@ -9771,7 +9831,7 @@
   "LPK": [
    {
     "date": "2027-03-24",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Analystenveranstaltung",
     "src": "pm"
    },
    {
@@ -9969,6 +10029,11 @@
   ],
   "MBB": [
    {
+    "date": "2026-11-23",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
     "src": "hist"
@@ -10010,6 +10075,11 @@
    }
   ],
   "MBG": [
+   {
+    "date": "2027-02-18",
+    "desc": "Bilanzpressekonferenz",
+    "src": "pm"
+   },
    {
     "date": "2026-10-28",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -10127,6 +10197,11 @@
    }
   ],
   "MLP": [
+   {
+    "date": "2026-11-23",
+    "desc": "Roadshow",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
@@ -10600,6 +10675,11 @@
    }
   ],
   "MUX": [
+   {
+    "date": "2027-04-27",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
@@ -11305,6 +11385,11 @@
   ],
   "OBCK": [
    {
+    "date": "2027-02-16",
+    "desc": "Pressemeldung zum Jahresfinanzbericht",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -11542,6 +11627,11 @@
    }
   ],
   "PBB": [
+   {
+    "date": "2027-03-04",
+    "desc": "Pressemeldung zum Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
@@ -11811,6 +11901,11 @@
   ],
   "PSM": [
    {
+    "date": "2027-03-23",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -12043,7 +12138,7 @@
   "R3NK": [
    {
     "date": "2027-03-03",
-    "desc": "Bilanzpressekonferenz",
+    "desc": "Veröffentlichung Konzern-/Jahresabschluss",
     "src": "pm"
    },
    {
@@ -12493,7 +12588,7 @@
   "RWE": [
    {
     "date": "2027-03-04",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "desc": "Analystenveranstaltung",
     "src": "pm"
    },
    {
@@ -12949,6 +13044,11 @@
    }
   ],
   "SBS": [
+   {
+    "date": "2026-11-24",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
@@ -13551,6 +13651,11 @@
    }
   ],
   "SIE": [
+   {
+    "date": "2027-02-11",
+    "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q1)",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Bilanzpressekonferenz",
@@ -14278,6 +14383,11 @@
   ],
   "SZG": [
    {
+    "date": "2027-03-18",
+    "desc": "Bilanzpressekonferenz",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -14677,11 +14787,6 @@
   "TKA": [
    {
     "date": "2026-12-08",
-    "desc": "Veröffentlichung Jahresfinanzbericht",
-    "src": "pm"
-   },
-   {
-    "date": "2026-12-08",
     "desc": "Telefonkonferenz",
     "src": "hist"
    },
@@ -14890,6 +14995,11 @@
   ],
   "TLX": [
    {
+    "date": "2027-03-18",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
     "src": "hist"
@@ -15068,6 +15178,11 @@
    }
   ],
   "TNIE": [
+   {
+    "date": "2027-02-01",
+    "desc": "Pressemeldung zum Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Pressemeldung zur Quartalsmitteilung (Stichtag Q3)",
@@ -15576,6 +15691,11 @@
   ],
   "V6C": [
    {
+    "date": "2026-11-24",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
+   {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsfinanzbericht (Stichtag Q3)",
     "src": "hist"
@@ -15607,6 +15727,11 @@
    }
   ],
   "VBK": [
+   {
+    "date": "2026-11-24",
+    "desc": "Analystenveranstaltung",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q1)",
@@ -16032,6 +16157,11 @@
    }
   ],
   "WAC": [
+   {
+    "date": "2027-03-25",
+    "desc": "Veröffentlichung Jahresfinanzbericht",
+    "src": "pm"
+   },
    {
     "date": "2026-11-12",
     "desc": "Veröffentlichung Quartalsmitteilung (Stichtag Q3)",
