@@ -1,198 +1,586 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>PlayFair – Analyst Impact Report</title>
-<!-- Static viewer -- written ONCE and reads data from the .js data holder
+  <meta charset="utf-8">
+  <title>PlayFair – Analyst Impact Report</title>
+  <!-- Static viewer -- written ONCE and reads data from the .js data holder
      written by tl_analyst_impact.py:
        analyst_impact/analyst_impact_data.js   window.ANALYST_IMPACT_DATA
      file://-safe <script src>, never fetch() (browsers block fetch() on file://). -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="AnalystImpact">
-<link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="icon" href="../favicon.png">
-<link rel="manifest" href="../manifest.json">
-<style>
-    * { box-sizing: border-box; }
-    body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0;
-           padding: 24px; background: #fff; color: #202124; line-height: 1.5; }
-    h1 { font-size: 1.35rem; margin: 0 0 4px; font-weight: 700; color: #0f172a; }
-    h2 { font-size: 1.05rem; margin: 26px 0 10px; font-weight: 700; color: #334155;
-         text-transform: uppercase; letter-spacing: 0.5px; }
-    .meta { color: #64748b; font-size: .85rem; margin-bottom: 18px; }
-    .crumb { margin-bottom: 16px; font-size: .92rem; color: #64748b; }
-    a { color: #1a73e8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=0.25, maximum-scale=5.0, user-scalable=yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="AnalystImpact">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="icon" href="../favicon.png">
+  <link rel="manifest" href="../manifest.json">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #fff;
+      color: #202124;
+      line-height: 1.5;
+    }
+
+    h1 {
+      font-size: 1.35rem;
+      margin: 0 0 4px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      margin: 26px 0 10px;
+      font-weight: 700;
+      color: #334155;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .meta {
+      color: #64748b;
+      font-size: .85rem;
+      margin-bottom: 18px;
+    }
+
+    .crumb {
+      margin-bottom: 16px;
+      font-size: .92rem;
+      color: #64748b;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
 
     /* stock search (delist.js pilot) */
-    .search-bar { margin: 0 0 14px; font-size: .9rem; display: flex;
-        align-items: center; gap: 8px; flex-wrap: wrap; }
-    .search-bar input { font-size: .95rem; padding: 6px 12px;
-        border: 1px solid #dadce0; border-radius: 6px; width: 260px; outline: none; }
-    .search-bar input:focus { border-color: #1a73e8;
-        box-shadow: 0 0 0 2px rgba(26,115,232,0.15); }
-    .search-bar button { padding: 6px 12px; border: 1px solid #dadce0;
-        background: #f8f9fa; border-radius: 6px; cursor: pointer; font-size: .9rem; }
-    .search-bar button:hover { background: #e8f0fe; border-color: #1a73e8; color: #1a73e8; }
+    .search-bar {
+      margin: 0 0 14px;
+      font-size: .9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .search-bar input {
+      font-size: .95rem;
+      padding: 6px 12px;
+      border: 1px solid #dadce0;
+      border-radius: 6px;
+      width: 260px;
+      outline: none;
+    }
+
+    .search-bar input:focus {
+      border-color: #1a73e8;
+      box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.15);
+    }
+
+    .search-bar button {
+      padding: 6px 12px;
+      border: 1px solid #dadce0;
+      background: #f8f9fa;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: .9rem;
+    }
+
+    .search-bar button:hover {
+      background: #e8f0fe;
+      border-color: #1a73e8;
+      color: #1a73e8;
+    }
 
     /* summary stat cards */
-    .grid-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 12px; margin-bottom: 20px; }
-    .stat-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;
-        padding: 12px 14px; }
-    .stat-card .title { font-size: .78rem; text-transform: uppercase; letter-spacing: .5px;
-        color: #64748b; font-weight: 600; margin-bottom: 4px; }
-    .stat-card .val { font-size: 1.45rem; font-weight: 700; color: #0f172a; }
-    .stat-card .sub { font-size: .78rem; color: #64748b; margin-top: 2px; }
+    .grid-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .stat-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .stat-card .title {
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: #64748b;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .stat-card .val {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .stat-card .sub {
+      font-size: .78rem;
+      color: #64748b;
+      margin-top: 2px;
+    }
 
     /* filter bar */
-    .filter-bar { margin: 12px 0 14px; display: flex; gap: 8px; flex-wrap: wrap;
-        align-items: center; }
-    .filter-bar span { font-size: .85rem; font-weight: 600; color: #475569; margin-right: 4px; }
-    .filter-bar button { padding: 4px 12px; border: 1px solid #dadce0;
-        background: #fff; border-radius: 6px; cursor: pointer; font-size: .82rem;
-        font-weight: 600; color: #475569; }
-    .filter-bar button:hover { background: #f1f3f4; }
-    .filter-bar button.active { background: #e8f0fe; border-color: #1a73e8; color: #1a73e8; }
-    .filter-bar select, .filter-bar input { font-size: .82rem; padding: 4px 8px;
-        border: 1px solid #dadce0; border-radius: 6px; }
-    .filter-bar input { margin-left: auto; min-width: 200px; }
+    .filter-bar {
+      margin: 12px 0 14px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-bar span {
+      font-size: .85rem;
+      font-weight: 600;
+      color: #475569;
+      margin-right: 4px;
+    }
+
+    .filter-bar button {
+      padding: 4px 12px;
+      border: 1px solid #dadce0;
+      background: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: .82rem;
+      font-weight: 600;
+      color: #475569;
+    }
+
+    .filter-bar button:hover {
+      background: #f1f3f4;
+    }
+
+    .filter-bar button.active {
+      background: #e8f0fe;
+      border-color: #1a73e8;
+      color: #1a73e8;
+    }
+
+    .filter-bar select,
+    .filter-bar input {
+      font-size: .82rem;
+      padding: 4px 8px;
+      border: 1px solid #dadce0;
+      border-radius: 6px;
+    }
+
+    .filter-bar input {
+      margin-left: auto;
+      min-width: 200px;
+    }
 
     /* sentiment badges */
-    .pill { display: inline-block; padding: 2px 7px; border-radius: 4px;
-        font-size: .72rem; font-weight: 700; text-transform: uppercase; }
-    .pill.s-buy  { background: #e6f4ea; color: #0b8a3e; border: 1px solid #a8dab5; }
-    .pill.s-sell { background: #fce8e6; color: #c5221f; border: 1px solid #f5c6c0; }
-    .pill.s-hold { background: #fefce8; color: #ca8a04; border: 1px solid #fef08a; }
-    .pill.s-dim  { background: #f1f5f9; color: #64748b; border: 1px solid #cbd5e1; }
-    .pill.s-blue { background: #e8f0fe; color: #1a73e8; border: 1px solid #aecbfa; }
+    .pill {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .pill.s-buy {
+      background: #e6f4ea;
+      color: #0b8a3e;
+      border: 1px solid #a8dab5;
+    }
+
+    .pill.s-sell {
+      background: #fce8e6;
+      color: #c5221f;
+      border: 1px solid #f5c6c0;
+    }
+
+    .pill.s-hold {
+      background: #fefce8;
+      color: #ca8a04;
+      border: 1px solid #fef08a;
+    }
+
+    .pill.s-dim {
+      background: #f1f5f9;
+      color: #64748b;
+      border: 1px solid #cbd5e1;
+    }
+
+    .pill.s-blue {
+      background: #e8f0fe;
+      color: #1a73e8;
+      border: 1px solid #aecbfa;
+    }
 
     /* table styling */
-    .scroll-box { overflow: auto; max-height: calc(100vh - 330px); min-height: 240px;
-        border: 1px solid #e2e8f0; border-radius: 6px; }
-    table.dataTable { width: 100%; border-collapse: collapse; font-size: .84rem; }
-    table.dataTable th, table.dataTable td { padding: 8px 10px; text-align: left;
-        border-bottom: 1px solid #ececec; white-space: nowrap; vertical-align: middle; }
-    table.dataTable th { background: #f8fafc; font-weight: 600; color: #475569;
-        border-bottom: 2px solid #cbd5e1; cursor: pointer; user-select: none;
-        position: sticky; top: 0; z-index: 2;
-        box-shadow: inset 0 -2px 0 #cbd5e1; }
-    table.dataTable th:hover { background: #f1f5f9; color: #0f172a; }
-    table.dataTable th.sorted { background: #e8f0fe; color: #1a73e8; }
-    table.dataTable tr:hover { background: #f8fafc; }
-    table.dataTable td.code { font-weight: 700; color: #1a73e8; cursor: pointer; }
-    table.dataTable td.code:hover { text-decoration: underline; }
-    table.dataTable td.num { text-align: right; font-variant-numeric: tabular-nums; }
-    table.dataTable td.neg { color: #c5221f; font-weight: 600; }
-    table.dataTable td.pos { color: #0b8a3e; font-weight: 600; }
-    table.dataTable td.headline { max-width: 380px; overflow: hidden; text-overflow: ellipsis;
-        white-space: nowrap; color: #3c4043; cursor: pointer; font-size: .82rem; }
-    table.dataTable td.headline:hover { color: #1a73e8; text-decoration: underline; }
+    .scroll-box {
+      overflow: auto;
+      max-height: calc(100vh - 330px);
+      min-height: 240px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+    }
 
-    .count-note { margin: 8px 0 0; font-size: .8rem; color: #94a3b8; }
+    table.dataTable {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .84rem;
+    }
+
+    table.dataTable th,
+    table.dataTable td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid #ececec;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+
+    table.dataTable th {
+      background: #f8fafc;
+      font-weight: 600;
+      color: #475569;
+      border-bottom: 2px solid #cbd5e1;
+      cursor: pointer;
+      user-select: none;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      box-shadow: inset 0 -2px 0 #cbd5e1;
+    }
+
+    table.dataTable th:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+
+    table.dataTable th.sorted {
+      background: #e8f0fe;
+      color: #1a73e8;
+    }
+
+    table.dataTable tr:hover {
+      background: #f8fafc;
+    }
+
+    table.dataTable td.code {
+      font-weight: 700;
+      color: #1a73e8;
+      cursor: pointer;
+    }
+
+    table.dataTable td.code:hover {
+      text-decoration: underline;
+    }
+
+    table.dataTable td.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    table.dataTable td.neg {
+      color: #c5221f;
+      font-weight: 600;
+    }
+
+    table.dataTable td.pos {
+      color: #0b8a3e;
+      font-weight: 600;
+    }
+
+    table.dataTable td.headline {
+      max-width: 380px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #3c4043;
+      cursor: pointer;
+      font-size: .82rem;
+    }
+
+    table.dataTable td.headline:hover {
+      color: #1a73e8;
+      text-decoration: underline;
+    }
+
+    .count-note {
+      margin: 8px 0 0;
+      font-size: .8rem;
+      color: #94a3b8;
+    }
 
     /* Aggregate hit-rate table */
-    .agg-section { margin-top: 28px; }
-    .agg-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-        gap: 14px; margin-top: 10px; }
-    .agg-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;
-        padding: 12px 14px; }
-    .agg-card h4 { margin: 0 0 8px; font-size: .92rem; display: flex;
-        justify-content: space-between; align-items: center; }
-    table.miniTable { width: 100%; border-collapse: collapse; font-size: .8rem; }
-    table.miniTable th, table.miniTable td { padding: 4px 6px; text-align: right;
-        border-bottom: 1px solid #eef2f6; }
-    table.miniTable th:first-child, table.miniTable td:first-child { text-align: left; }
-    table.miniTable th { font-weight: 600; color: #64748b; background: transparent; }
+    .agg-section {
+      margin-top: 28px;
+    }
+
+    .agg-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .agg-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .agg-card h4 {
+      margin: 0 0 8px;
+      font-size: .92rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    table.miniTable {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .8rem;
+    }
+
+    table.miniTable th,
+    table.miniTable td {
+      padding: 4px 6px;
+      text-align: right;
+      border-bottom: 1px solid #eef2f6;
+    }
+
+    table.miniTable th:first-child,
+    table.miniTable td:first-child {
+      text-align: left;
+    }
+
+    table.miniTable th {
+      font-weight: 600;
+      color: #64748b;
+      background: transparent;
+    }
 
     /* Modal Dialog */
-    .modal-backdrop { display: none; position: fixed; top: 0; left: 0; right: 0;
-        bottom: 0; background: rgba(0,0,0,0.45); z-index: 1000; align-items: center;
-        justify-content: center; padding: 14px; }
-    .modal-backdrop.open { display: flex; }
-    .modal-card { background: #fff; border-radius: 8px;
-        box-shadow: 0 4px 24px rgba(0,0,0,0.22); width: 100%; max-width: 700px;
-        max-height: 88vh; display: flex; flex-direction: column; overflow: hidden;
-        animation: modalIn 0.12s ease-out; }
-    @keyframes modalIn { from { opacity: 0; transform: scale(0.97); }
-        to { opacity: 1; transform: scale(1); } }
-    .modal-header { display: flex; justify-content: space-between;
-        align-items: center; padding: 12px 18px; border-bottom: 1px solid #dadce0;
-        background: #f8f9fa; }
-    .modal-header h3 { margin: 0; font-size: 1.05rem; color: #202124;
-        display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .modal-close { background: none; border: none; font-size: 1.5rem; line-height: 1;
-        cursor: pointer; color: #5f6368; padding: 0 4px; }
-    .modal-close:hover { color: #202124; }
-    .modal-body { padding: 16px 18px; overflow-y: auto; font-size: .88rem; line-height: 1.45; }
-    .card-block { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px;
-        padding: 12px 14px; margin-bottom: 12px; }
-    .card-block h4 { margin: 0 0 6px; font-size: .85rem; color: #475569;
-        text-transform: uppercase; letter-spacing: .5px; }
-    .card-block .row { display: flex; justify-content: space-between; gap: 12px;
-        padding: 3px 0; font-size: .85rem; }
-    .card-block .row .k { color: #64748b; }
-    .card-block .row .v { font-weight: 600; font-variant-numeric: tabular-nums; }
-    .headline-full { font-size: .92rem; color: #0f172a; background: #fff;
-        border: 1px dashed #cbd5e1; border-radius: 6px; padding: 10px 12px; font-weight: 500; }
-    .chip-list button { display: inline-block; margin: 0 8px 6px 0; padding: 4px 10px;
-        border: 1px solid #dadce0; border-radius: 14px; background: #fff;
-        color: #1a73e8; cursor: pointer; font-size: .85rem; }
-    .chip-list button:hover { background: #e8f0fe; }
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
 
-    .footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e2e8f0;
-        font-size: .8rem; color: #94a3b8; text-align: center; }
-</style>
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.22);
+      width: 100%;
+      max-width: 700px;
+      max-height: 88vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      animation: modalIn 0.12s ease-out;
+    }
+
+    @keyframes modalIn {
+      from {
+        opacity: 0;
+        transform: scale(0.97);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      border-bottom: 1px solid #dadce0;
+      background: #f8f9fa;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 1.05rem;
+      color: #202124;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      line-height: 1;
+      cursor: pointer;
+      color: #5f6368;
+      padding: 0 4px;
+    }
+
+    .modal-close:hover {
+      color: #202124;
+    }
+
+    .modal-body {
+      padding: 16px 18px;
+      overflow-y: auto;
+      font-size: .88rem;
+      line-height: 1.45;
+    }
+
+    .card-block {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+
+    .card-block h4 {
+      margin: 0 0 6px;
+      font-size: .85rem;
+      color: #475569;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .card-block .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 3px 0;
+      font-size: .85rem;
+    }
+
+    .card-block .row .k {
+      color: #64748b;
+    }
+
+    .card-block .row .v {
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .headline-full {
+      font-size: .92rem;
+      color: #0f172a;
+      background: #fff;
+      border: 1px dashed #cbd5e1;
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-weight: 500;
+    }
+
+    .chip-list button {
+      display: inline-block;
+      margin: 0 8px 6px 0;
+      padding: 4px 10px;
+      border: 1px solid #dadce0;
+      border-radius: 14px;
+      background: #fff;
+      color: #1a73e8;
+      cursor: pointer;
+      font-size: .85rem;
+    }
+
+    .chip-list button:hover {
+      background: #e8f0fe;
+    }
+
+    .footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid #e2e8f0;
+      font-size: .8rem;
+      color: #94a3b8;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>PlayFair – Analyst Rating Impact Report</h1>
-<div class="crumb">
+  <h1>PlayFair – Analyst Rating Impact Report</h1>
+  <div class="crumb">
     <a href="../stage_report.html">&#127919; State Report</a> &middot;
     <a href="../sector_rotation.html">&#128257; Sector Rotation</a> &middot;
     <a href="../fund_sentiment_main.html">&#128200; Fundamental &amp; Sentiment</a> &middot;
     <a href="../eps_report.html">&#128203; EPS Trend</a> &middot;
     <a href="../pegv/mean_reversion.html">&#9878; Mean Reversion</a> &middot;
     <a href="../index.html">&#128214; Guide</a>
-</div>
-<div class="meta" id="meta">loading analyst impact data holder ...</div>
+  </div>
+  <div class="meta" id="meta">loading analyst impact data holder ...</div>
 
-<!-- Stock Search Bar -->
-<div class="search-bar">
+  <!-- Stock Search Bar -->
+  <div class="search-bar">
     <strong>Stock Search:</strong>
     <input id="anSearch" list="anCodes" placeholder="code / WKN / ISIN / company name" autocomplete="off">
     <datalist id="anCodes"></datalist>
     <button id="anGo" type="button">&#128269; Jump</button>
-</div>
+  </div>
 
-<!-- Quick Stat Cards -->
-<div class="grid-summary" id="summaryGrid">
+  <!-- Quick Stat Cards -->
+  <div class="grid-summary" id="summaryGrid">
     <div class="stat-card">
-        <div class="title">Total Events</div>
-        <div class="val" id="stTotal">–</div>
-        <div class="sub" id="stStocks">– stocks</div>
+      <div class="title">Total Events</div>
+      <div class="val" id="stTotal">–</div>
+      <div class="sub" id="stStocks">– stocks</div>
     </div>
     <div class="stat-card">
-        <div class="title">BUY Ratings</div>
-        <div class="val" id="stBuy" style="color:#0b8a3e;">–</div>
-        <div class="sub" id="stBuyHit">Hit% D+3 / M+1</div>
+      <div class="title">BUY Ratings</div>
+      <div class="val" id="stBuy" style="color:#0b8a3e;">–</div>
+      <div class="sub" id="stBuyHit">Hit% D+3 / M+1</div>
     </div>
     <div class="stat-card">
-        <div class="title">HOLD Ratings</div>
-        <div class="val" id="stHold" style="color:#ca8a04;">–</div>
-        <div class="sub" id="stHoldSub">Neutral / Market-Perform</div>
+      <div class="title">HOLD Ratings</div>
+      <div class="val" id="stHold" style="color:#ca8a04;">–</div>
+      <div class="sub" id="stHoldSub">Neutral / Market-Perform</div>
     </div>
     <div class="stat-card">
-        <div class="title">SELL Ratings</div>
-        <div class="val" id="stSell" style="color:#c5221f;">–</div>
-        <div class="sub" id="stSellHit">Underweight / Cut</div>
+      <div class="title">SELL Ratings</div>
+      <div class="val" id="stSell" style="color:#c5221f;">–</div>
+      <div class="sub" id="stSellHit">Underweight / Cut</div>
     </div>
-</div>
+  </div>
 
-<!-- Filter Bar -->
-<div class="filter-bar" id="sentimentBar">
+  <!-- Filter Bar -->
+  <div class="filter-bar" id="sentimentBar">
     <span>Sentiment:</span>
     <button class="active" data-sent="ALL">ALL</button>
     <button data-sent="BUY">BUY</button>
@@ -200,518 +588,525 @@
     <button data-sent="SELL">SELL</button>
 
     <span style="margin-left:14px;">Index:</span>
-    <select id="idxSel"><option value="ALL">ALL</option></select>
+    <select id="idxSel">
+      <option value="ALL">ALL</option>
+    </select>
 
     <span style="margin-left:14px;">Bank:</span>
-    <select id="bankSel"><option value="ALL">ALL</option></select>
+    <select id="bankSel">
+      <option value="ALL">ALL</option>
+    </select>
 
     <input id="tableSearch" placeholder="filter stock, bank, headline..." autocomplete="off">
-</div>
+  </div>
 
-<!-- Scrollable Events Table -->
-<div class="scroll-box">
+  <!-- Scrollable Events Table -->
+  <div class="scroll-box">
     <table class="dataTable" id="impactTable">
-        <thead>
-            <tr>
-                <th data-col="stock_code">Stock &#x21C5;</th>
-                <th data-col="index">Index &#x21C5;</th>
-                <th data-col="event_date">Date &#x21C5;</th>
-                <th data-col="analyst_bank">Bank &#x21C5;</th>
-                <th data-col="sentiment">Sent &#x21C5;</th>
-                <th data-col="price_t0">Price T0 &#x21C5;</th>
-                <th data-col="ret_d0">D+0 &#x21C5;</th>
-                <th data-col="ret_d1">D+1 &#x21C5;</th>
-                <th data-col="ret_d3">D+3 &#x21C5;</th>
-                <th data-col="ret_w1">W+1 &#x21C5;</th>
-                <th data-col="ret_w2">W+2 &#x21C5;</th>
-                <th data-col="ret_m1">M+1 &#x21C5;</th>
-                <th data-col="ret_m3">M+3 &#x21C5;</th>
-                <th data-col="ret_m6">M+6 &#x21C5;</th>
-                <th data-col="ret_m12">M+12 &#x21C5;</th>
-                <th>Headline</th>
-            </tr>
-        </thead>
-        <tbody id="impactBody"></tbody>
+      <thead>
+        <tr>
+          <th data-col="stock_code">Stock &#x21C5;</th>
+          <th data-col="index">Index &#x21C5;</th>
+          <th data-col="event_date">Date &#x21C5;</th>
+          <th data-col="analyst_bank">Bank &#x21C5;</th>
+          <th data-col="sentiment">Sent &#x21C5;</th>
+          <th data-col="price_t0">Price T0 &#x21C5;</th>
+          <th data-col="ret_d0">D+0 &#x21C5;</th>
+          <th data-col="ret_d1">D+1 &#x21C5;</th>
+          <th data-col="ret_d3">D+3 &#x21C5;</th>
+          <th data-col="ret_w1">W+1 &#x21C5;</th>
+          <th data-col="ret_w2">W+2 &#x21C5;</th>
+          <th data-col="ret_m1">M+1 &#x21C5;</th>
+          <th data-col="ret_m3">M+3 &#x21C5;</th>
+          <th data-col="ret_m6">M+6 &#x21C5;</th>
+          <th data-col="ret_m12">M+12 &#x21C5;</th>
+          <th>Headline</th>
+        </tr>
+      </thead>
+      <tbody id="impactBody"></tbody>
     </table>
-</div>
-<div class="count-note" id="countNote"></div>
+  </div>
+  <div class="count-note" id="countNote"></div>
 
-<!-- Bank Aggregate Statistics Section -->
-<div class="agg-section">
+  <!-- Bank Aggregate Statistics Section -->
+  <div class="agg-section">
     <h2>Bank Aggregate Track Record &amp; Hit Rates</h2>
-    <div class="meta">Hit-rate represents % of rating events where stock price moved profitably (positive for BUY/HOLD, negative for SELL). Minimum n &ge; 3.</div>
+    <div class="meta">Hit-rate represents % of rating events where stock price moved profitably (positive for BUY/HOLD,
+      negative for SELL). Minimum n &ge; 3.</div>
     <div class="agg-cards" id="aggCards"></div>
-</div>
+  </div>
 
-<div class="footer">
-    PlayFair Analyst Impact Report &copy; 2026 &bull; Measurements at standardised trading windows (D+0, D+1, D+3, W+1, W+2, M+1, M+3, M+6, M+12) &bull; Correlates analyst sentiment with subsequent stock price evolution.
-</div>
+  <div class="footer">
+    PlayFair Analyst Impact Report &copy; 2026 &bull; Measurements at standardised trading windows (D+0, D+1, D+3, W+1,
+    W+2, M+1, M+3, M+6, M+12) &bull; Correlates analyst sentiment with subsequent stock price evolution.
+  </div>
 
-<!-- Rating Event Detail Modal -->
-<div id="impactModal" class="modal-backdrop" onclick="closeModal(event)">
+  <!-- Rating Event Detail Modal -->
+  <div id="impactModal" class="modal-backdrop" onclick="closeModal(event)">
     <div class="modal-card">
-        <div class="modal-header">
-            <h3 id="modalTitle">Rating Detail</h3>
-            <button type="button" class="modal-close" onclick="closeModal()">&times;</button>
-        </div>
-        <div class="modal-body" id="modalBody"></div>
+      <div class="modal-header">
+        <h3 id="modalTitle">Rating Detail</h3>
+        <button type="button" class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
     </div>
-</div>
+  </div>
 
-<script src="analyst_impact_data.js"></script>
-<script src="../delist.js"></script>
-<script>
-(function () {
-  'use strict';
+  <script src="analyst_impact_data.js"></script>
+  <script src="../delist.js"></script>
+  <script>
+    (function () {
+      'use strict';
 
-  var D = window.ANALYST_IMPACT_DATA || null;
-  var RECORDS = [];
-  var BY_CODE = {};
-  var CURRENT_SENT = 'ALL';
-  var CURRENT_INDEX = 'ALL';
-  var CURRENT_BANK = 'ALL';
-  var CURRENT_SORT_COL = 'event_date';
-  var SORT_ASC = false;
+      var D = window.ANALYST_IMPACT_DATA || null;
+      var RECORDS = [];
+      var BY_CODE = {};
+      var CURRENT_SENT = 'ALL';
+      var CURRENT_INDEX = 'ALL';
+      var CURRENT_BANK = 'ALL';
+      var CURRENT_SORT_COL = 'event_date';
+      var SORT_ASC = false;
 
-  var WINDOW_KEYS = ['ret_d0', 'ret_d1', 'ret_d3', 'ret_w1', 'ret_w2', 'ret_m1', 'ret_m3', 'ret_m6', 'ret_m12'];
-  var WINDOW_LABELS = ['D+0', 'D+1', 'D+3', 'W+1', 'W+2', 'M+1', 'M+3', 'M+6', 'M+12'];
+      var WINDOW_KEYS = ['ret_d0', 'ret_d1', 'ret_d3', 'ret_w1', 'ret_w2', 'ret_m1', 'ret_m3', 'ret_m6', 'ret_m12'];
+      var WINDOW_LABELS = ['D+0', 'D+1', 'D+3', 'W+1', 'W+2', 'M+1', 'M+3', 'M+6', 'M+12'];
 
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  }
-  function num(v, digits) {
-    return (v == null || isNaN(v)) ? '\u2013' : Number(v).toFixed(digits == null ? 2 : digits);
-  }
-  function pct(v, digits, sign) {
-    if (v == null || isNaN(v)) return '\u2013';
-    var d = digits == null ? 1 : digits;
-    var s = (sign && v > 0) ? '+' : '';
-    return s + Number(v).toFixed(d) + '%';
-  }
-  function cellPct(v, digits) {
-    if (v == null || isNaN(v)) return '<td class="num" style="color:#94a3b8;">\u2013</td>';
-    var cls = v < 0 ? ' neg' : (v > 0 ? ' pos' : '');
-    return '<td class="num' + cls + '">' + esc(pct(v, digits, true)) + '</td>';
-  }
-  function sentPill(st) {
-    var s = String(st || '').toUpperCase();
-    var cls = s === 'BUY' ? 's-buy' : (s === 'SELL' ? 's-sell' : (s === 'HOLD' ? 's-hold' : 's-dim'));
-    return '<span class="pill ' + cls + '">' + esc(s) + '</span>';
-  }
-
-  function init() {
-    if (!D) {
-      document.getElementById('meta').innerHTML =
-        '<strong>No data holder found.</strong> Run: ' +
-        '<code>python WSHOME/tl_analyst_impact.py --reportall</code>';
-      document.getElementById('countNote').textContent = '';
-      return;
-    }
-    RECORDS = D.records || [];
-    RECORDS.forEach(function (r) {
-      var c = String(r.stock_code).toUpperCase();
-      if (!BY_CODE[c]) BY_CODE[c] = [];
-      BY_CODE[c].push(r);
-    });
-
-    var meta = D.meta || {};
-    var idxs = D.indexes || ['DAX', 'MDAX', 'SDAX', 'PDAX', 'CDAX'];
-    document.getElementById('meta').innerHTML =
-      'Generated: <strong>' + esc(D.generated) + '</strong> &middot; ' +
-      'Date Range: <strong>' + esc(meta.start_date || '') + ' \u2192 ' + esc(meta.end_date || '') + '</strong> &middot; ' +
-      'Indexes: <strong>' + esc(idxs.join(', ')) + '</strong> &middot; ' +
-      'Total Events: <strong>' + RECORDS.length + '</strong>';
-
-    // Summary cards
-    var buyCnt = 0, sellCnt = 0, holdCnt = 0;
-    var stocksSet = {};
-    RECORDS.forEach(function (r) {
-      stocksSet[r.stock_code] = 1;
-      if (r.sentiment === 'BUY') buyCnt++;
-      else if (r.sentiment === 'SELL') sellCnt++;
-      else if (r.sentiment === 'HOLD') holdCnt++;
-    });
-    document.getElementById('stTotal').textContent = RECORDS.length;
-    document.getElementById('stStocks').textContent = Object.keys(stocksSet).length + ' stocks';
-    document.getElementById('stBuy').textContent = buyCnt;
-    document.getElementById('stSell').textContent = sellCnt;
-    document.getElementById('stHold').textContent = holdCnt;
-
-    // Index dropdown
-    var idxSeen = {};
-    RECORDS.forEach(function (r) { if (r.index) idxSeen[r.index] = 1; });
-    var idxSel = document.getElementById('idxSel');
-    Object.keys(idxSeen).sort().forEach(function (idx) {
-      var opt = document.createElement('option');
-      opt.value = idx; opt.textContent = idx;
-      idxSel.appendChild(opt);
-    });
-
-    // Bank dropdown
-    var bankSeen = {};
-    RECORDS.forEach(function (r) { if (r.analyst_bank) bankSeen[r.analyst_bank] = 1; });
-    var bankSel = document.getElementById('bankSel');
-    Object.keys(bankSeen).sort().forEach(function (b) {
-      var opt = document.createElement('option');
-      opt.value = b; opt.textContent = b;
-      bankSel.appendChild(opt);
-    });
-
-    initSearch();
-    renderTable();
-    renderAggregates();
-  }
-
-  function visibleRecords() {
-    var q = (document.getElementById('tableSearch').value || '').trim().toUpperCase();
-    var list = RECORDS.filter(function (r) {
-      if (CURRENT_SENT !== 'ALL' && String(r.sentiment || '') !== CURRENT_SENT) return false;
-      if (CURRENT_INDEX !== 'ALL' && String(r.index || '') !== CURRENT_INDEX) return false;
-      if (CURRENT_BANK !== 'ALL' && String(r.analyst_bank || '') !== CURRENT_BANK) return false;
-      if (q) {
-        var str = (r.stock_code + ' ' + (r.index || '') + ' ' + (r.analyst_bank || '') + ' ' +
-                   (r.sentiment || '') + ' ' + (r.headline || '')).toUpperCase();
-        if (str.indexOf(q) < 0) return false;
+      function esc(s) {
+        return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
       }
-      return true;
-    });
-
-    list.sort(function (a, b) {
-      var col = CURRENT_SORT_COL;
-      if (col === 'stock_code' || col === 'index' || col === 'event_date' ||
-          col === 'analyst_bank' || col === 'sentiment') {
-        var sa = String(a[col] || ''), sb = String(b[col] || '');
-        if (sa < sb) return SORT_ASC ? -1 : 1;
-        if (sa > sb) return SORT_ASC ? 1 : -1;
-        return 0;
+      function num(v, digits) {
+        return (v == null || isNaN(v)) ? '\u2013' : Number(v).toFixed(digits == null ? 2 : digits);
       }
-      var va = (a[col] == null || isNaN(a[col])), vb = (b[col] == null || isNaN(b[col]));
-      if (va && vb) return 0;
-      if (va) return 1;
-      if (vb) return -1;
-      if (a[col] < b[col]) return SORT_ASC ? -1 : 1;
-      if (a[col] > b[col]) return SORT_ASC ? 1 : -1;
-      return 0;
-    });
-    return list;
-  }
+      function pct(v, digits, sign) {
+        if (v == null || isNaN(v)) return '\u2013';
+        var d = digits == null ? 1 : digits;
+        var s = (sign && v > 0) ? '+' : '';
+        return s + Number(v).toFixed(d) + '%';
+      }
+      function cellPct(v, digits) {
+        if (v == null || isNaN(v)) return '<td class="num" style="color:#94a3b8;">\u2013</td>';
+        var cls = v < 0 ? ' neg' : (v > 0 ? ' pos' : '');
+        return '<td class="num' + cls + '">' + esc(pct(v, digits, true)) + '</td>';
+      }
+      function sentPill(st) {
+        var s = String(st || '').toUpperCase();
+        var cls = s === 'BUY' ? 's-buy' : (s === 'SELL' ? 's-sell' : (s === 'HOLD' ? 's-hold' : 's-dim'));
+        return '<span class="pill ' + cls + '">' + esc(s) + '</span>';
+      }
 
-  function renderTable() {
-    var list = visibleRecords();
-    var h = '';
-    list.forEach(function (r, idx) {
-      h += '<tr>' +
-        '<td class="code" data-code="' + esc(r.stock_code) + '" title="View Stock Detail">' + esc(r.stock_code) + '</td>' +
-        '<td><span class="pill s-dim">' + esc(r.index || '–') + '</span></td>' +
-        '<td>' + esc(r.event_date) + '</td>' +
-        '<td style="font-weight:600; color:#1e40af;">' + esc(r.analyst_bank || 'Unknown') + '</td>' +
-        '<td>' + sentPill(r.sentiment) + '</td>' +
-        '<td class="num">' + (r.price_t0 ? num(r.price_t0, 2) : '–') + '</td>' +
-        cellPct(r.ret_d0) +
-        cellPct(r.ret_d1) +
-        cellPct(r.ret_d3) +
-        cellPct(r.ret_w1) +
-        cellPct(r.ret_w2) +
-        cellPct(r.ret_m1) +
-        cellPct(r.ret_m3) +
-        cellPct(r.ret_m6) +
-        cellPct(r.ret_m12) +
-        '<td class="headline" data-idx="' + idx + '" title="' + esc(r.headline) + '">' + esc(r.headline) + '</td>' +
-        '</tr>';
-    });
-    document.getElementById('impactBody').innerHTML = h ||
-      '<tr><td colspan="16" style="color:#94a3b8; text-align:center; padding:20px;">No analyst ratings match your filter.</td></tr>';
-    document.getElementById('countNote').textContent =
-      'Showing ' + list.length + ' of ' + RECORDS.length + ' analyst ratings';
-
-    var ths = document.querySelectorAll('#impactTable th[data-col]');
-    for (var i = 0; i < ths.length; i++) {
-      var isCol = ths[i].getAttribute('data-col') === CURRENT_SORT_COL;
-      ths[i].classList.toggle('sorted', isCol);
-    }
-  }
-
-  function renderAggregates() {
-    var aggs = (D && D.aggregates) || {};
-    var container = document.getElementById('aggCards');
-    if (!container) return;
-
-    var banks = Object.keys(aggs).sort();
-    if (!banks.length) {
-      container.innerHTML = '<div style="color:#94a3b8;">No aggregate stats available.</div>';
-      return;
-    }
-
-    var html = '';
-    banks.forEach(function (b) {
-      var sentGroups = aggs[b];
-      ['BUY', 'SELL', 'HOLD'].forEach(function (sent) {
-        var g = sentGroups[sent];
-        if (!g || !g.n || g.n < 3) return;
-        var sPill = sentPill(sent);
-        html += '<div class="agg-card">' +
-          '<h4><span>' + esc(b) + '</span> ' + sPill + ' <span class="pill s-dim">n=' + g.n + '</span></h4>' +
-          '<table class="miniTable">' +
-          '<thead><tr><th>Win</th><th>Mean</th><th>Median</th><th>Hit%</th><th>Min</th><th>Max</th></tr></thead><tbody>';
-
-        WINDOW_LABELS.forEach(function (lbl) {
-          var row = g.windows && g.windows[lbl];
-          if (!row) return;
-          var hitColor = row.hit_rate >= 55 ? '#0b8a3e' : (row.hit_rate < 45 ? '#c5221f' : '#64748b');
-          html += '<tr>' +
-            '<td><strong>' + lbl + '</strong></td>' +
-            '<td style="color:' + (row.mean > 0 ? '#0b8a3e' : (row.mean < 0 ? '#c5221f' : 'inherit')) + '">' + pct(row.mean, 1, true) + '</td>' +
-            '<td>' + pct(row.median, 1, true) + '</td>' +
-            '<td style="font-weight:700; color:' + hitColor + '">' + row.hit_rate.toFixed(0) + '%</td>' +
-            '<td style="color:#64748b;">' + pct(row.min, 1, true) + '</td>' +
-            '<td style="color:#64748b;">' + pct(row.max, 1, true) + '</td>' +
-            '</tr>';
+      function init() {
+        if (!D) {
+          document.getElementById('meta').innerHTML =
+            '<strong>No data holder found.</strong> Run: ' +
+            '<code>python WSHOME/tl_analyst_impact.py --reportall</code>';
+          document.getElementById('countNote').textContent = '';
+          return;
+        }
+        RECORDS = D.records || [];
+        RECORDS.forEach(function (r) {
+          var c = String(r.stock_code).toUpperCase();
+          if (!BY_CODE[c]) BY_CODE[c] = [];
+          BY_CODE[c].push(r);
         });
 
-        html += '</tbody></table></div>';
+        var meta = D.meta || {};
+        var idxs = D.indexes || ['DAX', 'MDAX', 'SDAX', 'PDAX', 'CDAX'];
+        document.getElementById('meta').innerHTML =
+          'Generated: <strong>' + esc(D.generated) + '</strong> &middot; ' +
+          'Date Range: <strong>' + esc(meta.start_date || '') + ' \u2192 ' + esc(meta.end_date || '') + '</strong> &middot; ' +
+          'Indexes: <strong>' + esc(idxs.join(', ')) + '</strong> &middot; ' +
+          'Total Events: <strong>' + RECORDS.length + '</strong>';
+
+        // Summary cards
+        var buyCnt = 0, sellCnt = 0, holdCnt = 0;
+        var stocksSet = {};
+        RECORDS.forEach(function (r) {
+          stocksSet[r.stock_code] = 1;
+          if (r.sentiment === 'BUY') buyCnt++;
+          else if (r.sentiment === 'SELL') sellCnt++;
+          else if (r.sentiment === 'HOLD') holdCnt++;
+        });
+        document.getElementById('stTotal').textContent = RECORDS.length;
+        document.getElementById('stStocks').textContent = Object.keys(stocksSet).length + ' stocks';
+        document.getElementById('stBuy').textContent = buyCnt;
+        document.getElementById('stSell').textContent = sellCnt;
+        document.getElementById('stHold').textContent = holdCnt;
+
+        // Index dropdown
+        var idxSeen = {};
+        RECORDS.forEach(function (r) { if (r.index) idxSeen[r.index] = 1; });
+        var idxSel = document.getElementById('idxSel');
+        Object.keys(idxSeen).sort().forEach(function (idx) {
+          var opt = document.createElement('option');
+          opt.value = idx; opt.textContent = idx;
+          idxSel.appendChild(opt);
+        });
+
+        // Bank dropdown
+        var bankSeen = {};
+        RECORDS.forEach(function (r) { if (r.analyst_bank) bankSeen[r.analyst_bank] = 1; });
+        var bankSel = document.getElementById('bankSel');
+        Object.keys(bankSeen).sort().forEach(function (b) {
+          var opt = document.createElement('option');
+          opt.value = b; opt.textContent = b;
+          bankSel.appendChild(opt);
+        });
+
+        initSearch();
+        renderTable();
+        renderAggregates();
+      }
+
+      function visibleRecords() {
+        var q = (document.getElementById('tableSearch').value || '').trim().toUpperCase();
+        var list = RECORDS.filter(function (r) {
+          if (CURRENT_SENT !== 'ALL' && String(r.sentiment || '') !== CURRENT_SENT) return false;
+          if (CURRENT_INDEX !== 'ALL' && String(r.index || '') !== CURRENT_INDEX) return false;
+          if (CURRENT_BANK !== 'ALL' && String(r.analyst_bank || '') !== CURRENT_BANK) return false;
+          if (q) {
+            var str = (r.stock_code + ' ' + (r.index || '') + ' ' + (r.analyst_bank || '') + ' ' +
+              (r.sentiment || '') + ' ' + (r.headline || '')).toUpperCase();
+            if (str.indexOf(q) < 0) return false;
+          }
+          return true;
+        });
+
+        list.sort(function (a, b) {
+          var col = CURRENT_SORT_COL;
+          if (col === 'stock_code' || col === 'index' || col === 'event_date' ||
+            col === 'analyst_bank' || col === 'sentiment') {
+            var sa = String(a[col] || ''), sb = String(b[col] || '');
+            if (sa < sb) return SORT_ASC ? -1 : 1;
+            if (sa > sb) return SORT_ASC ? 1 : -1;
+            return 0;
+          }
+          var va = (a[col] == null || isNaN(a[col])), vb = (b[col] == null || isNaN(b[col]));
+          if (va && vb) return 0;
+          if (va) return 1;
+          if (vb) return -1;
+          if (a[col] < b[col]) return SORT_ASC ? -1 : 1;
+          if (a[col] > b[col]) return SORT_ASC ? 1 : -1;
+          return 0;
+        });
+        return list;
+      }
+
+      function renderTable() {
+        var list = visibleRecords();
+        var h = '';
+        list.forEach(function (r, idx) {
+          h += '<tr>' +
+            '<td class="code" data-code="' + esc(r.stock_code) + '" title="View Stock Detail">' + esc(r.stock_code) + '</td>' +
+            '<td><span class="pill s-dim">' + esc(r.index || '–') + '</span></td>' +
+            '<td>' + esc(r.event_date) + '</td>' +
+            '<td style="font-weight:600; color:#1e40af;">' + esc(r.analyst_bank || 'Unknown') + '</td>' +
+            '<td>' + sentPill(r.sentiment) + '</td>' +
+            '<td class="num">' + (r.price_t0 ? num(r.price_t0, 2) : '–') + '</td>' +
+            cellPct(r.ret_d0) +
+            cellPct(r.ret_d1) +
+            cellPct(r.ret_d3) +
+            cellPct(r.ret_w1) +
+            cellPct(r.ret_w2) +
+            cellPct(r.ret_m1) +
+            cellPct(r.ret_m3) +
+            cellPct(r.ret_m6) +
+            cellPct(r.ret_m12) +
+            '<td class="headline" data-idx="' + idx + '" title="' + esc(r.headline) + '">' + esc(r.headline) + '</td>' +
+            '</tr>';
+        });
+        document.getElementById('impactBody').innerHTML = h ||
+          '<tr><td colspan="16" style="color:#94a3b8; text-align:center; padding:20px;">No analyst ratings match your filter.</td></tr>';
+        document.getElementById('countNote').textContent =
+          'Showing ' + list.length + ' of ' + RECORDS.length + ' analyst ratings';
+
+        var ths = document.querySelectorAll('#impactTable th[data-col]');
+        for (var i = 0; i < ths.length; i++) {
+          var isCol = ths[i].getAttribute('data-col') === CURRENT_SORT_COL;
+          ths[i].classList.toggle('sorted', isCol);
+        }
+      }
+
+      function renderAggregates() {
+        var aggs = (D && D.aggregates) || {};
+        var container = document.getElementById('aggCards');
+        if (!container) return;
+
+        var banks = Object.keys(aggs).sort();
+        if (!banks.length) {
+          container.innerHTML = '<div style="color:#94a3b8;">No aggregate stats available.</div>';
+          return;
+        }
+
+        var html = '';
+        banks.forEach(function (b) {
+          var sentGroups = aggs[b];
+          ['BUY', 'SELL', 'HOLD'].forEach(function (sent) {
+            var g = sentGroups[sent];
+            if (!g || !g.n || g.n < 3) return;
+            var sPill = sentPill(sent);
+            html += '<div class="agg-card">' +
+              '<h4><span>' + esc(b) + '</span> ' + sPill + ' <span class="pill s-dim">n=' + g.n + '</span></h4>' +
+              '<table class="miniTable">' +
+              '<thead><tr><th>Win</th><th>Mean</th><th>Median</th><th>Hit%</th><th>Min</th><th>Max</th></tr></thead><tbody>';
+
+            WINDOW_LABELS.forEach(function (lbl) {
+              var row = g.windows && g.windows[lbl];
+              if (!row) return;
+              var hitColor = row.hit_rate >= 55 ? '#0b8a3e' : (row.hit_rate < 45 ? '#c5221f' : '#64748b');
+              html += '<tr>' +
+                '<td><strong>' + lbl + '</strong></td>' +
+                '<td style="color:' + (row.mean > 0 ? '#0b8a3e' : (row.mean < 0 ? '#c5221f' : 'inherit')) + '">' + pct(row.mean, 1, true) + '</td>' +
+                '<td>' + pct(row.median, 1, true) + '</td>' +
+                '<td style="font-weight:700; color:' + hitColor + '">' + row.hit_rate.toFixed(0) + '%</td>' +
+                '<td style="color:#64748b;">' + pct(row.min, 1, true) + '</td>' +
+                '<td style="color:#64748b;">' + pct(row.max, 1, true) + '</td>' +
+                '</tr>';
+            });
+
+            html += '</tbody></table></div>';
+          });
+        });
+        container.innerHTML = html || '<div style="color:#94a3b8;">No banks with &ge; 3 samples.</div>';
+      }
+
+      function row(k, v) {
+        return '<div class="row"><span class="k">' + esc(k) + '</span><span class="v">' + v + '</span></div>';
+      }
+
+      function openDetailByRecord(r) {
+        if (!r) return;
+        document.getElementById('modalTitle').innerHTML =
+          esc(r.stock_code) + ' &middot; ' + esc(r.analyst_bank || 'Unknown') + ' ' + sentPill(r.sentiment) +
+          (r.index ? ' <span class="pill s-dim">' + esc(r.index) + '</span>' : '');
+
+        var h = '<div class="card-block"><h4>Analyst Headline</h4>' +
+          '<div class="headline-full">' + esc(r.headline || 'No headline available') + '</div></div>';
+
+        h += '<div class="card-block"><h4>Event Overview</h4>' +
+          row('Event Date', esc(r.event_date)) +
+          row('Rating Sentiment', sentPill(r.sentiment)) +
+          row('Analyst Bank', esc(r.analyst_bank || 'Unknown')) +
+          row('Price T0', r.price_t0 ? (num(r.price_t0, 2) + ' EUR') : '–') +
+          row('Index', esc(r.index || '–')) +
+          '</div>';
+
+        h += '<div class="card-block"><h4>Measured Subsequent Performance</h4>';
+        WINDOW_KEYS.forEach(function (k, i) {
+          var val = r[k];
+          var cls = val > 0 ? '#0b8a3e' : (val < 0 ? '#c5221f' : 'inherit');
+          var valHtml = val != null ? '<span style="color:' + cls + '; font-weight:700;">' + pct(val, 1, true) + '</span>' : '<span style="color:#94a3b8;">–</span>';
+          var bmKey = 'bm_' + k;
+          var bmVal = r[bmKey];
+          var bmHtml = bmVal != null ? ' &nbsp;<small style="color:#64748b;">(vs DAX: ' + pct(bmVal, 1, true) + ')</small>' : '';
+          h += row(WINDOW_LABELS[i], valHtml + bmHtml);
+        });
+        h += '</div>';
+
+        var allForCode = BY_CODE[String(r.stock_code).toUpperCase()] || [];
+        if (allForCode.length > 1) {
+          h += '<div class="card-block"><h4>Other Analyst Ratings for ' + esc(r.stock_code) + ' (' + allForCode.length + ' total)</h4><div class="chip-list">';
+          allForCode.forEach(function (other) {
+            if (other === r) return;
+            h += '<button type="button" class="btn-other-rating" data-date="' + esc(other.event_date) + '" data-bank="' + esc(other.analyst_bank) + '">' +
+              esc(other.event_date) + ' &bull; ' + esc(other.analyst_bank) + ' (' + esc(other.sentiment) + ')</button>';
+          });
+          h += '</div></div>';
+        }
+
+        document.getElementById('modalBody').innerHTML = h;
+        document.getElementById('impactModal').classList.add('open');
+      }
+
+      function openDetailByCode(code) {
+        var list = BY_CODE[String(code || '').toUpperCase()] || [];
+        if (!list.length) return;
+        if (list.length === 1) {
+          openDetailByRecord(list[0]);
+        } else {
+          document.getElementById('modalTitle').innerHTML =
+            esc(code) + ' &middot; ' + list.length + ' Analyst Ratings';
+          var h = '<p style="color:#64748b; margin-top:0;">Select a rating event to view performance drill-down:</p><div class="chip-list">';
+          list.forEach(function (r, idx) {
+            h += '<button type="button" class="btn-select-idx" data-idx="' + idx + '">' +
+              esc(r.event_date) + ' &bull; ' + esc(r.analyst_bank) + ' &bull; <strong>' + esc(r.sentiment) + '</strong></button>';
+          });
+          h += '</div>';
+          document.getElementById('modalBody').innerHTML = h;
+          document.getElementById('impactModal').classList.add('open');
+        }
+      }
+
+      function closeModal(e) {
+        if (!e || e.target === document.getElementById('impactModal') ||
+          (e.target.classList && e.target.classList.contains('modal-close'))) {
+          document.getElementById('impactModal').classList.remove('open');
+        }
+      }
+
+      function searchDelist(q) {
+        var list = (window.DELIST && window.DELIST.stocks) || null;
+        if (!list) return null;
+        var qu = q.toUpperCase(), ql = q.toLowerCase(), hits = [];
+        list.forEach(function (r) {
+          var code = (r.Code || '').toUpperCase(), rank = -1;
+          if (code && code.indexOf(qu) === 0) rank = 0;
+          else if (r.WKN && String(r.WKN).toUpperCase().indexOf(qu) === 0) rank = 1;
+          else if (r.ISIN && String(r.ISIN).toUpperCase().indexOf(qu) === 0) rank = 1;
+          else if (r.FullName && String(r.FullName).toLowerCase().indexOf(ql) >= 0) rank = 2;
+          else if (r.ovname && String(r.ovname).toLowerCase().indexOf(ql) >= 0) rank = 2;
+          else if (r.Name && String(r.Name).toLowerCase().indexOf(ql) >= 0) rank = 2;
+          if (rank >= 0) hits.push({ r: r, code: code, rank: rank });
+        });
+        hits.sort(function (a, b) {
+          if (a.rank !== b.rank) return a.rank - b.rank;
+          return a.code < b.code ? -1 : (a.code > b.code ? 1 : 0);
+        });
+        return hits;
+      }
+
+      function doSearch() {
+        var q = (document.getElementById('anSearch').value || '').trim();
+        if (!q) return;
+        var qu = q.toUpperCase();
+        if (BY_CODE[qu]) { openDetailByCode(qu); return; }
+        var hits = searchDelist(q);
+        var title = 'Search \u2013 ' + q;
+        if (!hits) {
+          openMessage(title, '<p class="meta">Search data not loaded.</p>');
+          return;
+        }
+        var inData = hits.map(function (x) { return x.code; })
+          .filter(function (c) { return !!BY_CODE[c]; });
+        if (!inData.length) {
+          openMessage(title, '<p class="meta">' + hits.length + ' match(es) in stock directory, but none with analyst ratings in this period.</p>');
+          return;
+        }
+        if (inData.length === 1) { openDetailByCode(inData[0]); return; }
+        var h = '<div class="chip-list">';
+        inData.forEach(function (c) {
+          h += '<button type="button" class="btn-chip" data-code="' + esc(c) + '">' + esc(c) + '</button>';
+        });
+        h += '</div><p class="count-note">Click a stock code to inspect analyst rating impact.</p>';
+        document.getElementById('modalTitle').textContent = title + ' (' + inData.length + ' in data)';
+        document.getElementById('modalBody').innerHTML = h;
+        document.getElementById('impactModal').classList.add('open');
+      }
+
+      function openMessage(title, html) {
+        document.getElementById('modalTitle').textContent = title;
+        document.getElementById('modalBody').innerHTML = html;
+        document.getElementById('impactModal').classList.add('open');
+      }
+
+      function initSearch() {
+        var dl = document.getElementById('anCodes');
+        var DS = (window.DELIST && window.DELIST.stocks) || null;
+        if (dl && DS) {
+          var dh = '';
+          DS.forEach(function (r) {
+            var c = (r.Code || '').toUpperCase();
+            if (!c) return;
+            var nm = r.FullName || r.ovname || r.Name || '';
+            dh += '<option value="' + esc(c) + '"' + (nm ? ' label="' + esc(nm) + '"' : '') + '>';
+          });
+          dl.innerHTML = dh;
+        }
+        document.getElementById('anGo').addEventListener('click', doSearch);
+        document.getElementById('anSearch').addEventListener('keydown', function (e) {
+          if (e.key === 'Enter') { e.preventDefault(); doSearch(); }
+        });
+      }
+
+      // Event Listeners
+      document.getElementById('sentimentBar').addEventListener('click', function (e) {
+        var b = e.target;
+        if (!b || b.tagName !== 'BUTTON' || !b.getAttribute('data-sent')) return;
+        CURRENT_SENT = b.getAttribute('data-sent');
+        var btns = this.querySelectorAll('button');
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].classList.toggle('active', btns[i] === b);
+        }
+        renderTable();
       });
-    });
-    container.innerHTML = html || '<div style="color:#94a3b8;">No banks with &ge; 3 samples.</div>';
-  }
 
-  function row(k, v) {
-    return '<div class="row"><span class="k">' + esc(k) + '</span><span class="v">' + v + '</span></div>';
-  }
-
-  function openDetailByRecord(r) {
-    if (!r) return;
-    document.getElementById('modalTitle').innerHTML =
-      esc(r.stock_code) + ' &middot; ' + esc(r.analyst_bank || 'Unknown') + ' ' + sentPill(r.sentiment) +
-      (r.index ? ' <span class="pill s-dim">' + esc(r.index) + '</span>' : '');
-
-    var h = '<div class="card-block"><h4>Analyst Headline</h4>' +
-      '<div class="headline-full">' + esc(r.headline || 'No headline available') + '</div></div>';
-
-    h += '<div class="card-block"><h4>Event Overview</h4>' +
-      row('Event Date', esc(r.event_date)) +
-      row('Rating Sentiment', sentPill(r.sentiment)) +
-      row('Analyst Bank', esc(r.analyst_bank || 'Unknown')) +
-      row('Price T0', r.price_t0 ? (num(r.price_t0, 2) + ' EUR') : '–') +
-      row('Index', esc(r.index || '–')) +
-      '</div>';
-
-    h += '<div class="card-block"><h4>Measured Subsequent Performance</h4>';
-    WINDOW_KEYS.forEach(function (k, i) {
-      var val = r[k];
-      var cls = val > 0 ? '#0b8a3e' : (val < 0 ? '#c5221f' : 'inherit');
-      var valHtml = val != null ? '<span style="color:' + cls + '; font-weight:700;">' + pct(val, 1, true) + '</span>' : '<span style="color:#94a3b8;">–</span>';
-      var bmKey = 'bm_' + k;
-      var bmVal = r[bmKey];
-      var bmHtml = bmVal != null ? ' &nbsp;<small style="color:#64748b;">(vs DAX: ' + pct(bmVal, 1, true) + ')</small>' : '';
-      h += row(WINDOW_LABELS[i], valHtml + bmHtml);
-    });
-    h += '</div>';
-
-    var allForCode = BY_CODE[String(r.stock_code).toUpperCase()] || [];
-    if (allForCode.length > 1) {
-      h += '<div class="card-block"><h4>Other Analyst Ratings for ' + esc(r.stock_code) + ' (' + allForCode.length + ' total)</h4><div class="chip-list">';
-      allForCode.forEach(function (other) {
-        if (other === r) return;
-        h += '<button type="button" class="btn-other-rating" data-date="' + esc(other.event_date) + '" data-bank="' + esc(other.analyst_bank) + '">' +
-          esc(other.event_date) + ' &bull; ' + esc(other.analyst_bank) + ' (' + esc(other.sentiment) + ')</button>';
+      document.getElementById('idxSel').addEventListener('change', function () {
+        CURRENT_INDEX = this.value;
+        renderTable();
       });
-      h += '</div></div>';
-    }
 
-    document.getElementById('modalBody').innerHTML = h;
-    document.getElementById('impactModal').classList.add('open');
-  }
-
-  function openDetailByCode(code) {
-    var list = BY_CODE[String(code || '').toUpperCase()] || [];
-    if (!list.length) return;
-    if (list.length === 1) {
-      openDetailByRecord(list[0]);
-    } else {
-      document.getElementById('modalTitle').innerHTML =
-        esc(code) + ' &middot; ' + list.length + ' Analyst Ratings';
-      var h = '<p style="color:#64748b; margin-top:0;">Select a rating event to view performance drill-down:</p><div class="chip-list">';
-      list.forEach(function (r, idx) {
-        h += '<button type="button" class="btn-select-idx" data-idx="' + idx + '">' +
-          esc(r.event_date) + ' &bull; ' + esc(r.analyst_bank) + ' &bull; <strong>' + esc(r.sentiment) + '</strong></button>';
+      document.getElementById('bankSel').addEventListener('change', function () {
+        CURRENT_BANK = this.value;
+        renderTable();
       });
-      h += '</div>';
-      document.getElementById('modalBody').innerHTML = h;
-      document.getElementById('impactModal').classList.add('open');
-    }
-  }
 
-  function closeModal(e) {
-    if (!e || e.target === document.getElementById('impactModal') ||
-        (e.target.classList && e.target.classList.contains('modal-close'))) {
-      document.getElementById('impactModal').classList.remove('open');
-    }
-  }
+      document.getElementById('tableSearch').addEventListener('input', renderTable);
 
-  function searchDelist(q) {
-    var list = (window.DELIST && window.DELIST.stocks) || null;
-    if (!list) return null;
-    var qu = q.toUpperCase(), ql = q.toLowerCase(), hits = [];
-    list.forEach(function (r) {
-      var code = (r.Code || '').toUpperCase(), rank = -1;
-      if (code && code.indexOf(qu) === 0) rank = 0;
-      else if (r.WKN && String(r.WKN).toUpperCase().indexOf(qu) === 0) rank = 1;
-      else if (r.ISIN && String(r.ISIN).toUpperCase().indexOf(qu) === 0) rank = 1;
-      else if (r.FullName && String(r.FullName).toLowerCase().indexOf(ql) >= 0) rank = 2;
-      else if (r.ovname && String(r.ovname).toLowerCase().indexOf(ql) >= 0) rank = 2;
-      else if (r.Name && String(r.Name).toLowerCase().indexOf(ql) >= 0) rank = 2;
-      if (rank >= 0) hits.push({ r: r, code: code, rank: rank });
-    });
-    hits.sort(function (a, b) {
-      if (a.rank !== b.rank) return a.rank - b.rank;
-      return a.code < b.code ? -1 : (a.code > b.code ? 1 : 0);
-    });
-    return hits;
-  }
-
-  function doSearch() {
-    var q = (document.getElementById('anSearch').value || '').trim();
-    if (!q) return;
-    var qu = q.toUpperCase();
-    if (BY_CODE[qu]) { openDetailByCode(qu); return; }
-    var hits = searchDelist(q);
-    var title = 'Search \u2013 ' + q;
-    if (!hits) {
-      openMessage(title, '<p class="meta">Search data not loaded.</p>');
-      return;
-    }
-    var inData = hits.map(function (x) { return x.code; })
-                     .filter(function (c) { return !!BY_CODE[c]; });
-    if (!inData.length) {
-      openMessage(title, '<p class="meta">' + hits.length + ' match(es) in stock directory, but none with analyst ratings in this period.</p>');
-      return;
-    }
-    if (inData.length === 1) { openDetailByCode(inData[0]); return; }
-    var h = '<div class="chip-list">';
-    inData.forEach(function (c) {
-      h += '<button type="button" class="btn-chip" data-code="' + esc(c) + '">' + esc(c) + '</button>';
-    });
-    h += '</div><p class="count-note">Click a stock code to inspect analyst rating impact.</p>';
-    document.getElementById('modalTitle').textContent = title + ' (' + inData.length + ' in data)';
-    document.getElementById('modalBody').innerHTML = h;
-    document.getElementById('impactModal').classList.add('open');
-  }
-
-  function openMessage(title, html) {
-    document.getElementById('modalTitle').textContent = title;
-    document.getElementById('modalBody').innerHTML = html;
-    document.getElementById('impactModal').classList.add('open');
-  }
-
-  function initSearch() {
-    var dl = document.getElementById('anCodes');
-    var DS = (window.DELIST && window.DELIST.stocks) || null;
-    if (dl && DS) {
-      var dh = '';
-      DS.forEach(function (r) {
-        var c = (r.Code || '').toUpperCase();
-        if (!c) return;
-        var nm = r.FullName || r.ovname || r.Name || '';
-        dh += '<option value="' + esc(c) + '"' + (nm ? ' label="' + esc(nm) + '"' : '') + '>';
+      document.getElementById('impactTable').addEventListener('click', function (e) {
+        var th = e.target.closest('th');
+        if (th && th.getAttribute('data-col')) {
+          var col = th.getAttribute('data-col');
+          if (CURRENT_SORT_COL === col) { SORT_ASC = !SORT_ASC; }
+          else { CURRENT_SORT_COL = col; SORT_ASC = (col === 'stock_code' || col === 'analyst_bank' || col === 'sentiment'); }
+          renderTable();
+          return;
+        }
+        var tdCode = e.target.closest('td.code');
+        if (tdCode && tdCode.getAttribute('data-code')) {
+          openDetailByCode(tdCode.getAttribute('data-code'));
+          return;
+        }
+        var tdH = e.target.closest('td.headline');
+        if (tdH) {
+          var idx = parseInt(tdH.getAttribute('data-idx'), 10);
+          var list = visibleRecords();
+          if (list[idx]) openDetailByRecord(list[idx]);
+        }
       });
-      dl.innerHTML = dh;
-    }
-    document.getElementById('anGo').addEventListener('click', doSearch);
-    document.getElementById('anSearch').addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') { e.preventDefault(); doSearch(); }
-    });
-  }
 
-  // Event Listeners
-  document.getElementById('sentimentBar').addEventListener('click', function (e) {
-    var b = e.target;
-    if (!b || b.tagName !== 'BUTTON' || !b.getAttribute('data-sent')) return;
-    CURRENT_SENT = b.getAttribute('data-sent');
-    var btns = this.querySelectorAll('button');
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].classList.toggle('active', btns[i] === b);
-    }
-    renderTable();
-  });
-
-  document.getElementById('idxSel').addEventListener('change', function () {
-    CURRENT_INDEX = this.value;
-    renderTable();
-  });
-
-  document.getElementById('bankSel').addEventListener('change', function () {
-    CURRENT_BANK = this.value;
-    renderTable();
-  });
-
-  document.getElementById('tableSearch').addEventListener('input', renderTable);
-
-  document.getElementById('impactTable').addEventListener('click', function (e) {
-    var th = e.target.closest('th');
-    if (th && th.getAttribute('data-col')) {
-      var col = th.getAttribute('data-col');
-      if (CURRENT_SORT_COL === col) { SORT_ASC = !SORT_ASC; }
-      else { CURRENT_SORT_COL = col; SORT_ASC = (col === 'stock_code' || col === 'analyst_bank' || col === 'sentiment'); }
-      renderTable();
-      return;
-    }
-    var tdCode = e.target.closest('td.code');
-    if (tdCode && tdCode.getAttribute('data-code')) {
-      openDetailByCode(tdCode.getAttribute('data-code'));
-      return;
-    }
-    var tdH = e.target.closest('td.headline');
-    if (tdH) {
-      var idx = parseInt(tdH.getAttribute('data-idx'), 10);
-      var list = visibleRecords();
-      if (list[idx]) openDetailByRecord(list[idx]);
-    }
-  });
-
-  document.getElementById('modalBody').addEventListener('click', function (e) {
-    var btnChip = e.target.closest('.btn-chip');
-    if (btnChip && btnChip.getAttribute('data-code')) {
-      openDetailByCode(btnChip.getAttribute('data-code'));
-      return;
-    }
-    var btnIdx = e.target.closest('.btn-select-idx');
-    if (btnIdx && btnIdx.getAttribute('data-idx')) {
-      var idx = parseInt(btnIdx.getAttribute('data-idx'), 10);
-      var code = document.getElementById('modalTitle').textContent.split(' ')[0];
-      var list = BY_CODE[code] || [];
-      if (list[idx]) openDetailByRecord(list[idx]);
-      return;
-    }
-    var btnOther = e.target.closest('.btn-other-rating');
-    if (btnOther) {
-      var dateVal = btnOther.getAttribute('data-date');
-      var bankVal = btnOther.getAttribute('data-bank');
-      var match = RECORDS.find(function (x) {
-        return x.event_date === dateVal && x.analyst_bank === bankVal;
+      document.getElementById('modalBody').addEventListener('click', function (e) {
+        var btnChip = e.target.closest('.btn-chip');
+        if (btnChip && btnChip.getAttribute('data-code')) {
+          openDetailByCode(btnChip.getAttribute('data-code'));
+          return;
+        }
+        var btnIdx = e.target.closest('.btn-select-idx');
+        if (btnIdx && btnIdx.getAttribute('data-idx')) {
+          var idx = parseInt(btnIdx.getAttribute('data-idx'), 10);
+          var code = document.getElementById('modalTitle').textContent.split(' ')[0];
+          var list = BY_CODE[code] || [];
+          if (list[idx]) openDetailByRecord(list[idx]);
+          return;
+        }
+        var btnOther = e.target.closest('.btn-other-rating');
+        if (btnOther) {
+          var dateVal = btnOther.getAttribute('data-date');
+          var bankVal = btnOther.getAttribute('data-bank');
+          var match = RECORDS.find(function (x) {
+            return x.event_date === dateVal && x.analyst_bank === bankVal;
+          });
+          if (match) openDetailByRecord(match);
+        }
       });
-      if (match) openDetailByRecord(match);
-    }
-  });
 
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
-      var m = document.getElementById('impactModal');
-      if (m) m.classList.remove('open');
-    }
-  });
-  window.closeModal = closeModal;
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          var m = document.getElementById('impactModal');
+          if (m) m.classList.remove('open');
+        }
+      });
+      window.closeModal = closeModal;
 
-  function fromQuery() {
-    var c = '';
-    try { c = (new URLSearchParams(location.search).get('code') || '').trim(); } catch (err) {}
-    if (c && BY_CODE[c.toUpperCase()]) openDetailByCode(c);
-  }
+      function fromQuery() {
+        var c = '';
+        try { c = (new URLSearchParams(location.search).get('code') || '').trim(); } catch (err) { }
+        if (c && BY_CODE[c.toUpperCase()]) openDetailByCode(c);
+      }
 
-  init();
-  fromQuery();
-})();
-</script>
-<script src="../sidebar.js"></script>
+      init();
+      fromQuery();
+    })();
+  </script>
+  <script src="../sidebar.js"></script>
 </body>
+
 </html>
