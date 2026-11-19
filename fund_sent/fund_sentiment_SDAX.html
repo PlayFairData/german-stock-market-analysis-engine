@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayFair – Fundamental & Sentiment Report (2026-11-13)</title>
+    <title>PlayFair – Fundamental & Sentiment Report (2026-11-19)</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -26,7 +26,6 @@
         .header h1 { font-size: 22px; font-weight: 700; color: #0f172a; }
         .header .meta { color: #64748b; font-size: 13px; margin-top: 4px; }
         .header .badge { background: #0f172a; color: #fff; padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
-
         .view-toggle { margin: 0 0 16px; display: flex; gap: 8px; }
         .view-toggle button {
             padding: 6px 16px; border: 1px solid #cbd5e1; background: #ffffff;
@@ -75,7 +74,7 @@
     <div class="header">
         <div>
             <h1>PlayFair – Fundamental & Sentiment Engine</h1>
-            <div class="meta">Evaluation Date: <strong>2026-11-13</strong> | Baseline Comparison: <strong>None</strong></div>
+            <div class="meta">Evaluation Date: <strong>2026-11-19</strong> | Baseline Comparison: <strong>None</strong></div>
         </div>
         <div class="badge">COGNITION SUITE</div>
     </div>
@@ -83,12 +82,12 @@
     <div class="grid-4">
         <div class="metric-card green">
             <div class="title">SDAX – Supportive Stance</div>
-            <div class="val">5 <span style="font-size:14px;font-weight:500;color:#64748b;">/ 70</span></div>
+            <div class="val">14 <span style="font-size:14px;font-weight:500;color:#64748b;">/ 70</span></div>
             <div class="sub">Estimates & ratings fundamentally aligned</div>
         </div>
         <div class="metric-card purple">
             <div class="title">SDAX – Conflict & Attention</div>
-            <div class="val">0</div>
+            <div class="val">3</div>
             <div class="sub">EPS trend vs analyst opinion divergence</div>
         </div>
         <div class="metric-card red">
@@ -100,6 +99,41 @@
             <div class="title">SDAX – Median EPS Growth</div>
             <div class="val">+17.5%</div>
             <div class="sub">Forward fiscal year consensus growth</div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h2>Attention & Conflict Watchlist (4 stocks)</h2>
+        <div class="attention-box">
+
+            <div class="attention-item">
+                <strong style="width:50px;">EKT</strong>
+                <span class="pill conflict">CONFLICT</span>
+                <span class='pill dim'>TRANSITION</span>
+                <span>Conflict: Conflict: analyst optimism against falling EPS expectations</span>
+            </div>
+
+            <div class="attention-item">
+                <strong style="width:50px;">KWS</strong>
+                <span class="pill conflict">CONFLICT</span>
+                <span class='pill dim'>PAUSE</span>
+                <span>Conflict: Conflict: analyst optimism against falling EPS expectations</span>
+            </div>
+
+            <div class="attention-item">
+                <strong style="width:50px;">VBK</strong>
+                <span class="pill conflict">CONFLICT</span>
+                <span class='pill dim'>PAUSE</span>
+                <span>Conflict: Growth intact but slowing while analysts remain bullish</span>
+            </div>
+
+            <div class="attention-item">
+                <strong style="width:50px;">BFSA</strong>
+                <span class="pill supportive">SUPPORTIVE</span>
+                <span class='pill dim'>CONTINUATION</span>
+                <span>ANALYST_UPGRADE_CLUSTER</span>
+            </div>
+
         </div>
     </div>
 
@@ -167,7 +201,7 @@
                         <td>Industrial</td>
                         <td><span class="pill improving">IMPROVING</span></td>
                         <td><span class="pill supportive">SUPPORTIVE</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
                         <td>Healthy pause [Caution: Negative forward growth -4.5%]</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
@@ -192,10 +226,10 @@
                         <td><strong>AOF</strong></td>
                         <td>Software</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-11d)</span></td>
                         <td>+12.0%</td>
                         <td style="color:#64748b;font-size:11px;">WATCH_UP, STALE_REPORT</td>
@@ -205,10 +239,10 @@
                         <td><strong>EKT</strong></td>
                         <td>Industrial</td>
                         <td><span class="pill deteriorating">DETERIORATING</span></td>
-                        <td><span class="pill pressure">PRESSURE</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill conflict">CONFLICT</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">TRANSITION</span></td>
-                        <td>Rebound without fundamental backing</td>
+                        <td>Turn without clear backing</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-35d)</span></td>
                         <td>+877.1%</td>
                         <td style="color:#64748b;font-size:11px;">SEVERE_CUT, STALE_REPORT</td>
@@ -220,9 +254,9 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
                         <td>Technical reading stands alone</td>
-                        <td><span style='color:#059669;font-weight:600;'>Fund (-27d)</span></td>
+                        <td><span style='color:#059669;font-weight:600;'>Fund (-66d)</span></td>
                         <td>+9.8%</td>
                         <td style="color:#64748b;font-size:11px;">WATCH_DOWN, STALE_REPORT</td>
                     </tr>
@@ -235,7 +269,7 @@
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
                         <td><span class="pill dim">PULLBACK</span></td>
                         <td>Technical reading stands alone</td>
-                        <td><span style='color:#2563eb;font-weight:600;'>Price (+42d)</span></td>
+                        <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>-11.1%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, STALE_REPORT</td>
                     </tr>
@@ -244,10 +278,10 @@
                         <td><strong>COK</strong></td>
                         <td>Software</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-51d)</span></td>
                         <td>+23.5%</td>
                         <td style="color:#64748b;font-size:11px;">WATCH_DOWN, POST_REPORT_EARLY</td>
@@ -259,7 +293,7 @@
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+22d)</span></td>
                         <td>+19.5%</td>
@@ -296,10 +330,10 @@
                         <td><strong>DUE</strong></td>
                         <td>Industrial</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">TRANSITION</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+27.5%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, POST_REPORT_EARLY</td>
@@ -311,7 +345,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill dim">CONTINUATION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#94a3b8;'>Stale Rev</span></td>
                         <td>+8.6%</td>
@@ -322,10 +356,10 @@
                         <td><strong>EVT</strong></td>
                         <td>Pharma & Healthcare</td>
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill pressure">PRESSURE</span></td>
+                        <td><span class="pill negative">NEGATIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Pause may resolve down</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+13d)</span></td>
                         <td>+70.1%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, POST_REPORT_EARLY</td>
@@ -337,7 +371,7 @@
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">TRANSITION</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+24d)</span></td>
                         <td>+31.2%</td>
@@ -348,10 +382,10 @@
                         <td><strong>FIE</strong></td>
                         <td>Retail</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">CONTINUATION</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Confirmed strength</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-43d)</span></td>
                         <td>+10.8%</td>
                         <td style="color:#64748b;font-size:11px;">WATCH_DOWN, STALE_REPORT</td>
@@ -374,10 +408,10 @@
                         <td><strong>OHB</strong></td>
                         <td>Technology</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#94a3b8;'>-</span></td>
                         <td>+65.5%</td>
                         <td style="color:#64748b;font-size:11px;">POST_REPORT_EARLY</td>
@@ -402,7 +436,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+28d)</span></td>
                         <td>-21.4%</td>
@@ -414,9 +448,9 @@
                         <td>Industrial</td>
                         <td><span class="pill deteriorating">DETERIORATING</span></td>
                         <td><span class="pill pressure">PRESSURE</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">TRANSITION</span></td>
-                        <td>Rebound without fundamental backing</td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
+                        <td>Pause may resolve down</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-21d)</span></td>
                         <td>+25.6%</td>
                         <td style="color:#64748b;font-size:11px;">SEVERE_CUT, STALE_REPORT</td>
@@ -454,7 +488,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill dim">CONTINUATION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+16d)</span></td>
                         <td>+9.3%</td>
@@ -465,10 +499,10 @@
                         <td><strong>KWS</strong></td>
                         <td>Food & Beverages</td>
                         <td><span class="pill deteriorating">DETERIORATING</span></td>
-                        <td><span class="pill pressure">PRESSURE</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill conflict">CONFLICT</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Pause may resolve down [Caution: Negative forward growth -9.5%]</td>
+                        <td>Unresolved, wait [Caution: Negative forward growth -9.5%]</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+17d)</span></td>
                         <td>-9.5%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT</td>
@@ -480,7 +514,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">CONTINUATION</span></td>
+                        <td><span class="pill dim">PULLBACK</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#94a3b8;'>Stale Rev</span></td>
                         <td>+8.1%</td>
@@ -492,10 +526,10 @@
                         <td>Chemicals</td>
                         <td><span class="pill improving">IMPROVING</span></td>
                         <td><span class="pill supportive">SUPPORTIVE</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
                         <td>Healthy pause</td>
-                        <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
+                        <td><span style='color:#059669;font-weight:600;'>Fund (-7d)</span></td>
                         <td>+17.2%</td>
                         <td style="color:#64748b;font-size:11px;">STALE_REPORT</td>
                     </tr>
@@ -506,7 +540,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">CONTINUATION</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+29d)</span></td>
                         <td>+35.0%</td>
@@ -519,7 +553,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PAUSE</span></td>
+                        <td><span class="pill dim">DOWNTREND</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-40d)</span></td>
                         <td>+27.5%</td>
@@ -571,7 +605,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">COUNTERTREND</span></td>
+                        <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>-2.4%</td>
@@ -584,7 +618,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PAUSE</span></td>
+                        <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+8.2%</td>
@@ -596,7 +630,7 @@
                         <td>Construction</td>
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
@@ -621,10 +655,10 @@
                         <td><strong>S92</strong></td>
                         <td>Industrial</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+23d)</span></td>
                         <td>+27.3%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, POST_REPORT_EARLY</td>
@@ -638,7 +672,7 @@
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
                         <td><span class="pill dim">PULLBACK</span></td>
                         <td>Technical reading stands alone</td>
-                        <td><span style='color:#2563eb;font-weight:600;'>Price (+32d)</span></td>
+                        <td><span style='color:#059669;font-weight:600;'>Fund (-7d)</span></td>
                         <td>+7.4%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, STALE_REPORT</td>
                     </tr>
@@ -660,10 +694,10 @@
                         <td><strong>VBK</strong></td>
                         <td>Industrial</td>
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill conflict">CONFLICT</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Unresolved, wait</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+84.4%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, POST_REPORT_EARLY</td>
@@ -674,10 +708,10 @@
                         <td>Retail</td>
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill dim">COUNTERTREND</span></td>
                         <td>Technical reading stands alone</td>
-                        <td><span style='color:#2563eb;font-weight:600;'>Price (+6d)</span></td>
+                        <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>-34.4%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, POST_REPORT_EARLY</td>
                     </tr>
@@ -688,7 +722,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">COUNTERTREND</span></td>
+                        <td><span class="pill dim">CONTINUATION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-50d)</span></td>
                         <td>+17.5%</td>
@@ -701,7 +735,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PAUSE</span></td>
+                        <td><span class="pill dim">BASING</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+7d)</span></td>
                         <td>+300.0%</td>
@@ -725,10 +759,10 @@
                         <td><strong>BOSS</strong></td>
                         <td>Consumer</td>
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td><span class="pill pressure">PRESSURE</span></td>
+                        <td><span class="pill negative">NEGATIVE</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
+                        <td>Pause may resolve down</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+12.4%</td>
                         <td style="color:#64748b;font-size:11px;">WATCH_DOWN, POST_REPORT_EARLY</td>
@@ -765,7 +799,7 @@
                         <td>Pharma & Healthcare</td>
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#94a3b8;'>Stale Rev</span></td>
@@ -781,7 +815,7 @@
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
                         <td><span class="pill dim">PULLBACK</span></td>
                         <td>Technical reading stands alone</td>
-                        <td><span style='color:#2563eb;font-weight:600;'>Price (+29d)</span></td>
+                        <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>-59.7%</td>
                         <td style="color:#64748b;font-size:11px;">WATCH_UP, STALE_REPORT</td>
                     </tr>
@@ -791,12 +825,12 @@
                         <td>Software</td>
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">DOWNTREND</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
+                        <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#94a3b8;'>Stale Rev</span></td>
                         <td>+5.1%</td>
-                        <td style="color:#64748b;font-size:11px;">POST_REPORT_EARLY</td>
+                        <td style="color:#64748b;font-size:11px;">-</td>
                     </tr>
 
                     <tr>
@@ -804,8 +838,8 @@
                         <td>Pharma & Healthcare</td>
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">DOWNTREND</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#94a3b8;'>Stale Rev</span></td>
                         <td>+11.2%</td>
@@ -817,8 +851,8 @@
                         <td>Software</td>
                         <td><span class="pill growth_slowing">GROWTH_SLOWING</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PAUSE</span></td>
+                        <td><span class="pill neutral">NEUTRAL</span></td>
+                        <td><span class="pill dim">PULLBACK</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-6d)</span></td>
                         <td>+15.3%</td>
@@ -868,10 +902,10 @@
                         <td><strong>OBCK</strong></td>
                         <td>Pharma & Healthcare</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">TRANSITION</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Turn backed by fundamentals</td>
                         <td><span style='color:#94a3b8;'>-</span></td>
                         <td>+17.6%</td>
                         <td style="color:#64748b;font-size:11px;">POST_REPORT_EARLY</td>
@@ -883,7 +917,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PAUSE</span></td>
+                        <td><span class="pill dim">TRANSITION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#059669;font-weight:600;'>Fund (-42d)</span></td>
                         <td>-3.4%</td>
@@ -896,7 +930,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PAUSE</span></td>
+                        <td><span class="pill dim">PULLBACK</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#2563eb;font-weight:600;'>Price (+23d)</span></td>
                         <td>+16.4%</td>
@@ -922,7 +956,7 @@
                         <td><span class="pill stable">STABLE</span></td>
                         <td><span class="pill neutral">NEUTRAL</span></td>
                         <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
+                        <td><span class="pill dim">CONTINUATION</span></td>
                         <td>Technical reading stands alone</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+17.6%</td>
@@ -999,35 +1033,35 @@
                         <td>Industrial</td>
                         <td><span class="pill improving">IMPROVING</span></td>
                         <td><span class="pill supportive">SUPPORTIVE</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
-                        <td>Healthy pause</td>
+                        <td><span class="pill positive">POSITIVE</span></td>
+                        <td><span class="pill dim">CONTINUATION</span></td>
+                        <td>Confirmed strength</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+9.1%</td>
-                        <td style="color:#64748b;font-size:11px;">POST_REPORT_EARLY</td>
+                        <td style="color:#64748b;font-size:11px;">POST_REPORT_EARLY, ANALYST_UPGRADE_CLUSTER</td>
                     </tr>
 
                     <tr>
                         <td><strong>TNIE</strong></td>
                         <td>Consumer</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
-                        <td><span class="pill dim">PULLBACK</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
+                        <td><span class="pill dim">PAUSE</span></td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+87.1%</td>
-                        <td style="color:#64748b;font-size:11px;">WATCH_DOWN</td>
+                        <td style="color:#64748b;font-size:11px;">WATCH_DOWN, STALE_REPORT</td>
                     </tr>
 
                     <tr>
                         <td><strong>RDC</strong></td>
                         <td>Retail</td>
                         <td><span class="pill stable">STABLE</span></td>
-                        <td><span class="pill neutral">NEUTRAL</span></td>
-                        <td><span class="pill insufficient">INSUFFICIENT</span></td>
+                        <td><span class="pill supportive">SUPPORTIVE</span></td>
+                        <td><span class="pill positive">POSITIVE</span></td>
                         <td><span class="pill dim">PAUSE</span></td>
-                        <td>Technical reading stands alone</td>
+                        <td>Healthy pause</td>
                         <td><span style='color:#ca8a04;font-weight:600;'>Sync</span></td>
                         <td>+100.0%</td>
                         <td style="color:#64748b;font-size:11px;">CONFLICT, POST_REPORT_EARLY</td>

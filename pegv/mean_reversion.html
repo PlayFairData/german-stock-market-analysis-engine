@@ -181,6 +181,7 @@
                 <th data-col="price_action">Action &#x21C5;</th>
                 <th data-col="pegvn_dev">PEGVn &#x21C5;</th>
                 <th data-col="peer_dev">Peer &#x21C5;</th>
+                <th data-col="hist_dev">Hist Fwd &#x21C5;</th>
                 <th data-col="tv_share">TV &#x21C5;</th>
                 <th>Interpretation</th>
                 <th>Warnings</th>
@@ -237,6 +238,9 @@
 
     <h3>8. N/A (Range Position is None)</h3>
     <p>The state cannot be calculated. This occurs when there is insufficient data to compute the Bear/Bull range (e.g., missing EPS path, missing price, or the Bull value is not greater than the Bear value).</p>
+
+    <h3>Historical Forward Valuation (Hist Fwd)</h3>
+    <p>Forward fair value computed as the 5-year historical median P/E multiple &times; consensus <code>EPS1e</code> (<code>fair_fwd1</code>). Displayed as percentage deviation relative to the DCF pivot (<code>pegv1b</code>) for comparison as an independent empirical anchor.</p>
     </div>
     </details>
 
@@ -407,6 +411,12 @@
         '<td>' + esc(r.price_action || '\u2013') + '</td>' +
         cellPct(r.pegvn_dev, 1, true) +
         cellPct(r.peer_dev, 1, true) +
+        (function() {
+          if (r.hist_dev == null) return '<td class="num">\u2013</td>';
+          var tip = 'fair_fwd1 = ' + num(r.hist_fwd1, 2) + (r.hist_pe_median ? ' (' + num(r.hist_pe_median, 1) + 'x EPS1e)' : '');
+          var cls = (r.hist_dev < 0 ? ' neg' : (r.hist_dev > 0 ? ' pos' : ''));
+          return '<td class="num' + cls + '" title="' + esc(tip) + '">' + esc(pct(r.hist_dev, 1, true)) + '</td>';
+        })() +
         cellPct(r.tv_share, 0, false) +
         '<td class="interp" data-code="' + esc(r.code) + '" title="' + esc(full) +
           '">' + esc(head) + (head !== full ? '\u2026' : '') + '</td>' +
@@ -415,7 +425,7 @@
         '</tr>';
     });
     document.getElementById('mrBody').innerHTML = h ||
-      '<tr><td colspan="17" style="color:#94a3b8;">no records match the current filter</td></tr>';
+      '<tr><td colspan="18" style="color:#94a3b8;">no records match the current filter</td></tr>';
     document.getElementById('countNote').textContent =
       'showing ' + list.length + ' / ' + RECORDS.length + ' stocks';
 
@@ -471,6 +481,9 @@
              ' <span class="pill ' + (pegvnFlag === 'ok' ? 's-green' : 's-red') + '">' + pegvnFlag + '</span>')) +
          row('Peer valuation', (r.peer == null ? 'n/a' : f(r.peer) + ' &nbsp;' + pf(r.peer_dev) +
              ' <span class="pill ' + (peerFlag === 'ok' ? 's-green' : 's-red') + '">' + peerFlag + '</span>')) +
+         row('Hist P/E (fair_fwd1)', (r.hist_fwd1 == null ? 'n/a' :
+             f(r.hist_fwd1) + (r.hist_pe_median ? ' (' + f(r.hist_pe_median, 1) + 'x)' : '') +
+             ' &nbsp;' + pf(r.hist_dev) + ' vs pivot')) +
          row('Terminal-value share', (r.tv_share == null ? 'n/a' :
              pct(r.tv_share, 0, false) +
              ((r.warnings || []).indexOf('HIGH_TV_SHARE') >= 0 ?

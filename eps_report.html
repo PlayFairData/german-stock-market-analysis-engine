@@ -89,6 +89,9 @@
     details.sec > summary::marker, details.idx-block > summary::marker { color: #202124; }
     details.sec[open] > summary { margin-bottom: 6px; }
 
+    /* indent section blocks (Report / Trend / Momentum / Consensus) under index */
+    details.sec { margin-left: 18px; }
+
     .idx-block, .sec { scroll-margin-top: 8px; }
     .flash { animation: chipFlash 1.4s ease-out; }
     @keyframes chipFlash { from { background: #fff3c4; } to { background: transparent; } }

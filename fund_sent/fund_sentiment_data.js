@@ -3,11 +3,11 @@
 window.FUND_SENT_DATA = {
   "schema_version": 2,
   "source": "live",
-  "generated": "2026-11-13 19:53:57",
-  "as_of_date": "2026-11-13",
+  "generated": "2026-11-19 00:18:32",
+  "as_of_date": "2026-11-19",
   "baseline_date": "2026-10-12",
   "baseline_days": 28,
-  "baseline_age_days": 32,
+  "baseline_age_days": 38,
   "indexes": {
     "DAX": {
       "index_name": "DAX",
@@ -21,13 +21,16 @@ window.FUND_SENT_DATA = {
         "IMPROVING": 4
       },
       "stance_counts": {
-        "NEUTRAL": 32,
-        "PRESSURE": 2,
-        "SUPPORTIVE": 6
+        "NEUTRAL": 16,
+        "PRESSURE": 4,
+        "SUPPORTIVE": 19,
+        "CONFLICT": 1
       },
       "bias_counts": {
-        "INSUFFICIENT": 38,
-        "POSITIVE": 2
+        "INSUFFICIENT": 14,
+        "NEGATIVE": 2,
+        "POSITIVE": 19,
+        "NEUTRAL": 5
       },
       "reaction_counts": {
         "NONE": 15,
@@ -36,9 +39,9 @@ window.FUND_SENT_DATA = {
         "MIXED": 1
       },
       "lead_lag_counts": {
-        "FUNDAMENTALS_LEAD": 11,
-        "PRICE_LEADS": 7,
-        "SYNCHRONOUS": 5,
+        "FUNDAMENTALS_LEAD": 12,
+        "PRICE_LEADS": 5,
+        "SYNCHRONOUS": 6,
         "STALE_REVISION": 17
       },
       "html_file": "fund_sent/fund_sentiment_DAX.html"
@@ -55,13 +58,16 @@ window.FUND_SENT_DATA = {
         "IMPROVING": 9
       },
       "stance_counts": {
-        "NEUTRAL": 37,
+        "SUPPORTIVE": 26,
         "PRESSURE": 3,
-        "SUPPORTIVE": 10
+        "NEUTRAL": 16,
+        "CONFLICT": 5
       },
       "bias_counts": {
-        "INSUFFICIENT": 49,
-        "POSITIVE": 1
+        "POSITIVE": 28,
+        "NEGATIVE": 2,
+        "INSUFFICIENT": 14,
+        "NEUTRAL": 6
       },
       "reaction_counts": {
         "UP": 17,
@@ -70,9 +76,9 @@ window.FUND_SENT_DATA = {
         "MIXED": 8
       },
       "lead_lag_counts": {
-        "PRICE_LEADS": 16,
-        "FUNDAMENTALS_LEAD": 16,
-        "SYNCHRONOUS": 10,
+        "PRICE_LEADS": 15,
+        "FUNDAMENTALS_LEAD": 19,
+        "SYNCHRONOUS": 8,
         "STALE_REVISION": 8
       },
       "html_file": "fund_sent/fund_sentiment_MDAX.html"
@@ -89,12 +95,16 @@ window.FUND_SENT_DATA = {
         "GROWTH_SLOWING": 10
       },
       "stance_counts": {
-        "NEUTRAL": 60,
-        "SUPPORTIVE": 5,
+        "NEUTRAL": 48,
+        "SUPPORTIVE": 14,
+        "CONFLICT": 3,
         "PRESSURE": 5
       },
       "bias_counts": {
-        "INSUFFICIENT": 70
+        "INSUFFICIENT": 46,
+        "POSITIVE": 14,
+        "NEGATIVE": 2,
+        "NEUTRAL": 8
       },
       "reaction_counts": {
         "DOWN": 41,
@@ -103,11 +113,11 @@ window.FUND_SENT_DATA = {
         "MIXED": 7
       },
       "lead_lag_counts": {
-        "PRICE_LEADS": 26,
+        "PRICE_LEADS": 22,
         "INSUFFICIENT": 4,
-        "SYNCHRONOUS": 15,
+        "SYNCHRONOUS": 17,
         "STALE_REVISION": 9,
-        "FUNDAMENTALS_LEAD": 16
+        "FUNDAMENTALS_LEAD": 18
       },
       "html_file": "fund_sent/fund_sentiment_SDAX.html"
     },
@@ -123,11 +133,13 @@ window.FUND_SENT_DATA = {
       },
       "stance_counts": {
         "PRESSURE": 5,
-        "NEUTRAL": 9,
-        "SUPPORTIVE": 1
+        "NEUTRAL": 8,
+        "SUPPORTIVE": 2
       },
       "bias_counts": {
-        "INSUFFICIENT": 15
+        "INSUFFICIENT": 13,
+        "NEUTRAL": 1,
+        "POSITIVE": 1
       },
       "reaction_counts": {
         "DOWN": 8,
@@ -136,9 +148,9 @@ window.FUND_SENT_DATA = {
         "UP": 1
       },
       "lead_lag_counts": {
-        "PRICE_LEADS": 7,
+        "PRICE_LEADS": 6,
         "STALE_REVISION": 2,
-        "SYNCHRONOUS": 4,
+        "SYNCHRONOUS": 5,
         "FUNDAMENTALS_LEAD": 2
       },
       "html_file": "fund_sent/fund_sentiment_PDAX.html"
@@ -183,7 +195,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.92,
       "median_growth": 52.41,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 6,
       "quadrant": "LEADING",
       "top_code": "AIXA",
       "breadth_ex_top": 25.0,
@@ -217,7 +229,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 8.38,
       "median_growth": 1.86,
       "reaction_breadth": 50.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": -1,
       "quadrant": "LEADING",
       "top_code": "LXS",
       "breadth_ex_top": 37.5,
@@ -251,7 +263,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.92,
       "median_growth": 5.31,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "NEUTRAL",
       "top_code": "ALV",
       "breadth_ex_top": 0.0,
@@ -281,7 +293,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -1.16,
       "median_growth": 16.07,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 4,
       "quadrant": "NEUTRAL",
       "top_code": "BVB",
       "breadth_ex_top": 0.0,
@@ -312,7 +324,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.0,
       "median_growth": 27.3,
       "reaction_breadth": -35.29,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 34,
       "quadrant": "LAGGING",
       "top_code": "8TRA",
       "breadth_ex_top": -13.04,
@@ -384,7 +396,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -0.04,
       "median_growth": 10.54,
       "reaction_breadth": -23.08,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 7,
       "quadrant": "LAGGING",
       "top_code": "BAYN",
       "breadth_ex_top": -17.65,
@@ -427,7 +439,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -2.94,
       "median_growth": 7.8,
       "reaction_breadth": -53.85,
-      "net_analyst_bias": 2,
+      "net_analyst_bias": 4,
       "quadrant": "EMERGING",
       "top_code": "TEG",
       "breadth_ex_top": -18.75,
@@ -469,7 +481,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -3.19,
       "median_growth": 22.04,
       "reaction_breadth": -66.67,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 4,
       "quadrant": "LAGGING",
       "top_code": "AG1",
       "breadth_ex_top": -11.11,
@@ -504,7 +516,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -4.66,
       "median_growth": 12.45,
       "reaction_breadth": -25.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "LAGGING",
       "top_code": "BOSS",
       "breadth_ex_top": -12.5,
@@ -538,7 +550,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -13.94,
       "median_growth": 19.82,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "EMERGING",
       "top_code": "HLE",
       "breadth_ex_top": -40.0,
@@ -574,7 +586,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -2.27,
       "median_growth": 22.9,
       "reaction_breadth": -27.27,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 6,
       "quadrant": "EMERGING",
       "top_code": "ADN1",
       "breadth_ex_top": -38.46,
@@ -613,7 +625,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 7.31,
       "median_growth": 10.43,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "EOAN",
       "breadth_ex_top": 100.0,
@@ -640,7 +652,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -2.02,
       "median_growth": 18.6,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "1U1",
       "breadth_ex_top": 0.0,
@@ -698,7 +710,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 5.59,
       "median_growth": 37.73,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "THIN",
       "top_code": "NDA",
       "breadth_ex_top": 0.0,
@@ -725,7 +737,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -2.56,
       "median_growth": 8.75,
       "reaction_breadth": 33.33,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "THIN",
       "top_code": "LHA",
       "breadth_ex_top": 0.0,
@@ -783,7 +795,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -6.55,
       "median_growth": 61.91,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "KWS",
       "breadth_ex_top": 0.0,
@@ -812,7 +824,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 1.82,
       "median_growth": 61.93,
       "reaction_breadth": 33.33,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 5,
       "quadrant": "LEADING",
       "top_code": "ELG",
       "breadth_ex_top": 75.0,
@@ -842,7 +854,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 7.2,
       "median_growth": 6.73,
       "reaction_breadth": 42.86,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": -1,
       "quadrant": "LEADING",
       "top_code": "LXS",
       "breadth_ex_top": 42.86,
@@ -875,7 +887,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.0,
       "median_growth": 38.29,
       "reaction_breadth": -25.0,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 5,
       "quadrant": "FADING",
       "top_code": "AAD",
       "breadth_ex_top": 22.22,
@@ -910,7 +922,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 5.5,
       "median_growth": 34.93,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "EMERGING",
       "top_code": "BSL",
       "breadth_ex_top": -16.67,
@@ -942,7 +954,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 2.25,
       "median_growth": 10.73,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "EMERGING",
       "top_code": "BAYN",
       "breadth_ex_top": -33.33,
@@ -971,7 +983,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -9.84,
       "median_growth": 18.73,
       "reaction_breadth": 20.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "EMERGING",
       "top_code": "AMV0",
       "breadth_ex_top": 20.0,
@@ -1002,7 +1014,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 2.95,
       "median_growth": 12.49,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "FADING",
       "top_code": "ENR",
       "breadth_ex_top": 0.0,
@@ -1032,7 +1044,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.56,
       "median_growth": 21.95,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 10,
       "quadrant": "FADING",
       "top_code": "8TRA",
       "breadth_ex_top": -20.0,
@@ -1091,7 +1103,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -1.17,
       "median_growth": 8.64,
       "reaction_breadth": -60.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "NEUTRAL",
       "top_code": "AFX",
       "breadth_ex_top": 0.0,
@@ -1150,7 +1162,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -4.72,
       "median_growth": 6.7,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "NEUTRAL",
       "top_code": "DOU",
       "breadth_ex_top": 0.0,
@@ -1178,7 +1190,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.92,
       "median_growth": 4.18,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "NEUTRAL",
       "top_code": "HNR1",
       "breadth_ex_top": 0.0,
@@ -1240,7 +1252,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -1.22,
       "median_growth": 23.48,
       "reaction_breadth": -14.29,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "EMERGING",
       "top_code": "ADN1",
       "breadth_ex_top": -33.33,
@@ -1272,7 +1284,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 3.13,
       "median_growth": 84.44,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 5,
       "quadrant": "LAGGING",
       "top_code": "NDX1",
       "breadth_ex_top": -33.33,
@@ -1304,7 +1316,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -2.9,
       "median_growth": 13.43,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "EMERGING",
       "top_code": "HYQ",
       "breadth_ex_top": 0.0,
@@ -1333,7 +1345,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -22.33,
       "median_growth": 45.58,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "LAGGING",
       "top_code": "EVT",
       "breadth_ex_top": 0.0,
@@ -1362,7 +1374,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -1.66,
       "median_growth": 33.68,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "LAGGING",
       "top_code": "AG1",
       "breadth_ex_top": -16.67,
@@ -1394,7 +1406,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -4.41,
       "median_growth": 5.49,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "LAGGING",
       "top_code": "FME",
       "breadth_ex_top": 0.0,
@@ -1422,7 +1434,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -5.21,
       "median_growth": 15.08,
       "reaction_breadth": -60.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 9,
       "quadrant": "LAGGING",
       "top_code": "DEZ",
       "breadth_ex_top": -36.36,
@@ -1459,7 +1471,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -7.22,
       "median_growth": 19.16,
       "reaction_breadth": -50.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "LAGGING",
       "top_code": "AOF",
       "breadth_ex_top": -60.0,
@@ -1490,7 +1502,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -13.99,
       "median_growth": 44.19,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "LAGGING",
       "top_code": "P911",
       "breadth_ex_top": -75.0,
@@ -1520,7 +1532,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -12.19,
       "median_growth": 21.53,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "LAGGING",
       "top_code": "ADS",
       "breadth_ex_top": -100.0,
@@ -1575,7 +1587,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 7.31,
       "median_growth": 10.43,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "EOAN",
       "breadth_ex_top": 100.0,
@@ -1629,7 +1641,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -2.56,
       "median_growth": 5.43,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "FRA",
       "breadth_ex_top": 0.0,
@@ -1736,7 +1748,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 2.58,
       "median_growth": 54.34,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 3,
       "quadrant": "THIN",
       "top_code": "BVB",
       "breadth_ex_top": 0.0,
@@ -1763,7 +1775,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 1.39,
       "median_growth": 12.39,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 2,
+      "net_analyst_bias": 3,
       "quadrant": "THIN",
       "top_code": "DB1",
       "breadth_ex_top": 0.0,
@@ -1817,7 +1829,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 4.69,
       "median_growth": 9.39,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
@@ -1843,7 +1855,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -0.71,
       "median_growth": 18.6,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "DTE",
       "breadth_ex_top": 0.0,
@@ -1949,7 +1961,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 5.59,
       "median_growth": 37.73,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "THIN",
       "top_code": "NDA",
       "breadth_ex_top": 0.0,
@@ -1976,7 +1988,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 1.93,
       "median_growth": 17.59,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 2,
       "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
@@ -2002,7 +2014,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": 0.92,
       "median_growth": 65.48,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
@@ -2028,7 +2040,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -5.02,
       "median_growth": 19.86,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "PSM",
       "breadth_ex_top": 0.0,
@@ -2133,7 +2145,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -4.84,
       "median_growth": 87.1,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
@@ -2186,7 +2198,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -6.55,
       "median_growth": 61.91,
       "reaction_breadth": -100.0,
-      "net_analyst_bias": 0,
+      "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "KWS",
       "breadth_ex_top": 0.0,
@@ -2238,15 +2250,52 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
+      "code": "ADS",
+      "sector": "Consumer",
+      "direction": "STABLE",
+      "stance": "SUPPORTIVE",
+      "bias": "POSITIVE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
+      "reasons": [
+        "ANALYST_UPGRADE_CLUSTER"
+      ]
+    },
+    {
+      "code": "AMV0",
+      "sector": "Automobile",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish"
+      ]
+    },
+    {
       "code": "AT1",
       "sector": "Financial Services",
       "direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "bias": "INSUFFICIENT",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "reasons": [
+        "Conflict: Conflict: analyst optimism against falling EPS expectations",
         "SEVERE_CUT"
+      ]
+    },
+    {
+      "code": "BFSA",
+      "sector": "Industrial",
+      "direction": "IMPROVING",
+      "stance": "SUPPORTIVE",
+      "bias": "POSITIVE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
+      "reasons": [
+        "ANALYST_UPGRADE_CLUSTER"
       ]
     },
     {
@@ -2262,13 +2311,25 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
+      "code": "DEZ",
+      "sector": "Industrial",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish"
+      ]
+    },
+    {
       "code": "DHER",
       "sector": "Retail",
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
       "bias": "INSUFFICIENT",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "reasons": [
         "SEVERE_CUT"
       ]
@@ -2277,12 +2338,25 @@ window.FUND_SENT_DATA = {
       "code": "EKT",
       "sector": "Industrial",
       "direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "bias": "INSUFFICIENT",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "reasons": [
+        "Conflict: Conflict: analyst optimism against falling EPS expectations",
         "SEVERE_CUT"
+      ]
+    },
+    {
+      "code": "EVD",
+      "sector": "Media",
+      "direction": "STABLE",
+      "stance": "SUPPORTIVE",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "ANALYST_UPGRADE_CLUSTER"
       ]
     },
     {
@@ -2302,11 +2376,35 @@ window.FUND_SENT_DATA = {
       "sector": "Industrial",
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
-      "bias": "INSUFFICIENT",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "bias": "NEUTRAL",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "reasons": [
         "SEVERE_CUT"
+      ]
+    },
+    {
+      "code": "KGX",
+      "sector": "Industrial",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish"
+      ]
+    },
+    {
+      "code": "KWS",
+      "sector": "Food & Beverages",
+      "direction": "DETERIORATING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "Conflict: Conflict: analyst optimism against falling EPS expectations"
       ]
     },
     {
@@ -2326,11 +2424,35 @@ window.FUND_SENT_DATA = {
       "sector": "Chemicals",
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
-      "bias": "INSUFFICIENT",
+      "bias": "NEGATIVE",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "reasons": [
         "SEVERE_CUT"
+      ]
+    },
+    {
+      "code": "MTX",
+      "sector": "Industrial",
+      "direction": "STABLE",
+      "stance": "SUPPORTIVE",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "ANALYST_UPGRADE_CLUSTER"
+      ]
+    },
+    {
+      "code": "NEM",
+      "sector": "Software",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish"
       ]
     },
     {
@@ -2346,13 +2468,38 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
+      "code": "RHM",
+      "sector": "Industrial",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish",
+        "ANALYST_UPGRADE_CLUSTER"
+      ]
+    },
+    {
+      "code": "SRT3",
+      "sector": "Pharma & Healthcare",
+      "direction": "STABLE",
+      "stance": "SUPPORTIVE",
+      "bias": "POSITIVE",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "ANALYST_UPGRADE_CLUSTER"
+      ]
+    },
+    {
       "code": "TTK",
       "sector": "Industrial",
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
       "bias": "INSUFFICIENT",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "reasons": [
         "SEVERE_CUT"
       ]
@@ -2371,11 +2518,23 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
+      "code": "VBK",
+      "sector": "Industrial",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish"
+      ]
+    },
+    {
       "code": "VOW3",
       "sector": "Automobile",
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
-      "bias": "INSUFFICIENT",
+      "bias": "NEUTRAL",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "reasons": [
@@ -2386,7 +2545,7 @@ window.FUND_SENT_DATA = {
   "stocks": {
     "DBK": {
       "code": "DBK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2398,7 +2557,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "DBK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -2470,10 +2629,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "credit_banks",
       "sector": "Banks",
       "subsector": "Credit Banks",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.76,
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -2485,7 +2644,7 @@ window.FUND_SENT_DATA = {
     },
     "BMW": {
       "code": "BMW",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2497,7 +2656,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "BMW",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -2579,10 +2738,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "automobile_manufacturers",
       "sector": "Automobile",
       "subsector": "Automobile Manufacturers",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.54,
+      "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -2594,7 +2753,7 @@ window.FUND_SENT_DATA = {
     },
     "BEI": {
       "code": "BEI",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2606,17 +2765,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-05",
       "analyst": {
         "code": "BEI",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEGATIVE",
+        "event_count": 4,
         "buy_count": 0,
-        "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "hold_count": 3,
+        "sell_count": 1,
+        "distinct_banks": 4,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-17",
+          "bank": "MPCM",
+          "bank_short": "MPCM",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: MPCM senkt Beiersdorf auf 'Hold' und halbiert Kursziel",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "NEGATIVE (0 BUY / 3 HOLD / 1 SELL across 4 banks, 90d)"
       },
       "growth": {
         "growth_pct": 5.04,
@@ -2663,8 +2832,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "PRESSURE",
+      "stance_reading": "Caution without estimate change",
       "flags": [
         "WATCH_DOWN",
         "STALE_REPORT"
@@ -2686,11 +2855,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "personal_products",
       "sector": "Consumer",
       "subsector": "Personal Products",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-09-29",
-      "tech_confidence": 0.85,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.0,
+      "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -22,
@@ -2701,7 +2870,7 @@ window.FUND_SENT_DATA = {
     },
     "CON": {
       "code": "CON",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2713,17 +2882,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "CON",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-01",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: JPMorgan belaesst Continental auf 'Overweight' - Ziel 78 Euro",
+          "ret_w1": 0.4516,
+          "ret_w2": -3.2458,
+          "w1_disp": "+0.5%",
+          "w2_disp": "-3.2%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 13.27,
@@ -2770,8 +2949,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -2793,11 +2972,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "auto_parts_equipment",
       "sector": "Automobile",
       "subsector": "Auto Parts & Equipment",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-11-10",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": -4,
@@ -2808,7 +2987,7 @@ window.FUND_SENT_DATA = {
     },
     "DHL": {
       "code": "DHL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2820,17 +2999,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "DHL",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 4,
+        "buy_count": 2,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 4,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-15",
+          "bank": "RBC",
+          "bank_short": "RBC",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: RBC startet DHL Group mit 'Outperform' - Ziel 67 Euro",
+          "ret_w1": -1.0052,
+          "ret_w2": 1.9064,
+          "w1_disp": "-1.0%",
+          "w2_disp": "+1.9%"
+        },
+        "summary": "POSITIVE (2 BUY / 2 HOLD / 0 SELL across 4 banks, 90d)"
       },
       "growth": {
         "growth_pct": 9.39,
@@ -2870,8 +3059,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -2892,22 +3081,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "logistics",
       "sector": "Transportation & Logistics",
       "subsector": "Logistics",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.84,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.82,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-07-10",
         "tech_date": "2026-10-20",
-        "summary": "last revision was 126d ago (> 90d)"
+        "summary": "last revision was 132d ago (> 90d)"
       }
     },
     "DTE": {
       "code": "DTE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2919,7 +3108,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "DTE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3001,19 +3190,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-03",
-      "tech_confidence": 0.67,
+      "tech_confidence": 0.52,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-02-20",
         "tech_date": "2026-11-03",
-        "summary": "last revision was 631d ago (> 90d)"
+        "summary": "last revision was 637d ago (> 90d)"
       }
     },
     "FME": {
       "code": "FME",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3025,7 +3214,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "FME",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3108,20 +3297,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Health Care",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.44,
+      "tech_state_date": "2026-11-17",
+      "tech_confidence": 0.4,
       "price_reading": "Pause may resolve down [Caution: Negative forward growth -3.7%]",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 15,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -6,
         "eps_date": "2026-11-11",
-        "tech_date": "2026-10-27",
-        "summary": "Price leads fundamentals by 15 days"
+        "tech_date": "2026-11-17",
+        "summary": "Fundamentals lead price by 6 days"
       }
     },
     "DB1": {
       "code": "DB1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3133,27 +3322,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-22",
       "analyst": {
         "code": "DB1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 2,
+        "event_count": 4,
         "buy_count": 2,
-        "hold_count": 0,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 2,
+        "distinct_banks": 4,
         "flags": [],
         "latest_event": {
-          "date": "2026-09-30",
-          "bank": "JPMorgan",
-          "bank_short": "JPMorgan",
-          "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: JPMorgan nimmt Deutsche Boerse mit 'Overweight' wieder auf",
-          "ret_w1": 2.1321,
-          "ret_w2": 6.1167,
-          "w1_disp": "+2.1%",
-          "w2_disp": "+6.1%"
+          "date": "2026-11-18",
+          "bank": "MPCM",
+          "bank_short": "MPCM",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: MPCM senkt Deutsche Boerse auf 'Hold' - Ziel hoch auf 339 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
         },
-        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 2 HOLD / 0 SELL across 4 banks, 90d)"
       },
       "growth": {
         "growth_pct": 7.8,
@@ -3222,22 +3411,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "securities_brokers",
       "sector": "Financial Services",
       "subsector": "Securities Brokers",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-09-28",
-      "tech_confidence": 0.85,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.8,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-03-23",
         "tech_date": "2026-09-28",
-        "summary": "last revision was 600d ago (> 90d)"
+        "summary": "last revision was 606d ago (> 90d)"
       }
     },
     "HEI": {
       "code": "HEI",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3249,7 +3438,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-30",
       "analyst": {
         "code": "HEI",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3328,22 +3517,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "building_materials",
       "sector": "Construction",
       "subsector": "Building Materials",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.78,
+      "tech_confidence": 0.87,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-17",
         "tech_date": "2026-10-27",
-        "summary": "last revision was 241d ago (> 90d)"
+        "summary": "last revision was 247d ago (> 90d)"
       }
     },
     "HEN3": {
       "code": "HEN3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3355,17 +3544,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-06",
       "analyst": {
         "code": "HEN3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-09",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer Henkel auf 81 Euro - 'Buy'",
+          "ret_w1": -0.5659,
+          "ret_w2": 0.0539,
+          "w1_disp": "-0.6%",
+          "w2_disp": "+0.1%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 6.1,
@@ -3412,8 +3611,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "STALE_REPORT"
       ],
@@ -3437,19 +3636,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-14",
-      "tech_confidence": 0.84,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.82,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-04-10",
         "tech_date": "2026-10-14",
-        "summary": "last revision was 582d ago (> 90d)"
+        "summary": "last revision was 588d ago (> 90d)"
       }
     },
     "HOT": {
       "code": "HOT",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3461,7 +3660,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-27",
       "analyst": {
         "code": "HOT",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3542,20 +3741,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Construction & Engineering",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.63,
+      "tech_state_date": "2026-11-17",
+      "tech_confidence": 0.47,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-07-25",
-        "tech_date": "2026-11-10",
-        "summary": "last revision was 111d ago (> 90d)"
+        "tech_date": "2026-11-17",
+        "summary": "last revision was 117d ago (> 90d)"
       }
     },
     "IFX": {
       "code": "IFX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3567,7 +3766,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-10",
       "analyst": {
         "code": "IFX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -3653,7 +3852,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.43,
+      "tech_confidence": 0.39,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -3665,7 +3864,7 @@ window.FUND_SENT_DATA = {
     },
     "MRK": {
       "code": "MRK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3677,7 +3876,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "MRK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3757,10 +3956,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "pharmaceuticals",
       "sector": "Pharma & Healthcare",
       "subsector": "Pharmaceuticals",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-30",
-      "tech_confidence": 0.77,
+      "tech_confidence": 0.75,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -3772,7 +3971,7 @@ window.FUND_SENT_DATA = {
     },
     "G1A": {
       "code": "G1A",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3784,17 +3983,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-09",
       "analyst": {
         "code": "G1A",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 5,
+        "buy_count": 1,
+        "hold_count": 4,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 5,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-18",
+          "bank": "Bernstein",
+          "bank_short": "Bernstein",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Bernstein hebt Ziel fuer Gea Group auf 71 Euro - 'Market-Perform'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 4 HOLD / 0 SELL across 5 banks, 90d)"
       },
       "growth": {
         "growth_pct": 13.64,
@@ -3834,8 +4043,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "POST_REPORT_EARLY"
@@ -3857,11 +4066,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.87,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.77,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -63,
@@ -3872,7 +4081,7 @@ window.FUND_SENT_DATA = {
     },
     "RHM": {
       "code": "RHM",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3884,17 +4093,29 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "RHM",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 3,
+        "buy_count": 3,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
-        "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "distinct_banks": 3,
+        "flags": [
+          "ANALYST_UPGRADE_CLUSTER"
+        ],
+        "latest_event": {
+          "date": "2026-11-04",
+          "bank": "RBC",
+          "bank_short": "RBC",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: RBC belaesst Rheinmetall auf 'Outperform' - Ziel 1600 Euro",
+          "ret_w1": -20.8591,
+          "ret_w2": -25.8322,
+          "w1_disp": "-20.9%",
+          "w2_disp": "-25.8%"
+        },
+        "summary": "POSITIVE (3 BUY / 0 HOLD / 0 SELL across 3 banks, 90d)"
       },
       "growth": {
         "growth_pct": 45.47,
@@ -3943,11 +4164,12 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "WATCH_DOWN",
-        "POST_REPORT_EARLY"
+        "POST_REPORT_EARLY",
+        "ANALYST_UPGRADE_CLUSTER"
       ],
       "ups": 0,
       "downs": 1,
@@ -3970,7 +4192,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "DOWN",
       "tech_state_date": "2026-11-05",
       "tech_confidence": 0.49,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Price leads, fundamentals unclear",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 4,
@@ -3981,7 +4203,7 @@ window.FUND_SENT_DATA = {
     },
     "RWE": {
       "code": "RWE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3993,17 +4215,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "RWE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-14",
+          "bank": "UBS",
+          "bank_short": "UBS",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: UBS belaesst RWE auf 'Buy' - Ziel 68 Euro",
+          "ret_w1": 4.3206,
+          "ret_w2": 3.0314,
+          "w1_disp": "+4.3%",
+          "w2_disp": "+3.0%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 6.17,
@@ -4051,7 +4283,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -4075,7 +4307,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.72,
+      "tech_confidence": 0.48,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -4087,7 +4319,7 @@ window.FUND_SENT_DATA = {
     },
     "MBG": {
       "code": "MBG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4099,17 +4331,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "MBG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-10",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Jefferies senkt Mercedes-Benz auf 'Hold' - Ziel auf 44 Euro",
+          "ret_w1": -4.4477,
+          "ret_w2": null,
+          "w1_disp": "-4.4%",
+          "w2_disp": "pending"
+        },
+        "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 6.58,
@@ -4182,20 +4424,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Automobile Manufacturers",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-12",
+      "tech_state_date": "2026-11-13",
       "tech_confidence": 0.53,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
-        "delta_days": -3,
+        "delta_days": -4,
         "eps_date": "2026-11-09",
-        "tech_date": "2026-11-12",
-        "summary": "Contemporaneous (-3d)"
+        "tech_date": "2026-11-13",
+        "summary": "Contemporaneous (-4d)"
       }
     },
     "SAP": {
       "code": "SAP",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4207,17 +4449,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-21",
       "analyst": {
         "code": "SAP",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-23",
+          "bank": "Goldman Sachs",
+          "bank_short": "Goldman",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Goldman hebt Ziel fuer SAP auf 258 Euro - 'Buy'",
+          "ret_w1": -1.4692,
+          "ret_w2": -1.7024,
+          "w1_disp": "-1.5%",
+          "w2_disp": "-1.7%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 17.94,
@@ -4264,8 +4516,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [],
       "ups": 0,
       "downs": 0,
@@ -4284,22 +4536,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "software",
       "sector": "Software",
       "subsector": "Software",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
-      "tech_state_date": "2026-09-25",
-      "tech_confidence": 0.84,
-      "price_reading": "Technical reading stands alone",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "tech_state_date": "2026-11-16",
+      "tech_confidence": 0.67,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-02-20",
-        "tech_date": "2026-09-25",
-        "summary": "last revision was 631d ago (> 90d)"
+        "tech_date": "2026-11-16",
+        "summary": "last revision was 637d ago (> 90d)"
       }
     },
     "SIE": {
       "code": "SIE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4311,7 +4563,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SIE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -4383,22 +4635,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_diversified",
       "sector": "Industrial",
       "subsector": "Industrial, Diversified",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.81,
+      "tech_confidence": 0.65,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-11-22",
         "tech_date": "2026-11-10",
-        "summary": "last revision was 721d ago (> 90d)"
+        "summary": "last revision was 727d ago (> 90d)"
       }
     },
     "VOW3": {
       "code": "VOW3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4410,17 +4662,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "VOW3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-30",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: JPMorgan senkt Ziel fuer Volkswagen auf 85 Euro - 'Neutral'",
+          "ret_w1": 0.316,
+          "ret_w2": -3.0738,
+          "w1_disp": "+0.3%",
+          "w2_disp": "-3.1%"
+        },
+        "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 50.04,
@@ -4494,20 +4756,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Automobile Manufacturers",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.53,
+      "tech_state_date": "2026-11-17",
+      "tech_confidence": 0.58,
       "price_reading": "Pause may resolve down",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 17,
+        "timing": "SYNCHRONOUS",
+        "delta_days": -4,
         "eps_date": "2026-11-13",
-        "tech_date": "2026-10-27",
-        "summary": "Price leads fundamentals by 17 days"
+        "tech_date": "2026-11-17",
+        "summary": "Contemporaneous (-4d)"
       }
     },
     "HNR1": {
       "code": "HNR1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4519,17 +4781,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-09",
       "analyst": {
         "code": "HNR1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-20",
+          "bank": "RBC",
+          "bank_short": "RBC",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: RBC hebt Ziel fuer Hannover Rueck auf 280 Euro - 'Sector Perform'",
+          "ret_w1": 1.5228,
+          "ret_w2": 5.7288,
+          "w1_disp": "+1.5%",
+          "w2_disp": "+5.7%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 4.18,
@@ -4598,22 +4870,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "re_insurance",
       "sector": "Insurance",
       "subsector": "Re-Insurance",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-09-29",
-      "tech_confidence": 0.74,
+      "tech_confidence": 0.7,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-02-20",
         "tech_date": "2026-09-29",
-        "summary": "last revision was 631d ago (> 90d)"
+        "summary": "last revision was 637d ago (> 90d)"
       }
     },
     "ALV": {
       "code": "ALV",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4625,17 +4897,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "ALV",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
+        "buy_count": 1,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-23",
+          "bank": "Barclays",
+          "bank_short": "Barclays",
+          "sentiment": "SELL",
+          "headline": "ANALYSE-FLASH: Barclays senkt Ziel fuer Allianz auf 351 Euro - 'Underweight'",
+          "ret_w1": 2.524,
+          "ret_w2": 5.4218,
+          "w1_disp": "+2.5%",
+          "w2_disp": "+5.4%"
+        },
+        "summary": "NEUTRAL (1 BUY / 0 HOLD / 1 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 8.49,
@@ -4704,22 +4986,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "insurance",
       "sector": "Insurance",
       "subsector": "Insurance",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.82,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-12-13",
         "tech_date": "2026-10-19",
-        "summary": "last revision was 700d ago (> 90d)"
+        "summary": "last revision was 706d ago (> 90d)"
       }
     },
     "MUV2": {
       "code": "MUV2",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4731,7 +5013,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "MUV2",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -4810,8 +5092,8 @@ window.FUND_SENT_DATA = {
       "subsector_key": "re_insurance",
       "sector": "Insurance",
       "subsector": "Re-Insurance",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-08",
       "tech_confidence": 0.72,
       "price_reading": "Technical reading stands alone",
@@ -4820,12 +5102,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2025-03-09",
         "tech_date": "2026-10-08",
-        "summary": "last revision was 614d ago (> 90d)"
+        "summary": "last revision was 620d ago (> 90d)"
       }
     },
     "MTX": {
       "code": "MTX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4837,17 +5119,29 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-24",
       "analyst": {
         "code": "MTX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 4,
+        "buy_count": 3,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
-        "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "distinct_banks": 4,
+        "flags": [
+          "ANALYST_UPGRADE_CLUSTER"
+        ],
+        "latest_event": {
+          "date": "2026-10-29",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank belaesst MTU auf 'Kaufen' - Fairer Wert 445 Euro",
+          "ret_w1": 2.994,
+          "ret_w2": 7.006,
+          "w1_disp": "+3.0%",
+          "w2_disp": "+7.0%"
+        },
+        "summary": "POSITIVE (3 BUY / 1 HOLD / 0 SELL across 4 banks, 90d)"
       },
       "growth": {
         "growth_pct": 10.04,
@@ -4894,10 +5188,11 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "STALE_REPORT"
+        "STALE_REPORT",
+        "ANALYST_UPGRADE_CLUSTER"
       ],
       "ups": 0,
       "downs": 0,
@@ -4919,19 +5214,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.6,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.0,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-08-27",
         "tech_date": "2026-11-11",
-        "summary": "last revision was 808d ago (> 90d)"
+        "summary": "last revision was 814d ago (> 90d)"
       }
     },
     "G24": {
       "code": "G24",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4943,17 +5238,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-26",
       "analyst": {
         "code": "G24",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-28",
+          "bank": "Goldman Sachs",
+          "bank_short": "Goldman",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Goldman hebt Ziel fuer Scout24 auf 108 Euro - 'Buy'",
+          "ret_w1": 1.7254,
+          "ret_w2": 10.0525,
+          "w1_disp": "+1.7%",
+          "w2_disp": "+10.1%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 17.37,
@@ -5000,8 +5305,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "STALE_REPORT"
       ],
@@ -5022,22 +5327,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "retail_internet",
       "sector": "Retail",
       "subsector": "Retail, Internet",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-15",
       "tech_confidence": 0.82,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-03",
         "tech_date": "2026-10-15",
-        "summary": "last revision was 194d ago (> 90d)"
+        "summary": "last revision was 200d ago (> 90d)"
       }
     },
     "BNR": {
       "code": "BNR",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5049,7 +5354,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "BNR",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -5143,7 +5448,7 @@ window.FUND_SENT_DATA = {
     },
     "ADS": {
       "code": "ADS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5155,17 +5460,29 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "ADS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
-        "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "bias": "POSITIVE",
+        "event_count": 5,
+        "buy_count": 3,
+        "hold_count": 1,
+        "sell_count": 1,
+        "distinct_banks": 5,
+        "flags": [
+          "ANALYST_UPGRADE_CLUSTER"
+        ],
+        "latest_event": {
+          "date": "2026-11-10",
+          "bank": "Bernstein",
+          "bank_short": "Bernstein",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Bernstein belaesst Adidas auf 'Outperform' - Ziel 245 Euro",
+          "ret_w1": -2.5792,
+          "ret_w2": null,
+          "w1_disp": "-2.6%",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (3 BUY / 1 HOLD / 1 SELL across 5 banks, 90d)"
       },
       "growth": {
         "growth_pct": 21.53,
@@ -5212,10 +5529,11 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "WATCH_UP"
+        "WATCH_UP",
+        "ANALYST_UPGRADE_CLUSTER"
       ],
       "ups": 1,
       "downs": 0,
@@ -5234,11 +5552,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "clothing_footwear",
       "sector": "Consumer",
       "subsector": "Clothing & Footwear",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-02",
       "tech_confidence": 0.78,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 21,
@@ -5249,7 +5567,7 @@ window.FUND_SENT_DATA = {
     },
     "VNA": {
       "code": "VNA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5261,17 +5579,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-05",
       "analyst": {
         "code": "VNA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEGATIVE",
+        "event_count": 1,
         "buy_count": 0,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-24",
+          "bank": "Barclays",
+          "bank_short": "Barclays",
+          "sentiment": "SELL",
+          "headline": "ANALYSE-FLASH: Barclays senkt Ziel fuer Vonovia auf 20 Euro - 'Underweight'",
+          "ret_w1": -2.9249,
+          "ret_w2": -5.5472,
+          "w1_disp": "-2.9%",
+          "w2_disp": "-5.5%"
+        },
+        "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": -6.11,
@@ -5318,8 +5646,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "PRESSURE",
+      "stance_reading": "Caution without estimate change",
       "flags": [
         "WATCH_DOWN",
         "STALE_REPORT"
@@ -5341,11 +5669,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "real_estate",
       "sector": "Financial Services",
       "subsector": "Real Estate",
-      "tech_state": "TRANSITION",
+      "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.61,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.64,
+      "price_reading": "Rebound without fundamental backing [Caution: Negative forward growth -6.1%]",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -64,
@@ -5356,7 +5684,7 @@ window.FUND_SENT_DATA = {
     },
     "BAS": {
       "code": "BAS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5368,17 +5696,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "BAS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-29",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank belaesst BASF auf 'Kaufen' - Fairer Wert 64 Euro",
+          "ret_w1": 2.2827,
+          "ret_w2": 2.9636,
+          "w1_disp": "+2.3%",
+          "w2_disp": "+3.0%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": -5.85,
@@ -5426,7 +5764,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -5447,10 +5785,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
       "subsector": "Chemicals, Specialty",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.52,
       "price_reading": "Healthy pause [Caution: Negative forward growth -5.8%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -5462,7 +5800,7 @@ window.FUND_SENT_DATA = {
     },
     "BAYN": {
       "code": "BAYN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5474,17 +5812,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "BAYN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-18",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Bayer auf 62 Euro - 'Hold'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 6.36,
@@ -5532,7 +5880,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -5553,11 +5901,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "pharmaceuticals",
       "sector": "Pharma & Healthcare",
       "subsector": "Pharmaceuticals",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.83,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.89,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 15,
@@ -5568,7 +5916,7 @@ window.FUND_SENT_DATA = {
     },
     "CBK": {
       "code": "CBK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5580,7 +5928,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "CBK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -5662,19 +6010,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.81,
+      "tech_confidence": 0.55,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-03-23",
         "tech_date": "2026-11-06",
-        "summary": "last revision was 600d ago (> 90d)"
+        "summary": "last revision was 606d ago (> 90d)"
       }
     },
     "DTG": {
       "code": "DTG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5686,17 +6034,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-06",
       "analyst": {
         "code": "DTG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-17",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: JPMorgan belaesst Daimler Truck auf 'Overweight'",
+          "ret_w1": -5.4011,
+          "ret_w2": -6.1921,
+          "w1_disp": "-5.4%",
+          "w2_disp": "-6.2%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 26.29,
@@ -5743,8 +6101,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -5766,11 +6124,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "heavy_machinery",
       "sector": "Industrial",
       "subsector": "Heavy Machinery",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.4,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.65,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 1,
@@ -5781,7 +6139,7 @@ window.FUND_SENT_DATA = {
     },
     "EOAN": {
       "code": "EOAN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5793,7 +6151,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "EOAN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -5857,22 +6215,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "multi_utilities",
       "sector": "Utilities",
       "subsector": "Multi-Utilities",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.83,
+      "tech_confidence": 0.71,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-03-09",
         "tech_date": "2026-10-16",
-        "summary": "last revision was 614d ago (> 90d)"
+        "summary": "last revision was 620d ago (> 90d)"
       }
     },
     "ENR": {
       "code": "ENR",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5884,17 +6242,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "ENR",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 4,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-12",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Siemens Energy auf 250 Euro - 'Overweight'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "n/a",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 41.16,
@@ -5941,8 +6309,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "POST_REPORT_EARLY"
@@ -5966,20 +6334,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Industrial, Diversified",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.44,
-      "price_reading": "Technical reading stands alone",
+      "tech_state_date": "2026-11-16",
+      "tech_confidence": 0.37,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -66,
+        "delta_days": -70,
         "eps_date": "2026-09-07",
-        "tech_date": "2026-11-12",
-        "summary": "Fundamentals lead price by 66 days"
+        "tech_date": "2026-11-16",
+        "summary": "Fundamentals lead price by 70 days"
       }
     },
     "FRE": {
       "code": "FRE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -5991,17 +6359,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "FRE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 3,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-26",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: JPMorgan belaesst Fresenius SE auf 'Overweight' - Ziel 55,20 Euro",
+          "ret_w1": 4.5631,
+          "ret_w2": 12.9143,
+          "w1_disp": "+4.6%",
+          "w2_disp": "+12.9%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 5.49,
@@ -6048,11 +6426,10 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "WATCH_UP",
-        "POST_REPORT_EARLY"
+        "WATCH_UP"
       ],
       "ups": 1,
       "downs": 0,
@@ -6071,11 +6448,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "health_care",
       "sector": "Pharma & Healthcare",
       "subsector": "Health Care",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-23",
-      "tech_confidence": 0.73,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.71,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -46,
@@ -6086,7 +6463,7 @@ window.FUND_SENT_DATA = {
     },
     "SHL": {
       "code": "SHL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6098,17 +6475,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "SHL",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 3,
+        "buy_count": 1,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 3,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-17",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg belaesst Siemens Healthineers auf 'Hold' - Ziel 40 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 2 HOLD / 0 SELL across 3 banks, 90d)"
       },
       "growth": {
         "growth_pct": -1.69,
@@ -6148,8 +6535,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -6173,8 +6560,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-09",
-      "tech_confidence": 0.89,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.84,
+      "price_reading": "Confirmed strength [Caution: Negative forward growth -1.7%]",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -32,
@@ -6185,7 +6572,7 @@ window.FUND_SENT_DATA = {
     },
     "SY1": {
       "code": "SY1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6197,17 +6584,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-30",
       "analyst": {
         "code": "SY1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-24",
+          "bank": "Barclays",
+          "bank_short": "Barclays",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Barclays hebt Ziel fuer Symrise auf 96 Euro - 'Equal Weight'",
+          "ret_w1": -3.0674,
+          "ret_w2": -2.4668,
+          "w1_disp": "-3.1%",
+          "w2_disp": "-2.5%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 11.6,
@@ -6277,10 +6674,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
       "subsector": "Chemicals, Specialty",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.56,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -6292,7 +6689,7 @@ window.FUND_SENT_DATA = {
     },
     "ZAL": {
       "code": "ZAL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6304,17 +6701,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "ZAL",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-14",
+          "bank": "UBS",
+          "bank_short": "UBS",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: UBS senkt Ziel fuer Zalando auf 33,50 Euro - 'Buy'",
+          "ret_w1": 7.4708,
+          "ret_w2": 8.8898,
+          "w1_disp": "+7.5%",
+          "w2_disp": "+8.9%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 26.71,
@@ -6361,8 +6768,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -6387,7 +6794,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-06",
       "tech_confidence": 0.79,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 36,
@@ -6398,7 +6805,7 @@ window.FUND_SENT_DATA = {
     },
     "AIR": {
       "code": "AIR",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6410,7 +6817,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "AIR",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -6487,22 +6894,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "heavy_machinery",
       "sector": "Industrial",
       "subsector": "Heavy Machinery",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.78,
+      "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-17",
         "tech_date": "2026-10-21",
-        "summary": "last revision was 241d ago (> 90d)"
+        "summary": "last revision was 247d ago (> 90d)"
       }
     },
     "QIA": {
       "code": "QIA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6514,7 +6921,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "QIA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -6573,9 +6980,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "UP",
@@ -6593,22 +6998,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "biotechnology",
       "sector": "Pharma & Healthcare",
       "subsector": "Biotechnology",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-09-24",
-      "tech_confidence": 0.82,
+      "tech_confidence": 0.83,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-03",
         "tech_date": "2026-09-24",
-        "summary": "last revision was 194d ago (> 90d)"
+        "summary": "last revision was 200d ago (> 90d)"
       }
     },
     "UTDI": {
       "code": "UTDI",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6620,17 +7025,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "UTDI",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-04",
+          "bank": "UBS",
+          "bank_short": "UBS",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: UBS hebt Ziel fuer United Internet auf 33,40 Euro - 'Buy'",
+          "ret_w1": -2.0016,
+          "ret_w2": -1.6013,
+          "w1_disp": "-2.0%",
+          "w2_disp": "-1.6%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 23.93,
@@ -6670,8 +7085,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -6693,11 +7108,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "telecommunication_services",
       "sector": "Telecommunication",
       "subsector": "Telecommunication Services",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.72,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.56,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 9,
@@ -6708,7 +7123,7 @@ window.FUND_SENT_DATA = {
     },
     "BC8": {
       "code": "BC8",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6720,17 +7135,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-13",
       "analyst": {
         "code": "BC8",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-21",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer Bechtle auf 49 Euro - 'Buy'",
+          "ret_w1": -2.9143,
+          "ret_w2": -2.6857,
+          "w1_disp": "-2.9%",
+          "w2_disp": "-2.7%"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 8.87,
@@ -6777,8 +7202,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "POST_REPORT_EARLY"
@@ -6803,8 +7228,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.66,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.42,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -46,
@@ -6815,7 +7240,7 @@ window.FUND_SENT_DATA = {
     },
     "EVD": {
       "code": "EVD",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6827,17 +7252,29 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "EVD",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 4,
+        "buy_count": 3,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
-        "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "distinct_banks": 4,
+        "flags": [
+          "ANALYST_UPGRADE_CLUSTER"
+        ],
+        "latest_event": {
+          "date": "2026-10-13",
+          "bank": "Goldman Sachs",
+          "bank_short": "Goldman",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Goldman startet CTS Eventim mit 'Neutral' - Ziel 68 Euro",
+          "ret_w1": 1.0647,
+          "ret_w2": 2.5389,
+          "w1_disp": "+1.1%",
+          "w2_disp": "+2.5%"
+        },
+        "summary": "POSITIVE (3 BUY / 1 HOLD / 0 SELL across 4 banks, 90d)"
       },
       "growth": {
         "growth_pct": 8.68,
@@ -6884,11 +7321,12 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
-        "POST_REPORT_EARLY"
+        "POST_REPORT_EARLY",
+        "ANALYST_UPGRADE_CLUSTER"
       ],
       "ups": 1,
       "downs": 0,
@@ -6911,7 +7349,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -53,
@@ -6922,7 +7360,7 @@ window.FUND_SENT_DATA = {
     },
     "LXS": {
       "code": "LXS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6934,17 +7372,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "LXS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEGATIVE",
+        "event_count": 2,
         "buy_count": 0,
-        "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "hold_count": 1,
+        "sell_count": 1,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-17",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Lanxess auf 12 Euro - 'Hold'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "NEGATIVE (0 BUY / 1 HOLD / 1 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 100.0,
@@ -6994,7 +7442,7 @@ window.FUND_SENT_DATA = {
       "direction": "DETERIORATING",
       "base_direction": "DETERIORATING",
       "stance": "PRESSURE",
-      "stance_reading": "Pressure: falling estimates, analysts silent",
+      "stance_reading": "Both point to fundamental pressure",
       "flags": [
         "CONFLICT",
         "SEVERE_CUT",
@@ -7020,7 +7468,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.69,
+      "tech_confidence": 0.76,
       "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -7032,7 +7480,7 @@ window.FUND_SENT_DATA = {
     },
     "ELG": {
       "code": "ELG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7044,7 +7492,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-10",
       "analyst": {
         "code": "ELG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -7127,7 +7575,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "DOWNTREND",
       "tech_family": "DOWN",
       "tech_state_date": "2026-10-15",
-      "tech_confidence": 0.4,
+      "tech_confidence": 0.42,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -7139,7 +7587,7 @@ window.FUND_SENT_DATA = {
     },
     "FRA": {
       "code": "FRA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7151,17 +7599,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "FRA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 5,
+        "buy_count": 2,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 3,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-11",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank senkt fairen Wert fuer Fraport auf 85 Euro - 'Kaufen'",
+          "ret_w1": -1.8195,
+          "ret_w2": null,
+          "w1_disp": "-1.8%",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 1 SELL across 3 banks, 90d)"
       },
       "growth": {
         "growth_pct": 2.77,
@@ -7208,11 +7666,10 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "WATCH_DOWN",
-        "POST_REPORT_EARLY"
+        "WATCH_DOWN"
       ],
       "ups": 0,
       "downs": 1,
@@ -7234,8 +7691,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.78,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.72,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -38,
@@ -7246,7 +7703,7 @@ window.FUND_SENT_DATA = {
     },
     "GBF": {
       "code": "GBF",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7258,27 +7715,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "GBF",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 1,
-        "buy_count": 1,
-        "hold_count": 0,
+        "event_count": 3,
+        "buy_count": 2,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 1,
+        "distinct_banks": 3,
         "flags": [],
         "latest_event": {
-          "date": "2026-09-18",
-          "bank": "Deutsche Bank",
-          "bank_short": "Deutsche Bk",
+          "date": "2026-10-19",
+          "bank": "UBS",
+          "bank_short": "UBS",
           "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Bilfinger auf 100 Euro - 'Buy'",
-          "ret_w1": null,
-          "ret_w2": null,
-          "w1_disp": "n/a",
-          "w2_disp": "n/a"
+          "headline": "ANALYSE-FLASH: UBS senkt Ziel fuer Bilfinger auf 70 Euro - 'Buy'",
+          "ret_w1": -1.2489,
+          "ret_w2": 5.9768,
+          "w1_disp": "-1.2%",
+          "w2_disp": "+6.0%"
         },
-        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 1 HOLD / 0 SELL across 3 banks, 90d)"
       },
       "growth": {
         "growth_pct": 27.76,
@@ -7348,11 +7805,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.52,
-      "price_reading": "Turn backed by fundamentals",
+      "tech_confidence": 0.0,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 14,
@@ -7363,7 +7820,7 @@ window.FUND_SENT_DATA = {
     },
     "SZG": {
       "code": "SZG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7375,17 +7832,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SZG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-15",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Salzgitter auf 65 Euro - 'Overweight'",
+          "ret_w1": -6.4772,
+          "ret_w2": 1.7133,
+          "w1_disp": "-6.5%",
+          "w2_disp": "+1.7%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 65.86,
@@ -7432,8 +7899,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -7455,11 +7922,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "steel_other_metals",
       "sector": "Basic resources",
       "subsector": "Steel & Other Metals",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.51,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 3,
@@ -7470,7 +7937,7 @@ window.FUND_SENT_DATA = {
     },
     "DEZ": {
       "code": "DEZ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7482,17 +7949,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-11",
       "analyst": {
         "code": "DEZ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-01",
+          "bank": "M.M. Warburg",
+          "bank_short": "Warburg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Warburg Research hebt Ziel fuer Deutz auf 19 Euro - 'Buy'",
+          "ret_w1": 4.6142,
+          "ret_w2": -4.5346,
+          "w1_disp": "+4.6%",
+          "w2_disp": "-4.5%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 61.64,
@@ -7541,8 +8018,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "CONFLICT"
       ],
@@ -7566,8 +8043,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-22",
-      "tech_confidence": 0.43,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.41,
+      "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 50,
@@ -7578,7 +8055,7 @@ window.FUND_SENT_DATA = {
     },
     "KRN": {
       "code": "KRN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7590,17 +8067,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-06",
       "analyst": {
         "code": "KRN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-23",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg senkt Ziel fuer Krones auf 158 Euro - 'Buy'",
+          "ret_w1": 2.9038,
+          "ret_w2": 0.9074,
+          "w1_disp": "+2.9%",
+          "w2_disp": "+0.9%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 5.16,
@@ -7647,8 +8134,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_DOWN",
         "POST_REPORT_EARLY"
@@ -7672,20 +8159,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Industrial Machinery",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-19",
+      "tech_state_date": "2026-11-13",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 4,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -21,
         "eps_date": "2026-10-23",
-        "tech_date": "2026-10-19",
-        "summary": "Contemporaneous (+4d)"
+        "tech_date": "2026-11-13",
+        "summary": "Fundamentals lead price by 21 days"
       }
     },
     "NEM": {
       "code": "NEM",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7697,17 +8184,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "NEM",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-18",
+          "bank": "Goldman Sachs",
+          "bank_short": "Goldman",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Goldman senkt Ziel fuer Nemetschek auf 90 Euro - 'Buy'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 20.39,
@@ -7756,8 +8253,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -7778,11 +8275,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "software",
       "sector": "Software",
       "subsector": "Software",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.58,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.49,
+      "price_reading": "Price leads, fundamentals unclear",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 5,
@@ -7793,7 +8290,7 @@ window.FUND_SENT_DATA = {
     },
     "NDA": {
       "code": "NDA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7805,17 +8302,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-06",
       "analyst": {
         "code": "NDA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-21",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Aurubis auf 169 Euro - 'Hold'",
+          "ret_w1": -3.2028,
+          "ret_w2": -0.9253,
+          "w1_disp": "-3.2%",
+          "w2_disp": "-0.9%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 9.61,
@@ -7885,22 +8392,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "steel_other_metals",
       "sector": "Basic resources",
       "subsector": "Steel & Other Metals",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
-      "tech_state_date": "2026-09-14",
-      "tech_confidence": 0.49,
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.53,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 46,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -14,
         "eps_date": "2026-10-30",
-        "tech_date": "2026-09-14",
-        "summary": "Price leads fundamentals by 46 days"
+        "tech_date": "2026-11-13",
+        "summary": "Fundamentals lead price by 14 days"
       }
     },
     "PUM": {
       "code": "PUM",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7912,17 +8419,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-30",
       "analyst": {
         "code": "PUM",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-06",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Puma SE auf 23,50 Euro - 'Hold'",
+          "ret_w1": 5.6408,
+          "ret_w2": 10.6047,
+          "w1_disp": "+5.6%",
+          "w2_disp": "+10.6%"
+        },
+        "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 100.0,
@@ -7993,10 +8510,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "clothing_footwear",
       "sector": "Consumer",
       "subsector": "Clothing & Footwear",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-02",
-      "tech_confidence": 0.59,
+      "tech_confidence": 0.56,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -8008,7 +8525,7 @@ window.FUND_SENT_DATA = {
     },
     "RAA": {
       "code": "RAA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8020,7 +8537,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "RAA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -8102,19 +8619,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-09",
-      "tech_confidence": 0.67,
+      "tech_confidence": 0.62,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-05-31",
         "tech_date": "2026-10-09",
-        "summary": "last revision was 896d ago (> 90d)"
+        "summary": "last revision was 902d ago (> 90d)"
       }
     },
     "SRT3": {
       "code": "SRT3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8126,17 +8643,29 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-22",
       "analyst": {
         "code": "SRT3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
-        "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "bias": "POSITIVE",
+        "event_count": 6,
+        "buy_count": 3,
+        "hold_count": 1,
+        "sell_count": 1,
+        "distinct_banks": 5,
+        "flags": [
+          "ANALYST_UPGRADE_CLUSTER"
+        ],
+        "latest_event": {
+          "date": "2026-11-12",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Sartorius auf 340 Euro - 'Buy'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "n/a",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (3 BUY / 1 HOLD / 1 SELL across 5 banks, 90d)"
       },
       "growth": {
         "growth_pct": 21.01,
@@ -8183,9 +8712,11 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
-      "flags": [],
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
+      "flags": [
+        "ANALYST_UPGRADE_CLUSTER"
+      ],
       "ups": 0,
       "downs": 0,
       "lean": "FLAT",
@@ -8203,22 +8734,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "biotechnology",
       "sector": "Pharma & Healthcare",
       "subsector": "Biotechnology",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.77,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.82,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-03",
         "tech_date": "2026-10-21",
-        "summary": "last revision was 194d ago (> 90d)"
+        "summary": "last revision was 200d ago (> 90d)"
       }
     },
     "SAX": {
       "code": "SAX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8230,7 +8761,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SAX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -8310,10 +8841,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "advertising",
       "sector": "Media",
       "subsector": "Advertising",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -8325,7 +8856,7 @@ window.FUND_SENT_DATA = {
     },
     "TKA": {
       "code": "TKA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8337,17 +8868,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-13",
       "analyst": {
         "code": "TKA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-15",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Thyssenkrupp auf 17 Euro - 'Neutral'",
+          "ret_w1": -1.9369,
+          "ret_w2": -11.0473,
+          "w1_disp": "-1.9%",
+          "w2_disp": "-11.0%"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 100.0,
@@ -8394,8 +8935,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "STALE_REPORT"
@@ -8417,11 +8958,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_diversified",
       "sector": "Industrial",
       "subsector": "Industrial, Diversified",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-30",
       "tech_confidence": 0.39,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 0,
@@ -8432,7 +8973,7 @@ window.FUND_SENT_DATA = {
     },
     "LHA": {
       "code": "LHA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8444,7 +8985,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "LHA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -8503,9 +9044,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "DETERIORATING",
       "stance": "NEUTRAL",
       "stance_reading": "Growth intact, revisions negative; watch",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 3,
       "lean": "DOWN",
@@ -8523,10 +9062,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "airlines",
       "sector": "Transportation & Logistics",
       "subsector": "Airlines",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.66,
+      "tech_confidence": 0.75,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -8538,7 +9077,7 @@ window.FUND_SENT_DATA = {
     },
     "TEG": {
       "code": "TEG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8550,7 +9089,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-10",
       "analyst": {
         "code": "TEG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -8644,7 +9183,7 @@ window.FUND_SENT_DATA = {
     },
     "NDX1": {
       "code": "NDX1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8656,17 +9195,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-30",
       "analyst": {
         "code": "NDX1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-19",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Nordex auf 61 Euro - 'Buy'",
+          "ret_w1": -3.9542,
+          "ret_w2": -1.769,
+          "w1_disp": "-4.0%",
+          "w2_disp": "-1.8%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 16.45,
@@ -8714,7 +9263,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -8735,11 +9284,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "renewable_energies",
       "sector": "Industrial",
       "subsector": "Renewable Energies",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.77,
-      "price_reading": "Confirmed strength",
+      "tech_confidence": 0.7,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 13,
@@ -8750,7 +9299,7 @@ window.FUND_SENT_DATA = {
     },
     "AIXA": {
       "code": "AIXA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8762,17 +9311,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "AIXA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-30",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research hebt Aixtron auf 'Buy' - Ziel 42 Euro",
+          "ret_w1": -5.9678,
+          "ret_w2": -0.6184,
+          "w1_disp": "-6.0%",
+          "w2_disp": "-0.6%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 113.89,
@@ -8820,7 +9379,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -8841,11 +9400,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "semiconductors",
       "sector": "Technology",
       "subsector": "Semiconductors",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.49,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.47,
+      "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -11,
@@ -8856,7 +9415,7 @@ window.FUND_SENT_DATA = {
     },
     "FNTN": {
       "code": "FNTN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8868,17 +9427,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "FNTN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-29",
+          "bank": "Barclays",
+          "bank_short": "Barclays",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Barclays senkt Ziel fuer Freenet auf 28 Euro - 'Equal Weight'",
+          "ret_w1": -2.2628,
+          "ret_w2": -3.8294,
+          "w1_disp": "-2.3%",
+          "w2_disp": "-3.8%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 12.2,
@@ -8940,22 +9509,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "wireless_communication",
       "sector": "Telecommunication",
       "subsector": "Wireless Communication",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.69,
+      "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-07-25",
         "tech_date": "2026-10-28",
-        "summary": "last revision was 111d ago (> 90d)"
+        "summary": "last revision was 117d ago (> 90d)"
       }
     },
     "HLE": {
       "code": "HLE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8967,7 +9536,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "HLE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9050,7 +9619,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-03",
-      "tech_confidence": 0.38,
+      "tech_confidence": 0.33,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -9062,7 +9631,7 @@ window.FUND_SENT_DATA = {
     },
     "SMHN": {
       "code": "SMHN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9074,17 +9643,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "SMHN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 3,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-28",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research senkt Ziel fuer Suss Microtec - 'Buy'",
+          "ret_w1": -6.7675,
+          "ret_w2": -1.7013,
+          "w1_disp": "-6.8%",
+          "w2_disp": "-1.7%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 171.74,
@@ -9132,7 +9711,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -9157,7 +9736,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-12",
-      "tech_confidence": 0.4,
+      "tech_confidence": 0.43,
       "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -9169,7 +9748,7 @@ window.FUND_SENT_DATA = {
     },
     "DHER": {
       "code": "DHER",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9181,7 +9760,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-27",
       "analyst": {
         "code": "DHER",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9263,11 +9842,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "retail_internet",
       "sector": "Retail",
       "subsector": "Retail, Internet",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.58,
-      "price_reading": "Rebound without fundamental backing",
+      "tech_confidence": 0.62,
+      "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 1,
@@ -9278,7 +9857,7 @@ window.FUND_SENT_DATA = {
     },
     "AG1": {
       "code": "AG1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9290,7 +9869,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "AG1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9351,9 +9930,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "DETERIORATING",
       "stance": "NEUTRAL",
       "stance_reading": "Growth intact, revisions negative; watch",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 2,
       "lean": "DOWN",
@@ -9374,7 +9951,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.37,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -9386,7 +9963,7 @@ window.FUND_SENT_DATA = {
     },
     "JEN": {
       "code": "JEN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9398,17 +9975,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-10",
       "analyst": {
         "code": "JEN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-22",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Jenoptik auf 49 Euro - 'Buy'",
+          "ret_w1": 7.7807,
+          "ret_w2": -8.6162,
+          "w1_disp": "+7.8%",
+          "w2_disp": "-8.6%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 27.69,
@@ -9456,7 +10043,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -9479,20 +10066,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Advanced Industrial Equipment",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.45,
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.39,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -12,
+        "delta_days": -21,
         "eps_date": "2026-10-23",
-        "tech_date": "2026-11-04",
-        "summary": "Fundamentals lead price by 12 days"
+        "tech_date": "2026-11-13",
+        "summary": "Fundamentals lead price by 21 days"
       }
     },
     "IOS": {
       "code": "IOS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9504,17 +10091,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "IOS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-04",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg senkt Ionos auf 'Hold' - Dynamik eingepreist",
+          "ret_w1": 0.0,
+          "ret_w2": -3.5694,
+          "w1_disp": "+0.0%",
+          "w2_disp": "-3.6%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 23.37,
@@ -9571,19 +10168,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.79,
+      "tech_confidence": 0.59,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-01-16",
         "tech_date": "2026-11-12",
-        "summary": "last revision was 301d ago (> 90d)"
+        "summary": "last revision was 307d ago (> 90d)"
       }
     },
     "FPE3": {
       "code": "FPE3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9595,7 +10192,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-30",
       "analyst": {
         "code": "FPE3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9654,9 +10251,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
       "stance_reading": "Estimates lead, analysts not yet convinced / silent",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 2,
       "downs": 0,
       "lean": "UP",
@@ -9674,10 +10269,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
       "subsector": "Chemicals, Specialty",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.75,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -9689,7 +10284,7 @@ window.FUND_SENT_DATA = {
     },
     "AMV0": {
       "code": "AMV0",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9701,17 +10296,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "AMV0",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-05",
+          "bank": "Bernstein",
+          "bank_short": "Bernstein",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Bernstein belaesst Aumovio auf 'Outperform' - Ziel 54 Euro",
+          "ret_w1": -2.8694,
+          "ret_w2": 2.439,
+          "w1_disp": "-2.9%",
+          "w2_disp": "+2.4%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 100.0,
@@ -9760,8 +10365,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -9787,7 +10392,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-25",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 48,
@@ -9798,7 +10403,7 @@ window.FUND_SENT_DATA = {
     },
     "DWS": {
       "code": "DWS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9810,17 +10415,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-29",
       "analyst": {
         "code": "DWS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-20",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg startet DWS mit 'Hold' - Ziel 68 Euro",
+          "ret_w1": 2.8594,
+          "ret_w2": 0.1546,
+          "w1_disp": "+2.9%",
+          "w2_disp": "+0.2%"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 5.39,
@@ -9867,8 +10482,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "STALE_REPORT"
@@ -9890,11 +10505,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.39,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.43,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -52,
@@ -9905,7 +10520,7 @@ window.FUND_SENT_DATA = {
     },
     "EVK": {
       "code": "EVK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9917,17 +10532,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "EVK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-05",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Evonik auf 'Hold' - Ziel erhoeht auf 20 Euro",
+          "ret_w1": 1.9324,
+          "ret_w2": 3.0918,
+          "w1_disp": "+1.9%",
+          "w2_disp": "+3.1%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": -17.78,
@@ -9977,8 +10602,7 @@ window.FUND_SENT_DATA = {
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "WATCH_UP",
-        "POST_REPORT_EARLY"
+        "WATCH_UP"
       ],
       "ups": 1,
       "downs": 0,
@@ -10000,7 +10624,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.84,
+      "tech_confidence": 0.87,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -10012,7 +10636,7 @@ window.FUND_SENT_DATA = {
     },
     "FTK": {
       "code": "FTK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10024,17 +10648,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-14",
       "analyst": {
         "code": "FTK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-08",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg senkt Ziel fuer Flatexdegiro auf 44 Euro - 'Buy'",
+          "ret_w1": -1.0062,
+          "ret_w2": -10.6037,
+          "w1_disp": "-1.0%",
+          "w2_disp": "-10.6%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 16.99,
@@ -10081,8 +10715,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "STALE_REPORT"
@@ -10108,7 +10742,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "TURNING",
       "tech_state_date": "2026-09-14",
       "tech_confidence": 0.43,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 59,
@@ -10119,7 +10753,7 @@ window.FUND_SENT_DATA = {
     },
     "HAG": {
       "code": "HAG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10131,17 +10765,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "HAG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-05",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies hebt Hensoldt auf 'Buy' - Ziel 98 Euro",
+          "ret_w1": -2.3492,
+          "ret_w2": 6.0305,
+          "w1_disp": "-2.3%",
+          "w2_disp": "+6.0%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 31.61,
@@ -10188,8 +10832,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -10214,18 +10858,18 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-06",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-06-26",
         "tech_date": "2026-11-06",
-        "summary": "last revision was 140d ago (> 90d)"
+        "summary": "last revision was 146d ago (> 90d)"
       }
     },
     "KBX": {
       "code": "KBX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10237,17 +10881,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "KBX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-09",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Knorr-Bremse auf 126 Euro - 'Buy'",
+          "ret_w1": -0.3505,
+          "ret_w2": -4.0561,
+          "w1_disp": "-0.4%",
+          "w2_disp": "-4.1%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 15.79,
@@ -10294,8 +10948,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [],
       "ups": 0,
       "downs": 0,
@@ -10314,22 +10968,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
-      "tech_state_date": "2026-10-07",
-      "tech_confidence": 0.46,
-      "price_reading": "Technical reading stands alone",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "tech_state_date": "2026-11-17",
+      "tech_confidence": 0.37,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-02-21",
-        "tech_date": "2026-10-07",
-        "summary": "last revision was 265d ago (> 90d)"
+        "tech_date": "2026-11-17",
+        "summary": "last revision was 271d ago (> 90d)"
       }
     },
     "KGX": {
       "code": "KGX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10341,17 +10995,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "KGX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 3,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-15",
+          "bank": "MPCM",
+          "bank_short": "MPCM",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: MPCM senkt Ziel fuer Kion auf 54 Euro - 'Buy'",
+          "ret_w1": -1.717,
+          "ret_w2": 2.5755,
+          "w1_disp": "-1.7%",
+          "w2_disp": "+2.6%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 14.37,
@@ -10398,8 +11062,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -10423,8 +11087,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.56,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.38,
+      "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": -5,
@@ -10435,7 +11099,7 @@ window.FUND_SENT_DATA = {
     },
     "SDF": {
       "code": "SDF",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10447,7 +11111,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-10",
       "analyst": {
         "code": "SDF",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -10527,10 +11191,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_commodity",
       "sector": "Chemicals",
       "subsector": "Chemicals, Commodity",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.54,
+      "tech_confidence": 0.51,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -10542,7 +11206,7 @@ window.FUND_SENT_DATA = {
     },
     "LEG": {
       "code": "LEG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10554,7 +11218,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "LEG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -10629,19 +11293,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.61,
+      "tech_confidence": 0.5,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-01-23",
         "tech_date": "2026-10-20",
-        "summary": "last revision was 294d ago (> 90d)"
+        "summary": "last revision was 300d ago (> 90d)"
       }
     },
     "P911": {
       "code": "P911",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10653,17 +11317,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-27",
       "analyst": {
         "code": "P911",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-17",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank hebt Ziel fuer Porsche AG auf 55 Euro - 'Buy'",
+          "ret_w1": -6.6625,
+          "ret_w2": -9.5839,
+          "w1_disp": "-6.7%",
+          "w2_disp": "-9.6%"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": -15.79,
@@ -10710,8 +11384,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -10733,11 +11407,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "automobile_manufacturers",
       "sector": "Automobile",
       "subsector": "Automobile Manufacturers",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.81,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.57,
+      "price_reading": "Healthy pause [Caution: Negative forward growth -15.8%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 9,
@@ -10748,7 +11422,7 @@ window.FUND_SENT_DATA = {
     },
     "PAH3": {
       "code": "PAH3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10760,7 +11434,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "PAH3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -10843,7 +11517,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-23",
-      "tech_confidence": 0.53,
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -10855,7 +11529,7 @@ window.FUND_SENT_DATA = {
     },
     "R3NK": {
       "code": "R3NK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10867,17 +11541,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "R3NK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-05",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank belaesst Renk auf 'Kaufen' - Fairer Wert 56 Euro",
+          "ret_w1": -6.6174,
+          "ret_w2": null,
+          "w1_disp": "-6.6%",
+          "w2_disp": "n/a"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 33.12,
@@ -10924,8 +11608,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_DOWN",
         "POST_REPORT_EARLY"
@@ -10947,11 +11631,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.53,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.5,
+      "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -17,
@@ -10962,7 +11646,7 @@ window.FUND_SENT_DATA = {
     },
     "SHA0": {
       "code": "SHA0",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10974,7 +11658,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "SHA0",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -11056,20 +11740,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Auto Parts & Equipment",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.54,
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -4,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -6,
         "eps_date": "2026-11-07",
-        "tech_date": "2026-11-11",
-        "summary": "Contemporaneous (-4d)"
+        "tech_date": "2026-11-13",
+        "summary": "Fundamentals lead price by 6 days"
       }
     },
     "TKMS": {
       "code": "TKMS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11081,17 +11765,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "TKMS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-19",
+          "bank": "Bernstein",
+          "bank_short": "Bernstein",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Bernstein senkt Ziel fuer TKMS auf 115 Euro - 'Outperform'",
+          "ret_w1": 2.2539,
+          "ret_w2": 4.2705,
+          "w1_disp": "+2.3%",
+          "w2_disp": "+4.3%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 35.03,
@@ -11138,8 +11832,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "STALE_REPORT"
@@ -11165,7 +11859,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -13,
@@ -11176,7 +11870,7 @@ window.FUND_SENT_DATA = {
     },
     "TLX": {
       "code": "TLX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11188,17 +11882,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "TLX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-01",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg belaesst Talanx auf 'Buy' - Ziel 163 Euro",
+          "ret_w1": 2.0636,
+          "ret_w2": 6.9647,
+          "w1_disp": "+2.1%",
+          "w2_disp": "+7.0%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 5.31,
@@ -11238,8 +11942,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -11260,22 +11964,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "re_insurance",
       "sector": "Insurance",
       "subsector": "Re-Insurance",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.81,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.85,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-11-14",
         "tech_date": "2026-10-16",
-        "summary": "last revision was 364d ago (> 90d)"
+        "summary": "last revision was 370d ago (> 90d)"
       }
     },
     "8TRA": {
       "code": "8TRA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11287,17 +11991,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "8TRA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-28",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank belaesst Traton auf 'Kaufen' - Fairer Wert 38 Euro",
+          "ret_w1": 3.1875,
+          "ret_w2": 8.875,
+          "w1_disp": "+3.2%",
+          "w2_disp": "+8.9%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 4.83,
@@ -11345,7 +12059,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -11381,7 +12095,7 @@ window.FUND_SENT_DATA = {
     },
     "TUI1": {
       "code": "TUI1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11393,7 +12107,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "TUI1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -11473,8 +12187,8 @@ window.FUND_SENT_DATA = {
       "subsector_key": "leisure",
       "sector": "Consumer",
       "subsector": "Leisure",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-29",
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
@@ -11488,7 +12202,7 @@ window.FUND_SENT_DATA = {
     },
     "WAF": {
       "code": "WAF",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11500,17 +12214,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-11",
       "analyst": {
         "code": "WAF",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-07",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Siltronic auf 130 Euro - 'Buy'",
+          "ret_w1": -15.2472,
+          "ret_w2": -23.3472,
+          "w1_disp": "-15.2%",
+          "w2_disp": "-23.3%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 42.88,
@@ -11558,7 +12282,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "CONFLICT"
       ],
@@ -11582,7 +12306,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.43,
+      "tech_confidence": 0.39,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -11594,7 +12318,7 @@ window.FUND_SENT_DATA = {
     },
     "WCH": {
       "code": "WCH",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11606,17 +12330,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-30",
       "analyst": {
         "code": "WCH",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEGATIVE",
+        "event_count": 1,
         "buy_count": 0,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-30",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "SELL",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research senkt Wacker Chemie auf 'Sell'",
+          "ret_w1": -4.6246,
+          "ret_w2": -3.0631,
+          "w1_disp": "-4.6%",
+          "w2_disp": "-3.1%"
+        },
+        "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 0.42,
@@ -11663,8 +12397,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "PRESSURE",
+      "stance_reading": "Caution without estimate change",
       "flags": [
         "CONFLICT",
         "STALE_REPORT"
@@ -11689,8 +12423,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.31,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.34,
+      "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 21,
@@ -11701,7 +12435,7 @@ window.FUND_SENT_DATA = {
     },
     "RRTL": {
       "code": "RRTL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11713,17 +12447,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-11",
       "analyst": {
         "code": "RRTL",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-18",
+          "bank": "Barclays",
+          "bank_short": "Barclays",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Barclays senkt Ziel fuer RTL auf 34 Euro - 'Equal Weight'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 23.71,
@@ -11793,10 +12537,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "broadcasting",
       "sector": "Media",
       "subsector": "Broadcasting",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.81,
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -11808,7 +12552,7 @@ window.FUND_SENT_DATA = {
     },
     "AT1": {
       "code": "AT1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11820,17 +12564,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-27",
       "analyst": {
         "code": "AT1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-01",
+          "bank": "M.M. Warburg",
+          "bank_short": "Warburg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Warburg Research senkt Ziel fuer Aroundtown auf 3,30 Euro - 'Buy'",
+          "ret_w1": -8.125,
+          "ret_w2": -11.875,
+          "w1_disp": "-8.1%",
+          "w2_disp": "-11.9%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 22.22,
@@ -11879,8 +12633,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "DETERIORATING",
       "base_direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "stance_reading": "Pressure: falling estimates, analysts silent",
+      "stance": "CONFLICT",
+      "stance_reading": "Conflict: analyst optimism against falling EPS expectations",
       "flags": [
         "SEVERE_CUT",
         "STALE_REPORT"
@@ -11905,8 +12659,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.68,
-      "price_reading": "Rebound without fundamental backing",
+      "tech_confidence": 0.64,
+      "price_reading": "Turn without clear backing",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -31,
@@ -11917,7 +12671,7 @@ window.FUND_SENT_DATA = {
     },
     "KTN": {
       "code": "KTN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11929,7 +12683,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "KTN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12012,7 +12766,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.31,
+      "tech_confidence": 0.37,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -12024,7 +12778,7 @@ window.FUND_SENT_DATA = {
     },
     "1AST": {
       "code": "1AST",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12036,7 +12790,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-12",
       "analyst": {
         "code": "1AST",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12104,7 +12858,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-13",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.46,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -12116,7 +12870,7 @@ window.FUND_SENT_DATA = {
     },
     "SLYG": {
       "code": "SLYG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12128,7 +12882,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "SLYG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12207,7 +12961,7 @@ window.FUND_SENT_DATA = {
     },
     "BSL": {
       "code": "BSL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12219,17 +12973,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-31",
       "analyst": {
         "code": "BSL",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-05",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Basler auf 33 Euro - 'Buy'",
+          "ret_w1": 3.1315,
+          "ret_w2": null,
+          "w1_disp": "+3.1%",
+          "w2_disp": "n/a"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": -4.48,
@@ -12277,7 +13041,7 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
         "STALE_REPORT"
       ],
@@ -12301,7 +13065,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.72,
+      "tech_confidence": 0.71,
       "price_reading": "Healthy pause [Caution: Negative forward growth -4.5%]",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -12313,7 +13077,7 @@ window.FUND_SENT_DATA = {
     },
     "ADV": {
       "code": "ADV",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026"
@@ -12324,7 +13088,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2024-02-27",
       "analyst": {
         "code": "ADV",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12403,12 +13167,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2024-11-10",
         "tech_date": "2026-11-11",
-        "summary": "last revision was 733d ago (> 90d)"
+        "summary": "last revision was 739d ago (> 90d)"
       }
     },
     "AOF": {
       "code": "AOF",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12420,17 +13184,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-24",
       "analyst": {
         "code": "AOF",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-26",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg belaesst Atoss Software auf 'Buy' - Ziel 135 Euro",
+          "ret_w1": -1.2645,
+          "ret_w2": -7.2708,
+          "w1_disp": "-1.3%",
+          "w2_disp": "-7.3%"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 12.02,
@@ -12477,8 +13251,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_UP",
         "STALE_REPORT"
@@ -12503,8 +13277,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.71,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.61,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -11,
@@ -12515,7 +13289,7 @@ window.FUND_SENT_DATA = {
     },
     "EKT": {
       "code": "EKT",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12527,17 +13301,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-12",
       "analyst": {
         "code": "EKT",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-02",
+          "bank": "M.M. Warburg",
+          "bank_short": "Warburg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Warburg Research nimmt Energiekontor mit 'Buy' wieder auf",
+          "ret_w1": -3.0426,
+          "ret_w2": -4.0568,
+          "w1_disp": "-3.0%",
+          "w2_disp": "-4.1%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 877.14,
@@ -12586,8 +13370,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "DETERIORATING",
       "base_direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "stance_reading": "Pressure: falling estimates, analysts silent",
+      "stance": "CONFLICT",
+      "stance_reading": "Conflict: analyst optimism against falling EPS expectations",
       "flags": [
         "SEVERE_CUT",
         "STALE_REPORT"
@@ -12612,8 +13396,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.56,
-      "price_reading": "Rebound without fundamental backing",
+      "tech_confidence": 0.57,
+      "price_reading": "Turn without clear backing",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -35,
@@ -12624,7 +13408,7 @@ window.FUND_SENT_DATA = {
     },
     "AFX": {
       "code": "AFX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12636,7 +13420,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-12",
       "analyst": {
         "code": "AFX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12716,22 +13500,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "medical_technology",
       "sector": "Pharma & Healthcare",
       "subsector": "Medical Technology",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-05",
-      "tech_confidence": 0.84,
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.7,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -27,
+        "delta_days": -66,
         "eps_date": "2026-09-08",
-        "tech_date": "2026-10-05",
-        "summary": "Fundamentals lead price by 27 days"
+        "tech_date": "2026-11-13",
+        "summary": "Fundamentals lead price by 66 days"
       }
     },
     "CWC": {
       "code": "CWC",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12743,7 +13527,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-26",
       "analyst": {
         "code": "CWC",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12825,20 +13609,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Leisure",
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-01",
-      "tech_confidence": 0.74,
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.78,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 42,
+        "timing": "SYNCHRONOUS",
+        "delta_days": -1,
         "eps_date": "2026-11-12",
-        "tech_date": "2026-10-01",
-        "summary": "Price leads fundamentals by 42 days"
+        "tech_date": "2026-11-13",
+        "summary": "Contemporaneous (-1d)"
       }
     },
     "COK": {
       "code": "COK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12850,17 +13634,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "COK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-13",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank belaesst Cancom auf 'Kaufen' - Fairer Wert 29 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 23.48,
@@ -12907,8 +13701,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_DOWN",
         "POST_REPORT_EARLY"
@@ -12933,8 +13727,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.37,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -51,
@@ -12945,7 +13739,7 @@ window.FUND_SENT_DATA = {
     },
     "HYQ": {
       "code": "HYQ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12957,7 +13751,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-30",
       "analyst": {
         "code": "HYQ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13038,10 +13832,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.78,
+      "tech_confidence": 0.6,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -13053,7 +13847,7 @@ window.FUND_SENT_DATA = {
     },
     "1U1": {
       "code": "1U1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13065,7 +13859,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "1U1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13148,7 +13942,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.91,
+      "tech_confidence": 0.88,
       "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -13160,7 +13954,7 @@ window.FUND_SENT_DATA = {
     },
     "DRW3": {
       "code": "DRW3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13172,7 +13966,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "DRW3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13254,7 +14048,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.84,
+      "tech_confidence": 0.89,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -13266,7 +14060,7 @@ window.FUND_SENT_DATA = {
     },
     "DUE": {
       "code": "DUE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13278,17 +14072,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "DUE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-17",
+          "bank": "Bernstein",
+          "bank_short": "Bernstein",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Bernstein senkt Ziel fuer Duerr auf 30 Euro - 'Outperform'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 27.49,
@@ -13335,8 +14139,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -13358,11 +14162,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.55,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.0,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 3,
@@ -13373,7 +14177,7 @@ window.FUND_SENT_DATA = {
     },
     "EUZ": {
       "code": "EUZ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13385,7 +14189,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-26",
       "analyst": {
         "code": "EUZ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13464,22 +14268,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "medical_technology",
       "sector": "Pharma & Healthcare",
       "subsector": "Medical Technology",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.84,
+      "tech_confidence": 0.72,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-27",
         "tech_date": "2026-10-16",
-        "summary": "last revision was 231d ago (> 90d)"
+        "summary": "last revision was 237d ago (> 90d)"
       }
     },
     "EVT": {
       "code": "EVT",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13491,17 +14295,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "EVT",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEGATIVE",
+        "event_count": 1,
         "buy_count": 0,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-30",
+          "bank": "RBC",
+          "bank_short": "RBC",
+          "sentiment": "SELL",
+          "headline": "ANALYSE-FLASH: RBC senkt Ziel fuer Evotec auf 5 Euro - 'Speculative Risk'",
+          "ret_w1": 12.0567,
+          "ret_w2": 5.3191,
+          "w1_disp": "+12.1%",
+          "w2_disp": "+5.3%"
+        },
+        "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 70.14,
@@ -13550,8 +14364,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "PRESSURE",
+      "stance_reading": "Growth slowing and analysts lean cautious",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -13577,7 +14391,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-30",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 13,
@@ -13588,7 +14402,7 @@ window.FUND_SENT_DATA = {
     },
     "IXX": {
       "code": "IXX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13600,7 +14414,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "IXX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13664,10 +14478,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "software",
       "sector": "Software",
       "subsector": "Software",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-13",
-      "tech_confidence": 0.45,
+      "tech_confidence": 0.44,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -13679,7 +14493,7 @@ window.FUND_SENT_DATA = {
     },
     "FIE": {
       "code": "FIE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13691,17 +14505,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-09",
       "analyst": {
         "code": "FIE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-28",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research belaesst Fielmann auf 'Buy' - Ziel 63 Euro",
+          "ret_w1": -1.145,
+          "ret_w2": -2.9262,
+          "w1_disp": "-1.1%",
+          "w2_disp": "-2.9%"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 10.84,
@@ -13748,8 +14572,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "WATCH_DOWN",
         "STALE_REPORT"
@@ -13774,8 +14598,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.74,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.61,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -43,
@@ -13786,7 +14610,7 @@ window.FUND_SENT_DATA = {
     },
     "GFT": {
       "code": "GFT",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13798,7 +14622,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "GFT",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13882,7 +14706,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.76,
+      "tech_confidence": 0.6,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -13894,7 +14718,7 @@ window.FUND_SENT_DATA = {
     },
     "OHB": {
       "code": "OHB",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13906,17 +14730,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "OHB",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-12",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg belaesst OHB auf 'Buy' - Ziel 358 Euro",
+          "ret_w1": 25.0314,
+          "ret_w2": 41.5094,
+          "w1_disp": "+25.0%",
+          "w2_disp": "+41.5%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 65.48,
@@ -13963,8 +14797,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -13987,20 +14821,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Communications_Technology",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-22",
+      "tech_state_date": "2026-11-13",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "INSUFFICIENT",
         "delta_days": null,
         "eps_date": null,
-        "tech_date": "2026-10-22",
+        "tech_date": "2026-11-13",
         "summary": "missing date for lead/lag calculation"
       }
     },
     "HBH": {
       "code": "HBH",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14012,7 +14846,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-09-29",
       "analyst": {
         "code": "HBH",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14092,19 +14926,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.8,
+      "tech_confidence": 0.83,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-06-26",
         "tech_date": "2026-10-20",
-        "summary": "last revision was 140d ago (> 90d)"
+        "summary": "last revision was 146d ago (> 90d)"
       }
     },
     "INH": {
       "code": "INH",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14116,7 +14950,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "INH",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14196,10 +15030,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_diversified",
       "sector": "Industrial",
       "subsector": "Industrial, Diversified",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.71,
+      "tech_confidence": 0.59,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -14211,7 +15045,7 @@ window.FUND_SENT_DATA = {
     },
     "JUN3": {
       "code": "JUN3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14223,17 +15057,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-27",
       "analyst": {
         "code": "JUN3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-13",
+          "bank": "UBS",
+          "bank_short": "UBS",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: UBS startet Jungheinrich mit 'Neutral' - Ziel 24 Euro",
+          "ret_w1": 6.0057,
+          "ret_w2": 3.2412,
+          "w1_disp": "+6.0%",
+          "w2_disp": "+3.2%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 25.57,
@@ -14305,11 +15149,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-30",
-      "tech_confidence": 0.57,
-      "price_reading": "Rebound without fundamental backing",
+      "tech_confidence": 0.43,
+      "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -21,
@@ -14320,7 +15164,7 @@ window.FUND_SENT_DATA = {
     },
     "KSB3": {
       "code": "KSB3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14332,7 +15176,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-02-03",
       "analyst": {
         "code": "KSB3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14421,12 +15265,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-07-25",
         "tech_date": "2026-11-10",
-        "summary": "last revision was 111d ago (> 90d)"
+        "summary": "last revision was 117d ago (> 90d)"
       }
     },
     "LPK": {
       "code": "LPK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14438,7 +15282,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-26",
       "analyst": {
         "code": "LPK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14533,7 +15377,7 @@ window.FUND_SENT_DATA = {
     },
     "MLP": {
       "code": "MLP",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14545,7 +15389,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-13",
       "analyst": {
         "code": "MLP",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14625,10 +15469,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-09-23",
-      "tech_confidence": 0.84,
+      "tech_confidence": 0.87,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -14640,7 +15484,7 @@ window.FUND_SENT_DATA = {
     },
     "KWS": {
       "code": "KWS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14652,17 +15496,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-09-23",
       "analyst": {
         "code": "KWS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-20",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: DZ Bank hebt KWS Saat auf 'Kaufen' und fairen Wert auf 82 Euro",
+          "ret_w1": -2.2091,
+          "ret_w2": -2.651,
+          "w1_disp": "-2.2%",
+          "w2_disp": "-2.7%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": -9.52,
@@ -14702,8 +15556,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "DETERIORATING",
       "base_direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "stance_reading": "Pressure: falling estimates, analysts silent",
+      "stance": "CONFLICT",
+      "stance_reading": "Conflict: analyst optimism against falling EPS expectations",
       "flags": [
         "CONFLICT"
       ],
@@ -14727,8 +15581,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-22",
-      "tech_confidence": 0.37,
-      "price_reading": "Pause may resolve down [Caution: Negative forward growth -9.5%]",
+      "tech_confidence": 0.43,
+      "price_reading": "Unresolved, wait [Caution: Negative forward growth -9.5%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 17,
@@ -14739,7 +15593,7 @@ window.FUND_SENT_DATA = {
     },
     "SIX2": {
       "code": "SIX2",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14751,7 +15605,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SIX2",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14830,22 +15684,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "transportation_services",
       "sector": "Transportation & Logistics",
       "subsector": "Transportation Services",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-05",
-      "tech_confidence": 0.74,
+      "tech_confidence": 0.68,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-17",
         "tech_date": "2026-10-05",
-        "summary": "last revision was 241d ago (> 90d)"
+        "summary": "last revision was 247d ago (> 90d)"
       }
     },
     "SGL": {
       "code": "SGL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14857,17 +15711,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-19",
       "analyst": {
         "code": "SGL",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-23",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Jefferies belaesst SGL Carbon auf 'Hold' - Ziel 5,50 Euro",
+          "ret_w1": 2.0408,
+          "ret_w2": -0.6122,
+          "w1_disp": "+2.0%",
+          "w2_disp": "-0.6%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 17.24,
@@ -14936,22 +15800,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
       "subsector": "Chemicals, Specialty",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.7,
+      "tech_state_date": "2026-11-16",
+      "tech_confidence": 0.56,
       "price_reading": "Healthy pause",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -3,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -7,
         "eps_date": "2026-11-09",
-        "tech_date": "2026-11-12",
-        "summary": "Contemporaneous (-3d)"
+        "tech_date": "2026-11-16",
+        "summary": "Fundamentals lead price by 7 days"
       }
     },
     "STO3": {
       "code": "STO3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14963,7 +15827,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "STO3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15043,8 +15907,8 @@ window.FUND_SENT_DATA = {
       "subsector_key": "building_materials",
       "sector": "Construction",
       "subsector": "Building Materials",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-14",
       "tech_confidence": 0.81,
       "price_reading": "Technical reading stands alone",
@@ -15058,7 +15922,7 @@ window.FUND_SENT_DATA = {
     },
     "YSN": {
       "code": "YSN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15070,7 +15934,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-13",
       "analyst": {
         "code": "YSN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15150,10 +16014,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "it_services",
       "sector": "Software",
       "subsector": "IT-Services",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.49,
+      "tech_confidence": 0.44,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -15165,7 +16029,7 @@ window.FUND_SENT_DATA = {
     },
     "SZU": {
       "code": "SZU",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15177,7 +16041,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2025-10-09",
       "analyst": {
         "code": "SZU",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15260,7 +16124,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.61,
+      "tech_confidence": 0.58,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -15272,7 +16136,7 @@ window.FUND_SENT_DATA = {
     },
     "HDD": {
       "code": "HDD",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15284,7 +16148,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2025-07-13",
       "analyst": {
         "code": "HDD",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15369,7 +16233,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.45,
       "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -15381,7 +16245,7 @@ window.FUND_SENT_DATA = {
     },
     "TPE": {
       "code": "TPE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15393,7 +16257,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "TPE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15476,7 +16340,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.44,
+      "tech_confidence": 0.39,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -15488,7 +16352,7 @@ window.FUND_SENT_DATA = {
     },
     "DEQ": {
       "code": "DEQ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15500,7 +16364,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-31",
       "analyst": {
         "code": "DEQ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15580,10 +16444,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "real_estate",
       "sector": "Financial Services",
       "subsector": "Real Estate",
-      "tech_state": "COUNTERTREND",
+      "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.54,
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -15595,7 +16459,7 @@ window.FUND_SENT_DATA = {
     },
     "F3C": {
       "code": "F3C",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15607,7 +16471,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-14",
       "analyst": {
         "code": "F3C",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15687,10 +16551,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "renewable_energies",
       "sector": "Industrial",
       "subsector": "Renewable Energies",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.57,
+      "tech_confidence": 0.64,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -15702,7 +16566,7 @@ window.FUND_SENT_DATA = {
     },
     "VOS": {
       "code": "VOS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15714,17 +16578,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-22",
       "analyst": {
         "code": "VOS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 2,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-23",
+          "bank": "MPCM",
+          "bank_short": "MPCM",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: MPCM senkt Ziel fuer Vossloh auf 57 Euro - 'Hold'",
+          "ret_w1": 0.5764,
+          "ret_w2": 2.923,
+          "w1_disp": "+0.6%",
+          "w2_disp": "+2.9%"
+        },
+        "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 44.02,
@@ -15796,7 +16670,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.52,
+      "tech_confidence": 0.5,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -15808,7 +16682,7 @@ window.FUND_SENT_DATA = {
     },
     "PBB": {
       "code": "PBB",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15820,7 +16694,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-05",
       "analyst": {
         "code": "PBB",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15915,7 +16789,7 @@ window.FUND_SENT_DATA = {
     },
     "S92": {
       "code": "S92",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15927,17 +16801,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "S92",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
-        "hold_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 1,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-12",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: DZ Bank senkt fairen Wert fuer SMA Solar auf 52 Euro - 'Halten'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "n/a",
+          "w2_disp": "pending"
+        },
+        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 27.3,
@@ -15977,8 +16861,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -16004,7 +16888,7 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
       "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 23,
@@ -16015,7 +16899,7 @@ window.FUND_SENT_DATA = {
     },
     "MBB": {
       "code": "MBB",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16027,7 +16911,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-12",
       "analyst": {
         "code": "MBB",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16109,20 +16993,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Industrial, Diversified",
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-05",
-      "tech_confidence": 0.7,
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.79,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 32,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -7,
         "eps_date": "2026-11-06",
-        "tech_date": "2026-10-05",
-        "summary": "Price leads fundamentals by 32 days"
+        "tech_date": "2026-11-13",
+        "summary": "Fundamentals lead price by 7 days"
       }
     },
     "PNE3": {
       "code": "PNE3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16134,7 +17018,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-13",
       "analyst": {
         "code": "PNE3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16217,7 +17101,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "BASING",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-13",
-      "tech_confidence": 0.53,
+      "tech_confidence": 0.58,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -16229,7 +17113,7 @@ window.FUND_SENT_DATA = {
     },
     "VBK": {
       "code": "VBK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16241,17 +17125,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "VBK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-10-12",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research senkt Ziel fuer Verbio auf 40 Euro - 'Buy'",
+          "ret_w1": 9.962,
+          "ret_w2": 9.8859,
+          "w1_disp": "+10.0%",
+          "w2_disp": "+9.9%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 84.44,
@@ -16291,8 +17185,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -16317,8 +17211,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.0,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.46,
+      "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 2,
@@ -16329,7 +17223,7 @@ window.FUND_SENT_DATA = {
     },
     "HFG": {
       "code": "HFG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16341,17 +17235,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "HFG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 2,
+        "buy_count": 1,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-06",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Hellofresh auf 4,70 Euro - 'Buy'",
+          "ret_w1": 0.3344,
+          "ret_w2": null,
+          "w1_disp": "+0.3%",
+          "w2_disp": "pending"
+        },
+        "summary": "NEUTRAL (1 BUY / 0 HOLD / 1 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": -34.38,
@@ -16423,20 +17327,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Retail, Internet",
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
-      "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.69,
+      "tech_state_date": "2026-11-17",
+      "tech_confidence": 0.64,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 6,
+        "timing": "SYNCHRONOUS",
+        "delta_days": -5,
         "eps_date": "2026-11-12",
-        "tech_date": "2026-11-06",
-        "summary": "Price leads fundamentals by 6 days"
+        "tech_date": "2026-11-17",
+        "summary": "Contemporaneous (-5d)"
       }
     },
     "GLJ": {
       "code": "GLJ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16448,7 +17352,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-13",
       "analyst": {
         "code": "GLJ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16528,10 +17432,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "COUNTERTREND",
-      "tech_family": "TURNING",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -16543,7 +17447,7 @@ window.FUND_SENT_DATA = {
     },
     "NOEJ": {
       "code": "NOEJ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16555,7 +17459,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "NOEJ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16635,10 +17539,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "BASING",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.49,
+      "tech_confidence": 0.5,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -16650,7 +17554,7 @@ window.FUND_SENT_DATA = {
     },
     "ILM1": {
       "code": "ILM1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16662,7 +17566,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-12",
       "analyst": {
         "code": "ILM1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16746,7 +17650,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.64,
+      "tech_confidence": 0.63,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -16758,7 +17662,7 @@ window.FUND_SENT_DATA = {
     },
     "BOSS": {
       "code": "BOSS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16770,17 +17674,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "BOSS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEGATIVE",
+        "event_count": 1,
         "buy_count": 0,
         "hold_count": 0,
-        "sell_count": 0,
-        "distinct_banks": 0,
+        "sell_count": 1,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-10",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "SELL",
+          "headline": "ANALYSE-FLASH: Deutsche Bank Research senkt Hugo Boss auf 'Sell'",
+          "ret_w1": -0.6509,
+          "ret_w2": null,
+          "w1_disp": "-0.7%",
+          "w2_disp": "pending"
+        },
+        "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 12.45,
@@ -16829,8 +17743,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "NEUTRAL",
-      "stance_reading": "Growth intact, revisions negative; watch",
+      "stance": "PRESSURE",
+      "stance_reading": "Growth slowing and analysts lean cautious",
       "flags": [
         "WATCH_DOWN",
         "POST_REPORT_EARLY"
@@ -16852,11 +17766,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "clothing_footwear",
       "sector": "Consumer",
       "subsector": "Clothing & Footwear",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.65,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.71,
+      "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": -1,
@@ -16867,7 +17781,7 @@ window.FUND_SENT_DATA = {
     },
     "DBAN": {
       "code": "DBAN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16879,7 +17793,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-06",
       "analyst": {
         "code": "DBAN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16962,7 +17876,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.56,
+      "tech_confidence": 0.57,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -16974,7 +17888,7 @@ window.FUND_SENT_DATA = {
     },
     "VH2": {
       "code": "VH2",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16986,7 +17900,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-13",
       "analyst": {
         "code": "VH2",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17068,7 +17982,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.92,
+      "tech_confidence": 0.0,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -17080,7 +17994,7 @@ window.FUND_SENT_DATA = {
     },
     "DMP": {
       "code": "DMP",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17092,17 +18006,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-11",
       "analyst": {
         "code": "DMP",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-25",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Jefferies belaesst Dermapharm auf 'Hold' - Ziel 44 Euro",
+          "ret_w1": -7.1429,
+          "ret_w2": -7.2619,
+          "w1_disp": "-7.1%",
+          "w2_disp": "-7.3%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 14.89,
@@ -17174,19 +18098,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.47,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-29",
         "tech_date": "2026-11-11",
-        "summary": "last revision was 168d ago (> 90d)"
+        "summary": "last revision was 174d ago (> 90d)"
       }
     },
     "MUX": {
       "code": "MUX",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17198,7 +18122,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-28",
       "analyst": {
         "code": "MUX",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17280,20 +18204,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Private Equity & Venture Capital",
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-15",
-      "tech_confidence": 0.68,
+      "tech_state_date": "2026-11-13",
+      "tech_confidence": 0.69,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 29,
+        "timing": "SYNCHRONOUS",
+        "delta_days": 0,
         "eps_date": "2026-11-13",
-        "tech_date": "2026-10-15",
-        "summary": "Price leads fundamentals by 29 days"
+        "tech_date": "2026-11-13",
+        "summary": "Contemporaneous (+0d)"
       }
     },
     "TMV": {
       "code": "TMV",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17305,17 +18229,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "TMV",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-04",
+          "bank": "Deutsche Bank",
+          "bank_short": "Deutsche Bk",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Deutsche Bank senkt Ziel fuer Teamviewer auf 6,50 Euro - 'Hold'",
+          "ret_w1": -6.7039,
+          "ret_w2": -15.4562,
+          "w1_disp": "-6.7%",
+          "w2_disp": "-15.5%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 5.1,
@@ -17364,9 +18298,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "DOWN",
@@ -17384,22 +18316,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "software",
       "sector": "Software",
       "subsector": "Software",
-      "tech_state": "DOWNTREND",
-      "tech_family": "DOWN",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.43,
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-11-07",
         "tech_date": "2026-11-05",
-        "summary": "last revision was 371d ago (> 90d)"
+        "summary": "last revision was 377d ago (> 90d)"
       }
     },
     "1SXP": {
       "code": "1SXP",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17411,17 +18343,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "1SXP",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-05",
+          "bank": "RBC",
+          "bank_short": "RBC",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: RBC senkt Schott Pharma nach gutem Lauf auf 'Sector Perform'",
+          "ret_w1": 2.0595,
+          "ret_w2": null,
+          "w1_disp": "+2.1%",
+          "w2_disp": "n/a"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 11.22,
@@ -17490,22 +18432,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "healthcare",
       "sector": "Pharma & Healthcare",
       "subsector": "Healthcare",
-      "tech_state": "DOWNTREND",
-      "tech_family": "DOWN",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-01-16",
         "tech_date": "2026-11-06",
-        "summary": "last revision was 301d ago (> 90d)"
+        "summary": "last revision was 307d ago (> 90d)"
       }
     },
     "NA9": {
       "code": "NA9",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17517,17 +18459,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-14",
       "analyst": {
         "code": "NA9",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-26",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Jefferies senkt Nagarro auf 'Hold' und hebt Kursziel an",
+          "ret_w1": 0.0639,
+          "ret_w2": 0.1279,
+          "w1_disp": "+0.1%",
+          "w2_disp": "+0.1%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 15.28,
@@ -17598,10 +18550,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "it_services",
       "sector": "Software",
       "subsector": "IT-Services",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.76,
+      "tech_confidence": 0.64,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -17613,7 +18565,7 @@ window.FUND_SENT_DATA = {
     },
     "HABA": {
       "code": "HABA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17625,7 +18577,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-04",
       "analyst": {
         "code": "HABA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17720,7 +18672,7 @@ window.FUND_SENT_DATA = {
     },
     "EIN": {
       "code": "EIN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17732,7 +18684,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-29",
       "analyst": {
         "code": "EIN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17815,7 +18767,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.57,
+      "tech_confidence": 0.65,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -17827,7 +18779,7 @@ window.FUND_SENT_DATA = {
     },
     "ACT0": {
       "code": "ACT0",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17839,7 +18791,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "ACT0",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17919,7 +18871,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.37,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "INSUFFICIENT",
@@ -17931,7 +18883,7 @@ window.FUND_SENT_DATA = {
     },
     "OBCK": {
       "code": "OBCK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17943,17 +18895,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "OBCK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 2,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-09-15",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies belaesst Ottobock auf 'Buy' - Ziel 83 Euro",
+          "ret_w1": 3.3457,
+          "ret_w2": -0.3717,
+          "w1_disp": "+3.3%",
+          "w2_disp": "-0.4%"
+        },
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
         "growth_pct": 17.59,
@@ -17993,8 +18955,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "POST_REPORT_EARLY"
       ],
@@ -18018,8 +18980,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.37,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.5,
+      "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "INSUFFICIENT",
         "delta_days": null,
@@ -18030,7 +18992,7 @@ window.FUND_SENT_DATA = {
     },
     "DOU": {
       "code": "DOU",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18042,7 +19004,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "DOU",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18122,10 +19084,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "retail_specialty",
       "sector": "Retail",
       "subsector": "Retail, Specialty",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.47,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -18137,7 +19099,7 @@ window.FUND_SENT_DATA = {
     },
     "JST": {
       "code": "JST",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18149,7 +19111,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "JST",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18229,10 +19191,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "auto_parts_equipment",
       "sector": "Automobile",
       "subsector": "Auto Parts & Equipment",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-07",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -18244,7 +19206,7 @@ window.FUND_SENT_DATA = {
     },
     "PAT": {
       "code": "PAT",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18256,7 +19218,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-10",
       "analyst": {
         "code": "PAT",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18339,7 +19301,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.79,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -18351,7 +19313,7 @@ window.FUND_SENT_DATA = {
     },
     "SFQ": {
       "code": "SFQ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18363,7 +19325,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "SFQ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18443,10 +19405,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "auto_parts_equipment",
       "sector": "Automobile",
       "subsector": "Auto Parts & Equipment",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.82,
+      "tech_confidence": 0.79,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -18458,7 +19420,7 @@ window.FUND_SENT_DATA = {
     },
     "SPG": {
       "code": "SPG",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18470,7 +19432,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-05",
       "analyst": {
         "code": "SPG",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18545,19 +19507,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-18",
-      "tech_confidence": 0.86,
+      "tech_confidence": 0.87,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-20",
         "tech_date": "2026-09-18",
-        "summary": "last revision was 238d ago (> 90d)"
+        "summary": "last revision was 244d ago (> 90d)"
       }
     },
     "STM": {
       "code": "STM",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18569,7 +19531,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-03",
       "analyst": {
         "code": "STM",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18665,7 +19627,7 @@ window.FUND_SENT_DATA = {
     },
     "V1NC": {
       "code": "V1NC",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18677,7 +19639,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "V1NC",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18757,7 +19719,7 @@ window.FUND_SENT_DATA = {
     },
     "WAC": {
       "code": "WAC",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18769,7 +19731,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "WAC",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18837,7 +19799,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.35,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -18849,7 +19811,7 @@ window.FUND_SENT_DATA = {
     },
     "GYC": {
       "code": "GYC",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18861,7 +19823,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-11",
       "analyst": {
         "code": "GYC",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18944,7 +19906,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.5,
+      "tech_confidence": 0.47,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -18956,7 +19918,7 @@ window.FUND_SENT_DATA = {
     },
     "BFSA": {
       "code": "BFSA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18968,17 +19930,29 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "BFSA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 3,
+        "buy_count": 3,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
-        "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "distinct_banks": 3,
+        "flags": [
+          "ANALYST_UPGRADE_CLUSTER"
+        ],
+        "latest_event": {
+          "date": "2026-11-02",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Befesa auf 45 Euro - 'Buy'",
+          "ret_w1": 0.2632,
+          "ret_w2": 2.6316,
+          "w1_disp": "+0.3%",
+          "w2_disp": "+2.6%"
+        },
+        "summary": "POSITIVE (3 BUY / 0 HOLD / 0 SELL across 3 banks, 90d)"
       },
       "growth": {
         "growth_pct": 9.09,
@@ -19026,9 +20000,10 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "stance_reading": "Estimates and recommendations align",
       "flags": [
-        "POST_REPORT_EARLY"
+        "POST_REPORT_EARLY",
+        "ANALYST_UPGRADE_CLUSTER"
       ],
       "ups": 3,
       "downs": 0,
@@ -19047,11 +20022,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-11-04",
       "tech_confidence": 0.0,
-      "price_reading": "Healthy pause",
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 2,
@@ -19062,7 +20037,7 @@ window.FUND_SENT_DATA = {
     },
     "TNIE": {
       "code": "TNIE",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19074,17 +20049,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-20",
       "analyst": {
         "code": "TNIE",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-21",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Tonies auf 20 Euro - 'Buy'",
+          "ret_w1": 1.0345,
+          "ret_w2": 1.7241,
+          "w1_disp": "+1.0%",
+          "w2_disp": "+1.7%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 87.1,
@@ -19106,7 +20091,7 @@ window.FUND_SENT_DATA = {
         "flat_periods": 0,
         "last_report_date": "2026-08-20",
         "last_report_period": "26H1",
-        "is_stale": false,
+        "is_stale": true,
         "periods_analyzed": [
           "2026",
           "2027"
@@ -19127,14 +20112,15 @@ window.FUND_SENT_DATA = {
             "direction": "UP"
           }
         },
-        "summary": "Reaction after 26H1 (2026-08-20): MIXED (1 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26H1 (2026-08-20): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "WATCH_DOWN"
+        "WATCH_DOWN",
+        "STALE_REPORT"
       ],
       "ups": 0,
       "downs": 1,
@@ -19153,11 +20139,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "leisure_goods_services",
       "sector": "Consumer",
       "subsector": "Leisure, Goods & Services",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.75,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.51,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 2,
@@ -19168,7 +20154,7 @@ window.FUND_SENT_DATA = {
     },
     "RDC": {
       "code": "RDC",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19180,17 +20166,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "RDC",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-26",
+          "bank": "Jefferies",
+          "bank_short": "Jefferies",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: Jefferies hebt Ziel fuer Redcare Pharmacy auf 97 Euro - 'Buy'",
+          "ret_w1": -11.2865,
+          "ret_w2": -16.8114,
+          "w1_disp": "-11.3%",
+          "w2_disp": "-16.8%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 100.0,
@@ -19237,8 +20233,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -19263,8 +20259,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.58,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.45,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 2,
@@ -19275,7 +20271,7 @@ window.FUND_SENT_DATA = {
     },
     "AAD": {
       "code": "AAD",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19287,7 +20283,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-02",
       "analyst": {
         "code": "AAD",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19372,7 +20368,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.66,
+      "tech_confidence": 0.62,
       "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -19384,7 +20380,7 @@ window.FUND_SENT_DATA = {
     },
     "BYW6": {
       "code": "BYW6",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19396,7 +20392,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-30",
       "analyst": {
         "code": "BYW6",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19440,9 +20436,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "FLAT",
@@ -19460,7 +20454,7 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "TRANSITION",
+      "tech_state": "BASING",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-12",
       "tech_confidence": 0.66,
@@ -19470,12 +20464,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-01-11",
         "tech_date": "2026-10-12",
-        "summary": "last revision was 306d ago (> 90d)"
+        "summary": "last revision was 312d ago (> 90d)"
       }
     },
     "BVB": {
       "code": "BVB",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19487,7 +20481,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-09-28",
       "analyst": {
         "code": "BVB",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19549,22 +20543,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "movies_entertainment",
       "sector": "Media",
       "subsector": "Movies & Entertainment",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.7,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-09",
         "tech_date": "2026-11-02",
-        "summary": "last revision was 188d ago (> 90d)"
+        "summary": "last revision was 194d ago (> 90d)"
       }
     },
     "PCZ": {
       "code": "PCZ",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19576,7 +20570,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-19",
       "analyst": {
         "code": "PCZ",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19659,7 +20653,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.71,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -19671,7 +20665,7 @@ window.FUND_SENT_DATA = {
     },
     "TTK": {
       "code": "TTK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19683,7 +20677,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "TTK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19766,11 +20760,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "tech_state_date": "2026-09-30",
-      "tech_confidence": 0.57,
-      "price_reading": "Rebound without fundamental backing",
+      "tech_confidence": 0.47,
+      "price_reading": "Fundamentals confirm weakness",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 37,
@@ -19781,7 +20775,7 @@ window.FUND_SENT_DATA = {
     },
     "V6C": {
       "code": "V6C",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19793,7 +20787,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "V6C",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19878,7 +20872,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-15",
-      "tech_confidence": 0.67,
+      "tech_confidence": 0.71,
       "price_reading": "Warning: price ahead of fundamentals",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -19890,7 +20884,7 @@ window.FUND_SENT_DATA = {
     },
     "GXI": {
       "code": "GXI",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19902,7 +20896,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-15",
       "analyst": {
         "code": "GXI",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19984,7 +20978,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.72,
+      "tech_confidence": 0.75,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -19996,7 +20990,7 @@ window.FUND_SENT_DATA = {
     },
     "PSAN": {
       "code": "PSAN",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20008,7 +21002,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-31",
       "analyst": {
         "code": "PSAN",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20092,20 +21086,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Software",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.73,
+      "tech_state_date": "2026-11-16",
+      "tech_confidence": 0.63,
       "price_reading": "Pause may resolve down",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 8,
+        "timing": "SYNCHRONOUS",
+        "delta_days": -3,
         "eps_date": "2026-11-13",
-        "tech_date": "2026-11-05",
-        "summary": "Price leads fundamentals by 8 days"
+        "tech_date": "2026-11-16",
+        "summary": "Contemporaneous (-3d)"
       }
     },
     "ADN1": {
       "code": "ADN1",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20117,7 +21111,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "ADN1",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20197,11 +21191,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "it_services",
       "sector": "Software",
       "subsector": "IT-Services",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-08",
-      "tech_confidence": 0.81,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.85,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 35,
@@ -20212,7 +21206,7 @@ window.FUND_SENT_DATA = {
     },
     "FYB": {
       "code": "FYB",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20224,7 +21218,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "FYB",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20304,10 +21298,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "biotechnology",
       "sector": "Pharma & Healthcare",
       "subsector": "Biotechnology",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-30",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.35,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -20319,7 +21313,7 @@ window.FUND_SENT_DATA = {
     },
     "BRNK": {
       "code": "BRNK",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20331,7 +21325,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-29",
       "analyst": {
         "code": "BRNK",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20414,7 +21408,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.52,
+      "tech_confidence": 0.46,
       "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -20426,7 +21420,7 @@ window.FUND_SENT_DATA = {
     },
     "NCH2": {
       "code": "NCH2",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20438,17 +21432,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "NCH2",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-08-25",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg belaesst Thyssenkrupp Nucera auf 'Hold' - Ziel 9 Euro",
+          "ret_w1": 0.2564,
+          "ret_w2": 1.9231,
+          "w1_disp": "+0.3%",
+          "w2_disp": "+1.9%"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 100.0,
@@ -20532,7 +21536,7 @@ window.FUND_SENT_DATA = {
     },
     "PSM": {
       "code": "PSM",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20544,17 +21548,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-06",
       "analyst": {
         "code": "PSM",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
-        "buy_count": 0,
+        "bias": "POSITIVE",
+        "event_count": 1,
+        "buy_count": 1,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-04",
+          "bank": "JPMorgan",
+          "bank_short": "JPMorgan",
+          "sentiment": "BUY",
+          "headline": "ANALYSE-FLASH: JPMorgan senkt ProSiebenSat.1-Ziel auf 5,40 Euro - 'Overweight'",
+          "ret_w1": -5.2147,
+          "ret_w2": -12.5767,
+          "w1_disp": "-5.2%",
+          "w2_disp": "-12.6%"
+        },
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": 16.0,
@@ -20601,8 +21615,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "STALE_REPORT"
@@ -20624,11 +21638,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "broadcasting",
       "sector": "Media",
       "subsector": "Broadcasting",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.57,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.47,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 15,
@@ -20639,7 +21653,7 @@ window.FUND_SENT_DATA = {
     },
     "SBS": {
       "code": "SBS",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20651,7 +21665,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SBS",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20734,7 +21748,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.86,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -20746,7 +21760,7 @@ window.FUND_SENT_DATA = {
     },
     "TIMA": {
       "code": "TIMA",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20758,7 +21772,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "TIMA",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20841,7 +21855,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.67,
+      "tech_confidence": 0.7,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -20853,7 +21867,7 @@ window.FUND_SENT_DATA = {
     },
     "NOA3": {
       "code": "NOA3",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20865,7 +21879,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-11",
       "analyst": {
         "code": "NOA3",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20945,19 +21959,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-12",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-04-20",
         "tech_date": "2026-10-12",
-        "summary": "last revision was 937d ago (> 90d)"
+        "summary": "last revision was 943d ago (> 90d)"
       }
     },
     "KCO": {
       "code": "KCO",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20969,7 +21983,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-12",
       "analyst": {
         "code": "KCO",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21056,12 +22070,12 @@ window.FUND_SENT_DATA = {
       "lead_lag": {
         "timing": "INSUFFICIENT",
         "delta_days": null,
-        "summary": "price action unavailable: Execution failed on sql 'SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-18' and date <= '2026-11-13' ORDER BY date ASC': (MySQLdb.ProgrammingError) (1146, \"Table 'nb.s_kco' doesn't exist\")\n[SQL: SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-18' and date <= '2026-11-13' ORDER BY date ASC]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
+        "summary": "price action unavailable: Execution failed on sql 'SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-24' and date <= '2026-11-19' ORDER BY date ASC': (MySQLdb.ProgrammingError) (1146, \"Table 'nb.s_kco' doesn't exist\")\n[SQL: SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-24' and date <= '2026-11-19' ORDER BY date ASC]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
       }
     },
     "WUW": {
       "code": "WUW",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-19",
       "window_days": 90,
       "periods": [
         "2026",
@@ -21073,7 +22087,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-27",
       "analyst": {
         "code": "WUW",
-        "as_of": "2026-11-13",
+        "as_of": "2026-11-19",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21156,7 +22170,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-08",
-      "tech_confidence": 0.57,
+      "tech_confidence": 0.59,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
