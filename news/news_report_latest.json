@@ -1,6 +1,6 @@
 {
- "date": "2026-11-19",
- "generated": "2026-11-19 19:03:11",
+ "date": "2026-11-20",
+ "generated": "2026-11-20 21:44:33",
  "schema": 1,
  "indexes": [
   "DAX",
@@ -11,423 +11,351 @@
  "counts": {
   "BUY": 3,
   "SELL": 1,
-  "HOLD": 2,
-  "INFO": 37
+  "HOLD": 1,
+  "INFO": 30
  },
  "by_index": {
   "DAX": {
+   "BUY": 0,
+   "SELL": 1,
+   "HOLD": 0,
+   "INFO": 14
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 10
+  },
+  "PDAX": {
    "BUY": 1,
    "SELL": 0,
    "HOLD": 1,
-   "INFO": 18
-  },
-  "MDAX": {
-   "BUY": 2,
-   "SELL": 0,
-   "HOLD": 0,
-   "INFO": 9
-  },
-  "PDAX": {
-   "BUY": 0,
-   "SELL": 0,
-   "HOLD": 0,
    "INFO": 3
   },
   "SDAX": {
-   "BUY": 0,
-   "SELL": 1,
-   "HOLD": 1,
-   "INFO": 7
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 3
   }
  },
- "total": 43,
+ "total": 35,
  "items": [
   {
    "index": "DAX",
    "code": "DBK",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EZB sieht Banken robust trotz Krisen und spricht Warnung aus",
-   "link": "https://www.onvista.de/news/2026/11-19-ezb-sieht-banken-robust-trotz-krisen-und-spricht-warnung-aus-0-10-26578335",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "DAX",
-   "code": "BMW",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "Volkswagen will Abkehr von 35-Stunden-Woche und Nullrunden bis 2028",
-   "link": "https://www.onvista.de/news/2026/11-19-volkswagen-will-abkehr-von-35-stunden-woche-und-nullrunden-bis-2028-0-20-26578427",
+   "news": "Merz: Katar will weitere 15 Milliarden Euro in Deutschland investieren",
+   "link": "https://www.onvista.de/news/2026/11-20-merz-katar-will-weitere-15-milliarden-euro-in-deutschland-investieren-0-20-26578910",
    "source": "Reuters"
   },
   {
    "index": "DAX",
-   "code": "BEI",
-   "date": "2026-11-19",
+   "code": "BMW",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-PVR: Beiersdorf AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-pvr-beiersdorf-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
-   "source": "EQS Group"
-  },
-  {
-   "index": "DAX",
-   "code": "CON",
-   "date": "2026-11-19",
-   "sentiment": "BUY",
-   "news": "ANALYSE-FLASH: Bernstein belaesst Continental auf 'Outperform' - Ziel 82 Euro",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-bernstein-belaesst-continental-auf-outperform-ziel-82-euro-0-10-26578193",
+   "news": "ROUNDUP 3: IG Metall setzt weiter auf ganztaegige Warnstreiks",
+   "link": "https://www.onvista.de/news/2026/11-20-roundup-3-ig-metall-setzt-weiter-auf-ganztaegige-warnstreiks-0-10-26578890",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
    "code": "DHL",
-   "date": "2026-11-19",
-   "sentiment": "HOLD",
-   "news": "ANALYSE-FLASH: MPCM belaesst DHL Group auf 'Hold' - Ziel 53 Euro",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-mpcm-belaesst-dhl-group-auf-hold-ziel-53-euro-0-10-26578376",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "Behoerde erlaubt deutlich hoeheres Briefporto",
+   "link": "https://www.onvista.de/news/2026/11-20-behoerde-erlaubt-deutlich-hoeheres-briefporto-0-10-26578845",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
-   "code": "DTE",
-   "date": "2026-11-19",
+   "code": "FME",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "1&1 traegt Streit mit Netzagentur zu Mobilfunkfrequenzen zur EU",
-   "link": "https://www.onvista.de/news/2026/11-19-1-1-traegt-streit-mit-netzagentur-zu-mobilfunkfrequenzen-zur-eu-0-20-26578467",
-   "source": "Reuters"
-  },
-  {
-   "index": "DAX",
-   "code": "HOT",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "AKTIEN IM FOKUS 2: Rekord-Boersengang von Anthropic treibt KI-Werte an",
-   "link": "https://www.onvista.de/news/2026/11-19-aktien-im-fokus-2-rekord-boersengang-von-anthropic-treibt-ki-werte-an-0-10-26578277",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "DAX",
-   "code": "G1A",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-DD: GEA Group AG: Prof. Dr. Annette G. Koehler, Kauf",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-dd-gea-group-ag-prof-dr-annette-g-koehler-kauf-0-37-26578491",
+   "news": "EQS-DD: Fresenius Medical Care AG: Shervin J. Korangy, Kauf (Gemeinschaftsdepot mit Ehefrau)",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-dd-fresenius-medical-care-ag-shervin-j-korangy-kauf-gemeinschaftsdepot-mit-ehefrau-0-3",
    "source": "EQS Group"
   },
   {
    "index": "DAX",
-   "code": "RHM",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "Rheinmetall faellt auf Jahrestief - Skepsis ueber Kerngeschaeft",
-   "link": "https://www.onvista.de/news/2026/11-19-aktie-im-fokus-rheinmetall-auf-jahrestief-bernstein-sehr-skeptisch-ab-2030-0-10-26578243",
+   "code": "DB1",
+   "date": "2026-11-20",
+   "sentiment": "SELL",
+   "news": "ANALYSE-FLASH: UBS senkt Deutsche Boerse auf 'Sell' - Ziel hoch auf 300 Euro",
+   "link": "https://www.onvista.de/news/2026/11-20-analyse-flash-ubs-senkt-deutsche-boerse-auf-sell-ziel-hoch-auf-300-euro-0-10-26578672",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
-   "code": "VOW3",
-   "date": "2026-11-19",
+   "code": "HOT",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "VW-Dieselprozess: Haftbefehl gegen Ex-VW-Manager aufgehoben",
-   "link": "https://www.onvista.de/news/2026/11-19-vw-dieselprozess-haftbefehl-gegen-ex-vw-manager-aufgehoben-0-10-26578473",
+   "news": "AKTIEN IM FOKUS 3: Anthropic verliert nach IPO-Tag - KI-Titel weiter unter Druck",
+   "link": "https://www.onvista.de/news/2026/11-20-aktien-im-fokus-3-anthropic-verliert-nach-ipo-tag-ki-titel-weiter-unter-druck-0-10-26578949",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Rheinmetall AG: Sara Georgi Stiftung, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-dd-rheinmetall-ag-sara-georgi-stiftung-kauf-0-37-26578967",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: 12.300 Metaller in 17 Betrieben im Norden haben gestreikt",
+   "link": "https://www.onvista.de/news/2026/11-20-roundup-12-300-metaller-in-17-betrieben-im-norden-haben-gestreikt-0-10-26578933",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
    "code": "ALV",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "Vorteile fuer deutsche Versicherer: EU leitet Verfahren ein",
-   "link": "https://www.onvista.de/news/2026/11-19-vorteile-fuer-deutsche-versicherer-eu-leitet-verfahren-ein-0-10-26578333",
+   "news": "POLITIK: Klimagipfel: Allianz dringt auf Abschied von Oel und Gas",
+   "link": "https://www.onvista.de/news/2026/11-20-politik-klimagipfel-allianz-dringt-auf-abschied-von-oel-und-gas-0-10-26578752",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
-   "code": "MUV2",
-   "date": "2026-11-19",
+   "code": "BAS",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-CMS: Muenchener Rueckversicherungs-Gesellschaft Aktiengesellschaft in Muen",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-cms-muenchener-rueckversicherungs-gesellschaft-aktiengesellschaft-in-muenchen-veroeffentlichung-eine",
-   "source": "EQS Group"
-  },
-  {
-   "index": "DAX",
-   "code": "ADS",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-DD: adidas AG: NN",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-dd-adidas-ag-nns-investments-cyprus-limited-barausgleich-bei-ablauf-von-short-put-optionen-status-ausgelaufen-faelligkeit-17-11-2026-anzahl-87-000-ausuebungs",
-   "source": "EQS Group"
-  },
-  {
-   "index": "DAX",
-   "code": "VNA",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "Vonovia-Chef schlaegt gemeinsame Initiative fuer Wohnen vor",
-   "link": "https://www.onvista.de/news/2026/11-19-vonovia-chef-schlaegt-gemeinsame-initiative-fuer-wohnen-vor-0-10-26578379",
+   "news": "WDH/ROUNDUP: RAG-Stiftung bedauert Ende Uebernahme-Bemuehungen von BASF um Evonik",
+   "link": "https://www.onvista.de/news/2026/11-20-wdh-roundup-rag-stiftung-bedauert-ende-uebernahme-bemuehungen-von-basf-um-evonik-0-10-26578908",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
    "code": "CBK",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "UniCredit bei Commerzbank-Uebernahme fast am Ziel",
-   "link": "https://www.onvista.de/news/2026/11-19-unicredit-bei-commerzbank-uebernahme-fast-am-ziel-0-20-26578428",
+   "news": "Klingbeil: Einigung mit Unicredit Erfolg fuer Frankfurt",
+   "link": "https://www.onvista.de/news/2026/11-20-klingbeil-einigung-mit-unicredit-erfolg-fuer-frankfurt-0-20-26578882",
    "source": "Reuters"
   },
   {
    "index": "DAX",
-   "code": "DTG",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "Daimler-Truck-Chefin ueber EU-Politik: 'Es frustriert mich'",
-   "link": "https://www.onvista.de/news/2026/11-19-daimler-truck-chefin-ueber-eu-politik-es-frustriert-mich-0-10-26578079",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "DAX",
    "code": "EOAN",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "ANALYSE-FLASH: Bernstein hebt Ziel fuer Eon auf 21 Euro - 'Outperform'",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-bernstein-hebt-ziel-fuer-eon-auf-21-euro-outperform-0-10-26578259",
+   "news": "Muehlenbeck wird zum Strom-Drehkreuz im Norden",
+   "link": "https://www.onvista.de/news/2026/11-20-muehlenbeck-wird-zum-strom-drehkreuz-im-norden-0-10-26578900",
    "source": "dpa-AFX"
   },
   {
    "index": "DAX",
-   "code": "FRE",
-   "date": "2026-11-19",
+   "code": "ENR",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-News: Moody’s hebt Kreditausblick fuer Fresenius von stabil auf positiv an",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-news-moodys-hebt-kreditausblick-fuer-fresenius-von-stabil-auf-positiv-an-0-37-26578330",
-   "source": "EQS Group"
+   "news": "ROUNDUP/Aktien Europa Schluss: Erneut Tech-Ausverkauf - EuroStoxx-Tief seit Mai",
+   "link": "https://www.onvista.de/news/2026/11-20-roundup-aktien-europa-schluss-erneut-tech-ausverkauf-eurostoxx-tief-seit-mai-0-10-26578972",
+   "source": "dpa-AFX"
   },
   {
    "index": "DAX",
    "code": "ZAL",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
    "news": "EQS-DD: Zalando SE: Aktieselskabet af 1.2.2017, Kauf",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-dd-zalando-se-aktieselskabet-af-1-2-2017-kauf-0-37-26578282",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-dd-zalando-se-aktieselskabet-af-1-2-2017-kauf-0-37-26578813",
    "source": "EQS Group"
   },
   {
    "index": "DAX",
    "code": "AIR",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "Deutsche Telekom beteiligt sich an Mistral AI",
-   "link": "https://www.onvista.de/news/2026/11-19-deutsche-telekom-beteiligt-sich-an-mistral-ai-0-10-26578328",
+   "news": "ROUNDUP/Piloten-Gewerkschaft: Lufthansa verunsichert Personal",
+   "link": "https://www.onvista.de/news/2026/11-20-roundup-piloten-gewerkschaft-lufthansa-verunsichert-personal-0-10-26578864",
    "source": "dpa-AFX"
   },
   {
    "index": "MDAX",
-   "code": "BC8",
-   "date": "2026-11-19",
+   "code": "ELG",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Elmos Semiconductor SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der eu",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-pvr-elmos-semiconductor-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "DEZ",
+   "date": "2026-11-20",
    "sentiment": "BUY",
-   "news": "ANALYSE-FLASH: UBS belaesst Bechtle auf 'Buy' - Ziel 42 Euro",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-ubs-belaesst-bechtle-auf-buy-ziel-42-euro-0-10-26578354",
+   "news": "ANALYSE-FLASH: DZ Bank belaesst Deutz auf 'Kaufen' - Fairer Wert 15 Euro",
+   "link": "https://www.onvista.de/news/2026/11-20-analyse-flash-dz-bank-belaesst-deutz-auf-kaufen-fairer-wert-15-euro-0-10-26578963",
    "source": "dpa-AFX"
   },
   {
    "index": "MDAX",
-   "code": "NDA",
-   "date": "2026-11-19",
+   "code": "TKA",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-PVR: Aurubis AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-pvr-aurubis-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-e",
-   "source": "EQS Group"
-  },
-  {
-   "index": "MDAX",
-   "code": "RAA",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-PVR: Rational AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-pvr-rational-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
-   "source": "EQS Group"
+   "news": "Thyssenkrupp Nucera schneidet noch schlechter ab als erwartet",
+   "link": "https://www.onvista.de/news/2026/11-20-thyssenkrupp-nucera-schneidet-noch-schlechter-ab-als-erwartet-0-10-26578978",
+   "source": "dpa-AFX"
   },
   {
    "index": "MDAX",
    "code": "LHA",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EU staerkt Rechte von Reisenden",
-   "link": "https://www.onvista.de/news/2026/11-19-eu-staerkt-rechte-von-reisenden-0-10-26578244",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 20.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-20-dpa-afx-ueberblick-unternehmen-vom-20-11-2026-15-15-uhr-0-10-26578878",
    "source": "dpa-AFX"
   },
   {
    "index": "MDAX",
-   "code": "NDX1",
-   "date": "2026-11-19",
+   "code": "AG1",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "Hoechstes Windrad der Welt geht offiziell an den Start",
-   "link": "https://www.onvista.de/news/2026/11-19-hoechstes-windrad-der-welt-geht-offiziell-an-den-start-0-10-26578084",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "MDAX",
-   "code": "AIXA",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "ROUNDUP/Aktien Frankfurt Schluss: Verluste - US-Boersen belasten trotz Anthropic",
-   "link": "https://www.onvista.de/news/2026/11-19-roundup-aktien-frankfurt-schluss-verluste-us-boersen-belasten-trotz-anthropic-0-10-26578497",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Dax faellt unter 25.000 Punkte - Schwache Techs",
+   "link": "https://www.onvista.de/news/2026/11-20-roundup-aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-techs-0-10-26578965",
    "source": "dpa-AFX"
   },
   {
    "index": "MDAX",
    "code": "FPE3",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-Adhoc: ALBIS Leasing AG: ALBIS Leasing AG schliesst Kaufvertrag ueber Unternehmenszentrale in Hambur",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-adhoc-albis-leasing-ag-albis-leasing-ag-schliesst-kaufvertrag-ueber-untern",
-   "source": "EQS Group"
-  },
-  {
-   "index": "MDAX",
-   "code": "SHA0",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "WDH 2/ROUNDUP/Bayern: IG Metall ruft fuer Freitag zu 24-Stunden-Warnstreiks auf",
-   "link": "https://www.onvista.de/news/2026/11-19-wdh-2-roundup-bayern-ig-metall-ruft-fuer-freitag-zu-24-stunden-warnstreiks-auf-0-10-26578273",
+   "news": "ROUNDUP/Mordkomplott: Daenen weisen russischen Diplomaten aus",
+   "link": "https://www.onvista.de/news/2026/11-20-roundup-mordkomplott-daenen-weisen-russischen-diplomaten-aus-0-10-26578992",
    "source": "dpa-AFX"
   },
   {
    "index": "MDAX",
-   "code": "TLX",
-   "date": "2026-11-19",
+   "code": "EVK",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "WDH/ROUNDUP: RAG-Stiftung bedauert Ende Uebernahme-Bemuehungen von BASF um Evonik",
+   "link": "https://www.onvista.de/news/2026/11-20-wdh-roundup-rag-stiftung-bedauert-ende-uebernahme-bemuehungen-von-basf-um-evonik-0-10-26578908",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FTK",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: flatexDEGIRO SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Ver",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-pvr-flatexdegiro-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "R3NK",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "GNW-Stimmrechte: Renk Group AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der euro",
+   "link": "https://www.onvista.de/news/2026/11-20-gnw-stimmrechte-renk-group-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "WAF",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Siltronic AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitu",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-pvr-siltronic-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "Mieterbund warnt vor Abstufungen beim Mieterschutz",
+   "link": "https://www.onvista.de/news/2026/11-20-mieterbund-warnt-vor-abstufungen-beim-mieterschutz-0-10-26578887",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "EKT",
+   "date": "2026-11-20",
    "sentiment": "BUY",
-   "news": "ANALYSE-FLASH: Goldman hebt Ziel fuer Talanx auf 144 Euro - 'Buy'",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-goldman-hebt-ziel-fuer-talanx-auf-144-euro-buy-0-10-26578365",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "MDAX",
-   "code": "8TRA",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "Daimler-Truck-Chefin ueber EU-Politik: 'Es frustriert mich'",
-   "link": "https://www.onvista.de/news/2026/11-19-daimler-truck-chefin-ueber-eu-politik-es-frustriert-mich-0-10-26578079",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "MDAX",
-   "code": "RRTL",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "Bertelsmann kauft tuerkisches Logistikunternehmen Ekol",
-   "link": "https://www.onvista.de/news/2026/11-19-bertelsmann-kauft-tuerkisches-logistikunternehmen-ekol-0-10-26578266",
+   "news": "Original-Research: Energiekontor AG (von First Berlin Equity Research GmbH): Buy",
+   "link": "https://www.onvista.de/news/2026/11-20-original-research-energiekontor-ag-von-first-berlin-equity-research-gmbh-buy-0-10-26578738",
    "source": "dpa-AFX"
   },
   {
    "index": "SDAX",
-   "code": "SLYG",
-   "date": "2026-11-19",
+   "code": "DOU",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-News: Shelly Group SE: SE 2026 A SAS hat das an die Anmerkungen",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-news-shelly-group-se-se-2026-a-sas-hat-das-an-die-anmerkungen-der-fsc-angepasste-freiwillige-oeffentliche-uebe",
+   "news": "Der Black Friday zwischen Hype und Skepsis",
+   "link": "https://www.onvista.de/news/2026/11-20-der-black-friday-zwischen-hype-und-skepsis-0-10-26578703",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "JST",
+   "date": "2026-11-20",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: JOST Werke SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-pvr-jost-werke-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
    "source": "EQS Group"
   },
   {
    "index": "SDAX",
-   "code": "1U1",
-   "date": "2026-11-19",
+   "code": "PAT",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "1&1 traegt Streit mit Netzagentur zu Mobilfunkfrequenzen zur EU",
-   "link": "https://www.onvista.de/news/2026/11-19-1-1-traegt-streit-mit-netzagentur-zu-mobilfunkfrequenzen-zur-eu-0-20-26578467",
-   "source": "Reuters"
-  },
-  {
-   "index": "SDAX",
-   "code": "EVT",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 19.11.2026 - 15.15 Uhr",
-   "link": "https://www.onvista.de/news/2026/11-19-dpa-afx-ueberblick-unternehmen-vom-19-11-2026-15-15-uhr-0-10-26578377",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "SDAX",
-   "code": "GFT",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-News: GFT Technologies von QKS Group zum fuenften Mal in Folge als Leader fuer Digi",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-news-gft-technologies-von-qks-group-zum-fuenften-mal-in-folge-als-leader-fuer-digital-banki",
-   "source": "EQS Group"
-  },
-  {
-   "index": "SDAX",
-   "code": "PNE3",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-News:  PNE-Gruppe erhaelt Genehmigungen fuer drei Windenergieprojekte mit 72 MW in Deutschland",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-news-pne-gruppe-erhaelt-genehmigungen-fuer-drei-windenergieprojekte-mit-72-mw-in",
-   "source": "EQS Group"
-  },
-  {
-   "index": "SDAX",
-   "code": "BOSS",
-   "date": "2026-11-19",
-   "sentiment": "SELL",
-   "news": "ANALYSE-FLASH: MPCM senkt Hugo Boss auf 'Sell' - Ziel fast halbiert",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-mpcm-senkt-hugo-boss-auf-sell-ziel-fast-halbiert-0-10-26578249",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "SDAX",
-   "code": "TMV",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-PVR: TeamViewer SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbrei",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-pvr-teamviewer-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
-   "source": "EQS Group"
-  },
-  {
-   "index": "SDAX",
-   "code": "WAC",
-   "date": "2026-11-19",
-   "sentiment": "HOLD",
-   "news": "ANALYSE-FLASH: Berenberg startet Wacker Neuson mit 'Hold' - Ziel 22 Euro",
-   "link": "https://www.onvista.de/news/2026/11-19-analyse-flash-berenberg-startet-wacker-neuson-mit-hold-ziel-22-euro-0-10-26578170",
-   "source": "dpa-AFX"
-  },
-  {
-   "index": "SDAX",
-   "code": "RDC",
-   "date": "2026-11-19",
-   "sentiment": "INFO",
-   "news": "EQS-News: Sempora Studie bestaetigt: Shop Apotheke ist erste Wahl bei Verbraucher:in",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-news-sempora-studie-bestaetigt-shop-apotheke-ist-erste-wahl-bei-verbraucher-innen-und-fuehrend",
+   "news": "EQS-PVR: PATRIZIA SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-pvr-patrizia-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
    "source": "EQS Group"
   },
   {
    "index": "PDAX",
    "code": "BVB",
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "In Sorge um Schlaf: BVB-Coach Kovac scherzt ueber GTA 6",
-   "link": "https://www.onvista.de/news/2026/11-19-in-sorge-um-schlaf-bvb-coach-kovac-scherzt-ueber-gta-6-0-10-26578325",
+   "news": "Borussen-Duell mit gegensaetzlichen Ausgangslagen",
+   "link": "https://www.onvista.de/news/2026/11-20-borussen-duell-mit-gegensaetzlichen-ausgangslagen-0-10-26578954",
    "source": "dpa-AFX"
   },
   {
    "index": "PDAX",
-   "code": "ADN1",
-   "date": "2026-11-19",
+   "code": "TTK",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "EQS-News: adesso entwickelt und betreibt neues Finanzportal und Wertpapierinformationssystem fuer d",
-   "link": "https://www.onvista.de/news/2026/11-19-eqs-news-adesso-entwickelt-und-betreibt-neues-finanzportal-und-wertpapierinformatio",
+   "news": "EQS-Adhoc: TAKKT AG: TAKKT passt Jahresprognose 2026 nach Cyberangriff an",
+   "link": "https://www.onvista.de/news/2026/11-20-eqs-adhoc-takkt-ag-takkt-passt-jahresprognose-2026-nach-cyberangriff-an-0-37-26578976",
    "source": "EQS Group"
   },
   {
    "index": "PDAX",
-   "code": "PSM",
-   "date": "2026-11-19",
+   "code": "PSAN",
+   "date": "2026-11-20",
+   "sentiment": "HOLD",
+   "news": "Original-Research: PSI Software SE (von GSC Research GmbH): Halten",
+   "link": "https://www.onvista.de/news/2026/11-20-original-research-psi-software-se-von-gsc-research-gmbh-halten-0-10-26578678",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "FYB",
+   "date": "2026-11-20",
+   "sentiment": "BUY",
+   "news": "Original-Research: Formycon AG (von First Berlin Equity Research GmbH): Buy",
+   "link": "https://www.onvista.de/news/2026/11-20-original-research-formycon-ag-von-first-berlin-equity-research-gmbh-buy-0-10-26578877",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "NCH2",
+   "date": "2026-11-20",
    "sentiment": "INFO",
-   "news": "Kampf gegen Billig-Uebernahmen - Was das neue Gesetz bringt und wo es hakt",
-   "link": "https://www.onvista.de/news/2026/11-19-kampf-gegen-billig-uebernahmen-was-das-neue-gesetz-bringt-und-wo-es-hakt-0-20-26578123",
-   "source": "Reuters"
+   "news": "Thyssenkrupp Nucera schneidet noch schlechter ab als erwartet",
+   "link": "https://www.onvista.de/news/2026/11-20-thyssenkrupp-nucera-schneidet-noch-schlechter-ab-als-erwartet-0-10-26578978",
+   "source": "dpa-AFX"
   }
  ]
 }
