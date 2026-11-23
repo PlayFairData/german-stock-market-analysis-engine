@@ -3,27 +3,27 @@
 window.FUND_SENT_DATA = {
   "schema_version": 2,
   "source": "live",
-  "generated": "2026-11-19 00:18:32",
-  "as_of_date": "2026-11-19",
+  "generated": "2026-11-20 23:08:04",
+  "as_of_date": "2026-11-20",
   "baseline_date": "2026-10-12",
   "baseline_days": 28,
-  "baseline_age_days": 38,
+  "baseline_age_days": 39,
   "indexes": {
     "DAX": {
       "index_name": "DAX",
       "stock_count": 40,
       "usable_count": 40,
-      "median_growth": 12.04,
+      "median_growth": 11.01,
       "dir_counts": {
         "STABLE": 31,
-        "GROWTH_SLOWING": 3,
-        "DETERIORATING": 2,
-        "IMPROVING": 4
+        "GROWTH_SLOWING": 5,
+        "DETERIORATING": 1,
+        "IMPROVING": 3
       },
       "stance_counts": {
-        "NEUTRAL": 16,
-        "PRESSURE": 4,
-        "SUPPORTIVE": 19,
+        "NEUTRAL": 18,
+        "PRESSURE": 3,
+        "SUPPORTIVE": 18,
         "CONFLICT": 1
       },
       "bias_counts": {
@@ -33,16 +33,16 @@ window.FUND_SENT_DATA = {
         "NEUTRAL": 5
       },
       "reaction_counts": {
-        "NONE": 15,
-        "DOWN": 11,
-        "UP": 13,
+        "UP": 17,
+        "DOWN": 12,
+        "NONE": 10,
         "MIXED": 1
       },
       "lead_lag_counts": {
         "FUNDAMENTALS_LEAD": 12,
-        "PRICE_LEADS": 5,
         "SYNCHRONOUS": 6,
-        "STALE_REVISION": 17
+        "STALE_REVISION": 16,
+        "PRICE_LEADS": 6
       },
       "html_file": "fund_sent/fund_sentiment_DAX.html"
     },
@@ -50,12 +50,12 @@ window.FUND_SENT_DATA = {
       "index_name": "MDAX",
       "stock_count": 50,
       "usable_count": 50,
-      "median_growth": 21.62,
+      "median_growth": 20.68,
       "dir_counts": {
-        "STABLE": 31,
-        "DETERIORATING": 3,
-        "GROWTH_SLOWING": 7,
-        "IMPROVING": 9
+        "STABLE": 33,
+        "GROWTH_SLOWING": 6,
+        "IMPROVING": 8,
+        "DETERIORATING": 3
       },
       "stance_counts": {
         "SUPPORTIVE": 26,
@@ -70,16 +70,16 @@ window.FUND_SENT_DATA = {
         "NEUTRAL": 6
       },
       "reaction_counts": {
-        "UP": 17,
-        "NONE": 8,
-        "DOWN": 17,
-        "MIXED": 8
+        "UP": 19,
+        "NONE": 6,
+        "MIXED": 8,
+        "DOWN": 17
       },
       "lead_lag_counts": {
-        "PRICE_LEADS": 15,
-        "FUNDAMENTALS_LEAD": 19,
-        "SYNCHRONOUS": 8,
-        "STALE_REVISION": 8
+        "PRICE_LEADS": 18,
+        "FUNDAMENTALS_LEAD": 20,
+        "SYNCHRONOUS": 5,
+        "STALE_REVISION": 7
       },
       "html_file": "fund_sent/fund_sentiment_MDAX.html"
     },
@@ -87,18 +87,18 @@ window.FUND_SENT_DATA = {
       "index_name": "SDAX",
       "stock_count": 70,
       "usable_count": 70,
-      "median_growth": 17.52,
+      "median_growth": 16.39,
       "dir_counts": {
         "STABLE": 50,
-        "IMPROVING": 5,
+        "IMPROVING": 4,
         "DETERIORATING": 5,
-        "GROWTH_SLOWING": 10
+        "GROWTH_SLOWING": 11
       },
       "stance_counts": {
         "NEUTRAL": 48,
-        "SUPPORTIVE": 14,
+        "SUPPORTIVE": 13,
         "CONFLICT": 3,
-        "PRESSURE": 5
+        "PRESSURE": 6
       },
       "bias_counts": {
         "INSUFFICIENT": 46,
@@ -107,17 +107,17 @@ window.FUND_SENT_DATA = {
         "NEUTRAL": 8
       },
       "reaction_counts": {
-        "DOWN": 41,
+        "DOWN": 42,
+        "MIXED": 10,
         "NONE": 6,
-        "UP": 16,
-        "MIXED": 7
+        "UP": 12
       },
       "lead_lag_counts": {
-        "PRICE_LEADS": 22,
-        "INSUFFICIENT": 4,
-        "SYNCHRONOUS": 17,
+        "PRICE_LEADS": 30,
+        "INSUFFICIENT": 3,
+        "SYNCHRONOUS": 11,
         "STALE_REVISION": 9,
-        "FUNDAMENTALS_LEAD": 18
+        "FUNDAMENTALS_LEAD": 17
       },
       "html_file": "fund_sent/fund_sentiment_SDAX.html"
     },
@@ -125,16 +125,17 @@ window.FUND_SENT_DATA = {
       "index_name": "PDAX",
       "stock_count": 15,
       "usable_count": 15,
-      "median_growth": 59.06,
+      "median_growth": 56.62,
       "dir_counts": {
-        "DETERIORATING": 5,
-        "STABLE": 9,
-        "IMPROVING": 1
+        "DETERIORATING": 4,
+        "STABLE": 7,
+        "GROWTH_SLOWING": 2,
+        "IMPROVING": 2
       },
       "stance_counts": {
-        "PRESSURE": 5,
+        "PRESSURE": 4,
         "NEUTRAL": 8,
-        "SUPPORTIVE": 2
+        "SUPPORTIVE": 3
       },
       "bias_counts": {
         "INSUFFICIENT": 13,
@@ -142,15 +143,15 @@ window.FUND_SENT_DATA = {
         "POSITIVE": 1
       },
       "reaction_counts": {
-        "DOWN": 8,
+        "DOWN": 9,
         "NONE": 2,
-        "MIXED": 4,
-        "UP": 1
+        "UP": 2,
+        "MIXED": 2
       },
       "lead_lag_counts": {
-        "PRICE_LEADS": 6,
-        "STALE_REVISION": 2,
-        "SYNCHRONOUS": 5,
+        "PRICE_LEADS": 9,
+        "STALE_REVISION": 1,
+        "SYNCHRONOUS": 3,
         "FUNDAMENTALS_LEAD": 2
       },
       "html_file": "fund_sent/fund_sentiment_PDAX.html"
@@ -159,12 +160,12 @@ window.FUND_SENT_DATA = {
       "index_name": "CDAX",
       "stock_count": 1,
       "usable_count": 1,
-      "median_growth": 16.67,
+      "median_growth": 19.44,
       "dir_counts": {
-        "STABLE": 1
+        "IMPROVING": 1
       },
       "stance_counts": {
-        "NEUTRAL": 1
+        "SUPPORTIVE": 1
       },
       "bias_counts": {
         "INSUFFICIENT": 1
@@ -181,6 +182,40 @@ window.FUND_SENT_DATA = {
   "sectors": [
     {
       "group_type": "sector",
+      "group_key": "chemicals",
+      "group_name": "Chemicals",
+      "stock_count": 9,
+      "usable_count": 9,
+      "improving_count": 3,
+      "slowing_count": 0,
+      "stable_count": 6,
+      "deteriorating_count": 0,
+      "breadth": 33.33,
+      "baseline_breadth": 0.0,
+      "breadth_delta": 33.33,
+      "median_magnitude": 8.71,
+      "median_growth": 1.47,
+      "reaction_breadth": 71.43,
+      "net_analyst_bias": -1,
+      "quadrant": "LEADING",
+      "top_code": "BAS",
+      "breadth_ex_top": 25.0,
+      "is_thin": false,
+      "has_divergence": false,
+      "stocks": [
+        "ACT0",
+        "BAS",
+        "EVK",
+        "FPE3",
+        "LXS",
+        "SDF",
+        "SGL",
+        "SY1",
+        "WCH"
+      ]
+    },
+    {
+      "group_type": "sector",
       "group_key": "technology",
       "group_name": "Technology",
       "stock_count": 9,
@@ -192,8 +227,8 @@ window.FUND_SENT_DATA = {
       "breadth": 33.33,
       "baseline_breadth": 0.0,
       "breadth_delta": 33.33,
-      "median_magnitude": 0.92,
-      "median_growth": 52.41,
+      "median_magnitude": 0.91,
+      "median_growth": 50.73,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 6,
       "quadrant": "LEADING",
@@ -215,40 +250,6 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "sector",
-      "group_key": "chemicals",
-      "group_name": "Chemicals",
-      "stock_count": 9,
-      "usable_count": 9,
-      "improving_count": 3,
-      "slowing_count": 0,
-      "stable_count": 5,
-      "deteriorating_count": 1,
-      "breadth": 22.22,
-      "baseline_breadth": 0.0,
-      "breadth_delta": 22.22,
-      "median_magnitude": 8.38,
-      "median_growth": 1.86,
-      "reaction_breadth": 50.0,
-      "net_analyst_bias": -1,
-      "quadrant": "LEADING",
-      "top_code": "LXS",
-      "breadth_ex_top": 37.5,
-      "is_thin": false,
-      "has_divergence": false,
-      "stocks": [
-        "ACT0",
-        "BAS",
-        "EVK",
-        "FPE3",
-        "LXS",
-        "SDF",
-        "SGL",
-        "SY1",
-        "WCH"
-      ]
-    },
-    {
-      "group_type": "sector",
       "group_key": "insurance",
       "group_name": "Insurance",
       "stock_count": 5,
@@ -260,10 +261,10 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 0.92,
-      "median_growth": 5.31,
-      "reaction_breadth": 0.0,
-      "net_analyst_bias": 1,
+      "median_magnitude": 1.47,
+      "median_growth": 5.66,
+      "reaction_breadth": 50.0,
+      "net_analyst_bias": 2,
       "quadrant": "NEUTRAL",
       "top_code": "ALV",
       "breadth_ex_top": 0.0,
@@ -279,22 +280,107 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "sector",
+      "group_key": "pharma_healthcare",
+      "group_name": "Pharma & Healthcare",
+      "stock_count": 18,
+      "usable_count": 18,
+      "improving_count": 2,
+      "slowing_count": 2,
+      "stable_count": 13,
+      "deteriorating_count": 3,
+      "breadth": -5.56,
+      "baseline_breadth": -11.11,
+      "breadth_delta": 5.55,
+      "median_magnitude": -0.4,
+      "median_growth": 10.16,
+      "reaction_breadth": -17.65,
+      "net_analyst_bias": 7,
+      "quadrant": "EMERGING",
+      "top_code": "BAYN",
+      "breadth_ex_top": -11.76,
+      "is_thin": false,
+      "has_divergence": false,
+      "stocks": [
+        "1SXP",
+        "AFX",
+        "BAYN",
+        "DMP",
+        "DRW3",
+        "EUZ",
+        "EVT",
+        "FME",
+        "FRE",
+        "FYB",
+        "GXI",
+        "ILM1",
+        "MRK",
+        "OBCK",
+        "QIA",
+        "SBS",
+        "SHL",
+        "SRT3"
+      ]
+    },
+    {
+      "group_type": "sector",
+      "group_key": "financial_services",
+      "group_name": "Financial Services",
+      "stock_count": 17,
+      "usable_count": 17,
+      "improving_count": 1,
+      "slowing_count": 1,
+      "stable_count": 13,
+      "deteriorating_count": 3,
+      "breadth": -11.76,
+      "baseline_breadth": -29.41,
+      "breadth_delta": 17.65,
+      "median_magnitude": -2.94,
+      "median_growth": 8.72,
+      "reaction_breadth": -42.86,
+      "net_analyst_bias": 3,
+      "quadrant": "EMERGING",
+      "top_code": "TEG",
+      "breadth_ex_top": -18.75,
+      "is_thin": false,
+      "has_divergence": true,
+      "stocks": [
+        "AT1",
+        "BRNK",
+        "DB1",
+        "DBAN",
+        "DEQ",
+        "DWS",
+        "FTK",
+        "GLJ",
+        "GYC",
+        "HABA",
+        "HYQ",
+        "LEG",
+        "MLP",
+        "MUX",
+        "PAT",
+        "TEG",
+        "VNA"
+      ]
+    },
+    {
+      "group_type": "sector",
       "group_key": "media",
       "group_name": "Media",
       "stock_count": 6,
       "usable_count": 6,
       "improving_count": 0,
-      "slowing_count": 0,
-      "stable_count": 6,
-      "deteriorating_count": 0,
-      "breadth": 0.0,
+      "slowing_count": 1,
+      "stable_count": 5,
+      "deteriorating_count": 1,
+      "breadth": -16.67,
       "baseline_breadth": 0.0,
-      "breadth_delta": 0.0,
-      "median_magnitude": -1.16,
-      "median_growth": 16.07,
-      "reaction_breadth": -33.33,
+      "breadth_delta": -16.67,
+      "median_magnitude": -9.25,
+      "median_growth": 14.28,
+      "reaction_breadth": -60.0,
       "net_analyst_bias": 4,
-      "quadrant": "NEUTRAL",
+      "quadrant": "LAGGING",
       "top_code": "BVB",
       "breadth_ex_top": 0.0,
       "is_thin": false,
@@ -314,20 +400,20 @@ window.FUND_SENT_DATA = {
       "group_name": "Industrial",
       "stock_count": 47,
       "usable_count": 47,
-      "improving_count": 7,
-      "slowing_count": 5,
-      "stable_count": 28,
-      "deteriorating_count": 12,
-      "breadth": -10.64,
+      "improving_count": 6,
+      "slowing_count": 8,
+      "stable_count": 26,
+      "deteriorating_count": 15,
+      "breadth": -19.15,
       "baseline_breadth": 6.38,
-      "breadth_delta": -17.02,
+      "breadth_delta": -25.53,
       "median_magnitude": 0.0,
-      "median_growth": 27.3,
-      "reaction_breadth": -35.29,
-      "net_analyst_bias": 34,
+      "median_growth": 26.29,
+      "reaction_breadth": -39.39,
+      "net_analyst_bias": 35,
       "quadrant": "LAGGING",
       "top_code": "8TRA",
-      "breadth_ex_top": -13.04,
+      "breadth_ex_top": -21.74,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
@@ -382,91 +468,6 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "sector",
-      "group_key": "pharma_healthcare",
-      "group_name": "Pharma & Healthcare",
-      "stock_count": 18,
-      "usable_count": 18,
-      "improving_count": 1,
-      "slowing_count": 2,
-      "stable_count": 14,
-      "deteriorating_count": 3,
-      "breadth": -11.11,
-      "baseline_breadth": -11.11,
-      "breadth_delta": 0.0,
-      "median_magnitude": -0.04,
-      "median_growth": 10.54,
-      "reaction_breadth": -23.08,
-      "net_analyst_bias": 7,
-      "quadrant": "LAGGING",
-      "top_code": "BAYN",
-      "breadth_ex_top": -17.65,
-      "is_thin": false,
-      "has_divergence": false,
-      "stocks": [
-        "1SXP",
-        "AFX",
-        "BAYN",
-        "DMP",
-        "DRW3",
-        "EUZ",
-        "EVT",
-        "FME",
-        "FRE",
-        "FYB",
-        "GXI",
-        "ILM1",
-        "MRK",
-        "OBCK",
-        "QIA",
-        "SBS",
-        "SHL",
-        "SRT3"
-      ]
-    },
-    {
-      "group_type": "sector",
-      "group_key": "financial_services",
-      "group_name": "Financial Services",
-      "stock_count": 17,
-      "usable_count": 17,
-      "improving_count": 1,
-      "slowing_count": 1,
-      "stable_count": 13,
-      "deteriorating_count": 3,
-      "breadth": -11.76,
-      "baseline_breadth": -29.41,
-      "breadth_delta": 17.65,
-      "median_magnitude": -2.94,
-      "median_growth": 7.8,
-      "reaction_breadth": -53.85,
-      "net_analyst_bias": 4,
-      "quadrant": "EMERGING",
-      "top_code": "TEG",
-      "breadth_ex_top": -18.75,
-      "is_thin": false,
-      "has_divergence": true,
-      "stocks": [
-        "AT1",
-        "BRNK",
-        "DB1",
-        "DBAN",
-        "DEQ",
-        "DWS",
-        "FTK",
-        "GLJ",
-        "GYC",
-        "HABA",
-        "HYQ",
-        "LEG",
-        "MLP",
-        "MUX",
-        "PAT",
-        "TEG",
-        "VNA"
-      ]
-    },
-    {
-      "group_type": "sector",
       "group_key": "retail",
       "group_name": "Retail",
       "stock_count": 10,
@@ -478,10 +479,10 @@ window.FUND_SENT_DATA = {
       "breadth": -20.0,
       "baseline_breadth": -20.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -3.19,
-      "median_growth": 22.04,
+      "median_magnitude": -3.27,
+      "median_growth": 22.29,
       "reaction_breadth": -66.67,
-      "net_analyst_bias": 4,
+      "net_analyst_bias": 5,
       "quadrant": "LAGGING",
       "top_code": "AG1",
       "breadth_ex_top": -11.11,
@@ -513,10 +514,10 @@ window.FUND_SENT_DATA = {
       "breadth": -22.22,
       "baseline_breadth": -11.11,
       "breadth_delta": -11.11,
-      "median_magnitude": -4.66,
-      "median_growth": 12.45,
-      "reaction_breadth": -25.0,
-      "net_analyst_bias": 2,
+      "median_magnitude": -4.0,
+      "median_growth": 11.72,
+      "reaction_breadth": -42.86,
+      "net_analyst_bias": 0,
       "quadrant": "LAGGING",
       "top_code": "BOSS",
       "breadth_ex_top": -12.5,
@@ -547,10 +548,10 @@ window.FUND_SENT_DATA = {
       "breadth": -27.27,
       "baseline_breadth": -36.36,
       "breadth_delta": 9.09,
-      "median_magnitude": -13.94,
+      "median_magnitude": -14.5,
       "median_growth": 19.82,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 3,
+      "net_analyst_bias": 4,
       "quadrant": "EMERGING",
       "top_code": "HLE",
       "breadth_ex_top": -40.0,
@@ -583,10 +584,10 @@ window.FUND_SENT_DATA = {
       "breadth": -28.57,
       "baseline_breadth": -35.71,
       "breadth_delta": 7.14,
-      "median_magnitude": -2.27,
-      "median_growth": 22.9,
-      "reaction_breadth": -27.27,
-      "net_analyst_bias": 6,
+      "median_magnitude": -2.52,
+      "median_growth": 22.29,
+      "reaction_breadth": -33.33,
+      "net_analyst_bias": 7,
       "quadrant": "EMERGING",
       "top_code": "ADN1",
       "breadth_ex_top": -38.46,
@@ -638,20 +639,47 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "sector",
+      "group_key": "food_beverages",
+      "group_name": "Food & Beverages",
+      "stock_count": 2,
+      "usable_count": 2,
+      "improving_count": 0,
+      "slowing_count": 0,
+      "stable_count": 2,
+      "deteriorating_count": 0,
+      "breadth": 0.0,
+      "baseline_breadth": -50.0,
+      "breadth_delta": 50.0,
+      "median_magnitude": -7.05,
+      "median_growth": 60.92,
+      "reaction_breadth": -100.0,
+      "net_analyst_bias": 1,
+      "quadrant": "THIN",
+      "top_code": "KWS",
+      "breadth_ex_top": 0.0,
+      "is_thin": true,
+      "has_divergence": true,
+      "stocks": [
+        "KWS",
+        "SZU"
+      ]
+    },
+    {
+      "group_type": "sector",
       "group_key": "telecommunication",
       "group_name": "Telecommunication",
       "stock_count": 4,
       "usable_count": 4,
-      "improving_count": 1,
+      "improving_count": 0,
       "slowing_count": 0,
-      "stable_count": 3,
+      "stable_count": 4,
       "deteriorating_count": 0,
-      "breadth": 25.0,
+      "breadth": 0.0,
       "baseline_breadth": -25.0,
-      "breadth_delta": 50.0,
-      "median_magnitude": -2.02,
-      "median_growth": 18.6,
-      "reaction_breadth": 100.0,
+      "breadth_delta": 25.0,
+      "median_magnitude": -1.23,
+      "median_growth": 21.07,
+      "reaction_breadth": 33.33,
       "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "1U1",
@@ -678,9 +706,9 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -1.71,
-      "median_growth": 31.11,
-      "reaction_breadth": -100.0,
+      "median_magnitude": -2.08,
+      "median_growth": 31.39,
+      "reaction_breadth": -50.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
       "top_code": "CBK",
@@ -734,9 +762,9 @@ window.FUND_SENT_DATA = {
       "breadth": -25.0,
       "baseline_breadth": -50.0,
       "breadth_delta": 25.0,
-      "median_magnitude": -2.56,
-      "median_growth": 8.75,
-      "reaction_breadth": 33.33,
+      "median_magnitude": -1.77,
+      "median_growth": 8.73,
+      "reaction_breadth": 100.0,
       "net_analyst_bias": 3,
       "quadrant": "THIN",
       "top_code": "LHA",
@@ -763,7 +791,7 @@ window.FUND_SENT_DATA = {
       "breadth": -25.0,
       "baseline_breadth": -25.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 1.43,
+      "median_magnitude": 1.38,
       "median_growth": 30.58,
       "reaction_breadth": -33.33,
       "net_analyst_bias": 0,
@@ -778,33 +806,6 @@ window.FUND_SENT_DATA = {
         "STO3",
         "VOS"
       ]
-    },
-    {
-      "group_type": "sector",
-      "group_key": "food_beverages",
-      "group_name": "Food & Beverages",
-      "stock_count": 2,
-      "usable_count": 2,
-      "improving_count": 0,
-      "slowing_count": 0,
-      "stable_count": 1,
-      "deteriorating_count": 1,
-      "breadth": -50.0,
-      "baseline_breadth": -50.0,
-      "breadth_delta": 0.0,
-      "median_magnitude": -6.55,
-      "median_growth": 61.91,
-      "reaction_breadth": -100.0,
-      "net_analyst_bias": 1,
-      "quadrant": "THIN",
-      "top_code": "KWS",
-      "breadth_ex_top": 0.0,
-      "is_thin": true,
-      "has_divergence": false,
-      "stocks": [
-        "KWS",
-        "SZU"
-      ]
     }
   ],
   "subsectors": [
@@ -814,20 +815,20 @@ window.FUND_SENT_DATA = {
       "group_name": "Semiconductors",
       "stock_count": 5,
       "usable_count": 5,
-      "improving_count": 3,
+      "improving_count": 2,
       "slowing_count": 0,
-      "stable_count": 2,
+      "stable_count": 3,
       "deteriorating_count": 0,
-      "breadth": 60.0,
+      "breadth": 40.0,
       "baseline_breadth": 0.0,
-      "breadth_delta": 60.0,
+      "breadth_delta": 40.0,
       "median_magnitude": 1.82,
       "median_growth": 61.93,
       "reaction_breadth": 33.33,
       "net_analyst_bias": 5,
       "quadrant": "LEADING",
-      "top_code": "ELG",
-      "breadth_ex_top": 75.0,
+      "top_code": "AIXA",
+      "breadth_ex_top": 25.0,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
@@ -846,18 +847,18 @@ window.FUND_SENT_DATA = {
       "usable_count": 8,
       "improving_count": 3,
       "slowing_count": 0,
-      "stable_count": 4,
-      "deteriorating_count": 1,
-      "breadth": 25.0,
+      "stable_count": 5,
+      "deteriorating_count": 0,
+      "breadth": 37.5,
       "baseline_breadth": 0.0,
-      "breadth_delta": 25.0,
-      "median_magnitude": 7.2,
-      "median_growth": 6.73,
-      "reaction_breadth": 42.86,
+      "breadth_delta": 37.5,
+      "median_magnitude": 8.05,
+      "median_growth": 6.79,
+      "reaction_breadth": 66.67,
       "net_analyst_bias": -1,
       "quadrant": "LEADING",
-      "top_code": "LXS",
-      "breadth_ex_top": 42.86,
+      "top_code": "BAS",
+      "breadth_ex_top": 28.57,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
@@ -873,37 +874,58 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "subsector",
-      "group_key": "industrial_products_services",
-      "group_name": "Industrial Products & Services",
-      "stock_count": 10,
-      "usable_count": 10,
-      "improving_count": 3,
+      "group_key": "communications_technology",
+      "group_name": "Communications Technology",
+      "stock_count": 3,
+      "usable_count": 3,
+      "improving_count": 1,
       "slowing_count": 0,
-      "stable_count": 5,
-      "deteriorating_count": 2,
-      "breadth": 10.0,
-      "baseline_breadth": 30.0,
-      "breadth_delta": -20.0,
-      "median_magnitude": 0.0,
-      "median_growth": 38.29,
-      "reaction_breadth": -25.0,
-      "net_analyst_bias": 5,
-      "quadrant": "FADING",
-      "top_code": "AAD",
-      "breadth_ex_top": 22.22,
+      "stable_count": 2,
+      "deteriorating_count": 0,
+      "breadth": 33.33,
+      "baseline_breadth": 0.0,
+      "breadth_delta": 33.33,
+      "median_magnitude": 0.91,
+      "median_growth": 26.53,
+      "reaction_breadth": 0.0,
+      "net_analyst_bias": 0,
+      "quadrant": "LEADING",
+      "top_code": "NOA3",
+      "breadth_ex_top": 0.0,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
-        "AAD",
-        "BFSA",
-        "BNR",
-        "BYW6",
-        "GBF",
-        "KCO",
-        "NOEJ",
-        "RAA",
-        "TTK",
-        "VH2"
+        "ADV",
+        "NOA3",
+        "SLYG"
+      ]
+    },
+    {
+      "group_type": "subsector",
+      "group_key": "health_care",
+      "group_name": "Health Care",
+      "stock_count": 3,
+      "usable_count": 3,
+      "improving_count": 1,
+      "slowing_count": 0,
+      "stable_count": 1,
+      "deteriorating_count": 1,
+      "breadth": 0.0,
+      "baseline_breadth": -33.33,
+      "breadth_delta": 33.33,
+      "median_magnitude": -5.24,
+      "median_growth": 5.49,
+      "reaction_breadth": 0.0,
+      "net_analyst_bias": 2,
+      "quadrant": "EMERGING",
+      "top_code": "FME",
+      "breadth_ex_top": 50.0,
+      "is_thin": false,
+      "has_divergence": false,
+      "stocks": [
+        "FME",
+        "FRE",
+        "GXI"
       ]
     },
     {
@@ -913,15 +935,15 @@ window.FUND_SENT_DATA = {
       "stock_count": 7,
       "usable_count": 7,
       "improving_count": 2,
-      "slowing_count": 0,
+      "slowing_count": 1,
       "stable_count": 3,
       "deteriorating_count": 2,
       "breadth": 0.0,
       "baseline_breadth": -28.57,
       "breadth_delta": 28.57,
-      "median_magnitude": 5.5,
-      "median_growth": 34.93,
-      "reaction_breadth": 0.0,
+      "median_magnitude": 4.54,
+      "median_growth": 31.94,
+      "reaction_breadth": 50.0,
       "net_analyst_bias": 3,
       "quadrant": "EMERGING",
       "top_code": "BSL",
@@ -951,8 +973,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": -25.0,
       "breadth_delta": 25.0,
-      "median_magnitude": 2.25,
-      "median_growth": 10.73,
+      "median_magnitude": 1.72,
+      "median_growth": 11.57,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 1,
       "quadrant": "EMERGING",
@@ -974,16 +996,16 @@ window.FUND_SENT_DATA = {
       "stock_count": 6,
       "usable_count": 6,
       "improving_count": 1,
-      "slowing_count": 1,
+      "slowing_count": 0,
       "stable_count": 4,
       "deteriorating_count": 1,
       "breadth": 0.0,
       "baseline_breadth": -16.67,
       "breadth_delta": 16.67,
-      "median_magnitude": -9.84,
+      "median_magnitude": -9.91,
       "median_growth": 18.73,
       "reaction_breadth": 20.0,
-      "net_analyst_bias": 2,
+      "net_analyst_bias": 3,
       "quadrant": "EMERGING",
       "top_code": "AMV0",
       "breadth_ex_top": 20.0,
@@ -1000,32 +1022,37 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "subsector",
-      "group_key": "industrial_diversified",
-      "group_name": "Industrial, Diversified",
-      "stock_count": 5,
-      "usable_count": 5,
-      "improving_count": 0,
+      "group_key": "industrial_products_services",
+      "group_name": "Industrial Products & Services",
+      "stock_count": 10,
+      "usable_count": 10,
+      "improving_count": 2,
       "slowing_count": 0,
-      "stable_count": 5,
-      "deteriorating_count": 0,
+      "stable_count": 6,
+      "deteriorating_count": 2,
       "breadth": 0.0,
-      "baseline_breadth": 20.0,
-      "breadth_delta": -20.0,
-      "median_magnitude": 2.95,
-      "median_growth": 12.49,
-      "reaction_breadth": -100.0,
-      "net_analyst_bias": 2,
+      "baseline_breadth": 30.0,
+      "breadth_delta": -30.0,
+      "median_magnitude": 0.24,
+      "median_growth": 38.29,
+      "reaction_breadth": -14.29,
+      "net_analyst_bias": 5,
       "quadrant": "FADING",
-      "top_code": "ENR",
-      "breadth_ex_top": 0.0,
+      "top_code": "AAD",
+      "breadth_ex_top": 11.11,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
-        "ENR",
-        "INH",
-        "MBB",
-        "SIE",
-        "TKA"
+        "AAD",
+        "BFSA",
+        "BNR",
+        "BYW6",
+        "GBF",
+        "KCO",
+        "NOEJ",
+        "RAA",
+        "TTK",
+        "VH2"
       ]
     },
     {
@@ -1042,7 +1069,7 @@ window.FUND_SENT_DATA = {
       "baseline_breadth": 50.0,
       "breadth_delta": -50.0,
       "median_magnitude": 0.56,
-      "median_growth": 21.95,
+      "median_growth": 22.02,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 10,
       "quadrant": "FADING",
@@ -1061,34 +1088,6 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "subsector",
-      "group_key": "communications_technology",
-      "group_name": "Communications Technology",
-      "stock_count": 3,
-      "usable_count": 3,
-      "improving_count": 0,
-      "slowing_count": 0,
-      "stable_count": 3,
-      "deteriorating_count": 0,
-      "breadth": 0.0,
-      "baseline_breadth": 0.0,
-      "breadth_delta": 0.0,
-      "median_magnitude": 0.91,
-      "median_growth": 25.14,
-      "reaction_breadth": 0.0,
-      "net_analyst_bias": 0,
-      "quadrant": "NEUTRAL",
-      "top_code": "ADV",
-      "breadth_ex_top": 0.0,
-      "is_thin": false,
-      "has_divergence": false,
-      "stocks": [
-        "ADV",
-        "NOA3",
-        "SLYG"
-      ]
-    },
-    {
-      "group_type": "subsector",
       "group_key": "medical_technology",
       "group_name": "Medical Technology",
       "stock_count": 5,
@@ -1100,7 +1099,7 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -1.17,
+      "median_magnitude": -0.68,
       "median_growth": 8.64,
       "reaction_breadth": -60.0,
       "net_analyst_bias": 1,
@@ -1130,9 +1129,9 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -1.71,
-      "median_growth": 31.11,
-      "reaction_breadth": -100.0,
+      "median_magnitude": -2.08,
+      "median_growth": 31.39,
+      "reaction_breadth": -50.0,
       "net_analyst_bias": 0,
       "quadrant": "NEUTRAL",
       "top_code": "CBK",
@@ -1159,8 +1158,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -4.72,
-      "median_growth": 6.7,
+      "median_magnitude": -4.88,
+      "median_growth": 6.18,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 1,
       "quadrant": "NEUTRAL",
@@ -1187,10 +1186,10 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 0.92,
-      "median_growth": 4.18,
+      "median_magnitude": 1.6,
+      "median_growth": 4.23,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 2,
       "quadrant": "NEUTRAL",
       "top_code": "HNR1",
       "breadth_ex_top": 0.0,
@@ -1217,7 +1216,7 @@ window.FUND_SENT_DATA = {
       "breadth_delta": 22.22,
       "median_magnitude": -4.79,
       "median_growth": 0.63,
-      "reaction_breadth": -100.0,
+      "reaction_breadth": -75.0,
       "net_analyst_bias": 0,
       "quadrant": "EMERGING",
       "top_code": "TEG",
@@ -1249,10 +1248,10 @@ window.FUND_SENT_DATA = {
       "breadth": -14.29,
       "baseline_breadth": -28.57,
       "breadth_delta": 14.28,
-      "median_magnitude": -1.22,
-      "median_growth": 23.48,
-      "reaction_breadth": -14.29,
-      "net_analyst_bias": 3,
+      "median_magnitude": -1.72,
+      "median_growth": 24.56,
+      "reaction_breadth": -20.0,
+      "net_analyst_bias": 4,
       "quadrant": "EMERGING",
       "top_code": "ADN1",
       "breadth_ex_top": -33.33,
@@ -1270,34 +1269,32 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "subsector",
-      "group_key": "renewable_energies",
-      "group_name": "Renewable Energies",
-      "stock_count": 7,
-      "usable_count": 7,
-      "improving_count": 1,
+      "group_key": "industrial_diversified",
+      "group_name": "Industrial, Diversified",
+      "stock_count": 5,
+      "usable_count": 5,
+      "improving_count": 0,
       "slowing_count": 1,
       "stable_count": 4,
-      "deteriorating_count": 2,
-      "breadth": -14.29,
-      "baseline_breadth": 14.29,
-      "breadth_delta": -28.58,
-      "median_magnitude": 3.13,
-      "median_growth": 84.44,
-      "reaction_breadth": 0.0,
-      "net_analyst_bias": 5,
+      "deteriorating_count": 1,
+      "breadth": -20.0,
+      "baseline_breadth": 20.0,
+      "breadth_delta": -40.0,
+      "median_magnitude": 3.36,
+      "median_growth": 8.21,
+      "reaction_breadth": -100.0,
+      "net_analyst_bias": 2,
       "quadrant": "LAGGING",
-      "top_code": "NDX1",
-      "breadth_ex_top": -33.33,
+      "top_code": "SIE",
+      "breadth_ex_top": 0.0,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
-        "EKT",
-        "F3C",
-        "NCH2",
-        "NDX1",
-        "PNE3",
-        "S92",
-        "VBK"
+        "ENR",
+        "INH",
+        "MBB",
+        "SIE",
+        "TKA"
       ]
     },
     {
@@ -1314,7 +1311,7 @@ window.FUND_SENT_DATA = {
       "baseline_breadth": -50.0,
       "breadth_delta": 25.0,
       "median_magnitude": -2.9,
-      "median_growth": 13.43,
+      "median_growth": 13.29,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 1,
       "quadrant": "EMERGING",
@@ -1342,8 +1339,8 @@ window.FUND_SENT_DATA = {
       "breadth": -25.0,
       "baseline_breadth": 0.0,
       "breadth_delta": -25.0,
-      "median_magnitude": -22.33,
-      "median_growth": 45.58,
+      "median_magnitude": -22.09,
+      "median_growth": 45.47,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 1,
       "quadrant": "LAGGING",
@@ -1356,6 +1353,38 @@ window.FUND_SENT_DATA = {
         "FYB",
         "QIA",
         "SRT3"
+      ]
+    },
+    {
+      "group_type": "subsector",
+      "group_key": "renewable_energies",
+      "group_name": "Renewable Energies",
+      "stock_count": 7,
+      "usable_count": 7,
+      "improving_count": 1,
+      "slowing_count": 1,
+      "stable_count": 3,
+      "deteriorating_count": 3,
+      "breadth": -28.57,
+      "baseline_breadth": 14.29,
+      "breadth_delta": -42.86,
+      "median_magnitude": 4.98,
+      "median_growth": 92.22,
+      "reaction_breadth": 0.0,
+      "net_analyst_bias": 5,
+      "quadrant": "LAGGING",
+      "top_code": "NDX1",
+      "breadth_ex_top": -50.0,
+      "is_thin": false,
+      "has_divergence": false,
+      "stocks": [
+        "EKT",
+        "F3C",
+        "NCH2",
+        "NDX1",
+        "PNE3",
+        "S92",
+        "VBK"
       ]
     },
     {
@@ -1374,7 +1403,7 @@ window.FUND_SENT_DATA = {
       "median_magnitude": -1.66,
       "median_growth": 33.68,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 3,
+      "net_analyst_bias": 4,
       "quadrant": "LAGGING",
       "top_code": "AG1",
       "breadth_ex_top": -16.67,
@@ -1392,52 +1421,24 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "subsector",
-      "group_key": "health_care",
-      "group_name": "Health Care",
-      "stock_count": 3,
-      "usable_count": 3,
-      "improving_count": 0,
-      "slowing_count": 0,
-      "stable_count": 2,
-      "deteriorating_count": 1,
-      "breadth": -33.33,
-      "baseline_breadth": -33.33,
-      "breadth_delta": 0.0,
-      "median_magnitude": -4.41,
-      "median_growth": 5.49,
-      "reaction_breadth": -100.0,
-      "net_analyst_bias": 2,
-      "quadrant": "LAGGING",
-      "top_code": "FME",
-      "breadth_ex_top": 0.0,
-      "is_thin": false,
-      "has_divergence": false,
-      "stocks": [
-        "FME",
-        "FRE",
-        "GXI"
-      ]
-    },
-    {
-      "group_type": "subsector",
       "group_key": "industrial_machinery",
       "group_name": "Industrial Machinery",
       "stock_count": 12,
       "usable_count": 12,
       "improving_count": 0,
-      "slowing_count": 3,
-      "stable_count": 7,
-      "deteriorating_count": 5,
-      "breadth": -41.67,
+      "slowing_count": 4,
+      "stable_count": 6,
+      "deteriorating_count": 6,
+      "breadth": -50.0,
       "baseline_breadth": -25.0,
-      "breadth_delta": -16.67,
-      "median_magnitude": -5.21,
-      "median_growth": 15.08,
-      "reaction_breadth": -60.0,
-      "net_analyst_bias": 9,
+      "breadth_delta": -25.0,
+      "median_magnitude": -7.3,
+      "median_growth": 14.79,
+      "reaction_breadth": -81.82,
+      "net_analyst_bias": 10,
       "quadrant": "LAGGING",
       "top_code": "DEZ",
-      "breadth_ex_top": -36.36,
+      "breadth_ex_top": -45.45,
       "is_thin": false,
       "has_divergence": false,
       "stocks": [
@@ -1468,8 +1469,8 @@ window.FUND_SENT_DATA = {
       "breadth": -50.0,
       "baseline_breadth": -50.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -7.22,
-      "median_growth": 19.16,
+      "median_magnitude": -7.51,
+      "median_growth": 18.97,
       "reaction_breadth": -50.0,
       "net_analyst_bias": 3,
       "quadrant": "LAGGING",
@@ -1493,14 +1494,14 @@ window.FUND_SENT_DATA = {
       "stock_count": 5,
       "usable_count": 5,
       "improving_count": 0,
-      "slowing_count": 2,
+      "slowing_count": 3,
       "stable_count": 2,
       "deteriorating_count": 3,
       "breadth": -60.0,
       "baseline_breadth": -60.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -13.99,
-      "median_growth": 44.19,
+      "median_magnitude": -15.25,
+      "median_growth": 40.65,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 1,
       "quadrant": "LAGGING",
@@ -1529,10 +1530,10 @@ window.FUND_SENT_DATA = {
       "breadth": -66.67,
       "baseline_breadth": -33.33,
       "breadth_delta": -33.34,
-      "median_magnitude": -12.19,
-      "median_growth": 21.53,
+      "median_magnitude": -13.2,
+      "median_growth": 21.37,
       "reaction_breadth": -33.33,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 0,
       "quadrant": "LAGGING",
       "top_code": "ADS",
       "breadth_ex_top": -100.0,
@@ -1542,33 +1543,6 @@ window.FUND_SENT_DATA = {
         "ADS",
         "BOSS",
         "PUM"
-      ]
-    },
-    {
-      "group_type": "subsector",
-      "group_key": "wireless_communication",
-      "group_name": "Wireless Communication",
-      "stock_count": 2,
-      "usable_count": 2,
-      "improving_count": 1,
-      "slowing_count": 0,
-      "stable_count": 1,
-      "deteriorating_count": 0,
-      "breadth": 50.0,
-      "baseline_breadth": -50.0,
-      "breadth_delta": 100.0,
-      "median_magnitude": -10.88,
-      "median_growth": 29.67,
-      "reaction_breadth": 100.0,
-      "net_analyst_bias": 0,
-      "quadrant": "THIN",
-      "top_code": "1U1",
-      "breadth_ex_top": 0.0,
-      "is_thin": true,
-      "has_divergence": false,
-      "stocks": [
-        "1U1",
-        "FNTN"
       ]
     },
     {
@@ -1600,6 +1574,33 @@ window.FUND_SENT_DATA = {
     },
     {
       "group_type": "subsector",
+      "group_key": "wireless_communication",
+      "group_name": "Wireless Communication",
+      "stock_count": 2,
+      "usable_count": 2,
+      "improving_count": 0,
+      "slowing_count": 0,
+      "stable_count": 2,
+      "deteriorating_count": 0,
+      "breadth": 0.0,
+      "baseline_breadth": -50.0,
+      "breadth_delta": 50.0,
+      "median_magnitude": -14.28,
+      "median_growth": 39.55,
+      "reaction_breadth": 0.0,
+      "net_analyst_bias": 0,
+      "quadrant": "THIN",
+      "top_code": "1U1",
+      "breadth_ex_top": 0.0,
+      "is_thin": true,
+      "has_divergence": false,
+      "stocks": [
+        "1U1",
+        "FNTN"
+      ]
+    },
+    {
+      "group_type": "subsector",
       "group_key": "personal_products",
       "group_name": "Personal Products",
       "stock_count": 2,
@@ -1611,8 +1612,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": -50.0,
       "breadth_delta": 50.0,
-      "median_magnitude": -4.63,
-      "median_growth": 5.57,
+      "median_magnitude": -4.26,
+      "median_growth": 5.96,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -1638,9 +1639,9 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": -50.0,
       "breadth_delta": 50.0,
-      "median_magnitude": -2.56,
-      "median_growth": 5.43,
-      "reaction_breadth": 0.0,
+      "median_magnitude": -1.77,
+      "median_growth": 4.33,
+      "reaction_breadth": 100.0,
       "net_analyst_bias": 1,
       "quadrant": "THIN",
       "top_code": "FRA",
@@ -1650,6 +1651,33 @@ window.FUND_SENT_DATA = {
       "stocks": [
         "FRA",
         "SIX2"
+      ]
+    },
+    {
+      "group_type": "subsector",
+      "group_key": "food",
+      "group_name": "Food",
+      "stock_count": 2,
+      "usable_count": 2,
+      "improving_count": 0,
+      "slowing_count": 0,
+      "stable_count": 2,
+      "deteriorating_count": 0,
+      "breadth": 0.0,
+      "baseline_breadth": -50.0,
+      "breadth_delta": 50.0,
+      "median_magnitude": -7.05,
+      "median_growth": 60.92,
+      "reaction_breadth": -100.0,
+      "net_analyst_bias": 1,
+      "quadrant": "THIN",
+      "top_code": "KWS",
+      "breadth_ex_top": 0.0,
+      "is_thin": true,
+      "has_divergence": true,
+      "stocks": [
+        "KWS",
+        "SZU"
       ]
     },
     {
@@ -1665,9 +1693,9 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 50.0,
       "breadth_delta": -50.0,
-      "median_magnitude": -0.55,
-      "median_growth": 10.0,
-      "reaction_breadth": 0.0,
+      "median_magnitude": -2.22,
+      "median_growth": 11.61,
+      "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
       "top_code": "CWC",
@@ -1718,9 +1746,9 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -0.51,
-      "median_growth": 18.11,
-      "reaction_breadth": -100.0,
+      "median_magnitude": -0.23,
+      "median_growth": 18.7,
+      "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
       "top_code": "ALV",
@@ -1730,33 +1758,6 @@ window.FUND_SENT_DATA = {
       "stocks": [
         "ALV",
         "WUW"
-      ]
-    },
-    {
-      "group_type": "subsector",
-      "group_key": "movies_entertainment",
-      "group_name": "Movies & Entertainment",
-      "stock_count": 2,
-      "usable_count": 2,
-      "improving_count": 0,
-      "slowing_count": 0,
-      "stable_count": 2,
-      "deteriorating_count": 0,
-      "breadth": 0.0,
-      "baseline_breadth": 0.0,
-      "breadth_delta": 0.0,
-      "median_magnitude": 2.58,
-      "median_growth": 54.34,
-      "reaction_breadth": 0.0,
-      "net_analyst_bias": 3,
-      "quadrant": "THIN",
-      "top_code": "BVB",
-      "breadth_ex_top": 0.0,
-      "is_thin": true,
-      "has_divergence": false,
-      "stocks": [
-        "BVB",
-        "EVD"
       ]
     },
     {
@@ -1772,10 +1773,10 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 1.39,
-      "median_growth": 12.39,
+      "median_magnitude": 1.65,
+      "median_growth": 12.86,
       "reaction_breadth": 100.0,
-      "net_analyst_bias": 3,
+      "net_analyst_bias": 2,
       "quadrant": "THIN",
       "top_code": "DB1",
       "breadth_ex_top": 0.0,
@@ -1799,8 +1800,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 112.73,
-      "median_growth": 20.15,
+      "median_magnitude": 41.54,
+      "median_growth": 4.95,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -1852,8 +1853,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -0.71,
-      "median_growth": 18.6,
+      "median_magnitude": -0.21,
+      "median_growth": 19.82,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 1,
       "quadrant": "THIN",
@@ -1905,8 +1906,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 1.94,
-      "median_growth": 24.07,
+      "median_magnitude": 1.89,
+      "median_growth": 23.95,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -1985,9 +1986,9 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 1.93,
-      "median_growth": 17.59,
-      "reaction_breadth": 0.0,
+      "median_magnitude": 1.37,
+      "median_growth": 16.29,
+      "reaction_breadth": -100.0,
       "net_analyst_bias": 2,
       "quadrant": "THIN",
       "top_code": null,
@@ -2011,8 +2012,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 0.92,
-      "median_growth": 65.48,
+      "median_magnitude": -1.34,
+      "median_growth": 64.47,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 1,
       "quadrant": "THIN",
@@ -2037,8 +2038,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -5.02,
-      "median_growth": 19.86,
+      "median_magnitude": -10.38,
+      "median_growth": 16.56,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 1,
       "quadrant": "THIN",
@@ -2064,8 +2065,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -9.27,
-      "median_growth": 16.14,
+      "median_magnitude": -9.41,
+      "median_growth": 15.79,
       "reaction_breadth": -100.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -2090,8 +2091,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 9.2,
-      "median_growth": -3.33,
+      "median_magnitude": 10.36,
+      "median_growth": -5.69,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -2116,8 +2117,8 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": 1.11,
-      "median_growth": 11.52,
+      "median_magnitude": 1.69,
+      "median_growth": 11.45,
       "reaction_breadth": 100.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -2142,10 +2143,10 @@ window.FUND_SENT_DATA = {
       "breadth": 0.0,
       "baseline_breadth": 0.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -4.84,
-      "median_growth": 87.1,
+      "median_magnitude": 0.0,
+      "median_growth": 62.86,
       "reaction_breadth": 0.0,
-      "net_analyst_bias": 1,
+      "net_analyst_bias": 0,
       "quadrant": "THIN",
       "top_code": null,
       "breadth_ex_top": 0.0,
@@ -2153,6 +2154,33 @@ window.FUND_SENT_DATA = {
       "has_divergence": false,
       "stocks": [
         "TNIE"
+      ]
+    },
+    {
+      "group_type": "subsector",
+      "group_key": "movies_entertainment",
+      "group_name": "Movies & Entertainment",
+      "stock_count": 2,
+      "usable_count": 2,
+      "improving_count": 0,
+      "slowing_count": 1,
+      "stable_count": 1,
+      "deteriorating_count": 1,
+      "breadth": -50.0,
+      "baseline_breadth": 0.0,
+      "breadth_delta": -50.0,
+      "median_magnitude": -4.17,
+      "median_growth": 54.49,
+      "reaction_breadth": -100.0,
+      "net_analyst_bias": 3,
+      "quadrant": "THIN",
+      "top_code": "BVB",
+      "breadth_ex_top": 0.0,
+      "is_thin": true,
+      "has_divergence": false,
+      "stocks": [
+        "BVB",
+        "EVD"
       ]
     },
     {
@@ -2168,8 +2196,8 @@ window.FUND_SENT_DATA = {
       "breadth": -50.0,
       "baseline_breadth": -50.0,
       "breadth_delta": 0.0,
-      "median_magnitude": -7.73,
-      "median_growth": 35.09,
+      "median_magnitude": -10.1,
+      "median_growth": 40.08,
       "reaction_breadth": 0.0,
       "net_analyst_bias": 0,
       "quadrant": "THIN",
@@ -2180,33 +2208,6 @@ window.FUND_SENT_DATA = {
       "stocks": [
         "HOT",
         "VOS"
-      ]
-    },
-    {
-      "group_type": "subsector",
-      "group_key": "food",
-      "group_name": "Food",
-      "stock_count": 2,
-      "usable_count": 2,
-      "improving_count": 0,
-      "slowing_count": 0,
-      "stable_count": 1,
-      "deteriorating_count": 1,
-      "breadth": -50.0,
-      "baseline_breadth": -50.0,
-      "breadth_delta": 0.0,
-      "median_magnitude": -6.55,
-      "median_growth": 61.91,
-      "reaction_breadth": -100.0,
-      "net_analyst_bias": 1,
-      "quadrant": "THIN",
-      "top_code": "KWS",
-      "breadth_ex_top": 0.0,
-      "is_thin": true,
-      "has_divergence": false,
-      "stocks": [
-        "KWS",
-        "SZU"
       ]
     },
     {
@@ -2264,13 +2265,14 @@ window.FUND_SENT_DATA = {
     {
       "code": "AMV0",
       "sector": "Automobile",
-      "direction": "GROWTH_SLOWING",
+      "direction": "DETERIORATING",
       "stance": "CONFLICT",
       "bias": "POSITIVE",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "reasons": [
-        "Conflict: Growth intact but slowing while analysts remain bullish"
+        "Conflict: Conflict: analyst optimism against falling EPS expectations",
+        "SEVERE_CUT"
       ]
     },
     {
@@ -2279,7 +2281,7 @@ window.FUND_SENT_DATA = {
       "direction": "DETERIORATING",
       "stance": "CONFLICT",
       "bias": "POSITIVE",
-      "tech_state": "COUNTERTREND",
+      "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "reasons": [
         "Conflict: Conflict: analyst optimism against falling EPS expectations",
@@ -2292,10 +2294,22 @@ window.FUND_SENT_DATA = {
       "direction": "IMPROVING",
       "stance": "SUPPORTIVE",
       "bias": "POSITIVE",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "reasons": [
         "ANALYST_UPGRADE_CLUSTER"
+      ]
+    },
+    {
+      "code": "BOSS",
+      "sector": "Consumer",
+      "direction": "GROWTH_SLOWING",
+      "stance": "PRESSURE",
+      "bias": "NEGATIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "ANALYST_DOWNGRADE_CLUSTER"
       ]
     },
     {
@@ -2304,7 +2318,7 @@ window.FUND_SENT_DATA = {
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
       "bias": "INSUFFICIENT",
-      "tech_state": "TRANSITION",
+      "tech_state": "BASING",
       "tech_family": "TURNING",
       "reasons": [
         "SEVERE_CUT"
@@ -2335,12 +2349,24 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
+      "code": "DUE",
+      "sector": "Industrial",
+      "direction": "GROWTH_SLOWING",
+      "stance": "CONFLICT",
+      "bias": "POSITIVE",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "reasons": [
+        "Conflict: Growth intact but slowing while analysts remain bullish"
+      ]
+    },
+    {
       "code": "EKT",
       "sector": "Industrial",
       "direction": "DETERIORATING",
       "stance": "CONFLICT",
       "bias": "POSITIVE",
-      "tech_state": "TRANSITION",
+      "tech_state": "BASING",
       "tech_family": "TURNING",
       "reasons": [
         "Conflict: Conflict: analyst optimism against falling EPS expectations",
@@ -2396,37 +2422,13 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
-      "code": "KWS",
-      "sector": "Food & Beverages",
-      "direction": "DETERIORATING",
-      "stance": "CONFLICT",
-      "bias": "POSITIVE",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
-      "reasons": [
-        "Conflict: Conflict: analyst optimism against falling EPS expectations"
-      ]
-    },
-    {
       "code": "LPK",
       "sector": "Industrial",
       "direction": "DETERIORATING",
       "stance": "PRESSURE",
       "bias": "INSUFFICIENT",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
-      "reasons": [
-        "SEVERE_CUT"
-      ]
-    },
-    {
-      "code": "LXS",
-      "sector": "Chemicals",
-      "direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "bias": "NEGATIVE",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "reasons": [
         "SEVERE_CUT"
       ]
@@ -2449,10 +2451,22 @@ window.FUND_SENT_DATA = {
       "direction": "GROWTH_SLOWING",
       "stance": "CONFLICT",
       "bias": "POSITIVE",
-      "tech_state": "DOWNTREND",
-      "tech_family": "DOWN",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "reasons": [
         "Conflict: Growth intact but slowing while analysts remain bullish"
+      ]
+    },
+    {
+      "code": "PNE3",
+      "sector": "Industrial",
+      "direction": "DETERIORATING",
+      "stance": "PRESSURE",
+      "bias": "INSUFFICIENT",
+      "tech_state": "BASING",
+      "tech_family": "TURNING",
+      "reasons": [
+        "SEVERE_CUT"
       ]
     },
     {
@@ -2505,19 +2519,6 @@ window.FUND_SENT_DATA = {
       ]
     },
     {
-      "code": "V6C",
-      "sector": "Industrial",
-      "direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "bias": "INSUFFICIENT",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
-      "reasons": [
-        "SEVERE_CUT",
-        "Warning: Price UP ahead of fundamental pressure"
-      ]
-    },
-    {
       "code": "VBK",
       "sector": "Industrial",
       "direction": "GROWTH_SLOWING",
@@ -2528,36 +2529,24 @@ window.FUND_SENT_DATA = {
       "reasons": [
         "Conflict: Growth intact but slowing while analysts remain bullish"
       ]
-    },
-    {
-      "code": "VOW3",
-      "sector": "Automobile",
-      "direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "bias": "NEUTRAL",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
-      "reasons": [
-        "SEVERE_CUT"
-      ]
     }
   ],
   "stocks": {
     "DBK": {
       "code": "DBK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-30",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-07",
       "last_report": "2026-10-28",
       "analyst": {
         "code": "DBK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -2570,23 +2559,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 17.47,
-        "growth_step": 0.58,
+        "growth_pct": 18.07,
+        "growth_step": 0.6,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 3.32,
-        "next_eps": 3.9,
+        "next_eps": 3.92,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.5% (3.32 -> 3.90 EUR)"
+        "summary": "FY27/FY26 growth: +18.1% (3.32 -> 3.92 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/1",
-        "up_periods": 0,
+        "reaction": "UP",
+        "reaction_breadth": "1/1",
+        "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-10-28",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -2597,13 +2586,13 @@ window.FUND_SENT_DATA = {
         "details": {
           "2027": {
             "pre": 3.88,
-            "post": 3.9,
-            "delta": 0.02,
-            "pct": 0.52,
-            "direction": "FLAT"
+            "post": 3.92,
+            "delta": 0.04,
+            "pct": 1.03,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-10-28): NONE (0 UP / 0 DOWN across 1 periods)"
+        "summary": "Reaction after 26Q3 (2026-10-28): UP (1 UP / 0 DOWN across 1 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -2617,11 +2606,11 @@ window.FUND_SENT_DATA = {
       "lean": "UP",
       "drift": {
         "2026": 1.22,
-        "2027": 3.45
+        "2027": 3.98
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -2632,7 +2621,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.49,
+      "tech_confidence": 0.4,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -2644,19 +2633,19 @@ window.FUND_SENT_DATA = {
     },
     "BMW": {
       "code": "BMW",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-04",
       "analyst": {
         "code": "BMW",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -2669,16 +2658,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 44.19,
-        "growth_step": 2.51,
+        "growth_pct": 46.93,
+        "growth_step": 2.6,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 5.68,
-        "next_eps": 8.19,
+        "base_eps": 5.54,
+        "next_eps": 8.14,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +44.2% (5.68 -> 8.19 EUR)",
+        "summary": "FY27/FY26 growth: +46.9% (5.54 -> 8.14 EUR)",
         "pre_growth_pct": 26.88,
         "effective_growth_pct": 26.88
       },
@@ -2698,16 +2687,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 6.66,
-            "post": 5.68,
-            "delta": -0.98,
-            "pct": -14.71,
+            "post": 5.54,
+            "delta": -1.12,
+            "pct": -16.82,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 8.45,
-            "post": 8.19,
-            "delta": -0.26,
-            "pct": -3.08,
+            "post": 8.14,
+            "delta": -0.31,
+            "pct": -3.67,
             "direction": "DOWN"
           }
         },
@@ -2718,54 +2707,53 @@ window.FUND_SENT_DATA = {
       "stance": "NEUTRAL",
       "stance_reading": "Growth intact, revisions negative; watch",
       "flags": [
-        "CONFLICT",
-        "POST_REPORT_EARLY"
+        "CONFLICT"
       ],
       "ups": 1,
-      "downs": 3,
+      "downs": 4,
       "lean": "DOWN",
       "drift": {
-        "2026": -15.1,
-        "2027": -12.78
+        "2026": -17.19,
+        "2027": -13.31
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-13",
-      "basis": "1 up / 3 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 4 down revision events, 90d, FY26,27",
       "sector_key": "automobile",
       "subsector_key": "automobile_manufacturers",
       "sector": "Automobile",
       "subsector": "Automobile Manufacturers",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.0,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.47,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 23,
-        "eps_date": "2026-11-13",
-        "tech_date": "2026-10-21",
-        "summary": "Price leads fundamentals by 23 days"
+        "timing": "SYNCHRONOUS",
+        "delta_days": 1,
+        "eps_date": "2026-11-20",
+        "tech_date": "2026-11-19",
+        "summary": "Contemporaneous (+1d)"
       }
     },
     "BEI": {
       "code": "BEI",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-06",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-07",
       "last_report": "2026-08-05",
       "analyst": {
         "code": "BEI",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEGATIVE",
         "event_count": 4,
@@ -2788,16 +2776,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEGATIVE (0 BUY / 3 HOLD / 1 SELL across 4 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 5.04,
-        "growth_step": 0.19,
+        "growth_pct": 5.31,
+        "growth_step": 0.2,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 3.77,
-        "next_eps": 3.96,
+        "next_eps": 3.97,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +5.0% (3.77 -> 3.96 EUR)"
+        "summary": "FY27/FY26 growth: +5.3% (3.77 -> 3.97 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -2822,9 +2810,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 4.46,
-            "post": 3.96,
-            "delta": -0.5,
-            "pct": -11.21,
+            "post": 3.97,
+            "delta": -0.49,
+            "pct": -10.99,
             "direction": "DOWN"
           }
         },
@@ -2843,11 +2831,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -10.66,
-        "2027": -11.21
+        "2027": -10.99
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-07",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -2855,7 +2843,7 @@ window.FUND_SENT_DATA = {
       "subsector_key": "personal_products",
       "sector": "Consumer",
       "subsector": "Personal Products",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-29",
       "tech_confidence": 0.0,
@@ -2870,58 +2858,58 @@ window.FUND_SENT_DATA = {
     },
     "CON": {
       "code": "CON",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-06",
       "last_report": "2026-11-04",
       "analyst": {
         "code": "CON",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 1,
-        "buy_count": 1,
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 1,
+        "distinct_banks": 2,
         "flags": [],
         "latest_event": {
-          "date": "2026-09-01",
-          "bank": "JPMorgan",
-          "bank_short": "JPMorgan",
+          "date": "2026-11-19",
+          "bank": "Bernstein",
+          "bank_short": "Bernstein",
           "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: JPMorgan belaesst Continental auf 'Overweight' - Ziel 78 Euro",
-          "ret_w1": 0.4516,
-          "ret_w2": -3.2458,
-          "w1_disp": "+0.5%",
-          "w2_disp": "-3.2%"
+          "headline": "ANALYSE-FLASH: Bernstein belaesst Continental auf 'Outperform' - Ziel 82 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
         },
-        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 13.27,
-        "growth_step": 0.78,
+        "growth_pct": 12.93,
+        "growth_step": 0.76,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 5.88,
-        "next_eps": 6.66,
+        "next_eps": 6.64,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +13.3% (5.88 -> 6.66 EUR)"
+        "summary": "FY27/FY26 growth: +12.9% (5.88 -> 6.64 EUR)"
       },
       "consensus": {
         "reaction": "UP",
-        "reaction_breadth": "2/2",
-        "up_periods": 2,
+        "reaction_breadth": "1/2",
+        "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 0,
+        "flat_periods": 1,
         "last_report_date": "2026-11-04",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -2939,13 +2927,13 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 6.58,
-            "post": 6.66,
-            "delta": 0.08,
-            "pct": 1.22,
-            "direction": "UP"
+            "post": 6.64,
+            "delta": 0.06,
+            "pct": 0.91,
+            "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-04): UP (2 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-04): UP (1 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -2960,11 +2948,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -7.55,
-        "2027": -10.96
+        "2027": -11.23
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-06",
       "basis": "1 up / 2 down revision events, 90d, FY26,27",
@@ -2975,7 +2963,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.71,
       "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -2987,7 +2975,7 @@ window.FUND_SENT_DATA = {
     },
     "DHL": {
       "code": "DHL",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -2999,27 +2987,27 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "DHL",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 4,
+        "event_count": 5,
         "buy_count": 2,
-        "hold_count": 2,
+        "hold_count": 3,
         "sell_count": 0,
-        "distinct_banks": 4,
+        "distinct_banks": 5,
         "flags": [],
         "latest_event": {
-          "date": "2026-10-15",
-          "bank": "RBC",
-          "bank_short": "RBC",
-          "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: RBC startet DHL Group mit 'Outperform' - Ziel 67 Euro",
-          "ret_w1": -1.0052,
-          "ret_w2": 1.9064,
-          "w1_disp": "-1.0%",
-          "w2_disp": "+1.9%"
+          "date": "2026-11-19",
+          "bank": "MPCM",
+          "bank_short": "MPCM",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: MPCM belaesst DHL Group auf 'Hold' - Ziel 53 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
         },
-        "summary": "POSITIVE (2 BUY / 2 HOLD / 0 SELL across 4 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 3 HOLD / 0 SELL across 5 banks, 90d)"
       },
       "growth": {
         "growth_pct": 9.39,
@@ -3061,9 +3049,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "SUPPORTIVE",
       "stance_reading": "Recommendation support without meaningful EPS revisions",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "UP",
@@ -3072,8 +3058,8 @@ window.FUND_SENT_DATA = {
         "2027": 4.76
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -3081,22 +3067,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "logistics",
       "sector": "Transportation & Logistics",
       "subsector": "Logistics",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.82,
-      "price_reading": "Confirmed strength",
+      "tech_confidence": 0.69,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-07-10",
         "tech_date": "2026-10-20",
-        "summary": "last revision was 132d ago (> 90d)"
+        "summary": "last revision was 133d ago (> 90d)"
       }
     },
     "DTE": {
       "code": "DTE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3108,7 +3094,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "DTE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3167,9 +3153,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "FLAT",
@@ -3178,8 +3162,8 @@ window.FUND_SENT_DATA = {
         "2027": 1.59
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -3197,24 +3181,24 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2025-02-20",
         "tech_date": "2026-11-03",
-        "summary": "last revision was 637d ago (> 90d)"
+        "summary": "last revision was 638d ago (> 90d)"
       }
     },
     "FME": {
       "code": "FME",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-11",
       "last_report": "2026-11-03",
       "analyst": {
         "code": "FME",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3227,18 +3211,18 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -3.69,
-        "growth_step": -0.15,
+        "growth_pct": -4.46,
+        "growth_step": -0.18,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 4.06,
-        "next_eps": 3.91,
+        "base_eps": 4.04,
+        "next_eps": 3.86,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -3.7% (4.06 -> 3.91 EUR)",
+        "summary": "FY27/FY26 growth: -4.5% (4.04 -> 3.86 EUR)",
         "pre_growth_pct": 4.9,
-        "effective_growth_pct": -3.69
+        "effective_growth_pct": -4.46
       },
       "consensus": {
         "reaction": "DOWN",
@@ -3256,16 +3240,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 4.08,
-            "post": 4.06,
-            "delta": -0.02,
-            "pct": -0.49,
+            "post": 4.04,
+            "delta": -0.04,
+            "pct": -0.98,
             "direction": "FLAT"
           },
           "2027": {
             "pre": 4.28,
-            "post": 3.91,
-            "delta": -0.37,
-            "pct": -8.64,
+            "post": 3.86,
+            "delta": -0.42,
+            "pct": -9.81,
             "direction": "DOWN"
           }
         },
@@ -3282,12 +3266,12 @@ window.FUND_SENT_DATA = {
       "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": 1.5,
-        "2027": -10.32
+        "2026": 1.0,
+        "2027": -11.47
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -3298,8 +3282,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-17",
-      "tech_confidence": 0.4,
-      "price_reading": "Pause may resolve down [Caution: Negative forward growth -3.7%]",
+      "tech_confidence": 0.49,
+      "price_reading": "Pause may resolve down [Caution: Negative forward growth -4.5%]",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -6,
@@ -3310,51 +3294,51 @@ window.FUND_SENT_DATA = {
     },
     "DB1": {
       "code": "DB1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-30",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2025-03-23",
       "last_report": "2026-07-22",
       "analyst": {
         "code": "DB1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 4,
+        "event_count": 5,
         "buy_count": 2,
         "hold_count": 2,
-        "sell_count": 0,
-        "distinct_banks": 4,
+        "sell_count": 1,
+        "distinct_banks": 5,
         "flags": [],
         "latest_event": {
-          "date": "2026-11-18",
-          "bank": "MPCM",
-          "bank_short": "MPCM",
-          "sentiment": "HOLD",
-          "headline": "ANALYSE-FLASH: MPCM senkt Deutsche Boerse auf 'Hold' - Ziel hoch auf 339 Euro",
+          "date": "2026-11-20",
+          "bank": "UBS",
+          "bank_short": "UBS",
+          "sentiment": "SELL",
+          "headline": "ANALYSE-FLASH: UBS senkt Deutsche Boerse auf 'Sell' - Ziel hoch auf 300 Euro",
           "ret_w1": null,
           "ret_w2": null,
           "w1_disp": "pending",
           "w2_disp": "pending"
         },
-        "summary": "POSITIVE (2 BUY / 2 HOLD / 0 SELL across 4 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 2 HOLD / 1 SELL across 5 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 7.8,
-        "growth_step": 1.01,
+        "growth_pct": 8.72,
+        "growth_step": 1.13,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 12.95,
-        "next_eps": 13.96,
+        "base_eps": 12.96,
+        "next_eps": 14.09,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +7.8% (12.95 -> 13.96 EUR)"
+        "summary": "FY27/FY26 growth: +8.7% (12.96 -> 14.09 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -3372,16 +3356,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 12.49,
-            "post": 12.95,
-            "delta": 0.46,
-            "pct": 3.68,
+            "post": 12.96,
+            "delta": 0.47,
+            "pct": 3.76,
             "direction": "UP"
           },
           "2027": {
             "pre": 13.38,
-            "post": 13.96,
-            "delta": 0.58,
-            "pct": 4.33,
+            "post": 14.09,
+            "delta": 0.71,
+            "pct": 5.31,
             "direction": "UP"
           }
         },
@@ -3398,12 +3382,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 2.61,
-        "2027": 2.95
+        "2026": 2.69,
+        "2027": 3.91
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -3421,24 +3405,24 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2025-03-23",
         "tech_date": "2026-09-28",
-        "summary": "last revision was 606d ago (> 90d)"
+        "summary": "last revision was 607d ago (> 90d)"
       }
     },
     "HEI": {
       "code": "HEI",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-03-17",
       "last_report": "2026-07-30",
       "analyst": {
         "code": "HEI",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3451,16 +3435,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 13.14,
-        "growth_step": 1.7,
+        "growth_pct": 12.91,
+        "growth_step": 1.67,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 12.94,
-        "next_eps": 14.64,
+        "next_eps": 14.61,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +13.1% (12.94 -> 14.64 EUR)"
+        "summary": "FY27/FY26 growth: +12.9% (12.94 -> 14.61 EUR)"
       },
       "consensus": {
         "reaction": "NONE",
@@ -3485,9 +3469,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 14.67,
-            "post": 14.64,
-            "delta": -0.03,
-            "pct": -0.2,
+            "post": 14.61,
+            "delta": -0.06,
+            "pct": -0.41,
             "direction": "FLAT"
           }
         },
@@ -3505,11 +3489,11 @@ window.FUND_SENT_DATA = {
       "lean": "FLAT",
       "drift": {
         "2026": -0.61,
-        "2027": -0.2
+        "2027": -0.41
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -3520,31 +3504,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.87,
+      "tech_confidence": 0.77,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-17",
         "tech_date": "2026-10-27",
-        "summary": "last revision was 247d ago (> 90d)"
+        "summary": "last revision was 248d ago (> 90d)"
       }
     },
     "HEN3": {
       "code": "HEN3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2025-04-10",
       "last_report": "2026-08-06",
       "analyst": {
         "code": "HEN3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -3567,16 +3551,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 6.1,
-        "growth_step": 0.34,
+        "growth_pct": 6.62,
+        "growth_step": 0.37,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 5.57,
-        "next_eps": 5.91,
+        "base_eps": 5.59,
+        "next_eps": 5.96,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.1% (5.57 -> 5.91 EUR)"
+        "summary": "FY27/FY26 growth: +6.6% (5.59 -> 5.96 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -3594,16 +3578,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 5.48,
-            "post": 5.57,
-            "delta": 0.09,
-            "pct": 1.64,
+            "post": 5.59,
+            "delta": 0.11,
+            "pct": 2.01,
             "direction": "UP"
           },
           "2027": {
             "pre": 5.81,
-            "post": 5.91,
-            "delta": 0.1,
-            "pct": 1.72,
+            "post": 5.96,
+            "delta": 0.15,
+            "pct": 2.58,
             "direction": "UP"
           }
         },
@@ -3620,12 +3604,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 1.64,
-        "2027": 1.72
+        "2026": 2.01,
+        "2027": 2.58
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -3633,22 +3617,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "personal_products",
       "sector": "Consumer",
       "subsector": "Personal Products",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-10-14",
-      "tech_confidence": 0.82,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.85,
+      "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-04-10",
         "tech_date": "2026-10-14",
-        "summary": "last revision was 588d ago (> 90d)"
+        "summary": "last revision was 589d ago (> 90d)"
       }
     },
     "HOT": {
       "code": "HOT",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3660,7 +3644,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-27",
       "analyst": {
         "code": "HOT",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3730,8 +3714,8 @@ window.FUND_SENT_DATA = {
         "2027": 2.91
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -3742,19 +3726,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-17",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.48,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-07-25",
         "tech_date": "2026-11-17",
-        "summary": "last revision was 117d ago (> 90d)"
+        "summary": "last revision was 118d ago (> 90d)"
       }
     },
     "IFX": {
       "code": "IFX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3766,7 +3750,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-10",
       "analyst": {
         "code": "IFX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -3840,8 +3824,8 @@ window.FUND_SENT_DATA = {
         "2027": 3.64
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -3852,7 +3836,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.41,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -3864,19 +3848,19 @@ window.FUND_SENT_DATA = {
     },
     "MRK": {
       "code": "MRK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-07",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "MRK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -3889,23 +3873,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 6.58,
-        "growth_step": 0.56,
+        "growth_pct": 5.48,
+        "growth_step": 0.47,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 8.51,
-        "next_eps": 9.07,
+        "base_eps": 8.58,
+        "next_eps": 9.05,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.6% (8.51 -> 9.07 EUR)"
+        "summary": "FY27/FY26 growth: +5.5% (8.58 -> 9.05 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/2",
-        "up_periods": 0,
+        "reaction": "UP",
+        "reaction_breadth": "1/2",
+        "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 2,
+        "flat_periods": 1,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -3916,20 +3900,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 8.49,
-            "post": 8.51,
-            "delta": 0.02,
-            "pct": 0.24,
-            "direction": "FLAT"
+            "post": 8.58,
+            "delta": 0.09,
+            "pct": 1.06,
+            "direction": "UP"
           },
           "2027": {
             "pre": 9.03,
-            "post": 9.07,
-            "delta": 0.04,
-            "pct": 0.44,
+            "post": 9.05,
+            "delta": 0.02,
+            "pct": 0.22,
             "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): UP (1 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -3943,12 +3927,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 6.24,
-        "2027": 3.66
+        "2026": 7.12,
+        "2027": 3.43
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -3959,7 +3943,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-30",
-      "tech_confidence": 0.75,
+      "tech_confidence": 0.68,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -3971,7 +3955,7 @@ window.FUND_SENT_DATA = {
     },
     "G1A": {
       "code": "G1A",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -3983,7 +3967,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-09",
       "analyst": {
         "code": "G1A",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 5,
@@ -4057,8 +4041,8 @@ window.FUND_SENT_DATA = {
         "2027": 4.75
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -4069,7 +4053,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.77,
+      "tech_confidence": 0.66,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -4081,19 +4065,19 @@ window.FUND_SENT_DATA = {
     },
     "RHM": {
       "code": "RHM",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-09",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "RHM",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -4118,18 +4102,18 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (3 BUY / 0 HOLD / 0 SELL across 3 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 45.47,
-        "growth_step": 15.57,
+        "growth_pct": 44.02,
+        "growth_step": 14.87,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 34.24,
-        "next_eps": 49.81,
+        "base_eps": 33.78,
+        "next_eps": 48.65,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +45.5% (34.24 -> 49.81 EUR)",
+        "summary": "FY27/FY26 growth: +44.0% (33.78 -> 48.65 EUR)",
         "pre_growth_pct": 44.41,
-        "effective_growth_pct": 44.41
+        "effective_growth_pct": 44.02
       },
       "consensus": {
         "reaction": "DOWN",
@@ -4147,16 +4131,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 37.33,
-            "post": 34.24,
-            "delta": -3.09,
-            "pct": -8.28,
+            "post": 33.78,
+            "delta": -3.55,
+            "pct": -9.51,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 53.91,
-            "post": 49.81,
-            "delta": -4.1,
-            "pct": -7.61,
+            "post": 48.65,
+            "delta": -5.26,
+            "pct": -9.76,
             "direction": "DOWN"
           }
         },
@@ -4175,12 +4159,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -8.96,
-        "2027": -9.17
+        "2026": -10.18,
+        "2027": -11.29
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-09",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -4203,7 +4187,7 @@ window.FUND_SENT_DATA = {
     },
     "RWE": {
       "code": "RWE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4215,7 +4199,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "RWE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -4295,8 +4279,8 @@ window.FUND_SENT_DATA = {
         "2027": 7.5
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-12",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -4307,7 +4291,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.48,
+      "tech_confidence": 0.0,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -4319,19 +4303,19 @@ window.FUND_SENT_DATA = {
     },
     "MBG": {
       "code": "MBG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-09",
       "last_report": "2026-10-28",
       "analyst": {
         "code": "MBG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 2,
@@ -4354,18 +4338,18 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 6.58,
-        "growth_step": 0.34,
+        "growth_pct": 5.22,
+        "growth_step": 0.27,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 5.17,
-        "next_eps": 5.51,
+        "next_eps": 5.44,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.6% (5.17 -> 5.51 EUR)",
+        "summary": "FY27/FY26 growth: +5.2% (5.17 -> 5.44 EUR)",
         "pre_growth_pct": 17.71,
-        "effective_growth_pct": 6.58
+        "effective_growth_pct": 5.22
       },
       "consensus": {
         "reaction": "DOWN",
@@ -4390,9 +4374,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 6.38,
-            "post": 5.51,
-            "delta": -0.87,
-            "pct": -13.64,
+            "post": 5.44,
+            "delta": -0.94,
+            "pct": -14.73,
             "direction": "DOWN"
           }
         },
@@ -4410,11 +4394,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -7.84,
-        "2027": -20.14
+        "2027": -21.16
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-09",
       "basis": "0 up / 5 down revision events, 90d, FY26,27",
@@ -4424,20 +4408,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Automobile Manufacturers",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.53,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.5,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -4,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -10,
         "eps_date": "2026-11-09",
-        "tech_date": "2026-11-13",
-        "summary": "Contemporaneous (-4d)"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 10 days"
       }
     },
     "SAP": {
       "code": "SAP",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -4449,7 +4433,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-21",
       "analyst": {
         "code": "SAP",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -4527,8 +4511,8 @@ window.FUND_SENT_DATA = {
         "2027": -0.24
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -4539,31 +4523,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-16",
-      "tech_confidence": 0.67,
+      "tech_confidence": 0.61,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-02-20",
         "tech_date": "2026-11-16",
-        "summary": "last revision was 637d ago (> 90d)"
+        "summary": "last revision was 638d ago (> 90d)"
       }
     },
     "SIE": {
       "code": "SIE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2024-11-22",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SIE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -4576,16 +4560,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 12.49,
-        "growth_step": 1.4,
+        "growth_pct": 8.21,
+        "growth_step": 0.92,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 11.21,
-        "next_eps": 12.61,
+        "next_eps": 12.13,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +12.5% (11.21 -> 12.61 EUR)"
+        "summary": "FY27/FY26 growth: +8.2% (11.21 -> 12.13 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -4603,34 +4587,35 @@ window.FUND_SENT_DATA = {
         "details": {
           "2027": {
             "pre": 12.85,
-            "post": 12.61,
-            "delta": -0.24,
-            "pct": -1.87,
+            "post": 12.13,
+            "delta": -0.72,
+            "pct": -5.6,
             "direction": "DOWN"
           }
         },
         "summary": "Reaction after 26Q4 (2026-11-12): DOWN (0 UP / 1 DOWN across 1 periods)"
       },
-      "direction": "STABLE",
-      "base_direction": "STABLE",
+      "direction": "GROWTH_SLOWING",
+      "base_direction": "DETERIORATING",
       "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance_reading": "Growth intact, revisions negative; watch",
       "flags": [
+        "WATCH_DOWN",
         "POST_REPORT_EARLY"
       ],
       "ups": 0,
-      "downs": 0,
-      "lean": "FLAT",
+      "downs": 1,
+      "lean": "DOWN",
       "drift": {
         "2026": 2.56,
-        "2027": -1.48
+        "2027": -5.23
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": null,
-      "basis": "0 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "0 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_diversified",
       "sector": "Industrial",
@@ -4638,31 +4623,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.65,
+      "tech_confidence": 0.57,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "STALE_REVISION",
-        "delta_days": null,
-        "eps_date": "2024-11-22",
+        "timing": "PRICE_LEADS",
+        "delta_days": 10,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-10",
-        "summary": "last revision was 727d ago (> 90d)"
+        "summary": "Price leads fundamentals by 10 days"
       }
     },
     "VOW3": {
       "code": "VOW3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-10-29",
       "analyst": {
         "code": "VOW3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 2,
@@ -4685,16 +4670,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 50.04,
-        "growth_step": 6.13,
+        "growth_pct": 40.65,
+        "growth_step": 5.28,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 12.25,
-        "next_eps": 18.38,
+        "base_eps": 12.99,
+        "next_eps": 18.27,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +50.0% (12.25 -> 18.38 EUR)",
+        "summary": "FY27/FY26 growth: +40.6% (12.99 -> 18.27 EUR)",
         "pre_growth_pct": 24.77,
         "effective_growth_pct": 24.77
       },
@@ -4714,42 +4699,41 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 16.19,
-            "post": 12.25,
-            "delta": -3.94,
-            "pct": -24.34,
+            "post": 12.99,
+            "delta": -3.2,
+            "pct": -19.77,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 20.2,
-            "post": 18.38,
-            "delta": -1.82,
-            "pct": -9.01,
+            "post": 18.27,
+            "delta": -1.93,
+            "pct": -9.55,
             "direction": "DOWN"
           }
         },
         "summary": "Reaction after 26Q3 (2026-10-29): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
-      "direction": "DETERIORATING",
+      "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "stance_reading": "Pressure: falling estimates, analysts silent",
+      "stance": "NEUTRAL",
+      "stance_reading": "Growth intact, revisions negative; watch",
       "flags": [
-        "CONFLICT",
-        "SEVERE_CUT"
+        "CONFLICT"
       ],
-      "ups": 1,
+      "ups": 2,
       "downs": 4,
       "lean": "DOWN",
       "drift": {
-        "2026": -33.78,
-        "2027": -19.0
+        "2026": -29.78,
+        "2027": -19.48
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "FLAT 2026-11-13",
-      "basis": "1 up / 4 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "2 up / 4 down revision events, 90d, FY26,27",
       "sector_key": "automobile",
       "subsector_key": "automobile_manufacturers",
       "sector": "Automobile",
@@ -4757,31 +4741,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-17",
-      "tech_confidence": 0.58,
-      "price_reading": "Pause may resolve down",
+      "tech_confidence": 0.55,
+      "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
-        "delta_days": -4,
-        "eps_date": "2026-11-13",
+        "delta_days": 3,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-17",
-        "summary": "Contemporaneous (-4d)"
+        "summary": "Contemporaneous (+3d)"
       }
     },
     "HNR1": {
       "code": "HNR1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2025-02-20",
       "last_report": "2026-11-09",
       "analyst": {
         "code": "HNR1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -4804,16 +4788,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 4.18,
-        "growth_step": 0.96,
+        "growth_pct": 4.23,
+        "growth_step": 0.97,
         "is_growing": true,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 22.95,
-        "next_eps": 23.91,
+        "next_eps": 23.92,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +4.2% (22.95 -> 23.91 EUR)"
+        "summary": "FY27/FY26 growth: +4.2% (22.95 -> 23.92 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -4838,9 +4822,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 23.64,
-            "post": 23.91,
-            "delta": 0.27,
-            "pct": 1.14,
+            "post": 23.92,
+            "delta": 0.28,
+            "pct": 1.18,
             "direction": "UP"
           }
         },
@@ -4858,11 +4842,11 @@ window.FUND_SENT_DATA = {
       "lean": "FLAT",
       "drift": {
         "2026": -0.52,
-        "2027": 1.61
+        "2027": 1.66
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -4873,31 +4857,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-09-29",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.73,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-02-20",
         "tech_date": "2026-09-29",
-        "summary": "last revision was 637d ago (> 90d)"
+        "summary": "last revision was 638d ago (> 90d)"
       }
     },
     "ALV": {
       "code": "ALV",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2024-12-13",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "ALV",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 2,
@@ -4920,23 +4904,23 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (1 BUY / 0 HOLD / 1 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 8.49,
-        "growth_step": 2.61,
+        "growth_pct": 9.66,
+        "growth_step": 2.97,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 30.74,
-        "next_eps": 33.35,
+        "next_eps": 33.71,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +8.5% (30.74 -> 33.35 EUR)"
+        "summary": "FY27/FY26 growth: +9.7% (30.74 -> 33.71 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/2",
-        "up_periods": 0,
+        "reaction": "UP",
+        "reaction_breadth": "1/2",
+        "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 2,
+        "flat_periods": 1,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -4954,13 +4938,13 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 33.21,
-            "post": 33.35,
-            "delta": 0.14,
-            "pct": 0.42,
-            "direction": "FLAT"
+            "post": 33.71,
+            "delta": 0.5,
+            "pct": 1.51,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): UP (1 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -4974,11 +4958,11 @@ window.FUND_SENT_DATA = {
       "lean": "FLAT",
       "drift": {
         "2026": 0.23,
-        "2027": 1.61
+        "2027": 2.71
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -4986,34 +4970,34 @@ window.FUND_SENT_DATA = {
       "subsector_key": "insurance",
       "sector": "Insurance",
       "subsector": "Insurance",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.82,
+      "tech_confidence": 0.67,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-12-13",
         "tech_date": "2026-10-19",
-        "summary": "last revision was 706d ago (> 90d)"
+        "summary": "last revision was 707d ago (> 90d)"
       }
     },
     "MUV2": {
       "code": "MUV2",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2025-03-09",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "MUV2",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -5026,23 +5010,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -3.19,
-        "growth_step": -1.67,
+        "growth_pct": -3.93,
+        "growth_step": -2.08,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 52.42,
-        "next_eps": 50.75,
+        "base_eps": 52.97,
+        "next_eps": 50.89,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -3.2% (52.42 -> 50.75 EUR)"
+        "summary": "FY27/FY26 growth: -3.9% (52.97 -> 50.89 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/2",
-        "up_periods": 0,
+        "reaction": "UP",
+        "reaction_breadth": "1/2",
+        "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 2,
+        "flat_periods": 1,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -5053,20 +5037,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 52.33,
-            "post": 52.42,
-            "delta": 0.09,
-            "pct": 0.17,
-            "direction": "FLAT"
+            "post": 52.97,
+            "delta": 0.64,
+            "pct": 1.22,
+            "direction": "UP"
           },
           "2027": {
             "pre": 50.8,
-            "post": 50.75,
-            "delta": -0.05,
-            "pct": -0.1,
+            "post": 50.89,
+            "delta": 0.09,
+            "pct": 0.18,
             "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): UP (1 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -5079,12 +5063,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 4.28,
-        "2027": -2.44
+        "2026": 5.37,
+        "2027": -2.17
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -5102,24 +5086,24 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2025-03-09",
         "tech_date": "2026-10-08",
-        "summary": "last revision was 620d ago (> 90d)"
+        "summary": "last revision was 621d ago (> 90d)"
       }
     },
     "MTX": {
       "code": "MTX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-06",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2024-08-27",
       "last_report": "2026-03-24",
       "analyst": {
         "code": "MTX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 4,
@@ -5144,16 +5128,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (3 BUY / 1 HOLD / 0 SELL across 4 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 10.04,
-        "growth_step": 1.88,
+        "growth_pct": 9.91,
+        "growth_step": 1.86,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 18.73,
-        "next_eps": 20.61,
+        "base_eps": 18.76,
+        "next_eps": 20.62,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +10.0% (18.73 -> 20.61 EUR)"
+        "summary": "FY27/FY26 growth: +9.9% (18.76 -> 20.62 EUR)"
       },
       "consensus": {
         "reaction": "NONE",
@@ -5171,16 +5155,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 18.87,
-            "post": 18.73,
-            "delta": -0.14,
-            "pct": -0.74,
+            "post": 18.76,
+            "delta": -0.11,
+            "pct": -0.58,
             "direction": "FLAT"
           },
           "2027": {
             "pre": 20.69,
-            "post": 20.61,
-            "delta": -0.08,
-            "pct": -0.39,
+            "post": 20.62,
+            "delta": -0.07,
+            "pct": -0.34,
             "direction": "FLAT"
           }
         },
@@ -5198,12 +5182,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "FLAT",
       "drift": {
-        "2026": 1.35,
-        "2027": 2.03
+        "2026": 1.52,
+        "2027": 2.08
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -5221,24 +5205,24 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2024-08-27",
         "tech_date": "2026-11-11",
-        "summary": "last revision was 814d ago (> 90d)"
+        "summary": "last revision was 815d ago (> 90d)"
       }
     },
     "G24": {
       "code": "G24",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-05-03",
       "last_report": "2026-03-26",
       "analyst": {
         "code": "G24",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -5261,16 +5245,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 17.37,
-        "growth_step": 0.7,
+        "growth_pct": 17.87,
+        "growth_step": 0.72,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 4.03,
-        "next_eps": 4.73,
+        "next_eps": 4.75,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.4% (4.03 -> 4.73 EUR)"
+        "summary": "FY27/FY26 growth: +17.9% (4.03 -> 4.75 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -5295,9 +5279,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 4.51,
-            "post": 4.73,
-            "delta": 0.22,
-            "pct": 4.88,
+            "post": 4.75,
+            "delta": 0.24,
+            "pct": 5.32,
             "direction": "UP"
           }
         },
@@ -5315,11 +5299,11 @@ window.FUND_SENT_DATA = {
       "lean": "FLAT",
       "drift": {
         "2026": 0.75,
-        "2027": 0.64
+        "2027": 1.06
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -5327,34 +5311,34 @@ window.FUND_SENT_DATA = {
       "subsector_key": "retail_internet",
       "sector": "Retail",
       "subsector": "Retail, Internet",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-15",
-      "tech_confidence": 0.82,
-      "price_reading": "Confirmed strength",
+      "tech_confidence": 0.68,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-03",
         "tech_date": "2026-10-15",
-        "summary": "last revision was 200d ago (> 90d)"
+        "summary": "last revision was 201d ago (> 90d)"
       }
     },
     "BNR": {
       "code": "BNR",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-10-02",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-11",
       "analyst": {
         "code": "BNR",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -5367,16 +5351,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -1.91,
-        "growth_step": -0.08,
+        "growth_pct": -3.61,
+        "growth_step": -0.15,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 4.18,
-        "next_eps": 4.1,
+        "base_eps": 4.15,
+        "next_eps": 4.0,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -1.9% (4.18 -> 4.10 EUR)"
+        "summary": "FY27/FY26 growth: -3.6% (4.15 -> 4.00 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -5394,41 +5378,42 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 4.27,
-            "post": 4.18,
-            "delta": -0.09,
-            "pct": -2.11,
+            "post": 4.15,
+            "delta": -0.12,
+            "pct": -2.81,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 4.16,
-            "post": 4.1,
-            "delta": -0.06,
-            "pct": -1.44,
+            "post": 4.0,
+            "delta": -0.16,
+            "pct": -3.85,
             "direction": "DOWN"
           }
         },
         "summary": "Reaction after 26Q3 (2026-11-11): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
-      "direction": "IMPROVING",
-      "base_direction": "IMPROVING",
-      "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "direction": "STABLE",
+      "base_direction": "STABLE",
+      "stance": "NEUTRAL",
+      "stance_reading": "Quiet, nothing to report",
       "flags": [
+        "CONFLICT",
         "POST_REPORT_EARLY"
       ],
       "ups": 2,
-      "downs": 0,
-      "lean": "UP",
+      "downs": 1,
+      "lean": "MIXED",
       "drift": {
-        "2026": 6.63,
-        "2027": -0.97
+        "2026": 5.87,
+        "2027": -3.38
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-10-02",
-      "basis": "2 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "2 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
@@ -5437,30 +5422,30 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
       "tech_confidence": 0.0,
-      "price_reading": "Healthy pause [Caution: Negative forward growth -1.9%]",
+      "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -33,
-        "eps_date": "2026-10-02",
+        "timing": "PRICE_LEADS",
+        "delta_days": 16,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-04",
-        "summary": "Fundamentals lead price by 33 days"
+        "summary": "Price leads fundamentals by 16 days"
       }
     },
     "ADS": {
       "code": "ADS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-23",
       "last_report": "2026-10-29",
       "analyst": {
         "code": "ADS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 5,
@@ -5485,23 +5470,23 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (3 BUY / 1 HOLD / 1 SELL across 5 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 21.53,
+        "growth_pct": 21.37,
         "growth_step": 2.06,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 9.57,
-        "next_eps": 11.63,
+        "base_eps": 9.64,
+        "next_eps": 11.7,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +21.5% (9.57 -> 11.63 EUR)"
+        "summary": "FY27/FY26 growth: +21.4% (9.64 -> 11.70 EUR)"
       },
       "consensus": {
         "reaction": "UP",
-        "reaction_breadth": "1/2",
-        "up_periods": 1,
+        "reaction_breadth": "2/2",
+        "up_periods": 2,
         "down_periods": 0,
-        "flat_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-10-29",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -5512,20 +5497,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 9.4,
-            "post": 9.57,
-            "delta": 0.17,
-            "pct": 1.81,
+            "post": 9.64,
+            "delta": 0.24,
+            "pct": 2.55,
             "direction": "UP"
           },
           "2027": {
             "pre": 11.58,
-            "post": 11.63,
-            "delta": 0.05,
-            "pct": 0.43,
-            "direction": "FLAT"
+            "post": 11.7,
+            "delta": 0.12,
+            "pct": 1.04,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-10-29): UP (1 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-10-29): UP (2 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -5539,12 +5524,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "FLAT",
       "drift": {
-        "2026": 0.21,
-        "2027": -1.61
+        "2026": 0.94,
+        "2027": -1.02
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-23",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -5555,7 +5540,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-02",
-      "tech_confidence": 0.78,
+      "tech_confidence": 0.66,
       "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -5567,19 +5552,19 @@ window.FUND_SENT_DATA = {
     },
     "VNA": {
       "code": "VNA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-07",
       "last_report": "2026-08-05",
       "analyst": {
         "code": "VNA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEGATIVE",
         "event_count": 1,
@@ -5602,16 +5587,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": -6.11,
-        "growth_step": -0.11,
+        "growth_pct": -6.63,
+        "growth_step": -0.12,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.8,
+        "base_eps": 1.81,
         "next_eps": 1.69,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -6.1% (1.80 -> 1.69 EUR)"
+        "summary": "FY27/FY26 growth: -6.6% (1.81 -> 1.69 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -5629,9 +5614,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.0,
-            "post": 1.8,
-            "delta": -0.2,
-            "pct": -10.0,
+            "post": 1.81,
+            "delta": -0.19,
+            "pct": -9.5,
             "direction": "DOWN"
           },
           "2027": {
@@ -5656,12 +5641,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -10.0,
+        "2026": -9.5,
         "2027": -30.74
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-07",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -5672,8 +5657,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.64,
-      "price_reading": "Rebound without fundamental backing [Caution: Negative forward growth -6.1%]",
+      "tech_confidence": 0.65,
+      "price_reading": "Rebound without fundamental backing [Caution: Negative forward growth -6.6%]",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -64,
@@ -5684,19 +5669,19 @@ window.FUND_SENT_DATA = {
     },
     "BAS": {
       "code": "BAS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-30",
       "last_report": "2026-10-28",
       "analyst": {
         "code": "BAS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -5719,16 +5704,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": -5.85,
-        "growth_step": -0.19,
+        "growth_pct": -7.27,
+        "growth_step": -0.24,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 3.25,
+        "base_eps": 3.3,
         "next_eps": 3.06,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -5.8% (3.25 -> 3.06 EUR)"
+        "summary": "FY27/FY26 growth: -7.3% (3.30 -> 3.06 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -5746,9 +5731,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 3.11,
-            "post": 3.25,
-            "delta": 0.14,
-            "pct": 4.5,
+            "post": 3.3,
+            "delta": 0.19,
+            "pct": 6.11,
             "direction": "UP"
           },
           "2027": {
@@ -5772,12 +5757,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 14.44,
+        "2026": 16.2,
         "2027": 2.34
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-30",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -5788,8 +5773,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.52,
-      "price_reading": "Healthy pause [Caution: Negative forward growth -5.8%]",
+      "tech_confidence": 0.55,
+      "price_reading": "Healthy pause [Caution: Negative forward growth -7.3%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 14,
@@ -5800,19 +5785,19 @@ window.FUND_SENT_DATA = {
     },
     "BAYN": {
       "code": "BAYN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-11",
       "last_report": "2026-11-03",
       "analyst": {
         "code": "BAYN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -5835,16 +5820,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 6.36,
-        "growth_step": 0.29,
+        "growth_pct": 6.8,
+        "growth_step": 0.31,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 4.56,
-        "next_eps": 4.85,
+        "next_eps": 4.87,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.4% (4.56 -> 4.85 EUR)"
+        "summary": "FY27/FY26 growth: +6.8% (4.56 -> 4.87 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -5869,9 +5854,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 4.8,
-            "post": 4.85,
-            "delta": 0.05,
-            "pct": 1.04,
+            "post": 4.87,
+            "delta": 0.07,
+            "pct": 1.46,
             "direction": "UP"
           }
         },
@@ -5889,11 +5874,11 @@ window.FUND_SENT_DATA = {
       "lean": "UP",
       "drift": {
         "2026": 4.11,
-        "2027": 4.75
+        "2027": 5.18
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-11",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -5904,7 +5889,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.89,
+      "tech_confidence": 0.82,
       "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -5916,19 +5901,19 @@ window.FUND_SENT_DATA = {
     },
     "CBK": {
       "code": "CBK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2025-03-23",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "CBK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -5941,23 +5926,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 23.47,
-        "growth_step": 0.73,
+        "growth_pct": 24.03,
+        "growth_step": 0.74,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 3.11,
-        "next_eps": 3.84,
+        "base_eps": 3.08,
+        "next_eps": 3.82,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +23.5% (3.11 -> 3.84 EUR)"
+        "summary": "FY27/FY26 growth: +24.0% (3.08 -> 3.82 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/2",
+        "reaction": "DOWN",
+        "reaction_breadth": "2/2",
         "up_periods": 0,
-        "down_periods": 0,
-        "flat_periods": 2,
+        "down_periods": 2,
+        "flat_periods": 0,
         "last_report_date": "2026-11-05",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -5968,38 +5953,36 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 3.13,
-            "post": 3.11,
-            "delta": -0.02,
-            "pct": -0.64,
-            "direction": "FLAT"
+            "post": 3.08,
+            "delta": -0.05,
+            "pct": -1.6,
+            "direction": "DOWN"
           },
           "2027": {
             "pre": 3.86,
-            "post": 3.84,
-            "delta": -0.02,
-            "pct": -0.52,
-            "direction": "FLAT"
+            "post": 3.82,
+            "delta": -0.04,
+            "pct": -1.04,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-05): NONE (0 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-05): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "FLAT",
       "drift": {
-        "2026": 0.65,
-        "2027": 1.32
+        "2026": -0.32,
+        "2027": 0.79
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -6007,22 +5990,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "credit_banks",
       "sector": "Banks",
       "subsector": "Credit Banks",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.55,
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-03-23",
         "tech_date": "2026-11-06",
-        "summary": "last revision was 606d ago (> 90d)"
+        "summary": "last revision was 607d ago (> 90d)"
       }
     },
     "DTG": {
       "code": "DTG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6034,7 +6017,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-06",
       "analyst": {
         "code": "DTG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -6115,8 +6098,8 @@ window.FUND_SENT_DATA = {
         "2027": -0.85
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "2 up / 2 down revision events, 90d, FY26,27",
@@ -6127,7 +6110,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.65,
+      "tech_confidence": 0.0,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -6139,7 +6122,7 @@ window.FUND_SENT_DATA = {
     },
     "EOAN": {
       "code": "EOAN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6151,7 +6134,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "EOAN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -6206,8 +6189,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.81
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -6215,34 +6198,34 @@ window.FUND_SENT_DATA = {
       "subsector_key": "multi_utilities",
       "sector": "Utilities",
       "subsector": "Multi-Utilities",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.71,
+      "tech_confidence": 0.6,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2025-03-09",
         "tech_date": "2026-10-16",
-        "summary": "last revision was 620d ago (> 90d)"
+        "summary": "last revision was 621d ago (> 90d)"
       }
     },
     "ENR": {
       "code": "ENR",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-07",
       "last_report": "2026-11-11",
       "analyst": {
         "code": "ENR",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 4,
@@ -6257,24 +6240,24 @@ window.FUND_SENT_DATA = {
           "bank_short": "JPMorgan",
           "sentiment": "BUY",
           "headline": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Siemens Energy auf 250 Euro - 'Overweight'",
-          "ret_w1": null,
+          "ret_w1": -4.3918,
           "ret_w2": null,
-          "w1_disp": "n/a",
+          "w1_disp": "-4.4%",
           "w2_disp": "pending"
         },
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 41.16,
-        "growth_step": 1.84,
+        "growth_pct": 42.28,
+        "growth_step": 1.89,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 4.47,
-        "next_eps": 6.31,
+        "next_eps": 6.36,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +41.2% (4.47 -> 6.31 EUR)"
+        "summary": "FY27/FY26 growth: +42.3% (4.47 -> 6.36 EUR)"
       },
       "consensus": {
         "reaction": "NONE",
@@ -6299,9 +6282,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 6.31,
-            "post": 6.31,
-            "delta": 0.0,
-            "pct": 0.0,
+            "post": 6.36,
+            "delta": 0.05,
+            "pct": 0.79,
             "direction": "FLAT"
           }
         },
@@ -6320,11 +6303,11 @@ window.FUND_SENT_DATA = {
       "lean": "UP",
       "drift": {
         "2026": 2.29,
-        "2027": 3.61
+        "2027": 4.43
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -6335,7 +6318,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-16",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.43,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -6347,7 +6330,7 @@ window.FUND_SENT_DATA = {
     },
     "FRE": {
       "code": "FRE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6359,7 +6342,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "FRE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -6439,8 +6422,8 @@ window.FUND_SENT_DATA = {
         "2027": -0.26
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -6451,7 +6434,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-23",
-      "tech_confidence": 0.71,
+      "tech_confidence": 0.68,
       "price_reading": "Confirmed strength",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -6463,7 +6446,7 @@ window.FUND_SENT_DATA = {
     },
     "SHL": {
       "code": "SHL",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6475,7 +6458,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "SHL",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -6537,9 +6520,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "SUPPORTIVE",
       "stance_reading": "Recommendation support without meaningful EPS revisions",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "MIXED",
@@ -6548,8 +6529,8 @@ window.FUND_SENT_DATA = {
         "2027": -6.07
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-09-07",
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -6560,7 +6541,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-09",
-      "tech_confidence": 0.84,
+      "tech_confidence": 0.81,
       "price_reading": "Confirmed strength [Caution: Negative forward growth -1.7%]",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -6572,19 +6553,19 @@ window.FUND_SENT_DATA = {
     },
     "SY1": {
       "code": "SY1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-07",
       "last_report": "2026-07-30",
       "analyst": {
         "code": "SY1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -6607,16 +6588,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 11.6,
-        "growth_step": 0.45,
+        "growth_pct": 12.11,
+        "growth_step": 0.47,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 3.88,
-        "next_eps": 4.33,
+        "next_eps": 4.35,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +11.6% (3.88 -> 4.33 EUR)"
+        "summary": "FY27/FY26 growth: +12.1% (3.88 -> 4.35 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -6641,9 +6622,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 4.21,
-            "post": 4.33,
-            "delta": 0.12,
-            "pct": 2.85,
+            "post": 4.35,
+            "delta": 0.14,
+            "pct": 3.33,
             "direction": "UP"
           }
         },
@@ -6662,11 +6643,11 @@ window.FUND_SENT_DATA = {
       "lean": "UP",
       "drift": {
         "2026": 2.11,
-        "2027": 2.85
+        "2027": 3.33
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-07",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -6674,22 +6655,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
       "subsector": "Chemicals, Specialty",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.56,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.53,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -59,
+        "delta_days": -73,
         "eps_date": "2026-09-07",
-        "tech_date": "2026-11-05",
-        "summary": "Fundamentals lead price by 59 days"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 73 days"
       }
     },
     "ZAL": {
       "code": "ZAL",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -6701,7 +6682,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "ZAL",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -6781,8 +6762,8 @@ window.FUND_SENT_DATA = {
         "2027": -2.63
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-11-11",
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -6805,19 +6786,19 @@ window.FUND_SENT_DATA = {
     },
     "AIR": {
       "code": "AIR",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-10",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-03-17",
       "last_report": "2026-10-28",
       "analyst": {
         "code": "AIR",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -6830,16 +6811,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 17.6,
-        "growth_step": 1.29,
+        "growth_pct": 17.74,
+        "growth_step": 1.3,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 7.33,
-        "next_eps": 8.62,
+        "next_eps": 8.63,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.6% (7.33 -> 8.62 EUR)"
+        "summary": "FY27/FY26 growth: +17.7% (7.33 -> 8.63 EUR)"
       },
       "consensus": {
         "reaction": "NONE",
@@ -6864,9 +6845,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 8.66,
-            "post": 8.62,
-            "delta": -0.04,
-            "pct": -0.46,
+            "post": 8.63,
+            "delta": -0.03,
+            "pct": -0.35,
             "direction": "FLAT"
           }
         },
@@ -6882,11 +6863,11 @@ window.FUND_SENT_DATA = {
       "lean": "FLAT",
       "drift": {
         "2026": 0.27,
-        "2027": 0.23
+        "2027": 0.35
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -6897,31 +6878,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.0,
+      "tech_confidence": 0.57,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-17",
         "tech_date": "2026-10-21",
-        "summary": "last revision was 247d ago (> 90d)"
+        "summary": "last revision was 248d ago (> 90d)"
       }
     },
     "QIA": {
       "code": "QIA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-05-03",
       "last_report": "2026-11-04",
       "analyst": {
         "code": "QIA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -6934,16 +6915,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 7.73,
-        "growth_step": 0.17,
+        "growth_pct": 6.76,
+        "growth_step": 0.15,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.2,
+        "base_eps": 2.22,
         "next_eps": 2.37,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +7.7% (2.20 -> 2.37 EUR)"
+        "summary": "FY27/FY26 growth: +6.8% (2.22 -> 2.37 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -6961,9 +6942,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.17,
-            "post": 2.2,
-            "delta": 0.03,
-            "pct": 1.38,
+            "post": 2.22,
+            "delta": 0.05,
+            "pct": 2.3,
             "direction": "UP"
           },
           "2027": {
@@ -6985,12 +6966,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 3.77,
+        "2026": 4.72,
         "2027": 3.95
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -7001,31 +6982,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-09-24",
-      "tech_confidence": 0.83,
+      "tech_confidence": 0.85,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-03",
         "tech_date": "2026-09-24",
-        "summary": "last revision was 200d ago (> 90d)"
+        "summary": "last revision was 201d ago (> 90d)"
       }
     },
     "UTDI": {
       "code": "UTDI",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-06",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "UTDI",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -7048,21 +7029,21 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 23.93,
-        "growth_step": 0.39,
+        "growth_pct": 26.38,
+        "growth_step": 0.43,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 1.63,
-        "next_eps": 2.02,
+        "next_eps": 2.06,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +23.9% (1.63 -> 2.02 EUR)"
+        "summary": "FY27/FY26 growth: +26.4% (1.63 -> 2.06 EUR)"
       },
       "consensus": {
         "reaction": "UP",
-        "reaction_breadth": "1/1",
-        "up_periods": 1,
+        "reaction_breadth": "2/2",
+        "up_periods": 2,
         "down_periods": 0,
         "flat_periods": 0,
         "last_report_date": "2026-11-12",
@@ -7079,9 +7060,16 @@ window.FUND_SENT_DATA = {
             "delta": 0.04,
             "pct": 2.52,
             "direction": "UP"
+          },
+          "2027": {
+            "pre": 2.02,
+            "post": 2.06,
+            "delta": 0.04,
+            "pct": 1.98,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): UP (1 UP / 0 DOWN across 1 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): UP (2 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -7096,11 +7084,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -5.23,
-        "2027": -0.98
+        "2027": 0.98
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "1 up / 4 down revision events, 90d, FY26,27",
@@ -7108,11 +7096,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "telecommunication_services",
       "sector": "Telecommunication",
       "subsector": "Telecommunication Services",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.56,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.47,
+      "price_reading": "Price weak despite support: possible base, watch",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 9,
@@ -7123,51 +7111,51 @@ window.FUND_SENT_DATA = {
     },
     "BC8": {
       "code": "BC8",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-19",
       "last_report": "2026-11-13",
       "analyst": {
         "code": "BC8",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 2,
-        "buy_count": 1,
+        "event_count": 3,
+        "buy_count": 2,
         "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 2,
+        "distinct_banks": 3,
         "flags": [],
         "latest_event": {
-          "date": "2026-09-21",
-          "bank": "Deutsche Bank",
-          "bank_short": "Deutsche Bk",
+          "date": "2026-11-19",
+          "bank": "UBS",
+          "bank_short": "UBS",
           "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: Deutsche Bank Research hebt Ziel fuer Bechtle auf 49 Euro - 'Buy'",
-          "ret_w1": -2.9143,
-          "ret_w2": -2.6857,
-          "w1_disp": "-2.9%",
-          "w2_disp": "-2.7%"
+          "headline": "ANALYSE-FLASH: UBS belaesst Bechtle auf 'Buy' - Ziel 42 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
         },
-        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 1 HOLD / 0 SELL across 3 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 8.87,
+        "growth_pct": 8.78,
         "growth_step": 0.18,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.03,
-        "next_eps": 2.21,
+        "base_eps": 2.05,
+        "next_eps": 2.23,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +8.9% (2.03 -> 2.21 EUR)"
+        "summary": "FY27/FY26 growth: +8.8% (2.05 -> 2.23 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -7185,16 +7173,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.0,
-            "post": 2.03,
-            "delta": 0.03,
-            "pct": 1.5,
+            "post": 2.05,
+            "delta": 0.05,
+            "pct": 2.5,
             "direction": "UP"
           },
           "2027": {
             "pre": 2.18,
-            "post": 2.21,
-            "delta": 0.03,
-            "pct": 1.38,
+            "post": 2.23,
+            "delta": 0.05,
+            "pct": 2.29,
             "direction": "UP"
           }
         },
@@ -7212,12 +7200,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 4.64,
-        "2027": 4.25
+        "2026": 5.67,
+        "2027": 5.19
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-19",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -7228,7 +7216,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.42,
+      "tech_confidence": 0.41,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -7240,19 +7228,19 @@ window.FUND_SENT_DATA = {
     },
     "EVD": {
       "code": "EVD",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-19",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "EVD",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 4,
@@ -7277,16 +7265,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (3 BUY / 1 HOLD / 0 SELL across 4 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 8.68,
-        "growth_step": 0.29,
+        "growth_pct": 8.98,
+        "growth_step": 0.3,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 3.34,
-        "next_eps": 3.63,
+        "next_eps": 3.64,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +8.7% (3.34 -> 3.63 EUR)"
+        "summary": "FY27/FY26 growth: +9.0% (3.34 -> 3.64 EUR)"
       },
       "consensus": {
         "reaction": "NONE",
@@ -7311,9 +7299,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 3.64,
-            "post": 3.63,
-            "delta": -0.01,
-            "pct": -0.27,
+            "post": 3.64,
+            "delta": 0.0,
+            "pct": 0.0,
             "direction": "FLAT"
           }
         },
@@ -7333,11 +7321,11 @@ window.FUND_SENT_DATA = {
       "lean": "FLAT",
       "drift": {
         "2026": 1.52,
-        "2027": -0.27
+        "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-19",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -7360,19 +7348,19 @@ window.FUND_SENT_DATA = {
     },
     "LXS": {
       "code": "LXS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
-      "last_sig_rev": "2026-11-11",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "LXS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEGATIVE",
         "event_count": 2,
@@ -7396,23 +7384,21 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 0.6,
+        "growth_step": 0.64,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": -0.56,
-        "next_eps": 0.04,
+        "next_eps": 0.08,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.56 -> 0.04 EUR) [near-zero guard]",
-        "pre_growth_pct": 112.82,
-        "effective_growth_pct": 100.0
+        "summary": "FY27/FY26 growth: +100.0% (-0.56 -> 0.08 EUR) [near-zero guard]"
       },
       "consensus": {
-        "reaction": "DOWN",
+        "reaction": "MIXED",
         "reaction_breadth": "2/2",
-        "up_periods": 0,
-        "down_periods": 2,
+        "up_periods": 1,
+        "down_periods": 1,
         "flat_periods": 0,
         "last_report_date": "2026-11-05",
         "last_report_period": "26Q3",
@@ -7431,36 +7417,34 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 0.05,
-            "post": 0.04,
-            "delta": -0.01,
-            "pct": -20.0,
-            "direction": "DOWN"
+            "post": 0.08,
+            "delta": 0.03,
+            "pct": 60.0,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-05): DOWN (0 UP / 2 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-05): MIXED (1 UP / 1 DOWN across 2 periods)"
       },
-      "direction": "DETERIORATING",
-      "base_direction": "DETERIORATING",
+      "direction": "STABLE",
+      "base_direction": "STABLE",
       "stance": "PRESSURE",
-      "stance_reading": "Both point to fundamental pressure",
+      "stance_reading": "Caution without estimate change",
       "flags": [
-        "CONFLICT",
-        "SEVERE_CUT",
-        "POST_REPORT_EARLY"
+        "CONFLICT"
       ],
-      "ups": 1,
+      "ups": 2,
       "downs": 4,
       "lean": "DOWN",
       "drift": {
         "2026": -229.41,
-        "2027": -91.3
+        "2027": -82.61
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-11",
-      "basis": "1 up / 4 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "2 up / 4 down revision events, 90d, FY26,27",
       "sector_key": "chemicals",
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
@@ -7468,31 +7452,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.76,
+      "tech_confidence": 0.0,
       "price_reading": "Pause may resolve down",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -1,
-        "eps_date": "2026-11-11",
+        "timing": "PRICE_LEADS",
+        "delta_days": 8,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-12",
-        "summary": "Contemporaneous (-1d)"
+        "summary": "Price leads fundamentals by 8 days"
       }
     },
     "ELG": {
       "code": "ELG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-19",
       "last_report": "2026-11-10",
       "analyst": {
         "code": "ELG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -7505,16 +7489,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 22.35,
-        "growth_step": 1.56,
+        "growth_pct": 22.78,
+        "growth_step": 1.59,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 6.98,
-        "next_eps": 8.54,
+        "next_eps": 8.57,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +22.3% (6.98 -> 8.54 EUR)"
+        "summary": "FY27/FY26 growth: +22.8% (6.98 -> 8.57 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -7539,9 +7523,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 8.68,
-            "post": 8.54,
-            "delta": -0.14,
-            "pct": -1.61,
+            "post": 8.57,
+            "delta": -0.11,
+            "pct": -1.27,
             "direction": "DOWN"
           }
         },
@@ -7560,11 +7544,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -2.24,
-        "2027": 1.3
+        "2027": 1.66
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-19",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -7575,7 +7559,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "DOWNTREND",
       "tech_family": "DOWN",
       "tech_state_date": "2026-10-15",
-      "tech_confidence": 0.42,
+      "tech_confidence": 0.46,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -7587,19 +7571,19 @@ window.FUND_SENT_DATA = {
     },
     "FRA": {
       "code": "FRA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
-      "last_sig_rev": "2026-09-19",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-04",
       "analyst": {
         "code": "FRA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 5,
@@ -7622,16 +7606,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (2 BUY / 0 HOLD / 1 SELL across 3 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 2.77,
-        "growth_step": 0.09,
+        "growth_pct": 0.6,
+        "growth_step": 0.02,
         "is_growing": true,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 3.25,
-        "next_eps": 3.34,
+        "base_eps": 3.33,
+        "next_eps": 3.35,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +2.8% (3.25 -> 3.34 EUR)"
+        "summary": "FY27/FY26 growth: +0.6% (3.33 -> 3.35 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -7649,16 +7633,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 3.17,
-            "post": 3.25,
-            "delta": 0.08,
-            "pct": 2.52,
+            "post": 3.33,
+            "delta": 0.16,
+            "pct": 5.05,
             "direction": "UP"
           },
           "2027": {
             "pre": 3.34,
-            "post": 3.34,
-            "delta": 0.0,
-            "pct": 0.0,
+            "post": 3.35,
+            "delta": 0.01,
+            "pct": 0.3,
             "direction": "FLAT"
           }
         },
@@ -7669,41 +7653,41 @@ window.FUND_SENT_DATA = {
       "stance": "SUPPORTIVE",
       "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "WATCH_DOWN"
+        "CONFLICT"
       ],
-      "ups": 0,
+      "ups": 1,
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -4.69,
-        "2027": -7.99
+        "2026": -2.35,
+        "2027": -7.71
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-09-19",
-      "basis": "0 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "1 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "transportation_logistics",
       "subsector_key": "transportation_services",
       "sector": "Transportation & Logistics",
       "subsector": "Transportation Services",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.72,
-      "price_reading": "Confirmed strength",
+      "tech_confidence": 0.49,
+      "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -38,
-        "eps_date": "2026-09-19",
+        "timing": "PRICE_LEADS",
+        "delta_days": 24,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-27",
-        "summary": "Fundamentals lead price by 38 days"
+        "summary": "Price leads fundamentals by 24 days"
       }
     },
     "GBF": {
       "code": "GBF",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7715,7 +7699,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "GBF",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -7796,8 +7780,8 @@ window.FUND_SENT_DATA = {
         "2027": -20.96
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-12",
       "basis": "1 up / 2 down revision events, 90d, FY26,27",
@@ -7805,11 +7789,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.0,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.41,
+      "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 14,
@@ -7820,7 +7804,7 @@ window.FUND_SENT_DATA = {
     },
     "SZG": {
       "code": "SZG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -7832,7 +7816,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SZG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -7913,8 +7897,8 @@ window.FUND_SENT_DATA = {
         "2027": 18.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-13",
       "basis": "3 up / 1 down revision events, 90d, FY26,27",
@@ -7925,7 +7909,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.51,
+      "tech_confidence": 0.45,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -7937,51 +7921,51 @@ window.FUND_SENT_DATA = {
     },
     "DEZ": {
       "code": "DEZ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-11",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-10-11",
       "analyst": {
         "code": "DEZ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 1,
-        "buy_count": 1,
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 1,
+        "distinct_banks": 2,
         "flags": [],
         "latest_event": {
-          "date": "2026-09-01",
-          "bank": "M.M. Warburg",
-          "bank_short": "Warburg",
+          "date": "2026-11-20",
+          "bank": "DZ Bank",
+          "bank_short": "DZ Bank",
           "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: Warburg Research hebt Ziel fuer Deutz auf 19 Euro - 'Buy'",
-          "ret_w1": 4.6142,
-          "ret_w2": -4.5346,
-          "w1_disp": "+4.6%",
-          "w2_disp": "-4.5%"
+          "headline": "ANALYSE-FLASH: DZ Bank belaesst Deutz auf 'Kaufen' - Fairer Wert 15 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
         },
-        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 61.64,
-        "growth_step": 0.45,
+        "growth_pct": 68.57,
+        "growth_step": 0.48,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.73,
+        "base_eps": 0.7,
         "next_eps": 1.18,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +61.6% (0.73 -> 1.18 EUR)",
+        "summary": "FY27/FY26 growth: +68.6% (0.70 -> 1.18 EUR)",
         "pre_growth_pct": 56.47,
         "effective_growth_pct": 56.47
       },
@@ -8001,9 +7985,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.85,
-            "post": 0.73,
-            "delta": -0.12,
-            "pct": -14.12,
+            "post": 0.7,
+            "delta": -0.15,
+            "pct": -17.65,
             "direction": "DOWN"
           },
           "2027": {
@@ -8024,18 +8008,18 @@ window.FUND_SENT_DATA = {
         "CONFLICT"
       ],
       "ups": 1,
-      "downs": 2,
+      "downs": 3,
       "lean": "MIXED",
       "drift": {
-        "2026": -20.65,
+        "2026": -23.91,
         "2027": 8.26
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-11",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
@@ -8043,19 +8027,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-22",
-      "tech_confidence": 0.41,
+      "tech_confidence": 0.38,
       "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 50,
-        "eps_date": "2026-11-11",
+        "delta_days": 59,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-09-22",
-        "summary": "Price leads fundamentals by 50 days"
+        "summary": "Price leads fundamentals by 59 days"
       }
     },
     "KRN": {
       "code": "KRN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8067,7 +8051,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-06",
       "analyst": {
         "code": "KRN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -8148,8 +8132,8 @@ window.FUND_SENT_DATA = {
         "2027": -9.96
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-23",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -8172,19 +8156,19 @@ window.FUND_SENT_DATA = {
     },
     "NEM": {
       "code": "NEM",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-11",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "NEM",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -8207,18 +8191,18 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 20.39,
-        "growth_step": 0.42,
+        "growth_pct": 20.0,
+        "growth_step": 0.41,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.06,
-        "next_eps": 2.48,
+        "base_eps": 2.05,
+        "next_eps": 2.46,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +20.4% (2.06 -> 2.48 EUR)",
+        "summary": "FY27/FY26 growth: +20.0% (2.05 -> 2.46 EUR)",
         "pre_growth_pct": 21.76,
-        "effective_growth_pct": 20.39
+        "effective_growth_pct": 20.0
       },
       "consensus": {
         "reaction": "DOWN",
@@ -8236,16 +8220,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.16,
-            "post": 2.06,
-            "delta": -0.1,
-            "pct": -4.63,
+            "post": 2.05,
+            "delta": -0.11,
+            "pct": -5.09,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 2.63,
-            "post": 2.48,
-            "delta": -0.15,
-            "pct": -5.7,
+            "post": 2.46,
+            "delta": -0.17,
+            "pct": -6.46,
             "direction": "DOWN"
           }
         },
@@ -8262,12 +8246,12 @@ window.FUND_SENT_DATA = {
       "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -10.82,
-        "2027": -11.43
+        "2026": -11.26,
+        "2027": -12.14
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -8275,11 +8259,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "software",
       "sector": "Software",
       "subsector": "Software",
-      "tech_state": "DOWNTREND",
-      "tech_family": "DOWN",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.49,
-      "price_reading": "Price leads, fundamentals unclear",
+      "tech_confidence": 0.0,
+      "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 5,
@@ -8290,7 +8274,7 @@ window.FUND_SENT_DATA = {
     },
     "NDA": {
       "code": "NDA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8302,7 +8286,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-06",
       "analyst": {
         "code": "NDA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -8383,8 +8367,8 @@ window.FUND_SENT_DATA = {
         "2027": -3.46
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-30",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -8394,32 +8378,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Steel & Other Metals",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.53,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.5,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -14,
+        "delta_days": -20,
         "eps_date": "2026-10-30",
-        "tech_date": "2026-11-13",
-        "summary": "Fundamentals lead price by 14 days"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 20 days"
       }
     },
     "PUM": {
       "code": "PUM",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-06",
       "last_report": "2026-10-30",
       "analyst": {
         "code": "PUM",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 2,
@@ -8443,24 +8427,24 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 1.73,
+        "growth_step": 1.74,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -1.56,
-        "next_eps": 0.17,
+        "base_eps": -1.58,
+        "next_eps": 0.16,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-1.56 -> 0.17 EUR) [near-zero guard]",
+        "summary": "FY27/FY26 growth: +100.0% (-1.58 -> 0.16 EUR) [near-zero guard]",
         "pre_growth_pct": 116.77,
         "effective_growth_pct": 100.0
       },
       "consensus": {
         "reaction": "DOWN",
-        "reaction_breadth": "1/2",
+        "reaction_breadth": "2/2",
         "up_periods": 0,
-        "down_periods": 1,
-        "flat_periods": 1,
+        "down_periods": 2,
+        "flat_periods": 0,
         "last_report_date": "2026-10-30",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -8471,20 +8455,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": -1.55,
-            "post": -1.56,
-            "delta": -0.01,
-            "pct": -0.65,
-            "direction": "FLAT"
+            "post": -1.58,
+            "delta": -0.03,
+            "pct": -1.94,
+            "direction": "DOWN"
           },
           "2027": {
             "pre": 0.26,
-            "post": 0.17,
-            "delta": -0.09,
-            "pct": -34.62,
+            "post": 0.16,
+            "delta": -0.1,
+            "pct": -38.46,
             "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-10-30): DOWN (0 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-10-30): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
@@ -8497,12 +8481,12 @@ window.FUND_SENT_DATA = {
       "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -1.96,
-        "2027": -50.0
+        "2026": -3.27,
+        "2027": -52.94
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -8513,7 +8497,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-02",
-      "tech_confidence": 0.56,
+      "tech_confidence": 0.38,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -8525,7 +8509,7 @@ window.FUND_SENT_DATA = {
     },
     "RAA": {
       "code": "RAA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8537,7 +8521,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "RAA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -8596,9 +8580,7 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "FLAT",
@@ -8607,8 +8589,8 @@ window.FUND_SENT_DATA = {
         "2027": -0.16
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -8618,20 +8600,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Industrial Products & Services",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-09",
-      "tech_confidence": 0.62,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.58,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-05-31",
-        "tech_date": "2026-10-09",
-        "summary": "last revision was 902d ago (> 90d)"
+        "tech_date": "2026-11-19",
+        "summary": "last revision was 903d ago (> 90d)"
       }
     },
     "SRT3": {
       "code": "SRT3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8643,7 +8625,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-22",
       "analyst": {
         "code": "SRT3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 6,
@@ -8660,9 +8642,9 @@ window.FUND_SENT_DATA = {
           "bank_short": "Berenberg",
           "sentiment": "BUY",
           "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Sartorius auf 340 Euro - 'Buy'",
-          "ret_w1": null,
+          "ret_w1": 4.1449,
           "ret_w2": null,
-          "w1_disp": "n/a",
+          "w1_disp": "+4.1%",
           "w2_disp": "pending"
         },
         "summary": "POSITIVE (3 BUY / 1 HOLD / 1 SELL across 5 banks, 90d)"
@@ -8725,8 +8707,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.47
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -8736,32 +8718,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Biotechnology",
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.82,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.77,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-05-03",
-        "tech_date": "2026-10-21",
-        "summary": "last revision was 200d ago (> 90d)"
+        "tech_date": "2026-11-19",
+        "summary": "last revision was 201d ago (> 90d)"
       }
     },
     "SAX": {
       "code": "SAX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-13",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SAX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -8774,16 +8756,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 16.14,
-        "growth_step": 0.46,
+        "growth_pct": 15.79,
+        "growth_step": 0.45,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 2.85,
-        "next_eps": 3.31,
+        "next_eps": 3.3,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +16.1% (2.85 -> 3.31 EUR)"
+        "summary": "FY27/FY26 growth: +15.8% (2.85 -> 3.30 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -8808,9 +8790,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 3.43,
-            "post": 3.31,
-            "delta": -0.12,
-            "pct": -3.5,
+            "post": 3.3,
+            "delta": -0.13,
+            "pct": -3.79,
             "direction": "DOWN"
           }
         },
@@ -8829,11 +8811,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -7.77,
-        "2027": -10.78
+        "2027": -11.05
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-13",
       "basis": "1 up / 3 down revision events, 90d, FY26,27",
@@ -8844,7 +8826,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.45,
+      "tech_confidence": 0.44,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -8856,19 +8838,19 @@ window.FUND_SENT_DATA = {
     },
     "TKA": {
       "code": "TKA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-30",
-      "last_sig_rev": "2026-10-30",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-08-13",
       "analyst": {
         "code": "TKA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -8892,22 +8874,22 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 1.73,
+        "growth_step": 1.65,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -0.59,
-        "next_eps": 1.14,
+        "base_eps": -0.55,
+        "next_eps": 1.1,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.59 -> 1.14 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-0.55 -> 1.10 EUR) [near-zero guard]"
       },
       "consensus": {
-        "reaction": "MIXED",
-        "reaction_breadth": "2/2",
-        "up_periods": 1,
+        "reaction": "DOWN",
+        "reaction_breadth": "1/2",
+        "up_periods": 0,
         "down_periods": 1,
-        "flat_periods": 0,
+        "flat_periods": 1,
         "last_report_date": "2026-08-13",
         "last_report_period": "26Q3",
         "is_stale": true,
@@ -8918,20 +8900,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.3,
-            "post": -0.59,
-            "delta": -0.89,
-            "pct": -296.67,
+            "post": -0.55,
+            "delta": -0.85,
+            "pct": -283.33,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 1.09,
-            "post": 1.14,
-            "delta": 0.05,
-            "pct": 4.59,
-            "direction": "UP"
+            "post": 1.1,
+            "delta": 0.01,
+            "pct": 0.92,
+            "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-08-13): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 26Q3 (2026-08-13): DOWN (0 UP / 1 DOWN across 2 periods) [STALE]"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -8943,16 +8925,16 @@ window.FUND_SENT_DATA = {
       ],
       "ups": 1,
       "downs": 0,
-      "lean": "MIXED",
+      "lean": "DOWN",
       "drift": {
-        "2026": -296.67,
-        "2027": 4.59
+        "2026": -283.33,
+        "2027": 0.92
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "FLAT 2026-10-30",
+      "last_event": "FLAT 2026-11-20",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_diversified",
@@ -8961,19 +8943,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-30",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.41,
       "price_reading": "Healthy pause",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 0,
-        "eps_date": "2026-10-30",
+        "timing": "PRICE_LEADS",
+        "delta_days": 21,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-30",
-        "summary": "Contemporaneous (+0d)"
+        "summary": "Price leads fundamentals by 21 days"
       }
     },
     "LHA": {
       "code": "LHA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -8985,7 +8967,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "LHA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9053,8 +9035,8 @@ window.FUND_SENT_DATA = {
         "2027": -13.77
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-16",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -9077,19 +9059,19 @@ window.FUND_SENT_DATA = {
     },
     "TEG": {
       "code": "TEG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-23",
       "last_report": "2026-11-10",
       "analyst": {
         "code": "TEG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9102,23 +9084,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 6.09,
-        "growth_step": 0.07,
+        "growth_pct": 5.13,
+        "growth_step": 0.06,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.15,
-        "next_eps": 1.22,
+        "base_eps": 1.17,
+        "next_eps": 1.23,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.1% (1.15 -> 1.22 EUR)"
+        "summary": "FY27/FY26 growth: +5.1% (1.17 -> 1.23 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/2",
-        "up_periods": 0,
+        "reaction": "UP",
+        "reaction_breadth": "1/2",
+        "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 2,
+        "flat_periods": 1,
         "last_report_date": "2026-11-10",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -9129,20 +9111,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.16,
-            "post": 1.15,
-            "delta": -0.01,
-            "pct": -0.86,
+            "post": 1.17,
+            "delta": 0.01,
+            "pct": 0.86,
             "direction": "FLAT"
           },
           "2027": {
             "pre": 1.21,
-            "post": 1.22,
-            "delta": 0.01,
-            "pct": 0.83,
-            "direction": "FLAT"
+            "post": 1.23,
+            "delta": 0.02,
+            "pct": 1.65,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-10): NONE (0 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-10): UP (1 UP / 0 DOWN across 2 periods)"
       },
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
@@ -9155,12 +9137,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 12.75,
-        "2027": 14.02
+        "2026": 14.71,
+        "2027": 14.95
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-23",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -9183,7 +9165,7 @@ window.FUND_SENT_DATA = {
     },
     "NDX1": {
       "code": "NDX1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9195,7 +9177,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-30",
       "analyst": {
         "code": "NDX1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -9275,8 +9257,8 @@ window.FUND_SENT_DATA = {
         "2027": 14.96
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-09",
       "basis": "4 up / 0 down revision events, 90d, FY26,27",
@@ -9287,7 +9269,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-27",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.44,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -9299,19 +9281,19 @@ window.FUND_SENT_DATA = {
     },
     "AIXA": {
       "code": "AIXA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-30",
       "last_report": "2026-10-29",
       "analyst": {
         "code": "AIXA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -9334,16 +9316,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 113.89,
-        "growth_step": 0.82,
+        "growth_pct": 118.31,
+        "growth_step": 0.84,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.72,
-        "next_eps": 1.54,
+        "base_eps": 0.71,
+        "next_eps": 1.55,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +113.9% (0.72 -> 1.54 EUR)"
+        "summary": "FY27/FY26 growth: +118.3% (0.71 -> 1.55 EUR)"
       },
       "consensus": {
         "reaction": "MIXED",
@@ -9361,16 +9343,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.74,
-            "post": 0.72,
-            "delta": -0.02,
-            "pct": -2.7,
+            "post": 0.71,
+            "delta": -0.03,
+            "pct": -4.05,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 1.37,
-            "post": 1.54,
-            "delta": 0.17,
-            "pct": 12.41,
+            "post": 1.55,
+            "delta": 0.18,
+            "pct": 13.14,
             "direction": "UP"
           }
         },
@@ -9387,12 +9369,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": -1.37,
-        "2027": 19.38
+        "2026": -2.74,
+        "2027": 20.16
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-30",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -9402,32 +9384,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Semiconductors",
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
-      "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.47,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.45,
       "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -11,
+        "delta_days": -20,
         "eps_date": "2026-10-30",
-        "tech_date": "2026-11-10",
-        "summary": "Fundamentals lead price by 11 days"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 20 days"
       }
     },
     "FNTN": {
       "code": "FNTN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-07-25",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-11",
       "analyst": {
         "code": "FNTN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -9450,21 +9432,21 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 12.2,
-        "growth_step": 0.25,
+        "growth_pct": 15.76,
+        "growth_step": 0.32,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.05,
-        "next_eps": 2.3,
+        "base_eps": 2.03,
+        "next_eps": 2.35,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +12.2% (2.05 -> 2.30 EUR)"
+        "summary": "FY27/FY26 growth: +15.8% (2.03 -> 2.35 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/1",
-        "up_periods": 0,
+        "reaction": "UP",
+        "reaction_breadth": "1/2",
+        "up_periods": 1,
         "down_periods": 0,
         "flat_periods": 1,
         "last_report_date": "2026-11-11",
@@ -9475,36 +9457,44 @@ window.FUND_SENT_DATA = {
           "2027"
         ],
         "details": {
+          "2026": {
+            "pre": 2.05,
+            "post": 2.03,
+            "delta": -0.02,
+            "pct": -0.98,
+            "direction": "FLAT"
+          },
           "2027": {
             "pre": 2.32,
-            "post": 2.3,
-            "delta": -0.02,
-            "pct": -0.86,
-            "direction": "FLAT"
+            "post": 2.35,
+            "delta": 0.03,
+            "pct": 1.29,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-11): NONE (0 UP / 0 DOWN across 1 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-11): UP (1 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
+        "WATCH_UP",
         "POST_REPORT_EARLY"
       ],
-      "ups": 0,
+      "ups": 1,
       "downs": 0,
-      "lean": "FLAT",
+      "lean": "MIXED",
       "drift": {
-        "2026": -1.44,
-        "2027": -0.43
+        "2026": -2.4,
+        "2027": 1.73
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": null,
-      "basis": "0 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "1 up / 0 down revision events, 90d, FY26,27",
       "sector_key": "telecommunication",
       "subsector_key": "wireless_communication",
       "sector": "Telecommunication",
@@ -9515,16 +9505,16 @@ window.FUND_SENT_DATA = {
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "STALE_REVISION",
-        "delta_days": null,
-        "eps_date": "2026-07-25",
+        "timing": "PRICE_LEADS",
+        "delta_days": 23,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-28",
-        "summary": "last revision was 117d ago (> 90d)"
+        "summary": "Price leads fundamentals by 23 days"
       }
     },
     "HLE": {
       "code": "HLE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -9536,7 +9526,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "HLE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9607,8 +9597,8 @@ window.FUND_SENT_DATA = {
         "2027": 18.18
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-13",
       "basis": "2 up / 2 down revision events, 90d, FY26,27",
@@ -9619,7 +9609,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-03",
-      "tech_confidence": 0.33,
+      "tech_confidence": 0.38,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -9631,19 +9621,19 @@ window.FUND_SENT_DATA = {
     },
     "SMHN": {
       "code": "SMHN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "SMHN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -9666,23 +9656,23 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 171.74,
-        "growth_step": 2.37,
+        "growth_pct": 200.0,
+        "growth_step": 2.56,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.38,
-        "next_eps": 3.75,
+        "base_eps": 1.28,
+        "next_eps": 3.84,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +171.7% (1.38 -> 3.75 EUR)"
+        "summary": "FY27/FY26 growth: +200.0% (1.28 -> 3.84 EUR)"
       },
       "consensus": {
         "reaction": "UP",
-        "reaction_breadth": "1/2",
-        "up_periods": 1,
+        "reaction_breadth": "2/2",
+        "up_periods": 2,
         "down_periods": 0,
-        "flat_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-11-05",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -9693,41 +9683,40 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.23,
-            "post": 1.38,
-            "delta": 0.15,
-            "pct": 12.2,
+            "post": 1.28,
+            "delta": 0.05,
+            "pct": 4.07,
             "direction": "UP"
           },
           "2027": {
             "pre": 3.76,
-            "post": 3.75,
-            "delta": -0.01,
-            "pct": -0.27,
-            "direction": "FLAT"
+            "post": 3.84,
+            "delta": 0.08,
+            "pct": 2.13,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-05): UP (1 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-05): UP (2 UP / 0 DOWN across 2 periods)"
       },
-      "direction": "IMPROVING",
-      "base_direction": "IMPROVING",
+      "direction": "STABLE",
+      "base_direction": "STABLE",
       "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates and recommendations align",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "CONFLICT",
-        "POST_REPORT_EARLY"
+        "CONFLICT"
       ],
       "ups": 2,
       "downs": 3,
       "lean": "MIXED",
       "drift": {
-        "2026": -30.65,
-        "2027": 6.84
+        "2026": -35.68,
+        "2027": 9.4
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-13",
+      "last_event": "FLAT 2026-11-20",
       "basis": "2 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "technology",
       "subsector_key": "semiconductors",
@@ -9736,31 +9725,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-12",
-      "tech_confidence": 0.43,
+      "tech_confidence": 0.48,
       "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 32,
-        "eps_date": "2026-11-13",
+        "delta_days": 39,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-12",
-        "summary": "Price leads fundamentals by 32 days"
+        "summary": "Price leads fundamentals by 39 days"
       }
     },
     "DHER": {
       "code": "DHER",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-06",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-06",
       "last_report": "2026-08-27",
       "analyst": {
         "code": "DHER",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9774,15 +9763,15 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 0.61,
+        "growth_step": 0.59,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -0.28,
-        "next_eps": 0.33,
+        "base_eps": -0.27,
+        "next_eps": 0.32,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.28 -> 0.33 EUR) [near-zero guard]",
+        "summary": "FY27/FY26 growth: +100.0% (-0.27 -> 0.32 EUR) [near-zero guard]",
         "pre_growth_pct": 431.25,
         "effective_growth_pct": 100.0
       },
@@ -9802,16 +9791,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": -0.16,
-            "post": -0.28,
-            "delta": -0.12,
-            "pct": -75.0,
+            "post": -0.27,
+            "delta": -0.11,
+            "pct": -68.75,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 0.53,
-            "post": 0.33,
-            "delta": -0.2,
-            "pct": -37.74,
+            "post": 0.32,
+            "delta": -0.21,
+            "pct": -39.62,
             "direction": "DOWN"
           }
         },
@@ -9829,12 +9818,12 @@ window.FUND_SENT_DATA = {
       "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": -75.0,
-        "2027": -37.74
+        "2026": -68.75,
+        "2027": -39.62
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "1 up / 2 down revision events, 90d, FY26,27",
@@ -9857,19 +9846,19 @@ window.FUND_SENT_DATA = {
     },
     "AG1": {
       "code": "AG1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-09",
       "last_report": "2026-11-04",
       "analyst": {
         "code": "AG1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -9882,18 +9871,18 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 50.85,
-        "growth_step": 0.3,
+        "growth_pct": 54.39,
+        "growth_step": 0.31,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.59,
-        "next_eps": 0.89,
+        "base_eps": 0.57,
+        "next_eps": 0.88,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +50.8% (0.59 -> 0.89 EUR)",
+        "summary": "FY27/FY26 growth: +54.4% (0.57 -> 0.88 EUR)",
         "pre_growth_pct": 57.38,
-        "effective_growth_pct": 50.85
+        "effective_growth_pct": 54.39
       },
       "consensus": {
         "reaction": "DOWN",
@@ -9911,16 +9900,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.61,
-            "post": 0.59,
-            "delta": -0.02,
-            "pct": -3.28,
+            "post": 0.57,
+            "delta": -0.04,
+            "pct": -6.56,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 0.96,
-            "post": 0.89,
-            "delta": -0.07,
-            "pct": -7.29,
+            "post": 0.88,
+            "delta": -0.08,
+            "pct": -8.33,
             "direction": "DOWN"
           }
         },
@@ -9935,12 +9924,12 @@ window.FUND_SENT_DATA = {
       "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": -6.35,
-        "2027": -11.0
+        "2026": -9.52,
+        "2027": -12.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-09",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -9951,7 +9940,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.39,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -9963,19 +9952,19 @@ window.FUND_SENT_DATA = {
     },
     "JEN": {
       "code": "JEN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-23",
       "last_report": "2026-11-10",
       "analyst": {
         "code": "JEN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -9998,23 +9987,23 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 27.69,
-        "growth_step": 0.54,
+        "growth_pct": 27.92,
+        "growth_step": 0.55,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.95,
-        "next_eps": 2.49,
+        "base_eps": 1.97,
+        "next_eps": 2.52,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +27.7% (1.95 -> 2.49 EUR)"
+        "summary": "FY27/FY26 growth: +27.9% (1.97 -> 2.52 EUR)"
       },
       "consensus": {
         "reaction": "UP",
-        "reaction_breadth": "1/2",
-        "up_periods": 1,
+        "reaction_breadth": "2/2",
+        "up_periods": 2,
         "down_periods": 0,
-        "flat_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-11-10",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -10025,20 +10014,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.93,
-            "post": 1.95,
-            "delta": 0.02,
-            "pct": 1.04,
+            "post": 1.97,
+            "delta": 0.04,
+            "pct": 2.07,
             "direction": "UP"
           },
           "2027": {
             "pre": 2.47,
-            "post": 2.49,
-            "delta": 0.02,
-            "pct": 0.81,
-            "direction": "FLAT"
+            "post": 2.52,
+            "delta": 0.05,
+            "pct": 2.02,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-10): UP (1 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-10): UP (2 UP / 0 DOWN across 2 periods)"
       },
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
@@ -10051,12 +10040,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 11.43,
-        "2027": 13.18
+        "2026": 12.57,
+        "2027": 14.55
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-23",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -10067,7 +10056,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.37,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -10079,7 +10068,7 @@ window.FUND_SENT_DATA = {
     },
     "IOS": {
       "code": "IOS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10091,7 +10080,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "IOS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -10156,8 +10145,8 @@ window.FUND_SENT_DATA = {
         "2027": 2.25
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -10168,31 +10157,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.59,
+      "tech_confidence": 0.61,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-01-16",
         "tech_date": "2026-11-12",
-        "summary": "last revision was 307d ago (> 90d)"
+        "summary": "last revision was 308d ago (> 90d)"
       }
     },
     "FPE3": {
       "code": "FPE3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-23",
       "last_report": "2026-10-30",
       "analyst": {
         "code": "FPE3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -10205,16 +10194,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 1.86,
-        "growth_step": 0.05,
+        "growth_pct": 1.47,
+        "growth_step": 0.04,
         "is_growing": true,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.69,
-        "next_eps": 2.74,
+        "base_eps": 2.73,
+        "next_eps": 2.77,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +1.9% (2.69 -> 2.74 EUR)"
+        "summary": "FY27/FY26 growth: +1.5% (2.73 -> 2.77 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -10232,16 +10221,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.63,
-            "post": 2.69,
-            "delta": 0.06,
-            "pct": 2.28,
+            "post": 2.73,
+            "delta": 0.1,
+            "pct": 3.8,
             "direction": "UP"
           },
           "2027": {
             "pre": 2.71,
-            "post": 2.74,
-            "delta": 0.03,
-            "pct": 1.11,
+            "post": 2.77,
+            "delta": 0.06,
+            "pct": 2.21,
             "direction": "UP"
           }
         },
@@ -10256,12 +10245,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 9.8,
-        "2027": 2.24
+        "2026": 11.43,
+        "2027": 3.36
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-23",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -10272,7 +10261,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.75,
+      "tech_confidence": 0.68,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -10284,19 +10273,19 @@ window.FUND_SENT_DATA = {
     },
     "AMV0": {
       "code": "AMV0",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
-      "last_sig_rev": "2026-11-12",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "AMV0",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -10320,15 +10309,15 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 6.72,
+        "growth_step": 6.56,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -3.09,
-        "next_eps": 3.63,
+        "base_eps": -3.32,
+        "next_eps": 3.24,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-3.09 -> 3.63 EUR) [near-zero guard]",
+        "summary": "FY27/FY26 growth: +100.0% (-3.32 -> 3.24 EUR) [near-zero guard]",
         "pre_growth_pct": 258.3,
         "effective_growth_pct": 100.0
       },
@@ -10348,42 +10337,42 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": -2.59,
-            "post": -3.09,
-            "delta": -0.5,
-            "pct": -19.31,
+            "post": -3.32,
+            "delta": -0.73,
+            "pct": -28.19,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 4.1,
-            "post": 3.63,
-            "delta": -0.47,
-            "pct": -11.46,
+            "post": 3.24,
+            "delta": -0.86,
+            "pct": -20.98,
             "direction": "DOWN"
           }
         },
         "summary": "Reaction after 26Q3 (2026-11-05): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
-      "direction": "GROWTH_SLOWING",
+      "direction": "DETERIORATING",
       "base_direction": "DETERIORATING",
       "stance": "CONFLICT",
-      "stance_reading": "Growth intact but slowing while analysts remain bullish",
+      "stance_reading": "Conflict: analyst optimism against falling EPS expectations",
       "flags": [
         "CONFLICT",
-        "POST_REPORT_EARLY"
+        "SEVERE_CUT"
       ],
       "ups": 1,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -221.65,
-        "2027": -21.09
+        "2026": -230.71,
+        "2027": -29.57
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-12",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "automobile",
       "subsector_key": "auto_parts_equipment",
       "sector": "Automobile",
@@ -10395,27 +10384,27 @@ window.FUND_SENT_DATA = {
       "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 48,
-        "eps_date": "2026-11-12",
+        "delta_days": 56,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-09-25",
-        "summary": "Price leads fundamentals by 48 days"
+        "summary": "Price leads fundamentals by 56 days"
       }
     },
     "DWS": {
       "code": "DWS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-09",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-19",
       "last_report": "2026-07-29",
       "analyst": {
         "code": "DWS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -10438,16 +10427,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 5.39,
+        "growth_pct": 5.36,
         "growth_step": 0.28,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 5.19,
-        "next_eps": 5.47,
+        "base_eps": 5.22,
+        "next_eps": 5.5,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +5.4% (5.19 -> 5.47 EUR)"
+        "summary": "FY27/FY26 growth: +5.4% (5.22 -> 5.50 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -10465,16 +10454,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 5.13,
-            "post": 5.19,
-            "delta": 0.06,
-            "pct": 1.17,
+            "post": 5.22,
+            "delta": 0.09,
+            "pct": 1.75,
             "direction": "UP"
           },
           "2027": {
             "pre": 5.51,
-            "post": 5.47,
-            "delta": -0.04,
-            "pct": -0.73,
+            "post": 5.5,
+            "delta": -0.01,
+            "pct": -0.18,
             "direction": "FLAT"
           }
         },
@@ -10492,12 +10481,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "FLAT",
       "drift": {
-        "2026": 1.17,
-        "2027": -0.73
+        "2026": 1.75,
+        "2027": -0.18
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-19",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -10508,7 +10497,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.43,
+      "tech_confidence": 0.41,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -10520,19 +10509,19 @@ window.FUND_SENT_DATA = {
     },
     "EVK": {
       "code": "EVK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-19",
       "last_report": "2026-11-03",
       "analyst": {
         "code": "EVK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -10555,16 +10544,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": -17.78,
-        "growth_step": -0.32,
+        "growth_pct": -17.22,
+        "growth_step": -0.31,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 1.8,
-        "next_eps": 1.48,
+        "next_eps": 1.49,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -17.8% (1.80 -> 1.48 EUR)"
+        "summary": "FY27/FY26 growth: -17.2% (1.80 -> 1.49 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -10589,9 +10578,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 1.44,
-            "post": 1.48,
-            "delta": 0.04,
-            "pct": 2.78,
+            "post": 1.49,
+            "delta": 0.05,
+            "pct": 3.47,
             "direction": "UP"
           }
         },
@@ -10609,11 +10598,11 @@ window.FUND_SENT_DATA = {
       "lean": "UP",
       "drift": {
         "2026": 15.38,
-        "2027": 1.37
+        "2027": 2.05
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-19",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -10621,22 +10610,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
       "subsector": "Chemicals, Specialty",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.87,
+      "tech_state_date": "2026-11-18",
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -52,
+        "delta_days": -60,
         "eps_date": "2026-09-19",
-        "tech_date": "2026-11-10",
-        "summary": "Fundamentals lead price by 52 days"
+        "tech_date": "2026-11-18",
+        "summary": "Fundamentals lead price by 60 days"
       }
     },
     "FTK": {
       "code": "FTK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10648,7 +10637,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-14",
       "analyst": {
         "code": "FTK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -10729,8 +10718,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-12",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -10741,7 +10730,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-09-14",
-      "tech_confidence": 0.43,
+      "tech_confidence": 0.47,
       "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -10753,19 +10742,19 @@ window.FUND_SENT_DATA = {
     },
     "HAG": {
       "code": "HAG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-06-26",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "HAG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -10788,16 +10777,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 31.61,
+        "growth_pct": 31.94,
         "growth_step": 0.61,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.93,
-        "next_eps": 2.54,
+        "base_eps": 1.91,
+        "next_eps": 2.52,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +31.6% (1.93 -> 2.54 EUR)"
+        "summary": "FY27/FY26 growth: +31.9% (1.91 -> 2.52 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -10815,16 +10804,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.87,
-            "post": 1.93,
-            "delta": 0.06,
-            "pct": 3.21,
+            "post": 1.91,
+            "delta": 0.04,
+            "pct": 2.14,
             "direction": "UP"
           },
           "2027": {
             "pre": 2.46,
-            "post": 2.54,
-            "delta": 0.08,
-            "pct": 3.25,
+            "post": 2.52,
+            "delta": 0.06,
+            "pct": 2.44,
             "direction": "UP"
           }
         },
@@ -10834,19 +10823,17 @@ window.FUND_SENT_DATA = {
       "base_direction": "STABLE",
       "stance": "SUPPORTIVE",
       "stance_reading": "Recommendation support without meaningful EPS revisions",
-      "flags": [
-        "POST_REPORT_EARLY"
-      ],
+      "flags": [],
       "ups": 0,
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 6.04,
-        "2027": 4.96
+        "2026": 4.95,
+        "2027": 4.13
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -10864,12 +10851,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-06-26",
         "tech_date": "2026-11-06",
-        "summary": "last revision was 146d ago (> 90d)"
+        "summary": "last revision was 147d ago (> 90d)"
       }
     },
     "KBX": {
       "code": "KBX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -10881,7 +10868,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "KBX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -10959,8 +10946,8 @@ window.FUND_SENT_DATA = {
         "2027": -2.58
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -10971,31 +10958,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-17",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.44,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-02-21",
         "tech_date": "2026-11-17",
-        "summary": "last revision was 271d ago (> 90d)"
+        "summary": "last revision was 272d ago (> 90d)"
       }
     },
     "KGX": {
       "code": "KGX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-09",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-06",
       "last_report": "2026-10-29",
       "analyst": {
         "code": "KGX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -11018,16 +11005,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 14.37,
-        "growth_step": 0.47,
+        "growth_pct": 13.8,
+        "growth_step": 0.45,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 3.27,
-        "next_eps": 3.74,
+        "base_eps": 3.26,
+        "next_eps": 3.71,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +14.4% (3.27 -> 3.74 EUR)"
+        "summary": "FY27/FY26 growth: +13.8% (3.26 -> 3.71 EUR)"
       },
       "consensus": {
         "reaction": "MIXED",
@@ -11045,16 +11032,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 3.22,
-            "post": 3.27,
-            "delta": 0.05,
-            "pct": 1.55,
+            "post": 3.26,
+            "delta": 0.04,
+            "pct": 1.24,
             "direction": "UP"
           },
           "2027": {
             "pre": 3.95,
-            "post": 3.74,
-            "delta": -0.21,
-            "pct": -5.32,
+            "post": 3.71,
+            "delta": -0.24,
+            "pct": -6.08,
             "direction": "DOWN"
           }
         },
@@ -11071,12 +11058,12 @@ window.FUND_SENT_DATA = {
       "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -6.03,
-        "2027": -15.0
+        "2026": -6.32,
+        "2027": -15.68
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -11086,32 +11073,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Industrial Machinery",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.38,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.49,
       "price_reading": "Unresolved, wait",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -5,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -13,
         "eps_date": "2026-11-06",
-        "tech_date": "2026-11-11",
-        "summary": "Contemporaneous (-5d)"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 13 days"
       }
     },
     "SDF": {
       "code": "SDF",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-12",
       "last_report": "2026-11-10",
       "analyst": {
         "code": "SDF",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -11124,16 +11111,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -3.33,
-        "growth_step": -0.04,
+        "growth_pct": -5.69,
+        "growth_step": -0.07,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.2,
+        "base_eps": 1.23,
         "next_eps": 1.16,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -3.3% (1.20 -> 1.16 EUR)"
+        "summary": "FY27/FY26 growth: -5.7% (1.23 -> 1.16 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -11151,9 +11138,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.14,
-            "post": 1.2,
-            "delta": 0.06,
-            "pct": 5.26,
+            "post": 1.23,
+            "delta": 0.09,
+            "pct": 7.89,
             "direction": "UP"
           },
           "2027": {
@@ -11178,12 +11165,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "MIXED",
       "drift": {
-        "2026": -7.69,
+        "2026": -5.38,
         "2027": 26.09
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-12",
       "basis": "1 up / 1 down revision events, 90d, FY26,27",
@@ -11191,22 +11178,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "chemicals_commodity",
       "sector": "Chemicals",
       "subsector": "Chemicals, Commodity",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
-      "tech_state_date": "2026-11-12",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
+      "tech_state_date": "2026-11-18",
       "tech_confidence": 0.51,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 0,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -6,
         "eps_date": "2026-11-12",
-        "tech_date": "2026-11-12",
-        "summary": "Contemporaneous (+0d)"
+        "tech_date": "2026-11-18",
+        "summary": "Fundamentals lead price by 6 days"
       }
     },
     "LEG": {
       "code": "LEG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11218,7 +11205,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "LEG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -11281,8 +11268,8 @@ window.FUND_SENT_DATA = {
         "2027": -2.45
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -11293,38 +11280,38 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.5,
+      "tech_confidence": 0.54,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-01-23",
         "tech_date": "2026-10-20",
-        "summary": "last revision was 300d ago (> 90d)"
+        "summary": "last revision was 301d ago (> 90d)"
       }
     },
     "P911": {
       "code": "P911",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-06",
       "last_report": "2026-10-27",
       "analyst": {
         "code": "P911",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 2,
+        "event_count": 1,
         "buy_count": 1,
-        "hold_count": 1,
+        "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 2,
+        "distinct_banks": 1,
         "flags": [],
         "latest_event": {
           "date": "2026-09-17",
@@ -11337,19 +11324,19 @@ window.FUND_SENT_DATA = {
           "w1_disp": "-6.7%",
           "w2_disp": "-9.6%"
         },
-        "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": -15.79,
-        "growth_step": -0.33,
+        "growth_pct": -16.9,
+        "growth_step": -0.36,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.09,
-        "next_eps": 1.76,
+        "base_eps": 2.13,
+        "next_eps": 1.77,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -15.8% (2.09 -> 1.76 EUR)"
+        "summary": "FY27/FY26 growth: -16.9% (2.13 -> 1.77 EUR)"
       },
       "consensus": {
         "reaction": "MIXED",
@@ -11367,16 +11354,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.95,
-            "post": 2.09,
-            "delta": 0.14,
-            "pct": 7.18,
+            "post": 2.13,
+            "delta": 0.18,
+            "pct": 9.23,
             "direction": "UP"
           },
           "2027": {
             "pre": 1.87,
-            "post": 1.76,
-            "delta": -0.11,
-            "pct": -5.88,
+            "post": 1.77,
+            "delta": -0.1,
+            "pct": -5.35,
             "direction": "DOWN"
           }
         },
@@ -11394,12 +11381,12 @@ window.FUND_SENT_DATA = {
       "downs": 3,
       "lean": "MIXED",
       "drift": {
-        "2026": 10.0,
-        "2027": -23.14
+        "2026": 12.11,
+        "2027": -22.71
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "1 up / 3 down revision events, 90d, FY26,27",
@@ -11410,8 +11397,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.57,
-      "price_reading": "Healthy pause [Caution: Negative forward growth -15.8%]",
+      "tech_confidence": 0.53,
+      "price_reading": "Healthy pause [Caution: Negative forward growth -16.9%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
         "delta_days": 9,
@@ -11422,19 +11409,19 @@ window.FUND_SENT_DATA = {
     },
     "PAH3": {
       "code": "PAH3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-01-11",
       "analyst": {
         "code": "PAH3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -11447,16 +11434,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 601.41,
-        "growth_step": 8.54,
+        "growth_pct": 311.11,
+        "growth_step": 7.28,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.42,
-        "next_eps": 9.96,
+        "base_eps": 2.34,
+        "next_eps": 9.62,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +601.4% (1.42 -> 9.96 EUR)"
+        "summary": "FY27/FY26 growth: +311.1% (2.34 -> 9.62 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -11474,16 +11461,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 10.86,
-            "post": 1.42,
-            "delta": -9.44,
-            "pct": -86.92,
+            "post": 2.34,
+            "delta": -8.52,
+            "pct": -78.45,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 13.27,
-            "post": 9.96,
-            "delta": -3.31,
-            "pct": -24.94,
+            "post": 9.62,
+            "delta": -3.65,
+            "pct": -27.51,
             "direction": "DOWN"
           }
         },
@@ -11501,14 +11488,14 @@ window.FUND_SENT_DATA = {
       "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -85.71,
-        "2027": -22.25
+        "2026": -76.46,
+        "2027": -24.9
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-13",
+      "last_event": "FLAT 2026-11-20",
       "basis": "2 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "automobile",
       "subsector_key": "automobile_manufacturers",
@@ -11516,20 +11503,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Automobile Manufacturers",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-23",
-      "tech_confidence": 0.49,
+      "tech_state_date": "2026-11-18",
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 21,
-        "eps_date": "2026-11-13",
-        "tech_date": "2026-10-23",
-        "summary": "Price leads fundamentals by 21 days"
+        "timing": "SYNCHRONOUS",
+        "delta_days": 2,
+        "eps_date": "2026-11-20",
+        "tech_date": "2026-11-18",
+        "summary": "Contemporaneous (+2d)"
       }
     },
     "R3NK": {
       "code": "R3NK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11541,7 +11528,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "R3NK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -11557,9 +11544,9 @@ window.FUND_SENT_DATA = {
           "sentiment": "BUY",
           "headline": "ANALYSE-FLASH: DZ Bank belaesst Renk auf 'Kaufen' - Fairer Wert 56 Euro",
           "ret_w1": -6.6174,
-          "ret_w2": null,
+          "ret_w2": -10.2528,
           "w1_disp": "-6.6%",
-          "w2_disp": "n/a"
+          "w2_disp": "-10.3%"
         },
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
@@ -11611,8 +11598,7 @@ window.FUND_SENT_DATA = {
       "stance": "SUPPORTIVE",
       "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "WATCH_DOWN",
-        "POST_REPORT_EARLY"
+        "WATCH_DOWN"
       ],
       "ups": 0,
       "downs": 1,
@@ -11622,8 +11608,8 @@ window.FUND_SENT_DATA = {
         "2027": -1.88
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-23",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -11634,7 +11620,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.5,
+      "tech_confidence": 0.57,
       "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -11646,19 +11632,19 @@ window.FUND_SENT_DATA = {
     },
     "SHA0": {
       "code": "SHA0",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-07",
       "last_report": "2026-11-03",
       "analyst": {
         "code": "SHA0",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -11671,23 +11657,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 93.1,
-        "growth_step": 0.27,
+        "growth_pct": 93.33,
+        "growth_step": 0.28,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.29,
-        "next_eps": 0.56,
+        "base_eps": 0.3,
+        "next_eps": 0.58,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +93.1% (0.29 -> 0.56 EUR)"
+        "summary": "FY27/FY26 growth: +93.3% (0.30 -> 0.58 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
-        "reaction_breadth": "2/2",
+        "reaction_breadth": "1/2",
         "up_periods": 0,
-        "down_periods": 2,
-        "flat_periods": 0,
+        "down_periods": 1,
+        "flat_periods": 1,
         "last_report_date": "2026-11-03",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -11698,20 +11684,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.3,
-            "post": 0.29,
-            "delta": -0.01,
-            "pct": -3.33,
-            "direction": "DOWN"
+            "post": 0.3,
+            "delta": 0.0,
+            "pct": 0.0,
+            "direction": "FLAT"
           },
           "2027": {
             "pre": 0.59,
-            "post": 0.56,
-            "delta": -0.03,
-            "pct": -5.08,
+            "post": 0.58,
+            "delta": -0.01,
+            "pct": -1.69,
             "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-03): DOWN (0 UP / 2 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-03): DOWN (0 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -11725,12 +11711,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -23.68,
-        "2027": -15.15
+        "2026": -21.05,
+        "2027": -12.12
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-11-07",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -11753,7 +11739,7 @@ window.FUND_SENT_DATA = {
     },
     "TKMS": {
       "code": "TKMS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11765,7 +11751,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "TKMS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -11846,8 +11832,8 @@ window.FUND_SENT_DATA = {
         "2027": 3.91
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-30",
       "basis": "1 up / 2 down revision events, 90d, FY26,27",
@@ -11870,58 +11856,58 @@ window.FUND_SENT_DATA = {
     },
     "TLX": {
       "code": "TLX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2025-11-14",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "TLX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
-        "event_count": 1,
-        "buy_count": 1,
+        "event_count": 2,
+        "buy_count": 2,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 1,
+        "distinct_banks": 2,
         "flags": [],
         "latest_event": {
-          "date": "2026-10-01",
-          "bank": "Berenberg",
-          "bank_short": "Berenberg",
+          "date": "2026-11-19",
+          "bank": "Goldman Sachs",
+          "bank_short": "Goldman",
           "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: Berenberg belaesst Talanx auf 'Buy' - Ziel 163 Euro",
-          "ret_w1": 2.0636,
-          "ret_w2": 6.9647,
-          "w1_disp": "+2.1%",
-          "w2_disp": "+7.0%"
+          "headline": "ANALYSE-FLASH: Goldman hebt Ziel fuer Talanx auf 144 Euro - 'Buy'",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
         },
-        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
+        "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 5.31,
-        "growth_step": 0.59,
+        "growth_pct": 5.66,
+        "growth_step": 0.63,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 11.11,
-        "next_eps": 11.7,
+        "base_eps": 11.13,
+        "next_eps": 11.76,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +5.3% (11.11 -> 11.70 EUR)"
+        "summary": "FY27/FY26 growth: +5.7% (11.13 -> 11.76 EUR)"
       },
       "consensus": {
         "reaction": "NONE",
-        "reaction_breadth": "0/1",
+        "reaction_breadth": "0/2",
         "up_periods": 0,
         "down_periods": 0,
-        "flat_periods": 1,
+        "flat_periods": 2,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -11930,15 +11916,22 @@ window.FUND_SENT_DATA = {
           "2027"
         ],
         "details": {
+          "2026": {
+            "pre": 11.11,
+            "post": 11.13,
+            "delta": 0.02,
+            "pct": 0.18,
+            "direction": "FLAT"
+          },
           "2027": {
             "pre": 11.65,
-            "post": 11.7,
-            "delta": 0.05,
-            "pct": 0.43,
+            "post": 11.76,
+            "delta": 0.11,
+            "pct": 0.94,
             "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 1 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -11949,14 +11942,14 @@ window.FUND_SENT_DATA = {
       ],
       "ups": 0,
       "downs": 0,
-      "lean": "FLAT",
+      "lean": "UP",
       "drift": {
-        "2026": 1.74,
-        "2027": 2.45
+        "2026": 1.92,
+        "2027": 2.98
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -11974,12 +11967,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2025-11-14",
         "tech_date": "2026-10-16",
-        "summary": "last revision was 370d ago (> 90d)"
+        "summary": "last revision was 371d ago (> 90d)"
       }
     },
     "8TRA": {
       "code": "8TRA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -11991,7 +11984,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-28",
       "analyst": {
         "code": "8TRA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -12071,8 +12064,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-30",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -12095,7 +12088,7 @@ window.FUND_SENT_DATA = {
     },
     "TUI1": {
       "code": "TUI1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12107,7 +12100,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "TUI1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12178,8 +12171,8 @@ window.FUND_SENT_DATA = {
         "2027": -4.26
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-19",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -12187,8 +12180,8 @@ window.FUND_SENT_DATA = {
       "subsector_key": "leisure",
       "sector": "Consumer",
       "subsector": "Leisure",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
@@ -12202,19 +12195,19 @@ window.FUND_SENT_DATA = {
     },
     "WAF": {
       "code": "WAF",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
-      "last_sig_rev": "2026-11-11",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-10-11",
       "analyst": {
         "code": "WAF",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -12237,16 +12230,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 42.88,
-        "growth_step": 2.56,
+        "growth_pct": 39.53,
+        "growth_step": 2.36,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": -5.97,
-        "next_eps": -3.41,
+        "next_eps": -3.61,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +42.9% (-5.97 -> -3.41 EUR)"
+        "summary": "FY27/FY26 growth: +39.5% (-5.97 -> -3.61 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -12271,9 +12264,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": -3.8,
-            "post": -3.41,
-            "delta": 0.39,
-            "pct": 10.26,
+            "post": -3.61,
+            "delta": 0.19,
+            "pct": 5.0,
             "direction": "UP"
           }
         },
@@ -12287,18 +12280,18 @@ window.FUND_SENT_DATA = {
         "CONFLICT"
       ],
       "ups": 2,
-      "downs": 1,
+      "downs": 2,
       "lean": "UP",
       "drift": {
         "2026": 16.03,
-        "2027": 20.14
+        "2027": 15.46
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-11",
-      "basis": "2 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "2 up / 2 down revision events, 90d, FY26,27",
       "sector_key": "technology",
       "subsector_key": "semiconductors",
       "sector": "Technology",
@@ -12306,31 +12299,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-19",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.43,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 23,
-        "eps_date": "2026-11-11",
+        "delta_days": 32,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-19",
-        "summary": "Price leads fundamentals by 23 days"
+        "summary": "Price leads fundamentals by 32 days"
       }
     },
     "WCH": {
       "code": "WCH",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
-      "last_sig_rev": "2026-11-11",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-07-30",
       "analyst": {
         "code": "WCH",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEGATIVE",
         "event_count": 1,
@@ -12353,16 +12346,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 0.42,
-        "growth_step": 0.01,
-        "is_growing": true,
+        "growth_pct": -0.82,
+        "growth_step": -0.02,
+        "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.4,
-        "next_eps": 2.41,
+        "base_eps": 2.45,
+        "next_eps": 2.43,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +0.4% (2.40 -> 2.41 EUR)"
+        "summary": "FY27/FY26 growth: -0.8% (2.45 -> 2.43 EUR)"
       },
       "consensus": {
         "reaction": "MIXED",
@@ -12380,16 +12373,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.75,
-            "post": 2.4,
-            "delta": 1.65,
-            "pct": 220.0,
+            "post": 2.45,
+            "delta": 1.7,
+            "pct": 226.67,
             "direction": "UP"
           },
           "2027": {
             "pre": 2.56,
-            "post": 2.41,
-            "delta": -0.15,
-            "pct": -5.86,
+            "post": 2.43,
+            "delta": -0.13,
+            "pct": -5.08,
             "direction": "DOWN"
           }
         },
@@ -12403,19 +12396,19 @@ window.FUND_SENT_DATA = {
         "CONFLICT",
         "STALE_REPORT"
       ],
-      "ups": 4,
+      "ups": 5,
       "downs": 3,
       "lean": "MIXED",
       "drift": {
-        "2026": 220.0,
-        "2027": -5.86
+        "2026": 226.67,
+        "2027": -5.08
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-11",
-      "basis": "4 up / 3 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "5 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "chemicals",
       "subsector_key": "chemicals_specialty",
       "sector": "Chemicals",
@@ -12423,31 +12416,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.34,
-      "price_reading": "Pause may resolve down",
+      "tech_confidence": 0.45,
+      "price_reading": "Pause may resolve down [Caution: Negative forward growth -0.8%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 21,
-        "eps_date": "2026-11-11",
+        "delta_days": 30,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-21",
-        "summary": "Price leads fundamentals by 21 days"
+        "summary": "Price leads fundamentals by 30 days"
       }
     },
     "RRTL": {
       "code": "RRTL",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-06",
-      "last_sig_rev": "2026-11-06",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-08-11",
       "analyst": {
         "code": "RRTL",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -12470,16 +12463,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 23.71,
-        "growth_step": 0.55,
+        "growth_pct": 20.35,
+        "growth_step": 0.46,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.32,
-        "next_eps": 2.87,
+        "base_eps": 2.26,
+        "next_eps": 2.72,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +23.7% (2.32 -> 2.87 EUR)"
+        "summary": "FY27/FY26 growth: +20.4% (2.26 -> 2.72 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -12497,16 +12490,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.64,
-            "post": 2.32,
-            "delta": -0.32,
-            "pct": -12.12,
+            "post": 2.26,
+            "delta": -0.38,
+            "pct": -14.39,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 2.93,
-            "post": 2.87,
-            "delta": -0.06,
-            "pct": -2.05,
+            "post": 2.72,
+            "delta": -0.21,
+            "pct": -7.17,
             "direction": "DOWN"
           }
         },
@@ -12521,18 +12514,18 @@ window.FUND_SENT_DATA = {
         "STALE_REPORT"
       ],
       "ups": 1,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -12.12,
-        "2027": -2.05
+        "2026": -14.39,
+        "2027": -7.17
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-06",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "media",
       "subsector_key": "broadcasting",
       "sector": "Media",
@@ -12540,19 +12533,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.45,
+      "tech_confidence": 0.5,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 17,
-        "eps_date": "2026-11-06",
+        "delta_days": 31,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-20",
-        "summary": "Price leads fundamentals by 17 days"
+        "summary": "Price leads fundamentals by 31 days"
       }
     },
     "AT1": {
       "code": "AT1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12564,7 +12557,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-27",
       "analyst": {
         "code": "AT1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -12647,8 +12640,8 @@ window.FUND_SENT_DATA = {
         "2027": -26.67
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-02",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -12656,10 +12649,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "real_estate",
       "sector": "Financial Services",
       "subsector": "Real Estate",
-      "tech_state": "COUNTERTREND",
+      "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.64,
+      "tech_confidence": 0.59,
       "price_reading": "Turn without clear backing",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -12671,7 +12664,7 @@ window.FUND_SENT_DATA = {
     },
     "KTN": {
       "code": "KTN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12683,7 +12676,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "KTN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12754,8 +12747,8 @@ window.FUND_SENT_DATA = {
         "2027": -0.99
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-09",
       "basis": "1 up / 1 down revision events, 90d, FY26,27",
@@ -12766,7 +12759,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.43,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -12778,19 +12771,19 @@ window.FUND_SENT_DATA = {
     },
     "1AST": {
       "code": "1AST",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-23",
-      "last_sig_rev": "2026-10-23",
-      "last_report": "2026-04-12",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
+      "last_report": "2026-11-17",
       "analyst": {
         "code": "1AST",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12803,32 +12796,47 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 34.93,
-        "growth_step": 0.8,
+        "growth_pct": 25.0,
+        "growth_step": 0.61,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.29,
-        "next_eps": 3.09,
+        "base_eps": 2.44,
+        "next_eps": 3.05,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +34.9% (2.29 -> 3.09 EUR)"
+        "summary": "FY27/FY26 growth: +25.0% (2.44 -> 3.05 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/0",
-        "up_periods": 0,
-        "down_periods": 0,
+        "reaction": "MIXED",
+        "reaction_breadth": "2/2",
+        "up_periods": 1,
+        "down_periods": 1,
         "flat_periods": 0,
-        "last_report_date": "2026-04-12",
-        "last_report_period": "26Q1",
-        "is_stale": true,
+        "last_report_date": "2026-11-17",
+        "last_report_period": "26Q3",
+        "is_stale": false,
         "periods_analyzed": [
           "2026",
           "2027"
         ],
-        "details": {},
-        "summary": "Reaction after 26Q1 (2026-04-12): NONE (0 UP / 0 DOWN across 0 periods) [STALE]"
+        "details": {
+          "2026": {
+            "pre": 2.29,
+            "post": 2.44,
+            "delta": 0.15,
+            "pct": 6.55,
+            "direction": "UP"
+          },
+          "2027": {
+            "pre": 3.09,
+            "post": 3.05,
+            "delta": -0.04,
+            "pct": -1.29,
+            "direction": "DOWN"
+          }
+        },
+        "summary": "Reaction after 26Q3 (2026-11-17): MIXED (1 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -12836,41 +12844,41 @@ window.FUND_SENT_DATA = {
       "stance_reading": "Quiet, nothing to report",
       "flags": [
         "CONFLICT",
-        "STALE_REPORT"
+        "POST_REPORT_EARLY"
       ],
-      "ups": 4,
+      "ups": 5,
       "downs": 2,
       "lean": "UP",
       "drift": {
-        "2026": 13.93,
-        "2027": 5.82
+        "2026": 21.39,
+        "2027": 4.45
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-10-23",
-      "basis": "4 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "5 up / 2 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "advanced_industrial_equipment",
       "sector": "Industrial",
       "subsector": "Advanced Industrial Equipment",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-13",
-      "tech_confidence": 0.46,
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 10,
-        "eps_date": "2026-10-23",
+        "delta_days": 38,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-13",
-        "summary": "Price leads fundamentals by 10 days"
+        "summary": "Price leads fundamentals by 38 days"
       }
     },
     "SLYG": {
       "code": "SLYG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12882,7 +12890,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "SLYG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -12937,8 +12945,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.96
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -12946,7 +12954,7 @@ window.FUND_SENT_DATA = {
       "subsector_key": "communications_technology",
       "sector": "Technology",
       "subsector": "Communications Technology",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
       "tech_confidence": 0.0,
@@ -12961,7 +12969,7 @@ window.FUND_SENT_DATA = {
     },
     "BSL": {
       "code": "BSL",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -12973,7 +12981,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-31",
       "analyst": {
         "code": "BSL",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -12989,9 +12997,9 @@ window.FUND_SENT_DATA = {
           "sentiment": "BUY",
           "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Basler auf 33 Euro - 'Buy'",
           "ret_w1": 3.1315,
-          "ret_w2": null,
+          "ret_w2": 0.8351,
           "w1_disp": "+3.1%",
-          "w2_disp": "n/a"
+          "w2_disp": "+0.8%"
         },
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
@@ -13053,8 +13061,8 @@ window.FUND_SENT_DATA = {
         "2027": 21.9
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-09",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -13065,7 +13073,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.71,
+      "tech_confidence": 0.62,
       "price_reading": "Healthy pause [Caution: Negative forward growth -4.5%]",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -13077,7 +13085,7 @@ window.FUND_SENT_DATA = {
     },
     "ADV": {
       "code": "ADV",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026"
@@ -13088,7 +13096,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2024-02-27",
       "analyst": {
         "code": "ADV",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13149,7 +13157,7 @@ window.FUND_SENT_DATA = {
         "2026": 0.0
       },
       "market": {
-        "2026": 0.0
+        "2026": -0.22
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26",
@@ -13160,19 +13168,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "BASING",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.52,
+      "tech_confidence": 0.46,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-11-10",
         "tech_date": "2026-11-11",
-        "summary": "last revision was 739d ago (> 90d)"
+        "summary": "last revision was 740d ago (> 90d)"
       }
     },
     "AOF": {
       "code": "AOF",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13184,7 +13192,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-24",
       "analyst": {
         "code": "AOF",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -13265,8 +13273,8 @@ window.FUND_SENT_DATA = {
         "2027": 2.14
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-30",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -13277,7 +13285,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.61,
+      "tech_confidence": 0.59,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -13289,7 +13297,7 @@ window.FUND_SENT_DATA = {
     },
     "EKT": {
       "code": "EKT",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13301,7 +13309,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-12",
       "analyst": {
         "code": "EKT",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -13384,8 +13392,8 @@ window.FUND_SENT_DATA = {
         "2027": -26.45
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-02",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -13393,34 +13401,34 @@ window.FUND_SENT_DATA = {
       "subsector_key": "renewable_energies",
       "sector": "Industrial",
       "subsector": "Renewable Energies",
-      "tech_state": "TRANSITION",
+      "tech_state": "BASING",
       "tech_family": "TURNING",
-      "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.57,
+      "tech_state_date": "2026-11-18",
+      "tech_confidence": 0.56,
       "price_reading": "Turn without clear backing",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -35,
+        "delta_days": -47,
         "eps_date": "2026-10-02",
-        "tech_date": "2026-11-06",
-        "summary": "Fundamentals lead price by 35 days"
+        "tech_date": "2026-11-18",
+        "summary": "Fundamentals lead price by 47 days"
       }
     },
     "AFX": {
       "code": "AFX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-08",
       "last_report": "2026-05-12",
       "analyst": {
         "code": "AFX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13433,16 +13441,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 9.85,
-        "growth_step": 0.13,
+        "growth_pct": 9.09,
+        "growth_step": 0.12,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 1.32,
-        "next_eps": 1.45,
+        "next_eps": 1.44,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +9.8% (1.32 -> 1.45 EUR)"
+        "summary": "FY27/FY26 growth: +9.1% (1.32 -> 1.44 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -13467,9 +13475,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 1.89,
-            "post": 1.45,
-            "delta": -0.44,
-            "pct": -23.28,
+            "post": 1.44,
+            "delta": -0.45,
+            "pct": -23.81,
             "direction": "DOWN"
           }
         },
@@ -13488,11 +13496,11 @@ window.FUND_SENT_DATA = {
       "lean": "MIXED",
       "drift": {
         "2026": 3.94,
-        "2027": -11.04
+        "2027": -11.66
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -13503,7 +13511,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.66,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -13515,19 +13523,19 @@ window.FUND_SENT_DATA = {
     },
     "CWC": {
       "code": "CWC",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
-      "last_sig_rev": "2026-11-12",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-03-26",
       "analyst": {
         "code": "CWC",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13540,23 +13548,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -11.06,
-        "growth_step": -1.23,
+        "growth_pct": -7.85,
+        "growth_step": -0.83,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 11.12,
-        "next_eps": 9.89,
+        "base_eps": 10.57,
+        "next_eps": 9.74,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -11.1% (11.12 -> 9.89 EUR)"
+        "summary": "FY27/FY26 growth: -7.9% (10.57 -> 9.74 EUR)"
       },
       "consensus": {
-        "reaction": "UP",
-        "reaction_breadth": "1/2",
+        "reaction": "MIXED",
+        "reaction_breadth": "2/2",
         "up_periods": 1,
-        "down_periods": 0,
-        "flat_periods": 1,
+        "down_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-03-26",
         "last_report_period": "2025",
         "is_stale": true,
@@ -13567,20 +13575,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 9.45,
-            "post": 11.12,
-            "delta": 1.67,
-            "pct": 17.67,
+            "post": 10.57,
+            "delta": 1.12,
+            "pct": 11.85,
             "direction": "UP"
           },
           "2027": {
             "pre": 9.96,
-            "post": 9.89,
-            "delta": -0.07,
-            "pct": -0.7,
-            "direction": "FLAT"
+            "post": 9.74,
+            "delta": -0.22,
+            "pct": -2.21,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 2025 (2026-03-26): UP (1 UP / 0 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 2025 (2026-03-26): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -13591,18 +13599,18 @@ window.FUND_SENT_DATA = {
         "STALE_REPORT"
       ],
       "ups": 1,
-      "downs": 1,
-      "lean": "UP",
+      "downs": 2,
+      "lean": "FLAT",
       "drift": {
-        "2026": 3.63,
-        "2027": 2.17
+        "2026": -1.49,
+        "2027": 0.62
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-12",
-      "basis": "1 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 2 down revision events, 90d, FY26,27",
       "sector_key": "consumer",
       "subsector_key": "leisure",
       "sector": "Consumer",
@@ -13610,31 +13618,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.78,
+      "tech_confidence": 0.66,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -1,
-        "eps_date": "2026-11-12",
+        "timing": "PRICE_LEADS",
+        "delta_days": 7,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-13",
-        "summary": "Contemporaneous (-1d)"
+        "summary": "Price leads fundamentals by 7 days"
       }
     },
     "COK": {
       "code": "COK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-08",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "COK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -13649,24 +13657,24 @@ window.FUND_SENT_DATA = {
           "bank_short": "DZ Bank",
           "sentiment": "BUY",
           "headline": "ANALYSE-FLASH: DZ Bank belaesst Cancom auf 'Kaufen' - Fairer Wert 29 Euro",
-          "ret_w1": null,
+          "ret_w1": -8.3092,
           "ret_w2": null,
-          "w1_disp": "pending",
+          "w1_disp": "-8.3%",
           "w2_disp": "pending"
         },
         "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 23.48,
-        "growth_step": 0.27,
+        "growth_pct": 24.56,
+        "growth_step": 0.28,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.15,
+        "base_eps": 1.14,
         "next_eps": 1.42,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +23.5% (1.15 -> 1.42 EUR)"
+        "summary": "FY27/FY26 growth: +24.6% (1.14 -> 1.42 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -13684,9 +13692,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.18,
-            "post": 1.15,
-            "delta": -0.03,
-            "pct": -2.54,
+            "post": 1.14,
+            "delta": -0.04,
+            "pct": -3.39,
             "direction": "DOWN"
           },
           "2027": {
@@ -13711,12 +13719,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -12.88,
+        "2026": -13.64,
         "2027": -11.25
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -13727,7 +13735,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.43,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -13739,7 +13747,7 @@ window.FUND_SENT_DATA = {
     },
     "HYQ": {
       "code": "HYQ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -13751,7 +13759,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-30",
       "analyst": {
         "code": "HYQ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13823,8 +13831,8 @@ window.FUND_SENT_DATA = {
         "2027": -16.86
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "0 up / 4 down revision events, 90d, FY26,27",
@@ -13832,10 +13840,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.6,
+      "tech_confidence": 0.49,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -13847,19 +13855,19 @@ window.FUND_SENT_DATA = {
     },
     "1U1": {
       "code": "1U1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "1U1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13872,22 +13880,22 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 47.14,
-        "growth_step": 0.33,
+        "growth_pct": 63.33,
+        "growth_step": 0.38,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.7,
-        "next_eps": 1.03,
+        "base_eps": 0.6,
+        "next_eps": 0.98,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +47.1% (0.70 -> 1.03 EUR)"
+        "summary": "FY27/FY26 growth: +63.3% (0.60 -> 0.98 EUR)"
       },
       "consensus": {
-        "reaction": "UP",
+        "reaction": "DOWN",
         "reaction_breadth": "2/2",
-        "up_periods": 2,
-        "down_periods": 0,
+        "up_periods": 0,
+        "down_periods": 2,
         "flat_periods": 0,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
@@ -13899,74 +13907,74 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.64,
-            "post": 0.7,
-            "delta": 0.06,
-            "pct": 9.37,
-            "direction": "UP"
+            "post": 0.6,
+            "delta": -0.04,
+            "pct": -6.25,
+            "direction": "DOWN"
           },
           "2027": {
             "pre": 1.01,
-            "post": 1.03,
-            "delta": 0.02,
-            "pct": 1.98,
-            "direction": "UP"
+            "post": 0.98,
+            "delta": -0.03,
+            "pct": -2.97,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): UP (2 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
-      "direction": "IMPROVING",
-      "base_direction": "IMPROVING",
-      "stance": "SUPPORTIVE",
-      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "direction": "STABLE",
+      "base_direction": "STABLE",
+      "stance": "NEUTRAL",
+      "stance_reading": "Quiet, nothing to report",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
       ],
       "ups": 1,
-      "downs": 6,
+      "downs": 7,
       "lean": "DOWN",
       "drift": {
-        "2026": -24.73,
-        "2027": -16.94
+        "2026": -35.48,
+        "2027": -20.97
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-13",
-      "basis": "1 up / 6 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 7 down revision events, 90d, FY26,27",
       "sector_key": "telecommunication",
       "subsector_key": "wireless_communication",
       "sector": "Telecommunication",
       "subsector": "Wireless Communication",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.88,
-      "price_reading": "Confirmed strength",
+      "tech_confidence": 0.8,
+      "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 16,
-        "eps_date": "2026-11-13",
+        "delta_days": 23,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-28",
-        "summary": "Price leads fundamentals by 16 days"
+        "summary": "Price leads fundamentals by 23 days"
       }
     },
     "DRW3": {
       "code": "DRW3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-13",
       "last_report": "2026-10-29",
       "analyst": {
         "code": "DRW3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -13979,16 +13987,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 6.73,
-        "growth_step": 0.59,
+        "growth_pct": 7.98,
+        "growth_step": 0.7,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 8.77,
-        "next_eps": 9.36,
+        "next_eps": 9.47,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.7% (8.77 -> 9.36 EUR)"
+        "summary": "FY27/FY26 growth: +8.0% (8.77 -> 9.47 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -14013,9 +14021,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 8.97,
-            "post": 9.36,
-            "delta": 0.39,
-            "pct": 4.35,
+            "post": 9.47,
+            "delta": 0.5,
+            "pct": 5.57,
             "direction": "UP"
           }
         },
@@ -14030,14 +14038,14 @@ window.FUND_SENT_DATA = {
       ],
       "ups": 1,
       "downs": 3,
-      "lean": "DOWN",
+      "lean": "FLAT",
       "drift": {
         "2026": -2.01,
-        "2027": -0.53
+        "2027": 0.64
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-13",
       "basis": "1 up / 3 down revision events, 90d, FY26,27",
@@ -14048,7 +14056,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.89,
+      "tech_confidence": 0.87,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -14060,19 +14068,19 @@ window.FUND_SENT_DATA = {
     },
     "DUE": {
       "code": "DUE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "DUE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -14095,22 +14103,24 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 27.49,
-        "growth_step": 0.47,
+        "growth_pct": 51.13,
+        "growth_step": 0.68,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.71,
-        "next_eps": 2.18,
+        "base_eps": 1.33,
+        "next_eps": 2.01,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +27.5% (1.71 -> 2.18 EUR)"
+        "summary": "FY27/FY26 growth: +51.1% (1.33 -> 2.01 EUR)",
+        "pre_growth_pct": 34.37,
+        "effective_growth_pct": 34.37
       },
       "consensus": {
-        "reaction": "UP",
+        "reaction": "DOWN",
         "reaction_breadth": "2/2",
-        "up_periods": 2,
-        "down_periods": 0,
+        "up_periods": 0,
+        "down_periods": 2,
         "flat_periods": 0,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
@@ -14122,62 +14132,62 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.6,
-            "post": 1.71,
-            "delta": 0.11,
-            "pct": 6.87,
-            "direction": "UP"
+            "post": 1.33,
+            "delta": -0.27,
+            "pct": -16.88,
+            "direction": "DOWN"
           },
           "2027": {
             "pre": 2.15,
-            "post": 2.18,
-            "delta": 0.03,
-            "pct": 1.4,
-            "direction": "UP"
+            "post": 2.01,
+            "delta": -0.14,
+            "pct": -6.51,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): UP (2 UP / 0 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
-      "direction": "STABLE",
-      "base_direction": "STABLE",
-      "stance": "SUPPORTIVE",
-      "stance_reading": "Recommendation support without meaningful EPS revisions",
+      "direction": "GROWTH_SLOWING",
+      "base_direction": "DETERIORATING",
+      "stance": "CONFLICT",
+      "stance_reading": "Growth intact but slowing while analysts remain bullish",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
       ],
       "ups": 1,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -2.29,
-        "2027": -3.54
+        "2026": -24.0,
+        "2027": -11.06
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-13",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.0,
-      "price_reading": "Healthy pause",
+      "tech_state_date": "2026-11-18",
+      "tech_confidence": 0.45,
+      "price_reading": "Unresolved, wait",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
-        "delta_days": 3,
-        "eps_date": "2026-11-13",
-        "tech_date": "2026-11-10",
-        "summary": "Contemporaneous (+3d)"
+        "delta_days": 2,
+        "eps_date": "2026-11-20",
+        "tech_date": "2026-11-18",
+        "summary": "Contemporaneous (+2d)"
       }
     },
     "EUZ": {
       "code": "EUZ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14189,7 +14199,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-26",
       "analyst": {
         "code": "EUZ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14259,8 +14269,8 @@ window.FUND_SENT_DATA = {
         "2027": -1.12
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -14278,24 +14288,24 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-03-27",
         "tech_date": "2026-10-16",
-        "summary": "last revision was 237d ago (> 90d)"
+        "summary": "last revision was 238d ago (> 90d)"
       }
     },
     "EVT": {
       "code": "EVT",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-12",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "EVT",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEGATIVE",
         "event_count": 1,
@@ -14318,18 +14328,18 @@ window.FUND_SENT_DATA = {
         "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 70.14,
-        "growth_step": 1.01,
+        "growth_pct": 69.93,
+        "growth_step": 1.0,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -1.44,
+        "base_eps": -1.43,
         "next_eps": -0.43,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +70.1% (-1.44 -> -0.43 EUR)",
+        "summary": "FY27/FY26 growth: +69.9% (-1.43 -> -0.43 EUR)",
         "pre_growth_pct": 72.66,
-        "effective_growth_pct": 70.14
+        "effective_growth_pct": 69.93
       },
       "consensus": {
         "reaction": "DOWN",
@@ -14347,9 +14357,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": -1.39,
-            "post": -1.44,
-            "delta": -0.05,
-            "pct": -3.6,
+            "post": -1.43,
+            "delta": -0.04,
+            "pct": -2.88,
             "direction": "DOWN"
           },
           "2027": {
@@ -14374,12 +14384,12 @@ window.FUND_SENT_DATA = {
       "downs": 4,
       "lean": "DOWN",
       "drift": {
-        "2026": -35.85,
+        "2026": -34.91,
         "2027": -53.57
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-12",
       "basis": "1 up / 4 down revision events, 90d, FY26,27",
@@ -14402,7 +14412,7 @@ window.FUND_SENT_DATA = {
     },
     "IXX": {
       "code": "IXX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14414,7 +14424,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "IXX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14469,8 +14479,8 @@ window.FUND_SENT_DATA = {
         "2027": -14.52
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -14493,7 +14503,7 @@ window.FUND_SENT_DATA = {
     },
     "FIE": {
       "code": "FIE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -14505,7 +14515,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-07-09",
       "analyst": {
         "code": "FIE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -14586,8 +14596,8 @@ window.FUND_SENT_DATA = {
         "2027": -5.15
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -14610,19 +14620,19 @@ window.FUND_SENT_DATA = {
     },
     "GFT": {
       "code": "GFT",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-13",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "GFT",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14635,25 +14645,25 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 22.42,
-        "growth_step": 0.37,
+        "growth_pct": 21.21,
+        "growth_step": 0.35,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 1.65,
-        "next_eps": 2.02,
+        "next_eps": 2.0,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +22.4% (1.65 -> 2.02 EUR)",
+        "summary": "FY27/FY26 growth: +21.2% (1.65 -> 2.00 EUR)",
         "pre_growth_pct": 18.6,
         "effective_growth_pct": 18.6
       },
       "consensus": {
         "reaction": "DOWN",
-        "reaction_breadth": "1/2",
+        "reaction_breadth": "2/2",
         "up_periods": 0,
-        "down_periods": 1,
-        "flat_periods": 1,
+        "down_periods": 2,
+        "flat_periods": 0,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -14671,13 +14681,13 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 2.04,
-            "post": 2.02,
-            "delta": -0.02,
-            "pct": -0.98,
-            "direction": "FLAT"
+            "post": 2.0,
+            "delta": -0.04,
+            "pct": -1.96,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
@@ -14688,14 +14698,14 @@ window.FUND_SENT_DATA = {
       ],
       "ups": 0,
       "downs": 2,
-      "lean": "DOWN",
+      "lean": "FLAT",
       "drift": {
         "2026": -2.94,
-        "2027": 0.5
+        "2027": -0.5
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-13",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -14718,19 +14728,19 @@ window.FUND_SENT_DATA = {
     },
     "OHB": {
       "code": "OHB",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": null,
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "OHB",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -14753,23 +14763,23 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 65.48,
-        "growth_step": 2.03,
+        "growth_pct": 64.47,
+        "growth_step": 1.96,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 3.1,
-        "next_eps": 5.13,
+        "base_eps": 3.04,
+        "next_eps": 5.0,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +65.5% (3.10 -> 5.13 EUR)"
+        "summary": "FY27/FY26 growth: +64.5% (3.04 -> 5.00 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
-        "reaction_breadth": "1/2",
+        "reaction_breadth": "2/2",
         "up_periods": 0,
-        "down_periods": 1,
-        "flat_periods": 1,
+        "down_periods": 2,
+        "flat_periods": 0,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -14780,41 +14790,42 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 3.14,
-            "post": 3.1,
-            "delta": -0.04,
-            "pct": -1.27,
+            "post": 3.04,
+            "delta": -0.1,
+            "pct": -3.18,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 5.09,
-            "post": 5.13,
-            "delta": 0.04,
-            "pct": 0.79,
-            "direction": "FLAT"
+            "post": 5.0,
+            "delta": -0.09,
+            "pct": -1.77,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "SUPPORTIVE",
       "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
+        "WATCH_DOWN",
         "POST_REPORT_EARLY"
       ],
       "ups": 0,
-      "downs": 0,
+      "downs": 1,
       "lean": "FLAT",
       "drift": {
-        "2026": 0.65,
-        "2027": 1.18
+        "2026": -1.3,
+        "2027": -1.38
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": null,
-      "basis": "0 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "0 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "technology",
       "subsector_key": "communications_technology",
       "sector": "Technology",
@@ -14825,28 +14836,28 @@ window.FUND_SENT_DATA = {
       "tech_confidence": 0.0,
       "price_reading": "Healthy pause",
       "lead_lag": {
-        "timing": "INSUFFICIENT",
-        "delta_days": null,
-        "eps_date": null,
+        "timing": "PRICE_LEADS",
+        "delta_days": 7,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-13",
-        "summary": "missing date for lead/lag calculation"
+        "summary": "Price leads fundamentals by 7 days"
       }
     },
     "HBH": {
       "code": "HBH",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-30",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-06-26",
       "last_report": "2026-09-29",
       "analyst": {
         "code": "HBH",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14859,23 +14870,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 6.7,
-        "growth_step": 0.61,
+        "growth_pct": 6.18,
+        "growth_step": 0.57,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 9.11,
-        "next_eps": 9.72,
+        "base_eps": 9.23,
+        "next_eps": 9.8,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +6.7% (9.11 -> 9.72 EUR)"
+        "summary": "FY27/FY26 growth: +6.2% (9.23 -> 9.80 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
-        "reaction_breadth": "2/2",
+        "reaction_breadth": "1/2",
         "up_periods": 0,
-        "down_periods": 2,
-        "flat_periods": 0,
+        "down_periods": 1,
+        "flat_periods": 1,
         "last_report_date": "2026-09-29",
         "last_report_period": "26Q2",
         "is_stale": false,
@@ -14886,20 +14897,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 9.29,
-            "post": 9.11,
-            "delta": -0.18,
-            "pct": -1.94,
-            "direction": "DOWN"
+            "post": 9.23,
+            "delta": -0.06,
+            "pct": -0.65,
+            "direction": "FLAT"
           },
           "2027": {
             "pre": 9.93,
-            "post": 9.72,
-            "delta": -0.21,
-            "pct": -2.11,
+            "post": 9.8,
+            "delta": -0.13,
+            "pct": -1.31,
             "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q2 (2026-09-29): DOWN (0 UP / 2 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q2 (2026-09-29): DOWN (0 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -14910,12 +14921,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "FLAT",
       "drift": {
-        "2026": -0.11,
-        "2027": 0.52
+        "2026": 1.21,
+        "2027": 1.34
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -14926,31 +14937,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.83,
+      "tech_confidence": 0.82,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-06-26",
         "tech_date": "2026-10-20",
-        "summary": "last revision was 146d ago (> 90d)"
+        "summary": "last revision was 147d ago (> 90d)"
       }
     },
     "INH": {
       "code": "INH",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-13",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "INH",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -14963,16 +14974,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -21.43,
-        "growth_step": -1.11,
+        "growth_pct": -21.82,
+        "growth_step": -1.15,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 5.18,
-        "next_eps": 4.07,
+        "base_eps": 5.27,
+        "next_eps": 4.12,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -21.4% (5.18 -> 4.07 EUR)"
+        "summary": "FY27/FY26 growth: -21.8% (5.27 -> 4.12 EUR)"
       },
       "consensus": {
         "reaction": "MIXED",
@@ -14990,16 +15001,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 4.95,
-            "post": 5.18,
-            "delta": 0.23,
-            "pct": 4.65,
+            "post": 5.27,
+            "delta": 0.32,
+            "pct": 6.46,
             "direction": "UP"
           },
           "2027": {
             "pre": 4.17,
-            "post": 4.07,
-            "delta": -0.1,
-            "pct": -2.4,
+            "post": 4.12,
+            "delta": -0.05,
+            "pct": -1.2,
             "direction": "DOWN"
           }
         },
@@ -15017,12 +15028,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 47.16,
-        "2027": 7.67
+        "2026": 49.72,
+        "2027": 8.99
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-11-13",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -15030,10 +15041,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_diversified",
       "sector": "Industrial",
       "subsector": "Industrial, Diversified",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.59,
+      "tech_confidence": 0.54,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -15045,19 +15056,19 @@ window.FUND_SENT_DATA = {
     },
     "JUN3": {
       "code": "JUN3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-09",
       "last_report": "2026-03-27",
       "analyst": {
         "code": "JUN3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -15080,16 +15091,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 25.57,
-        "growth_step": 0.56,
+        "growth_pct": 23.08,
+        "growth_step": 0.51,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.19,
-        "next_eps": 2.75,
+        "base_eps": 2.21,
+        "next_eps": 2.72,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +25.6% (2.19 -> 2.75 EUR)",
+        "summary": "FY27/FY26 growth: +23.1% (2.21 -> 2.72 EUR)",
         "pre_growth_pct": 17.99,
         "effective_growth_pct": 17.99
       },
@@ -15109,16 +15120,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.89,
-            "post": 2.19,
-            "delta": -0.7,
-            "pct": -24.22,
+            "post": 2.21,
+            "delta": -0.68,
+            "pct": -23.53,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 3.41,
-            "post": 2.75,
-            "delta": -0.66,
-            "pct": -19.35,
+            "post": 2.72,
+            "delta": -0.69,
+            "pct": -20.23,
             "direction": "DOWN"
           }
         },
@@ -15136,12 +15147,12 @@ window.FUND_SENT_DATA = {
       "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": -9.5,
-        "2027": -7.41
+        "2026": -8.68,
+        "2027": -8.42
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-09",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -15164,19 +15175,19 @@ window.FUND_SENT_DATA = {
     },
     "KSB3": {
       "code": "KSB3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-07-25",
       "last_report": "2026-02-03",
       "analyst": {
         "code": "KSB3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15189,16 +15200,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 12.33,
-        "growth_step": 9.98,
+        "growth_pct": 12.47,
+        "growth_step": 10.08,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 80.94,
-        "next_eps": 90.92,
+        "base_eps": 80.82,
+        "next_eps": 90.9,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +12.3% (80.94 -> 90.92 EUR)"
+        "summary": "FY27/FY26 growth: +12.5% (80.82 -> 90.90 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -15216,16 +15227,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 93.6,
-            "post": 80.94,
-            "delta": -12.66,
-            "pct": -13.53,
+            "post": 80.82,
+            "delta": -12.78,
+            "pct": -13.65,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 105.07,
-            "post": 90.92,
-            "delta": -14.15,
-            "pct": -13.47,
+            "post": 90.9,
+            "delta": -14.17,
+            "pct": -13.49,
             "direction": "DOWN"
           }
         },
@@ -15242,12 +15253,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "FLAT",
       "drift": {
-        "2026": -0.67,
-        "2027": -1.54
+        "2026": -0.82,
+        "2027": -1.56
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -15265,12 +15276,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-07-25",
         "tech_date": "2026-11-10",
-        "summary": "last revision was 117d ago (> 90d)"
+        "summary": "last revision was 118d ago (> 90d)"
       }
     },
     "LPK": {
       "code": "LPK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15282,7 +15293,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-26",
       "analyst": {
         "code": "LPK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15353,8 +15364,8 @@ window.FUND_SENT_DATA = {
         "2027": -5.56
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-09",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -15362,11 +15373,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "advanced_industrial_equipment",
       "sector": "Industrial",
       "subsector": "Advanced Industrial Equipment",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "TRANSITION",
+      "tech_family": "TURNING",
       "tech_state_date": "2026-10-16",
-      "tech_confidence": 0.0,
-      "price_reading": "Pause may resolve down",
+      "tech_confidence": 0.46,
+      "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
         "delta_days": -7,
@@ -15377,19 +15388,19 @@ window.FUND_SENT_DATA = {
     },
     "MLP": {
       "code": "MLP",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-10-09",
       "last_report": "2026-08-13",
       "analyst": {
         "code": "MLP",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15402,16 +15413,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 9.33,
-        "growth_step": 0.07,
+        "growth_pct": 10.53,
+        "growth_step": 0.08,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.75,
-        "next_eps": 0.82,
+        "base_eps": 0.76,
+        "next_eps": 0.84,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +9.3% (0.75 -> 0.82 EUR)"
+        "summary": "FY27/FY26 growth: +10.5% (0.76 -> 0.84 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -15429,16 +15440,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.68,
-            "post": 0.75,
-            "delta": 0.07,
-            "pct": 10.29,
+            "post": 0.76,
+            "delta": 0.08,
+            "pct": 11.76,
             "direction": "UP"
           },
           "2027": {
             "pre": 0.78,
-            "post": 0.82,
-            "delta": 0.04,
-            "pct": 5.13,
+            "post": 0.84,
+            "delta": 0.06,
+            "pct": 7.69,
             "direction": "UP"
           }
         },
@@ -15456,12 +15467,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 10.29,
-        "2027": 5.13
+        "2026": 11.76,
+        "2027": 7.69
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-10-09",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -15469,10 +15480,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-09-23",
-      "tech_confidence": 0.87,
+      "tech_confidence": 0.81,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -15484,19 +15495,19 @@ window.FUND_SENT_DATA = {
     },
     "KWS": {
       "code": "KWS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
-      "last_sig_rev": "2026-10-09",
-      "last_report": "2026-09-23",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
+      "last_report": "2026-11-11",
       "analyst": {
         "code": "KWS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -15519,16 +15530,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": -9.52,
-        "growth_step": -0.53,
+        "growth_pct": -11.49,
+        "growth_step": -0.64,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 5.57,
-        "next_eps": 5.04,
+        "next_eps": 4.93,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -9.5% (5.57 -> 5.04 EUR)"
+        "summary": "FY27/FY26 growth: -11.5% (5.57 -> 4.93 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -15536,8 +15547,8 @@ window.FUND_SENT_DATA = {
         "up_periods": 0,
         "down_periods": 1,
         "flat_periods": 0,
-        "last_report_date": "2026-09-23",
-        "last_report_period": "26Q4",
+        "last_report_date": "2026-11-11",
+        "last_report_period": "27Q1",
         "is_stale": false,
         "periods_analyzed": [
           "2026",
@@ -15545,35 +15556,36 @@ window.FUND_SENT_DATA = {
         ],
         "details": {
           "2027": {
-            "pre": 5.75,
-            "post": 5.04,
-            "delta": -0.71,
-            "pct": -12.35,
+            "pre": 5.07,
+            "post": 4.93,
+            "delta": -0.14,
+            "pct": -2.76,
             "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q4 (2026-09-23): DOWN (0 UP / 1 DOWN across 1 periods)"
+        "summary": "Reaction after 27Q1 (2026-11-11): DOWN (0 UP / 1 DOWN across 1 periods)"
       },
-      "direction": "DETERIORATING",
-      "base_direction": "DETERIORATING",
-      "stance": "CONFLICT",
-      "stance_reading": "Conflict: analyst optimism against falling EPS expectations",
+      "direction": "STABLE",
+      "base_direction": "STABLE",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
-        "CONFLICT"
+        "CONFLICT",
+        "POST_REPORT_EARLY"
       ],
       "ups": 1,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
         "2026": 1.09,
-        "2027": -8.03
+        "2027": -10.04
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-10-09",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "food_beverages",
       "subsector_key": "food",
       "sector": "Food & Beverages",
@@ -15582,30 +15594,30 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-09-22",
       "tech_confidence": 0.43,
-      "price_reading": "Unresolved, wait [Caution: Negative forward growth -9.5%]",
+      "price_reading": "Healthy pause [Caution: Negative forward growth -11.5%]",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 17,
-        "eps_date": "2026-10-09",
+        "delta_days": 59,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-09-22",
-        "summary": "Price leads fundamentals by 17 days"
+        "summary": "Price leads fundamentals by 59 days"
       }
     },
     "SIX2": {
       "code": "SIX2",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-03-17",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SIX2",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15618,23 +15630,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 8.1,
+        "growth_pct": 8.07,
         "growth_step": 0.57,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 7.04,
-        "next_eps": 7.61,
+        "base_eps": 7.06,
+        "next_eps": 7.63,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +8.1% (7.04 -> 7.61 EUR)"
+        "summary": "FY27/FY26 growth: +8.1% (7.06 -> 7.63 EUR)"
       },
       "consensus": {
-        "reaction": "DOWN",
-        "reaction_breadth": "1/2",
+        "reaction": "NONE",
+        "reaction_breadth": "0/2",
         "up_periods": 0,
-        "down_periods": 1,
-        "flat_periods": 1,
+        "down_periods": 0,
+        "flat_periods": 2,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -15645,20 +15657,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 7.1,
-            "post": 7.04,
-            "delta": -0.06,
-            "pct": -0.85,
+            "post": 7.06,
+            "delta": -0.04,
+            "pct": -0.56,
             "direction": "FLAT"
           },
           "2027": {
             "pre": 7.7,
-            "post": 7.61,
-            "delta": -0.09,
-            "pct": -1.17,
-            "direction": "DOWN"
+            "post": 7.63,
+            "delta": -0.07,
+            "pct": -0.91,
+            "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -15671,12 +15683,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 2.18,
-        "2027": 0.26
+        "2026": 2.47,
+        "2027": 0.53
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -15684,34 +15696,34 @@ window.FUND_SENT_DATA = {
       "subsector_key": "transportation_services",
       "sector": "Transportation & Logistics",
       "subsector": "Transportation Services",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-05",
-      "tech_confidence": 0.68,
+      "tech_confidence": 0.66,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-03-17",
         "tech_date": "2026-10-05",
-        "summary": "last revision was 247d ago (> 90d)"
+        "summary": "last revision was 248d ago (> 90d)"
       }
     },
     "SGL": {
       "code": "SGL",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-09",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-09",
       "last_report": "2026-03-19",
       "analyst": {
         "code": "SGL",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 2,
@@ -15734,16 +15746,16 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 17.24,
+        "growth_pct": 16.67,
         "growth_step": 0.05,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.29,
-        "next_eps": 0.34,
+        "base_eps": 0.3,
+        "next_eps": 0.35,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.2% (0.29 -> 0.34 EUR)"
+        "summary": "FY27/FY26 growth: +16.7% (0.30 -> 0.35 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -15761,16 +15773,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.18,
-            "post": 0.29,
-            "delta": 0.11,
-            "pct": 61.11,
+            "post": 0.3,
+            "delta": 0.12,
+            "pct": 66.67,
             "direction": "UP"
           },
           "2027": {
             "pre": 0.33,
-            "post": 0.34,
-            "delta": 0.01,
-            "pct": 3.03,
+            "post": 0.35,
+            "delta": 0.02,
+            "pct": 6.06,
             "direction": "UP"
           }
         },
@@ -15787,12 +15799,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 45.0,
-        "2027": 17.24
+        "2026": 50.0,
+        "2027": 20.69
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-09",
       "basis": "2 up / 0 down revision events, 90d, FY26,27",
@@ -15803,7 +15815,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-16",
-      "tech_confidence": 0.56,
+      "tech_confidence": 0.49,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -15815,7 +15827,7 @@ window.FUND_SENT_DATA = {
     },
     "STO3": {
       "code": "STO3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -15827,7 +15839,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "STO3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15898,8 +15910,8 @@ window.FUND_SENT_DATA = {
         "2027": 1.6
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-11-12",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -15909,32 +15921,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Building Materials",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-14",
-      "tech_confidence": 0.81,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.7,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 29,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -7,
         "eps_date": "2026-11-12",
-        "tech_date": "2026-10-14",
-        "summary": "Price leads fundamentals by 29 days"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 7 days"
       }
     },
     "YSN": {
       "code": "YSN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-02",
-      "last_sig_rev": "2026-10-02",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-08-13",
       "analyst": {
         "code": "YSN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -15947,23 +15959,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 27.52,
-        "growth_step": 1.69,
+        "growth_pct": 28.71,
+        "growth_step": 1.72,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 6.14,
-        "next_eps": 7.83,
+        "base_eps": 5.99,
+        "next_eps": 7.71,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +27.5% (6.14 -> 7.83 EUR)"
+        "summary": "FY27/FY26 growth: +28.7% (5.99 -> 7.71 EUR)"
       },
       "consensus": {
-        "reaction": "UP",
-        "reaction_breadth": "1/2",
+        "reaction": "MIXED",
+        "reaction_breadth": "2/2",
         "up_periods": 1,
-        "down_periods": 0,
-        "flat_periods": 1,
+        "down_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-08-13",
         "last_report_period": "26H1",
         "is_stale": true,
@@ -15974,42 +15986,42 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 6.1,
-            "post": 6.14,
-            "delta": 0.04,
-            "pct": 0.66,
-            "direction": "FLAT"
+            "post": 5.99,
+            "delta": -0.11,
+            "pct": -1.8,
+            "direction": "DOWN"
           },
           "2027": {
             "pre": 7.39,
-            "post": 7.83,
-            "delta": 0.44,
-            "pct": 5.95,
+            "post": 7.71,
+            "delta": 0.32,
+            "pct": 4.33,
             "direction": "UP"
           }
         },
-        "summary": "Reaction after 26H1 (2026-08-13): UP (1 UP / 0 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 26H1 (2026-08-13): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "WATCH_UP",
+        "CONFLICT",
         "STALE_REPORT"
       ],
       "ups": 1,
-      "downs": 0,
+      "downs": 1,
       "lean": "UP",
       "drift": {
-        "2026": 0.66,
-        "2027": 5.95
+        "2026": -1.8,
+        "2027": 4.33
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-10-02",
-      "basis": "1 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "software",
       "subsector_key": "it_services",
       "sector": "Software",
@@ -16020,16 +16032,16 @@ window.FUND_SENT_DATA = {
       "tech_confidence": 0.44,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -40,
-        "eps_date": "2026-10-02",
+        "timing": "PRICE_LEADS",
+        "delta_days": 9,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-11",
-        "summary": "Fundamentals lead price by 40 days"
+        "summary": "Price leads fundamentals by 9 days"
       }
     },
     "SZU": {
       "code": "SZU",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16041,7 +16053,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2025-10-09",
       "analyst": {
         "code": "SZU",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16112,8 +16124,8 @@ window.FUND_SENT_DATA = {
         "2027": -6.1
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-30",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -16121,7 +16133,7 @@ window.FUND_SENT_DATA = {
       "subsector_key": "food",
       "sector": "Food & Beverages",
       "subsector": "Food",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
       "tech_confidence": 0.58,
@@ -16136,7 +16148,7 @@ window.FUND_SENT_DATA = {
     },
     "HDD": {
       "code": "HDD",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16148,7 +16160,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2025-07-13",
       "analyst": {
         "code": "HDD",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16221,8 +16233,8 @@ window.FUND_SENT_DATA = {
         "2027": -38.89
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -16245,19 +16257,19 @@ window.FUND_SENT_DATA = {
     },
     "TPE": {
       "code": "TPE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
-      "last_sig_rev": "2026-09-08",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-05",
       "analyst": {
         "code": "TPE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16270,22 +16282,22 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 188.1,
-        "growth_step": 0.79,
+        "growth_pct": 204.76,
+        "growth_step": 0.86,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 0.42,
-        "next_eps": 1.21,
+        "next_eps": 1.28,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +188.1% (0.42 -> 1.21 EUR)"
+        "summary": "FY27/FY26 growth: +204.8% (0.42 -> 1.28 EUR)"
       },
       "consensus": {
-        "reaction": "DOWN",
+        "reaction": "MIXED",
         "reaction_breadth": "2/2",
-        "up_periods": 0,
-        "down_periods": 2,
+        "up_periods": 1,
+        "down_periods": 1,
         "flat_periods": 0,
         "last_report_date": "2026-11-05",
         "last_report_period": "26Q3",
@@ -16304,35 +16316,34 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 1.25,
-            "post": 1.21,
-            "delta": -0.04,
-            "pct": -3.2,
-            "direction": "DOWN"
+            "post": 1.28,
+            "delta": 0.03,
+            "pct": 2.4,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-05): DOWN (0 UP / 2 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-05): MIXED (1 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "WATCH_DOWN",
-        "POST_REPORT_EARLY"
+        "CONFLICT"
       ],
-      "ups": 0,
+      "ups": 1,
       "downs": 1,
       "lean": "DOWN",
       "drift": {
         "2026": -19.23,
-        "2027": -5.47
+        "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-09-08",
-      "basis": "0 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "1 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "advanced_industrial_equipment",
       "sector": "Industrial",
@@ -16340,31 +16351,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-21",
-      "tech_confidence": 0.39,
+      "tech_confidence": 0.44,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -43,
-        "eps_date": "2026-09-08",
+        "timing": "PRICE_LEADS",
+        "delta_days": 30,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-21",
-        "summary": "Fundamentals lead price by 43 days"
+        "summary": "Price leads fundamentals by 30 days"
       }
     },
     "DEQ": {
       "code": "DEQ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-09",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-09",
       "last_report": "2026-03-31",
       "analyst": {
         "code": "DEQ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16377,16 +16388,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -2.41,
-        "growth_step": -0.04,
+        "growth_pct": -3.59,
+        "growth_step": -0.06,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.66,
-        "next_eps": 1.62,
+        "base_eps": 1.67,
+        "next_eps": 1.61,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -2.4% (1.66 -> 1.62 EUR)"
+        "summary": "FY27/FY26 growth: -3.6% (1.67 -> 1.61 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -16404,16 +16415,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.9,
-            "post": 1.66,
-            "delta": -0.24,
-            "pct": -12.63,
+            "post": 1.67,
+            "delta": -0.23,
+            "pct": -12.11,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 1.95,
-            "post": 1.62,
-            "delta": -0.33,
-            "pct": -16.92,
+            "post": 1.61,
+            "delta": -0.34,
+            "pct": -17.44,
             "direction": "DOWN"
           }
         },
@@ -16431,12 +16442,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "UP",
       "drift": {
-        "2026": 16.08,
-        "2027": 0.62
+        "2026": 16.78,
+        "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-09",
       "basis": "2 up / 1 down revision events, 90d, FY26,27",
@@ -16447,7 +16458,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.49,
+      "tech_confidence": 0.6,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -16459,7 +16470,7 @@ window.FUND_SENT_DATA = {
     },
     "F3C": {
       "code": "F3C",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -16471,7 +16482,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-14",
       "analyst": {
         "code": "F3C",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16542,8 +16553,8 @@ window.FUND_SENT_DATA = {
         "2027": 4.95
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-06",
       "basis": "1 up / 1 down revision events, 90d, FY26,27",
@@ -16553,32 +16564,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Renewable Energies",
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
-      "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.64,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.6,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": -4,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -13,
         "eps_date": "2026-11-06",
-        "tech_date": "2026-11-10",
-        "summary": "Contemporaneous (-4d)"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 13 days"
       }
     },
     "VOS": {
       "code": "VOS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-10-22",
       "analyst": {
         "code": "VOS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 2,
@@ -16601,18 +16612,18 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 2 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 44.02,
-        "growth_step": 1.03,
+        "growth_pct": 53.99,
+        "growth_step": 1.15,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.34,
-        "next_eps": 3.37,
+        "base_eps": 2.13,
+        "next_eps": 3.28,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +44.0% (2.34 -> 3.37 EUR)",
+        "summary": "FY27/FY26 growth: +54.0% (2.13 -> 3.28 EUR)",
         "pre_growth_pct": 46.12,
-        "effective_growth_pct": 44.02
+        "effective_growth_pct": 46.12
       },
       "consensus": {
         "reaction": "DOWN",
@@ -16630,16 +16641,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.45,
-            "post": 2.34,
-            "delta": -0.11,
-            "pct": -4.49,
+            "post": 2.13,
+            "delta": -0.32,
+            "pct": -13.06,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 3.58,
-            "post": 3.37,
-            "delta": -0.21,
-            "pct": -5.87,
+            "post": 3.28,
+            "delta": -0.3,
+            "pct": -8.38,
             "direction": "DOWN"
           }
         },
@@ -16651,18 +16662,18 @@ window.FUND_SENT_DATA = {
       "stance_reading": "Growth intact, revisions negative; watch",
       "flags": [],
       "ups": 0,
-      "downs": 6,
+      "downs": 7,
       "lean": "DOWN",
       "drift": {
-        "2026": -18.47,
-        "2027": -18.99
+        "2026": -25.78,
+        "2027": -21.15
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-13",
-      "basis": "0 up / 6 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "0 up / 7 down revision events, 90d, FY26,27",
       "sector_key": "construction",
       "subsector_key": "construction_engineering",
       "sector": "Construction",
@@ -16670,31 +16681,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.5,
+      "tech_confidence": 0.47,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 4,
-        "eps_date": "2026-11-13",
+        "timing": "PRICE_LEADS",
+        "delta_days": 11,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-09",
-        "summary": "Contemporaneous (+4d)"
+        "summary": "Price leads fundamentals by 11 days"
       }
     },
     "PBB": {
       "code": "PBB",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-13",
       "last_report": "2026-03-05",
       "analyst": {
         "code": "PBB",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16708,15 +16719,15 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 0.35,
+        "growth_step": 0.34,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.04,
-        "next_eps": 0.39,
+        "base_eps": 0.03,
+        "next_eps": 0.37,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (0.04 -> 0.39 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (0.03 -> 0.37 EUR) [near-zero guard]"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -16734,16 +16745,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.37,
-            "post": 0.04,
-            "delta": -0.33,
-            "pct": -89.19,
+            "post": 0.03,
+            "delta": -0.34,
+            "pct": -91.89,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 0.71,
-            "post": 0.39,
-            "delta": -0.32,
-            "pct": -45.07,
+            "post": 0.37,
+            "delta": -0.34,
+            "pct": -47.89,
             "direction": "DOWN"
           }
         },
@@ -16761,12 +16772,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -42.86,
-        "2027": -13.33
+        "2026": -57.14,
+        "2027": -17.78
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-13",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -16789,19 +16800,19 @@ window.FUND_SENT_DATA = {
     },
     "S92": {
       "code": "S92",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-13",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "S92",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -16816,24 +16827,24 @@ window.FUND_SENT_DATA = {
           "bank_short": "DZ Bank",
           "sentiment": "HOLD",
           "headline": "ANALYSE-FLASH: DZ Bank senkt fairen Wert fuer SMA Solar auf 52 Euro - 'Halten'",
-          "ret_w1": null,
+          "ret_w1": -7.502,
           "ret_w2": null,
-          "w1_disp": "n/a",
+          "w1_disp": "-7.5%",
           "w2_disp": "pending"
         },
         "summary": "POSITIVE (1 BUY / 1 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 27.3,
-        "growth_step": 0.86,
+        "growth_pct": 26.9,
+        "growth_step": 0.85,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 3.15,
+        "base_eps": 3.16,
         "next_eps": 4.01,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +27.3% (3.15 -> 4.01 EUR)"
+        "summary": "FY27/FY26 growth: +26.9% (3.16 -> 4.01 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -16851,9 +16862,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 3.04,
-            "post": 3.15,
-            "delta": 0.11,
-            "pct": 3.62,
+            "post": 3.16,
+            "delta": 0.12,
+            "pct": 3.95,
             "direction": "UP"
           }
         },
@@ -16871,12 +16882,12 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "UP",
       "drift": {
-        "2026": 22.09,
+        "2026": 22.48,
         "2027": 11.08
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-13",
       "basis": "2 up / 1 down revision events, 90d, FY26,27",
@@ -16899,19 +16910,19 @@ window.FUND_SENT_DATA = {
     },
     "MBB": {
       "code": "MBB",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-06",
-      "last_sig_rev": "2026-11-06",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-05-12",
       "analyst": {
         "code": "MBB",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -16924,16 +16935,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 7.37,
-        "growth_step": 1.14,
+        "growth_pct": 6.54,
+        "growth_step": 1.05,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 15.47,
-        "next_eps": 16.61,
+        "base_eps": 16.05,
+        "next_eps": 17.1,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +7.4% (15.47 -> 16.61 EUR)"
+        "summary": "FY27/FY26 growth: +6.5% (16.05 -> 17.10 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -16951,16 +16962,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 17.28,
-            "post": 15.47,
-            "delta": -1.81,
-            "pct": -10.47,
+            "post": 16.05,
+            "delta": -1.23,
+            "pct": -7.12,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 18.3,
-            "post": 16.61,
-            "delta": -1.69,
-            "pct": -9.23,
+            "post": 17.1,
+            "delta": -1.2,
+            "pct": -6.56,
             "direction": "DOWN"
           }
         },
@@ -16974,51 +16985,51 @@ window.FUND_SENT_DATA = {
         "CONFLICT",
         "STALE_REPORT"
       ],
-      "ups": 2,
+      "ups": 3,
       "downs": 1,
       "lean": "UP",
       "drift": {
-        "2026": 12.43,
-        "2027": 11.03
+        "2026": 16.64,
+        "2027": 14.3
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-06",
-      "basis": "2 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "3 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_diversified",
       "sector": "Industrial",
       "subsector": "Industrial, Diversified",
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.79,
+      "tech_state_date": "2026-11-19",
+      "tech_confidence": 0.7,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -7,
-        "eps_date": "2026-11-06",
-        "tech_date": "2026-11-13",
-        "summary": "Fundamentals lead price by 7 days"
+        "timing": "SYNCHRONOUS",
+        "delta_days": 1,
+        "eps_date": "2026-11-20",
+        "tech_date": "2026-11-19",
+        "summary": "Contemporaneous (+1d)"
       }
     },
     "PNE3": {
       "code": "PNE3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-10-23",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-05-13",
       "analyst": {
         "code": "PNE3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17032,15 +17043,17 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 0.34,
+        "growth_step": 0.42,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -0.07,
+        "base_eps": -0.15,
         "next_eps": 0.27,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.07 -> 0.27 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-0.15 -> 0.27 EUR) [near-zero guard]",
+        "pre_growth_pct": 40.91,
+        "effective_growth_pct": 40.91
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17058,9 +17071,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.22,
-            "post": -0.07,
-            "delta": -0.29,
-            "pct": -131.82,
+            "post": -0.15,
+            "delta": -0.37,
+            "pct": -168.18,
             "direction": "DOWN"
           },
           "2027": {
@@ -17073,27 +17086,27 @@ window.FUND_SENT_DATA = {
         },
         "summary": "Reaction after 26Q1 (2026-05-13): DOWN (0 UP / 2 DOWN across 2 periods) [STALE]"
       },
-      "direction": "STABLE",
-      "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "direction": "DETERIORATING",
+      "base_direction": "DETERIORATING",
+      "stance": "PRESSURE",
+      "stance_reading": "Pressure: falling estimates, analysts silent",
       "flags": [
-        "WATCH_DOWN",
+        "SEVERE_CUT",
         "STALE_REPORT"
       ],
       "ups": 0,
-      "downs": 1,
+      "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": -126.92,
+        "2026": -157.69,
         "2027": -12.9
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-10-23",
-      "basis": "0 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "0 up / 2 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "renewable_energies",
       "sector": "Industrial",
@@ -17102,30 +17115,30 @@ window.FUND_SENT_DATA = {
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-13",
       "tech_confidence": 0.58,
-      "price_reading": "Technical reading stands alone",
+      "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 10,
-        "eps_date": "2026-10-23",
+        "delta_days": 38,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-13",
-        "summary": "Price leads fundamentals by 10 days"
+        "summary": "Price leads fundamentals by 38 days"
       }
     },
     "VBK": {
       "code": "VBK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-12",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "VBK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -17148,16 +17161,16 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 84.44,
-        "growth_step": 0.76,
+        "growth_pct": 92.22,
+        "growth_step": 0.83,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 0.9,
-        "next_eps": 1.66,
+        "next_eps": 1.73,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +84.4% (0.90 -> 1.66 EUR)"
+        "summary": "FY27/FY26 growth: +92.2% (0.90 -> 1.73 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17175,9 +17188,9 @@ window.FUND_SENT_DATA = {
         "details": {
           "2027": {
             "pre": 1.98,
-            "post": 1.66,
-            "delta": -0.32,
-            "pct": -16.16,
+            "post": 1.73,
+            "delta": -0.25,
+            "pct": -12.63,
             "direction": "DOWN"
           }
         },
@@ -17191,19 +17204,19 @@ window.FUND_SENT_DATA = {
         "CONFLICT",
         "POST_REPORT_EARLY"
       ],
-      "ups": 1,
+      "ups": 2,
       "downs": 1,
       "lean": "MIXED",
       "drift": {
         "2026": 18.42,
-        "2027": -12.17
+        "2027": -8.47
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-12",
-      "basis": "1 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "2 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "renewable_energies",
       "sector": "Industrial",
@@ -17211,19 +17224,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-10",
-      "tech_confidence": 0.46,
+      "tech_confidence": 0.43,
       "price_reading": "Unresolved, wait",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 2,
-        "eps_date": "2026-11-12",
+        "timing": "PRICE_LEADS",
+        "delta_days": 10,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-10",
-        "summary": "Contemporaneous (+2d)"
+        "summary": "Price leads fundamentals by 10 days"
       }
     },
     "HFG": {
       "code": "HFG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17235,14 +17248,14 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "HFG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
-        "bias": "NEUTRAL",
-        "event_count": 2,
+        "bias": "POSITIVE",
+        "event_count": 1,
         "buy_count": 1,
         "hold_count": 0,
-        "sell_count": 1,
-        "distinct_banks": 2,
+        "sell_count": 0,
+        "distinct_banks": 1,
         "flags": [],
         "latest_event": {
           "date": "2026-11-06",
@@ -17251,11 +17264,11 @@ window.FUND_SENT_DATA = {
           "sentiment": "BUY",
           "headline": "ANALYSE-FLASH: Jefferies senkt Ziel fuer Hellofresh auf 4,70 Euro - 'Buy'",
           "ret_w1": 0.3344,
-          "ret_w2": null,
+          "ret_w2": 2.3411,
           "w1_disp": "+0.3%",
-          "w2_disp": "pending"
+          "w2_disp": "+2.3%"
         },
-        "summary": "NEUTRAL (1 BUY / 0 HOLD / 1 SELL across 2 banks, 90d)"
+        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
         "growth_pct": -34.38,
@@ -17302,8 +17315,8 @@ window.FUND_SENT_DATA = {
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
         "POST_REPORT_EARLY"
@@ -17316,8 +17329,8 @@ window.FUND_SENT_DATA = {
         "2027": -68.66
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-12",
       "basis": "1 up / 4 down revision events, 90d, FY26,27",
@@ -17328,8 +17341,8 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-17",
-      "tech_confidence": 0.64,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.66,
+      "price_reading": "Turn backed by fundamentals [Caution: Negative forward growth -34.4%]",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": -5,
@@ -17340,19 +17353,19 @@ window.FUND_SENT_DATA = {
     },
     "GLJ": {
       "code": "GLJ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-09-08",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-08",
       "last_report": "2026-08-13",
       "analyst": {
         "code": "GLJ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17365,16 +17378,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 17.52,
-        "growth_step": 0.24,
+        "growth_pct": 16.06,
+        "growth_step": 0.22,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 1.37,
-        "next_eps": 1.61,
+        "next_eps": 1.59,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.5% (1.37 -> 1.61 EUR)"
+        "summary": "FY27/FY26 growth: +16.1% (1.37 -> 1.59 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17399,9 +17412,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 1.76,
-            "post": 1.61,
-            "delta": -0.15,
-            "pct": -8.52,
+            "post": 1.59,
+            "delta": -0.17,
+            "pct": -9.66,
             "direction": "DOWN"
           }
         },
@@ -17420,11 +17433,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": -3.52,
-        "2027": -8.52
+        "2027": -9.66
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -17432,8 +17445,8 @@ window.FUND_SENT_DATA = {
       "subsector_key": "diversified_financial",
       "sector": "Financial Services",
       "subsector": "Diversified Financial",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-28",
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
@@ -17447,19 +17460,19 @@ window.FUND_SENT_DATA = {
     },
     "NOEJ": {
       "code": "NOEJ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-03",
       "analyst": {
         "code": "NOEJ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17472,23 +17485,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 300.0,
-        "growth_step": 0.81,
+        "growth_pct": 430.43,
+        "growth_step": 0.99,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.27,
-        "next_eps": 1.08,
+        "base_eps": 0.23,
+        "next_eps": 1.22,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +300.0% (0.27 -> 1.08 EUR)"
+        "summary": "FY27/FY26 growth: +430.4% (0.23 -> 1.22 EUR)"
       },
       "consensus": {
-        "reaction": "DOWN",
-        "reaction_breadth": "1/2",
-        "up_periods": 0,
+        "reaction": "MIXED",
+        "reaction_breadth": "2/2",
+        "up_periods": 1,
         "down_periods": 1,
-        "flat_periods": 1,
+        "flat_periods": 0,
         "last_report_date": "2026-11-03",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -17499,41 +17512,40 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.27,
-            "post": 0.27,
-            "delta": 0.0,
-            "pct": 0.0,
-            "direction": "FLAT"
+            "post": 0.23,
+            "delta": -0.04,
+            "pct": -14.81,
+            "direction": "DOWN"
           },
           "2027": {
             "pre": 1.13,
-            "post": 1.08,
-            "delta": -0.05,
-            "pct": -4.42,
-            "direction": "DOWN"
+            "post": 1.22,
+            "delta": 0.09,
+            "pct": 7.96,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-03): DOWN (0 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-03): MIXED (1 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "CONFLICT",
-        "POST_REPORT_EARLY"
+        "CONFLICT"
       ],
       "ups": 2,
       "downs": 1,
       "lean": "MIXED",
       "drift": {
-        "2026": -35.71,
-        "2027": 33.33
+        "2026": -45.24,
+        "2027": 50.62
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-13",
+      "last_event": "FLAT 2026-11-20",
       "basis": "2 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_products_services",
@@ -17546,15 +17558,15 @@ window.FUND_SENT_DATA = {
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 7,
-        "eps_date": "2026-11-13",
+        "delta_days": 14,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-06",
-        "summary": "Price leads fundamentals by 7 days"
+        "summary": "Price leads fundamentals by 14 days"
       }
     },
     "ILM1": {
       "code": "ILM1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -17566,7 +17578,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-05-12",
       "analyst": {
         "code": "ILM1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17638,8 +17650,8 @@ window.FUND_SENT_DATA = {
         "2027": -15.57
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -17650,7 +17662,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.63,
+      "tech_confidence": 0.61,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -17662,53 +17674,55 @@ window.FUND_SENT_DATA = {
     },
     "BOSS": {
       "code": "BOSS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-11-11",
       "last_report": "2026-11-03",
       "analyst": {
         "code": "BOSS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEGATIVE",
-        "event_count": 1,
+        "event_count": 2,
         "buy_count": 0,
         "hold_count": 0,
-        "sell_count": 1,
-        "distinct_banks": 1,
-        "flags": [],
+        "sell_count": 2,
+        "distinct_banks": 2,
+        "flags": [
+          "ANALYST_DOWNGRADE_CLUSTER"
+        ],
         "latest_event": {
-          "date": "2026-11-10",
-          "bank": "Deutsche Bank",
-          "bank_short": "Deutsche Bk",
+          "date": "2026-11-19",
+          "bank": "MPCM",
+          "bank_short": "MPCM",
           "sentiment": "SELL",
-          "headline": "ANALYSE-FLASH: Deutsche Bank Research senkt Hugo Boss auf 'Sell'",
-          "ret_w1": -0.6509,
+          "headline": "ANALYSE-FLASH: MPCM senkt Hugo Boss auf 'Sell' - Ziel fast halbiert",
+          "ret_w1": null,
           "ret_w2": null,
-          "w1_disp": "-0.7%",
+          "w1_disp": "pending",
           "w2_disp": "pending"
         },
-        "summary": "NEGATIVE (0 BUY / 0 HOLD / 1 SELL across 1 banks, 90d)"
+        "summary": "NEGATIVE (0 BUY / 0 HOLD / 2 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 12.45,
-        "growth_step": 0.3,
+        "growth_pct": 11.72,
+        "growth_step": 0.28,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.41,
-        "next_eps": 2.71,
+        "base_eps": 2.39,
+        "next_eps": 2.67,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +12.4% (2.41 -> 2.71 EUR)",
+        "summary": "FY27/FY26 growth: +11.7% (2.39 -> 2.67 EUR)",
         "pre_growth_pct": 19.25,
-        "effective_growth_pct": 12.45
+        "effective_growth_pct": 11.72
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17726,16 +17740,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.65,
-            "post": 2.41,
-            "delta": -0.24,
-            "pct": -9.06,
+            "post": 2.39,
+            "delta": -0.26,
+            "pct": -9.81,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 3.16,
-            "post": 2.71,
-            "delta": -0.45,
-            "pct": -14.24,
+            "post": 2.67,
+            "delta": -0.49,
+            "pct": -15.51,
             "direction": "DOWN"
           }
         },
@@ -17747,18 +17761,19 @@ window.FUND_SENT_DATA = {
       "stance_reading": "Growth slowing and analysts lean cautious",
       "flags": [
         "WATCH_DOWN",
-        "POST_REPORT_EARLY"
+        "POST_REPORT_EARLY",
+        "ANALYST_DOWNGRADE_CLUSTER"
       ],
       "ups": 0,
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -10.41,
-        "2027": -13.97
+        "2026": -11.15,
+        "2027": -15.24
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -17769,7 +17784,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.71,
+      "tech_confidence": 0.67,
       "price_reading": "Pause may resolve down",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -17781,19 +17796,19 @@ window.FUND_SENT_DATA = {
     },
     "DBAN": {
       "code": "DBAN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-11",
-      "last_sig_rev": "2026-11-09",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-08-06",
       "analyst": {
         "code": "DBAN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17807,15 +17822,15 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 2.73,
+        "growth_step": 3.2,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -1.31,
-        "next_eps": 1.42,
+        "base_eps": -1.47,
+        "next_eps": 1.73,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-1.31 -> 1.42 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (-1.47 -> 1.73 EUR) [near-zero guard]"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -17833,16 +17848,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 2.35,
-            "post": -1.31,
-            "delta": -3.66,
-            "pct": -155.74,
+            "post": -1.47,
+            "delta": -3.82,
+            "pct": -162.55,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 2.63,
-            "post": 1.42,
-            "delta": -1.21,
-            "pct": -46.01,
+            "post": 1.73,
+            "delta": -0.9,
+            "pct": -34.22,
             "direction": "DOWN"
           }
         },
@@ -17860,47 +17875,47 @@ window.FUND_SENT_DATA = {
       "downs": 1,
       "lean": "DOWN",
       "drift": {
-        "2026": -155.74,
-        "2027": -46.01
+        "2026": -162.55,
+        "2027": -34.22
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-09",
+      "last_event": "FLAT 2026-11-20",
       "basis": "1 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "financial_services",
       "subsector_key": "private_equity_venture_capital",
       "sector": "Financial Services",
       "subsector": "Private Equity & Venture Capital",
-      "tech_state": "COUNTERTREND",
+      "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-06",
-      "tech_confidence": 0.57,
+      "tech_confidence": 0.46,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 3,
-        "eps_date": "2026-11-09",
+        "timing": "PRICE_LEADS",
+        "delta_days": 14,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-06",
-        "summary": "Contemporaneous (+3d)"
+        "summary": "Price leads fundamentals by 14 days"
       }
     },
     "VH2": {
       "code": "VH2",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
-      "last_report": "2026-08-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
+      "last_report": "2026-11-12",
       "analyst": {
         "code": "VH2",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -17913,16 +17928,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 1.94,
-        "growth_step": 0.12,
+        "growth_pct": 2.34,
+        "growth_step": 0.15,
         "is_growing": true,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 6.2,
-        "next_eps": 6.32,
+        "base_eps": 6.42,
+        "next_eps": 6.57,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +1.9% (6.20 -> 6.32 EUR)"
+        "summary": "FY27/FY26 growth: +2.3% (6.42 -> 6.57 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -17930,83 +17945,83 @@ window.FUND_SENT_DATA = {
         "up_periods": 2,
         "down_periods": 0,
         "flat_periods": 0,
-        "last_report_date": "2026-08-13",
-        "last_report_period": "26Q2",
-        "is_stale": true,
+        "last_report_date": "2026-11-12",
+        "last_report_period": "26Q3",
+        "is_stale": false,
         "periods_analyzed": [
           "2026",
           "2027"
         ],
         "details": {
           "2026": {
-            "pre": 5.1,
-            "post": 6.2,
-            "delta": 1.1,
-            "pct": 21.57,
+            "pre": 6.04,
+            "post": 6.42,
+            "delta": 0.38,
+            "pct": 6.29,
             "direction": "UP"
           },
           "2027": {
-            "pre": 5.4,
-            "post": 6.32,
-            "delta": 0.92,
-            "pct": 17.04,
+            "pre": 6.2,
+            "post": 6.57,
+            "delta": 0.37,
+            "pct": 5.97,
             "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q2 (2026-08-13): UP (2 UP / 0 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 26Q3 (2026-11-12): UP (2 UP / 0 DOWN across 2 periods)"
       },
       "direction": "IMPROVING",
       "base_direction": "IMPROVING",
       "stance": "SUPPORTIVE",
       "stance_reading": "Estimates lead, analysts not yet convinced / silent",
       "flags": [
-        "STALE_REPORT"
+        "POST_REPORT_EARLY"
       ],
-      "ups": 4,
+      "ups": 5,
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 21.57,
-        "2027": 17.04
+        "2026": 25.88,
+        "2027": 21.67
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-13",
-      "basis": "4 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "5 up / 0 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-16",
       "tech_confidence": 0.0,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 28,
-        "eps_date": "2026-11-13",
+        "delta_days": 35,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-16",
-        "summary": "Price leads fundamentals by 28 days"
+        "summary": "Price leads fundamentals by 35 days"
       }
     },
     "DMP": {
       "code": "DMP",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-09-08",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-05-29",
-      "last_report": "2026-08-11",
+      "last_report": "2026-11-12",
       "analyst": {
         "code": "DMP",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -18029,65 +18044,65 @@ window.FUND_SENT_DATA = {
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 14.89,
-        "growth_step": 0.39,
+        "growth_pct": 16.34,
+        "growth_step": 0.42,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.62,
-        "next_eps": 3.01,
+        "base_eps": 2.57,
+        "next_eps": 2.99,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +14.9% (2.62 -> 3.01 EUR)"
+        "summary": "FY27/FY26 growth: +16.3% (2.57 -> 2.99 EUR)"
       },
       "consensus": {
-        "reaction": "MIXED",
-        "reaction_breadth": "2/2",
-        "up_periods": 1,
+        "reaction": "DOWN",
+        "reaction_breadth": "1/2",
+        "up_periods": 0,
         "down_periods": 1,
-        "flat_periods": 0,
-        "last_report_date": "2026-08-11",
-        "last_report_period": "26Q2",
-        "is_stale": true,
+        "flat_periods": 1,
+        "last_report_date": "2026-11-12",
+        "last_report_period": "26Q3",
+        "is_stale": false,
         "periods_analyzed": [
           "2026",
           "2027"
         ],
         "details": {
           "2026": {
-            "pre": 2.67,
-            "post": 2.62,
+            "pre": 2.62,
+            "post": 2.57,
             "delta": -0.05,
-            "pct": -1.87,
+            "pct": -1.91,
             "direction": "DOWN"
           },
           "2027": {
-            "pre": 2.95,
-            "post": 3.01,
-            "delta": 0.06,
-            "pct": 2.03,
-            "direction": "UP"
+            "pre": 3.01,
+            "post": 2.99,
+            "delta": -0.02,
+            "pct": -0.66,
+            "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q2 (2026-08-11): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "STALE_REPORT"
+        "POST_REPORT_EARLY"
       ],
       "ups": 0,
       "downs": 0,
-      "lean": "UP",
+      "lean": "DOWN",
       "drift": {
-        "2026": -1.87,
-        "2027": 2.03
+        "2026": -3.75,
+        "2027": 1.36
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -18105,24 +18120,24 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-05-29",
         "tech_date": "2026-11-11",
-        "summary": "last revision was 174d ago (> 90d)"
+        "summary": "last revision was 175d ago (> 90d)"
       }
     },
     "MUX": {
       "code": "MUX",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-04-28",
       "analyst": {
         "code": "MUX",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18135,16 +18150,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -59.7,
-        "growth_step": -6.83,
+        "growth_pct": -90.1,
+        "growth_step": -19.3,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 11.44,
-        "next_eps": 4.61,
+        "base_eps": 21.42,
+        "next_eps": 2.12,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -59.7% (11.44 -> 4.61 EUR)"
+        "summary": "FY27/FY26 growth: -90.1% (21.42 -> 2.12 EUR)"
       },
       "consensus": {
         "reaction": "MIXED",
@@ -18162,16 +18177,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 7.12,
-            "post": 11.44,
-            "delta": 4.32,
-            "pct": 60.67,
+            "post": 21.42,
+            "delta": 14.3,
+            "pct": 200.84,
             "direction": "UP"
           },
           "2027": {
             "pre": 8.16,
-            "post": 4.61,
-            "delta": -3.55,
-            "pct": -43.5,
+            "post": 2.12,
+            "delta": -6.04,
+            "pct": -74.02,
             "direction": "DOWN"
           }
         },
@@ -18189,35 +18204,35 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "UP",
       "drift": {
-        "2026": 20.93,
-        "2027": 631.75
+        "2026": 126.43,
+        "2027": 236.51
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-13",
+      "last_event": "FLAT 2026-11-20",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
       "sector_key": "financial_services",
       "subsector_key": "private_equity_venture_capital",
       "sector": "Financial Services",
       "subsector": "Private Equity & Venture Capital",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-13",
-      "tech_confidence": 0.69,
+      "tech_confidence": 0.46,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 0,
-        "eps_date": "2026-11-13",
+        "timing": "PRICE_LEADS",
+        "delta_days": 7,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-13",
-        "summary": "Contemporaneous (+0d)"
+        "summary": "Price leads fundamentals by 7 days"
       }
     },
     "TMV": {
       "code": "TMV",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18229,7 +18244,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-03",
       "analyst": {
         "code": "TMV",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -18307,8 +18322,8 @@ window.FUND_SENT_DATA = {
         "2027": -4.63
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -18326,12 +18341,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2025-11-07",
         "tech_date": "2026-11-05",
-        "summary": "last revision was 377d ago (> 90d)"
+        "summary": "last revision was 378d ago (> 90d)"
       }
     },
     "1SXP": {
       "code": "1SXP",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18343,7 +18358,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "1SXP",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -18359,9 +18374,9 @@ window.FUND_SENT_DATA = {
           "sentiment": "HOLD",
           "headline": "ANALYSE-FLASH: RBC senkt Schott Pharma nach gutem Lauf auf 'Sector Perform'",
           "ret_w1": 2.0595,
-          "ret_w2": null,
+          "ret_w2": 3.4325,
           "w1_disp": "+2.1%",
-          "w2_disp": "n/a"
+          "w2_disp": "+3.4%"
         },
         "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
@@ -18423,8 +18438,8 @@ window.FUND_SENT_DATA = {
         "2027": 1.87
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -18442,12 +18457,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-01-16",
         "tech_date": "2026-11-06",
-        "summary": "last revision was 307d ago (> 90d)"
+        "summary": "last revision was 308d ago (> 90d)"
       }
     },
     "NA9": {
       "code": "NA9",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18456,10 +18471,10 @@ window.FUND_SENT_DATA = {
       "gap_days": 44,
       "last_change": "2026-10-30",
       "last_sig_rev": "2026-10-30",
-      "last_report": "2026-08-14",
+      "last_report": "2026-11-13",
       "analyst": {
         "code": "NA9",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -18491,47 +18506,30 @@ window.FUND_SENT_DATA = {
         "base_eps": 4.58,
         "next_eps": 5.28,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +15.3% (4.58 -> 5.28 EUR)",
-        "pre_growth_pct": 5.8,
-        "effective_growth_pct": 5.8
+        "summary": "FY27/FY26 growth: +15.3% (4.58 -> 5.28 EUR)"
       },
       "consensus": {
-        "reaction": "DOWN",
-        "reaction_breadth": "2/2",
+        "reaction": "NONE",
+        "reaction_breadth": "0/0",
         "up_periods": 0,
-        "down_periods": 2,
+        "down_periods": 0,
         "flat_periods": 0,
-        "last_report_date": "2026-08-14",
-        "last_report_period": "26Q2",
-        "is_stale": true,
+        "last_report_date": "2026-11-13",
+        "last_report_period": "26Q3",
+        "is_stale": false,
         "periods_analyzed": [
           "2026",
           "2027"
         ],
-        "details": {
-          "2026": {
-            "pre": 5.17,
-            "post": 4.58,
-            "delta": -0.59,
-            "pct": -11.41,
-            "direction": "DOWN"
-          },
-          "2027": {
-            "pre": 5.47,
-            "post": 5.28,
-            "delta": -0.19,
-            "pct": -3.47,
-            "direction": "DOWN"
-          }
-        },
-        "summary": "Reaction after 26Q2 (2026-08-14): DOWN (0 UP / 2 DOWN across 2 periods) [STALE]"
+        "details": {},
+        "summary": "Reaction after 26Q3 (2026-11-13): NONE (0 UP / 0 DOWN across 0 periods)"
       },
       "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
       "stance": "NEUTRAL",
       "stance_reading": "Growth intact, revisions negative; watch",
       "flags": [
-        "STALE_REPORT"
+        "POST_REPORT_EARLY"
       ],
       "ups": 0,
       "downs": 2,
@@ -18541,8 +18539,8 @@ window.FUND_SENT_DATA = {
         "2027": -3.47
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-30",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -18553,7 +18551,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.64,
+      "tech_confidence": 0.69,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -18565,7 +18563,7 @@ window.FUND_SENT_DATA = {
     },
     "HABA": {
       "code": "HABA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18577,7 +18575,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-04",
       "analyst": {
         "code": "HABA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18648,8 +18646,8 @@ window.FUND_SENT_DATA = {
         "2027": -36.36
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -18659,20 +18657,20 @@ window.FUND_SENT_DATA = {
       "subsector": "Real Estate",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-09",
+      "tech_state_date": "2026-11-19",
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -62,
+        "delta_days": -72,
         "eps_date": "2026-09-08",
-        "tech_date": "2026-11-09",
-        "summary": "Fundamentals lead price by 62 days"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 72 days"
       }
     },
     "EIN": {
       "code": "EIN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -18684,7 +18682,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-29",
       "analyst": {
         "code": "EIN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18755,8 +18753,8 @@ window.FUND_SENT_DATA = {
         "2027": -4.38
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-30",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -18764,10 +18762,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "home_construction_furnishings",
       "sector": "Consumer",
       "subsector": "Home Construction & Furnishings",
-      "tech_state": "COUNTERTREND",
+      "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.65,
+      "tech_confidence": 0.57,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -18779,19 +18777,19 @@ window.FUND_SENT_DATA = {
     },
     "ACT0": {
       "code": "ACT0",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": null,
       "last_report": "2026-10-29",
       "analyst": {
         "code": "ACT0",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -18804,16 +18802,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 22.58,
-        "growth_step": 1.47,
+        "growth_pct": 24.31,
+        "growth_step": 1.59,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 6.51,
-        "next_eps": 7.98,
+        "base_eps": 6.54,
+        "next_eps": 8.13,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +22.6% (6.51 -> 7.98 EUR)"
+        "summary": "FY27/FY26 growth: +24.3% (6.54 -> 8.13 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -18831,16 +18829,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 6.55,
-            "post": 6.51,
-            "delta": -0.04,
-            "pct": -0.61,
+            "post": 6.54,
+            "delta": -0.01,
+            "pct": -0.15,
             "direction": "FLAT"
           },
           "2027": {
             "pre": 8.23,
-            "post": 7.98,
-            "delta": -0.25,
-            "pct": -3.04,
+            "post": 8.13,
+            "delta": -0.1,
+            "pct": -1.22,
             "direction": "DOWN"
           }
         },
@@ -18855,12 +18853,12 @@ window.FUND_SENT_DATA = {
       "downs": 0,
       "lean": "DOWN",
       "drift": {
-        "2026": -0.15,
-        "2027": -4.43
+        "2026": 0.31,
+        "2027": -2.63
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -18871,7 +18869,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.37,
+      "tech_confidence": 0.31,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "INSUFFICIENT",
@@ -18883,19 +18881,19 @@ window.FUND_SENT_DATA = {
     },
     "OBCK": {
       "code": "OBCK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": null,
       "last_report": "2026-11-12",
       "analyst": {
         "code": "OBCK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 2,
@@ -18918,22 +18916,22 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (2 BUY / 0 HOLD / 0 SELL across 2 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 17.59,
-        "growth_step": 0.54,
+        "growth_pct": 16.29,
+        "growth_step": 0.5,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 3.07,
-        "next_eps": 3.61,
+        "next_eps": 3.57,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +17.6% (3.07 -> 3.61 EUR)"
+        "summary": "FY27/FY26 growth: +16.3% (3.07 -> 3.57 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/1",
+        "reaction": "DOWN",
+        "reaction_breadth": "1/2",
         "up_periods": 0,
-        "down_periods": 0,
+        "down_periods": 1,
         "flat_periods": 1,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
@@ -18949,9 +18947,16 @@ window.FUND_SENT_DATA = {
             "delta": 0.03,
             "pct": 0.99,
             "direction": "FLAT"
+          },
+          "2027": {
+            "pre": 3.61,
+            "post": 3.57,
+            "delta": -0.04,
+            "pct": -1.11,
+            "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 1 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -18965,11 +18970,11 @@ window.FUND_SENT_DATA = {
       "lean": "UP",
       "drift": {
         "2026": 3.02,
-        "2027": 0.84
+        "2027": -0.28
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -18980,7 +18985,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.5,
+      "tech_confidence": 0.45,
       "price_reading": "Turn backed by fundamentals",
       "lead_lag": {
         "timing": "INSUFFICIENT",
@@ -18992,19 +18997,19 @@ window.FUND_SENT_DATA = {
     },
     "DOU": {
       "code": "DOU",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-09-08",
       "last_report": "2026-08-12",
       "analyst": {
         "code": "DOU",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19017,16 +19022,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": -3.36,
-        "growth_step": -0.04,
+        "growth_pct": -4.2,
+        "growth_step": -0.05,
         "is_growing": false,
         "growth_ok": false,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 1.19,
-        "next_eps": 1.15,
+        "next_eps": 1.14,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: -3.4% (1.19 -> 1.15 EUR)"
+        "summary": "FY27/FY26 growth: -4.2% (1.19 -> 1.14 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -19051,9 +19056,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 1.27,
-            "post": 1.15,
-            "delta": -0.12,
-            "pct": -9.45,
+            "post": 1.14,
+            "delta": -0.13,
+            "pct": -10.24,
             "direction": "DOWN"
           }
         },
@@ -19072,11 +19077,11 @@ window.FUND_SENT_DATA = {
       "lean": "DOWN",
       "drift": {
         "2026": 0.0,
-        "2027": -9.45
+        "2027": -10.24
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -19084,10 +19089,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "retail_specialty",
       "sector": "Retail",
       "subsector": "Retail, Specialty",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-10-20",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
@@ -19099,7 +19104,7 @@ window.FUND_SENT_DATA = {
     },
     "JST": {
       "code": "JST",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19111,7 +19116,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-12",
       "analyst": {
         "code": "JST",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19182,8 +19187,8 @@ window.FUND_SENT_DATA = {
         "2027": -9.1
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-30",
       "basis": "1 up / 3 down revision events, 90d, FY26,27",
@@ -19191,22 +19196,22 @@ window.FUND_SENT_DATA = {
       "subsector_key": "auto_parts_equipment",
       "sector": "Automobile",
       "subsector": "Auto Parts & Equipment",
-      "tech_state": "PULLBACK",
+      "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-10-07",
+      "tech_state_date": "2026-11-18",
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "PRICE_LEADS",
-        "delta_days": 23,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -19,
         "eps_date": "2026-10-30",
-        "tech_date": "2026-10-07",
-        "summary": "Price leads fundamentals by 23 days"
+        "tech_date": "2026-11-18",
+        "summary": "Fundamentals lead price by 19 days"
       }
     },
     "PAT": {
       "code": "PAT",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19218,7 +19223,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-10",
       "analyst": {
         "code": "PAT",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19289,8 +19294,8 @@ window.FUND_SENT_DATA = {
         "2027": -5.88
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",
@@ -19301,7 +19306,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.79,
+      "tech_confidence": 0.81,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -19313,7 +19318,7 @@ window.FUND_SENT_DATA = {
     },
     "SFQ": {
       "code": "SFQ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19325,7 +19330,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-05",
       "analyst": {
         "code": "SFQ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19396,8 +19401,8 @@ window.FUND_SENT_DATA = {
         "2027": 3.63
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-09",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -19408,7 +19413,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "CONTINUATION",
       "tech_family": "UP",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.79,
+      "tech_confidence": 0.73,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -19420,19 +19425,19 @@ window.FUND_SENT_DATA = {
     },
     "SPG": {
       "code": "SPG",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2026-03-20",
       "last_report": "2026-08-05",
       "analyst": {
         "code": "SPG",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19445,23 +19450,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 11.52,
+        "growth_pct": 11.45,
         "growth_step": 0.19,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.65,
-        "next_eps": 1.84,
+        "base_eps": 1.66,
+        "next_eps": 1.85,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +11.5% (1.65 -> 1.84 EUR)"
+        "summary": "FY27/FY26 growth: +11.4% (1.66 -> 1.85 EUR)"
       },
       "consensus": {
         "reaction": "UP",
-        "reaction_breadth": "1/1",
+        "reaction_breadth": "1/2",
         "up_periods": 1,
         "down_periods": 0,
-        "flat_periods": 0,
+        "flat_periods": 1,
         "last_report_date": "2026-08-05",
         "last_report_period": "26H1",
         "is_stale": true,
@@ -19470,15 +19475,22 @@ window.FUND_SENT_DATA = {
           "2027"
         ],
         "details": {
+          "2026": {
+            "pre": 1.65,
+            "post": 1.66,
+            "delta": 0.01,
+            "pct": 0.61,
+            "direction": "FLAT"
+          },
           "2027": {
             "pre": 1.8,
-            "post": 1.84,
-            "delta": 0.04,
-            "pct": 2.22,
+            "post": 1.85,
+            "delta": 0.05,
+            "pct": 2.78,
             "direction": "UP"
           }
         },
-        "summary": "Reaction after 26H1 (2026-08-05): UP (1 UP / 0 DOWN across 1 periods) [STALE]"
+        "summary": "Reaction after 26H1 (2026-08-05): UP (1 UP / 0 DOWN across 2 periods) [STALE]"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -19489,14 +19501,14 @@ window.FUND_SENT_DATA = {
       ],
       "ups": 0,
       "downs": 0,
-      "lean": "FLAT",
+      "lean": "UP",
       "drift": {
-        "2026": 0.0,
-        "2027": 2.22
+        "2026": 0.61,
+        "2027": 2.78
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -19504,8 +19516,8 @@ window.FUND_SENT_DATA = {
       "subsector_key": "publishing_printing",
       "sector": "Media",
       "subsector": "Publishing & Printing",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-09-18",
       "tech_confidence": 0.87,
       "price_reading": "Technical reading stands alone",
@@ -19514,12 +19526,12 @@ window.FUND_SENT_DATA = {
         "delta_days": null,
         "eps_date": "2026-03-20",
         "tech_date": "2026-09-18",
-        "summary": "last revision was 244d ago (> 90d)"
+        "summary": "last revision was 245d ago (> 90d)"
       }
     },
     "STM": {
       "code": "STM",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19531,7 +19543,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-03",
       "analyst": {
         "code": "STM",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19603,8 +19615,8 @@ window.FUND_SENT_DATA = {
         "2027": -8.33
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-12",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -19627,7 +19639,7 @@ window.FUND_SENT_DATA = {
     },
     "V1NC": {
       "code": "V1NC",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19639,7 +19651,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-01-11",
       "analyst": {
         "code": "V1NC",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19695,8 +19707,8 @@ window.FUND_SENT_DATA = {
         "2027": 9.76
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-09-08",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -19719,47 +19731,57 @@ window.FUND_SENT_DATA = {
     },
     "WAC": {
       "code": "WAC",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-16",
-      "last_sig_rev": "2026-09-08",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "WAC",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
-        "bias": "INSUFFICIENT",
-        "event_count": 0,
+        "bias": "NEUTRAL",
+        "event_count": 1,
         "buy_count": 0,
-        "hold_count": 0,
+        "hold_count": 1,
         "sell_count": 0,
-        "distinct_banks": 0,
+        "distinct_banks": 1,
         "flags": [],
-        "latest_event": null,
-        "summary": "no analyst events within 90d"
+        "latest_event": {
+          "date": "2026-11-19",
+          "bank": "Berenberg",
+          "bank_short": "Berenberg",
+          "sentiment": "HOLD",
+          "headline": "ANALYSE-FLASH: Berenberg startet Wacker Neuson mit 'Hold' - Ziel 22 Euro",
+          "ret_w1": null,
+          "ret_w2": null,
+          "w1_disp": "pending",
+          "w2_disp": "pending"
+        },
+        "summary": "NEUTRAL (0 BUY / 1 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 25.3,
-        "growth_step": 0.42,
+        "growth_pct": 21.34,
+        "growth_step": 0.35,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.66,
-        "next_eps": 2.08,
+        "base_eps": 1.64,
+        "next_eps": 1.99,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +25.3% (1.66 -> 2.08 EUR)"
+        "summary": "FY27/FY26 growth: +21.3% (1.64 -> 1.99 EUR)"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/0",
+        "reaction": "DOWN",
+        "reaction_breadth": "2/2",
         "up_periods": 0,
-        "down_periods": 0,
+        "down_periods": 2,
         "flat_periods": 0,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
@@ -19768,50 +19790,65 @@ window.FUND_SENT_DATA = {
           "2026",
           "2027"
         ],
-        "details": {},
-        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 0 periods)"
+        "details": {
+          "2026": {
+            "pre": 1.66,
+            "post": 1.64,
+            "delta": -0.02,
+            "pct": -1.2,
+            "direction": "DOWN"
+          },
+          "2027": {
+            "pre": 2.08,
+            "post": 1.99,
+            "delta": -0.09,
+            "pct": -4.33,
+            "direction": "DOWN"
+          }
+        },
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 2 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
       "stance": "NEUTRAL",
       "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "WATCH_UP",
+        "CONFLICT",
         "POST_REPORT_EARLY"
       ],
       "ups": 1,
-      "downs": 0,
+      "downs": 1,
       "lean": "UP",
       "drift": {
-        "2026": 6.41,
-        "2027": 1.96
+        "2026": 5.13,
+        "2027": -2.45
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-09-08",
-      "basis": "1 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_machinery",
       "sector": "Industrial",
       "subsector": "Industrial Machinery",
-      "tech_state": "TRANSITION",
-      "tech_family": "TURNING",
+      "tech_state": "PAUSE",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
-      "tech_confidence": 0.35,
+      "tech_confidence": 0.43,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -57,
-        "eps_date": "2026-09-08",
+        "timing": "PRICE_LEADS",
+        "delta_days": 16,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-04",
-        "summary": "Fundamentals lead price by 57 days"
+        "summary": "Price leads fundamentals by 16 days"
       }
     },
     "GYC": {
       "code": "GYC",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19823,7 +19860,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-11",
       "analyst": {
         "code": "GYC",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -19894,8 +19931,8 @@ window.FUND_SENT_DATA = {
         "2027": -20.42
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-06",
       "basis": "1 up / 4 down revision events, 90d, FY26,27",
@@ -19906,7 +19943,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "TRANSITION",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-28",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.45,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -19918,7 +19955,7 @@ window.FUND_SENT_DATA = {
     },
     "BFSA": {
       "code": "BFSA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -19930,7 +19967,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "BFSA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 3,
@@ -20013,8 +20050,8 @@ window.FUND_SENT_DATA = {
         "2027": 12.23
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-06",
       "basis": "3 up / 0 down revision events, 90d, FY26,27",
@@ -20022,11 +20059,11 @@ window.FUND_SENT_DATA = {
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
       "subsector": "Industrial Products & Services",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
       "tech_state_date": "2026-11-04",
       "tech_confidence": 0.0,
-      "price_reading": "Confirmed strength",
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
         "delta_days": 2,
@@ -20037,58 +20074,48 @@ window.FUND_SENT_DATA = {
     },
     "TNIE": {
       "code": "TNIE",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-08-20",
       "analyst": {
         "code": "TNIE",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
-        "bias": "POSITIVE",
-        "event_count": 1,
-        "buy_count": 1,
+        "bias": "INSUFFICIENT",
+        "event_count": 0,
+        "buy_count": 0,
         "hold_count": 0,
         "sell_count": 0,
-        "distinct_banks": 1,
+        "distinct_banks": 0,
         "flags": [],
-        "latest_event": {
-          "date": "2026-08-21",
-          "bank": "Berenberg",
-          "bank_short": "Berenberg",
-          "sentiment": "BUY",
-          "headline": "ANALYSE-FLASH: Berenberg hebt Ziel fuer Tonies auf 20 Euro - 'Buy'",
-          "ret_w1": 1.0345,
-          "ret_w2": 1.7241,
-          "w1_disp": "+1.0%",
-          "w2_disp": "+1.7%"
-        },
-        "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
+        "latest_event": null,
+        "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 87.1,
-        "growth_step": 0.27,
+        "growth_pct": 62.86,
+        "growth_step": 0.22,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.31,
-        "next_eps": 0.58,
+        "base_eps": 0.35,
+        "next_eps": 0.57,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +87.1% (0.31 -> 0.58 EUR)"
+        "summary": "FY27/FY26 growth: +62.9% (0.35 -> 0.57 EUR)"
       },
       "consensus": {
-        "reaction": "MIXED",
-        "reaction_breadth": "2/2",
-        "up_periods": 1,
-        "down_periods": 1,
-        "flat_periods": 0,
+        "reaction": "NONE",
+        "reaction_breadth": "0/2",
+        "up_periods": 0,
+        "down_periods": 0,
+        "flat_periods": 2,
         "last_report_date": "2026-08-20",
         "last_report_period": "26H1",
         "is_stale": true,
@@ -20099,42 +20126,42 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 0.35,
-            "post": 0.31,
-            "delta": -0.04,
-            "pct": -11.43,
-            "direction": "DOWN"
+            "post": 0.35,
+            "delta": 0.0,
+            "pct": 0.0,
+            "direction": "FLAT"
           },
           "2027": {
             "pre": 0.57,
-            "post": 0.58,
-            "delta": 0.01,
-            "pct": 1.75,
-            "direction": "UP"
+            "post": 0.57,
+            "delta": 0.0,
+            "pct": 0.0,
+            "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26H1 (2026-08-20): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 26H1 (2026-08-20): NONE (0 UP / 0 DOWN across 2 periods) [STALE]"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
-      "stance": "SUPPORTIVE",
-      "stance_reading": "Recommendation support without meaningful EPS revisions",
+      "stance": "NEUTRAL",
+      "stance_reading": "Quiet, nothing to report",
       "flags": [
-        "WATCH_DOWN",
+        "CONFLICT",
         "STALE_REPORT"
       ],
-      "ups": 0,
+      "ups": 1,
       "downs": 1,
-      "lean": "DOWN",
+      "lean": "FLAT",
       "drift": {
-        "2026": -11.43,
-        "2027": 1.75
+        "2026": 0.0,
+        "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-13",
-      "basis": "0 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "1 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "consumer",
       "subsector_key": "leisure_goods_services",
       "sector": "Consumer",
@@ -20143,18 +20170,18 @@ window.FUND_SENT_DATA = {
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-11",
       "tech_confidence": 0.51,
-      "price_reading": "Healthy pause",
+      "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 2,
-        "eps_date": "2026-11-13",
+        "timing": "PRICE_LEADS",
+        "delta_days": 9,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-11",
-        "summary": "Contemporaneous (+2d)"
+        "summary": "Price leads fundamentals by 9 days"
       }
     },
     "RDC": {
       "code": "RDC",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20166,7 +20193,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-29",
       "analyst": {
         "code": "RDC",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -20247,8 +20274,8 @@ window.FUND_SENT_DATA = {
         "2027": 30.21
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-11",
       "basis": "3 up / 1 down revision events, 90d, FY26,27",
@@ -20259,7 +20286,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-09",
-      "tech_confidence": 0.45,
+      "tech_confidence": 0.5,
       "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -20271,7 +20298,7 @@ window.FUND_SENT_DATA = {
     },
     "AAD": {
       "code": "AAD",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20283,7 +20310,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-02",
       "analyst": {
         "code": "AAD",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20356,8 +20383,8 @@ window.FUND_SENT_DATA = {
         "2027": -23.18
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-13",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -20368,7 +20395,7 @@ window.FUND_SENT_DATA = {
       "tech_state": "COUNTERTREND",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.62,
+      "tech_confidence": 0.58,
       "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
         "timing": "PRICE_LEADS",
@@ -20380,7 +20407,7 @@ window.FUND_SENT_DATA = {
     },
     "BYW6": {
       "code": "BYW6",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20392,7 +20419,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-10-30",
       "analyst": {
         "code": "BYW6",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20445,8 +20472,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -20457,31 +20484,31 @@ window.FUND_SENT_DATA = {
       "tech_state": "BASING",
       "tech_family": "TURNING",
       "tech_state_date": "2026-10-12",
-      "tech_confidence": 0.66,
+      "tech_confidence": 0.62,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2026-01-11",
         "tech_date": "2026-10-12",
-        "summary": "last revision was 312d ago (> 90d)"
+        "summary": "last revision was 313d ago (> 90d)"
       }
     },
     "BVB": {
       "code": "BVB",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-09-08",
-      "last_sig_rev": "2026-05-09",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-09-28",
       "analyst": {
         "code": "BVB",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20495,21 +20522,21 @@ window.FUND_SENT_DATA = {
       },
       "growth": {
         "growth_pct": 100.0,
-        "growth_step": 0.22,
+        "growth_step": 0.16,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 0.02,
-        "next_eps": 0.24,
+        "next_eps": 0.18,
         "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (0.02 -> 0.24 EUR) [near-zero guard]"
+        "summary": "FY27/FY26 growth: +100.0% (0.02 -> 0.18 EUR) [near-zero guard]"
       },
       "consensus": {
-        "reaction": "NONE",
-        "reaction_breadth": "0/0",
+        "reaction": "DOWN",
+        "reaction_breadth": "1/1",
         "up_periods": 0,
-        "down_periods": 0,
+        "down_periods": 1,
         "flat_periods": 0,
         "last_report_date": "2026-09-28",
         "last_report_period": "2026",
@@ -20518,47 +20545,57 @@ window.FUND_SENT_DATA = {
           "2026",
           "2027"
         ],
-        "details": {},
-        "summary": "Reaction after 2026 (2026-09-28): NONE (0 UP / 0 DOWN across 0 periods)"
+        "details": {
+          "2027": {
+            "pre": 0.24,
+            "post": 0.18,
+            "delta": -0.06,
+            "pct": -25.0,
+            "direction": "DOWN"
+          }
+        },
+        "summary": "Reaction after 2026 (2026-09-28): DOWN (0 UP / 1 DOWN across 1 periods)"
       },
-      "direction": "STABLE",
-      "base_direction": "STABLE",
+      "direction": "GROWTH_SLOWING",
+      "base_direction": "DETERIORATING",
       "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
-      "flags": [],
+      "stance_reading": "Growth intact, revisions negative; watch",
+      "flags": [
+        "WATCH_DOWN"
+      ],
       "ups": 0,
-      "downs": 0,
-      "lean": "UP",
+      "downs": 1,
+      "lean": "DOWN",
       "drift": {
         "2026": 0.0,
-        "2027": 9.09
+        "2027": -18.18
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": null,
-      "basis": "0 up / 0 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "0 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "media",
       "subsector_key": "movies_entertainment",
       "sector": "Media",
       "subsector": "Movies & Entertainment",
-      "tech_state": "PAUSE",
+      "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-02",
-      "tech_confidence": 0.7,
+      "tech_confidence": 0.66,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "STALE_REVISION",
-        "delta_days": null,
-        "eps_date": "2026-05-09",
+        "timing": "PRICE_LEADS",
+        "delta_days": 18,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-02",
-        "summary": "last revision was 194d ago (> 90d)"
+        "summary": "Price leads fundamentals by 18 days"
       }
     },
     "PCZ": {
       "code": "PCZ",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20570,7 +20607,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-19",
       "analyst": {
         "code": "PCZ",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20641,8 +20678,8 @@ window.FUND_SENT_DATA = {
         "2027": -5.79
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-13",
       "basis": "1 up / 1 down revision events, 90d, FY26,27",
@@ -20650,10 +20687,10 @@ window.FUND_SENT_DATA = {
       "subsector_key": "credit_banks",
       "sector": "Banks",
       "subsector": "Credit Banks",
-      "tech_state": "PULLBACK",
-      "tech_family": "PAUSE",
+      "tech_state": "CONTINUATION",
+      "tech_family": "UP",
       "tech_state_date": "2026-11-11",
-      "tech_confidence": 0.71,
+      "tech_confidence": 0.76,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "SYNCHRONOUS",
@@ -20665,19 +20702,19 @@ window.FUND_SENT_DATA = {
     },
     "TTK": {
       "code": "TTK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-06",
-      "last_sig_rev": "2026-11-06",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-10-28",
       "analyst": {
         "code": "TTK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20690,18 +20727,18 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 100.0,
-        "growth_step": 0.73,
+        "growth_pct": 85.71,
+        "growth_step": 0.54,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": -0.63,
-        "next_eps": 0.1,
-        "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-0.63 -> 0.10 EUR) [near-zero guard]",
+        "next_eps": -0.09,
+        "zero_guard": false,
+        "summary": "FY27/FY26 growth: +85.7% (-0.63 -> -0.09 EUR)",
         "pre_growth_pct": 163.33,
-        "effective_growth_pct": 100.0
+        "effective_growth_pct": 85.71
       },
       "consensus": {
         "reaction": "DOWN",
@@ -20726,9 +20763,9 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 0.19,
-            "post": 0.1,
-            "delta": -0.09,
-            "pct": -47.37,
+            "post": -0.09,
+            "delta": -0.28,
+            "pct": -147.37,
             "direction": "DOWN"
           }
         },
@@ -20740,22 +20777,21 @@ window.FUND_SENT_DATA = {
       "stance_reading": "Pressure: falling estimates, analysts silent",
       "flags": [
         "CONFLICT",
-        "SEVERE_CUT",
-        "POST_REPORT_EARLY"
+        "SEVERE_CUT"
       ],
       "ups": 1,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
         "2026": -85.29,
-        "2027": -9.09
+        "2027": -181.82
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-06",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "1 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "industrial",
       "subsector_key": "industrial_products_services",
       "sector": "Industrial",
@@ -20763,19 +20799,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "DOWNTREND",
       "tech_family": "DOWN",
       "tech_state_date": "2026-09-30",
-      "tech_confidence": 0.47,
+      "tech_confidence": 0.51,
       "price_reading": "Fundamentals confirm weakness",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 37,
-        "eps_date": "2026-11-06",
+        "delta_days": 51,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-09-30",
-        "summary": "Price leads fundamentals by 37 days"
+        "summary": "Price leads fundamentals by 51 days"
       }
     },
     "V6C": {
       "code": "V6C",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -20784,10 +20820,10 @@ window.FUND_SENT_DATA = {
       "gap_days": 44,
       "last_change": "2026-10-16",
       "last_sig_rev": "2026-10-16",
-      "last_report": "2026-08-12",
+      "last_report": "2026-11-12",
       "analyst": {
         "code": "V6C",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20809,48 +20845,30 @@ window.FUND_SENT_DATA = {
         "base_eps": 0.05,
         "next_eps": 0.39,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +680.0% (0.05 -> 0.39 EUR)",
-        "pre_growth_pct": 131.58,
-        "effective_growth_pct": 131.58
+        "summary": "FY27/FY26 growth: +680.0% (0.05 -> 0.39 EUR)"
       },
       "consensus": {
-        "reaction": "DOWN",
-        "reaction_breadth": "2/2",
+        "reaction": "NONE",
+        "reaction_breadth": "0/0",
         "up_periods": 0,
-        "down_periods": 2,
+        "down_periods": 0,
         "flat_periods": 0,
-        "last_report_date": "2026-08-12",
-        "last_report_period": "26Q2",
-        "is_stale": true,
+        "last_report_date": "2026-11-12",
+        "last_report_period": "26Q3",
+        "is_stale": false,
         "periods_analyzed": [
           "2026",
           "2027"
         ],
-        "details": {
-          "2026": {
-            "pre": 0.19,
-            "post": 0.05,
-            "delta": -0.14,
-            "pct": -73.68,
-            "direction": "DOWN"
-          },
-          "2027": {
-            "pre": 0.44,
-            "post": 0.39,
-            "delta": -0.05,
-            "pct": -11.36,
-            "direction": "DOWN"
-          }
-        },
-        "summary": "Reaction after 26Q2 (2026-08-12): DOWN (0 UP / 2 DOWN across 2 periods) [STALE]"
+        "details": {},
+        "summary": "Reaction after 26Q3 (2026-11-12): NONE (0 UP / 0 DOWN across 0 periods)"
       },
-      "direction": "DETERIORATING",
+      "direction": "GROWTH_SLOWING",
       "base_direction": "DETERIORATING",
-      "stance": "PRESSURE",
-      "stance_reading": "Pressure: falling estimates, analysts silent",
+      "stance": "NEUTRAL",
+      "stance_reading": "Growth intact, revisions negative; watch",
       "flags": [
-        "SEVERE_CUT",
-        "STALE_REPORT"
+        "POST_REPORT_EARLY"
       ],
       "ups": 0,
       "downs": 2,
@@ -20860,8 +20878,8 @@ window.FUND_SENT_DATA = {
         "2027": -11.36
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-10-16",
       "basis": "0 up / 2 down revision events, 90d, FY26,27",
@@ -20869,34 +20887,34 @@ window.FUND_SENT_DATA = {
       "subsector_key": "advanced_industrial_equipment",
       "sector": "Industrial",
       "subsector": "Advanced Industrial Equipment",
-      "tech_state": "CONTINUATION",
-      "tech_family": "UP",
-      "tech_state_date": "2026-10-15",
-      "tech_confidence": 0.71,
-      "price_reading": "Warning: price ahead of fundamentals",
+      "tech_state": "PULLBACK",
+      "tech_family": "PAUSE",
+      "tech_state_date": "2026-11-18",
+      "tech_confidence": 0.61,
+      "price_reading": "Technical reading stands alone",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 1,
+        "timing": "FUNDAMENTALS_LEAD",
+        "delta_days": -33,
         "eps_date": "2026-10-16",
-        "tech_date": "2026-10-15",
-        "summary": "Contemporaneous (+1d)"
+        "tech_date": "2026-11-18",
+        "summary": "Fundamentals lead price by 33 days"
       }
     },
     "GXI": {
       "code": "GXI",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
-      "last_sig_rev": "2026-11-12",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-10-15",
       "analyst": {
         "code": "GXI",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -20909,22 +20927,22 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 29.56,
-        "growth_step": 0.6,
+        "growth_pct": 31.4,
+        "growth_step": 0.65,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 2.03,
-        "next_eps": 2.63,
+        "base_eps": 2.07,
+        "next_eps": 2.72,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +29.6% (2.03 -> 2.63 EUR)"
+        "summary": "FY27/FY26 growth: +31.4% (2.07 -> 2.72 EUR)"
       },
       "consensus": {
-        "reaction": "MIXED",
+        "reaction": "UP",
         "reaction_breadth": "2/2",
-        "up_periods": 1,
-        "down_periods": 1,
+        "up_periods": 2,
+        "down_periods": 0,
         "flat_periods": 0,
         "last_report_date": "2026-10-15",
         "last_report_period": "26Q3",
@@ -20936,41 +20954,41 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.84,
-            "post": 2.03,
-            "delta": 0.19,
-            "pct": 10.33,
+            "post": 2.07,
+            "delta": 0.23,
+            "pct": 12.5,
             "direction": "UP"
           },
           "2027": {
             "pre": 2.68,
-            "post": 2.63,
-            "delta": -0.05,
-            "pct": -1.87,
-            "direction": "DOWN"
+            "post": 2.72,
+            "delta": 0.04,
+            "pct": 1.49,
+            "direction": "UP"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-10-15): MIXED (1 UP / 1 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-10-15): UP (2 UP / 0 DOWN across 2 periods)"
       },
-      "direction": "STABLE",
-      "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
+      "direction": "IMPROVING",
+      "base_direction": "IMPROVING",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
       "flags": [
         "CONFLICT"
       ],
-      "ups": 1,
+      "ups": 2,
       "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": -8.97,
-        "2027": -16.77
+        "2026": -7.17,
+        "2027": -13.92
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-12",
-      "basis": "1 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "2 up / 2 down revision events, 90d, FY26,27",
       "sector_key": "pharma_healthcare",
       "subsector_key": "health_care",
       "sector": "Pharma & Healthcare",
@@ -20978,19 +20996,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-12",
-      "tech_confidence": 0.75,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.67,
+      "price_reading": "Healthy pause",
       "lead_lag": {
-        "timing": "SYNCHRONOUS",
-        "delta_days": 0,
-        "eps_date": "2026-11-12",
+        "timing": "PRICE_LEADS",
+        "delta_days": 8,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-12",
-        "summary": "Contemporaneous (+0d)"
+        "summary": "Price leads fundamentals by 8 days"
       }
     },
     "PSAN": {
       "code": "PSAN",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -21002,7 +21020,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-31",
       "analyst": {
         "code": "PSAN",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21075,8 +21093,8 @@ window.FUND_SENT_DATA = {
         "2027": -85.01
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-11-13",
       "basis": "0 up / 3 down revision events, 90d, FY26,27",
@@ -21099,7 +21117,7 @@ window.FUND_SENT_DATA = {
     },
     "ADN1": {
       "code": "ADN1",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -21111,7 +21129,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-11",
       "analyst": {
         "code": "ADN1",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21176,14 +21194,14 @@ window.FUND_SENT_DATA = {
       ],
       "ups": 1,
       "downs": 2,
-      "lean": "UP",
+      "lean": "MIXED",
       "drift": {
         "2026": 2.97,
         "2027": -2.3
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "UP 2026-11-12",
       "basis": "1 up / 2 down revision events, 90d, FY26,27",
@@ -21206,19 +21224,19 @@ window.FUND_SENT_DATA = {
     },
     "FYB": {
       "code": "FYB",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-12",
-      "last_sig_rev": "2026-11-12",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-08-12",
       "analyst": {
         "code": "FYB",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21231,16 +21249,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 100.0,
-        "growth_step": 1.07,
+        "growth_pct": 95.02,
+        "growth_step": 8.21,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -1.06,
-        "next_eps": 0.01,
-        "zero_guard": true,
-        "summary": "FY27/FY26 growth: +100.0% (-1.06 -> 0.01 EUR) [near-zero guard]"
+        "base_eps": -8.64,
+        "next_eps": -0.43,
+        "zero_guard": false,
+        "summary": "FY27/FY26 growth: +95.0% (-8.64 -> -0.43 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -21258,16 +21276,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": -1.04,
-            "post": -1.06,
-            "delta": -0.02,
-            "pct": -1.92,
+            "post": -8.64,
+            "delta": -7.6,
+            "pct": -730.77,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 0.21,
-            "post": 0.01,
-            "delta": -0.2,
-            "pct": -95.24,
+            "post": -0.43,
+            "delta": -0.64,
+            "pct": -304.76,
             "direction": "DOWN"
           }
         },
@@ -21282,18 +21300,18 @@ window.FUND_SENT_DATA = {
         "STALE_REPORT"
       ],
       "ups": 2,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -1.92,
-        "2027": -95.24
+        "2026": -730.77,
+        "2027": -304.76
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-12",
-      "basis": "2 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "2 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "pharma_healthcare",
       "subsector_key": "biotechnology",
       "sector": "Pharma & Healthcare",
@@ -21305,27 +21323,27 @@ window.FUND_SENT_DATA = {
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 13,
-        "eps_date": "2026-11-12",
+        "delta_days": 21,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-30",
-        "summary": "Price leads fundamentals by 13 days"
+        "summary": "Price leads fundamentals by 21 days"
       }
     },
     "BRNK": {
       "code": "BRNK",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-09",
-      "last_sig_rev": "2026-10-09",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-04-29",
       "analyst": {
         "code": "BRNK",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21338,16 +21356,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 59.06,
-        "growth_step": 1.01,
+        "growth_pct": 56.62,
+        "growth_step": 1.71,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": -1.71,
-        "next_eps": -0.7,
+        "base_eps": -3.02,
+        "next_eps": -1.31,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +59.1% (-1.71 -> -0.70 EUR)"
+        "summary": "FY27/FY26 growth: +56.6% (-3.02 -> -1.31 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
@@ -21365,16 +21383,16 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": -0.03,
-            "post": -1.71,
-            "delta": -1.68,
-            "pct": -5600.0,
+            "post": -3.02,
+            "delta": -2.99,
+            "pct": -9966.67,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 0.1,
-            "post": -0.7,
-            "delta": -0.8,
-            "pct": -800.0,
+            "post": -1.31,
+            "delta": -1.41,
+            "pct": -1410.0,
             "direction": "DOWN"
           }
         },
@@ -21389,38 +21407,38 @@ window.FUND_SENT_DATA = {
         "STALE_REPORT"
       ],
       "ups": 0,
-      "downs": 2,
+      "downs": 3,
       "lean": "DOWN",
       "drift": {
-        "2026": -434.38,
-        "2027": -6900.0
+        "2026": -843.75,
+        "2027": -13000.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-10-09",
-      "basis": "0 up / 2 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "0 up / 3 down revision events, 90d, FY26,27",
       "sector_key": "financial_services",
       "subsector_key": "real_estate",
       "sector": "Financial Services",
       "subsector": "Real Estate",
-      "tech_state": "TRANSITION",
+      "tech_state": "BASING",
       "tech_family": "TURNING",
       "tech_state_date": "2026-11-10",
       "tech_confidence": 0.46,
       "price_reading": "Rebound without fundamental backing",
       "lead_lag": {
-        "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -32,
-        "eps_date": "2026-10-09",
+        "timing": "PRICE_LEADS",
+        "delta_days": 10,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-10",
-        "summary": "Fundamentals lead price by 32 days"
+        "summary": "Price leads fundamentals by 10 days"
       }
     },
     "NCH2": {
       "code": "NCH2",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -21432,7 +21450,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-08-12",
       "analyst": {
         "code": "NCH2",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "NEUTRAL",
         "event_count": 1,
@@ -21512,8 +21530,8 @@ window.FUND_SENT_DATA = {
         "2027": 22.22
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-09-08",
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -21523,32 +21541,32 @@ window.FUND_SENT_DATA = {
       "subsector": "Renewable Energies",
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
-      "tech_state_date": "2026-11-10",
+      "tech_state_date": "2026-11-19",
       "tech_confidence": 0.0,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "FUNDAMENTALS_LEAD",
-        "delta_days": -63,
+        "delta_days": -72,
         "eps_date": "2026-09-08",
-        "tech_date": "2026-11-10",
-        "summary": "Fundamentals lead price by 63 days"
+        "tech_date": "2026-11-19",
+        "summary": "Fundamentals lead price by 72 days"
       }
     },
     "PSM": {
       "code": "PSM",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
-      "last_report": "2026-08-06",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
+      "last_report": "2026-11-12",
       "analyst": {
         "code": "PSM",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "POSITIVE",
         "event_count": 1,
@@ -21571,47 +21589,47 @@ window.FUND_SENT_DATA = {
         "summary": "POSITIVE (1 BUY / 0 HOLD / 0 SELL across 1 banks, 90d)"
       },
       "growth": {
-        "growth_pct": 16.0,
-        "growth_step": 0.08,
+        "growth_pct": 12.77,
+        "growth_step": 0.06,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 0.5,
-        "next_eps": 0.58,
+        "base_eps": 0.47,
+        "next_eps": 0.53,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +16.0% (0.50 -> 0.58 EUR)"
+        "summary": "FY27/FY26 growth: +12.8% (0.47 -> 0.53 EUR)"
       },
       "consensus": {
-        "reaction": "MIXED",
-        "reaction_breadth": "2/2",
-        "up_periods": 1,
+        "reaction": "DOWN",
+        "reaction_breadth": "1/2",
+        "up_periods": 0,
         "down_periods": 1,
-        "flat_periods": 0,
-        "last_report_date": "2026-08-06",
-        "last_report_period": "26Q2",
-        "is_stale": true,
+        "flat_periods": 1,
+        "last_report_date": "2026-11-12",
+        "last_report_period": "26Q3",
+        "is_stale": false,
         "periods_analyzed": [
           "2026",
           "2027"
         ],
         "details": {
           "2026": {
-            "pre": 0.49,
-            "post": 0.5,
-            "delta": 0.01,
-            "pct": 2.04,
-            "direction": "UP"
+            "pre": 0.47,
+            "post": 0.47,
+            "delta": 0.0,
+            "pct": 0.0,
+            "direction": "FLAT"
           },
           "2027": {
-            "pre": 0.63,
-            "post": 0.58,
-            "delta": -0.05,
-            "pct": -7.94,
+            "pre": 0.56,
+            "post": 0.53,
+            "delta": -0.03,
+            "pct": -5.36,
             "direction": "DOWN"
           }
         },
-        "summary": "Reaction after 26Q2 (2026-08-06): MIXED (1 UP / 1 DOWN across 2 periods) [STALE]"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -21619,53 +21637,53 @@ window.FUND_SENT_DATA = {
       "stance_reading": "Recommendation support without meaningful EPS revisions",
       "flags": [
         "CONFLICT",
-        "STALE_REPORT"
+        "POST_REPORT_EARLY"
       ],
       "ups": 2,
-      "downs": 1,
+      "downs": 2,
       "lean": "DOWN",
       "drift": {
-        "2026": 2.04,
-        "2027": -7.94
+        "2026": -4.08,
+        "2027": -15.87
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "UP 2026-11-13",
-      "basis": "2 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "DOWN 2026-11-20",
+      "basis": "2 up / 2 down revision events, 90d, FY26,27",
       "sector_key": "media",
       "subsector_key": "broadcasting",
       "sector": "Media",
       "subsector": "Broadcasting",
-      "tech_state": "PAUSE",
-      "tech_family": "PAUSE",
+      "tech_state": "DOWNTREND",
+      "tech_family": "DOWN",
       "tech_state_date": "2026-10-29",
-      "tech_confidence": 0.47,
-      "price_reading": "Healthy pause",
+      "tech_confidence": 0.51,
+      "price_reading": "Price weak despite support: possible base, watch",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 15,
-        "eps_date": "2026-11-13",
+        "delta_days": 22,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-10-29",
-        "summary": "Price leads fundamentals by 15 days"
+        "summary": "Price leads fundamentals by 22 days"
       }
     },
     "SBS": {
       "code": "SBS",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-11-13",
-      "last_sig_rev": "2026-11-13",
+      "last_change": "2026-11-20",
+      "last_sig_rev": "2026-11-20",
       "last_report": "2026-11-12",
       "analyst": {
         "code": "SBS",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21678,23 +21696,23 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 16.89,
-        "growth_step": 0.25,
+        "growth_pct": 23.29,
+        "growth_step": 0.34,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
-        "base_eps": 1.48,
-        "next_eps": 1.73,
+        "base_eps": 1.46,
+        "next_eps": 1.8,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +16.9% (1.48 -> 1.73 EUR)"
+        "summary": "FY27/FY26 growth: +23.3% (1.46 -> 1.80 EUR)"
       },
       "consensus": {
         "reaction": "DOWN",
-        "reaction_breadth": "2/2",
+        "reaction_breadth": "1/2",
         "up_periods": 0,
-        "down_periods": 2,
-        "flat_periods": 0,
+        "down_periods": 1,
+        "flat_periods": 1,
         "last_report_date": "2026-11-12",
         "last_report_period": "26Q3",
         "is_stale": false,
@@ -21705,20 +21723,20 @@ window.FUND_SENT_DATA = {
         "details": {
           "2026": {
             "pre": 1.52,
-            "post": 1.48,
-            "delta": -0.04,
-            "pct": -2.63,
+            "post": 1.46,
+            "delta": -0.06,
+            "pct": -3.95,
             "direction": "DOWN"
           },
           "2027": {
             "pre": 1.79,
-            "post": 1.73,
-            "delta": -0.06,
-            "pct": -3.35,
-            "direction": "DOWN"
+            "post": 1.8,
+            "delta": 0.01,
+            "pct": 0.56,
+            "direction": "FLAT"
           }
         },
-        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 2 DOWN across 2 periods)"
+        "summary": "Reaction after 26Q3 (2026-11-12): DOWN (0 UP / 1 DOWN across 2 periods)"
       },
       "direction": "STABLE",
       "base_direction": "STABLE",
@@ -21728,19 +21746,19 @@ window.FUND_SENT_DATA = {
         "CONFLICT",
         "POST_REPORT_EARLY"
       ],
-      "ups": 2,
+      "ups": 3,
       "downs": 1,
       "lean": "UP",
       "drift": {
-        "2026": 6.47,
-        "2027": 1.76
+        "2026": 5.04,
+        "2027": 5.88
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
-      "last_event": "DOWN 2026-11-13",
-      "basis": "2 up / 1 down revision events, 90d, FY26,27",
+      "last_event": "UP 2026-11-20",
+      "basis": "3 up / 1 down revision events, 90d, FY26,27",
       "sector_key": "pharma_healthcare",
       "subsector_key": "medical_technology",
       "sector": "Pharma & Healthcare",
@@ -21748,19 +21766,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PULLBACK",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-11-05",
-      "tech_confidence": 0.86,
+      "tech_confidence": 0.85,
       "price_reading": "Technical reading stands alone",
       "lead_lag": {
         "timing": "PRICE_LEADS",
-        "delta_days": 8,
-        "eps_date": "2026-11-13",
+        "delta_days": 15,
+        "eps_date": "2026-11-20",
         "tech_date": "2026-11-05",
-        "summary": "Price leads fundamentals by 8 days"
+        "summary": "Price leads fundamentals by 15 days"
       }
     },
     "TIMA": {
       "code": "TIMA",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -21772,7 +21790,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-11-04",
       "analyst": {
         "code": "TIMA",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21843,8 +21861,8 @@ window.FUND_SENT_DATA = {
         "2027": 5.31
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "FLAT 2026-11-11",
       "basis": "1 up / 0 down revision events, 90d, FY26,27",
@@ -21867,19 +21885,19 @@ window.FUND_SENT_DATA = {
     },
     "NOA3": {
       "code": "NOA3",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
         "2027"
       ],
       "gap_days": 44,
-      "last_change": "2026-10-23",
+      "last_change": "2026-11-20",
       "last_sig_rev": "2024-04-20",
       "last_report": "2026-10-11",
       "analyst": {
         "code": "NOA3",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -21892,16 +21910,16 @@ window.FUND_SENT_DATA = {
         "summary": "no analyst events within 90d"
       },
       "growth": {
-        "growth_pct": 16.67,
-        "growth_step": 0.06,
+        "growth_pct": 19.44,
+        "growth_step": 0.07,
         "is_growing": true,
         "growth_ok": true,
         "p_base": "2026",
         "p_next": "2027",
         "base_eps": 0.36,
-        "next_eps": 0.42,
+        "next_eps": 0.43,
         "zero_guard": false,
-        "summary": "FY27/FY26 growth: +16.7% (0.36 -> 0.42 EUR)"
+        "summary": "FY27/FY26 growth: +19.4% (0.36 -> 0.43 EUR)"
       },
       "consensus": {
         "reaction": "UP",
@@ -21926,29 +21944,31 @@ window.FUND_SENT_DATA = {
           },
           "2027": {
             "pre": 0.41,
-            "post": 0.42,
-            "delta": 0.01,
-            "pct": 2.44,
+            "post": 0.43,
+            "delta": 0.02,
+            "pct": 4.88,
             "direction": "UP"
           }
         },
         "summary": "Reaction after 26Q3 (2026-10-11): UP (2 UP / 0 DOWN across 2 periods)"
       },
-      "direction": "STABLE",
-      "base_direction": "STABLE",
-      "stance": "NEUTRAL",
-      "stance_reading": "Quiet, nothing to report",
-      "flags": [],
+      "direction": "IMPROVING",
+      "base_direction": "IMPROVING",
+      "stance": "SUPPORTIVE",
+      "stance_reading": "Estimates lead, analysts not yet convinced / silent",
+      "flags": [
+        "REACTION_UP"
+      ],
       "ups": 0,
       "downs": 0,
-      "lean": "FLAT",
+      "lean": "UP",
       "drift": {
         "2026": 5.88,
-        "2027": 2.44
+        "2027": 4.88
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -21959,19 +21979,19 @@ window.FUND_SENT_DATA = {
       "tech_state": "PAUSE",
       "tech_family": "PAUSE",
       "tech_state_date": "2026-10-12",
-      "tech_confidence": 0.45,
-      "price_reading": "Technical reading stands alone",
+      "tech_confidence": 0.46,
+      "price_reading": "Healthy pause",
       "lead_lag": {
         "timing": "STALE_REVISION",
         "delta_days": null,
         "eps_date": "2024-04-20",
         "tech_date": "2026-10-12",
-        "summary": "last revision was 943d ago (> 90d)"
+        "summary": "last revision was 944d ago (> 90d)"
       }
     },
     "KCO": {
       "code": "KCO",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -21983,7 +22003,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-04-12",
       "analyst": {
         "code": "KCO",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -22053,8 +22073,8 @@ window.FUND_SENT_DATA = {
         "2027": 0.0
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": null,
       "basis": "0 up / 0 down revision events, 90d, FY26,27",
@@ -22070,12 +22090,12 @@ window.FUND_SENT_DATA = {
       "lead_lag": {
         "timing": "INSUFFICIENT",
         "delta_days": null,
-        "summary": "price action unavailable: Execution failed on sql 'SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-24' and date <= '2026-11-19' ORDER BY date ASC': (MySQLdb.ProgrammingError) (1146, \"Table 'nb.s_kco' doesn't exist\")\n[SQL: SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-24' and date <= '2026-11-19' ORDER BY date ASC]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
+        "summary": "price action unavailable: Execution failed on sql 'SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-25' and date <= '2026-11-20' ORDER BY date ASC': (MySQLdb.ProgrammingError) (1146, \"Table 'nb.s_kco' doesn't exist\")\n[SQL: SELECT date, Open as open, High as high, Low as low, Close as close, wUB, wMA, wLB, wMA9 FROM s_KCO WHERE date >= '2025-11-25' and date <= '2026-11-20' ORDER BY date ASC]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
       }
     },
     "WUW": {
       "code": "WUW",
-      "as_of": "2026-11-19",
+      "as_of": "2026-11-20",
       "window_days": 90,
       "periods": [
         "2026",
@@ -22087,7 +22107,7 @@ window.FUND_SENT_DATA = {
       "last_report": "2026-03-27",
       "analyst": {
         "code": "WUW",
-        "as_of": "2026-11-19",
+        "as_of": "2026-11-20",
         "window_days": 90,
         "bias": "INSUFFICIENT",
         "event_count": 0,
@@ -22158,8 +22178,8 @@ window.FUND_SENT_DATA = {
         "2027": -3.88
       },
       "market": {
-        "2026": 0.0,
-        "2027": -0.35
+        "2026": -0.22,
+        "2027": -0.34
       },
       "last_event": "DOWN 2026-09-08",
       "basis": "0 up / 1 down revision events, 90d, FY26,27",

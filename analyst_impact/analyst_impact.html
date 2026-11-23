@@ -581,6 +581,8 @@
     <span style="margin-left:14px;">Bank:</span>
     <select id="bankSel">
       <option value="ALL">ALL</option>
+      <option value="ALL_BANKS">ALL Banks</option>
+      <option value="ALL_OTHERS">ALL Others</option>
     </select>
 
     <input id="tableSearch" placeholder="filter stock, bank, headline..." autocomplete="off">
@@ -614,12 +616,34 @@
   </div>
   <div class="count-note" id="countNote"></div>
 
+  <!-- Researcher Search -->
+  <div class="search-bar" style="margin-top:28px;">
+    <strong>Researcher Search:</strong>
+    <input id="resSearch" placeholder="filter aggregate sections by bank / researcher name..." autocomplete="off" style="width:320px;">
+    <button id="resClear" type="button">&#x2715; Clear</button>
+  </div>
+
   <!-- Bank Aggregate Statistics Section -->
   <div class="agg-section">
-    <h2>Bank Aggregate Track Record &amp; Hit Rates</h2>
-    <div class="meta">Hit-rate represents % of rating events where stock price moved profitably (positive for BUY/HOLD,
-      negative for SELL). Minimum n &ge; 3.</div>
-    <div class="agg-cards" id="aggCards"></div>
+    <h2 class="collapsible-header" id="bankAggHeader" style="cursor:pointer; user-select:none;">
+      &#x25B6; Bank Aggregate Track Record &amp; Hit Rates
+    </h2>
+    <div id="bankAggBody" style="display:none;">
+      <div class="meta">Hit-rate represents % of rating events where stock price moved profitably (positive for BUY/HOLD,
+        negative for SELL). Minimum n &ge; 3.</div>
+      <div class="agg-cards" id="aggCards"></div>
+    </div>
+  </div>
+
+  <!-- Others Aggregate Statistics Section -->
+  <div class="agg-section">
+    <h2 class="collapsible-header" id="othersAggHeader" style="cursor:pointer; user-select:none;">
+      &#x25B6; Others Aggregate Track Record &amp; Hit Rates
+    </h2>
+    <div id="othersAggBody" style="display:none;">
+      <div class="meta">Research firms not classified as banks. All sample sizes shown.</div>
+      <div class="agg-cards" id="othersAggCards"></div>
+    </div>
   </div>
 
   <div class="footer">
@@ -652,6 +676,7 @@
       var CURRENT_BANK = 'ALL';
       var CURRENT_SORT_COL = 'event_date';
       var SORT_ASC = false;
+      var CURRENT_RES_SEARCH = '';
 
       var WINDOW_KEYS = ['ret_d0', 'ret_d1', 'ret_d3', 'ret_w1', 'ret_w2', 'ret_m1', 'ret_m3', 'ret_m6', 'ret_m12'];
       var WINDOW_LABELS = ['D+0', 'D+1', 'D+3', 'W+1', 'W+2', 'M+1', 'M+3', 'M+6', 'M+12'];
@@ -728,19 +753,40 @@
           idxSel.appendChild(opt);
         });
 
-        // Bank dropdown
-        var bankSeen = {};
-        RECORDS.forEach(function (r) { if (r.analyst_bank) bankSeen[r.analyst_bank] = 1; });
-        var bankSel = document.getElementById('bankSel');
-        Object.keys(bankSeen).sort().forEach(function (b) {
-          var opt = document.createElement('option');
-          opt.value = b; opt.textContent = b;
-          bankSel.appendChild(opt);
+        // Bank dropdown — banks first, then others
+        var bankSeen = {}, othersSeen = {};
+        RECORDS.forEach(function (r) {
+          if (!r.analyst_bank) return;
+          if (r.source === 'bank') bankSeen[r.analyst_bank] = 1;
+          else othersSeen[r.analyst_bank] = 1;
         });
+        var bankSel = document.getElementById('bankSel');
+        var bankNames = Object.keys(bankSeen).sort();
+        var othersNames = Object.keys(othersSeen).sort();
+        if (bankNames.length) {
+          var grpB = document.createElement('optgroup');
+          grpB.label = 'Banks';
+          bankNames.forEach(function (b) {
+            var opt = document.createElement('option'); opt.value = b; opt.textContent = b;
+            grpB.appendChild(opt);
+          });
+          bankSel.appendChild(grpB);
+        }
+        if (othersNames.length) {
+          var grpO = document.createElement('optgroup');
+          grpO.label = 'Others';
+          othersNames.forEach(function (b) {
+            var opt = document.createElement('option'); opt.value = b; opt.textContent = b;
+            grpO.appendChild(opt);
+          });
+          bankSel.appendChild(grpO);
+        }
 
         initSearch();
         renderTable();
         renderAggregates();
+        initCollapsible();
+        initResSearch();
       }
 
       function visibleRecords() {
@@ -748,7 +794,10 @@
         var list = RECORDS.filter(function (r) {
           if (CURRENT_SENT !== 'ALL' && String(r.sentiment || '') !== CURRENT_SENT) return false;
           if (CURRENT_INDEX !== 'ALL' && String(r.index || '') !== CURRENT_INDEX) return false;
-          if (CURRENT_BANK !== 'ALL' && String(r.analyst_bank || '') !== CURRENT_BANK) return false;
+          if (CURRENT_BANK === 'ALL_BANKS' && r.source !== 'bank') return false;
+          if (CURRENT_BANK === 'ALL_OTHERS' && r.source === 'bank') return false;
+          if (CURRENT_BANK !== 'ALL' && CURRENT_BANK !== 'ALL_BANKS' && CURRENT_BANK !== 'ALL_OTHERS' &&
+            String(r.analyst_bank || '') !== CURRENT_BANK) return false;
           if (q) {
             var str = (r.stock_code + ' ' + (r.index || '') + ' ' + (r.analyst_bank || '') + ' ' +
               (r.sentiment || '') + ' ' + (r.headline || '')).toUpperCase();
@@ -812,47 +861,82 @@
         }
       }
 
+      function buildAggCard(b, sentGroups, minN) {
+        var html = '';
+        ['BUY', 'SELL', 'HOLD'].forEach(function (sent) {
+          var g = sentGroups[sent];
+          if (!g || !g.n || g.n < minN) return;
+          var sPill = sentPill(sent);
+          html += '<div class="agg-card">' +
+            '<h4><span>' + esc(b) + '</span> ' + sPill + ' <span class="pill s-dim">n=' + g.n + '</span></h4>' +
+            '<table class="miniTable">' +
+            '<thead><tr><th>Win</th><th>Mean</th><th>Median</th><th>Hit%</th><th>Min</th><th>Max</th></tr></thead><tbody>';
+          WINDOW_LABELS.forEach(function (lbl) {
+            var r = g.windows && g.windows[lbl];
+            if (!r) return;
+            var hitColor = r.hit_rate >= 55 ? '#0b8a3e' : (r.hit_rate < 45 ? '#c5221f' : '#64748b');
+            html += '<tr>' +
+              '<td><strong>' + lbl + '</strong></td>' +
+              '<td style="color:' + (r.mean > 0 ? '#0b8a3e' : (r.mean < 0 ? '#c5221f' : 'inherit')) + '">' + pct(r.mean, 1, true) + '</td>' +
+              '<td>' + pct(r.median, 1, true) + '</td>' +
+              '<td style="font-weight:700; color:' + hitColor + '">' + r.hit_rate.toFixed(0) + '%</td>' +
+              '<td style="color:#64748b;">' + pct(r.min, 1, true) + '</td>' +
+              '<td style="color:#64748b;">' + pct(r.max, 1, true) + '</td>' +
+              '</tr>';
+          });
+          html += '</tbody></table></div>';
+        });
+        return html;
+      }
+
+      function isBank(name) {
+        var r = RECORDS.find(function (x) { return x.analyst_bank === name; });
+        return r ? r.source === 'bank' : false;
+      }
+
       function renderAggregates() {
         var aggs = (D && D.aggregates) || {};
-        var container = document.getElementById('aggCards');
-        if (!container) return;
+        var q = CURRENT_RES_SEARCH.toUpperCase();
+        var bankHtml = '', othersHtml = '';
 
-        var banks = Object.keys(aggs).sort();
-        if (!banks.length) {
-          container.innerHTML = '<div style="color:#94a3b8;">No aggregate stats available.</div>';
-          return;
-        }
-
-        var html = '';
-        banks.forEach(function (b) {
-          var sentGroups = aggs[b];
-          ['BUY', 'SELL', 'HOLD'].forEach(function (sent) {
-            var g = sentGroups[sent];
-            if (!g || !g.n || g.n < 3) return;
-            var sPill = sentPill(sent);
-            html += '<div class="agg-card">' +
-              '<h4><span>' + esc(b) + '</span> ' + sPill + ' <span class="pill s-dim">n=' + g.n + '</span></h4>' +
-              '<table class="miniTable">' +
-              '<thead><tr><th>Win</th><th>Mean</th><th>Median</th><th>Hit%</th><th>Min</th><th>Max</th></tr></thead><tbody>';
-
-            WINDOW_LABELS.forEach(function (lbl) {
-              var row = g.windows && g.windows[lbl];
-              if (!row) return;
-              var hitColor = row.hit_rate >= 55 ? '#0b8a3e' : (row.hit_rate < 45 ? '#c5221f' : '#64748b');
-              html += '<tr>' +
-                '<td><strong>' + lbl + '</strong></td>' +
-                '<td style="color:' + (row.mean > 0 ? '#0b8a3e' : (row.mean < 0 ? '#c5221f' : 'inherit')) + '">' + pct(row.mean, 1, true) + '</td>' +
-                '<td>' + pct(row.median, 1, true) + '</td>' +
-                '<td style="font-weight:700; color:' + hitColor + '">' + row.hit_rate.toFixed(0) + '%</td>' +
-                '<td style="color:#64748b;">' + pct(row.min, 1, true) + '</td>' +
-                '<td style="color:#64748b;">' + pct(row.max, 1, true) + '</td>' +
-                '</tr>';
-            });
-
-            html += '</tbody></table></div>';
-          });
+        Object.keys(aggs).sort().forEach(function (b) {
+          if (q && b.toUpperCase().indexOf(q) < 0) return;
+          var cards = buildAggCard(b, aggs[b], isBank(b) ? 3 : 1);
+          if (!cards) return;
+          if (isBank(b)) bankHtml += cards;
+          else othersHtml += cards;
         });
-        container.innerHTML = html || '<div style="color:#94a3b8;">No banks with &ge; 3 samples.</div>';
+
+        document.getElementById('aggCards').innerHTML =
+          bankHtml || '<div style="color:#94a3b8;">No banks with &ge; 3 samples.</div>';
+        document.getElementById('othersAggCards').innerHTML =
+          othersHtml || '<div style="color:#94a3b8;">No research firms found.</div>';
+      }
+
+      function initCollapsible() {
+        function toggle(headerId, bodyId, arrowOpen) {
+          var hdr = document.getElementById(headerId);
+          var body = document.getElementById(bodyId);
+          hdr.addEventListener('click', function () {
+            var open = body.style.display !== 'none';
+            body.style.display = open ? 'none' : '';
+            hdr.innerHTML = hdr.innerHTML.replace(/[\u25B6\u25BC]/, open ? '\u25B6' : '\u25BC');
+          });
+        }
+        toggle('bankAggHeader', 'bankAggBody');
+        toggle('othersAggHeader', 'othersAggBody');
+      }
+
+      function initResSearch() {
+        document.getElementById('resSearch').addEventListener('input', function () {
+          CURRENT_RES_SEARCH = this.value.trim();
+          renderAggregates();
+        });
+        document.getElementById('resClear').addEventListener('click', function () {
+          document.getElementById('resSearch').value = '';
+          CURRENT_RES_SEARCH = '';
+          renderAggregates();
+        });
       }
 
       function row(k, v) {
