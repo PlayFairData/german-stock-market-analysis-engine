@@ -1,0 +1,386 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24 19:17:53",
+ "schema": 1,
+ "indexes": [
+  "CDAX",
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 2,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 35
+ },
+ "by_index": {
+  "CDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "DAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 11
+  },
+  "MDAX": {
+   "BUY": 1,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 15
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 2
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 6
+  }
+ },
+ "total": 37,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BMW",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Erste Runde bei VW-Tarifverhandlungen ergebnislos beendet",
+   "link": "https://www.onvista.de/news/2026/11-24-erste-runde-bei-vw-tarifverhandlungen-ergebnislos-beendet-0-10-26580114",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DHL",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: EuroStoxx schwach - Rueckschlag fuer Techwerte",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-aktien-europa-schluss-eurostoxx-schwach-rueckschlag-fuer-techwerte-0-10-26580140",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "HEI",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Heidelberg Materials - 'Top Pick'",
+   "link": "https://www.onvista.de/news/2026/11-24-analyse-flash-jpmorgan-hebt-ziel-fuer-heidelberg-materials-top-pick-0-10-26579776",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MBG",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP 2: Frostiger Tarifauftakt bei VW - Warnstreiks drohen",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-2-frostiger-tarifauftakt-bei-vw-warnstreiks-drohen-0-10-26580118",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAP SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-cms-sap-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26579999",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "SIE",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Industrie draengt auf Tempo bei Reformen - KI als Chance",
+   "link": "https://www.onvista.de/news/2026/11-24-industrie-draengt-auf-tempo-bei-reformen-ki-als-chance-0-10-26579973",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Viel weniger Autos in Deutschland gestohlen",
+   "link": "https://www.onvista.de/news/2026/11-24-viel-weniger-autos-in-deutschland-gestohlen-0-10-26579763",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MTX",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Bayerische Metallindustrie: Warnstreiks und schlechte Nachrichten",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-bayerische-metallindustrie-warnstreiks-und-schlechte-nachrichten-0-10-26580066",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAS",
+   "date": "2026-11-24",
+   "sentiment": "BUY",
+   "news": "Evonik-Finanzchef: \"BASF wuerden wir nicht kaufen\"",
+   "link": "https://www.onvista.de/news/2026/11-24-evonik-finanzchef-basf-wuerden-wir-nicht-kaufen-0-20-26580085",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Bayer nimmt Herz- und Nierenmedikament Kerendia in Deutschland vom Markt",
+   "link": "https://www.onvista.de/news/2026/11-24-bayer-nimmt-herz-und-nierenmedikament-kerendia-in-deutschland-vom-markt-0-10-26580081",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 24.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-24-dpa-afx-ueberblick-unternehmen-vom-24-11-2026-15-15-uhr-0-10-26580046",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Bund will Patriot-Flugabwehr fuer mehr als vier Milliarden Euro verstaerken",
+   "link": "https://www.onvista.de/news/2026/11-24-bund-will-patriot-flugabwehr-fuer-mehr-als-vier-milliarden-euro-verstaerken-0-20-26580110",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "SZG",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Aurubis bricht wegen Ausblick ein - Schwaches Sektorumfeld",
+   "link": "https://www.onvista.de/news/2026/11-24-aktien-im-fokus-aurubis-bricht-wegen-ausblick-ein-schwaches-sektorumfeld-0-10-26579922",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NEM",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Nemetschek SE: Kurt Dobitsch, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-dd-nemetschek-se-kurt-dobitsch-kauf-0-37-26579956",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "LHA",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Ryanair knuepft grossen Wachstumsplan an Steuersenkung",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-ryanair-knuepft-grossen-wachstumsplan-an-steuersenkung-0-10-26579930",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "NDX1",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-News: Nordex Group erhaelt von Electrica einen Auftrag ueber 133 MW fuer einen Windpark in Rumaenien",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-news-nordex-group-erhaelt-von-electrica-einen-auftrag-ueber-133-mw-fuer-ei",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Rueckschlag - Tech-Rally fehlen Anschlusskaeufe",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-aktien-frankfurt-schluss-rueckschlag-tech-rally-fehlen-anschlusskaeufe-0-10-26580125",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Adyens Co-Chef und Mitgruender geht zum Jahresende",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-adyens-co-chef-und-mitgruender-pieter-van-der-does-geht-zum-jahresende-0-10-26579969",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "JEN",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Aixtron revidiert KI-Erholungsrally - Branchensorgen bleiben",
+   "link": "https://www.onvista.de/news/2026/11-24-aktien-im-fokus-aixtron-revidiert-ki-erholungsrally-branchensorgen-bleiben-0-10-26579898",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Butterpreis sinkt unter einen Euro",
+   "link": "https://www.onvista.de/news/2026/11-24-butterpreis-sinkt-unter-einen-euro-0-10-26580138",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Eroeffnung: Dax ringt um Vortageserholung",
+   "link": "https://www.onvista.de/news/2026/11-24-roundup-aktien-frankfurt-eroeffnung-dax-ringt-um-vortageserholung-0-10-26579866",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DWS",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Junge sehen Aktien als gute Altersvorsorge - Aeltere zoegern",
+   "link": "https://www.onvista.de/news/2026/11-24-junge-sehen-aktien-als-gute-altersvorsorge-aeltere-zoegern-0-10-26579755",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVK",
+   "date": "2026-11-24",
+   "sentiment": "BUY",
+   "news": "Evonik-Finanzchef: \"BASF wuerden wir nicht kaufen\"",
+   "link": "https://www.onvista.de/news/2026/11-24-evonik-finanzchef-basf-wuerden-wir-nicht-kaufen-0-20-26580085",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "HAG",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: HENSOLDT AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-pvr-hensoldt-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-DD: K+S Aktiengesellschaft: Dr. Carin-Martina Troeltzsch, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-dd-k-s-aktiengesellschaft-dr-carin-martina-troeltzsch-kauf-0-37-26580095",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "P911",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-News: Entwicklung des ersten elektrischen 718 Boxster auf der Zielgeraden",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-news-entwicklung-des-ersten-elektrischen-718-boxster-auf-der-zielgeraden-0-37-26580064",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "TKMS",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Ruestungswerte legen vor Rheinmetall-Kapitalmarkttag zu",
+   "link": "https://www.onvista.de/news/2026/11-24-aktien-im-fokus-ruestungswerte-stark-rheinmetall-kapitalmarkttag-steht-bevor-0-10-26579934",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "RRTL",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "TV-Ueberraschung: Disney+ zeigt ab 2027 Bundesliga-Highlights",
+   "link": "https://www.onvista.de/news/2026/11-24-tv-ueberraschung-disney-zeigt-ab-2027-bundesliga-highlights-0-10-26579951",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "LPK",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: LPKF Laser & Electronics SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Zie",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-pvr-lpkf-laser-electronics-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SIX2",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Sixt SE: Meldung und Offenlegung von Transaktionen durch Personen mit Fueh",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-dd-sixt-se-meldung-und-offenlegung-von-transaktionen-durch-personen-mit-fuehrungsaufgaben-und-ih",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "ILM1",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: Medios AG: Aktienrueckkauf – 1. Zwischenmeldung",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-cms-medios-ag-aktienrueckkauf-1-zwischenmeldung-0-37-26579984",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "NA9",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "APA ots news: KAGes gewinnt Innovation Challenge 2026 mit digitalem...",
+   "link": "https://www.onvista.de/news/2026/11-24-apa-ots-news-kages-gewinnt-innovation-challenge-2026-mit-digitalem-0-10-26579889",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-CMS: SAF-HOLLAND SE: Veroeffentlichung einer Kapitalmarktinformation",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-cms-saf-holland-se-veroeffentlichung-einer-kapitalmarktinformation-0-37-26580000",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "RDC",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Online-Apotheken verschaerfen Talfahrt - Zuzahlungen im Blick",
+   "link": "https://www.onvista.de/news/2026/11-24-aktien-im-fokus-online-apotheken-verschaerfen-talfahrt-zuzahlungen-im-blick-0-10-26580040",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "Dortmund und Leipzig in der Champions League gefordert",
+   "link": "https://www.onvista.de/news/2026/11-24-dortmund-und-leipzig-in-der-champions-league-gefordert-0-10-26579729",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "GXI",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "EQS-AFR: Gerresheimer AG: Vorabbekanntmachung ueber die Veroeffentlichung von Finanzbericht",
+   "link": "https://www.onvista.de/news/2026/11-24-eqs-afr-gerresheimer-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten",
+   "source": "EQS Group"
+  },
+  {
+   "index": "CDAX",
+   "code": "NOA3",
+   "date": "2026-11-24",
+   "sentiment": "INFO",
+   "news": "AIXTRON und Nokia erweitern ihre Zusammenarbeit zur Skalierung der InP-Photonik fuer die KI-Infrastruk",
+   "link": "https://www.onvista.de/news/2026/11-24-aixtron-und-nokia-erweitern-ihre-zusammenarbeit-zur-skalierung-der-inp-photonik-",
+   "source": "EQS Group"
+  }
+ ]
+}
