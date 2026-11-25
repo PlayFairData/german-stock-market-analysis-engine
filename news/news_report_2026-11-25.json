@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-25",
+ "generated": "2026-11-25 19:22:25",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "PDAX",
+  "SDAX"
+ ],
+ "counts": {
+  "BUY": 0,
+  "SELL": 0,
+  "HOLD": 0,
+  "INFO": 32
+ },
+ "by_index": {
+  "DAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 19
+  },
+  "MDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 8
+  },
+  "PDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 1
+  },
+  "SDAX": {
+   "BUY": 0,
+   "SELL": 0,
+   "HOLD": 0,
+   "INFO": 4
+  }
+ },
+ "total": 32,
+ "items": [
+  {
+   "index": "DAX",
+   "code": "BEI",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "ANALYSE-FLASH: JPMorgan setzt Beiersdorf auf 'Negative Catalyst Watch'",
+   "link": "https://www.onvista.de/news/2026/11-25-analyse-flash-jpmorgan-setzt-beiersdorf-auf-negative-catalyst-watch-0-10-26580380",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "CON",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Continental AG: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-pvr-continental-ag-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "DTE",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Dell erhoeht nach Rekordquartal Ziele erneut - Mehr Aktienrueckkaeufe",
+   "link": "https://www.onvista.de/news/2026/11-25-dell-erhoeht-nach-rekordquartal-ziele-erneut-mehr-aktienrueckkaeufe-0-20-26580245",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "DB1",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Aktionaersberater ISS will Praesenz-HV mindestens alle drei Jahre",
+   "link": "https://www.onvista.de/news/2026/11-25-aktionaersberater-iss-will-praesenz-hv-mindestens-alle-drei-jahre-0-20-26580231",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "IFX",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Europa Schluss: EuroStoxx auf Tief seit Mai - KI-Aktien belasten",
+   "link": "https://www.onvista.de/news/2026/11-25-roundup-aktien-europa-schluss-eurostoxx-auf-tief-seit-mai-ki-aktien-belasten-0-10-26580586",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MRK",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EU-Regeln gegen Engpaesse bei Medikamenten angenommen",
+   "link": "https://www.onvista.de/news/2026/11-25-eu-regeln-gegen-engpaesse-bei-medikamenten-angenommen-0-10-26580472",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "RHM",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Bund plant im Fregatten-Streit Klage gegen Damen-Werft",
+   "link": "https://www.onvista.de/news/2026/11-25-bund-plant-im-fregatten-streit-klage-gegen-damen-werft-0-20-26580532",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "SAP",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SAP SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-pvr-sap-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der-europawei",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "HNR1",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "dpa-AFX-Ueberblick: UNTERNEHMEN vom 25.11.2026 - 15.15 Uhr",
+   "link": "https://www.onvista.de/news/2026/11-25-dpa-afx-ueberblick-unternehmen-vom-25-11-2026-15-15-uhr-0-10-26580504",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ALV",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Hannover Rueck peilt weitere Rekordgewinne an – Aktie verliert",
+   "link": "https://www.onvista.de/news/2026/11-25-roundup-2-hannover-rueck-peilt-weitere-rekordgewinne-an-aktie-verliert-0-10-26580450",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "MUV2",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Hannover Rueck peilt weitere Rekordgewinne an – Aktie verliert",
+   "link": "https://www.onvista.de/news/2026/11-25-roundup-2-hannover-rueck-peilt-weitere-rekordgewinne-an-aktie-verliert-0-10-26580450",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BNR",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: Brenntag SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbreitung",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-pvr-brenntag-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "VNA",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Aroundtown begehrt wegen Ergebnisziel - Starkes Sektorumfeld",
+   "link": "https://www.onvista.de/news/2026/11-25-aktie-im-fokus-aroundtown-begehrt-wegen-ergebnisziel-starkes-sektorumfeld-0-10-26580422",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "BAYN",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Bayer sichert sich fuer Milliardenbetrag Rechte an Krebsmittel in China",
+   "link": "https://www.onvista.de/news/2026/11-25-bayer-sichert-sich-fuer-milliardenbetrag-rechte-an-krebsmittel-in-china-0-20-26580536",
+   "source": "Reuters"
+  },
+  {
+   "index": "DAX",
+   "code": "CBK",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EZB: Kartenzahlung ueberholt erstmals Bargeld in Geschaeften",
+   "link": "https://www.onvista.de/news/2026/11-25-ezb-kartenzahlung-ueberholt-erstmals-bargeld-in-geschaeften-0-10-26580384",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "DTG",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Aktien Frankfurt: Weiter abwaerts - Tech-Sektor bleibt schwach, Autowerte gesucht",
+   "link": "https://www.onvista.de/news/2026/11-25-aktien-frankfurt-weiter-abwaerts-tech-sektor-bleibt-schwach-autowerte-gesucht-0-10-26580469",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "EOAN",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Solarstrom knackt erstmals die Marke von 100 Terawattstunden",
+   "link": "https://www.onvista.de/news/2026/11-25-solarstrom-knackt-erstmals-die-marke-von-100-terawattstunden-0-10-26580209",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "DAX",
+   "code": "ZAL",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-DD: Zalando SE: Aktieselskabet af 1.2.2017, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-dd-zalando-se-aktieselskabet-af-1-2-2017-kauf-0-37-26580419",
+   "source": "EQS Group"
+  },
+  {
+   "index": "DAX",
+   "code": "AIR",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "IRW-News: Dr. Reuter Investor Relations: Vier Analysten stufen die FACC-Aktie als kaufenswert ein",
+   "link": "https://www.onvista.de/news/2026/11-25-irw-news-dr-reuter-investor-relations-vier-analysten-stufen-die-facc-aktie-als-kaufen",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "UTDI",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Glaeubiger werden Eigentuemer von Glasfaser-Anbieter Tele Columbus",
+   "link": "https://www.onvista.de/news/2026/11-25-glaeubiger-werden-eigentuemer-von-glasfaser-anbieter-tele-columbus-0-20-26580230",
+   "source": "Reuters"
+  },
+  {
+   "index": "MDAX",
+   "code": "EVD",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Prozess gegen Ex-Minister Scheuer neigt sich Ende zu",
+   "link": "https://www.onvista.de/news/2026/11-25-prozess-gegen-ex-minister-scheuer-neigt-sich-ende-zu-0-10-26580356",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "AIXA",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Turbulenzen bei KI- und Chipwerten halten an",
+   "link": "https://www.onvista.de/news/2026/11-25-aktien-im-fokus-turbulenzen-bei-ki-werten-halten-an-infineon-tief-seit-april-0-10-26580355",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "DHER",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "ROUNDUP: Tencent-Grossaktionaer Prosus verfehlt Erwartungen - Aktie faellt",
+   "link": "https://www.onvista.de/news/2026/11-25-roundup-tencent-grossaktionaer-prosus-verfehlt-erwartungen-aktie-faellt-0-10-26580453",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "FPE3",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-News: Corero Network Security stellt einen Cloud-DDoS-Dienst vor und",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-news-corero-network-security-stellt-einen-cloud-ddos-dienst-vor-und-weitet-damit-den-schnellen-automatisi",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AMV0",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Niedersachsens Grossfirmen machen fast 600 Milliarden Umsatz",
+   "link": "https://www.onvista.de/news/2026/11-25-niedersachsens-grossfirmen-machen-fast-600-milliarden-umsatz-0-10-26580446",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "MDAX",
+   "code": "SDF",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-DD: K+S Aktiengesellschaft: Dr. Jens Christian Keuthen, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-dd-k-s-aktiengesellschaft-dr-jens-christian-keuthen-kauf-0-37-26580524",
+   "source": "EQS Group"
+  },
+  {
+   "index": "MDAX",
+   "code": "AT1",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "ROUNDUP/Aktien Frankfurt Schluss: Flucht aus KI-Aktien belastet Dax erneut",
+   "link": "https://www.onvista.de/news/2026/11-25-roundup-aktien-frankfurt-schluss-flucht-aus-ki-aktien-belastet-dax-erneut-0-10-26580577",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "SDAX",
+   "code": "OHB",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-News: Von OHB gebaute ESA-Sonde Hera liefert einzigartige Asteroiden-Aufnahmen",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-news-von-ohb-gebaute-esa-sonde-hera-liefert-einzigartige-asteroiden-aufnahmen-0-37-26580585",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "HFG",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-DD: HelloFresh SE: Active Ownership Opportunities SCS, Kauf",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-dd-hellofresh-se-active-ownership-opportunities-scs-kauf-0-37-26580474",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "SFQ",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "EQS-PVR: SAF-HOLLAND SE: Veroeffentlichung gemaess § 40 Abs. 1 WpHG mit dem Ziel der europaweiten Verbr",
+   "link": "https://www.onvista.de/news/2026/11-25-eqs-pvr-saf-holland-se-veroeffentlichung-gemaess-40-abs-1-wphg-mit-dem-ziel-der",
+   "source": "EQS Group"
+  },
+  {
+   "index": "SDAX",
+   "code": "STM",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "AKTIEN IM FOKUS: Autowerte nach JPMorgan-Ausblick bewegt",
+   "link": "https://www.onvista.de/news/2026/11-25-aktien-im-fokus-autowerte-nach-jpmorgan-ausblick-bewegt-0-10-26580277",
+   "source": "dpa-AFX"
+  },
+  {
+   "index": "PDAX",
+   "code": "BVB",
+   "date": "2026-11-25",
+   "sentiment": "INFO",
+   "news": "Kovac zu moeglichem Handspiel: 'Ich heule nicht rum'",
+   "link": "https://www.onvista.de/news/2026/11-25-kovac-zu-moeglichem-handspiel-ich-heule-nicht-rum-0-10-26580224",
+   "source": "dpa-AFX"
+  }
+ ]
+}
