@@ -1,0 +1,192 @@
+{
+ "date": "2026-11-27",
+ "generated": "2026-11-27 18:53:45",
+ "schema": 1,
+ "indexes": [
+  "DAX",
+  "MDAX",
+  "SDAX",
+  "PDAX",
+  "CDAX"
+ ],
+ "meta": {
+  "start_date": "2026-11-27",
+  "end_date": "2026-11-27",
+  "bank_filter": null,
+  "sentiment_filter": null,
+  "benchmark": false,
+  "count": 5
+ },
+ "records": [
+  {
+   "stock_code": "S92",
+   "index": "SDAX",
+   "event_date": "2026-11-27",
+   "analyst_bank": "Berenberg",
+   "sentiment": "BUY",
+   "headline": "ANALYSE-FLASH: Berenberg hebt SMA Solar auf 'Buy' - Konsens zu zurueckhaltend",
+   "price_t0": 47.52,
+   "source": "bank",
+   "ret_d0": 0.0,
+   "ret_d1": null,
+   "ret_d3": null,
+   "ret_w1": null,
+   "ret_w2": null,
+   "ret_m1": null,
+   "ret_m3": null,
+   "ret_m6": null,
+   "ret_m12": null
+  },
+  {
+   "stock_code": "HNR1",
+   "index": "DAX",
+   "event_date": "2026-11-27",
+   "analyst_bank": "JPMorgan",
+   "sentiment": "SELL",
+   "headline": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Hannover Rueck auf 275 Euro - 'Underweight'",
+   "price_t0": 295.2,
+   "source": "bank",
+   "ret_d0": 0.0,
+   "ret_d1": null,
+   "ret_d3": null,
+   "ret_w1": null,
+   "ret_w2": null,
+   "ret_m1": null,
+   "ret_m3": null,
+   "ret_m6": null,
+   "ret_m12": null
+  },
+  {
+   "stock_code": "FRE",
+   "index": "DAX",
+   "event_date": "2026-11-27",
+   "analyst_bank": "Goldman Sachs",
+   "sentiment": "BUY",
+   "headline": "ANALYSE-FLASH: Goldman hebt Fresenius SE auf 'Buy' - Biopharma-Berechenbarkeit",
+   "price_t0": 53.1,
+   "source": "bank",
+   "ret_d0": 0.0,
+   "ret_d1": null,
+   "ret_d3": null,
+   "ret_w1": null,
+   "ret_w2": null,
+   "ret_m1": null,
+   "ret_m3": null,
+   "ret_m6": null,
+   "ret_m12": null
+  },
+  {
+   "stock_code": "EVK",
+   "index": "MDAX",
+   "event_date": "2026-11-27",
+   "analyst_bank": "Barclays",
+   "sentiment": "HOLD",
+   "headline": "ANALYSE-FLASH: Barclays nimmt Evonik mit 'Equal Weight' wieder auf",
+   "price_t0": 18.41,
+   "source": "bank",
+   "ret_d0": 0.0,
+   "ret_d1": null,
+   "ret_d3": null,
+   "ret_w1": null,
+   "ret_w2": null,
+   "ret_m1": null,
+   "ret_m3": null,
+   "ret_m6": null,
+   "ret_m12": null
+  },
+  {
+   "stock_code": "ALV",
+   "index": "DAX",
+   "event_date": "2026-11-27",
+   "analyst_bank": "JPMorgan",
+   "sentiment": "HOLD",
+   "headline": "ANALYSE-FLASH: JPMorgan hebt Ziel fuer Allianz auf 475 Euro - 'Neutral'",
+   "price_t0": 463.4,
+   "source": "bank",
+   "ret_d0": 0.0,
+   "ret_d1": null,
+   "ret_d3": null,
+   "ret_w1": null,
+   "ret_w2": null,
+   "ret_m1": null,
+   "ret_m3": null,
+   "ret_m6": null,
+   "ret_m12": null
+  }
+ ],
+ "aggregates": {
+  "Barclays": {
+   "HOLD": {
+    "n": 1,
+    "windows": {
+     "D+0": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "hit_rate": 0.0,
+      "min": 0.0,
+      "max": 0.0
+     }
+    }
+   }
+  },
+  "Berenberg": {
+   "BUY": {
+    "n": 1,
+    "windows": {
+     "D+0": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "hit_rate": 0.0,
+      "min": 0.0,
+      "max": 0.0
+     }
+    }
+   }
+  },
+  "Goldman Sachs": {
+   "BUY": {
+    "n": 1,
+    "windows": {
+     "D+0": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "hit_rate": 0.0,
+      "min": 0.0,
+      "max": 0.0
+     }
+    }
+   }
+  },
+  "JPMorgan": {
+   "SELL": {
+    "n": 1,
+    "windows": {
+     "D+0": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "hit_rate": 0.0,
+      "min": 0.0,
+      "max": 0.0
+     }
+    }
+   },
+   "HOLD": {
+    "n": 1,
+    "windows": {
+     "D+0": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "hit_rate": 0.0,
+      "min": 0.0,
+      "max": 0.0
+     }
+    }
+   }
+  }
+ }
+}
